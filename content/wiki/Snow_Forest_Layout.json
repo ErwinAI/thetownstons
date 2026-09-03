@@ -3,7 +3,9 @@
   "wikiTitle": "Snow_Forest_Layout",
   "path": "/wiki/Snow_Forest_Layout",
   "description": "Snow Forest Layout — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "DungeonsLayouts"
+  ],
   "images": [
     "/images/Layout_Ice_Forest.jpg",
     "/images/Map_Ice_Forest.jpg"

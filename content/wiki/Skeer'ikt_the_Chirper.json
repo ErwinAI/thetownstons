@@ -3,7 +3,9 @@
   "wikiTitle": "Skeer'ikt_the_Chirper",
   "path": "/wiki/Skeer'ikt_the_Chirper",
   "description": "Skeer'ikt the Chirper — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's"
+  ],
   "images": [
     "/images/Chirper.jpg"
   ],

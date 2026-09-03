@@ -3,7 +3,11 @@
   "wikiTitle": "Murdak's_Monster_Maimers",
   "path": "/wiki/Murdak's_Monster_Maimers",
   "description": "Murdak's Monster Maimers — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Gloves-_Murdak's_Monster_Maimers.jpg"
   ],

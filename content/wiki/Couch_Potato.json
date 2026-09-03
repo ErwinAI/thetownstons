@@ -3,7 +3,11 @@
   "wikiTitle": "Couch_Potato",
   "path": "/wiki/Couch_Potato",
   "description": "Couch Potato — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Glossary",
+    "Passive",
+    "Mage Skills"
+  ],
   "images": [
     "/images/recovered/Couch-potato.png"
   ],

@@ -3,7 +3,9 @@
   "wikiTitle": "GG_Launcher",
   "path": "/wiki/GG_Launcher",
   "description": "Deviant Hurler — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Mutants"
+  ],
   "images": [
     "/images/Deviant_Hurler.jpg"
   ],

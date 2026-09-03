@@ -3,7 +3,10 @@
   "wikiTitle": "Ichabod's_Cap",
   "path": "/wiki/Ichabod's_Cap",
   "description": "Ichabod's Cap — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Helm-_Ichabod's_Cap.jpg"
   ],

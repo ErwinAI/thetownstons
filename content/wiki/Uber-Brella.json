@@ -3,7 +3,10 @@
   "wikiTitle": "Uber-Brella",
   "path": "/wiki/Uber-Brella",
   "description": "Uber-Brella — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/2h-weapon_Uber-Brella.jpg"
   ],

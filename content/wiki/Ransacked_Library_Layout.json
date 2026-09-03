@@ -3,7 +3,9 @@
   "wikiTitle": "Ransacked_Library_Layout",
   "path": "/wiki/Ransacked_Library_Layout",
   "description": "Library Layout — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "DungeonsLayouts"
+  ],
   "images": [
     "/images/Layout_Ransacked_Library.jpg",
     "/images/Map_Ransacked_Library.jpg"

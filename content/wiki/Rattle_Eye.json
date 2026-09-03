@@ -3,7 +3,12 @@
   "wikiTitle": "Rattle_Eye",
   "path": "/wiki/Rattle_Eye",
   "description": "Rattle Eye — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Champions",
+    "Whiskers",
+    "Whisker Blademaster",
+    "Rattle Tooth's Relatives"
+  ],
   "images": [
     "/images/Rattle_Eye.jpg"
   ],

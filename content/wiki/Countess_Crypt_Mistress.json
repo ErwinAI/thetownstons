@@ -3,7 +3,10 @@
   "wikiTitle": "Countess_Crypt_Mistress",
   "path": "/wiki/Countess_Crypt_Mistress",
   "description": "Countess Crypt Mistress — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Champions",
+    "Mutants"
+  ],
   "images": [
     "/images/Countess_crypt_mistress.jpg"
   ],

@@ -3,7 +3,9 @@
   "wikiTitle": "Doug's_Digsite",
   "path": "/wiki/Doug's_Digsite",
   "description": "The Widower's Nest — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Dungeons"
+  ],
   "images": [
     "/images/WN4.jpg",
     "/images/Widower_Maker.jpg"

@@ -3,7 +3,11 @@
   "wikiTitle": "Molten_Helm",
   "path": "/wiki/Molten_Helm",
   "description": "Molten Helm — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Helms-_Molten_Helm.jpg"
   ],

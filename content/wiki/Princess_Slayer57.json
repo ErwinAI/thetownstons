@@ -3,7 +3,10 @@
   "wikiTitle": "Princess_Slayer57",
   "path": "/wiki/Princess_Slayer57",
   "description": "Princess Slayer57 — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Mutants",
+    "Champions"
+  ],
   "images": [
     "/images/PSlayer.PNG"
   ],

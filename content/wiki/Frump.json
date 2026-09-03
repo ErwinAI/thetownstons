@@ -3,7 +3,12 @@
   "wikiTitle": "Frump",
   "path": "/wiki/Frump",
   "description": "Frump — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Bosses",
+    "Demi-Humans",
+    "Humanoids"
+  ],
   "images": [
     "/images/Frump.jpg"
   ],

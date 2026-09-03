@@ -3,7 +3,11 @@
   "wikiTitle": "The_Late_Knight's_Stacks",
   "path": "/wiki/The_Late_Knight's_Stacks",
   "description": "The Late Knight's Stacks — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shoulders",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Shoulders-_The_Late_Knight's_Stacks.jpg"
   ],

@@ -3,7 +3,10 @@
   "wikiTitle": "Bookworm",
   "path": "/wiki/Bookworm",
   "description": "Bookworm — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Passive",
+    "Mage Skills"
+  ],
   "images": [
     "/images/recovered/Bookworm.png"
   ],

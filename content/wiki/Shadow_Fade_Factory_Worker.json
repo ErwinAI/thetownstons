@@ -3,7 +3,10 @@
   "wikiTitle": "Shadow_Fade_Factory_Worker",
   "path": "/wiki/Shadow_Fade_Factory_Worker",
   "description": "Fade Skeleton — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Fades"
+  ],
   "images": [
     "/images/recovered/Monster-_Shadow_Fade_Factory_Worker.png"
   ],

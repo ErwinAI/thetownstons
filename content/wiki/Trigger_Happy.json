@@ -1,0 +1,14 @@
+{
+  "title": "Trigger Happy",
+  "wikiTitle": "Trigger_Happy",
+  "path": "/wiki/Trigger_Happy",
+  "description": "Trigger Happy — The Townstons wiki",
+  "categories": [
+    "Passive",
+    "Ranger Skills"
+  ],
+  "images": [
+    "/images/recovered/Trigger-happy.png"
+  ],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Trigger Happy\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/Trigger-happy.png\" title=\"Image:Trigger-happy.jpg\"><img alt=\"Image:Trigger-happy.jpg\" border=\"0\" height=\"43\" src=\"/images/recovered/Trigger-happy.png\" width=\"43\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Skill Type: </b>\n</td><td style=\"width:50%;\">Passive\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Trainer: </b>\n</td><td style=\"width:50%;\">Ranger\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Number of Ranks: </b>\n</td><td style=\"width:50%;\">1\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Cost to Max: </b>\n</td><td style=\"width:50%;\">2227\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td colspan=\"2\">Increase attack speed with Ranged weapons but decrease attack speed with Melee weapons and decreases Magic power.\n</td></tr></table>\n<p><b>Trigger Happy</b> is a <a href=\"/wiki/Passive\" title=\"Passive\">Passive skill</a> that increases attack speed with Ranged weapons but decreases attack speed with Melee weapons and decreases Magic damage. This skill is best used by characters using Ranged weapons who do not depend on Magic damage skills to deal damage.\n</p><p>This skill currently only has one level, so it can not be upgraded from skill trainers.  Below is the description as it appears in the game.\n</p><p><br/>\n\"You have a nervous twitch with your trigger finger resulting from a work-related accident involving a branding iron, a penguin, and a large bucket of coffee beans. Your memory of the accident is hazy, but the twitch comes in handy with ranged weapons, giving you increased speed with all ranged weapons. The negative side effects from the accident have left you with a decrease to both your Melee Attack Speed and your overall Magic Damage from skills.\"\n</p>\n<ul><li><b>+25% to Ranged Attack Speed</b>\n</li><li><b>-7% to Melee Attack Speed</b>\n</li><li><b>-5% to all Magic Damage</b>\n</li></ul>\n\n \n<div class=\"visualClear\"></div>"
+}

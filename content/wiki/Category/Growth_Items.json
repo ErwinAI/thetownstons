@@ -1,9 +1,11 @@
 {
   "title": "Category:Growth Items",
   "wikiTitle": "Category:Growth_Items",
-  "path": "/wiki/Category:Growth_Items",
+  "path": "/wiki/Category/Growth_Items",
   "description": "Category:Growth Items — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items"
+  ],
   "images": [
     "/images/Growth.jpg",
     "/images/Growth56.jpg"

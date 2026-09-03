@@ -3,7 +3,14 @@
   "wikiTitle": "Two_Skills_Mage",
   "path": "/wiki/Two_Skills_Mage",
   "description": "Two Skills Mage — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Mage PvE Builds",
+    "PvE Builds",
+    "Builds",
+    "Newbie Builds",
+    "PvP Builds",
+    "Mage PvP Builds"
+  ],
   "images": [],
   "html": "<p>An effective Mage build will often combine two different types of skills.  Doing so will result in special name for your character, as shown in the following table:\n</p>\n<table border=\"1\" cellpadding=\"2\" cellspacing=\"0\">\n<tr>\n<th>Combination\n</th><th>Divine\n</th><th>Poison\n</th><th>Fire\n</th><th>Ice\n</th><th>Shadow\n</th></tr>\n<tr>\n<td><b>Divine</b>\n</td><td><b>Divine Inquisitor</b>\n</td><td>Ambrosial Scoundrel\n</td><td>Solar Vanquisher\n</td><td>Auroric Fighter\n</td><td>Pandemonical Vanquisher\n</td></tr>\n<tr>\n<td><b>Poison</b>\n</td><td>\n</td><td><b>Venom  Wizard</b>\n</td><td>Sulfuric Scout\n</td><td>Cyrocidic Watchman\n</td><td>Chaotic Scout\n</td></tr>\n<tr>\n<td><b>Fire</b>\n</td><td>\n</td><td>\n</td><td><b>Pyromancer</b>\n</td><td>Entropic Mage\n</td><td>Obsidian Mage\n</td></tr>\n<tr>\n<td><b>Ice</b>\n</td><td>\n</td><td>\n</td><td>\n</td><td><b>Ice Wizard</b>\n</td><td>Hydrostatic Mage\n</td></tr>\n<tr>\n<td><b>Shadow</b>\n</td><td>\n</td><td>\n</td><td>\n</td><td>\n</td><td><b>Shadow Runner</b>\n</td></tr>\n</table>\n<p>The naming system is not fully explored so other names may be possible. These have actually been seen in play.  See a Tested <a href=\"/wiki/Healthy_Obsidian_Mage\" title=\"Healthy Obsidian Mage\">Healthy Obsidian Mage</a> for an example.\n</p><p>In general, a Mage with three or more skill types will be an <b>Arcane Mage</b>.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

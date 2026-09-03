@@ -3,7 +3,11 @@
   "wikiTitle": "Ember_Crushers",
   "path": "/wiki/Ember_Crushers",
   "description": "Ember Crushers — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Boots-_Ember_Crushers.jpg"
   ],

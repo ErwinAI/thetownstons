@@ -3,7 +3,10 @@
   "wikiTitle": "Duke_Blaster",
   "path": "/wiki/Duke_Blaster",
   "description": "Duke Blaster — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Ranger-Rainbows"
+  ],
   "images": [
     "/images/2h-Ranged-_Duke_Blaster-Popper.jpg"
   ],

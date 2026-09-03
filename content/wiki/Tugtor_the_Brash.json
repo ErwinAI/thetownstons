@@ -3,7 +3,10 @@
   "wikiTitle": "Tugtor_the_Brash",
   "path": "/wiki/Tugtor_the_Brash",
   "description": "Tugtor the Brash — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Champions",
+    "Demonspawn"
+  ],
   "images": [
     "/images/Tugtor.jpg"
   ],

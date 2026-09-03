@@ -3,7 +3,10 @@
   "wikiTitle": "Thickheadedness",
   "path": "/wiki/Thickheadedness",
   "description": "Thickheadedness — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Self Buff",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/Thickheadedness.png"
   ],

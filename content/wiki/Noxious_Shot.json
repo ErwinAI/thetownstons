@@ -3,7 +3,10 @@
   "wikiTitle": "Noxious_Shot",
   "path": "/wiki/Noxious_Shot",
   "description": "Noxious Shot — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Offensive",
+    "Ranger Skills"
+  ],
   "images": [
     "/images/recovered/Noxious-shot.png"
   ],

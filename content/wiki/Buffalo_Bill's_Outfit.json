@@ -3,7 +3,11 @@
   "wikiTitle": "Buffalo_Bill's_Outfit",
   "path": "/wiki/Buffalo_Bill's_Outfit",
   "description": "Buffalo Bill's Outfit — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Body Armor",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Body-_Buffalo_Bills_Outfit.jpg"
   ],

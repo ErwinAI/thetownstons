@@ -3,7 +3,10 @@
   "wikiTitle": "The_Fabled_One",
   "path": "/wiki/The_Fabled_One",
   "description": "The Fabled One — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/1h-weapon-_The_Fabled_One.jpg"
   ],

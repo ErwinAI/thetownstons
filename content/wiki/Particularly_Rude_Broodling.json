@@ -3,7 +3,10 @@
   "wikiTitle": "Particularly_Rude_Broodling",
   "path": "/wiki/Particularly_Rude_Broodling",
   "description": "Whisker — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Whiskers"
+  ],
   "images": [
     "/images/recovered/Monster-_Whisker_Broodling.png"
   ],

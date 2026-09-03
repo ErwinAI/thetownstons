@@ -3,7 +3,10 @@
   "wikiTitle": "Poison_Mutant_Pincer",
   "path": "/wiki/Poison_Mutant_Pincer",
   "description": "Mutant Pincer — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Mutants"
+  ],
   "images": [
     "/images/recovered/Pincers.png"
   ],

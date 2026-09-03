@@ -3,7 +3,10 @@
   "wikiTitle": "Explorer's_Task",
   "path": "/wiki/Explorer's_Task",
   "description": "Explorer's Task — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Embercore Path Quests",
+    "Explore Embercore Path Quest Line"
+  ],
   "images": [],
   "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a>\n</p><p><b>Quest Type:</b> Contact\n</p><p><b>Quest Description:</b> Speak to <a href=\"/wiki/Loremaster_Vraile\" title=\"Loremaster Vraile\">Loremaster Vraile</a>\n</p><p><b>Quest Reward:</b> 10000 gold\n</p><p><b>Return to:</b> <a href=\"/wiki/Loremaster_Vraile\" title=\"Loremaster Vraile\">Loremaster Vraile</a>\n</p><p><b>Next Quest Given:</b> <a href=\"/wiki/Exploring_The_Embercore_Path\" title=\"Exploring The Embercore Path\">Exploring The Embercore Path</a>\n</p><p><b>Repeatable:</b> No\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

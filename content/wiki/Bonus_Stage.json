@@ -3,7 +3,9 @@
   "wikiTitle": "Bonus_Stage",
   "path": "/wiki/Bonus_Stage",
   "description": "Bonus Stage — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Dungeons"
+  ],
   "images": [],
   "html": "<p>The Bonus Stage can be reached by killing the <a href=\"/wiki/Gnome_Gatekeeper\" title=\"Gnome Gatekeeper\">Gnome Gatekeeper</a>.  He is known to have appeared on <a href=\"/wiki/Widower's_Nest\" title=\"Widower's Nest\">Widower's Nest</a> Level 1 and 2 and <a href=\"/wiki/Doug's_Digsite\" title=\"Doug's Digsite\">Doug's Digsite</a> and possibly elsewhere. The dungeon consists of a tiny field where two gnomes whizz about. One of them drops health potions when hit, the other drops mana potions. Both Major and Minor Potions seem to be dropped.  In a not-defined period of time the player has to whack the gnomes to get potions.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

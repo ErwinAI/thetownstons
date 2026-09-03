@@ -3,7 +3,9 @@
   "wikiTitle": "Deviant_Hurler",
   "path": "/wiki/Deviant_Hurler",
   "description": "Deviant Hurler — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Mutants"
+  ],
   "images": [
     "/images/Deviant_Hurler.jpg"
   ],

@@ -3,7 +3,10 @@
   "wikiTitle": "Paint_the_Dungeon_Red",
   "path": "/wiki/Paint_the_Dungeon_Red",
   "description": "Paint the Dungeon Red — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Algernon Quests",
+    "Sir Kent the Artisan Quests"
+  ],
   "images": [],
   "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Sir_Kent_the_Artisan\" title=\"Sir Kent the Artisan\">Sir Kent the Artisan</a>\n</p><p><b>Quest Type:</b> Collect\n</p><p><b>Quest Description:</b> Collect the following things from enemies in <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a>\n</p>\n<ul><li> 7 cans of red paint, by killing Mutants and Haunts\n</li></ul>\n<p><b>Quest Reward:</b> 750 Gold and 1 <a href=\"/wiki/King's_Coin\" title=\"King's Coin\">King's Coin</a>\n</p><p><b>Return to:</b><a href=\"/wiki/Sir_Kent_the_Artisan\" title=\"Sir Kent the Artisan\">Sir Kent the Artisan</a>\n</p><p><b>Repeatable:</b> No\n</p><p><b>Following Quest:</b> <a href=\"/wiki/Paint_by_the_Bucket\" title=\"Paint by the Bucket\">Paint by the Bucket</a>\n</p><p><i>Last Build Updated:</i> 155\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

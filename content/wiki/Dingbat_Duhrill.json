@@ -3,9 +3,14 @@
   "wikiTitle": "Dingbat_Duhrill",
   "path": "/wiki/Dingbat_Duhrill",
   "description": "Dingbat Duhrill — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Champions",
+    "Demi-Humans",
+    "Humanoids"
+  ],
   "images": [
     "/images/Dingbat.jpg"
   ],
-  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:152px;\"><a class=\"image\" href=\"/images/Dingbat.jpg\" title=\"Dingbat Duhrill\"><img alt=\"Dingbat Duhrill\" border=\"0\" class=\"thumbimage\" height=\"265\" src=\"/images/Dingbat.jpg\" width=\"150\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Dingbat.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Dingbat Duhrill</div></div></div>\n<p>Dingbat Duhrill is the namesake <a href=\"/wiki/Category:Champions\" title=\"Category:Champions\">Champion</a> of <a href=\"/wiki/Mutanous_Malaise\" title=\"Mutanous Malaise\">Dingbat Duhrill's Pad</a> found off of Level 3 of <a href=\"/wiki/Mutanous_Malaise\" title=\"Mutanous Malaise\">Mutanous Malaise</a>.  He is a giant barbarian Demi-Human wielding a large axe or instrument depending on your perception.\n</p>\n\n \n<div class=\"visualClear\"></div>"
+  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:152px;\"><a class=\"image\" href=\"/images/Dingbat.jpg\" title=\"Dingbat Duhrill\"><img alt=\"Dingbat Duhrill\" border=\"0\" class=\"thumbimage\" height=\"265\" src=\"/images/Dingbat.jpg\" width=\"150\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Dingbat.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Dingbat Duhrill</div></div></div>\n<p>Dingbat Duhrill is the namesake <a href=\"/wiki/Category/Champions\" title=\"Category:Champions\">Champion</a> of <a href=\"/wiki/Mutanous_Malaise\" title=\"Mutanous Malaise\">Dingbat Duhrill's Pad</a> found off of Level 3 of <a href=\"/wiki/Mutanous_Malaise\" title=\"Mutanous Malaise\">Mutanous Malaise</a>.  He is a giant barbarian Demi-Human wielding a large axe or instrument depending on your perception.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

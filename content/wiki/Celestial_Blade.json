@@ -3,7 +3,10 @@
   "wikiTitle": "Celestial_Blade",
   "path": "/wiki/Celestial_Blade",
   "description": "Celestial Blade — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/2h-weapon-_Celestial_Blade.JPG"
   ],

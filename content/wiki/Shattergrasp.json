@@ -3,7 +3,11 @@
   "wikiTitle": "Shattergrasp",
   "path": "/wiki/Shattergrasp",
   "description": "Shattergrasp — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Gloves-_Shattergrasp.jpg"
   ],

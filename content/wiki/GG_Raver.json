@@ -3,7 +3,11 @@
   "wikiTitle": "GG_Raver",
   "path": "/wiki/GG_Raver",
   "description": "Mangler — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Demons",
+    "Demonspawn"
+  ],
   "images": [
     "/images/Embercore_Thornlash.jpg",
     "/images/Toxic_Mangler.jpg"

@@ -3,7 +3,10 @@
   "wikiTitle": "Roh-Zee's_Assistant",
   "path": "/wiki/Roh-Zee's_Assistant",
   "description": "Roh-Zee's Assistant — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Champions",
+    "Mutants"
+  ],
   "images": [
     "/images/Rohzees_assistant.jpg"
   ],

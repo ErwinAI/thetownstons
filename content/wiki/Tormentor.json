@@ -3,7 +3,10 @@
   "wikiTitle": "Tormentor",
   "path": "/wiki/Tormentor",
   "description": "Tormentor — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/1h-weapon-_Tormentor.jpg"
   ],

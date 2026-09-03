@@ -3,7 +3,10 @@
   "wikiTitle": "Pacifier",
   "path": "/wiki/Pacifier",
   "description": "Pacifier — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Amulets"
+  ],
   "images": [
     "/images/Amulet-_Pacifier.jpg"
   ],

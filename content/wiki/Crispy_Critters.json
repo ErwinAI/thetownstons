@@ -3,7 +3,10 @@
   "wikiTitle": "Crispy_Critters",
   "path": "/wiki/Crispy_Critters",
   "description": "Crispy Critters — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Offensive",
+    "Mage Skills"
+  ],
   "images": [
     "/images/recovered/Crispy_Critters.png"
   ],

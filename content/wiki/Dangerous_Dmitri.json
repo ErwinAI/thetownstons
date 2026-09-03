@@ -3,7 +3,11 @@
   "wikiTitle": "Dangerous_Dmitri",
   "path": "/wiki/Dangerous_Dmitri",
   "description": "Dangerous Dmitri — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Champions",
+    "Revenants"
+  ],
   "images": [
     "/images/Dangerous_dmitri.jpg"
   ],

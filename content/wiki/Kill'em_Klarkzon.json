@@ -3,7 +3,10 @@
   "wikiTitle": "Kill'em_Klarkzon",
   "path": "/wiki/Kill'em_Klarkzon",
   "description": "Kill'em Klarkzon — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Mutants",
+    "Champions"
+  ],
   "images": [
     "/images/Killem.jpg"
   ],

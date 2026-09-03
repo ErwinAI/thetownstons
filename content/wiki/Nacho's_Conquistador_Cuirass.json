@@ -3,7 +3,11 @@
   "wikiTitle": "Nacho's_Conquistador_Cuirass",
   "path": "/wiki/Nacho's_Conquistador_Cuirass",
   "description": "Nacho's Conquistador Cuirass — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Body Armor",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Body-_Nacho's_Conquistador_Cuirass.jpg"
   ],

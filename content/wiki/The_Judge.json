@@ -3,7 +3,10 @@
   "wikiTitle": "The_Judge",
   "path": "/wiki/The_Judge",
   "description": "The Judge — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Ranger-Rainbows"
+  ],
   "images": [
     "/images/The_Judge.jpg"
   ],

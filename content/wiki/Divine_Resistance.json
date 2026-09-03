@@ -3,7 +3,10 @@
   "wikiTitle": "Divine_Resistance",
   "path": "/wiki/Divine_Resistance",
   "description": "Divine Resistance — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Self Buff",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/Divine-resistance.png"
   ],

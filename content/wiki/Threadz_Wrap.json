@@ -3,7 +3,11 @@
   "wikiTitle": "Threadz_Wrap",
   "path": "/wiki/Threadz_Wrap",
   "description": "Threadz Wrap — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Body Armor",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Body-Threadz_Wrap.jpg"
   ],

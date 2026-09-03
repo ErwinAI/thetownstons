@@ -3,7 +3,10 @@
   "wikiTitle": "Skee'Tor",
   "path": "/wiki/Skee'Tor",
   "description": "Skee'Tor — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/Skee_Tor.jpg"
   ],

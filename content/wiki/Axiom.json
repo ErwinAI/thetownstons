@@ -3,7 +3,10 @@
   "wikiTitle": "Axiom",
   "path": "/wiki/Axiom",
   "description": "Axiom — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/1h-weapon-_Axiom.jpg"
   ],

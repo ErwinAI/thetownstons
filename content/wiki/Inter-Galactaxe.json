@@ -3,7 +3,10 @@
   "wikiTitle": "Inter-Galactaxe",
   "path": "/wiki/Inter-Galactaxe",
   "description": "Inter-Galactaxe — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/2h-weapon-_Inter-Glactaxe.jpg"
   ],

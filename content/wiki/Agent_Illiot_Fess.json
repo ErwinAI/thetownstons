@@ -3,7 +3,9 @@
   "wikiTitle": "Agent_Illiot_Fess",
   "path": "/wiki/Agent_Illiot_Fess",
   "description": "Agent Illiot Fess — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's"
+  ],
   "images": [
     "/images/Agent_Illiot_Ness.jpg"
   ],

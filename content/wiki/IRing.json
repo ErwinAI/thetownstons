@@ -3,7 +3,10 @@
   "wikiTitle": "IRing",
   "path": "/wiki/IRing",
   "description": "IRing — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Rings"
+  ],
   "images": [
     "/images/Ring-_iRing.jpg"
   ],

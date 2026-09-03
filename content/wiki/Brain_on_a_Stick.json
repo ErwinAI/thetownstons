@@ -3,7 +3,10 @@
   "wikiTitle": "Brain_on_a_Stick",
   "path": "/wiki/Brain_on_a_Stick",
   "description": "Brain on a Stick — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Mage-Rainbows"
+  ],
   "images": [
     "/images/1h-Weapon-_Brain_on_a_Stick.jpg"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "Bone_Miramba",
   "path": "/wiki/Bone_Miramba",
   "description": "Bone Miramba — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Body Armor",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Body-_Bone_Miramba.jpg"
   ],

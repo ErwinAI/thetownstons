@@ -3,7 +3,10 @@
   "wikiTitle": "Gym_Freak",
   "path": "/wiki/Gym_Freak",
   "description": "Gym Freak — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Passive",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/Gym-freak.png"
   ],

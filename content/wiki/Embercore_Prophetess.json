@@ -3,7 +3,11 @@
   "wikiTitle": "Embercore_Prophetess",
   "path": "/wiki/Embercore_Prophetess",
   "description": "Oracle — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Demonspawn",
+    "Revenants"
+  ],
   "images": [
     "/images/Divine_Soothsayer.jpg"
   ],

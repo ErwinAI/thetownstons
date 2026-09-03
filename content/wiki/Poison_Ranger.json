@@ -3,7 +3,11 @@
   "wikiTitle": "Poison_Ranger",
   "path": "/wiki/Poison_Ranger",
   "description": "Poison Ranger — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Builds",
+    "Ranger PvE Builds",
+    "PvE Builds"
+  ],
   "images": [
     "/images/recovered/Noxious-shot.png",
     "/images/recovered/Toxic-talent.png",

@@ -1,9 +1,12 @@
 {
   "title": "Angel",
   "wikiTitle": "Category:Angel",
-  "path": "/wiki/Category:Angel",
+  "path": "/wiki/Category/Angel",
   "description": "Angel — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Demi-Humans"
+  ],
   "images": [
     "/images/Embercore_Angel.jpg"
   ],

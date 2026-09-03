@@ -3,7 +3,9 @@
   "wikiTitle": "Agent_Hammer",
   "path": "/wiki/Agent_Hammer",
   "description": "Agent Hammer — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's"
+  ],
   "images": [
     "/images/Agent_hammer.jpg"
   ],

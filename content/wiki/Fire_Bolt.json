@@ -3,7 +3,10 @@
   "wikiTitle": "Fire_Bolt",
   "path": "/wiki/Fire_Bolt",
   "description": "Fire Bolt — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Offensive",
+    "Mage Skills"
+  ],
   "images": [
     "/images/recovered/Fire-bolt.png"
   ],

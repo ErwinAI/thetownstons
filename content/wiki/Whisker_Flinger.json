@@ -3,7 +3,10 @@
   "wikiTitle": "Whisker_Flinger",
   "path": "/wiki/Whisker_Flinger",
   "description": "Whisker Flinger — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Whiskers"
+  ],
   "images": [
     "/images/Whisker_flinger.jpg"
   ],

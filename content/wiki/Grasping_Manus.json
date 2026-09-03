@@ -3,7 +3,11 @@
   "wikiTitle": "Grasping_Manus",
   "path": "/wiki/Grasping_Manus",
   "description": "Grasping Manus — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Gloves-_Cloth1_Gloves_64px.png"
   ],

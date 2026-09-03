@@ -3,7 +3,10 @@
   "wikiTitle": "Mental_Prowess",
   "path": "/wiki/Mental_Prowess",
   "description": "Mental Prowess — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Passive",
+    "Mage Skills"
+  ],
   "images": [
     "/images/recovered/Mental-prowess.png"
   ],

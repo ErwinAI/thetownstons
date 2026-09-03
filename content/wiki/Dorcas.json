@@ -3,7 +3,9 @@
   "wikiTitle": "Dorcas",
   "path": "/wiki/Dorcas",
   "description": "Dorcas — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's"
+  ],
   "images": [
     "/images/Dorcus.jpg"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "Merlin's_Night_Gown",
   "path": "/wiki/Merlin's_Night_Gown",
   "description": "Merlin's Night Gown — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Body Armor",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Body-_Merlin's_Night_Gown.jpg"
   ],

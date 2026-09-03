@@ -3,7 +3,11 @@
   "wikiTitle": "Whisker_Blaster",
   "path": "/wiki/Whisker_Blaster",
   "description": "Whisker Blaster — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Whiskers",
+    "Whisker Venomspitter"
+  ],
   "images": [
     "/images/Frostbitten_blaster.jpg"
   ],

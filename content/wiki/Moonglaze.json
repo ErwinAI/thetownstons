@@ -3,7 +3,10 @@
   "wikiTitle": "Moonglaze",
   "path": "/wiki/Moonglaze",
   "description": "Moonglaze — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/1h-weapon-_Moonglaze.jpg"
   ],

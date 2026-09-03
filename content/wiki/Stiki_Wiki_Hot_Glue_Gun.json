@@ -3,7 +3,10 @@
   "wikiTitle": "Stiki_Wiki_Hot_Glue_Gun",
   "path": "/wiki/Stiki_Wiki_Hot_Glue_Gun",
   "description": "Stiki Wiki Hot Glue Gun — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Ranger-Rainbows"
+  ],
   "images": [
     "/images/recovered/Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston.png)_128px.jpg"
   ],

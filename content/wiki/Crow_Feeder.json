@@ -3,7 +3,10 @@
   "wikiTitle": "Crow_Feeder",
   "path": "/wiki/Crow_Feeder",
   "description": "Crow Feeder — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/Crow-Feeder.jpg"
   ],

@@ -3,7 +3,10 @@
   "wikiTitle": "Death_by_the_Slice",
   "path": "/wiki/Death_by_the_Slice",
   "description": "Death by the Slice — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/2h-weapon_Death_by_the_Slice.jpg"
   ],

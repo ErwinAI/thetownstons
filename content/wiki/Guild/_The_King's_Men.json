@@ -1,9 +1,11 @@
 {
   "title": "Guild:The King's Men",
   "wikiTitle": "Guild:_The_King's_Men",
-  "path": "/wiki/Guild:_The_King's_Men",
+  "path": "/wiki/Guild/_The_King's_Men",
   "description": "Guild:The King's Men — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Guilds"
+  ],
   "images": [
     "/images/TKM-TheKingsMen.jpg"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "Salty_Toes_of_the_Low_Tide",
   "path": "/wiki/Salty_Toes_of_the_Low_Tide",
   "description": "Salty Toes of the Low Tide — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Cloth_pirate_01_boots_icon.png"
   ],

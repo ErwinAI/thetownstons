@@ -3,7 +3,11 @@
   "wikiTitle": "The_Late_Knight's_Cap",
   "path": "/wiki/The_Late_Knight's_Cap",
   "description": "The Late Knight's Cap — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/The-Late-Knights-Cap.jpg"
   ],

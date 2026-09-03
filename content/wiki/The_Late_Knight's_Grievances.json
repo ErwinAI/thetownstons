@@ -3,7 +3,11 @@
   "wikiTitle": "The_Late_Knight's_Grievances",
   "path": "/wiki/The_Late_Knight's_Grievances",
   "description": "The Late Knight's Grievances — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/The-Late-Knights-Grievances.jpg"
   ],

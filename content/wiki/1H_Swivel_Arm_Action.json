@@ -3,7 +3,10 @@
   "wikiTitle": "1H_Swivel_Arm_Action",
   "path": "/wiki/1H_Swivel_Arm_Action",
   "description": "1H Swivel Arm Action — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Self Buff",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/1h-swivel-arm-action.png"
   ],

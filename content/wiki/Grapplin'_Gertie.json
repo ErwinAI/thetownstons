@@ -3,7 +3,11 @@
   "wikiTitle": "Grapplin'_Gertie",
   "path": "/wiki/Grapplin'_Gertie",
   "description": "Grapplin' Gertie — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's",
+    "Champions",
+    "Mutants"
+  ],
   "images": [
     "/images/Grapplin_gertie.jpg"
   ],

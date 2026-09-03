@@ -3,7 +3,9 @@
   "wikiTitle": "Baern_-_Sir_Fess_of_Maerz",
   "path": "/wiki/Baern_-_Sir_Fess_of_Maerz",
   "description": "Baern - Sir Fess of Maerz — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's"
+  ],
   "images": [
     "/images/Baem.jpg"
   ],

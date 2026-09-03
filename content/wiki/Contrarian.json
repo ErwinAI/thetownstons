@@ -3,7 +3,10 @@
   "wikiTitle": "Contrarian",
   "path": "/wiki/Contrarian",
   "description": "Contrarian — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shields"
+  ],
   "images": [
     "/images/Shield-_Contrarian.jpg"
   ],

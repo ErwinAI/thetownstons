@@ -1,6 +1,11 @@
 {
   "pages": [
     {
+      "slug": "index.html",
+      "title": "Index.html",
+      "file": "content\\wiki\\index.html.json"
+    },
+    {
       "slug": "1/2_Blade",
       "title": "Knight",
       "file": "content\\wiki\\1\\2_Blade.json"
@@ -21,6 +26,11 @@
       "file": "content\\wiki\\20_Cubit_Spinnerz.json"
     },
     {
+      "slug": "2H_Swivel_Arm_Action",
+      "title": "2H Swivel Arm Action",
+      "file": "content\\wiki\\2H_Swivel_Arm_Action.json"
+    },
+    {
       "slug": "Aba-_Champions",
       "title": "Aba- Champions",
       "file": "content\\wiki\\Aba-_Champions.json"
@@ -31,19 +41,34 @@
       "file": "content\\wiki\\Abaddon.json"
     },
     {
+      "slug": "Abaddon's_Abysmal_Candy",
+      "title": "Abaddon's Abysmal Candy",
+      "file": "content\\wiki\\Abaddon's_Abysmal_Candy.json"
+    },
+    {
+      "slug": "Abaddon's_Cipher",
+      "title": "Abaddon's Cipher",
+      "file": "content\\wiki\\Abaddon's_Cipher.json"
+    },
+    {
       "slug": "Abaddon's_Family",
       "title": "Abaddon's Family",
       "file": "content\\wiki\\Abaddon's_Family.json"
     },
     {
+      "slug": "Abaddon's_Guard",
+      "title": "Abaddon",
+      "file": "content\\wiki\\Abaddon's_Guard.json"
+    },
+    {
       "slug": "Abaddon's_Guard_(Caster)",
       "title": "Abaddon",
-      "file": "content\\wiki\\Abaddon's_Guard_(Caster).json"
+      "file": "content\\wiki\\Abaddon's_Guard_Caster.json"
     },
     {
       "slug": "Abaddon's_Guard_(Melee)",
       "title": "Abaddon",
-      "file": "content\\wiki\\Abaddon's_Guard_(Melee).json"
+      "file": "content\\wiki\\Abaddon's_Guard_Melee.json"
     },
     {
       "slug": "Abaddon's_Handy_Candy_Broomstick",
@@ -51,9 +76,49 @@
       "file": "content\\wiki\\Abaddon's_Handy_Candy_Broomstick.json"
     },
     {
+      "slug": "Abadunkadunkadonna",
+      "title": "Abba- Champions",
+      "file": "content\\wiki\\Abadunkadunkadonna.json"
+    },
+    {
+      "slug": "Abba-_Champions",
+      "title": "Abba- Champions",
+      "file": "content\\wiki\\Abba-_Champions.json"
+    },
+    {
+      "slug": "Abbadabbadoodon",
+      "title": "Abbadabbadoodon",
+      "file": "content\\wiki\\Abbadabbadoodon.json"
+    },
+    {
+      "slug": "Abbadumdadumdumdon",
+      "title": "Abbadumdadumdumdon",
+      "file": "content\\wiki\\Abbadumdadumdumdon.json"
+    },
+    {
+      "slug": "Abbadupercalifragilisticexpialdonna",
+      "title": "Abbadupercalifragilisticexpialdonna",
+      "file": "content\\wiki\\Abbadupercalifragilisticexpialdonna.json"
+    },
+    {
+      "slug": "Abbazabbadon",
+      "title": "Abbazabbadon",
+      "file": "content\\wiki\\Abbazabbadon.json"
+    },
+    {
       "slug": "Abba_Labba",
       "title": "Abba Labba",
       "file": "content\\wiki\\Abba_Labba.json"
+    },
+    {
+      "slug": "Abbracadabradonna",
+      "title": "Abbracadabradonna",
+      "file": "content\\wiki\\Abbracadabradonna.json"
+    },
+    {
+      "slug": "Abbreviations",
+      "title": "Abbreviations",
+      "file": "content\\wiki\\Abbreviations.json"
     },
     {
       "slug": "Abel_Tukahst",
@@ -69,6 +134,11 @@
       "slug": "Acidic_Blight",
       "title": "Acidic Blight",
       "file": "content\\wiki\\Acidic_Blight.json"
+    },
+    {
+      "slug": "Acrtic_Felknight",
+      "title": "Knight",
+      "file": "content\\wiki\\Acrtic_Felknight.json"
     },
     {
       "slug": "Aged_Lorgalis",
@@ -106,6 +176,11 @@
       "file": "content\\wiki\\Algernon.json"
     },
     {
+      "slug": "Algor's_Terror-Dome",
+      "title": "Algor's Terror Dome",
+      "file": "content\\wiki\\Algor's_Terror-Dome.json"
+    },
+    {
       "slug": "Algor's_Terror_Dome",
       "title": "Algor's Terror Dome",
       "file": "content\\wiki\\Algor's_Terror_Dome.json"
@@ -113,7 +188,12 @@
     {
       "slug": "Algor's_Terror_Dome_(Quest)",
       "title": "Algor's Terror Dome (Quest)",
-      "file": "content\\wiki\\Algor's_Terror_Dome_(Quest).json"
+      "file": "content\\wiki\\Algor's_Terror_Dome_Quest.json"
+    },
+    {
+      "slug": "Algors_Terror_Dome_Base_Camp",
+      "title": "Algors Terror Dome Base Camp",
+      "file": "content\\wiki\\Algors_Terror_Dome_Base_Camp.json"
     },
     {
       "slug": "Algor_the_Cold",
@@ -163,7 +243,7 @@
     {
       "slug": "An_Explorer's_Task_(Algor's)",
       "title": "An Explorer's Task (Algor's)",
-      "file": "content\\wiki\\An_Explorer's_Task_(Algor's).json"
+      "file": "content\\wiki\\An_Explorer's_Task_Algor's.json"
     },
     {
       "slug": "AoE",
@@ -186,9 +266,24 @@
       "file": "content\\wiki\\Arcane_Scout.json"
     },
     {
+      "slug": "Arctic_Blademaster",
+      "title": "Whisker Blademaster",
+      "file": "content\\wiki\\Arctic_Blademaster.json"
+    },
+    {
+      "slug": "Arctic_Fade_Lichlord",
+      "title": "Fade Lichlord",
+      "file": "content\\wiki\\Arctic_Fade_Lichlord.json"
+    },
+    {
       "slug": "Arctic_Felknight",
       "title": "Knight",
       "file": "content\\wiki\\Arctic_Felknight.json"
+    },
+    {
+      "slug": "Area_of_Effect",
+      "title": "Area of Effect",
+      "file": "content\\wiki\\Area_of_Effect.json"
     },
     {
       "slug": "Armor",
@@ -216,6 +311,11 @@
       "file": "content\\wiki\\Attributes.json"
     },
     {
+      "slug": "Attribute_Shrine",
+      "title": "Attribute Shrine",
+      "file": "content\\wiki\\Attribute_Shrine.json"
+    },
+    {
       "slug": "Audit_Algernon",
       "title": "Audit Algernon",
       "file": "content\\wiki\\Audit_Algernon.json"
@@ -228,7 +328,12 @@
     {
       "slug": "Audit_Terra-Infirma_(4)",
       "title": "Audit Terra-Infirma (4)",
-      "file": "content\\wiki\\Audit_Terra-Infirma_(4).json"
+      "file": "content\\wiki\\Audit_Terra-Infirma_4.json"
+    },
+    {
+      "slug": "Audit_Vergrim's_Vexation",
+      "title": "Audit Vergrim's Vexation",
+      "file": "content\\wiki\\Audit_Vergrim's_Vexation.json"
     },
     {
       "slug": "Audrey_the_Alchemist",
@@ -306,14 +411,29 @@
       "file": "content\\wiki\\Bad_Mutha.json"
     },
     {
+      "slug": "Baem_-_Sir_Fess_of_Maerz",
+      "title": "Baem - Sir Fess of Maerz",
+      "file": "content\\wiki\\Baem_-_Sir_Fess_of_Maerz.json"
+    },
+    {
       "slug": "Baern_-_Sir_Fess_of_Maerz",
       "title": "Baern - Sir Fess of Maerz",
       "file": "content\\wiki\\Baern_-_Sir_Fess_of_Maerz.json"
     },
     {
+      "slug": "Bag_o'_Yummy_Yums",
+      "title": "Bag o' Yummy Yums",
+      "file": "content\\wiki\\Bag_o'_Yummy_Yums.json"
+    },
+    {
       "slug": "Balzack",
       "title": "Balzack",
       "file": "content\\wiki\\Balzack.json"
+    },
+    {
+      "slug": "Balzack's_Base_Camp",
+      "title": "Balzack's Base Camp",
+      "file": "content\\wiki\\Balzack's_Base_Camp.json"
     },
     {
       "slug": "Balzack's_Burrow",
@@ -331,6 +451,11 @@
       "file": "content\\wiki\\Bane.json"
     },
     {
+      "slug": "Bank",
+      "title": "Bank",
+      "file": "content\\wiki\\Bank.json"
+    },
+    {
       "slug": "Banned_Farmer",
       "title": "Banned Farmer",
       "file": "content\\wiki\\Banned_Farmer.json"
@@ -339,6 +464,11 @@
       "slug": "Banner_of_Foolish_Bravery",
       "title": "Banner of Foolish Bravery",
       "file": "content\\wiki\\Banner_of_Foolish_Bravery.json"
+    },
+    {
+      "slug": "Banshee",
+      "title": "Fade Banshee",
+      "file": "content\\wiki\\Banshee.json"
     },
     {
       "slug": "Barrel_o'_Fizz",
@@ -361,14 +491,34 @@
       "file": "content\\wiki\\Beginner's_FAQ.json"
     },
     {
+      "slug": "BFG_9001",
+      "title": "BFG 9001",
+      "file": "content\\wiki\\BFG_9001.json"
+    },
+    {
       "slug": "Billy's_Goat",
       "title": "Billy's Goat",
       "file": "content\\wiki\\Billy's_Goat.json"
     },
     {
+      "slug": "Blayde",
+      "title": "Blayde, Da Flayme, and Phreeze",
+      "file": "content\\wiki\\Blayde.json"
+    },
+    {
+      "slug": "Blayde,_Da_Flayme,_and_Phreeze",
+      "title": "Blayde, Da Flayme, and Phreeze",
+      "file": "content\\wiki\\Blayde,_Da_Flayme,_and_Phreeze.json"
+    },
+    {
       "slug": "Bling_Gnome",
       "title": "Bling Gnome",
       "file": "content\\wiki\\Bling_Gnome.json"
+    },
+    {
+      "slug": "Blood_Mystic",
+      "title": "Orok Mystic",
+      "file": "content\\wiki\\Blood_Mystic.json"
     },
     {
       "slug": "Blue_Screen_of_Life",
@@ -379,6 +529,16 @@
       "slug": "Bobby_Pickaxe",
       "title": "Bobby Pickaxe",
       "file": "content\\wiki\\Bobby_Pickaxe.json"
+    },
+    {
+      "slug": "Bone_Collector",
+      "title": "Fade Skeleton",
+      "file": "content\\wiki\\Bone_Collector.json"
+    },
+    {
+      "slug": "Bone_Crusher",
+      "title": "Fade Skeleton",
+      "file": "content\\wiki\\Bone_Crusher.json"
     },
     {
       "slug": "Bone_Miramba",
@@ -456,6 +616,11 @@
       "file": "content\\wiki\\Builds.json"
     },
     {
+      "slug": "Build_Snowman",
+      "title": "Build Snowman",
+      "file": "content\\wiki\\Build_Snowman.json"
+    },
+    {
       "slug": "Burning_Haunt",
       "title": "Phantom",
       "file": "content\\wiki\\Burning_Haunt.json"
@@ -486,9 +651,24 @@
       "file": "content\\wiki\\Candy_Golem.json"
     },
     {
+      "slug": "Candy_Run",
+      "title": "Candy Run",
+      "file": "content\\wiki\\Candy_Run.json"
+    },
+    {
+      "slug": "Captain_Pollution",
+      "title": "Captain Pollution",
+      "file": "content\\wiki\\Captain_Pollution.json"
+    },
+    {
       "slug": "Captain_Pollution_(5)",
       "title": "Captain Pollution (5)",
-      "file": "content\\wiki\\Captain_Pollution_(5).json"
+      "file": "content\\wiki\\Captain_Pollution_5.json"
+    },
+    {
+      "slug": "Capwn",
+      "title": "Capwn",
+      "file": "content\\wiki\\Capwn.json"
     },
     {
       "slug": "Casting_Speed",
@@ -541,6 +721,11 @@
       "file": "content\\wiki\\Category\\Balzack's_Burrow_Quests.json"
     },
     {
+      "slug": "Category:Bankers",
+      "title": "Category:Bankers",
+      "file": "content\\wiki\\Category\\Bankers.json"
+    },
+    {
       "slug": "Category:Bosses",
       "title": "Category:Bosses",
       "file": "content\\wiki\\Category\\Bosses.json"
@@ -559,6 +744,11 @@
       "slug": "Category:Champions",
       "title": "Category:Champions",
       "file": "content\\wiki\\Category\\Champions.json"
+    },
+    {
+      "slug": "Category:Champions_and_Heroes",
+      "title": "Category:Champions",
+      "file": "content\\wiki\\Category\\Champions_and_Heroes.json"
     },
     {
       "slug": "Category:Conservation_Extremists_Quests",
@@ -591,6 +781,11 @@
       "file": "content\\wiki\\Category\\Dew_Valley_Quests.json"
     },
     {
+      "slug": "Category:Dread_Mantis",
+      "title": "Dread Mantis",
+      "file": "content\\wiki\\Category\\Dread_Mantis.json"
+    },
+    {
       "slug": "Category:Dungeons",
       "title": "Category:Dungeons",
       "file": "content\\wiki\\Category\\Dungeons.json"
@@ -616,6 +811,36 @@
       "file": "content\\wiki\\Category\\Fades.json"
     },
     {
+      "slug": "Category:Fade_Banshee",
+      "title": "Fade Banshee",
+      "file": "content\\wiki\\Category\\Fade_Banshee.json"
+    },
+    {
+      "slug": "Category:Fade_Devastator!",
+      "title": "Fade Devastator!",
+      "file": "content\\wiki\\Category\\Fade_Devastator!.json"
+    },
+    {
+      "slug": "Category:Fade_General",
+      "title": "Fade General",
+      "file": "content\\wiki\\Category\\Fade_General.json"
+    },
+    {
+      "slug": "Category:Fade_Hatchling",
+      "title": "Fade Hatchling",
+      "file": "content\\wiki\\Category\\Fade_Hatchling.json"
+    },
+    {
+      "slug": "Category:Fade_Lichlord",
+      "title": "Fade Lichlord",
+      "file": "content\\wiki\\Category\\Fade_Lichlord.json"
+    },
+    {
+      "slug": "Category:Fade_Skeleton",
+      "title": "Fade Skeleton",
+      "file": "content\\wiki\\Category\\Fade_Skeleton.json"
+    },
+    {
       "slug": "Category:Fighter_PvE_Builds",
       "title": "Category:Fighter PvE Builds",
       "file": "content\\wiki\\Category\\Fighter_PvE_Builds.json"
@@ -629,6 +854,11 @@
       "slug": "Category:Fighter_Rainbow_Armor",
       "title": "Category:Fighter Rainbow Armor",
       "file": "content\\wiki\\Category\\Fighter_Rainbow_Armor.json"
+    },
+    {
+      "slug": "Category:Fighter_Skills",
+      "title": "Fighter Skills",
+      "file": "content\\wiki\\Category\\Fighter_Skills.json"
     },
     {
       "slug": "Category:Fizz_Quests",
@@ -686,6 +916,11 @@
       "file": "content\\wiki\\Category\\Items.json"
     },
     {
+      "slug": "Category:Kingdom_Representative_Quests",
+      "title": "Category:Kingdom Representative Quests",
+      "file": "content\\wiki\\Category\\Kingdom_Representative_Quests.json"
+    },
+    {
       "slug": "Category:Knight",
       "title": "Knight",
       "file": "content\\wiki\\Category\\Knight.json"
@@ -694,6 +929,11 @@
       "slug": "Category:Lava_Rachnid",
       "title": "Rachnid",
       "file": "content\\wiki\\Category\\Lava_Rachnid.json"
+    },
+    {
+      "slug": "Category:Loremaster_Vraile_Quests",
+      "title": "Category:Loremaster Vraile Quests",
+      "file": "content\\wiki\\Category\\Loremaster_Vraile_Quests.json"
     },
     {
       "slug": "Category:Machines_and_Devices",
@@ -766,6 +1006,16 @@
       "file": "content\\wiki\\Category\\Mutant_Mania_Quests.json"
     },
     {
+      "slug": "Category:Mutant_Melee_Spitter",
+      "title": "Mutant Melee Spitter",
+      "file": "content\\wiki\\Category\\Mutant_Melee_Spitter.json"
+    },
+    {
+      "slug": "Category:Mutant_Melee_Wasp",
+      "title": "Mutant Melee Wasp",
+      "file": "content\\wiki\\Category\\Mutant_Melee_Wasp.json"
+    },
+    {
       "slug": "Category:Mutant_Pincer",
       "title": "Mutant Pincer",
       "file": "content\\wiki\\Category\\Mutant_Pincer.json"
@@ -774,6 +1024,16 @@
       "slug": "Category:Mutant_Puker",
       "title": "Mutant Puker",
       "file": "content\\wiki\\Category\\Mutant_Puker.json"
+    },
+    {
+      "slug": "Category:Mutant_Ranged_Cannonier",
+      "title": "Mutant Ranged Cannonier",
+      "file": "content\\wiki\\Category\\Mutant_Ranged_Cannonier.json"
+    },
+    {
+      "slug": "Category:Mutant_Ranged_Wasp",
+      "title": "Mutant Ranged Wasp",
+      "file": "content\\wiki\\Category\\Mutant_Ranged_Wasp.json"
     },
     {
       "slug": "Category:Mutant_Spitter",
@@ -811,6 +1071,11 @@
       "file": "content\\wiki\\Category\\NPC's.json"
     },
     {
+      "slug": "Category:Offensive",
+      "title": "Offensive",
+      "file": "content\\wiki\\Category\\Offensive.json"
+    },
+    {
       "slug": "Category:One-Handed-fighter",
       "title": "One-Handed-fighter",
       "file": "content\\wiki\\Category\\One-Handed-fighter.json"
@@ -841,14 +1106,44 @@
       "file": "content\\wiki\\Category\\Oroks.json"
     },
     {
+      "slug": "Category:Orok_Chieftain",
+      "title": "Orok Chieftain",
+      "file": "content\\wiki\\Category\\Orok_Chieftain.json"
+    },
+    {
+      "slug": "Category:Orok_Hunter",
+      "title": "Orok Hunter",
+      "file": "content\\wiki\\Category\\Orok_Hunter.json"
+    },
+    {
       "slug": "Category:Orok_Juggernaut",
       "title": "Orok Juggernaut",
       "file": "content\\wiki\\Category\\Orok_Juggernaut.json"
     },
     {
+      "slug": "Category:Orok_Mystic",
+      "title": "Orok Mystic",
+      "file": "content\\wiki\\Category\\Orok_Mystic.json"
+    },
+    {
+      "slug": "Category:Orok_Scout",
+      "title": "Orok Scout",
+      "file": "content\\wiki\\Category\\Orok_Scout.json"
+    },
+    {
       "slug": "Category:Orok_Spawn",
       "title": "Orok Spawn",
       "file": "content\\wiki\\Category\\Orok_Spawn.json"
+    },
+    {
+      "slug": "Category:Orok_Warrior",
+      "title": "Orok Warrior",
+      "file": "content\\wiki\\Category\\Orok_Warrior.json"
+    },
+    {
+      "slug": "Category:Outposts",
+      "title": "Towns/Outposts",
+      "file": "content\\wiki\\Category\\Outposts.json"
     },
     {
       "slug": "Category:Page_Entry_Guides",
@@ -986,9 +1281,24 @@
       "file": "content\\wiki\\Category\\Shadow's_Embrace_Quests.json"
     },
     {
+      "slug": "Category:Skill_Trainers",
+      "title": "Category:Skill Trainers",
+      "file": "content\\wiki\\Category\\Skill_Trainers.json"
+    },
+    {
       "slug": "Category:Tested_Fighter_PvE_Builds",
       "title": "Category:Tested Fighter PvE Builds",
       "file": "content\\wiki\\Category\\Tested_Fighter_PvE_Builds.json"
+    },
+    {
+      "slug": "Category:Tested_Mage_PvE_Builds",
+      "title": "Category:Tested Mage PvE Builds",
+      "file": "content\\wiki\\Category\\Tested_Mage_PvE_Builds.json"
+    },
+    {
+      "slug": "Category:Tested_PvE_Builds",
+      "title": "Category:Tested PvE Builds",
+      "file": "content\\wiki\\Category\\Tested_PvE_Builds.json"
     },
     {
       "slug": "Category:Tested_PvP_Builds",
@@ -996,9 +1306,14 @@
       "file": "content\\wiki\\Category\\Tested_PvP_Builds.json"
     },
     {
+      "slug": "Category:Tested_Ranger_PvE_Builds",
+      "title": "Category:Tested Ranger PvE Builds",
+      "file": "content\\wiki\\Category\\Tested_Ranger_PvE_Builds.json"
+    },
+    {
       "slug": "Category:Towns/Outposts",
       "title": "Towns/Outposts",
-      "file": "content\\wiki\\Category\\Towns\\Outposts.json"
+      "file": "content\\wiki\\Category\\Towns-Outposts.json"
     },
     {
       "slug": "Category:Townston_Commander_Quests",
@@ -1041,6 +1356,16 @@
       "file": "content\\wiki\\Category\\Two-Handed-Ranger-Rainbows.json"
     },
     {
+      "slug": "Category:Untested_PvE_Builds",
+      "title": "Category:Untested PvE Builds",
+      "file": "content\\wiki\\Category\\Untested_PvE_Builds.json"
+    },
+    {
+      "slug": "Category:Untested_PvP_Builds",
+      "title": "Category:Untested PvP Builds",
+      "file": "content\\wiki\\Category\\Untested_PvP_Builds.json"
+    },
+    {
       "slug": "Category:Utility_Items",
       "title": "Category:Utility Items",
       "file": "content\\wiki\\Category\\Utility_Items.json"
@@ -1081,6 +1406,11 @@
       "file": "content\\wiki\\Category\\Wolves.json"
     },
     {
+      "slug": "Category_talk:Monsters",
+      "title": "Category talk:Monsters",
+      "file": "content\\wiki\\Category_talk\\Monsters.json"
+    },
+    {
       "slug": "Category_talk:Quests",
       "title": "Category talk:Quests",
       "file": "content\\wiki\\Category_talk\\Quests.json"
@@ -1111,6 +1441,11 @@
       "file": "content\\wiki\\Cave_Shaman.json"
     },
     {
+      "slug": "Cave_Whisker_Shaman",
+      "title": "Whisker Shaman",
+      "file": "content\\wiki\\Cave_Whisker_Shaman.json"
+    },
+    {
       "slug": "Cave_Yetti",
       "title": "Orok Juggernaut",
       "file": "content\\wiki\\Cave_Yetti.json"
@@ -1121,6 +1456,16 @@
       "file": "content\\wiki\\Celestial_Blade.json"
     },
     {
+      "slug": "Century_Club",
+      "title": "Century Club",
+      "file": "content\\wiki\\Century_Club.json"
+    },
+    {
+      "slug": "Chain_Sword",
+      "title": "Chain Sword",
+      "file": "content\\wiki\\Chain_Sword.json"
+    },
+    {
       "slug": "Chairman_Manchair",
       "title": "Chairman Manchair",
       "file": "content\\wiki\\Chairman_Manchair.json"
@@ -1129,6 +1474,11 @@
       "slug": "Champion",
       "title": "Champion",
       "file": "content\\wiki\\Champion.json"
+    },
+    {
+      "slug": "Chaos_Fade_General",
+      "title": "Fade General",
+      "file": "content\\wiki\\Chaos_Fade_General.json"
     },
     {
       "slug": "Character_Viewing_Sheets",
@@ -1144,6 +1494,11 @@
       "slug": "Chest_Guardian",
       "title": "Chest Guardian",
       "file": "content\\wiki\\Chest_Guardian.json"
+    },
+    {
+      "slug": "Chilling_Touch",
+      "title": "Chilling Touch",
+      "file": "content\\wiki\\Chilling_Touch.json"
     },
     {
       "slug": "Chucker",
@@ -1176,6 +1531,16 @@
       "file": "content\\wiki\\Clan_of_the_Cave_Yetti.json"
     },
     {
+      "slug": "Class",
+      "title": "Class",
+      "file": "content\\wiki\\Class.json"
+    },
+    {
+      "slug": "Claweye_Staff",
+      "title": "Claweye Staff",
+      "file": "content\\wiki\\Claweye_Staff.json"
+    },
+    {
       "slug": "Cleave",
       "title": "Cleave",
       "file": "content\\wiki\\Cleave.json"
@@ -1184,6 +1549,11 @@
       "slug": "Clicker",
       "title": "Clicker",
       "file": "content\\wiki\\Clicker.json"
+    },
+    {
+      "slug": "Colonel_Carnage",
+      "title": "Colonel Carnage",
+      "file": "content\\wiki\\Colonel_Carnage.json"
     },
     {
       "slug": "Colorful_Cal_the_Coin_King",
@@ -1201,6 +1571,11 @@
       "file": "content\\wiki\\Combined_Dungeons_Map.json"
     },
     {
+      "slug": "Concerned_Abba_Labba",
+      "title": "Concerned Abba Labba",
+      "file": "content\\wiki\\Concerned_Abba_Labba.json"
+    },
+    {
       "slug": "Conscript",
       "title": "Conscript",
       "file": "content\\wiki\\Conscript.json"
@@ -1213,12 +1588,17 @@
     {
       "slug": "Conservation_Extremists_(2)",
       "title": "Conservation Extremists (2)",
-      "file": "content\\wiki\\Conservation_Extremists_(2).json"
+      "file": "content\\wiki\\Conservation_Extremists_2.json"
     },
     {
       "slug": "Contact",
       "title": "Contact",
       "file": "content\\wiki\\Contact.json"
+    },
+    {
+      "slug": "Contaminated_Devastator!",
+      "title": "Fade Devastator!",
+      "file": "content\\wiki\\Contaminated_Devastator!.json"
     },
     {
       "slug": "Contrarian",
@@ -1286,6 +1666,16 @@
       "file": "content\\wiki\\Crimson_Spitter.json"
     },
     {
+      "slug": "Crimson_Whisker_Shaman",
+      "title": "Whisker Shaman",
+      "file": "content\\wiki\\Crimson_Whisker_Shaman.json"
+    },
+    {
+      "slug": "Crimson_Whisker_Venomspitter",
+      "title": "Whisker Venomspitter",
+      "file": "content\\wiki\\Crimson_Whisker_Venomspitter.json"
+    },
+    {
       "slug": "Crispy_Critters",
       "title": "Crispy Critters",
       "file": "content\\wiki\\Crispy_Critters.json"
@@ -1304,6 +1694,11 @@
       "slug": "Critical_Ranger",
       "title": "Critical Ranger",
       "file": "content\\wiki\\Critical_Ranger.json"
+    },
+    {
+      "slug": "Crooked_Guard",
+      "title": "Crooked Guard",
+      "file": "content\\wiki\\Crooked_Guard.json"
     },
     {
       "slug": "Crow_Feeder",
@@ -1331,14 +1726,29 @@
       "file": "content\\wiki\\Crystal_Globe.json"
     },
     {
+      "slug": "Crystal_Launcher",
+      "title": "Crystal Launcher",
+      "file": "content\\wiki\\Crystal_Launcher.json"
+    },
+    {
       "slug": "Current_events",
       "title": "Current events",
       "file": "content\\wiki\\Current_events.json"
     },
     {
+      "slug": "Curses",
+      "title": "Curses",
+      "file": "content\\wiki\\Curses.json"
+    },
+    {
       "slug": "D'habl'u_Ti'eff",
       "title": "D'habl'u Ti'eff",
       "file": "content\\wiki\\D'habl'u_Ti'eff.json"
+    },
+    {
+      "slug": "Damage_Over_Time",
+      "title": "Damage Over Time",
+      "file": "content\\wiki\\Damage_Over_Time.json"
     },
     {
       "slug": "Damage_per_Second",
@@ -1386,14 +1796,29 @@
       "file": "content\\wiki\\Dark_Ring_Around_The_Collar.json"
     },
     {
+      "slug": "Dark_Wizardry",
+      "title": "Dark Wizardry",
+      "file": "content\\wiki\\Dark_Wizardry.json"
+    },
+    {
       "slug": "Daze_Pustain",
       "title": "Daze Pustain",
       "file": "content\\wiki\\Daze_Pustain.json"
     },
     {
+      "slug": "Da_Flayme",
+      "title": "Blayde, Da Flayme, and Phreeze",
+      "file": "content\\wiki\\Da_Flayme.json"
+    },
+    {
       "slug": "Deadie_VimPalen",
       "title": "Deadie VimPalen",
       "file": "content\\wiki\\Deadie_VimPalen.json"
+    },
+    {
+      "slug": "Deadie_VimPalen's_Pad",
+      "title": "The Mutanous Malaise",
+      "file": "content\\wiki\\Deadie_VimPalen's_Pad.json"
     },
     {
       "slug": "Death's_Disdain",
@@ -1431,6 +1856,16 @@
       "file": "content\\wiki\\Death_by_the_Slice.json"
     },
     {
+      "slug": "Death_Penalty",
+      "title": "Death Penalty",
+      "file": "content\\wiki\\Death_Penalty.json"
+    },
+    {
+      "slug": "Defeat_the_Blade_Masters",
+      "title": "Defeat the Blade Masters",
+      "file": "content\\wiki\\Defeat_the_Blade_Masters.json"
+    },
+    {
       "slug": "Defense_Rating",
       "title": "Defense Rating",
       "file": "content\\wiki\\Defense_Rating.json"
@@ -1439,6 +1874,11 @@
       "slug": "Deliver_Wolf_Pelts",
       "title": "Deliver Wolf Pelts",
       "file": "content\\wiki\\Deliver_Wolf_Pelts.json"
+    },
+    {
+      "slug": "Demonic_Crypts",
+      "title": "The Shadow's Embrace",
+      "file": "content\\wiki\\Demonic_Crypts.json"
     },
     {
       "slug": "Demon_Sniper",
@@ -1456,6 +1896,11 @@
       "file": "content\\wiki\\Deviant_Hurler.json"
     },
     {
+      "slug": "Devs",
+      "title": "Dev",
+      "file": "content\\wiki\\Devs.json"
+    },
+    {
       "slug": "Deward_the_Arms_Merchant",
       "title": "Deward the Arms Merchant",
       "file": "content\\wiki\\Deward_the_Arms_Merchant.json"
@@ -1466,14 +1911,29 @@
       "file": "content\\wiki\\Dew_Valley.json"
     },
     {
+      "slug": "Dew_Valley_Extermination",
+      "title": "Dew Valley Extermination",
+      "file": "content\\wiki\\Dew_Valley_Extermination.json"
+    },
+    {
       "slug": "Dew_Valley_Forest",
       "title": "Dew Valley",
       "file": "content\\wiki\\Dew_Valley_Forest.json"
     },
     {
+      "slug": "Dew_Valley_Infestation",
+      "title": "Dew Valley Infestation",
+      "file": "content\\wiki\\Dew_Valley_Infestation.json"
+    },
+    {
       "slug": "Dew_Valley_Rattle_Tooth",
       "title": "Dew Valley Rattle Tooth",
       "file": "content\\wiki\\Dew_Valley_Rattle_Tooth.json"
+    },
+    {
+      "slug": "Dew_Valley_Wolf_Pup",
+      "title": "Wolf Pup",
+      "file": "content\\wiki\\Dew_Valley_Wolf_Pup.json"
     },
     {
       "slug": "Diabolical",
@@ -1506,6 +1966,11 @@
       "file": "content\\wiki\\Dingbat_Duhrill's_Pad.json"
     },
     {
+      "slug": "Disectoid",
+      "title": "Fade Hatchling",
+      "file": "content\\wiki\\Disectoid.json"
+    },
+    {
       "slug": "Disemboweler",
       "title": "Disemboweler",
       "file": "content\\wiki\\Disemboweler.json"
@@ -1514,6 +1979,16 @@
       "slug": "Divine_Angel",
       "title": "Angel",
       "file": "content\\wiki\\Divine_Angel.json"
+    },
+    {
+      "slug": "Divine_Ascendancy",
+      "title": "Divine Ascendancy",
+      "file": "content\\wiki\\Divine_Ascendancy.json"
+    },
+    {
+      "slug": "Divine_Brood",
+      "title": "Whisker",
+      "file": "content\\wiki\\Divine_Brood.json"
     },
     {
       "slug": "Divine_Devastator!",
@@ -1526,9 +2001,39 @@
       "file": "content\\wiki\\Divine_Fade_General.json"
     },
     {
+      "slug": "Divine_Fade_Lichlord",
+      "title": "Fade Lichlord",
+      "file": "content\\wiki\\Divine_Fade_Lichlord.json"
+    },
+    {
+      "slug": "Divine_Fade_Skeleton",
+      "title": "Fade Skeleton",
+      "file": "content\\wiki\\Divine_Fade_Skeleton.json"
+    },
+    {
+      "slug": "Divine_Fade_Soldier",
+      "title": "Fade Skeleton",
+      "file": "content\\wiki\\Divine_Fade_Soldier.json"
+    },
+    {
       "slug": "Divine_Felknight",
       "title": "Knight",
       "file": "content\\wiki\\Divine_Felknight.json"
+    },
+    {
+      "slug": "Divine_Hunter",
+      "title": "Orok Hunter",
+      "file": "content\\wiki\\Divine_Hunter.json"
+    },
+    {
+      "slug": "Divine_Juggernaut",
+      "title": "Orok Juggernaut",
+      "file": "content\\wiki\\Divine_Juggernaut.json"
+    },
+    {
+      "slug": "Divine_Orok_Chieftain",
+      "title": "Orok Chieftain",
+      "file": "content\\wiki\\Divine_Orok_Chieftain.json"
     },
     {
       "slug": "Divine_Phantom",
@@ -1541,9 +2046,19 @@
       "file": "content\\wiki\\Divine_Resistance.json"
     },
     {
+      "slug": "Divine_Runt",
+      "title": "Orok Scout",
+      "file": "content\\wiki\\Divine_Runt.json"
+    },
+    {
       "slug": "Divine_Soothsayer",
       "title": "Oracle",
       "file": "content\\wiki\\Divine_Soothsayer.json"
+    },
+    {
+      "slug": "Divine_Taskmaster",
+      "title": "Orok Warrior",
+      "file": "content\\wiki\\Divine_Taskmaster.json"
     },
     {
       "slug": "Divine_Ward",
@@ -1554,6 +2069,26 @@
       "slug": "Divine_Whisker",
       "title": "Whisker",
       "file": "content\\wiki\\Divine_Whisker.json"
+    },
+    {
+      "slug": "Divine_Whisker_Blademaster",
+      "title": "Whisker Blademaster",
+      "file": "content\\wiki\\Divine_Whisker_Blademaster.json"
+    },
+    {
+      "slug": "Divine_Whisker_Seer",
+      "title": "Whisker Seer",
+      "file": "content\\wiki\\Divine_Whisker_Seer.json"
+    },
+    {
+      "slug": "Divine_Whisker_Shaman",
+      "title": "Whisker Shaman",
+      "file": "content\\wiki\\Divine_Whisker_Shaman.json"
+    },
+    {
+      "slug": "Divine_Whisker_Venomspitter",
+      "title": "Whisker Venomspitter",
+      "file": "content\\wiki\\Divine_Whisker_Venomspitter.json"
     },
     {
       "slug": "Djinni's_Wish_Granters",
@@ -1601,6 +2136,11 @@
       "file": "content\\wiki\\Doug's_Digsite.json"
     },
     {
+      "slug": "DPS",
+      "title": "Damage per Second",
+      "file": "content\\wiki\\DPS.json"
+    },
+    {
       "slug": "Draykop_the_Amazon",
       "title": "Draykop the Amazon",
       "file": "content\\wiki\\Draykop_the_Amazon.json"
@@ -1616,9 +2156,14 @@
       "file": "content\\wiki\\Dread_Mantis.json"
     },
     {
+      "slug": "Dread_the_Ice_Mantis",
+      "title": "Dread Mantis",
+      "file": "content\\wiki\\Dread_the_Ice_Mantis.json"
+    },
+    {
       "slug": "Druid_(Ice_or_Fire)",
       "title": "Druid (Ice or Fire)",
-      "file": "content\\wiki\\Druid_(Ice_or_Fire).json"
+      "file": "content\\wiki\\Druid_Ice_or_Fire.json"
     },
     {
       "slug": "DR_Widgets",
@@ -1646,9 +2191,29 @@
       "file": "content\\wiki\\Dungeons.json"
     },
     {
+      "slug": "Dungeon_Fighter_II_Tournament",
+      "title": "Dungeon Fighter II Tournament",
+      "file": "content\\wiki\\Dungeon_Fighter_II_Tournament.json"
+    },
+    {
+      "slug": "Dungeon_Idol_Fans_Gone_Wild",
+      "title": "Dungeon Idol Fans Gone Wild",
+      "file": "content\\wiki\\Dungeon_Idol_Fans_Gone_Wild.json"
+    },
+    {
       "slug": "Dungeon_Layout",
       "title": "Catacombs Layout",
       "file": "content\\wiki\\Dungeon_Layout.json"
+    },
+    {
+      "slug": "Earth_Sprite",
+      "title": "Orok Spawn",
+      "file": "content\\wiki\\Earth_Sprite.json"
+    },
+    {
+      "slug": "Ebon_Devastator!",
+      "title": "Fade Devastator!",
+      "file": "content\\wiki\\Ebon_Devastator!.json"
     },
     {
       "slug": "Ebon_Fade_Lichlord",
@@ -1716,6 +2281,11 @@
       "file": "content\\wiki\\Ember_Crushers.json"
     },
     {
+      "slug": "Ember_Devastator!",
+      "title": "Fade Devastator!",
+      "file": "content\\wiki\\Ember_Devastator!.json"
+    },
+    {
       "slug": "Ember_Rachnid",
       "title": "Rachnid",
       "file": "content\\wiki\\Ember_Rachnid.json"
@@ -1771,6 +2341,31 @@
       "file": "content\\wiki\\Explorer's_Task.json"
     },
     {
+      "slug": "Exploring_Frump's_Misfortune",
+      "title": "Exploring Frump's Misfortune",
+      "file": "content\\wiki\\Exploring_Frump's_Misfortune.json"
+    },
+    {
+      "slug": "Exploring_Frump's_Misfortune_(2)",
+      "title": "Exploring Frump's Misfortune (2)",
+      "file": "content\\wiki\\Exploring_Frump's_Misfortune_2.json"
+    },
+    {
+      "slug": "Exploring_Ratsputin's_Gulag",
+      "title": "Exploring Ratsputin's Gulag",
+      "file": "content\\wiki\\Exploring_Ratsputin's_Gulag.json"
+    },
+    {
+      "slug": "Exploring_Widower's_Nest",
+      "title": "Exploring Widower's Nest",
+      "file": "content\\wiki\\Exploring_Widower's_Nest.json"
+    },
+    {
+      "slug": "Extra_Crispy_Monster_Bait",
+      "title": "Extra Crispy Monster Bait",
+      "file": "content\\wiki\\Extra_Crispy_Monster_Bait.json"
+    },
+    {
       "slug": "F3_Event_Planner",
       "title": "F3 Event Planner",
       "file": "content\\wiki\\F3_Event_Planner.json"
@@ -1791,9 +2386,29 @@
       "file": "content\\wiki\\Fade_Devastator!.json"
     },
     {
+      "slug": "Fade_Devastators!",
+      "title": "Fade Devastator!",
+      "file": "content\\wiki\\Fade_Devastators!.json"
+    },
+    {
+      "slug": "Fade_Disectoid",
+      "title": "Fade Hatchling",
+      "file": "content\\wiki\\Fade_Disectoid.json"
+    },
+    {
       "slug": "Fade_Factory_Foremen",
       "title": "Fade Skeleton",
       "file": "content\\wiki\\Fade_Factory_Foremen.json"
+    },
+    {
+      "slug": "Fade_Factory_Worker",
+      "title": "Fade Skeleton",
+      "file": "content\\wiki\\Fade_Factory_Worker.json"
+    },
+    {
+      "slug": "Fade_Fire_Lich",
+      "title": "Fade Lichlord",
+      "file": "content\\wiki\\Fade_Fire_Lich.json"
     },
     {
       "slug": "Fade_General",
@@ -1809,6 +2424,11 @@
       "slug": "Fade_Lichlord",
       "title": "Fade Lichlord",
       "file": "content\\wiki\\Fade_Lichlord.json"
+    },
+    {
+      "slug": "Fade_Lich_Lord",
+      "title": "Fade Lichlord",
+      "file": "content\\wiki\\Fade_Lich_Lord.json"
     },
     {
       "slug": "Fade_Skeleton",
@@ -1846,6 +2466,11 @@
       "file": "content\\wiki\\Farming.json"
     },
     {
+      "slug": "Farm_Golding",
+      "title": "Farm Golding",
+      "file": "content\\wiki\\Farm_Golding.json"
+    },
+    {
       "slug": "Fear",
       "title": "Fear",
       "file": "content\\wiki\\Fear.json"
@@ -1854,6 +2479,16 @@
       "slug": "Fear_of_Gosh",
       "title": "Fear of Gosh",
       "file": "content\\wiki\\Fear_of_Gosh.json"
+    },
+    {
+      "slug": "Fear_Shot",
+      "title": "Fear Shot",
+      "file": "content\\wiki\\Fear_Shot.json"
+    },
+    {
+      "slug": "Fear_Uber_Widow_Maker!",
+      "title": "Fear Uber Widow Maker!",
+      "file": "content\\wiki\\Fear_Uber_Widow_Maker!.json"
     },
     {
       "slug": "Feathered_Cap",
@@ -1886,6 +2521,11 @@
       "file": "content\\wiki\\Fighter_Armor.json"
     },
     {
+      "slug": "Fighter_Equipment_Token_Master",
+      "title": "Fighter Equipment Token Master",
+      "file": "content\\wiki\\Fighter_Equipment_Token_Master.json"
+    },
+    {
       "slug": "Fighter_Equip_Token_Master",
       "title": "Fighter Equipment Token Master",
       "file": "content\\wiki\\Fighter_Equip_Token_Master.json"
@@ -1901,6 +2541,11 @@
       "file": "content\\wiki\\Fighter_Skills.json"
     },
     {
+      "slug": "Find_Rattle_Tooths_Lair",
+      "title": "Find Rattle Tooths Lair",
+      "file": "content\\wiki\\Find_Rattle_Tooths_Lair.json"
+    },
+    {
       "slug": "Firey_Pygmy",
       "title": "Mutant Hulk",
       "file": "content\\wiki\\Firey_Pygmy.json"
@@ -1914,6 +2559,16 @@
       "slug": "Fire_Dancer",
       "title": "Whisker Blademaster",
       "file": "content\\wiki\\Fire_Dancer.json"
+    },
+    {
+      "slug": "Fire_Fade_General",
+      "title": "Fade General",
+      "file": "content\\wiki\\Fire_Fade_General.json"
+    },
+    {
+      "slug": "Fire_Juggernaut",
+      "title": "Orok Juggernaut",
+      "file": "content\\wiki\\Fire_Juggernaut.json"
     },
     {
       "slug": "Fire_Mutant_Hulk",
@@ -1936,9 +2591,24 @@
       "file": "content\\wiki\\Fire_Mutant_Twins.json"
     },
     {
+      "slug": "Fire_Orok_Mystic",
+      "title": "Orok Mystic",
+      "file": "content\\wiki\\Fire_Orok_Mystic.json"
+    },
+    {
+      "slug": "Fire_Sprite",
+      "title": "Orok Spawn",
+      "file": "content\\wiki\\Fire_Sprite.json"
+    },
+    {
       "slug": "Fire_Ward",
       "title": "Fire Ward",
       "file": "content\\wiki\\Fire_Ward.json"
+    },
+    {
+      "slug": "Fish_Farming",
+      "title": "Fish Farming",
+      "file": "content\\wiki\\Fish_Farming.json"
     },
     {
       "slug": "Fish_Farming:_Blue_Fish",
@@ -1956,6 +2626,11 @@
       "file": "content\\wiki\\Fish_Farming\\_Red_Fish.json"
     },
     {
+      "slug": "Fizz_Rock_Delivery",
+      "title": "Fizz Rock Delivery",
+      "file": "content\\wiki\\Fizz_Rock_Delivery.json"
+    },
+    {
       "slug": "Flame_Brood",
       "title": "Whisker",
       "file": "content\\wiki\\Flame_Brood.json"
@@ -1966,6 +2641,11 @@
       "file": "content\\wiki\\Flame_Sprite.json"
     },
     {
+      "slug": "Fledgling_Hunter",
+      "title": "Orok Hunter",
+      "file": "content\\wiki\\Fledgling_Hunter.json"
+    },
+    {
       "slug": "Fodder",
       "title": "Fodder",
       "file": "content\\wiki\\Fodder.json"
@@ -1974,6 +2654,11 @@
       "slug": "Foil_Covered_Thinkbox",
       "title": "Foil Covered Thinkbox",
       "file": "content\\wiki\\Foil_Covered_Thinkbox.json"
+    },
+    {
+      "slug": "Forest_Blademaster",
+      "title": "Whisker Blademaster",
+      "file": "content\\wiki\\Forest_Blademaster.json"
     },
     {
       "slug": "Forest_Layout",
@@ -1996,6 +2681,26 @@
       "file": "content\\wiki\\Frigidly_Cruel_Mauler.json"
     },
     {
+      "slug": "Frigid_Dread_Mantis",
+      "title": "Dread Mantis",
+      "file": "content\\wiki\\Frigid_Dread_Mantis.json"
+    },
+    {
+      "slug": "Frigid_Fade_Soldier",
+      "title": "Fade Skeleton",
+      "file": "content\\wiki\\Frigid_Fade_Soldier.json"
+    },
+    {
+      "slug": "Frigid_Orok_Runt",
+      "title": "Orok Scout",
+      "file": "content\\wiki\\Frigid_Orok_Runt.json"
+    },
+    {
+      "slug": "Frostbitten_Blaster",
+      "title": "Whisker Venomspitter",
+      "file": "content\\wiki\\Frostbitten_Blaster.json"
+    },
+    {
       "slug": "Frostbitten_Conscript",
       "title": "Conscript",
       "file": "content\\wiki\\Frostbitten_Conscript.json"
@@ -2016,9 +2721,19 @@
       "file": "content\\wiki\\Frosty_Melee_Wasp.json"
     },
     {
+      "slug": "Frosty_Mystic",
+      "title": "Orok Mystic",
+      "file": "content\\wiki\\Frosty_Mystic.json"
+    },
+    {
       "slug": "Frosty_Ranged_Cannonier",
       "title": "Deviant Hurler",
       "file": "content\\wiki\\Frosty_Ranged_Cannonier.json"
+    },
+    {
+      "slug": "Frozen_Orok_Slayer",
+      "title": "Orok Warrior",
+      "file": "content\\wiki\\Frozen_Orok_Slayer.json"
     },
     {
       "slug": "Frump",
@@ -2026,9 +2741,34 @@
       "file": "content\\wiki\\Frump.json"
     },
     {
+      "slug": "Frump's_Favor",
+      "title": "Frump's Favor",
+      "file": "content\\wiki\\Frump's_Favor.json"
+    },
+    {
+      "slug": "Frump's_Interdungeonal_Resort",
+      "title": "Frump's Interdungeonal Resort",
+      "file": "content\\wiki\\Frump's_Interdungeonal_Resort.json"
+    },
+    {
       "slug": "Frump's_Misfortune",
       "title": "Frump's Misfortune",
       "file": "content\\wiki\\Frump's_Misfortune.json"
+    },
+    {
+      "slug": "Frump's_Misfortune_(quest)",
+      "title": "Frump's Misfortune (quest)",
+      "file": "content\\wiki\\Frump's_Misfortune_quest.json"
+    },
+    {
+      "slug": "Fuel_Injected_Crossbow",
+      "title": "Fuel Injected Crossbow",
+      "file": "content\\wiki\\Fuel_Injected_Crossbow.json"
+    },
+    {
+      "slug": "Fuzzy_Trimmed_Luv_Cuffs",
+      "title": "Fuzzy Trimmed Luv Cuffs",
+      "file": "content\\wiki\\Fuzzy_Trimmed_Luv_Cuffs.json"
     },
     {
       "slug": "Fuzz_Trimmed_Luv_Cuffs",
@@ -2064,6 +2804,11 @@
       "slug": "Gaseous_Blast",
       "title": "Gaseous Blast",
       "file": "content\\wiki\\Gaseous_Blast.json"
+    },
+    {
+      "slug": "Gaseous_Shadow_Mage",
+      "title": "Gaseous Shadow Mage",
+      "file": "content\\wiki\\Gaseous_Shadow_Mage.json"
     },
     {
       "slug": "Gelphding's_Dark_Shards",
@@ -2121,6 +2866,11 @@
       "file": "content\\wiki\\Glimmers.json"
     },
     {
+      "slug": "GlossNFloss",
+      "title": "GorgeNFloss",
+      "file": "content\\wiki\\GlossNFloss.json"
+    },
+    {
       "slug": "Gnasher",
       "title": "Gnasher",
       "file": "content\\wiki\\Gnasher.json"
@@ -2156,9 +2906,34 @@
       "file": "content\\wiki\\GoS_Hates_Divines.json"
     },
     {
+      "slug": "GoS_Juggern0t!",
+      "title": "Orok Juggernaut",
+      "file": "content\\wiki\\GoS_Juggern0t!.json"
+    },
+    {
       "slug": "GoS_Second_In_Command",
       "title": "GoS Second In Command",
       "file": "content\\wiki\\GoS_Second_In_Command.json"
+    },
+    {
+      "slug": "GoS_SHAZZAMAN",
+      "title": "Orok Mystic",
+      "file": "content\\wiki\\GoS_SHAZZAMAN.json"
+    },
+    {
+      "slug": "GoS_spawn_camper!",
+      "title": "Orok Spawn",
+      "file": "content\\wiki\\GoS_spawn_camper!.json"
+    },
+    {
+      "slug": "Gothic_Crossbow",
+      "title": "Gothic Crossbow",
+      "file": "content\\wiki\\Gothic_Crossbow.json"
+    },
+    {
+      "slug": "Gr'Aves,_Chudd,_D'Oyle,_and_Pvvnly",
+      "title": "Gr'Aves, Chudd, D'Oyle, and Pvvnly",
+      "file": "content\\wiki\\Gr'Aves,_Chudd,_D'Oyle,_and_Pvvnly.json"
     },
     {
       "slug": "Grapplin'_Gertie",
@@ -2356,6 +3131,11 @@
       "file": "content\\wiki\\Habbibi's_Happenin'_Headdress.json"
     },
     {
+      "slug": "Hall_of_Fame",
+      "title": "Hall of Fame",
+      "file": "content\\wiki\\Hall_of_Fame.json"
+    },
+    {
       "slug": "Hand_Solo6333",
       "title": "Hand Solo6333",
       "file": "content\\wiki\\Hand_Solo6333.json"
@@ -2369,6 +3149,26 @@
       "slug": "Hatchling",
       "title": "Fade Hatchling",
       "file": "content\\wiki\\Hatchling.json"
+    },
+    {
+      "slug": "Hatchling_Scout",
+      "title": "Fade Hatchling",
+      "file": "content\\wiki\\Hatchling_Scout.json"
+    },
+    {
+      "slug": "HAX_Shaman",
+      "title": "Orok Mystic",
+      "file": "content\\wiki\\HAX_Shaman.json"
+    },
+    {
+      "slug": "HAX_Spawn",
+      "title": "Orok Spawn",
+      "file": "content\\wiki\\HAX_Spawn.json"
+    },
+    {
+      "slug": "HAX_Warrior",
+      "title": "Orok Warrior",
+      "file": "content\\wiki\\HAX_Warrior.json"
     },
     {
       "slug": "HDoL",
@@ -2394,6 +3194,11 @@
       "slug": "Health_Potions",
       "title": "Health Potions",
       "file": "content\\wiki\\Health_Potions.json"
+    },
+    {
+      "slug": "Hellion",
+      "title": "Fade Skeleton",
+      "file": "content\\wiki\\Hellion.json"
     },
     {
       "slug": "Hell_Hulk",
@@ -2436,6 +3241,11 @@
       "file": "content\\wiki\\Homo_Erectus_Stirrups.json"
     },
     {
+      "slug": "Hood_Rat",
+      "title": "Whisker",
+      "file": "content\\wiki\\Hood_Rat.json"
+    },
+    {
       "slug": "Hoof_Loop",
       "title": "Hoof Loop",
       "file": "content\\wiki\\Hoof_Loop.json"
@@ -2456,14 +3266,49 @@
       "file": "content\\wiki\\Hughard_the_Arms_Merchant.json"
     },
     {
+      "slug": "Hunting_Crossbow",
+      "title": "Hunting Crossbow",
+      "file": "content\\wiki\\Hunting_Crossbow.json"
+    },
+    {
       "slug": "Hydrostatic_(Shadow/Ice)_Mage",
       "title": "Hydrostatic (Shadow/Ice) Mage",
-      "file": "content\\wiki\\Hydrostatic_(Shadow\\Ice)_Mage.json"
+      "file": "content\\wiki\\Hydrostatic_Shadow\\Ice_Mage.json"
+    },
+    {
+      "slug": "Ice_Bolt",
+      "title": "Ice Bolt",
+      "file": "content\\wiki\\Ice_Bolt.json"
     },
     {
       "slug": "Ice_Cave_Layout",
       "title": "Ice Cave Layout",
       "file": "content\\wiki\\Ice_Cave_Layout.json"
+    },
+    {
+      "slug": "Ice_Fade_Banshee",
+      "title": "Fade Banshee",
+      "file": "content\\wiki\\Ice_Fade_Banshee.json"
+    },
+    {
+      "slug": "Ice_Fade_General",
+      "title": "Fade General",
+      "file": "content\\wiki\\Ice_Fade_General.json"
+    },
+    {
+      "slug": "Ice_Fade_Lichlord",
+      "title": "Fade Lichlord",
+      "file": "content\\wiki\\Ice_Fade_Lichlord.json"
+    },
+    {
+      "slug": "Ice_Fade_Mechanic",
+      "title": "Fade Skeleton",
+      "file": "content\\wiki\\Ice_Fade_Mechanic.json"
+    },
+    {
+      "slug": "Ice_Fade_Skeleton",
+      "title": "Fade Skeleton",
+      "file": "content\\wiki\\Ice_Fade_Skeleton.json"
     },
     {
       "slug": "Ice_Fields_Layout",
@@ -2474,6 +3319,11 @@
       "slug": "Ice_Forest_Layout",
       "title": "Snow Forest Layout",
       "file": "content\\wiki\\Ice_Forest_Layout.json"
+    },
+    {
+      "slug": "Ice_Juggernaut",
+      "title": "Orok Juggernaut",
+      "file": "content\\wiki\\Ice_Juggernaut.json"
     },
     {
       "slug": "Ice_Mage",
@@ -2501,9 +3351,34 @@
       "file": "content\\wiki\\Ice_Mutant_Unipsycho.json"
     },
     {
+      "slug": "Ice_Orok_AC_Overseers",
+      "title": "Orok Chieftain",
+      "file": "content\\wiki\\Ice_Orok_AC_Overseers.json"
+    },
+    {
+      "slug": "Ice_Orok_AC_Repairman",
+      "title": "Orok Chieftain",
+      "file": "content\\wiki\\Ice_Orok_AC_Repairman.json"
+    },
+    {
       "slug": "Ice_Orok_Juggernaut",
       "title": "Orok Juggernaut",
       "file": "content\\wiki\\Ice_Orok_Juggernaut.json"
+    },
+    {
+      "slug": "Ice_Orok_Mystic",
+      "title": "Orok Mystic",
+      "file": "content\\wiki\\Ice_Orok_Mystic.json"
+    },
+    {
+      "slug": "Ice_Orok_Ranger",
+      "title": "Orok Scout",
+      "file": "content\\wiki\\Ice_Orok_Ranger.json"
+    },
+    {
+      "slug": "Ice_Orok_Runt",
+      "title": "Orok Spawn",
+      "file": "content\\wiki\\Ice_Orok_Runt.json"
     },
     {
       "slug": "Ice_Orok_Scout",
@@ -2514,6 +3389,11 @@
       "slug": "Ice_Orok_Spawn",
       "title": "Orok Spawn",
       "file": "content\\wiki\\Ice_Orok_Spawn.json"
+    },
+    {
+      "slug": "Ice_Orok_Warrior",
+      "title": "Orok Warrior",
+      "file": "content\\wiki\\Ice_Orok_Warrior.json"
     },
     {
       "slug": "Ice_Puker",
@@ -2531,6 +3411,16 @@
       "file": "content\\wiki\\Ice_Sprite.json"
     },
     {
+      "slug": "Ice_Ward",
+      "title": "Ice Ward",
+      "file": "content\\wiki\\Ice_Ward.json"
+    },
+    {
+      "slug": "Ice_Whisker",
+      "title": "Whisker",
+      "file": "content\\wiki\\Ice_Whisker.json"
+    },
+    {
       "slug": "Ichabod's_Cap",
       "title": "Ichabod's Cap",
       "file": "content\\wiki\\Ichabod's_Cap.json"
@@ -2541,6 +3431,21 @@
       "file": "content\\wiki\\Icy_Phantom.json"
     },
     {
+      "slug": "Idolatry_of_Impaler_Nix",
+      "title": "Idolatry of Impaler Nix",
+      "file": "content\\wiki\\Idolatry_of_Impaler_Nix.json"
+    },
+    {
+      "slug": "Idolatry_of_Kill'em_Klarkzon",
+      "title": "Idolatry of Kill'em Klarkzon",
+      "file": "content\\wiki\\Idolatry_of_Kill'em_Klarkzon.json"
+    },
+    {
+      "slug": "Idolatry_of_Sanjyna",
+      "title": "Idolatry of Sanjyna",
+      "file": "content\\wiki\\Idolatry_of_Sanjyna.json"
+    },
+    {
       "slug": "Improved_Shadow_Lightning",
       "title": "Improved Shadow Lightning",
       "file": "content\\wiki\\Improved_Shadow_Lightning.json"
@@ -2549,6 +3454,11 @@
       "slug": "Incrusted_Leviathan_Carapace",
       "title": "Incrusted Leviathan Carapace",
       "file": "content\\wiki\\Incrusted_Leviathan_Carapace.json"
+    },
+    {
+      "slug": "Infantry_Crossbow",
+      "title": "Infantry Crossbow",
+      "file": "content\\wiki\\Infantry_Crossbow.json"
     },
     {
       "slug": "INT",
@@ -2564,6 +3474,11 @@
       "slug": "Inter-Galactaxe",
       "title": "Inter-Galactaxe",
       "file": "content\\wiki\\Inter-Galactaxe.json"
+    },
+    {
+      "slug": "Inter-glactaxe",
+      "title": "Inter-glactaxe",
+      "file": "content\\wiki\\Inter-glactaxe.json"
     },
     {
       "slug": "Interface_Guide",
@@ -2583,7 +3498,17 @@
     {
       "slug": "Its_Burning,_Man!_(3)",
       "title": "Its Burning, Man! (3)",
-      "file": "content\\wiki\\Its_Burning,_Man!_(3).json"
+      "file": "content\\wiki\\Its_Burning,_Man!_3.json"
+    },
+    {
+      "slug": "It_Keeps_Burning,_Man!",
+      "title": "It Keeps Burning, Man!",
+      "file": "content\\wiki\\It_Keeps_Burning,_Man!.json"
+    },
+    {
+      "slug": "Ivory_Whisker_Shaman",
+      "title": "Whisker Shaman",
+      "file": "content\\wiki\\Ivory_Whisker_Shaman.json"
     },
     {
       "slug": "J'aymz_Fatfilled",
@@ -2591,9 +3516,24 @@
       "file": "content\\wiki\\J'aymz_Fatfilled.json"
     },
     {
+      "slug": "J'aymz_Fatfilled's_Pad",
+      "title": "The Mutanous Malaise",
+      "file": "content\\wiki\\J'aymz_Fatfilled's_Pad.json"
+    },
+    {
       "slug": "Jackalope's_Visage",
       "title": "Jackalope's Visage",
       "file": "content\\wiki\\Jackalope's_Visage.json"
+    },
+    {
+      "slug": "Jagged_Crossbow",
+      "title": "Jagged Crossbow",
+      "file": "content\\wiki\\Jagged_Crossbow.json"
+    },
+    {
+      "slug": "Je'zzee_Jaymes",
+      "title": "Je'zzee Jaymes",
+      "file": "content\\wiki\\Je'zzee_Jaymes.json"
     },
     {
       "slug": "Jewelry_Token_Master",
@@ -2611,9 +3551,24 @@
       "file": "content\\wiki\\Juggernaut.json"
     },
     {
+      "slug": "Junior_Exec_Ivan",
+      "title": "Junior Exec Ivan",
+      "file": "content\\wiki\\Junior_Exec_Ivan.json"
+    },
+    {
+      "slug": "Kama",
+      "title": "Kama",
+      "file": "content\\wiki\\Kama.json"
+    },
+    {
       "slug": "Karnage's_Lot",
       "title": "Frump's Misfortune",
       "file": "content\\wiki\\Karnage's_Lot.json"
+    },
+    {
+      "slug": "Keeper_of_the_Candies",
+      "title": "Keeper of the Candies",
+      "file": "content\\wiki\\Keeper_of_the_Candies.json"
     },
     {
       "slug": "Khodebshchik",
@@ -2621,9 +3576,19 @@
       "file": "content\\wiki\\Khodebshchik.json"
     },
     {
+      "slug": "Khopesh",
+      "title": "Khopesh",
+      "file": "content\\wiki\\Khopesh.json"
+    },
+    {
       "slug": "Kill'em_Klarkzon",
       "title": "Kill'em Klarkzon",
       "file": "content\\wiki\\Kill'em_Klarkzon.json"
+    },
+    {
+      "slug": "Kill_Rattle_Tooth",
+      "title": "Kill Rattle Tooth",
+      "file": "content\\wiki\\Kill_Rattle_Tooth.json"
     },
     {
       "slug": "King's_Coins",
@@ -2634,6 +3599,16 @@
       "slug": "King's_Hit_List_Epilogue",
       "title": "King's Hit List Epilogue",
       "file": "content\\wiki\\King's_Hit_List_Epilogue.json"
+    },
+    {
+      "slug": "King's_Hit_List_Part_3",
+      "title": "King's Hit List Part 3",
+      "file": "content\\wiki\\King's_Hit_List_Part_3.json"
+    },
+    {
+      "slug": "Kingdom_Representative",
+      "title": "Kingdom Representative",
+      "file": "content\\wiki\\Kingdom_Representative.json"
     },
     {
       "slug": "Kings_Coin",
@@ -2661,6 +3636,16 @@
       "file": "content\\wiki\\Kog's_Gearbox.json"
     },
     {
+      "slug": "Kogs_Army",
+      "title": "Kog's Army",
+      "file": "content\\wiki\\Kogs_Army.json"
+    },
+    {
+      "slug": "Kog_the_Mighty",
+      "title": "Kog the Mighty",
+      "file": "content\\wiki\\Kog_the_Mighty.json"
+    },
+    {
       "slug": "Korgluk",
       "title": "Korgluk",
       "file": "content\\wiki\\Korgluk.json"
@@ -2669,6 +3654,11 @@
       "slug": "KrypKogulous",
       "title": "KrypKogulous",
       "file": "content\\wiki\\KrypKogulous.json"
+    },
+    {
+      "slug": "Kurley_the_Lazy",
+      "title": "Kurley the Lazy",
+      "file": "content\\wiki\\Kurley_the_Lazy.json"
     },
     {
       "slug": "L33t_Stick",
@@ -2684,6 +3674,11 @@
       "slug": "Large_Dull_Edge",
       "title": "Large Dull Edge",
       "file": "content\\wiki\\Large_Dull_Edge.json"
+    },
+    {
+      "slug": "Last_Request",
+      "title": "Last Request",
+      "file": "content\\wiki\\Last_Request.json"
     },
     {
       "slug": "Lava_Balrog",
@@ -2744,6 +3739,11 @@
       "slug": "Logan_the_Liger",
       "title": "Logan the Liger",
       "file": "content\\wiki\\Logan_the_Liger.json"
+    },
+    {
+      "slug": "Longshot",
+      "title": "Longshot",
+      "file": "content\\wiki\\Longshot.json"
     },
     {
       "slug": "Loot",
@@ -2811,6 +3811,11 @@
       "file": "content\\wiki\\Mage_Armor.json"
     },
     {
+      "slug": "Mage_Equipment_Token_Master",
+      "title": "Mage Equipment Token Master",
+      "file": "content\\wiki\\Mage_Equipment_Token_Master.json"
+    },
+    {
       "slug": "Mage_Equip_Token_Master",
       "title": "Mage Equipment Token Master",
       "file": "content\\wiki\\Mage_Equip_Token_Master.json"
@@ -2876,6 +3881,11 @@
       "file": "content\\wiki\\Master_Chef's_Toxic_Flood_Gun.json"
     },
     {
+      "slug": "MC_Whammy_Bar",
+      "title": "MC Whammy Bar",
+      "file": "content\\wiki\\MC_Whammy_Bar.json"
+    },
+    {
       "slug": "Meat_Shield",
       "title": "Meat Shield",
       "file": "content\\wiki\\Meat_Shield.json"
@@ -2931,9 +3941,19 @@
       "file": "content\\wiki\\Mission\\_Get_'Em_All_Painted.json"
     },
     {
+      "slug": "Miss_Behavin'",
+      "title": "Miss Behavin'",
+      "file": "content\\wiki\\Miss_Behavin'.json"
+    },
+    {
       "slug": "Molten_Helm",
       "title": "Molten Helm",
       "file": "content\\wiki\\Molten_Helm.json"
+    },
+    {
+      "slug": "Monkeysphere_Cutbacks",
+      "title": "Monkeysphere Cutbacks",
+      "file": "content\\wiki\\Monkeysphere_Cutbacks.json"
     },
     {
       "slug": "Monsters",
@@ -2951,14 +3971,29 @@
       "file": "content\\wiki\\Moonglaze.json"
     },
     {
+      "slug": "Mopicles_the_Janiator",
+      "title": "Mopicles the Janiator",
+      "file": "content\\wiki\\Mopicles_the_Janiator.json"
+    },
+    {
       "slug": "More_Wolf_Pelts",
       "title": "More Wolf Pelts",
       "file": "content\\wiki\\More_Wolf_Pelts.json"
     },
     {
+      "slug": "Mosher",
+      "title": "Category:Oroks",
+      "file": "content\\wiki\\Mosher.json"
+    },
+    {
       "slug": "Murdak's_Monster_Maimers",
       "title": "Murdak's Monster Maimers",
       "file": "content\\wiki\\Murdak's_Monster_Maimers.json"
+    },
+    {
+      "slug": "Murdak's_Monster_Mainers",
+      "title": "Murdak's Monster Mainers",
+      "file": "content\\wiki\\Murdak's_Monster_Mainers.json"
     },
     {
       "slug": "Mutanous_Malaise",
@@ -2996,6 +4031,11 @@
       "file": "content\\wiki\\Mutant_Mania.json"
     },
     {
+      "slug": "Mutant_Melee_Spitter",
+      "title": "Mutant Melee Spitter",
+      "file": "content\\wiki\\Mutant_Melee_Spitter.json"
+    },
+    {
       "slug": "Mutant_Melee_Wasp",
       "title": "Mutant Melee Wasp",
       "file": "content\\wiki\\Mutant_Melee_Wasp.json"
@@ -3026,6 +4066,11 @@
       "file": "content\\wiki\\Mutant_Puker.json"
     },
     {
+      "slug": "Mutant_Ranged_Cannonier",
+      "title": "Mutant Ranged Cannonier",
+      "file": "content\\wiki\\Mutant_Ranged_Cannonier.json"
+    },
+    {
       "slug": "Mutant_Ranged_Spitter",
       "title": "Mutant Ranged Spitter",
       "file": "content\\wiki\\Mutant_Ranged_Spitter.json"
@@ -3034,6 +4079,11 @@
       "slug": "Mutant_Ranged_Wasp",
       "title": "Mutant Ranged Wasp",
       "file": "content\\wiki\\Mutant_Ranged_Wasp.json"
+    },
+    {
+      "slug": "Mutant_Removal",
+      "title": "Mutant Removal",
+      "file": "content\\wiki\\Mutant_Removal.json"
     },
     {
       "slug": "Mutant_Research",
@@ -3049,6 +4099,11 @@
       "slug": "Mutant_Unipsycho",
       "title": "Mutant Unipsycho",
       "file": "content\\wiki\\Mutant_Unipsycho.json"
+    },
+    {
+      "slug": "Mutant_Whomper",
+      "title": "Mutant Whomper",
+      "file": "content\\wiki\\Mutant_Whomper.json"
     },
     {
       "slug": "Mystical_Green_Glowstick_on_a_String",
@@ -3091,6 +4146,11 @@
       "file": "content\\wiki\\Nasty_Devastator!.json"
     },
     {
+      "slug": "Needle_Chucker",
+      "title": "Needle Chucker",
+      "file": "content\\wiki\\Needle_Chucker.json"
+    },
+    {
       "slug": "Newbie",
       "title": "Newbie",
       "file": "content\\wiki\\Newbie.json"
@@ -3111,6 +4171,11 @@
       "file": "content\\wiki\\New_Fangled_Spangled_Tabard.json"
     },
     {
+      "slug": "Nippy_Twigs",
+      "title": "Nippy Twigs",
+      "file": "content\\wiki\\Nippy_Twigs.json"
+    },
+    {
       "slug": "Nocturnal_Protection",
       "title": "Nocturnal Protection",
       "file": "content\\wiki\\Nocturnal_Protection.json"
@@ -3118,7 +4183,12 @@
     {
       "slug": "Normal_(mob)",
       "title": "Normal (mob)",
-      "file": "content\\wiki\\Normal_(mob).json"
+      "file": "content\\wiki\\Normal_mob.json"
+    },
+    {
+      "slug": "Not_The_Rumored_Refinery_Forerat",
+      "title": "Not The Rumored Refinery Forerat",
+      "file": "content\\wiki\\Not_The_Rumored_Refinery_Forerat.json"
     },
     {
       "slug": "Not_the_Sword_of_Gosh",
@@ -3136,6 +4206,16 @@
       "file": "content\\wiki\\Noxious_Shot.json"
     },
     {
+      "slug": "Noxious_Venomspitter",
+      "title": "Whisker Venomspitter",
+      "file": "content\\wiki\\Noxious_Venomspitter.json"
+    },
+    {
+      "slug": "NPC",
+      "title": "Category:NPC's",
+      "file": "content\\wiki\\NPC.json"
+    },
+    {
       "slug": "Obelisk",
       "title": "Obelisk",
       "file": "content\\wiki\\Obelisk.json"
@@ -3144,6 +4224,16 @@
       "slug": "Offensive",
       "title": "Offensive",
       "file": "content\\wiki\\Offensive.json"
+    },
+    {
+      "slug": "Of_Light_and_Heat_Obstructa",
+      "title": "Of Light and Heat Obstructa",
+      "file": "content\\wiki\\Of_Light_and_Heat_Obstructa.json"
+    },
+    {
+      "slug": "Ol'_Chuck_Pail",
+      "title": "Ol' Chuck Pail",
+      "file": "content\\wiki\\Ol'_Chuck_Pail.json"
     },
     {
       "slug": "Ol'_Fade_Spiritual",
@@ -3161,6 +4251,11 @@
       "file": "content\\wiki\\One-Handed-mage.json"
     },
     {
+      "slug": "On_The_Rocks",
+      "title": "On The Rocks",
+      "file": "content\\wiki\\On_The_Rocks.json"
+    },
+    {
       "slug": "Oracle",
       "title": "Oracle",
       "file": "content\\wiki\\Oracle.json"
@@ -3171,9 +4266,24 @@
       "file": "content\\wiki\\Orok_AC_Repairman.json"
     },
     {
+      "slug": "Orok_Cave_Hunter",
+      "title": "Orok Hunter",
+      "file": "content\\wiki\\Orok_Cave_Hunter.json"
+    },
+    {
+      "slug": "Orok_Cave_Peon",
+      "title": "Orok Scout",
+      "file": "content\\wiki\\Orok_Cave_Peon.json"
+    },
+    {
       "slug": "Orok_Chieftain",
       "title": "Orok Chieftain",
       "file": "content\\wiki\\Orok_Chieftain.json"
+    },
+    {
+      "slug": "Orok_Crowd_Control",
+      "title": "Orok Crowd Control",
+      "file": "content\\wiki\\Orok_Crowd_Control.json"
     },
     {
       "slug": "Orok_Hunter",
@@ -3186,6 +4296,11 @@
       "file": "content\\wiki\\Orok_Juggernaut.json"
     },
     {
+      "slug": "Orok_Juggernauts",
+      "title": "Orok Juggernaut",
+      "file": "content\\wiki\\Orok_Juggernauts.json"
+    },
+    {
       "slug": "Orok_Mystic",
       "title": "Orok Mystic",
       "file": "content\\wiki\\Orok_Mystic.json"
@@ -3194,6 +4309,11 @@
       "slug": "Orok_Outpost",
       "title": "Algernon",
       "file": "content\\wiki\\Orok_Outpost.json"
+    },
+    {
+      "slug": "Orok_Recruit",
+      "title": "Orok Warrior",
+      "file": "content\\wiki\\Orok_Recruit.json"
     },
     {
       "slug": "Orok_Runt",
@@ -3206,9 +4326,24 @@
       "file": "content\\wiki\\Orok_Scout.json"
     },
     {
+      "slug": "Orok_Shaman",
+      "title": "Orok Mystic",
+      "file": "content\\wiki\\Orok_Shaman.json"
+    },
+    {
+      "slug": "Orok_Slayer",
+      "title": "Orok Warrior",
+      "file": "content\\wiki\\Orok_Slayer.json"
+    },
+    {
       "slug": "Orok_Spawn",
       "title": "Orok Spawn",
       "file": "content\\wiki\\Orok_Spawn.json"
+    },
+    {
+      "slug": "Orok_Taskmaster",
+      "title": "Orok Warrior",
+      "file": "content\\wiki\\Orok_Taskmaster.json"
     },
     {
       "slug": "Orok_Warrior",
@@ -3221,9 +4356,19 @@
       "file": "content\\wiki\\Ourorboros's_Eczema_Covered_Ecdysis.json"
     },
     {
+      "slug": "Our_Misfortune",
+      "title": "Our Misfortune",
+      "file": "content\\wiki\\Our_Misfortune.json"
+    },
+    {
       "slug": "Overlord's_Sepulcher",
       "title": "Algernon",
       "file": "content\\wiki\\Overlord's_Sepulcher.json"
+    },
+    {
+      "slug": "Overthrown_Keeper_of_the_Candies",
+      "title": "Overthrown Keeper of the Candies",
+      "file": "content\\wiki\\Overthrown_Keeper_of_the_Candies.json"
     },
     {
       "slug": "Oznog's_Sparkling_Foot_Husks",
@@ -3234,6 +4379,16 @@
       "slug": "Pacifier",
       "title": "Pacifier",
       "file": "content\\wiki\\Pacifier.json"
+    },
+    {
+      "slug": "Paint_the_Dungeon_Gray",
+      "title": "Paint the Dungeon Gray",
+      "file": "content\\wiki\\Paint_the_Dungeon_Gray.json"
+    },
+    {
+      "slug": "Paint_the_Dungeon_Green",
+      "title": "Paint the Dungeon Green",
+      "file": "content\\wiki\\Paint_the_Dungeon_Green.json"
     },
     {
       "slug": "Paint_the_Dungeon_Red",
@@ -3251,6 +4406,11 @@
       "file": "content\\wiki\\Passive.json"
     },
     {
+      "slug": "Pelt_Season",
+      "title": "Pelt Season",
+      "file": "content\\wiki\\Pelt_Season.json"
+    },
+    {
       "slug": "Phantom",
       "title": "Phantom",
       "file": "content\\wiki\\Phantom.json"
@@ -3264,6 +4424,16 @@
       "slug": "Pink's_Favorite_Axe",
       "title": "Pink's Favorite Axe",
       "file": "content\\wiki\\Pink's_Favorite_Axe.json"
+    },
+    {
+      "slug": "Pi\u00f1ata_Invitational",
+      "title": "Ratsputin's Gulag",
+      "file": "content\\wiki\\Pi\u00f1ata_Invitational.json"
+    },
+    {
+      "slug": "Plague_Plant",
+      "title": "Algor's Terror Dome",
+      "file": "content\\wiki\\Plague_Plant.json"
     },
     {
       "slug": "Plane_Crusher",
@@ -3281,6 +4451,11 @@
       "file": "content\\wiki\\Poisonous_Felknight.json"
     },
     {
+      "slug": "Poison_Blademaster",
+      "title": "Whisker Blademaster",
+      "file": "content\\wiki\\Poison_Blademaster.json"
+    },
+    {
       "slug": "Poison_Broodling",
       "title": "Whisker",
       "file": "content\\wiki\\Poison_Broodling.json"
@@ -3289,6 +4464,16 @@
       "slug": "Poison_Devastator!",
       "title": "Fade Devastator!",
       "file": "content\\wiki\\Poison_Devastator!.json"
+    },
+    {
+      "slug": "Poison_Grunt_Mosher",
+      "title": "Orok Warrior",
+      "file": "content\\wiki\\Poison_Grunt_Mosher.json"
+    },
+    {
+      "slug": "Poison_Juggernaut",
+      "title": "Orok Juggernaut",
+      "file": "content\\wiki\\Poison_Juggernaut.json"
     },
     {
       "slug": "Poison_Mage",
@@ -3316,9 +4501,24 @@
       "file": "content\\wiki\\Poison_Mutant_Unipsycho.json"
     },
     {
+      "slug": "Poison_Mystic_Mosher",
+      "title": "Orok Mystic",
+      "file": "content\\wiki\\Poison_Mystic_Mosher.json"
+    },
+    {
       "slug": "Poison_Orok_Ranger",
       "title": "Orok Scout",
       "file": "content\\wiki\\Poison_Orok_Ranger.json"
+    },
+    {
+      "slug": "Poison_Orok_Spawn",
+      "title": "Orok Spawn",
+      "file": "content\\wiki\\Poison_Orok_Spawn.json"
+    },
+    {
+      "slug": "Poison_Orok_Warrior",
+      "title": "Orok Warrior",
+      "file": "content\\wiki\\Poison_Orok_Warrior.json"
     },
     {
       "slug": "Poison_Ranger",
@@ -3329,6 +4529,31 @@
       "slug": "Poison_Resistance",
       "title": "Poison Resistance",
       "file": "content\\wiki\\Poison_Resistance.json"
+    },
+    {
+      "slug": "Poison_Shot",
+      "title": "Poison Shot",
+      "file": "content\\wiki\\Poison_Shot.json"
+    },
+    {
+      "slug": "Poison_Ward",
+      "title": "Poison Ward",
+      "file": "content\\wiki\\Poison_Ward.json"
+    },
+    {
+      "slug": "Poison_Whisker",
+      "title": "Whisker",
+      "file": "content\\wiki\\Poison_Whisker.json"
+    },
+    {
+      "slug": "Poison_Whisker_Shaman",
+      "title": "Whisker Shaman",
+      "file": "content\\wiki\\Poison_Whisker_Shaman.json"
+    },
+    {
+      "slug": "Poison_Whisker_Venomspitter",
+      "title": "Whisker Venomspitter",
+      "file": "content\\wiki\\Poison_Whisker_Venomspitter.json"
     },
     {
       "slug": "Poncherello's_Conqueror",
@@ -3379,6 +4604,11 @@
       "slug": "Public_Test_Server",
       "title": "PTS",
       "file": "content\\wiki\\Public_Test_Server.json"
+    },
+    {
+      "slug": "Pukers_Ruining_Dungeon_Idol",
+      "title": "Pukers Ruining Dungeon Idol",
+      "file": "content\\wiki\\Pukers_Ruining_Dungeon_Idol.json"
     },
     {
       "slug": "Putrid_Penetration",
@@ -3476,6 +4706,11 @@
       "file": "content\\wiki\\Ranger_Armor.json"
     },
     {
+      "slug": "Ranger_Equipment_Token_Master",
+      "title": "Ranger Equipment Token Master",
+      "file": "content\\wiki\\Ranger_Equipment_Token_Master.json"
+    },
+    {
       "slug": "Ranger_Equip_Token_Master",
       "title": "Ranger Equipment Token Master",
       "file": "content\\wiki\\Ranger_Equip_Token_Master.json"
@@ -3511,6 +4746,36 @@
       "file": "content\\wiki\\Ratsputin's_Gulag.json"
     },
     {
+      "slug": "Ratsputin's_Gulag_(Quest)",
+      "title": "Ratsputin's Gulag (Quest)",
+      "file": "content\\wiki\\Ratsputin's_Gulag_Quest.json"
+    },
+    {
+      "slug": "Ratsputin's_Holding_Cell",
+      "title": "Ratsputin's Holding Cell",
+      "file": "content\\wiki\\Ratsputin's_Holding_Cell.json"
+    },
+    {
+      "slug": "Ratsputin's_Maximum_Security_Kremlin",
+      "title": "Ratsputin's Gulag",
+      "file": "content\\wiki\\Ratsputin's_Maximum_Security_Kremlin.json"
+    },
+    {
+      "slug": "Ratsputin's_Underground_Network_-_Level_1",
+      "title": "Ratsputin's Gulag",
+      "file": "content\\wiki\\Ratsputin's_Underground_Network_-_Level_1.json"
+    },
+    {
+      "slug": "Ratsputin's_Underground_Network_-_Level_2",
+      "title": "Ratsputin's Gulag",
+      "file": "content\\wiki\\Ratsputin's_Underground_Network_-_Level_2.json"
+    },
+    {
+      "slug": "Ratsputin's_Yoga_Room",
+      "title": "Ratsputin's Gulag",
+      "file": "content\\wiki\\Ratsputin's_Yoga_Room.json"
+    },
+    {
       "slug": "Rattle_Ear",
       "title": "Rattle Ear",
       "file": "content\\wiki\\Rattle_Ear.json"
@@ -3519,6 +4784,11 @@
       "slug": "Rattle_Eye",
       "title": "Rattle Eye",
       "file": "content\\wiki\\Rattle_Eye.json"
+    },
+    {
+      "slug": "Rattle_Family_Friends",
+      "title": "Rattle Family Friends",
+      "file": "content\\wiki\\Rattle_Family_Friends.json"
     },
     {
       "slug": "Rattle_Neck",
@@ -3536,6 +4806,11 @@
       "file": "content\\wiki\\Rattle_Toe's_Personal_Masseur.json"
     },
     {
+      "slug": "Rattle_Tooth",
+      "title": "Rattle Tooth",
+      "file": "content\\wiki\\Rattle_Tooth.json"
+    },
+    {
       "slug": "Rattle_Tooth's_DJ",
       "title": "Rattle Tooth's DJ",
       "file": "content\\wiki\\Rattle_Tooth's_DJ.json"
@@ -3544,6 +4819,11 @@
       "slug": "Rattle_Tooth's_Family_Friends",
       "title": "Rattle Tooth's Family Friends",
       "file": "content\\wiki\\Rattle_Tooth's_Family_Friends.json"
+    },
+    {
+      "slug": "Rattle_Tooth's_Revenge",
+      "title": "Ratsputin's Gulag",
+      "file": "content\\wiki\\Rattle_Tooth's_Revenge.json"
     },
     {
       "slug": "Rattle_Tooth's_Vengeful_Soul",
@@ -3561,9 +4841,24 @@
       "file": "content\\wiki\\Razor_Wire_Shackles.json"
     },
     {
+      "slug": "Re-Spec",
+      "title": "Re-Spec",
+      "file": "content\\wiki\\Re-Spec.json"
+    },
+    {
+      "slug": "Recruitment",
+      "title": "Recruitment",
+      "file": "content\\wiki\\Recruitment.json"
+    },
+    {
       "slug": "Red_Ring_of_Death",
       "title": "Red Ring of Death",
       "file": "content\\wiki\\Red_Ring_of_Death.json"
+    },
+    {
+      "slug": "Red_Rocks",
+      "title": "Red Rocks",
+      "file": "content\\wiki\\Red_Rocks.json"
     },
     {
       "slug": "Reliance",
@@ -3576,6 +4871,21 @@
       "file": "content\\wiki\\Relic_Quests.json"
     },
     {
+      "slug": "Repeatable",
+      "title": "Category:Repeatable Quests",
+      "file": "content\\wiki\\Repeatable.json"
+    },
+    {
+      "slug": "Repeatable_Quests",
+      "title": "Category:Repeatable Quests",
+      "file": "content\\wiki\\Repeatable_Quests.json"
+    },
+    {
+      "slug": "Repeating_Crossbow",
+      "title": "Repeating Crossbow",
+      "file": "content\\wiki\\Repeating_Crossbow.json"
+    },
+    {
       "slug": "Resistance",
       "title": "Resistance",
       "file": "content\\wiki\\Resistance.json"
@@ -3584,6 +4894,11 @@
       "slug": "Retribution",
       "title": "Retribution",
       "file": "content\\wiki\\Retribution.json"
+    },
+    {
+      "slug": "Revenge",
+      "title": "Revenge",
+      "file": "content\\wiki\\Revenge.json"
     },
     {
       "slug": "Righteous_Stomp",
@@ -3741,6 +5056,11 @@
       "file": "content\\wiki\\Seer_Brood.json"
     },
     {
+      "slug": "Self_Buff",
+      "title": "Self Buff",
+      "file": "content\\wiki\\Self_Buff.json"
+    },
+    {
       "slug": "Shadow's_Embrace",
       "title": "The Shadow's Embrace",
       "file": "content\\wiki\\Shadow's_Embrace.json"
@@ -3756,9 +5076,19 @@
       "file": "content\\wiki\\Shadowspawn_Knight.json"
     },
     {
+      "slug": "Shadows_Over_Dungeon_Idol",
+      "title": "Shadows Over Dungeon Idol",
+      "file": "content\\wiki\\Shadows_Over_Dungeon_Idol.json"
+    },
+    {
       "slug": "Shadow_Fade_Banshee",
       "title": "Fade Banshee",
       "file": "content\\wiki\\Shadow_Fade_Banshee.json"
+    },
+    {
+      "slug": "Shadow_Fade_Crooner",
+      "title": "Fade Banshee",
+      "file": "content\\wiki\\Shadow_Fade_Crooner.json"
     },
     {
       "slug": "Shadow_Fade_Desperado!",
@@ -3776,6 +5106,16 @@
       "file": "content\\wiki\\Shadow_Fade_Factory_Worker.json"
     },
     {
+      "slug": "Shadow_Fade_General",
+      "title": "Fade General",
+      "file": "content\\wiki\\Shadow_Fade_General.json"
+    },
+    {
+      "slug": "Shadow_Fade_Hatchling",
+      "title": "Fade Hatchling",
+      "file": "content\\wiki\\Shadow_Fade_Hatchling.json"
+    },
+    {
       "slug": "Shadow_Fade_Lich",
       "title": "Fade Lichlord",
       "file": "content\\wiki\\Shadow_Fade_Lich.json"
@@ -3784,6 +5124,11 @@
       "slug": "Shadow_Fade_Lichlord",
       "title": "Fade Lichlord",
       "file": "content\\wiki\\Shadow_Fade_Lichlord.json"
+    },
+    {
+      "slug": "Shadow_Fade_Skeleton",
+      "title": "Fade Skeleton",
+      "file": "content\\wiki\\Shadow_Fade_Skeleton.json"
     },
     {
       "slug": "Shadow_Howler",
@@ -3826,6 +5171,11 @@
       "file": "content\\wiki\\Shadow_Orok_Ranger.json"
     },
     {
+      "slug": "Shadow_Orok_Warrior",
+      "title": "Orok Warrior",
+      "file": "content\\wiki\\Shadow_Orok_Warrior.json"
+    },
+    {
       "slug": "Shadow_Phantom",
       "title": "Phantom",
       "file": "content\\wiki\\Shadow_Phantom.json"
@@ -3866,6 +5216,11 @@
       "file": "content\\wiki\\Shadow_Twins.json"
     },
     {
+      "slug": "Shadow_Ward",
+      "title": "Shadow Ward",
+      "file": "content\\wiki\\Shadow_Ward.json"
+    },
+    {
       "slug": "Shardian",
       "title": "Shardian",
       "file": "content\\wiki\\Shardian.json"
@@ -3891,9 +5246,24 @@
       "file": "content\\wiki\\Shields.json"
     },
     {
+      "slug": "Shivery_the_Incorrigible_Snowman",
+      "title": "Shivery the Incorrigible Snowman",
+      "file": "content\\wiki\\Shivery_the_Incorrigible_Snowman.json"
+    },
+    {
       "slug": "Shiver_Shot",
       "title": "Shiver Shot",
       "file": "content\\wiki\\Shiver_Shot.json"
+    },
+    {
+      "slug": "Shotgun",
+      "title": "Shotgun",
+      "file": "content\\wiki\\Shotgun.json"
+    },
+    {
+      "slug": "Shrine",
+      "title": "Attribute Shrine",
+      "file": "content\\wiki\\Shrine.json"
     },
     {
       "slug": "Shrinkage",
@@ -3916,14 +5286,29 @@
       "file": "content\\wiki\\Sinister_Ebon_Phantasm.json"
     },
     {
+      "slug": "Sir_Kent_the_Artisan",
+      "title": "Sir Kent the Artisan",
+      "file": "content\\wiki\\Sir_Kent_the_Artisan.json"
+    },
+    {
       "slug": "Sir_Lee_of_York",
       "title": "Sir Lee of York",
       "file": "content\\wiki\\Sir_Lee_of_York.json"
     },
     {
+      "slug": "Sir_Panickee",
+      "title": "Sir Panickee",
+      "file": "content\\wiki\\Sir_Panickee.json"
+    },
+    {
       "slug": "Sir_Temdewm",
       "title": "Sir Tendewm",
       "file": "content\\wiki\\Sir_Temdewm.json"
+    },
+    {
+      "slug": "Sir_Tified_Luhny",
+      "title": "Sir Tified Luhny",
+      "file": "content\\wiki\\Sir_Tified_Luhny.json"
     },
     {
       "slug": "Sissirat",
@@ -3941,6 +5326,11 @@
       "file": "content\\wiki\\Sissirat's_Lair.json"
     },
     {
+      "slug": "Sissirat's_Revenge",
+      "title": "Ratsputin's Gulag",
+      "file": "content\\wiki\\Sissirat's_Revenge.json"
+    },
+    {
       "slug": "Sissirat's_Super_Sissy_Smasher_of_Stench",
       "title": "Sissirat's Super Sissy Smasher of Stench",
       "file": "content\\wiki\\Sissirat's_Super_Sissy_Smasher_of_Stench.json"
@@ -3949,6 +5339,11 @@
       "slug": "Sissirat_Guide",
       "title": "Sissirat Guide",
       "file": "content\\wiki\\Sissirat_Guide.json"
+    },
+    {
+      "slug": "Sitar_Hero_-_Face_Off",
+      "title": "Sitar Hero - Face Off",
+      "file": "content\\wiki\\Sitar_Hero_-_Face_Off.json"
     },
     {
       "slug": "Skanksy's_Dark_Crystals",
@@ -4021,9 +5416,29 @@
       "file": "content\\wiki\\Snow_Forest_Layout.json"
     },
     {
+      "slug": "Snow_Globe",
+      "title": "Snow Globe",
+      "file": "content\\wiki\\Snow_Globe.json"
+    },
+    {
       "slug": "Snow_Sprite",
       "title": "Orok Spawn",
       "file": "content\\wiki\\Snow_Sprite.json"
+    },
+    {
+      "slug": "Soldier_Clohz",
+      "title": "Soldier Clohz",
+      "file": "content\\wiki\\Soldier_Clohz.json"
+    },
+    {
+      "slug": "Soldier_Germ",
+      "title": "Soldier Germ",
+      "file": "content\\wiki\\Soldier_Germ.json"
+    },
+    {
+      "slug": "Soldier_Hogarth",
+      "title": "Soldier Hogarth",
+      "file": "content\\wiki\\Soldier_Hogarth.json"
     },
     {
       "slug": "Sorewun's_Ego",
@@ -4036,6 +5451,11 @@
       "file": "content\\wiki\\Soulbound.json"
     },
     {
+      "slug": "Soul_Patrol",
+      "title": "Soul Patrol",
+      "file": "content\\wiki\\Soul_Patrol.json"
+    },
+    {
       "slug": "Soul_Rend",
       "title": "Soul Rend",
       "file": "content\\wiki\\Soul_Rend.json"
@@ -4046,9 +5466,24 @@
       "file": "content\\wiki\\Sparkles.json"
     },
     {
+      "slug": "Spirit_of_the_Hare",
+      "title": "Spirit of the Hare",
+      "file": "content\\wiki\\Spirit_of_the_Hare.json"
+    },
+    {
       "slug": "Spontaneous_Re-Generation",
       "title": "Spontaneous Re-Generation",
       "file": "content\\wiki\\Spontaneous_Re-Generation.json"
+    },
+    {
+      "slug": "Sprite",
+      "title": "Orok Spawn",
+      "file": "content\\wiki\\Sprite.json"
+    },
+    {
+      "slug": "Squeakeasy_Bookkeeper",
+      "title": "Squeakeasy Bookkeeper",
+      "file": "content\\wiki\\Squeakeasy_Bookkeeper.json"
     },
     {
       "slug": "Squeaks",
@@ -4061,14 +5496,34 @@
       "file": "content\\wiki\\Staff_of_Rarrr.json"
     },
     {
+      "slug": "Statistics",
+      "title": "Statistics",
+      "file": "content\\wiki\\Statistics.json"
+    },
+    {
       "slug": "Stat_Choices",
       "title": "Stat Choices",
       "file": "content\\wiki\\Stat_Choices.json"
     },
     {
+      "slug": "Stephen",
+      "title": "Dev",
+      "file": "content\\wiki\\Stephen.json"
+    },
+    {
+      "slug": "Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston)",
+      "title": "Stiki Wiki Hot-Glue Gun (Made in Townston)",
+      "file": "content\\wiki\\Stiki_Wiki_Hot-Glue_Gun_Made_in_Townston.json"
+    },
+    {
       "slug": "Stiki_Wiki_Hot_Glue_Gun",
       "title": "Stiki Wiki Hot Glue Gun",
       "file": "content\\wiki\\Stiki_Wiki_Hot_Glue_Gun.json"
+    },
+    {
+      "slug": "Stolen_Singing_Swords",
+      "title": "Stolen Singing Swords",
+      "file": "content\\wiki\\Stolen_Singing_Swords.json"
     },
     {
       "slug": "STR",
@@ -4079,6 +5534,16 @@
       "slug": "Strength",
       "title": "Strength",
       "file": "content\\wiki\\Strength.json"
+    },
+    {
+      "slug": "Strike_at_the_Candy_Factory",
+      "title": "Strike at the Candy Factory",
+      "file": "content\\wiki\\Strike_at_the_Candy_Factory.json"
+    },
+    {
+      "slug": "Stuck",
+      "title": "Stuck",
+      "file": "content\\wiki\\Stuck.json"
     },
     {
       "slug": "Stunning",
@@ -4094,6 +5559,11 @@
       "slug": "Superior_Wand_of_Superiority",
       "title": "Superior Wand of Superiority",
       "file": "content\\wiki\\Superior_Wand_of_Superiority.json"
+    },
+    {
+      "slug": "Supply_'N_Destroy",
+      "title": "Supply 'N Destroy",
+      "file": "content\\wiki\\Supply_'N_Destroy.json"
     },
     {
       "slug": "Sweetheart's_Ring_of_Extra_XOXOXO",
@@ -4116,14 +5586,39 @@
       "file": "content\\wiki\\Talk\\Amphisbaena's_Double_Dander_Doublet.json"
     },
     {
+      "slug": "Talk:Avg_DPS",
+      "title": "Talk:Avg DPS",
+      "file": "content\\wiki\\Talk\\Avg_DPS.json"
+    },
+    {
+      "slug": "Talk:Critical_Ranger",
+      "title": "Talk:Critical Ranger",
+      "file": "content\\wiki\\Talk\\Critical_Ranger.json"
+    },
+    {
+      "slug": "Talk:Dew_Valley",
+      "title": "Talk:Dew Valley",
+      "file": "content\\wiki\\Talk\\Dew_Valley.json"
+    },
+    {
       "slug": "Talk:Dungeons",
       "title": "Talk:Dungeons",
       "file": "content\\wiki\\Talk\\Dungeons.json"
     },
     {
+      "slug": "Talk:Embercore_Path",
+      "title": "Talk:Embercore Path",
+      "file": "content\\wiki\\Talk\\Embercore_Path.json"
+    },
+    {
       "slug": "Talk:Fighter_Armor",
       "title": "Talk:Fighter Armor",
       "file": "content\\wiki\\Talk\\Fighter_Armor.json"
+    },
+    {
+      "slug": "Talk:Fighter_Skills",
+      "title": "Talk:Fighter Skills",
+      "file": "content\\wiki\\Talk\\Fighter_Skills.json"
     },
     {
       "slug": "Talk:Guides",
@@ -4141,6 +5636,11 @@
       "file": "content\\wiki\\Talk\\Homo_Erectus_Stirrups.json"
     },
     {
+      "slug": "Talk:Interface_Guide",
+      "title": "Talk:Interface Guide",
+      "file": "content\\wiki\\Talk\\Interface_Guide.json"
+    },
+    {
       "slug": "Talk:Main_Page",
       "title": "Talk:Main Page",
       "file": "content\\wiki\\Talk\\Main_Page.json"
@@ -4156,14 +5656,59 @@
       "file": "content\\wiki\\Talk\\Newbie_Guide.json"
     },
     {
+      "slug": "Talk:Offensive",
+      "title": "Talk:Offensive",
+      "file": "content\\wiki\\Talk\\Offensive.json"
+    },
+    {
+      "slug": "Talk:Passive",
+      "title": "Talk:Passive",
+      "file": "content\\wiki\\Talk\\Passive.json"
+    },
+    {
       "slug": "Talk:Poncherello's_Conqueror",
       "title": "Talk:Poncherello's Conqueror",
       "file": "content\\wiki\\Talk\\Poncherello's_Conqueror.json"
     },
     {
+      "slug": "Talk:Potion_Mule",
+      "title": "Talk:Potion Mule",
+      "file": "content\\wiki\\Talk\\Potion_Mule.json"
+    },
+    {
+      "slug": "Talk:Ratsputin's_Gulag",
+      "title": "Talk:Ratsputin's Gulag",
+      "file": "content\\wiki\\Talk\\Ratsputin's_Gulag.json"
+    },
+    {
+      "slug": "Talk:Righteous_Stomp",
+      "title": "Talk:Righteous Stomp",
+      "file": "content\\wiki\\Talk\\Righteous_Stomp.json"
+    },
+    {
+      "slug": "Talk:Sam's_Dungeon_Wholesale",
+      "title": "Talk:Sam's Dungeon Wholesale",
+      "file": "content\\wiki\\Talk\\Sam's_Dungeon_Wholesale.json"
+    },
+    {
+      "slug": "Talk:Self_Buff",
+      "title": "Talk:Self Buff",
+      "file": "content\\wiki\\Talk\\Self_Buff.json"
+    },
+    {
       "slug": "Talk:Sissirat",
       "title": "Talk:Sissirat",
       "file": "content\\wiki\\Talk\\Sissirat.json"
+    },
+    {
+      "slug": "Talk:Skills",
+      "title": "Talk:Skills",
+      "file": "content\\wiki\\Talk\\Skills.json"
+    },
+    {
+      "slug": "Talk:The_Mutanous_Malaise",
+      "title": "Talk:The Mutanous Malaise",
+      "file": "content\\wiki\\Talk\\The_Mutanous_Malaise.json"
     },
     {
       "slug": "Talk:Weapons",
@@ -4211,6 +5756,11 @@
       "file": "content\\wiki\\The_Ax.json"
     },
     {
+      "slug": "The_Bomb",
+      "title": "The Bomb",
+      "file": "content\\wiki\\The_Bomb.json"
+    },
+    {
       "slug": "The_Condemned",
       "title": "The Condemned",
       "file": "content\\wiki\\The_Condemned.json"
@@ -4231,6 +5781,11 @@
       "file": "content\\wiki\\The_Embercore_Path.json"
     },
     {
+      "slug": "The_Embercore_Portal",
+      "title": "The Embercore Portal",
+      "file": "content\\wiki\\The_Embercore_Portal.json"
+    },
+    {
       "slug": "The_Fabled_One",
       "title": "The Fabled One",
       "file": "content\\wiki\\The_Fabled_One.json"
@@ -4249,6 +5804,21 @@
       "slug": "The_Gavel",
       "title": "The Gavel",
       "file": "content\\wiki\\The_Gavel.json"
+    },
+    {
+      "slug": "The_Gulag's_Solitary_Confinement_-_Wing_A",
+      "title": "Ratsputin's Gulag",
+      "file": "content\\wiki\\The_Gulag's_Solitary_Confinement_-_Wing_A.json"
+    },
+    {
+      "slug": "The_Gulag's_Solitary_Confinement_-_Wing_B",
+      "title": "Ratsputin's Gulag",
+      "file": "content\\wiki\\The_Gulag's_Solitary_Confinement_-_Wing_B.json"
+    },
+    {
+      "slug": "The_Hermit's_Hoop",
+      "title": "The Hermit's Hoop",
+      "file": "content\\wiki\\The_Hermit's_Hoop.json"
     },
     {
       "slug": "The_Horror",
@@ -4331,6 +5901,11 @@
       "file": "content\\wiki\\The_Mutanous_Malaise_Base_Camp.json"
     },
     {
+      "slug": "The_Mutanous_Malaise_Mezzanine",
+      "title": "The Mutanous Malaise Mezzanine",
+      "file": "content\\wiki\\The_Mutanous_Malaise_Mezzanine.json"
+    },
+    {
       "slug": "The_Nadir",
       "title": "The Nadir",
       "file": "content\\wiki\\The_Nadir.json"
@@ -4346,6 +5921,11 @@
       "file": "content\\wiki\\The_Pollution_Is_Yours!.json"
     },
     {
+      "slug": "The_Pyro",
+      "title": "The Pyro",
+      "file": "content\\wiki\\The_Pyro.json"
+    },
+    {
       "slug": "The_Seer",
       "title": "The Seer",
       "file": "content\\wiki\\The_Seer.json"
@@ -4354,6 +5934,11 @@
       "slug": "The_Shadow's_Embrace",
       "title": "The Shadow's Embrace",
       "file": "content\\wiki\\The_Shadow's_Embrace.json"
+    },
+    {
+      "slug": "The_Shadow's_Gate",
+      "title": "The Shadow's Gate",
+      "file": "content\\wiki\\The_Shadow's_Gate.json"
     },
     {
       "slug": "The_Tomb_of_Singe",
@@ -4368,17 +5953,32 @@
     {
       "slug": "The_Trouble_with_Ice_Oroks_(2)",
       "title": "The Trouble with Ice Oroks (2)",
-      "file": "content\\wiki\\The_Trouble_with_Ice_Oroks_(2).json"
+      "file": "content\\wiki\\The_Trouble_with_Ice_Oroks_2.json"
     },
     {
       "slug": "The_Trouble_with_Ice_Oroks_(3)",
       "title": "The Trouble with Ice Oroks (3)",
-      "file": "content\\wiki\\The_Trouble_with_Ice_Oroks_(3).json"
+      "file": "content\\wiki\\The_Trouble_with_Ice_Oroks_3.json"
     },
     {
       "slug": "The_Un-Holy_Hand_Grenade_of_Anti-Gosh",
       "title": "The Un-Holy Hand Grenade of Anti-Gosh",
       "file": "content\\wiki\\The_Un-Holy_Hand_Grenade_of_Anti-Gosh.json"
+    },
+    {
+      "slug": "The_Whisker's_Library_-_Dogma_Section",
+      "title": "Ratsputin's Gulag",
+      "file": "content\\wiki\\The_Whisker's_Library_-_Dogma_Section.json"
+    },
+    {
+      "slug": "The_Whisker's_Library_-_Edict_Section",
+      "title": "Ratsputin's Gulag",
+      "file": "content\\wiki\\The_Whisker's_Library_-_Edict_Section.json"
+    },
+    {
+      "slug": "The_Whisker's_Library_-_Propaganda_Section",
+      "title": "Ratsputin's Gulag",
+      "file": "content\\wiki\\The_Whisker's_Library_-_Propaganda_Section.json"
     },
     {
       "slug": "The_Wicked_Barb",
@@ -4394,6 +5994,11 @@
       "slug": "The_Widower's_Nest_Base_Camp",
       "title": "The Widower's Nest Base Camp",
       "file": "content\\wiki\\The_Widower's_Nest_Base_Camp.json"
+    },
+    {
+      "slug": "The_Widower's_Nest_Gopher",
+      "title": "The Widower's Nest Gopher",
+      "file": "content\\wiki\\The_Widower's_Nest_Gopher.json"
     },
     {
       "slug": "Thickheadedness",
@@ -4471,6 +6076,11 @@
       "file": "content\\wiki\\Tip\\_Trading_With_Yourself.json"
     },
     {
+      "slug": "Tipper_Gourd",
+      "title": "Tipper Gourd",
+      "file": "content\\wiki\\Tipper_Gourd.json"
+    },
+    {
       "slug": "Toe-Knee_Eye-Ow-My-Eye",
       "title": "Toe-Knee Eye-Ow-My-Eye",
       "file": "content\\wiki\\Toe-Knee_Eye-Ow-My-Eye.json"
@@ -4484,6 +6094,16 @@
       "slug": "Token_Vendors",
       "title": "Token Vendors",
       "file": "content\\wiki\\Token_Vendors.json"
+    },
+    {
+      "slug": "Tomb_of_Singe",
+      "title": "Vergrim's Vexation",
+      "file": "content\\wiki\\Tomb_of_Singe.json"
+    },
+    {
+      "slug": "Tomb_of_the_AFK_Bolshevist",
+      "title": "Ratsputin's Gulag",
+      "file": "content\\wiki\\Tomb_of_the_AFK_Bolshevist.json"
     },
     {
       "slug": "Tormentor",
@@ -4509,6 +6129,11 @@
       "slug": "Townstons:About",
       "title": "Townstons:About",
       "file": "content\\wiki\\Townstons\\About.json"
+    },
+    {
+      "slug": "Townstons:Administrators",
+      "title": "Townstons:Administrators",
+      "file": "content\\wiki\\Townstons\\Administrators.json"
     },
     {
       "slug": "Townstons:Copyright",
@@ -4571,6 +6196,11 @@
       "file": "content\\wiki\\Toxic_Mutant_Puker.json"
     },
     {
+      "slug": "Toxic_Mutant_Unipsycho",
+      "title": "Mutant Unipsycho",
+      "file": "content\\wiki\\Toxic_Mutant_Unipsycho.json"
+    },
+    {
       "slug": "Toxic_Oracle",
       "title": "Oracle",
       "file": "content\\wiki\\Toxic_Oracle.json"
@@ -4579,6 +6209,11 @@
       "slug": "Toxic_Raythe",
       "title": "Raythe",
       "file": "content\\wiki\\Toxic_Raythe.json"
+    },
+    {
+      "slug": "Toxic_Talent",
+      "title": "Toxic Talent",
+      "file": "content\\wiki\\Toxic_Talent.json"
     },
     {
       "slug": "Toxic_Venomspitter",
@@ -4606,9 +6241,29 @@
       "file": "content\\wiki\\Trigger_Finger_Frenzy.json"
     },
     {
+      "slug": "Trigger_Happy",
+      "title": "Trigger Happy",
+      "file": "content\\wiki\\Trigger_Happy.json"
+    },
+    {
+      "slug": "Triple_Click",
+      "title": "Triple Click",
+      "file": "content\\wiki\\Triple_Click.json"
+    },
+    {
+      "slug": "Try_to_Kill_Ratsputin",
+      "title": "Try to Kill Ratsputin",
+      "file": "content\\wiki\\Try_to_Kill_Ratsputin.json"
+    },
+    {
       "slug": "Tugtor_the_Brash",
       "title": "Tugtor the Brash",
       "file": "content\\wiki\\Tugtor_the_Brash.json"
+    },
+    {
+      "slug": "Two-Handed-ranger",
+      "title": "Two-Handed-ranger",
+      "file": "content\\wiki\\Two-Handed-ranger.json"
     },
     {
       "slug": "Two_Button_Mage",
@@ -4656,9 +6311,29 @@
       "file": "content\\wiki\\Unforgettable.json"
     },
     {
+      "slug": "Unnerving_Shout",
+      "title": "Unnerving Shout",
+      "file": "content\\wiki\\Unnerving_Shout.json"
+    },
+    {
+      "slug": "Untested_Fighter_PvE_Builds",
+      "title": "Untested Fighter PvE Builds",
+      "file": "content\\wiki\\Untested_Fighter_PvE_Builds.json"
+    },
+    {
+      "slug": "Untested_Mage_PvE_Builds",
+      "title": "Untested Mage PvE Builds",
+      "file": "content\\wiki\\Untested_Mage_PvE_Builds.json"
+    },
+    {
       "slug": "Using_the_Elements",
       "title": "Using the Elements",
       "file": "content\\wiki\\Using_the_Elements.json"
+    },
+    {
+      "slug": "Utility_Items",
+      "title": "Utility Items",
+      "file": "content\\wiki\\Utility_Items.json"
     },
     {
       "slug": "Valentine's_Doily_of_Death",
@@ -4691,14 +6366,29 @@
       "file": "content\\wiki\\Vergrim's_Fancy_Gloves.json"
     },
     {
+      "slug": "Vergrim's_Revenge",
+      "title": "Ratsputin's Gulag",
+      "file": "content\\wiki\\Vergrim's_Revenge.json"
+    },
+    {
       "slug": "Vergrim's_Supply_Depot",
       "title": "Vergrim's Vexation",
       "file": "content\\wiki\\Vergrim's_Supply_Depot.json"
     },
     {
+      "slug": "Vergrim's_Vacation",
+      "title": "Vergrim's Vacation",
+      "file": "content\\wiki\\Vergrim's_Vacation.json"
+    },
+    {
       "slug": "Vergrim's_Vexation",
       "title": "Vergrim's Vexation",
       "file": "content\\wiki\\Vergrim's_Vexation.json"
+    },
+    {
+      "slug": "Vergrim's_Vexation_Story",
+      "title": "Vergrim's Vexation Story",
+      "file": "content\\wiki\\Vergrim's_Vexation_Story.json"
     },
     {
       "slug": "Vergrim's_Vibation_Plant",
@@ -4736,9 +6426,19 @@
       "file": "content\\wiki\\Vile_Shoulders.json"
     },
     {
+      "slug": "Viral_Infestation",
+      "title": "Viral Infestation",
+      "file": "content\\wiki\\Viral_Infestation.json"
+    },
+    {
       "slug": "Vis'Kar's_Bilespitter",
       "title": "Vis'Kar's Bilespitter",
       "file": "content\\wiki\\Vis'Kar's_Bilespitter.json"
+    },
+    {
+      "slug": "Volcanic_Fade_Lichlord",
+      "title": "Fade Lichlord",
+      "file": "content\\wiki\\Volcanic_Fade_Lichlord.json"
     },
     {
       "slug": "Wake_of_the_Devastator",
@@ -4756,6 +6456,16 @@
       "file": "content\\wiki\\Wally_Wanka's_Candygrams\\_Candied_Craniums.json"
     },
     {
+      "slug": "Wally_Wanka's_Candygrams:_Knucklepops",
+      "title": "Wally Wanka's Candygrams: Knucklepops",
+      "file": "content\\wiki\\Wally_Wanka's_Candygrams\\_Knucklepops.json"
+    },
+    {
+      "slug": "Wally_Wanka's_Candygrams:_Limb-N-Crunches",
+      "title": "Wally Wanka's Candygrams: Limb-N-Crunches",
+      "file": "content\\wiki\\Wally_Wanka's_Candygrams\\_Limb-N-Crunches.json"
+    },
+    {
       "slug": "Wang_Dynasty_Headgear",
       "title": "Wang Dynasty Headgear",
       "file": "content\\wiki\\Wang_Dynasty_Headgear.json"
@@ -4764,6 +6474,11 @@
       "slug": "Wasteland_Layout",
       "title": "Cave Layout",
       "file": "content\\wiki\\Wasteland_Layout.json"
+    },
+    {
+      "slug": "Watcher_of_the_Candies",
+      "title": "Watcher of the Candies",
+      "file": "content\\wiki\\Watcher_of_the_Candies.json"
     },
     {
       "slug": "Waypoint_Compass",
@@ -4836,6 +6551,11 @@
       "file": "content\\wiki\\Whisker_Ratling.json"
     },
     {
+      "slug": "Whisker_Rattling",
+      "title": "Whisker Rattling",
+      "file": "content\\wiki\\Whisker_Rattling.json"
+    },
+    {
       "slug": "Whisker_Seer",
       "title": "Whisker Seer",
       "file": "content\\wiki\\Whisker_Seer.json"
@@ -4859,6 +6579,11 @@
       "slug": "Whomper",
       "title": "Mutant Melee Whomper",
       "file": "content\\wiki\\Whomper.json"
+    },
+    {
+      "slug": "Widow's_Nest_Pot_Luck_II",
+      "title": "Widow's Nest Pot Luck II",
+      "file": "content\\wiki\\Widow's_Nest_Pot_Luck_II.json"
     },
     {
       "slug": "Widower's_Hatchling",
@@ -4894,6 +6619,11 @@
       "slug": "Wolf_Pelts",
       "title": "Wolf Pelts",
       "file": "content\\wiki\\Wolf_Pelts.json"
+    },
+    {
+      "slug": "Wolf_Pup",
+      "title": "Wolf Pup",
+      "file": "content\\wiki\\Wolf_Pup.json"
     },
     {
       "slug": "Wrath",
@@ -4934,7 +6664,17 @@
       "slug": "Z'lash",
       "title": "Z'lash",
       "file": "content\\wiki\\Z'lash.json"
+    },
+    {
+      "slug": "Z'lash's_Pad",
+      "title": "The Mutanous Malaise",
+      "file": "content\\wiki\\Z'lash's_Pad.json"
+    },
+    {
+      "slug": "Zone_Spawn_Invulnerability",
+      "title": "Zone Spawn Invulnerability",
+      "file": "content\\wiki\\Zone_Spawn_Invulnerability.json"
     }
   ],
-  "skipped": 440
+  "skipped": 630
 }

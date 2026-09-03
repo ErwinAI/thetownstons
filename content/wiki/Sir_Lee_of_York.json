@@ -3,7 +3,9 @@
   "wikiTitle": "Sir_Lee_of_York",
   "path": "/wiki/Sir_Lee_of_York",
   "description": "Sir Lee of York — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's"
+  ],
   "images": [
     "/images/Sir_lee.jpg"
   ],

@@ -3,7 +3,10 @@
   "wikiTitle": "Aba-_Champions",
   "path": "/wiki/Aba-_Champions",
   "description": "Aba- Champions — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demi-Humans",
+    "Humanoids"
+  ],
   "images": [
     "/images/Abazabbadon.jpg",
     "/images/Donna.jpg"

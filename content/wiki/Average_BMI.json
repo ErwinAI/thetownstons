@@ -3,7 +3,10 @@
   "wikiTitle": "Average_BMI",
   "path": "/wiki/Average_BMI",
   "description": "Average BMI — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Passive",
+    "Ranger Skills"
+  ],
   "images": [
     "/images/recovered/Average-bmi.png"
   ],

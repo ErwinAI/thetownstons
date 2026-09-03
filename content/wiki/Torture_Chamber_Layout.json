@@ -3,7 +3,9 @@
   "wikiTitle": "Torture_Chamber_Layout",
   "path": "/wiki/Torture_Chamber_Layout",
   "description": "Lava Crypt Layout — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "DungeonsLayouts"
+  ],
   "images": [
     "/images/Layout_Torture.jpg",
     "/images/Map_Torture.jpg"

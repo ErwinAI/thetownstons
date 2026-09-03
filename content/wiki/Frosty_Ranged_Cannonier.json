@@ -3,7 +3,9 @@
   "wikiTitle": "Frosty_Ranged_Cannonier",
   "path": "/wiki/Frosty_Ranged_Cannonier",
   "description": "Deviant Hurler — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Mutants"
+  ],
   "images": [
     "/images/Deviant_Hurler.jpg"
   ],

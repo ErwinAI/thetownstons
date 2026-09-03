@@ -3,7 +3,11 @@
   "wikiTitle": "But_Was_It_Lucky_For_the_Wolf",
   "path": "/wiki/But_Was_It_Lucky_For_the_Wolf",
   "description": "But Was It Lucky For the Wolf — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Quests",
+    "Dew Valley Quests",
+    "Billy Ray Quests"
+  ],
   "images": [],
   "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Billy_Ray\" title=\"Billy Ray\">Billy Ray</a>\n</p><p><b>Quest Type:</b> Hunt\n</p><p><b>Quest Description:</b> Keep killing wolves in Dew Valley Forest until you find a Lucky Wolf's Paw. \n</p><p><b>Quest Reward:</b> 125 Gold and Level 4 Amulet.\n</p><p><b>Return to:</b> <a href=\"/wiki/Billy_Ray\" title=\"Billy Ray\">Billy Ray</a>\n</p><p><b>Repeatable:</b> No\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

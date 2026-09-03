@@ -3,7 +3,10 @@
   "wikiTitle": "Colossus",
   "path": "/wiki/Colossus",
   "description": "Colossus — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/1h-Weapon-_Colossus.jpg"
   ],

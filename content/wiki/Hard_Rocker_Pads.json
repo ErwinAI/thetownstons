@@ -3,7 +3,11 @@
   "wikiTitle": "Hard_Rocker_Pads",
   "path": "/wiki/Hard_Rocker_Pads",
   "description": "Hard Rocker Pads — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shoulders",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Shoulders-_Cloth1_Shoulder_Pads_64px.png"
   ],

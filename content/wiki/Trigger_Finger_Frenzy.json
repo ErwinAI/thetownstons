@@ -3,7 +3,10 @@
   "wikiTitle": "Trigger_Finger_Frenzy",
   "path": "/wiki/Trigger_Finger_Frenzy",
   "description": "Trigger Finger Frenzy — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Self Buff",
+    "Ranger Skills"
+  ],
   "images": [
     "/images/recovered/Trigger-finger.png"
   ],

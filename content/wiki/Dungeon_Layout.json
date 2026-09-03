@@ -3,7 +3,9 @@
   "wikiTitle": "Dungeon_Layout",
   "path": "/wiki/Dungeon_Layout",
   "description": "Catacombs Layout — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "DungeonsLayouts"
+  ],
   "images": [
     "/images/Layout_Dungeon.jpg",
     "/images/Map_Dungeon.jpg"

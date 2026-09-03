@@ -3,7 +3,9 @@
   "wikiTitle": "Widower's_Nest",
   "path": "/wiki/Widower's_Nest",
   "description": "The Widower's Nest — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Dungeons"
+  ],
   "images": [
     "/images/WN4.jpg",
     "/images/Widower_Maker.jpg"

@@ -3,7 +3,12 @@
   "wikiTitle": "Empress_Chynah,_Manglefeet's_Manager",
   "path": "/wiki/Empress_Chynah,_Manglefeet's_Manager",
   "description": "Empress Chynah, Manglefeet's Manager — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Demi-Humans",
+    "Champions",
+    "Humanoids"
+  ],
   "images": [
     "/images/Empress_Chynah.jpg"
   ],

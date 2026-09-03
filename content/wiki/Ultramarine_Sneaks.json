@@ -3,7 +3,11 @@
   "wikiTitle": "Ultramarine_Sneaks",
   "path": "/wiki/Ultramarine_Sneaks",
   "description": "Ultramarine Sneaks — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Ultramarine_Sneaks.jpg"
   ],

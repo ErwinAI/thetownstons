@@ -3,7 +3,10 @@
   "wikiTitle": "Bling_Gnome",
   "path": "/wiki/Bling_Gnome",
   "description": "Bling Gnome — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's",
+    "Henchmen"
+  ],
   "images": [
     "/images/recovered/Gnome.png",
     "/images/recovered/Poop.png"

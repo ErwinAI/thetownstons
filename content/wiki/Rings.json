@@ -3,7 +3,9 @@
   "wikiTitle": "Rings",
   "path": "/wiki/Rings",
   "description": "Rings — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Armor"
+  ],
   "images": [
     "/images/Ring-_Cereal_Box_Ring_64px.jpg",
     "/images/Ring-_Charm_Ring_64px.jpg",

@@ -3,7 +3,10 @@
   "wikiTitle": "Gnasher",
   "path": "/wiki/Gnasher",
   "description": "Gnasher — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/2h-weapon_Gnasher.jpg"
   ],

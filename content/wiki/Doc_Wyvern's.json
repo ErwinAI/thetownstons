@@ -3,7 +3,11 @@
   "wikiTitle": "Doc_Wyvern's",
   "path": "/wiki/Doc_Wyvern's",
   "description": "Doc Wyvern's — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Boots-_Doc_Wyvern's.jpg"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "Sissirat's_Super_Sissy_Smasher_of_Stench",
   "path": "/wiki/Sissirat's_Super_Sissy_Smasher_of_Stench",
   "description": "Sissirat's Super Sissy Smasher of Stench — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows",
+    "One-Handed-Mage-Rainbows"
+  ],
   "images": [
     "/images/recovered/Weapon_runed_club_poison_weapon_icon.png"
   ],

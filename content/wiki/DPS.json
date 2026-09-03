@@ -1,0 +1,11 @@
+{
+  "title": "Damage per Second",
+  "wikiTitle": "DPS",
+  "path": "/wiki/DPS",
+  "description": "Damage per Second — The Townstons wiki",
+  "categories": [
+    "Glossary"
+  ],
+  "images": [],
+  "html": "<p><b>Damage per Second</b> or <b>DPS</b>\n</p><p>...is a measure of a weapon or spell's damage output over time.  Simply saying that one weapon is better than another based simply on damage alone would be incorrect.  It is necessary to consider the speed of the weapon or how often it does the damage.  It could very well be that the slower weapon big damage weapon does more damage over 20 seconds than the quicker lower damage weapon over the same 20 second period.\n</p><p>To properly judge a weapon's virtue compared to another, there is no substitute for just using the weapon in a real game situation.\nIf weapon A kills a subject faster than weapon B does, then weapon A is better.  This is the ideal way of doing things as the weapons may have other virtures than simply just damage output.\n</p><p>However, one may just want to know how much damage they're doing at any given time. Neither Max DPS nor Min DPS are particularly useful.  A player never hardly ever hits their Min or Max damage, but generally somewhere in the middle.  Over a long period, the damage should average somewhere midway between the Min and the Max Damages.  This midway point is known as the Average Damage per Second or <a href=\"/wiki/Avg_DPS\" title=\"Avg DPS\">Avg DPS</a>.\n</p><p><br/>\nSee <a href=\"/wiki/Average_Damage_per_Second\" title=\"Average Damage per Second\">Average Damage per Second</a> for relevant equations and calculation examples.\n</p>\n\n \n<div class=\"visualClear\"></div>"
+}

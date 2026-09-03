@@ -3,7 +3,10 @@
   "wikiTitle": "Pwnston",
   "path": "/wiki/Pwnston",
   "description": "Pwnston — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Towns/Outposts",
+    "PvP"
+  ],
   "images": [],
   "html": "<p><b>Pwnston</b> is the hub for <a href=\"/wiki/PvP\" title=\"PvP\">PvP</a> fighting. It can only be reached from a portal in <a href=\"/wiki/Townston\" title=\"Townston\">Townston</a> on the <a href=\"/wiki/PvP\" title=\"PvP\">PvP</a> server; trying to reach it on any other server will give you an error message.\n</p>\n<a name=\"Portals\"></a><h1> <span class=\"mw-headline\">Portals</span></h1>\n<ul><li>Practice Arena\n</li><li>PvP Arena\n</li></ul>\n<a name=\"Inhabitants\"></a><h1> <span class=\"mw-headline\">Inhabitants</span></h1>\n<ul><li>Pwnston Commander\n</li><li>Pwnston Practice Master\n</li><li><a href=\"/wiki/Helpful_Noobosaur\" title=\"Helpful Noobosaur\">Helpful Noobosaur</a>\n</li></ul>\n\n \n<div class=\"visualClear\"></div>"
 }

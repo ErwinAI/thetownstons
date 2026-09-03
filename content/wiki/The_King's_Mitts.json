@@ -3,7 +3,11 @@
   "wikiTitle": "The_King's_Mitts",
   "path": "/wiki/The_King's_Mitts",
   "description": "The King's Mitts — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Gloves-_The_King's_Mitts.jpg"
   ],

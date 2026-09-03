@@ -3,7 +3,11 @@
   "wikiTitle": "Nocturnal_Protection",
   "path": "/wiki/Nocturnal_Protection",
   "description": "Nocturnal Protection — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Body Armor",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Body-_Nocturnal_Protection.jpg"
   ],

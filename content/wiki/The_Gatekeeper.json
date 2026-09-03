@@ -3,7 +3,12 @@
   "wikiTitle": "The_Gatekeeper",
   "path": "/wiki/The_Gatekeeper",
   "description": "The Gatekeeper — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Demi-Humans",
+    "Champions",
+    "Humanoids"
+  ],
   "images": [
     "/images/The_Gatekeeper.jpg"
   ],

@@ -3,7 +3,9 @@
   "wikiTitle": "Helpful_Noobosaur",
   "path": "/wiki/Helpful_Noobosaur",
   "description": "Helpful Noobosaur — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's"
+  ],
   "images": [
     "/images/recovered/Noobosaur.png"
   ],

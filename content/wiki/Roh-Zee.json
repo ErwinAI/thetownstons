@@ -3,7 +3,10 @@
   "wikiTitle": "Roh-Zee",
   "path": "/wiki/Roh-Zee",
   "description": "Roh-Zee — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Champions",
+    "Mutants"
+  ],
   "images": [
     "/images/Roh-zee.jpg"
   ],

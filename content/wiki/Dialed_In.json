@@ -3,7 +3,10 @@
   "wikiTitle": "Dialed_In",
   "path": "/wiki/Dialed_In",
   "description": "Dialed In — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Rings"
+  ],
   "images": [
     "/images/Ring-_Dialed_In.jpg"
   ],

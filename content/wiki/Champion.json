@@ -3,7 +3,10 @@
   "wikiTitle": "Champion",
   "path": "/wiki/Champion",
   "description": "Champion — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Glossary",
+    "Bosses"
+  ],
   "images": [],
-  "html": "<p><b>Champion</b> mobs are more powerful and are more rarely seen than normal mobs. They can appear within a group of mobs and have auras surrounding them. If you mouse-over a <b>Champion</b> it will say (Champion) at the bottom-right of the screen, under its name, and usually give its bonus percentages in Monster Health, Damage, and Loot. Most <i>Champions</i> have unique names. They are less powerful than <a href=\"/wiki/Hero\" title=\"Hero\">Heroes</a>.\n</p><p>A list of the unique <a href=\"/wiki/Category:Champions\" title=\"Category:Champions\">champions</a>.\n</p>\n\n \n<div class=\"visualClear\"></div>"
+  "html": "<p><b>Champion</b> mobs are more powerful and are more rarely seen than normal mobs. They can appear within a group of mobs and have auras surrounding them. If you mouse-over a <b>Champion</b> it will say (Champion) at the bottom-right of the screen, under its name, and usually give its bonus percentages in Monster Health, Damage, and Loot. Most <i>Champions</i> have unique names. They are less powerful than <a href=\"/wiki/Hero\" title=\"Hero\">Heroes</a>.\n</p><p>A list of the unique <a href=\"/wiki/Category/Champions\" title=\"Category:Champions\">champions</a>.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

@@ -3,7 +3,10 @@
   "wikiTitle": "Blue_Screen_of_Life",
   "path": "/wiki/Blue_Screen_of_Life",
   "description": "Blue Screen of Life — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Self Buff",
+    "Mage Skills"
+  ],
   "images": [
     "/images/recovered/Blue_Screen_of_Life.png"
   ],

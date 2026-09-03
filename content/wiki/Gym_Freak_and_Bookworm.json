@@ -3,7 +3,9 @@
   "wikiTitle": "Gym_Freak_and_Bookworm",
   "path": "/wiki/Gym_Freak_and_Bookworm",
   "description": "Gym Freak and Bookworm — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Tips"
+  ],
   "images": [
     "/images/recovered/Gym-freak.png",
     "/images/recovered/Bookworm.png"

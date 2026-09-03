@@ -3,7 +3,10 @@
   "wikiTitle": "Poison_Resistance",
   "path": "/wiki/Poison_Resistance",
   "description": "Poison Resistance — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Self Buff",
+    "Ranger Skills"
+  ],
   "images": [
     "/images/recovered/Poison-resistance.png"
   ],

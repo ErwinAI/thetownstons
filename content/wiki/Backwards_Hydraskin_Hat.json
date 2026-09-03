@@ -3,7 +3,11 @@
   "wikiTitle": "Backwards_Hydraskin_Hat",
   "path": "/wiki/Backwards_Hydraskin_Hat",
   "description": "Backwards Hydraskin Hat — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Backwards-Hydraskin-Hat.png"
   ],

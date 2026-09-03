@@ -3,7 +3,9 @@
   "wikiTitle": "Autumn_Forest_Layout",
   "path": "/wiki/Autumn_Forest_Layout",
   "description": "Autumn Forest Layout — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "DungeonsLayouts"
+  ],
   "images": [
     "/images/Layout_Autumn_Forest.jpg",
     "/images/Map_Autumn_Forest.jpg"

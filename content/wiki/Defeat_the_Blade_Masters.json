@@ -1,0 +1,15 @@
+{
+  "title": "Defeat the Blade Masters",
+  "wikiTitle": "Defeat_the_Blade_Masters",
+  "path": "/wiki/Defeat_the_Blade_Masters",
+  "description": "Defeat the Blade Masters — The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Dew Valley Quests",
+    "Kingdom Representative Quests"
+  ],
+  "images": [
+    "/images/Blademaster.jpg"
+  ],
+  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:202px;\"><a class=\"image\" href=\"/images/Blademaster.jpg\" title=\"Blademaster\"><img alt=\"Blademaster\" border=\"0\" class=\"thumbimage\" height=\"125\" src=\"/images/Blademaster.jpg\" width=\"200\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Blademaster.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Blademaster</div></div></div>\n<p><b>Quest Giver:</b> <a href=\"/wiki/Kingdom_Representative\" title=\"Kingdom Representative\">Kingdom Representative</a>\n</p><p><b>Quest Type:</b> Hunt\n</p><p><b>Quest Description:</b> Kill 6 Whisker Blademasters in <a href=\"/wiki/Dew_Valley\" title=\"Dew Valley\">Dew Valley</a>\n</p><p><b>Quest Reward:</b> 500 Gold and 1 <a href=\"/wiki/Kings_Coin\" title=\"Kings Coin\">Kings Coin</a>\n</p><p><b>Return to:</b> <a href=\"/wiki/Kingdom_Representative\" title=\"Kingdom Representative\">Kingdom Representative</a>\n</p><p><b>Repeatable:</b> No\n</p>\n\n \n<div class=\"visualClear\"></div>"
+}

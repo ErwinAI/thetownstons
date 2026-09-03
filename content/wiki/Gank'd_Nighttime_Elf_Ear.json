@@ -3,7 +3,10 @@
   "wikiTitle": "Gank'd_Nighttime_Elf_Ear",
   "path": "/wiki/Gank'd_Nighttime_Elf_Ear",
   "description": "Gank'd Nighttime Elf Ear — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Amulets"
+  ],
   "images": [
     "/images/Amulet-_Ganks_Nighttime_Elf_Ear.jpg"
   ],

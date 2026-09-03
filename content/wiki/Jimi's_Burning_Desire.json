@@ -3,7 +3,10 @@
   "wikiTitle": "Jimi's_Burning_Desire",
   "path": "/wiki/Jimi's_Burning_Desire",
   "description": "Jimi's Burning Desire — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/Jimis-Burning-Desire.jpg"
   ],

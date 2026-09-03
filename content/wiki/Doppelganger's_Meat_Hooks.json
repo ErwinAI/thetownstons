@@ -3,7 +3,11 @@
   "wikiTitle": "Doppelganger's_Meat_Hooks",
   "path": "/wiki/Doppelganger's_Meat_Hooks",
   "description": "Doppelganger's Meat Hooks — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Gloves-_Doppelgangers_Meat_Hooks.jpg"
   ],

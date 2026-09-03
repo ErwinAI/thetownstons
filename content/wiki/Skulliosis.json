@@ -3,7 +3,10 @@
   "wikiTitle": "Skulliosis",
   "path": "/wiki/Skulliosis",
   "description": "Skulliosis — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/recovered/1h-weapon_Skulliosis.png"
   ],

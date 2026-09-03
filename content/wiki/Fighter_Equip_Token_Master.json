@@ -3,7 +3,10 @@
   "wikiTitle": "Fighter_Equip_Token_Master",
   "path": "/wiki/Fighter_Equip_Token_Master",
   "description": "Fighter Equipment Token Master — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's",
+    "Merchants"
+  ],
   "images": [
     "/images/Fighter_Equipment_Token_Master.PNG"
   ],

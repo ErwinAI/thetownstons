@@ -3,7 +3,10 @@
   "wikiTitle": "Butcher",
   "path": "/wiki/Butcher",
   "description": "Butcher — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Offensive",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/Butcher.png"
   ],

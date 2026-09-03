@@ -3,7 +3,11 @@
   "wikiTitle": "The_One_True_Bling",
   "path": "/wiki/The_One_True_Bling",
   "description": "The One True Bling — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Rings",
+    "Growth Items"
+  ],
   "images": [
     "/images/Ring-_The_One_True_Bling.jpg"
   ],

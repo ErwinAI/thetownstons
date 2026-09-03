@@ -3,7 +3,10 @@
   "wikiTitle": "Ol'_Fade_Spiritual",
   "path": "/wiki/Ol'_Fade_Spiritual",
   "description": "Ol' Fade Spiritual — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Algor's Terror Dome Quests",
+    "Fade Factory Quests"
+  ],
   "images": [],
   "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Ex-Soldier_Bubba\" title=\"Ex-Soldier Bubba\">Ex-Soldier Bubba</a>\n</p><p><b>Quest Type:</b> Hunt\n</p><p><b>Quest Description:</b> Slay 20 <a href=\"/wiki/Fade_Banshee\" title=\"Fade Banshee\">Shadow Fade Crooners</a> and 4 Famous Shadow Fade Crooners\n</p><p><b>Quest Reward:</b> 5000 Gold\n</p><p><b>Return to:</b> <a href=\"/wiki/Ex-Soldier_Bubba\" title=\"Ex-Soldier Bubba\">Ex-Soldier Bubba</a>\n</p><p><b>Repeatable:</b> No\n</p><p><b>Following Quest:</b> <a href=\"/wiki/Sing_that_Ol'_Fade_Spiritual\" title=\"Sing that Ol' Fade Spiritual\">Sing that Ol' Fade Spiritual</a>\n</p><p><i>Last Build Updated:</i> 155\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

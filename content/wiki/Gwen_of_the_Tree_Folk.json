@@ -3,7 +3,10 @@
   "wikiTitle": "Gwen_of_the_Tree_Folk",
   "path": "/wiki/Gwen_of_the_Tree_Folk",
   "description": "Gwen of the Tree Folk — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's",
+    "Skill Trainers"
+  ],
   "images": [
     "/images/Gwen-of-the-tree-folk.jpg"
   ],

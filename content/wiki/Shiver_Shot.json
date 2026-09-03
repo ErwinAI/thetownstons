@@ -3,7 +3,10 @@
   "wikiTitle": "Shiver_Shot",
   "path": "/wiki/Shiver_Shot",
   "description": "Shiver Shot — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Offensive",
+    "Ranger Skills"
+  ],
   "images": [
     "/images/recovered/Shiver_Shot.png"
   ],

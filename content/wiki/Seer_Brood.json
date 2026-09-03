@@ -3,7 +3,10 @@
   "wikiTitle": "Seer_Brood",
   "path": "/wiki/Seer_Brood",
   "description": "Whisker — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Whiskers"
+  ],
   "images": [
     "/images/recovered/Monster-_Whisker_Broodling.png"
   ],

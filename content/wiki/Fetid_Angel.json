@@ -3,7 +3,10 @@
   "wikiTitle": "Fetid_Angel",
   "path": "/wiki/Fetid_Angel",
   "description": "Angel — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Demi-Humans"
+  ],
   "images": [
     "/images/Embercore_Angel.jpg"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "Uber-Most_Amulet_of_the_Dreaded_Dragonfly",
   "path": "/wiki/Uber-Most_Amulet_of_the_Dreaded_Dragonfly",
   "description": "Uber-Most Amulet of the Dreaded Dragonfly — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Growth Items",
+    "Rainbow items",
+    "Rainbow Amulets"
+  ],
   "images": [
     "/images/Amulet-_Uber-Most_Amulet_of_the_Dreaded_Dragonfly.jpg"
   ],

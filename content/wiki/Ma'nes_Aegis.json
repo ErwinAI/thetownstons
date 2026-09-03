@@ -3,7 +3,11 @@
   "wikiTitle": "Ma'nes_Aegis",
   "path": "/wiki/Ma'nes_Aegis",
   "description": "Ma'nes Aegis — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shields",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Shield-_Ma'nes_Aegis_64px.jpg"
   ],

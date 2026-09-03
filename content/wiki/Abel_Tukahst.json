@@ -3,7 +3,10 @@
   "wikiTitle": "Abel_Tukahst",
   "path": "/wiki/Abel_Tukahst",
   "description": "Abel Tukahst — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's",
+    "Skill Trainers"
+  ],
   "images": [
     "/images/Abel-tukahst.jpg"
   ],

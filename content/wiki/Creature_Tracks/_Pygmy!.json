@@ -1,9 +1,13 @@
 {
   "title": "Creature Tracks: Pygmy!",
   "wikiTitle": "Creature_Tracks:_Pygmy!",
-  "path": "/wiki/Creature_Tracks:_Pygmy!",
+  "path": "/wiki/Creature_Tracks/_Pygmy!",
   "description": "Creature Tracks: Pygmy! — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Quests",
+    "Widower's Nest Quests",
+    "Repeatable Quests"
+  ],
   "images": [],
   "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Fiery_Pygmy_Tracks\" title=\"Fiery Pygmy Tracks\">Fiery Pygmy Tracks</a>\n</p><p><b>Quest Type:</b> Find and Kill\n</p><p><b>Quest Description:</b> Explore the Ruins of Castle Caninenstein and find 3 more sets of Pygmy tracks. Then kill the Head Pygmy.\n</p><p><b>Quest Reward:</b> 5,000 Gold and 1 <a href=\"/wiki/Kings_Coin\" title=\"Kings Coin\">Kings Coin</a>.\n</p><p><b>Return to:</b> <a href=\"/wiki/Soldier_Clohz\" title=\"Soldier Clohz\">Soldier Clohz</a>\n</p><p><b>Repeatable:</b> <a href=\"/wiki/Repeatable\" title=\"Repeatable\">Yes</a> - Repeat quests are from <a href=\"/wiki/Soldier_Clohz\" title=\"Soldier Clohz\">Soldier Clohz</a>, not <a href=\"/wiki/Fiery_Pygmy_Tracks\" title=\"Fiery Pygmy Tracks\">Fiery Pygmy Tracks</a>, but strangely for less gold.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

@@ -3,7 +3,11 @@
   "wikiTitle": "Duality_of_Man",
   "path": "/wiki/Duality_of_Man",
   "description": "Duality of Man — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Growth Items",
+    "Rainbow items",
+    "Rainbow Amulets"
+  ],
   "images": [
     "/images/Amulet-_Honest-to-Goodness_Duality_of_Man.jpg"
   ],

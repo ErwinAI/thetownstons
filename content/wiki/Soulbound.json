@@ -3,7 +3,10 @@
   "wikiTitle": "Soulbound",
   "path": "/wiki/Soulbound",
   "description": "Soulbound — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Glossary",
+    "Rainbow items"
+  ],
   "images": [],
   "html": "<p>Soulbound is the term in Dungeon Runners which means that items can only be used by the person that owns them. <a href=\"/wiki/Quest_Items\" title=\"Quest Items\">Quest Items</a> and <a href=\"/wiki/Kings_Coins\" title=\"Kings Coins\">Kings Coins</a> are automatically soulbound as soon as they are dropped by your dead enemy. Some items have the text <b>Soulbound in 10 minutes</b> in their description. This means that for the first 10 minutes the items are worn they can be traded to other players, but after this time they are soulbound. The items that are soulbound within ten minutes are all purple and rainbow items as well as items received from <a href=\"/wiki/Sam's_Dungeon_Wholesale\" title=\"Sam's Dungeon Wholesale\">Sam's Dungeon Wholesale</a> and from the <a href=\"/wiki/Token_Masters\" title=\"Token Masters\">Token Masters</a>.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

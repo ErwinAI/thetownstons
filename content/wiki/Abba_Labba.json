@@ -3,7 +3,9 @@
   "wikiTitle": "Abba_Labba",
   "path": "/wiki/Abba_Labba",
   "description": "Abba Labba — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Miscellaneous"
+  ],
   "images": [
     "/images/Abba_labba.jpg"
   ],

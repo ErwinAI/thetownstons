@@ -3,7 +3,10 @@
   "wikiTitle": "Lothar_of_the_Mound_People",
   "path": "/wiki/Lothar_of_the_Mound_People",
   "description": "Lothar of the Mound People — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's",
+    "Skill Trainers"
+  ],
   "images": [
     "/images/Lothar-of-the-mound-people.jpg"
   ],

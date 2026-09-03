@@ -13,7 +13,7 @@ export type WikiPage = {
 
 export type WikiListItem = Pick<WikiPage, 'title' | 'wikiTitle' | 'path' | 'description' | 'categories'>
 
-let cache: WikiPage[] | null = null
+let cache: WikiPage[] | null = null // rebuild when content/wiki changes
 
 function walk(dir: string, acc: WikiPage[]) {
   for (const name of readdirSync(dir)) {
@@ -47,15 +47,34 @@ function titleKey(value: string): string {
   }
 }
 
+/** MediaWiki-ish fold: case, spaces/underscores, Category: vs Category/. */
+function normKey(value: string): string {
+  let text = titleKey(value).replace(/_/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase()
+  if (text.startsWith('category/')) text = `category:${text.slice('category/'.length)}`
+  return text
+}
+
+function pageKeys(page: WikiPage): string[] {
+  const keys = [normKey(page.wikiTitle), normKey(page.path), normKey(page.title)]
+  const extra: string[] = []
+  for (const key of keys) {
+    if (key.startsWith('category:')) extra.push(key.slice('category:'.length).trim())
+    else extra.push(`category:${key}`)
+  }
+  return [...keys, ...extra]
+}
+
 export function findWikiPage(pathOrSlug: string): WikiPage | undefined {
-  const decoded = titleKey(pathOrSlug)
-  return allWikiPages().find((page) =>
-    page.wikiTitle === decoded
-    || page.path === pathOrSlug
-    || page.path === `/wiki/${pathOrSlug}`
-    || titleKey(page.path) === decoded
-    || titleKey(page.wikiTitle) === decoded,
-  )
+  const want = normKey(pathOrSlug)
+  if (!want) return undefined
+  const matches = allWikiPages().filter((page) => pageKeys(page).includes(want))
+  if (!matches.length) return undefined
+  if (want.startsWith('category:')) {
+    return matches.find((page) => normKey(page.wikiTitle).startsWith('category:'))
+      || matches.find((page) => normKey(page.title).startsWith('category:'))
+      || matches[0]
+  }
+  return matches[0]
 }
 
 export function listWikiPages(): WikiListItem[] {

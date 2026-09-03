@@ -3,7 +3,9 @@
   "wikiTitle": "Group",
   "path": "/wiki/Group",
   "description": "Group — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Glossary"
+  ],
   "images": [],
   "html": "<p>A Group is a number of characters associated in the game.\n</p><p>You can join a group by asking other characters and finding some that you like, or you can right-click on your name and have the program FIND GROUP for you.  The program will try to match you up with other players of about your level.\n</p><p>One player is designated the Group Leader and has the ability INVITE, ADD or REMOVE players from the group, and to set the group's difficulty.  It is customary to follow the group leader but there is nothing that compels group members to do so, except for the threat that he might REMOVE you.\n</p><p>All the loot dropped by monsters is allocated among the group members, so you will have loot that belongs to you and other members will have theirs. You can't pick up loot that belongs to another member.  You will get loot and xp even if you do not participate in killing the monsters.  \n</p><p>Frequently the more advanced players will form groups out to gain max experience points, or max loot, or find a particular area or NPC.  They move fast and keep their eye on the goal.  If your goal is different from theirs you may find youself mismatched into a group.  You can always LEAVE GROUP by right-clicking on your name.\n</p><p>Characters tend to enter and leave open groups pretty freely.  There may be a lot of change in the group's members in a short period of time.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

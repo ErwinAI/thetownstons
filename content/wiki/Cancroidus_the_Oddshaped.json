@@ -3,7 +3,10 @@
   "wikiTitle": "Cancroidus_the_Oddshaped",
   "path": "/wiki/Cancroidus_the_Oddshaped",
   "description": "Cancroidus the Oddshaped — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Mutants",
+    "Champions"
+  ],
   "images": [
     "/images/Cancroidus.PNG"
   ],

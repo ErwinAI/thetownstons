@@ -3,7 +3,9 @@
   "wikiTitle": "Critical_Hit",
   "path": "/wiki/Critical_Hit",
   "description": "Critical Hit — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Glossary"
+  ],
   "images": [],
   "html": "<p>A critical hit is a double damage hit. That is to say, if you were going to hit for 1000 damage, but rolled a critical hit, the damage instead would be 2000.\n</p><p>This can be seen with the \"show damage\" option toggled on.  Critical hits are shown in orange numbers.\n</p><p><br/>\nSee: <a href=\"/wiki/Critical_Hit_Mechanics\" title=\"Critical Hit Mechanics\">Critical Hit Mechanics</a> for additional information, equations and sample calculations.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

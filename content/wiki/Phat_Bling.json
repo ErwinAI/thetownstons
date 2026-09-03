@@ -3,7 +3,10 @@
   "wikiTitle": "Phat_Bling",
   "path": "/wiki/Phat_Bling",
   "description": "Phat Bling — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Amulets"
+  ],
   "images": [
     "/images/Amulet-_Phat_Bling.jpg"
   ],

@@ -3,7 +3,10 @@
   "wikiTitle": "Sweet_Vengeance",
   "path": "/wiki/Sweet_Vengeance",
   "description": "Sweet Vengeance — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/1h-weapon-_Sweet_Vengeance.jpg"
   ],

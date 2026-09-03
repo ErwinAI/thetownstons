@@ -3,7 +3,10 @@
   "wikiTitle": "Divine_Ward",
   "path": "/wiki/Divine_Ward",
   "description": "Divine Ward — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Passive",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/Skill-_Divine-ward.png"
   ],

@@ -1,0 +1,16 @@
+{
+  "title": "Crooked Guard",
+  "wikiTitle": "Crooked_Guard",
+  "path": "/wiki/Crooked_Guard",
+  "description": "Crooked Guard — The Townstons wiki",
+  "categories": [
+    "Monsters",
+    "Whiskers",
+    "Miscellaneous"
+  ],
+  "images": [
+    "/images/Crooked_guard_ranger.jpg",
+    "/images/Crooked_guard_melee.jpg"
+  ],
+  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:202px;\"><a class=\"image\" href=\"/images/Crooked_guard_ranger.jpg\" title=\"Crooked Guard -- Ranger\"><img alt=\"Crooked Guard -- Ranger\" border=\"0\" class=\"thumbimage\" height=\"206\" src=\"/images/Crooked_guard_ranger.jpg\" width=\"200\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Crooked_guard_ranger.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Crooked Guard -- Ranger</div></div></div><br/><div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:152px;\"><a class=\"image\" href=\"/images/Crooked_guard_melee.jpg\" title=\"Crooked Guard -- Melee\"><img alt=\"Crooked Guard -- Melee\" border=\"0\" class=\"thumbimage\" height=\"311\" src=\"/images/Crooked_guard_melee.jpg\" width=\"150\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Crooked_guard_melee.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Crooked Guard -- Melee</div></div></div>\n<p><b>Race:</b>  Human (?)\n</p><p><b>Class:</b> Melee and Ranger\n</p><p>The Guards set to watch over the Whiskers have turned corrupt.  Often, when Whiskers are found, Crooked Guards will also be found, cunningly (?) disguised as Whiskers. They come in ranged and melee varieties.\n</p>\n\n \n<div class=\"visualClear\"></div>"
+}

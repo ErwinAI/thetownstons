@@ -3,7 +3,10 @@
   "wikiTitle": "Spontaneous_Re-Generation",
   "path": "/wiki/Spontaneous_Re-Generation",
   "description": "Spontaneous Re-Generation — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Self Buff",
+    "Mage Skills"
+  ],
   "images": [
     "/images/recovered/Spontaneous_Rengeration.png"
   ],

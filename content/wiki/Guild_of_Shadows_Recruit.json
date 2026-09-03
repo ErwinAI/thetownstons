@@ -3,7 +3,10 @@
   "wikiTitle": "Guild_of_Shadows_Recruit",
   "path": "/wiki/Guild_of_Shadows_Recruit",
   "description": "Guild of Shadows Recruit — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Oroks",
+    "Champions"
+  ],
   "images": [
     "/images/Gos_recruit.jpg"
   ],

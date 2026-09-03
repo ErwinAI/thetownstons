@@ -1,0 +1,14 @@
+{
+  "title": "Nippy Twigs",
+  "wikiTitle": "Nippy_Twigs",
+  "path": "/wiki/Nippy_Twigs",
+  "description": "Nippy Twigs — The Townstons wiki",
+  "categories": [
+    "Self Buff",
+    "Mage Skills"
+  ],
+  "images": [
+    "/images/recovered/Skill-_Nippy_Twigs.png"
+  ],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Nippy Twigs\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/Skill-_Nippy_Twigs.png\" title=\"Image:Skill-_Nippy_Twigs.jpg\"><img alt=\"Image:Skill-_Nippy_Twigs.jpg\" border=\"0\" height=\"43\" src=\"/images/recovered/Skill-_Nippy_Twigs.png\" width=\"43\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Skill Type: </b>\n</td><td style=\"width:50%;\">Self Buff\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Trainer: </b>\n</td><td style=\"width:50%;\">Mage\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Number of Ranks: </b>\n</td><td style=\"width:50%;\">1\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Cost to Max: </b>\n</td><td style=\"width:50%;\">121502\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td colspan=\"2\">Chill Bill's attacks have increased damage, may reduce Attack Speed and Movment Speed and may Knockdown.\n</td></tr></table>\n<p>Activate this skill when <a class=\"missing\" href=\"/wiki/Chill_Bill\" title=\"Chill Bill\">Chill Bill</a> is nearby to boost his feeble little twig hands with Ice Magic!<br/>\nEvery time he strikes an enemy his attacks will dish out ice damage that is roughly 350% more powerful than his normal attack damage for 60 seconds.<br/>\nEach successful frigid hit slows the target's Movement and Attack Speed by 10% for 2 seconds and has a 33% chance to knock them down.\n</p><p><br/>\n<b>Skill Level:</b> 1\n</p><p><b>Mana:</b> 238\n</p><p><b>Duration:</b> 60 Seconds\n</p><p><b>Cool Down:</b> 30 seconds\n</p><p><b>Requires:</b> Level 31\n</p><p><b>Upgrade Cost:</b> 121502\n</p>\n\n \n<div class=\"visualClear\"></div>"
+}

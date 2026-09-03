@@ -3,7 +3,11 @@
   "wikiTitle": "Toxic_Mangler",
   "path": "/wiki/Toxic_Mangler",
   "description": "Mangler — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Demons",
+    "Demonspawn"
+  ],
   "images": [
     "/images/Embercore_Thornlash.jpg",
     "/images/Toxic_Mangler.jpg"

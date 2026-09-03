@@ -3,7 +3,10 @@
   "wikiTitle": "Abaddon's_Handy_Candy_Broomstick",
   "path": "/wiki/Abaddon's_Handy_Candy_Broomstick",
   "description": "Abaddon's Handy Candy Broomstick — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Ranger-Rainbows"
+  ],
   "images": [
     "/images/recovered/Weapon_icon_2h_gun_18.png"
   ],

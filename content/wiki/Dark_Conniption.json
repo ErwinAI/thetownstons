@@ -3,7 +3,10 @@
   "wikiTitle": "Dark_Conniption",
   "path": "/wiki/Dark_Conniption",
   "description": "Dark Conniption — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Self Buff",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/Dark_Conniption.png"
   ],

@@ -3,7 +3,10 @@
   "wikiTitle": "Soul_Rend",
   "path": "/wiki/Soul_Rend",
   "description": "Soul Rend — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Offensive",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/Soul-rend.png"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "Santoro's_Vise",
   "path": "/wiki/Santoro's_Vise",
   "description": "Santoro's Vise — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Helm-_Santoro's_Vise.jpg"
   ],

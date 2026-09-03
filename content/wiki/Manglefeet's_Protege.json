@@ -3,7 +3,10 @@
   "wikiTitle": "Manglefeet's_Protege",
   "path": "/wiki/Manglefeet's_Protege",
   "description": "Manglefeet's Protege — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Mutants",
+    "Champions"
+  ],
   "images": [
     "/images/Manglefeets_protege.jpg"
   ],

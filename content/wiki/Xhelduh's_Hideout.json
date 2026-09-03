@@ -3,7 +3,9 @@
   "wikiTitle": "Xhelduh's_Hideout",
   "path": "/wiki/Xhelduh's_Hideout",
   "description": "The Widower's Nest — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Dungeons"
+  ],
   "images": [
     "/images/WN4.jpg",
     "/images/Widower_Maker.jpg"

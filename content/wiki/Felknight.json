@@ -3,7 +3,10 @@
   "wikiTitle": "Felknight",
   "path": "/wiki/Felknight",
   "description": "Knight — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Revenants",
+    "Demonspawn"
+  ],
   "images": [
     "/images/MobKnight.jpg"
   ],

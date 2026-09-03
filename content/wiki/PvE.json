@@ -3,7 +3,10 @@
   "wikiTitle": "PvE",
   "path": "/wiki/PvE",
   "description": "PvE — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Glossary",
+    "Builds"
+  ],
   "images": [],
   "html": "<p>Player versus Environment.  The usual mode for playing Dungeon Runners, just you and your companions against the monsters!\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

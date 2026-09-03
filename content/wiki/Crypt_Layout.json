@@ -3,7 +3,9 @@
   "wikiTitle": "Crypt_Layout",
   "path": "/wiki/Crypt_Layout",
   "description": "Crypt Layout — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "DungeonsLayouts"
+  ],
   "images": [
     "/images/Layout_Crypt.jpg",
     "/images/Map_Crypt.jpg"

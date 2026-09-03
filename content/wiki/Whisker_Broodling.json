@@ -3,7 +3,10 @@
   "wikiTitle": "Whisker_Broodling",
   "path": "/wiki/Whisker_Broodling",
   "description": "Whisker — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Whiskers"
+  ],
   "images": [
     "/images/recovered/Monster-_Whisker_Broodling.png"
   ],

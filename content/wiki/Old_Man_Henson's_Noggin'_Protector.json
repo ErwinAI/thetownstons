@@ -3,7 +3,11 @@
   "wikiTitle": "Old_Man_Henson's_Noggin'_Protector",
   "path": "/wiki/Old_Man_Henson's_Noggin'_Protector",
   "description": "Old Man Henson's Noggin' Protector — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Old-Man-Hensons-Noggin-Protector.jpg"
   ],

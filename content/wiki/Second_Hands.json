@@ -3,7 +3,11 @@
   "wikiTitle": "Second_Hands",
   "path": "/wiki/Second_Hands",
   "description": "Second Hands — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Gloves-_Second_Hands.jpg"
   ],

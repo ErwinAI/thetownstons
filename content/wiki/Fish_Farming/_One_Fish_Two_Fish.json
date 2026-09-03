@@ -1,9 +1,13 @@
 {
   "title": "Fish Farming: One Fish Two Fish",
   "wikiTitle": "Fish_Farming:_One_Fish_Two_Fish",
-  "path": "/wiki/Fish_Farming:_One_Fish_Two_Fish",
+  "path": "/wiki/Fish_Farming/_One_Fish_Two_Fish",
   "description": "Fish Farming: One Fish Two Fish — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Quests",
+    "Vergrim's Quests",
+    "Repeatable Quests"
+  ],
   "images": [],
   "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Sir_Temdewm\" title=\"Sir Temdewm\">Sir Temdewm</a>\n</p><p><b>Quest Type:</b> Collect\n</p><p><b>Quest Description:</b> Collect 9 One Fish and 11 Two Fish in <a href=\"/wiki/Vergrim's_Vexation\" title=\"Vergrim's Vexation\">Vergrim's Vexation</a>\n</p><p><b>Quest Reward:</b> 2,125 Gold and 1 <a href=\"/wiki/Kings_Coin\" title=\"Kings Coin\">Kings Coin</a>.\n</p><p><b>Return to:</b> <a href=\"/wiki/Sir_Temdewm\" title=\"Sir Temdewm\">Sir Temdewm</a>\n</p><p><b>Repeatable:</b> <a href=\"/wiki/Repeatable\" title=\"Repeatable\">Yes</a>\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

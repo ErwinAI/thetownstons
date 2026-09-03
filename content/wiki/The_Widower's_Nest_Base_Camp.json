@@ -3,7 +3,9 @@
   "wikiTitle": "The_Widower's_Nest_Base_Camp",
   "path": "/wiki/The_Widower's_Nest_Base_Camp",
   "description": "The Widower's Nest Base Camp — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Towns/Outposts"
+  ],
   "images": [
     "/images/WNBC.jpg"
   ],

@@ -56,16 +56,20 @@ def slug_from_path(path: Path) -> str | None:
 
 
 def route_path(slug: str) -> str:
-    """Parentheses are regex groups to Nitro/rou3. Encode those titles."""
+    """Colons are Vue/Nitro params; parentheses are regex groups."""
+    if ":" in slug:
+        ns, rest = slug.split(":", 1)
+        slug = f"{ns}/{rest}"
     if re.search(r"[()[\]?*]", slug):
-        return "/wiki/" + quote(slug, safe="_-,'!:")
+        return "/wiki/" + quote(slug, safe="/_-,'!")
     return "/wiki/" + slug
 
 
 def file_slug(slug: str) -> str:
-    if slug.startswith("Category:"):
-        return "Category/" + slug[len("Category:") :].replace("/", "-")
-    return slug.replace("/", "-").replace("(", "").replace(")", "")
+    if ":" in slug:
+        ns, rest = slug.split(":", 1)
+        slug = f"{ns}/{rest.replace('/', '-')}"
+    return slug.replace("(", "").replace(")", "")
 
 
 def wiki_href(href: str) -> str:
@@ -106,6 +110,16 @@ def clean_body(soup: BeautifulSoup) -> tuple[str, list[str], list[str]]:
     body = soup.find(id="bodyContent") or soup.find(id="mw-content-text")
     if not body:
         return "", [], []
+
+    # catlinks live inside bodyContent — read them before teardown
+    categories: list[str] = []
+    catlinks = soup.find(id="catlinks")
+    if catlinks:
+        for a in catlinks.select("a"):
+            title = a.get("title") or a.get_text(strip=True)
+            if title and not title.startswith("Special:"):
+                categories.append(title.replace("Category:", ""))
+
     for sel in (
         "#siteSub",
         "#contentSub",
@@ -120,14 +134,6 @@ def clean_body(soup: BeautifulSoup) -> tuple[str, list[str], list[str]]:
             el.decompose()
     for comment in body.find_all(string=lambda t: isinstance(t, Comment)):
         comment.extract()
-
-    categories: list[str] = []
-    catlinks = soup.find(id="catlinks")
-    if catlinks:
-        for a in catlinks.select("a"):
-            title = a.get("title") or a.get_text(strip=True)
-            if title and not title.startswith("Special:"):
-                categories.append(title.replace("Category:", ""))
 
     images: list[str] = []
     for img in body.find_all("img"):
@@ -173,6 +179,43 @@ def write_page(slug: str, title: str, html: str, categories: list[str], images: 
     return dest
 
 
+def backfill_categories() -> int:
+    """Category pages already list members — stamp those names onto articles."""
+    by_path: dict[str, dict] = {}
+    files: dict[str, Path] = {}
+    for path in CONTENT.rglob("*.json"):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        key = (data.get("wikiTitle") or "").replace(" ", "_")
+        by_path[key] = data
+        files[key] = path
+        by_path[data.get("path") or ""] = data
+        files[data.get("path") or ""] = path
+
+    stamped = 0
+    for path in CONTENT.rglob("*.json"):
+        data = json.loads(path.read_text(encoding="utf-8"))
+        title = data.get("title") or ""
+        if not title.startswith("Category:"):
+            continue
+        cat = title.split(":", 1)[1].strip()
+        html = data.get("html") or ""
+        for href in re.findall(r'href="(/wiki/[^"]+)"', html):
+            if "/Category:" in href or "/Category/" in href:
+                continue
+            slug = href[len("/wiki/") :]
+            page = by_path.get(slug) or by_path.get(href)
+            page_path = files.get(slug) or files.get(href)
+            if not page or not page_path:
+                continue
+            cats = list(page.get("categories") or [])
+            if cat not in cats:
+                cats.append(cat)
+                page["categories"] = cats
+                page_path.write_text(json.dumps(page, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+                stamped += 1
+    return stamped
+
+
 def main() -> None:
     CONTENT.mkdir(parents=True, exist_ok=True)
     written: list[dict] = []
@@ -195,9 +238,10 @@ def main() -> None:
             continue
         dest = write_page(slug, title, html, categories, images)
         written.append({"slug": slug, "title": title, "file": str(dest.relative_to(ROOT))})
+    extra = backfill_categories()
     MANIFEST.parent.mkdir(parents=True, exist_ok=True)
     MANIFEST.write_text(json.dumps({"pages": written, "skipped": skipped}, indent=2), encoding="utf-8")
-    print(f"Wrote {len(written)} wiki pages, skipped {skipped}")
+    print(f"Wrote {len(written)} wiki pages, skipped {skipped}, backfilled {extra} category stamps")
 
 
 if __name__ == "__main__":

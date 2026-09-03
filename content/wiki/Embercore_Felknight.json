@@ -3,7 +3,10 @@
   "wikiTitle": "Embercore_Felknight",
   "path": "/wiki/Embercore_Felknight",
   "description": "Knight — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Revenants",
+    "Demonspawn"
+  ],
   "images": [
     "/images/MobKnight.jpg"
   ],

@@ -3,7 +3,12 @@
   "wikiTitle": "Crazy_Cat_Lady",
   "path": "/wiki/Crazy_Cat_Lady",
   "description": "Crazy Cat Lady — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Vergrim's Quests",
+    "Townston Quests",
+    "Audrey the Alchemist Quests",
+    "Fish Farming"
+  ],
   "images": [],
   "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Audrey_the_Alchemist\" title=\"Audrey the Alchemist\">Audrey the Alchemist</a>\n</p><p><b>Quest Type:</b> Collect\n</p><p><b>Quest Description:</b> Collect 8 One Fish and 9 Two Fish in <a href=\"/wiki/Vergrim's_Vexation\" title=\"Vergrim's Vexation\">Vergrim's Vexation</a>.\n</p><p><b>Quest Reward:</b> 4250 Gold and 1 <a href=\"/wiki/King's_Coin\" title=\"King's Coin\">King's Coin</a>\n</p><p><b>Return to:</b> <a href=\"/wiki/Audrey_the_Alchemist\" title=\"Audrey the Alchemist\">Audrey the Alchemist</a>\n</p><p><b>Repeatable:</b> No.  \n</p><p><b>Following Quest:</b> <a href=\"/wiki/Crazy_Cat_Lady_%282%29\" title=\"Crazy Cat Lady (2)\">Crazy Cat Lady (2)</a>\n</p><p><i>Last Build Updated:</i> 155\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

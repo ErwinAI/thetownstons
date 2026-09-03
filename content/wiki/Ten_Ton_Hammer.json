@@ -3,7 +3,10 @@
   "wikiTitle": "Ten_Ton_Hammer",
   "path": "/wiki/Ten_Ton_Hammer",
   "description": "Ten Ton Hammer — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/recovered/2h-weapon-_Ten_Ton_Hammer.png"
   ],

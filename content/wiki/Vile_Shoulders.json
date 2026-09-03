@@ -3,7 +3,11 @@
   "wikiTitle": "Vile_Shoulders",
   "path": "/wiki/Vile_Shoulders",
   "description": "Vile Shoulders — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shoulders",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Vile-Shoulders.jpg"
   ],

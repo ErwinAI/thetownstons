@@ -3,7 +3,10 @@
   "wikiTitle": "Cleave",
   "path": "/wiki/Cleave",
   "description": "Cleave — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Offensive",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/Cleave.png"
   ],

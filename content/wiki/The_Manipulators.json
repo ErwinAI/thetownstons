@@ -3,7 +3,11 @@
   "wikiTitle": "The_Manipulators",
   "path": "/wiki/The_Manipulators",
   "description": "The Manipulators — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Gloves-_Ghost3_Gloves_64px.png"
   ],

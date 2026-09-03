@@ -3,7 +3,10 @@
   "wikiTitle": "Bad_Mutha",
   "path": "/wiki/Bad_Mutha",
   "description": "Bad Mutha — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Ranger-Rainbows"
+  ],
   "images": [
     "/images/2h-Ranged-_Bad_Mutha-BFG_9001.jpg"
   ],

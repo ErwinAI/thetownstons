@@ -3,7 +3,9 @@
   "wikiTitle": "Hero",
   "path": "/wiki/Hero",
   "description": "Hero — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Glossary"
+  ],
   "images": [],
   "html": "<p><b>Hero</b> mobs are more powerful and more common than <i>Champion</i> mobs. They appear in some groups of mobs, and they also show up at groups that are guarding <a href=\"/wiki/Treasure_Chests\" title=\"Treasure Chests\">Treasure Chests</a>. They have auras surrounding them. If you mouse-over a Hero it will say (Hero) instead of (Normal) at the bottom-right of the screen, and usually give its bonus percentages in Monster Health, Damage, and Loot. A <b>Hero</b> is less powerful than a <b>Boss</b>.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

@@ -3,7 +3,11 @@
   "wikiTitle": "The_Most_Amazing_Ring_Known_to_Goats",
   "path": "/wiki/The_Most_Amazing_Ring_Known_to_Goats",
   "description": "The Most Amazing Ring Known to Goats — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Growth Items",
+    "Rainbow items",
+    "Rainbow Rings"
+  ],
   "images": [
     "/images/recovered/Ring-_The_Most_Amazing_Ring_Known_to_Goats.png"
   ],

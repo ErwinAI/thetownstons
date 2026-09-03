@@ -3,7 +3,11 @@
   "wikiTitle": "Brilliance",
   "path": "/wiki/Brilliance",
   "description": "Brilliance — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Helm-_Sunstone_Helm_64px.png"
   ],

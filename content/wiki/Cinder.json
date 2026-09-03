@@ -3,7 +3,11 @@
   "wikiTitle": "Cinder",
   "path": "/wiki/Cinder",
   "description": "Cinder — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Body Armor",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Body-_Cinder.jpg"
   ],

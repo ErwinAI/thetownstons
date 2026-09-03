@@ -3,7 +3,9 @@
   "wikiTitle": "Nasty_Destroyer",
   "path": "/wiki/Nasty_Destroyer",
   "description": "Nasty Destroyer — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Fades"
+  ],
   "images": [
     "/images/Monster-_Nasty_Destroyer.jpg"
   ],

@@ -3,7 +3,9 @@
   "wikiTitle": "Health_Potions",
   "path": "/wiki/Health_Potions",
   "description": "Health Potions — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Utility Items"
+  ],
   "images": [
     "/images/recovered/HealthPotion.png"
   ],

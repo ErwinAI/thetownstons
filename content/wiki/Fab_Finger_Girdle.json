@@ -3,7 +3,10 @@
   "wikiTitle": "Fab_Finger_Girdle",
   "path": "/wiki/Fab_Finger_Girdle",
   "description": "Fab Finger Girdle — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Rings"
+  ],
   "images": [
     "/images/Fab_Finger_Girdle.jpg"
   ],

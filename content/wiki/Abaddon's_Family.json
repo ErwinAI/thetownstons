@@ -3,7 +3,10 @@
   "wikiTitle": "Abaddon's_Family",
   "path": "/wiki/Abaddon's_Family",
   "description": "Abaddon's Family — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Champions",
+    "Demonspawn"
+  ],
   "images": [],
-  "html": "<div class=\"noarticletext\">There is currently no text in this page, you can <a href=\"/wiki/Special:Search/Abaddon's_Family\" title=\"Special:Search/Abaddon's Family\">search for this page title</a> in other pages or <a class=\"external text\" href=\"/wiki/Abaddon's_Family\" rel=\"nofollow\" title=\"http://www.thetownstons.com/thetownstons/index.php?title=Abaddon%27s_Family&amp;action=edit\">edit this page</a>.</div>\n\n<div class=\"visualClear\"></div>"
+  "html": "<div class=\"noarticletext\">There is currently no text in this page, you can <a href=\"/wiki/Special/Search/Abaddon's_Family\" title=\"Special:Search/Abaddon's Family\">search for this page title</a> in other pages or <a class=\"external text\" href=\"/wiki/Abaddon's_Family\" rel=\"nofollow\" title=\"http://www.thetownstons.com/thetownstons/index.php?title=Abaddon%27s_Family&amp;action=edit\">edit this page</a>.</div>\n\n<div class=\"visualClear\"></div>"
 }

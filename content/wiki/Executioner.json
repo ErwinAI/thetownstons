@@ -3,7 +3,10 @@
   "wikiTitle": "Executioner",
   "path": "/wiki/Executioner",
   "description": "Executioner — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/recovered/1h-weapon_Executioner.png"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "Creepy_Feet",
   "path": "/wiki/Creepy_Feet",
   "description": "Creepy Feet — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Boots-_Bone_Splint_Boots.png"
   ],

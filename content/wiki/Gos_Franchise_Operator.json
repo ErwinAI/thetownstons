@@ -3,7 +3,10 @@
   "wikiTitle": "Gos_Franchise_Operator",
   "path": "/wiki/Gos_Franchise_Operator",
   "description": "Gos Franchise Operator — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Champions"
+  ],
   "images": [
     "/images/GOS_Franchise.PNG"
   ],

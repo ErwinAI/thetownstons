@@ -3,7 +3,11 @@
   "wikiTitle": "Boots_of_Quartz",
   "path": "/wiki/Boots_of_Quartz",
   "description": "Boots of Quartz — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Boots-_Boots_of_Quartz.jpg"
   ],

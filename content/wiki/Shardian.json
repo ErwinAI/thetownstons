@@ -3,7 +3,10 @@
   "wikiTitle": "Shardian",
   "path": "/wiki/Shardian",
   "description": "Shardian — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shields"
+  ],
   "images": [
     "/images/Shield-_Shardian.jpg"
   ],

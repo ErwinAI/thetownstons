@@ -3,7 +3,9 @@
   "wikiTitle": "Elm_Forest_Layout",
   "path": "/wiki/Elm_Forest_Layout",
   "description": "Elm Forest Layout — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "DungeonsLayouts"
+  ],
   "images": [
     "/images/Layout_Forest.jpg",
     "/images/Map_Forest.jpg"

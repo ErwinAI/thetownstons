@@ -3,7 +3,10 @@
   "wikiTitle": "Large_Dull_Edge",
   "path": "/wiki/Large_Dull_Edge",
   "description": "Large Dull Edge — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/1h-Weapon-_Large_Dull_Edge.jpg"
   ],

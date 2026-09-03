@@ -3,7 +3,10 @@
   "wikiTitle": "Giant_Tuning_Fork",
   "path": "/wiki/Giant_Tuning_Fork",
   "description": "Giant Tuning Fork — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/2h-Weapon-_Giant_Tuning_Fork.jpg"
   ],

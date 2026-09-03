@@ -3,7 +3,9 @@
   "wikiTitle": "Vexation_Station",
   "path": "/wiki/Vexation_Station",
   "description": "Vexation Station — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Towns/Outposts"
+  ],
   "images": [
     "/images/Vexationstation.jpg"
   ],

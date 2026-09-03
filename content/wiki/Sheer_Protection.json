@@ -3,7 +3,11 @@
   "wikiTitle": "Sheer_Protection",
   "path": "/wiki/Sheer_Protection",
   "description": "Sheer Protection — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Body Armor",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Sheer_Protection.jpg"
   ],

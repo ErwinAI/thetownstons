@@ -3,7 +3,10 @@
   "wikiTitle": "Cave_Yetti",
   "path": "/wiki/Cave_Yetti",
   "description": "Orok Juggernaut — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Oroks"
+  ],
   "images": [
     "/images/recovered/Monster-_Ice_Orok_Juggernaut.png"
   ],

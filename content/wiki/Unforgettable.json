@@ -3,7 +3,10 @@
   "wikiTitle": "Unforgettable",
   "path": "/wiki/Unforgettable",
   "description": "Unforgettable — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/2h-Weapon-_Unforgettable.jpg"
   ],

@@ -3,7 +3,10 @@
   "wikiTitle": "Disemboweler",
   "path": "/wiki/Disemboweler",
   "description": "Disemboweler — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/Disemboweler.jpg"
   ],

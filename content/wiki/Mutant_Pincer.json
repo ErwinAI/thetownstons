@@ -3,7 +3,10 @@
   "wikiTitle": "Mutant_Pincer",
   "path": "/wiki/Mutant_Pincer",
   "description": "Mutant Pincer — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Mutants"
+  ],
   "images": [
     "/images/recovered/Pincers.png"
   ],

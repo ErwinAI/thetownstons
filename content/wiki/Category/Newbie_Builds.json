@@ -1,9 +1,11 @@
 {
   "title": "Category:Newbie Builds",
   "wikiTitle": "Category:Newbie_Builds",
-  "path": "/wiki/Category:Newbie_Builds",
+  "path": "/wiki/Category/Newbie_Builds",
   "description": "Category:Newbie Builds — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Builds"
+  ],
   "images": [],
-  "html": "<p>This is the starting point.  Once you have explored the Basic Builds, you will be ready to go on with <a href=\"/wiki/Category:PvE_Builds\" title=\"Category:PvE Builds\">Category:PvE Builds</a> or <a href=\"/wiki/Category:PvP_Builds\" title=\"Category:PvP Builds\">Category:PvP Builds</a> at the advanced level.\n</p>\n\n<div id=\"mw-pages\">\n<h2>Articles in category \"Newbie Builds\"</h2>\n<p>There are 4 articles in this category.\n</p><h3>B</h3>\n<ul><li><a href=\"/wiki/Basic_Builds_for_Newbies\" title=\"Basic Builds for Newbies\">Basic Builds for Newbies</a></li></ul><h3>S</h3>\n<ul><li><a href=\"/wiki/Stat_Choices\" title=\"Stat Choices\">Stat Choices</a></li></ul><h3>T</h3>\n<ul><li><a href=\"/wiki/Two_Button_Mage\" title=\"Two Button Mage\">Two Button Mage</a></li><li><a href=\"/wiki/Two_Skills_Mage\" title=\"Two Skills Mage\">Two Skills Mage</a></li></ul>\n</div>\n \n<div class=\"visualClear\"></div>"
+  "html": "<p>This is the starting point.  Once you have explored the Basic Builds, you will be ready to go on with <a href=\"/wiki/Category/PvE_Builds\" title=\"Category:PvE Builds\">Category:PvE Builds</a> or <a href=\"/wiki/Category/PvP_Builds\" title=\"Category:PvP Builds\">Category:PvP Builds</a> at the advanced level.\n</p>\n\n<div id=\"mw-pages\">\n<h2>Articles in category \"Newbie Builds\"</h2>\n<p>There are 4 articles in this category.\n</p><h3>B</h3>\n<ul><li><a href=\"/wiki/Basic_Builds_for_Newbies\" title=\"Basic Builds for Newbies\">Basic Builds for Newbies</a></li></ul><h3>S</h3>\n<ul><li><a href=\"/wiki/Stat_Choices\" title=\"Stat Choices\">Stat Choices</a></li></ul><h3>T</h3>\n<ul><li><a href=\"/wiki/Two_Button_Mage\" title=\"Two Button Mage\">Two Button Mage</a></li><li><a href=\"/wiki/Two_Skills_Mage\" title=\"Two Skills Mage\">Two Skills Mage</a></li></ul>\n</div>\n \n<div class=\"visualClear\"></div>"
 }

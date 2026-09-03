@@ -3,7 +3,12 @@
   "wikiTitle": "Daze_Pustain",
   "path": "/wiki/Daze_Pustain",
   "description": "Daze Pustain — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Champions",
+    "Demonspawn",
+    "Demi-Humans",
+    "Humanoids"
+  ],
   "images": [
     "/images/Daze_Pustain.jpg"
   ],

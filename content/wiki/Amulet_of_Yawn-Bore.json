@@ -3,7 +3,11 @@
   "wikiTitle": "Amulet_of_Yawn-Bore",
   "path": "/wiki/Amulet_of_Yawn-Bore",
   "description": "Amulet of Yawn-Bore — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Amulets",
+    "Growth Items"
+  ],
   "images": [
     "/images/Amulet-_The_Found_One.jpg"
   ],

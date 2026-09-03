@@ -3,7 +3,11 @@
   "wikiTitle": "Ma'nes_Scapulae",
   "path": "/wiki/Ma'nes_Scapulae",
   "description": "Ma'nes Scapulae — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shoulders",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Shoulders-_Ghost4_Spaulders_64px.png"
   ],

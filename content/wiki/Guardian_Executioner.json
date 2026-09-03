@@ -3,7 +3,13 @@
   "wikiTitle": "Guardian_Executioner",
   "path": "/wiki/Guardian_Executioner",
   "description": "Guardian Executioner — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Demonspawn",
+    "Demi-Humans",
+    "Champions",
+    "Humanoids"
+  ],
   "images": [
     "/images/Guardian_executioner.jpg"
   ],

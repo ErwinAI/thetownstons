@@ -3,7 +3,11 @@
   "wikiTitle": "Mad_Bling",
   "path": "/wiki/Mad_Bling",
   "description": "Mad Bling — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Amulets",
+    "Growth Items"
+  ],
   "images": [
     "/images/Amulet-_Mad_Bling.jpg"
   ],

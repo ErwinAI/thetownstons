@@ -3,7 +3,9 @@
   "wikiTitle": "Ice_Cave_Layout",
   "path": "/wiki/Ice_Cave_Layout",
   "description": "Ice Cave Layout — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "DungeonsLayouts"
+  ],
   "images": [
     "/images/Layout_Ice_Field.jpg",
     "/images/Map_Ice_Field.jpg"

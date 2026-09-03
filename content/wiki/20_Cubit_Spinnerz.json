@@ -3,7 +3,11 @@
   "wikiTitle": "20_Cubit_Spinnerz",
   "path": "/wiki/20_Cubit_Spinnerz",
   "description": "20 Cubit Spinnerz — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Boots-_20_Cubit_Spinnerz.png"
   ],

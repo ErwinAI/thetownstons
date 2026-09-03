@@ -3,7 +3,10 @@
   "wikiTitle": "Vergrim's_Brood",
   "path": "/wiki/Vergrim's_Brood",
   "description": "Whisker — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Whiskers"
+  ],
   "images": [
     "/images/recovered/Monster-_Whisker_Broodling.png"
   ],

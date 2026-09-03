@@ -3,7 +3,11 @@
   "wikiTitle": "The_Late_Knight's_Gauntlets",
   "path": "/wiki/The_Late_Knight's_Gauntlets",
   "description": "The Late Knight's Gauntlets — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Gloves-_Dark_Plate_Gauntlets.png"
   ],

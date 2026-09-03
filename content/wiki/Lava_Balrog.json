@@ -3,7 +3,10 @@
   "wikiTitle": "Lava_Balrog",
   "path": "/wiki/Lava_Balrog",
   "description": "Lava Balrog — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Demons"
+  ],
   "images": [
     "/images/Lava_balrog.jpg"
   ],

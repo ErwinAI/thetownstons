@@ -3,7 +3,9 @@
   "wikiTitle": "Attributes",
   "path": "/wiki/Attributes",
   "description": "Attributes — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Glossary"
+  ],
   "images": [],
   "html": "<p>In Dungeon Runners, there are four basic characteristics that define what types of <a href=\"/wiki/Skills\" title=\"Skills\">skills</a> your character accelerate at. Each time you level up, you are given five <strong class=\"selflink\">attribute</strong> points to place among these <strong class=\"selflink\">attributes</strong> as you wish. You may also remove all your points from your <strong class=\"selflink\">attributes</strong> to reassign them differently by hitting the <a href=\"/wiki/Re-Spec\" title=\"Re-Spec\">Re-Spec</a> button on your character statistics display screen.\n</p><p><br/>\nThe four attributes are:\n</p>\n<ul><li><a href=\"/wiki/Strength\" title=\"Strength\">Strength</a> - Boosts melee attack damage and <a href=\"/wiki/Defense_Rating\" title=\"Defense Rating\">Defense Rating</a>.\n</li><li><a href=\"/wiki/Agility\" title=\"Agility\">Agility</a> - Increases your ranged attack damage and <a href=\"/wiki/Attack_Rating\" title=\"Attack Rating\">Attack Rating</a>.\n</li><li><a href=\"/wiki/Endurance\" title=\"Endurance\">Endurance</a> - Increases your health.\n</li><li><a href=\"/wiki/Intellect\" title=\"Intellect\">Intellect</a> - Increases your spell damage and mana capacity.\n</li></ul>\n<p><br/>\nMagical items in the game frequently boost one or more of these attributes.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

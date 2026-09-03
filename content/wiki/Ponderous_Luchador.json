@@ -3,7 +3,11 @@
   "wikiTitle": "Ponderous_Luchador",
   "path": "/wiki/Ponderous_Luchador",
   "description": "Ponderous Luchador — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Demi-Humans",
+    "Humanoids"
+  ],
   "images": [
     "/images/Ponderous_Luchador.jpg"
   ],

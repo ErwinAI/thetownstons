@@ -3,7 +3,9 @@
   "wikiTitle": "Newbie",
   "path": "/wiki/Newbie",
   "description": "Newbie — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Glossary"
+  ],
   "images": [],
   "html": "<p>Newbie is a slang term for a new player to the current game and is in no means limited to Dungeon Runners.  Traditionally outside Dungeon Runners, <i>newbie</i> is not a derogatory term and just means \"I am new here!\".  In a similar vein, a derogatory term for new players who can be quite annoying through begging for a <a href=\"/wiki/Powerlevel\" title=\"Powerlevel\">powerlevel</a>, gold or <a href=\"/wiki/Items\" title=\"Items\">Items</a> are often referred to as <i>n00b</i>.\n</p><p><i>nub</i> is not a term used for newbies or n00bs in any form of English, including slang.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

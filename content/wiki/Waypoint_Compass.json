@@ -3,7 +3,9 @@
   "wikiTitle": "Waypoint_Compass",
   "path": "/wiki/Waypoint_Compass",
   "description": "Waypoint Compass — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Utility Items"
+  ],
   "images": [
     "/images/recovered/Waypoint_Compass_128px.png"
   ],

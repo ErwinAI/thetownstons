@@ -3,7 +3,11 @@
   "wikiTitle": "Threadz_Finger_Warmers",
   "path": "/wiki/Threadz_Finger_Warmers",
   "description": "Threadz Finger Warmers — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Gloves-Threadz_Finger_Warmers.jpg"
   ],

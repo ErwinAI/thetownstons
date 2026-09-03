@@ -3,9 +3,12 @@
   "wikiTitle": "Shadow_Howler",
   "path": "/wiki/Shadow_Howler",
   "description": "Shadow Howler — The Townstons wiki",
-  "categories": [],
-  "images": [
-    "/images/Shadow_howler.jpg"
+  "categories": [
+    "Demonspawn",
+    "Demons"
   ],
-  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:252px;\"><a class=\"image\" href=\"/images/Shadow_howler.jpg\" title=\"Shadow Howler\"><img alt=\"Shadow Howler\" border=\"0\" class=\"thumbimage\" height=\"210\" src=\"/images/Shadow_howler.jpg\" width=\"250\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Shadow_howler.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Shadow Howler</div></div></div>\n<p>A sort of a cross between a balrog and a wolf.\n</p><p><b>Race:</b> Demonspawn\n</p><p><b>Class:</b> Fighter\n</p>\n<a name=\"Basic_Types\"></a><h2> <span class=\"mw-headline\">Basic Types</span></h2>\n<table border=\"1\" cellpadding=\"2\">\n<tr>\n<th>Name\n</th><th>Element\n</th><th>Habitat\n</th></tr>\n<tr>\n<td>Shadow Howler\n</td><td>Shadow\n</td><td><a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania Massacre</a>\n</td></tr>\n</table>\n\n \n<div class=\"visualClear\"></div>"
+  "images": [
+    "/images/recovered/Shadow_howler.png"
+  ],
+  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:252px;\"><a class=\"image\" href=\"/images/recovered/Shadow_howler.png\" title=\"Shadow Howler\"><img alt=\"Shadow Howler\" border=\"0\" class=\"thumbimage\" height=\"210\" src=\"/images/recovered/Shadow_howler.png\" width=\"250\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/recovered/Shadow_howler.png\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Shadow Howler</div></div></div>\n<p>A sort of a cross between a balrog and a wolf.\n</p><p><b>Race:</b> Demonspawn\n</p><p><b>Class:</b> Fighter\n</p>\n<a name=\"Basic_Types\"></a><h2> <span class=\"mw-headline\">Basic Types</span></h2>\n<table border=\"1\" cellpadding=\"2\">\n<tr>\n<th>Name\n</th><th>Element\n</th><th>Habitat\n</th></tr>\n<tr>\n<td>Shadow Howler\n</td><td>Shadow\n</td><td><a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania Massacre</a>\n</td></tr>\n</table>\n\n \n<div class=\"visualClear\"></div>"
 }

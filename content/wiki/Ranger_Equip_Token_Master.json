@@ -3,7 +3,10 @@
   "wikiTitle": "Ranger_Equip_Token_Master",
   "path": "/wiki/Ranger_Equip_Token_Master",
   "description": "Ranger Equipment Token Master — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's",
+    "Merchants"
+  ],
   "images": [
     "/images/Ranger_Equipment_Token_Master.PNG"
   ],

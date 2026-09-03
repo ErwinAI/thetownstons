@@ -3,7 +3,11 @@
   "wikiTitle": "Critical_Ranger",
   "path": "/wiki/Critical_Ranger",
   "description": "Critical Ranger — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Builds",
+    "PvE Builds",
+    "Ranger PvE Builds"
+  ],
   "images": [
     "/images/recovered/Trigger-happy.png",
     "/images/recovered/Monster-bait.png",

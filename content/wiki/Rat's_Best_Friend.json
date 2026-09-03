@@ -3,7 +3,10 @@
   "wikiTitle": "Rat's_Best_Friend",
   "path": "/wiki/Rat's_Best_Friend",
   "description": "Rat's Best Friend — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Champions",
+    "Wolves"
+  ],
   "images": [
     "/images/Rats_best_friend.jpg"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "Fragtastic_Finger_Bracelet",
   "path": "/wiki/Fragtastic_Finger_Bracelet",
   "description": "Fragtastic Finger Bracelet — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Growth Items",
+    "Rainbow items",
+    "Rainbow Rings"
+  ],
   "images": [
     "/images/Ring-_Fragtastic_Finger_Bracelet.jpg"
   ],

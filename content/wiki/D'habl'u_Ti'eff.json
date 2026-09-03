@@ -3,7 +3,10 @@
   "wikiTitle": "D'habl'u_Ti'eff",
   "path": "/wiki/D'habl'u_Ti'eff",
   "description": "D'habl'u Ti'eff — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Ranger-Rainbows"
+  ],
   "images": [
     "/images/Dhablu_Tieff.jpg"
   ],

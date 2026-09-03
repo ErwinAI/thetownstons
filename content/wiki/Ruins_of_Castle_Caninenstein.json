@@ -3,7 +3,9 @@
   "wikiTitle": "Ruins_of_Castle_Caninenstein",
   "path": "/wiki/Ruins_of_Castle_Caninenstein",
   "description": "The Widower's Nest — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Dungeons"
+  ],
   "images": [
     "/images/WN4.jpg",
     "/images/Widower_Maker.jpg"

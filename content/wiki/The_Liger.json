@@ -3,7 +3,10 @@
   "wikiTitle": "The_Liger",
   "path": "/wiki/The_Liger",
   "description": "The Liger — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's",
+    "Henchmen"
+  ],
   "images": [
     "/images/Liger.jpg",
     "/images/Liger_henchman.jpg"

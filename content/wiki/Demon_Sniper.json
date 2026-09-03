@@ -3,7 +3,10 @@
   "wikiTitle": "Demon_Sniper",
   "path": "/wiki/Demon_Sniper",
   "description": "Demon Sniper — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Ranger-Rainbows"
+  ],
   "images": [
     "/images/DemonSniper.jpg"
   ],

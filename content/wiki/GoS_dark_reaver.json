@@ -3,7 +3,11 @@
   "wikiTitle": "GoS_dark_reaver",
   "path": "/wiki/GoS_dark_reaver",
   "description": "Mangler — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Demons",
+    "Demonspawn"
+  ],
   "images": [
     "/images/Embercore_Thornlash.jpg",
     "/images/Toxic_Mangler.jpg"

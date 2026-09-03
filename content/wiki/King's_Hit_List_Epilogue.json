@@ -3,7 +3,12 @@
   "wikiTitle": "King's_Hit_List_Epilogue",
   "path": "/wiki/King's_Hit_List_Epilogue",
   "description": "King's Hit List Epilogue — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Shadow's Embrace Quests",
+    "Repeatable Quests",
+    "Townston Commander Quests",
+    "Townston Quests"
+  ],
   "images": [],
   "html": "<p><b>Quest Giver: </b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a>\n</p><p><b>Quest Type: </b>Destroy\n</p><p><b>Quest Description: </b> Destroy the <a href=\"/wiki/Queen_of_Shadows\" title=\"Queen of Shadows\">Queen of Shadows</a>, and return with her Proof of Pwnage -- AGAIN!\n</p><p><b>Quest Reward: </b> 22500 gold and 2 King's Coins\n</p><p><b>Return to: </b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a>\n</p><p><b>Repeatable: </b> Yes\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

@@ -3,7 +3,11 @@
   "wikiTitle": "Jackalope's_Visage",
   "path": "/wiki/Jackalope's_Visage",
   "description": "Jackalope's Visage — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Jackalopes_Visage.jpg"
   ],

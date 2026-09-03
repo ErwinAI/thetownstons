@@ -3,7 +3,11 @@
   "wikiTitle": "Toxic_Raythe",
   "path": "/wiki/Toxic_Raythe",
   "description": "Raythe — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Demonspawn",
+    "Demi-Humans"
+  ],
   "images": [
     "/images/Toxic_Raythe.jpg"
   ],

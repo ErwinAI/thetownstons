@@ -3,7 +3,11 @@
   "wikiTitle": "Foil_Covered_Thinkbox",
   "path": "/wiki/Foil_Covered_Thinkbox",
   "description": "Foil Covered Thinkbox — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Helm-_Royal_Plate_Helm_64px.png"
   ],

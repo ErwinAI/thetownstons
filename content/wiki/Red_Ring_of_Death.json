@@ -3,7 +3,10 @@
   "wikiTitle": "Red_Ring_of_Death",
   "path": "/wiki/Red_Ring_of_Death",
   "description": "Red Ring of Death — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Rings"
+  ],
   "images": [
     "/images/Ring-_Red_Ring_of_Death.jpg"
   ],

@@ -3,7 +3,10 @@
   "wikiTitle": "Hand_Solo6333",
   "path": "/wiki/Hand_Solo6333",
   "description": "Hand Solo6333 — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Mutants",
+    "Champions"
+  ],
   "images": [
     "/images/HandSolo.PNG"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "Threadz_Hat",
   "path": "/wiki/Threadz_Hat",
   "description": "Threadz Hat — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Helm-Threadz_Hat.jpg"
   ],

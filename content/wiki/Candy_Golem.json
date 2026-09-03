@@ -3,7 +3,9 @@
   "wikiTitle": "Candy_Golem",
   "path": "/wiki/Candy_Golem",
   "description": "Candy Golem — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Miscellaneous"
+  ],
   "images": [],
   "html": "<p>Candy Golems are large, disembodied candy heads.  Usually one is found in connection with a horde of <a href=\"/wiki/Abba_Labba\" title=\"Abba Labba\">Abba Labbas</a> in the Storerooms off of <a href=\"/wiki/The_Embercore_Path\" title=\"The Embercore Path\">The Embercore Path</a>.  They have strong knockback powers and regenerate hit points.  <a href=\"/wiki/Abba_Labba\" title=\"Abba Labba\">Abba Labba</a> wizards can summon them, and they will disappear after the wizard is destroyed. They drop lots of candy.\n</p><p>Note: as of build 147, they no longer appear to drop candy.\n</p><p><b>Race:</b>Golem\n</p><p><b>Class:</b>Melee Fighter\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

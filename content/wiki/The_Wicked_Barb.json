@@ -3,7 +3,10 @@
   "wikiTitle": "The_Wicked_Barb",
   "path": "/wiki/The_Wicked_Barb",
   "description": "The Wicked Barb — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/2h-weapon-_The_Wicked_Barb.jpg"
   ],

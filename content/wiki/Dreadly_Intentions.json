@@ -3,7 +3,10 @@
   "wikiTitle": "Dreadly_Intentions",
   "path": "/wiki/Dreadly_Intentions",
   "description": "Dreadly Intentions — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/Dreadly-Intentions.jpg"
   ],

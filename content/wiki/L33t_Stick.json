@@ -3,7 +3,10 @@
   "wikiTitle": "L33t_Stick",
   "path": "/wiki/L33t_Stick",
   "description": "L33t Stick — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Mage-Rainbows"
+  ],
   "images": [
     "/images/1h-Weapon-_L33t_Stick.jpg"
   ],

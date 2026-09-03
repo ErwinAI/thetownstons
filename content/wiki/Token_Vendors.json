@@ -3,7 +3,12 @@
   "wikiTitle": "Token_Vendors",
   "path": "/wiki/Token_Vendors",
   "description": "Token Vendors — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Champions",
+    "Mutants",
+    "Fades",
+    "Demonspawn"
+  ],
   "images": [
     "/images/recovered/Fire_token_vendor.png",
     "/images/recovered/Poison_token_vendor.png"

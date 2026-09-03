@@ -3,9 +3,12 @@
   "wikiTitle": "The_Seer",
   "path": "/wiki/The_Seer",
   "description": "The Seer — The Townstons wiki",
-  "categories": [],
-  "images": [
-    "/images/Whisker_seer.jpg"
+  "categories": [
+    "Whiskers",
+    "Champions"
   ],
-  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:192px;\"><a class=\"image\" href=\"/images/Whisker_seer.jpg\" title=\"The Seer\"><img alt=\"The Seer\" border=\"0\" class=\"thumbimage\" height=\"298\" src=\"/images/Whisker_seer.jpg\" width=\"190\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Whisker_seer.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>The Seer</div></div></div>\n<p>The Seer appears in the final group of monsters encountered in <a href=\"/wiki/Ratsputin's_Gulag\" title=\"Ratsputin's Gulag\">Ratsputin's Maximum Security Kremlin</a>.  He is an extra large <a href=\"/wiki/Whisker_Seer\" title=\"Whisker Seer\">Whisker Seer</a> Hero.  When he is destroyed, the Boss Gate will open and <a href=\"/wiki/Ratsputin\" title=\"Ratsputin\">Ratsputin</a> and his guards will be released.\n</p><p><b>Tip:</b> <i>It is smart to leave The Seer to the very end of the group, as killing him early will cause you to be doubly attacked.</i>\n</p>\n\n \n<div class=\"visualClear\"></div>"
+  "images": [
+    "/images/recovered/Whisker_seer.png"
+  ],
+  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:192px;\"><a class=\"image\" href=\"/images/recovered/Whisker_seer.png\" title=\"The Seer\"><img alt=\"The Seer\" border=\"0\" class=\"thumbimage\" height=\"298\" src=\"/images/recovered/Whisker_seer.png\" width=\"190\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/recovered/Whisker_seer.png\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>The Seer</div></div></div>\n<p>The Seer appears in the final group of monsters encountered in <a href=\"/wiki/Ratsputin's_Gulag\" title=\"Ratsputin's Gulag\">Ratsputin's Maximum Security Kremlin</a>.  He is an extra large <a href=\"/wiki/Whisker_Seer\" title=\"Whisker Seer\">Whisker Seer</a> Hero.  When he is destroyed, the Boss Gate will open and <a href=\"/wiki/Ratsputin\" title=\"Ratsputin\">Ratsputin</a> and his guards will be released.\n</p><p><b>Tip:</b> <i>It is smart to leave The Seer to the very end of the group, as killing him early will cause you to be doubly attacked.</i>\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

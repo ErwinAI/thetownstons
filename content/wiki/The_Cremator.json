@@ -3,7 +3,10 @@
   "wikiTitle": "The_Cremator",
   "path": "/wiki/The_Cremator",
   "description": "The Cremator — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Champions",
+    "Fades"
+  ],
   "images": [
     "/images/Cremator.jpg"
   ],

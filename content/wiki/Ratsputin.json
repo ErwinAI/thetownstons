@@ -3,7 +3,10 @@
   "wikiTitle": "Ratsputin",
   "path": "/wiki/Ratsputin",
   "description": "Ratsputin — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Bosses",
+    "Whiskers"
+  ],
   "images": [
     "/images/Ratsputin.jpg"
   ],

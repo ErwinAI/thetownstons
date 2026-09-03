@@ -3,7 +3,11 @@
   "wikiTitle": "The_Merciless",
   "path": "/wiki/The_Merciless",
   "description": "The Merciless — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shoulders",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Shoulders-_Ghost3_Spaulders_64px.png"
   ],

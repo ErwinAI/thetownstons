@@ -3,7 +3,10 @@
   "wikiTitle": "Crushing_Yield_Absorber",
   "path": "/wiki/Crushing_Yield_Absorber",
   "description": "Crushing Yield Absorber — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shields"
+  ],
   "images": [
     "/images/Shield-_Crushing_Yield_Absorber.jpg"
   ],

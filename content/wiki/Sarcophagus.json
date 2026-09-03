@@ -3,7 +3,9 @@
   "wikiTitle": "Sarcophagus",
   "path": "/wiki/Sarcophagus",
   "description": "Sarcophagus — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Glossary"
+  ],
   "images": [
     "/images/Sarcophagus.jpg"
   ],

@@ -3,7 +3,10 @@
   "wikiTitle": "Vane",
   "path": "/wiki/Vane",
   "description": "Vane — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/Vane.jpg"
   ],

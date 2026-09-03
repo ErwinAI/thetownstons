@@ -3,7 +3,10 @@
   "wikiTitle": "Pink's_Favorite_Axe",
   "path": "/wiki/Pink's_Favorite_Axe",
   "description": "Pink's Favorite Axe — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/Pinks-Favorite-Axe.jpg"
   ],

@@ -3,7 +3,10 @@
   "wikiTitle": "President_of_Manglefeet's_Fan_Club",
   "path": "/wiki/President_of_Manglefeet's_Fan_Club",
   "description": "President of Manglefeet's Fan Club — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Champions",
+    "Mutants"
+  ],
   "images": [
     "/images/President_fan_club.jpg"
   ],

@@ -3,7 +3,9 @@
   "wikiTitle": "Ruined_Castle_Layout",
   "path": "/wiki/Ruined_Castle_Layout",
   "description": "Ruins Layout — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "DungeonsLayouts"
+  ],
   "images": [
     "/images/Layout_Ruined_castle.jpg",
     "/images/Map_Ruined_castle.jpg"

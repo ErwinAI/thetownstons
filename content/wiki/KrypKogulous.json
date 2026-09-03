@@ -3,7 +3,11 @@
   "wikiTitle": "KrypKogulous",
   "path": "/wiki/KrypKogulous",
   "description": "KrypKogulous — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Demons",
+    "Champions"
+  ],
   "images": [],
   "html": "<p>KrypKogulous is a giant <a href=\"/wiki/Mangler\" title=\"Mangler\">Mangler</a> who is found in <a href=\"/wiki/Balzack's_Burrow\" title=\"Balzack's Burrow\">Cryptacular</a> off of Level 3 of <a href=\"/wiki/Balzack's_Burrow\" title=\"Balzack's Burrow\">Balzack's Burrow</a>.  He is the possessor of the Semi-Precious Metal Notes.  He and the Notes are the objects of the quest <a href=\"/wiki/Semi-Precious_Metal_Notes\" title=\"Semi-Precious Metal Notes\">Semi-Precious Metal Notes</a> given by <a href='/wiki/Sam_\"Dog_Walker\"' title='Sam \"Dog Walker\"'>Sam \"Dog Walker\"</a>.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

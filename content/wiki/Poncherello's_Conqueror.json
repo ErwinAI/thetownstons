@@ -3,7 +3,11 @@
   "wikiTitle": "Poncherello's_Conqueror",
   "path": "/wiki/Poncherello's_Conqueror",
   "description": "Poncherello's Conqueror — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Poncherellos-Conqueror.jpg"
   ],

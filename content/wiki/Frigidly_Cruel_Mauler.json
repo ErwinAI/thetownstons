@@ -3,7 +3,11 @@
   "wikiTitle": "Frigidly_Cruel_Mauler",
   "path": "/wiki/Frigidly_Cruel_Mauler",
   "description": "Mangler — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Demons",
+    "Demonspawn"
+  ],
   "images": [
     "/images/Embercore_Thornlash.jpg",
     "/images/Toxic_Mangler.jpg"

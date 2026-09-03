@@ -3,7 +3,9 @@
   "wikiTitle": "INT",
   "path": "/wiki/INT",
   "description": "Intellect — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Glossary"
+  ],
   "images": [],
   "html": "<p>One of the four <a href=\"/wiki/Attributes\" title=\"Attributes\">attributes</a> that define your character. Each point increases your spell damage and your mana capacity.\n</p><p>Damage increase is 1.5 damage / point of Intellect.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

@@ -3,7 +3,9 @@
   "wikiTitle": "Cave_Shaman",
   "path": "/wiki/Cave_Shaman",
   "description": "Orok Mystic — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Oroks"
+  ],
   "images": [
     "/images/Orok_mystic.jpg"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "Djinni's_Wish_Granters",
   "path": "/wiki/Djinni's_Wish_Granters",
   "description": "Djinni's Wish Granters — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Gloves-_Djinni's_Wish_Granters.jpg"
   ],

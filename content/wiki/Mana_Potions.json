@@ -3,7 +3,9 @@
   "wikiTitle": "Mana_Potions",
   "path": "/wiki/Mana_Potions",
   "description": "Mana Potions — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Utility Items"
+  ],
   "images": [
     "/images/recovered/ManaPotions.png"
   ],

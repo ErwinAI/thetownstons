@@ -3,7 +3,11 @@
   "wikiTitle": "Ma'nes_Phalanges",
   "path": "/wiki/Ma'nes_Phalanges",
   "description": "Ma'nes Phalanges — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Gloves-_Ghost4_Gloves_64px.png"
   ],

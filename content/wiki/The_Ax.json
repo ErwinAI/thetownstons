@@ -3,7 +3,9 @@
   "wikiTitle": "The_Ax",
   "path": "/wiki/The_Ax",
   "description": "The Ax — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's"
+  ],
   "images": [
     "/images/TheAx.jpg"
   ],

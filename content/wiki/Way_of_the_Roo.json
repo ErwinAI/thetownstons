@@ -3,7 +3,10 @@
   "wikiTitle": "Way_of_the_Roo",
   "path": "/wiki/Way_of_the_Roo",
   "description": "Way of the Roo — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Passive",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/Way-of-the-roo.png"
   ],

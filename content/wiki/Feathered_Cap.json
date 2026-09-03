@@ -3,7 +3,11 @@
   "wikiTitle": "Feathered_Cap",
   "path": "/wiki/Feathered_Cap",
   "description": "Feathered Cap — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Feathered_cap.jpg"
   ],

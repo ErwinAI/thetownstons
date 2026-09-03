@@ -3,7 +3,10 @@
   "wikiTitle": "Pyromania",
   "path": "/wiki/Pyromania",
   "description": "Pyromania — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Self Buff",
+    "Mage Skills"
+  ],
   "images": [
     "/images/recovered/Pyromania.png"
   ],

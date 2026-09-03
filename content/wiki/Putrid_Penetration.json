@@ -3,7 +3,10 @@
   "wikiTitle": "Putrid_Penetration",
   "path": "/wiki/Putrid_Penetration",
   "description": "Putrid Penetration — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Offensive",
+    "Ranger Skills"
+  ],
   "images": [
     "/images/recovered/Putrid-penetration.png"
   ],

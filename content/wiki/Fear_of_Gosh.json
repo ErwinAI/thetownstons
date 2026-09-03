@@ -3,7 +3,10 @@
   "wikiTitle": "Fear_of_Gosh",
   "path": "/wiki/Fear_of_Gosh",
   "description": "Fear of Gosh — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Offensive",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/Fear-of-gosh.png"
   ],

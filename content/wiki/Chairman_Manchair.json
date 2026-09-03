@@ -3,7 +3,11 @@
   "wikiTitle": "Chairman_Manchair",
   "path": "/wiki/Chairman_Manchair",
   "description": "Chairman Manchair — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's",
+    "Demi-Humans",
+    "Humanoids"
+  ],
   "images": [
     "/images/Chairman_manchair.jpg"
   ],

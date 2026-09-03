@@ -3,7 +3,11 @@
   "wikiTitle": "Widow_Maker",
   "path": "/wiki/Widow_Maker",
   "description": "Widow Maker — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Bosses",
+    "Demonspawn",
+    "Demi-Humans"
+  ],
   "images": [
     "/images/Widower_Maker.jpg"
   ],

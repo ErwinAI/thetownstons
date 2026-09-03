@@ -3,7 +3,10 @@
   "wikiTitle": "Banner_of_Foolish_Bravery",
   "path": "/wiki/Banner_of_Foolish_Bravery",
   "description": "Banner of Foolish Bravery — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Passive",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/Banner-of-the-foolish-bravery.png"
   ],

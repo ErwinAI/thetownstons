@@ -3,7 +3,11 @@
   "wikiTitle": "Hoof_Loop",
   "path": "/wiki/Hoof_Loop",
   "description": "Hoof Loop — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Growth Items",
+    "Rainbow items",
+    "Rainbow Rings"
+  ],
   "images": [
     "/images/HoofLoop.JPG"
   ],

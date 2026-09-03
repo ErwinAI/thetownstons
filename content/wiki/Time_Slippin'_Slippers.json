@@ -3,7 +3,11 @@
   "wikiTitle": "Time_Slippin'_Slippers",
   "path": "/wiki/Time_Slippin'_Slippers",
   "description": "Time Slippin' Slippers — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Boots-_Time_Slippin_Slippers.jpg"
   ],

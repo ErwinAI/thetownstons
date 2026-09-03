@@ -3,7 +3,12 @@
   "wikiTitle": "Rumored_Refining",
   "path": "/wiki/Rumored_Refining",
   "description": "Rumored Refining — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Algernon Quests",
+    "Fizz Quests",
+    "Townston Quests",
+    "Audrey the Alchemist Quests"
+  ],
   "images": [],
   "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Audrey_the_Alchemist\" title=\"Audrey the Alchemist\">Audrey the Alchemist</a>\n</p><p><b>Quest Type:</b> Locate\n</p><p><b>Quest Description:</b>  Locate Not the Rumored Refinery in <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a>, find the <a href=\"/wiki/S.T.I.L.L.\" title=\"S.T.I.L.L.\">S.T.I.L.L.</a> device, drop a sample of Mined Fizz Rock in it,and report the results.\n</p><p><b>Quest Reward:</b> 1750 gold\n</p><p><b>Return to:</b> <a href=\"/wiki/Audrey_the_Alchemist\" title=\"Audrey the Alchemist\">Audrey the Alchemist</a>\n</p><p><b>Repeatable:</b> No\n</p><p><b>Following Quest:</b> <a href=\"/wiki/Porthole_Science\" title=\"Porthole Science\">Porthole Science</a>\n</p><p><i>Last Build Updated:</i> 155\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

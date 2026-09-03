@@ -3,7 +3,11 @@
   "wikiTitle": "Country_Fried_Amulet",
   "path": "/wiki/Country_Fried_Amulet",
   "description": "Country Fried Amulet — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Amulets",
+    "Growth Items"
+  ],
   "images": [
     "/images/Amulet-_Country_Fried_Amulet.jpg"
   ],

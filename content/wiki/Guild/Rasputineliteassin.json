@@ -1,9 +1,11 @@
 {
   "title": "Guild:Rasputineliteassin",
   "wikiTitle": "Guild:Rasputineliteassin",
-  "path": "/wiki/Guild:Rasputineliteassin",
+  "path": "/wiki/Guild/Rasputineliteassin",
   "description": "Guild:Rasputineliteassin — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Guilds"
+  ],
   "images": [],
-  "html": "<table cellpadding=\"5\" style=\"margin: 0 0 0.5em 1em; border:1px solid silver; float:right; font-size:90%; text-align:left; max-width: 300px;\">\n<tr>\n<th colspan=\"2\" style=\"font-size:110%; text-align:center; background-color:#165d9f; color:#FFFFFF;\"> Rasputineliteassin &lt;TAG&gt;\n</th></tr>\n<tr>\n<td align=\"center\" colspan=\"2\"> <a class=\"missing\" href=\"/wiki/Special:Upload\" title=\"Image:Guild- Rasputineliteassin.jpg\">Image:Guild- Rasputineliteassin.jpg</a>\n</td></tr>\n<tr valign=\"top\">\n<th style=\"background-color:#64a0d8;\"> Leader\n</th><td> <a class=\"missing\" href=\"/wiki/User:TSA\" title=\"User:TSA\">TSA</a>\n</td></tr>\n</table>\n<a name=\"Guild_Overview\"></a><h2> <span class=\"mw-headline\"> Guild Overview </span></h2>\n<a name=\"Latest_News\"></a><h2> <span class=\"mw-headline\"> Latest News </span></h2>\n<a name=\"Members\"></a><h2> <span class=\"mw-headline\"> Members </span></h2>\n\n \n<div class=\"visualClear\"></div>"
+  "html": "<table cellpadding=\"5\" style=\"margin: 0 0 0.5em 1em; border:1px solid silver; float:right; font-size:90%; text-align:left; max-width: 300px;\">\n<tr>\n<th colspan=\"2\" style=\"font-size:110%; text-align:center; background-color:#165d9f; color:#FFFFFF;\"> Rasputineliteassin &lt;TAG&gt;\n</th></tr>\n<tr>\n<td align=\"center\" colspan=\"2\"> <a class=\"missing\" href=\"/wiki/Special/Upload\" title=\"Image:Guild- Rasputineliteassin.jpg\">Image:Guild- Rasputineliteassin.jpg</a>\n</td></tr>\n<tr valign=\"top\">\n<th style=\"background-color:#64a0d8;\"> Leader\n</th><td> <a class=\"missing\" href=\"/wiki/User/TSA\" title=\"User:TSA\">TSA</a>\n</td></tr>\n</table>\n<a name=\"Guild_Overview\"></a><h2> <span class=\"mw-headline\"> Guild Overview </span></h2>\n<a name=\"Latest_News\"></a><h2> <span class=\"mw-headline\"> Latest News </span></h2>\n<a name=\"Members\"></a><h2> <span class=\"mw-headline\"> Members </span></h2>\n\n \n<div class=\"visualClear\"></div>"
 }

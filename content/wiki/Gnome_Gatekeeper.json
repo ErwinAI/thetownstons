@@ -3,7 +3,9 @@
   "wikiTitle": "Gnome_Gatekeeper",
   "path": "/wiki/Gnome_Gatekeeper",
   "description": "Gnome Gatekeeper — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's"
+  ],
   "images": [],
   "html": "<p>The Gnome Gatekeeper is a cute little NPC.  You almost hate to hit him!  But if you do, a magic gate will appear that leads to the <a href=\"/wiki/Bonus_Stage\" title=\"Bonus Stage\">Bonus Stage</a>.  He is known to appear various places in <a href=\"/wiki/Widower's_Nest\" title=\"Widower's Nest\">Widower's Nest</a> and dungeons off of it such as <a class=\"missing\" href=\"/wiki/Dug's_Digsite\" title=\"Dug's Digsite\">Dug's Digsite</a>.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

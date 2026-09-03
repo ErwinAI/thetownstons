@@ -3,7 +3,11 @@
   "wikiTitle": "Boots_Made_for_Walking",
   "path": "/wiki/Boots_Made_for_Walking",
   "description": "Boots Made for Walking — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Boots-_Boots_Made_for_Walking.jpg"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "New_Fangled_Spangled_Tabard",
   "path": "/wiki/New_Fangled_Spangled_Tabard",
   "description": "New Fangled Spangled Tabard — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shoulders",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Shoulders-_New_Fangled_Spangled_Tabard.jpg"
   ],

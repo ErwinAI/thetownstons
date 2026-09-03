@@ -3,7 +3,9 @@
   "wikiTitle": "Logan_the_Liger",
   "path": "/wiki/Logan_the_Liger",
   "description": "Logan the Liger — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's"
+  ],
   "images": [
     "/images/Logan_the_liger.jpg"
   ],

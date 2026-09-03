@@ -3,7 +3,11 @@
   "wikiTitle": "Lethal_Paws",
   "path": "/wiki/Lethal_Paws",
   "description": "Lethal Paws — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Gloves-_Lethal_Paws.jpg"
   ],

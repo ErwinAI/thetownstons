@@ -1,0 +1,13 @@
+{
+  "title": "Attribute Shrine",
+  "wikiTitle": "Attribute_Shrine",
+  "path": "/wiki/Attribute_Shrine",
+  "description": "Attribute Shrine — The Townstons wiki",
+  "categories": [
+    "Glossary"
+  ],
+  "images": [
+    "/images/Intellect_Shrine.jpg"
+  ],
+  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:202px;\"><a class=\"image\" href=\"/images/Intellect_Shrine.jpg\" title=\"Intellect Shrine\"><img alt=\"Intellect Shrine\" border=\"0\" class=\"thumbimage\" height=\"320\" src=\"/images/Intellect_Shrine.jpg\" width=\"200\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Intellect_Shrine.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Intellect Shrine</div></div></div>\n<p>Shrines are <a href=\"/wiki/Obelisk\" title=\"Obelisk\">obelisk-like</a> objects randomly found in various dungeons.  When clicked the floating obelisk will decend and an area effect will occur.  This area effect will grant a 10% boost to a single <a class=\"missing\" href=\"/wiki/Attribute\" title=\"Attribute\">Attribute</a> for 5 minutes to all players withing the vicinity.\n</p><p>The various shrines can be identified by a carved symbol under the floating obelisk:\n</p>\n<ul><li> Agility Shrine - A winged boot\n</li><li> Intellect Shrine - An open book\n</li><li> Endurance Shrine - A heart\n</li><li> Strength Shrine -\n</li></ul>\n\n \n<div class=\"visualClear\"></div>"
+}

@@ -16,6 +16,15 @@ RECOVERED = PUBLIC_IMG / "recovered"
 DDS_DIR = Path(r"C:\Users\me\Dungeon_Runners_Client_666\dravex_v1.0.0.0_by_atom0s")
 REPORT = ROOT / "archive" / "dds-matches.json"
 TOKEN_SPLIT = re.compile(r"[^a-z0-9]+")
+ITEM_PREFIX = re.compile(
+    r"^(image:|file:|skill[-_]|item[-_]|monster[-_]|npc[-_]|boss[-_]|"
+    r"effect_icon[-_]|1h[-_]?weapon[-_]|2h[-_]?weapon[-_]|1h[-_]|2h[-_]|"
+    r"amulet[-_]|ring[-_]|body[-_]|boots[-_]|gloves[-_]|helm[-_]|"
+    r"shoulder[-_]|shield[-_]|weapon[-_])",
+)
+SCREENSHOT_HINT = re.compile(r"(\d+|screenshot|photo)$", re.I)
+CREATURE_PREFIXES = ("orok_", "whisker_", "mutant_", "fade_", "npc_")
+SKIP_TEX = ("tileset", "groundobject", "_spec", "emissive", "overlay", "minimap", "cave_", "floor", "wall")
 
 # Wiki joke names / screenshots -> client icon files
 ALIASES = {
@@ -76,16 +85,38 @@ def log(msg: str) -> None:
 
 def compact(name: str) -> str:
     stem = Path(name).stem.lower()
-    stem = re.sub(r"^(image:|file:)", "", stem)
-    stem = re.sub(r"^(skill-_|skill-|item-_|item-|monster-_|monster-|npc-_|npc-|effect_icon-_|effect_icon-)", "", stem)
+    stem = ITEM_PREFIX.sub("", stem)
     stem = stem.replace("_on", "").replace("-on", "")
+    stem = re.sub(r"_?64px$", "", stem)
+    stem = re.sub(r"\d+$", "", stem)
     return TOKEN_SPLIT.sub("", stem)
 
 
 def tokens(name: str) -> set[str]:
     stem = Path(name).stem.lower()
-    stem = re.sub(r"^(image:|file:|skill-_|skill-|item-_|monster-_|npc-_|effect_icon-_)", "", stem)
+    stem = ITEM_PREFIX.sub("", stem)
+    stem = re.sub(r"_?64px$", "", stem)
     return {p for p in TOKEN_SPLIT.split(stem) if len(p) > 2}
+
+
+def looks_like_screenshot(name: str) -> bool:
+    stem = Path(name).stem.lower()
+    if any(k in stem for k in ("64px", "icon", "skill", "effect")):
+        return False
+    if stem.startswith(("monster-", "npc-", "boss-")) or SCREENSHOT_HINT.search(stem):
+        return True
+    return False
+
+
+def close_enough(a: str, b: str) -> bool:
+    if not a or not b or a == b:
+        return a == b
+    shorter, longer = (a, b) if len(a) <= len(b) else (b, a)
+    if len(shorter) < 8:
+        return False
+    if shorter not in longer:
+        return False
+    return len(shorter) / len(longer) >= 0.72
 
 
 def collect_needed() -> dict[str, set[str]]:
@@ -106,21 +137,24 @@ def collect_needed() -> dict[str, set[str]]:
     return needed
 
 
-def icon_score(dds_name: str) -> int:
+def icon_score(dds_name: str, screenshot: bool) -> int:
     low = dds_name.lower()
     score = 0
     if low.endswith("_on.dds"):
-        score += 8
+        score += 8 if not screenshot else -12
     if "icon" in low:
-        score += 6
+        score += 6 if not screenshot else -4
     if low.startswith("ncs_"):
-        score -= 4
-    if any(bad in low for bad in ("tileset", "groundobject", "_spec", "emissive", "overlay")):
-        score -= 6
+        score -= 8
+    if any(low.startswith(p) for p in CREATURE_PREFIXES):
+        score += 10 if screenshot else 2
+    if any(bad in low for bad in SKIP_TEX):
+        score -= 10
     return score
 
 
 def pick_dds(need: str, titles: set[str], by_compact: dict[str, list[str]]) -> str | None:
+    screenshot = looks_like_screenshot(need)
     keys = {compact(need)}
     for title in titles:
         keys.add(compact(title))
@@ -128,6 +162,8 @@ def pick_dds(need: str, titles: set[str], by_compact: dict[str, list[str]]) -> s
 
     for key in list(keys):
         if key in ALIASES:
+            if screenshot:
+                continue
             return ALIASES[key]
         if key.endswith("ward"):
             keys.add(key[:-4] + "resistbuff")
@@ -138,35 +174,50 @@ def pick_dds(need: str, titles: set[str], by_compact: dict[str, list[str]]) -> s
     for key in keys:
         candidates.extend(by_compact.get(key, []))
         for norm, names in by_compact.items():
-            if key and (key == norm or (len(key) > 6 and (key in norm or norm in key))):
+            if close_enough(key, norm):
                 candidates.extend(names)
 
-    # token overlap for remaining skill-like names
     need_tokens = tokens(need)
     for title in titles:
         need_tokens |= tokens(title)
-    if need_tokens and not candidates:
+    skip_tokens = {"the", "and", "for", "with", "from", "dew", "valley", "townston"}
+    need_tokens -= skip_tokens
+    if need_tokens and (not candidates or screenshot):
         for norm, names in by_compact.items():
-            dt = tokens(names[0])
-            if need_tokens and dt and need_tokens <= dt or (need_tokens & dt and len(need_tokens & dt) >= 2):
+            dt = tokens(names[0]) - skip_tokens
+            overlap = need_tokens & dt
+            if screenshot:
+                creature = any(n.lower().startswith(CREATURE_PREFIXES) for n in names)
+                if creature and len(overlap) >= 2:
+                    candidates.extend(names)
+                continue
+            if need_tokens <= dt or len(overlap) >= 2:
                 candidates.extend(names)
+
+    if screenshot:
+        filtered = [n for n in candidates if not n.lower().endswith("_on.dds") and "icon" not in n.lower()]
+        candidates = filtered or []
 
     if not candidates:
         return None
     uniq = list(dict.fromkeys(candidates))
-    uniq.sort(key=lambda n: (-icon_score(n), len(n)))
+    uniq.sort(key=lambda n: (-icon_score(n, screenshot), len(n)))
     return uniq[0]
 
 
-def convert_dds(src: Path, dest: Path) -> bool:
+def convert_dds(src: Path, dest: Path, allow_large: bool = False) -> bool:
     dest.parent.mkdir(parents=True, exist_ok=True)
     try:
         with Image.open(src) as im:
             w, h = im.size
-            if w > 256 or h > 256:
+            limit = 1024 if allow_large else 256
+            if w > limit or h > limit:
                 log(f"skip large {src.name} {im.size}")
                 return False
-            im.convert("RGBA").save(dest, format="PNG")
+            rgba = im.convert("RGBA")
+            if allow_large and max(w, h) > 256:
+                rgba.thumbnail((256, 256), Image.Resampling.LANCZOS)
+            rgba.save(dest, format="PNG")
         return dest.exists() and dest.stat().st_size > 32
     except Exception as exc:
         log(f"DDS fail {src.name}: {exc}")
@@ -190,11 +241,16 @@ def main() -> None:
     recovered = 0
     for name in sorted(needed):
         dds_name = pick_dds(name, needed[name], by_compact)
+        stem = Path(name).stem
         if not dds_name:
             matches.append({"wiki": name, "dds": None, "pages": sorted(needed[name])[:5]})
+            replacements.append((f"/images/recovered/{stem}.png", f"/images/{name}"))
             continue
-        dest = RECOVERED / (Path(name).stem + ".png")
-        ok = convert_dds(DDS_DIR / dds_name, dest)
+        dest = RECOVERED / (stem + ".png")
+        allow_large = looks_like_screenshot(name) or any(
+            dds_name.lower().startswith(p) for p in CREATURE_PREFIXES
+        )
+        ok = convert_dds(DDS_DIR / dds_name, dest, allow_large=allow_large)
         matches.append({
             "wiki": name,
             "dds": dds_name,
@@ -202,9 +258,9 @@ def main() -> None:
             "pages": sorted(needed[name])[:5],
         })
         if not ok:
+            replacements.append((f"/images/recovered/{stem}.png", f"/images/{name}"))
             continue
         recovered += 1
-        stem = Path(name).stem
         replacements.append((f"/images/{name}", f"/images/recovered/{dest.name}"))
         replacements.append((f"/images/recovered/{stem}.png", f"/images/recovered/{dest.name}"))
 

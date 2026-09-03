@@ -3,9 +3,13 @@
   "wikiTitle": "Frosty_Melee_Wasp",
   "path": "/wiki/Frosty_Melee_Wasp",
   "description": "Mutant Melee Wasp — The Townstons wiki",
-  "categories": [],
-  "images": [
-    "/images/Mutant_Wasp.jpg"
+  "categories": [
+    "Monsters",
+    "Mutants",
+    "Mutant Wasp"
   ],
-  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:252px;\"><a class=\"image\" href=\"/images/Mutant_Wasp.jpg\" title=\"Mutant Wasp\"><img alt=\"Mutant Wasp\" border=\"0\" class=\"thumbimage\" height=\"395\" src=\"/images/Mutant_Wasp.jpg\" width=\"250\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Mutant_Wasp.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Mutant Wasp</div></div></div>\n<p><b>Race:</b>  Mutant\n</p><p><b>Class:</b> Fighter\n</p><p>These bat-like mutants have metal spikes, horns and armor grafted to their bodies.  These creatures swoop in an attempt to sting and pierce their targets with their enhanced tail stinger. \n</p><p><b>Tip:</b> <i>The wasps are easy to defeat since their attacks are pure melee. If you get in trouble, just run off, chug a potion or two, and then go back to pummeling their nasty monster faces. (This strategy must be executed quickly and correctly as, the Mutant Wasps may catch up to you with their quick movement speed!)</i>\n</p>\n<a name=\"Basic_Types\"></a><h2> <span class=\"mw-headline\">Basic Types</span></h2>\n<table border=\"1\" cellpadding=\"2\" cellspacing=\"0\">\n<tr>\n<th>Name\n</th><th>Element\n</th><th>Habitat\n</th></tr>\n<tr>\n<td>Frosty Melee Wasp\n</td><td> Ice\n</td><td> <a href=\"/wiki/Balzack's_Burrow\" title=\"Balzack's Burrow\">Balzack's Burrow</a>\n</td></tr>\n</table>\n\n \n<div class=\"visualClear\"></div>"
+  "images": [
+    "/images/recovered/Mutant_Wasp.png"
+  ],
+  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:252px;\"><a class=\"image\" href=\"/images/recovered/Mutant_Wasp.png\" title=\"Mutant Wasp\"><img alt=\"Mutant Wasp\" border=\"0\" class=\"thumbimage\" height=\"395\" src=\"/images/recovered/Mutant_Wasp.png\" width=\"250\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/recovered/Mutant_Wasp.png\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Mutant Wasp</div></div></div>\n<p><b>Race:</b>  Mutant\n</p><p><b>Class:</b> Fighter\n</p><p>These bat-like mutants have metal spikes, horns and armor grafted to their bodies.  These creatures swoop in an attempt to sting and pierce their targets with their enhanced tail stinger. \n</p><p><b>Tip:</b> <i>The wasps are easy to defeat since their attacks are pure melee. If you get in trouble, just run off, chug a potion or two, and then go back to pummeling their nasty monster faces. (This strategy must be executed quickly and correctly as, the Mutant Wasps may catch up to you with their quick movement speed!)</i>\n</p>\n<a name=\"Basic_Types\"></a><h2> <span class=\"mw-headline\">Basic Types</span></h2>\n<table border=\"1\" cellpadding=\"2\" cellspacing=\"0\">\n<tr>\n<th>Name\n</th><th>Element\n</th><th>Habitat\n</th></tr>\n<tr>\n<td>Frosty Melee Wasp\n</td><td> Ice\n</td><td> <a href=\"/wiki/Balzack's_Burrow\" title=\"Balzack's Burrow\">Balzack's Burrow</a>\n</td></tr>\n</table>\n\n \n<div class=\"visualClear\"></div>"
 }

@@ -3,7 +3,11 @@
   "wikiTitle": "Razor_Wire_Shackles",
   "path": "/wiki/Razor_Wire_Shackles",
   "description": "Razor Wire Shackles — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Boots-_Razor_Wire_Shackles.jpg"
   ],

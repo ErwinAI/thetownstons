@@ -3,7 +3,11 @@
   "wikiTitle": "Expecting_Hatchling",
   "path": "/wiki/Expecting_Hatchling",
   "description": "Expecting Hatchling — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Champions",
+    "Demonspawn",
+    "Lava Rachnid"
+  ],
   "images": [
     "/images/Expecting_hatchling.jpg"
   ],

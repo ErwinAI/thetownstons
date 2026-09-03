@@ -3,7 +3,10 @@
   "wikiTitle": "GG_Harpy",
   "path": "/wiki/GG_Harpy",
   "description": "Angel — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Demi-Humans"
+  ],
   "images": [
     "/images/Embercore_Angel.jpg"
   ],

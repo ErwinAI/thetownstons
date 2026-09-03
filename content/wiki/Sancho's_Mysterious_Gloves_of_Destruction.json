@@ -3,7 +3,11 @@
   "wikiTitle": "Sancho's_Mysterious_Gloves_of_Destruction",
   "path": "/wiki/Sancho's_Mysterious_Gloves_of_Destruction",
   "description": "Sancho's Mysterious Gloves of Destruction — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Gloves-_Sancho's_Mysterious_Gloves_of_Destruction.jpg"
   ],

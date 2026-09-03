@@ -3,7 +3,10 @@
   "wikiTitle": "Balzack's_Spawn",
   "path": "/wiki/Balzack's_Spawn",
   "description": "Balzack's Spawn — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Demons"
+  ],
   "images": [],
   "html": "<p>Balzack's Spawn can be found with Balzack in <a href=\"/wiki/Balzack's_Burrow\" title=\"Balzack's Burrow\">Balzack's Flame</a>. These demons will spawn if you keep the <a class=\"missing\" href=\"/wiki/Poison_Portal\" title=\"Poison Portal\">Poison Portal</a> alive long enough. They usually spawn in groups of 5 or 6. Since the Poison Portal will disappear after it has spawned enough monsters, only one or two groups will be spawned from each portal.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

@@ -3,7 +3,10 @@
   "wikiTitle": "Widower's_Hatchling",
   "path": "/wiki/Widower's_Hatchling",
   "description": "Fade Hatchling — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Fades"
+  ],
   "images": [
     "/images/recovered/Monster-_Shadow_Fade_Disectoid.png"
   ],

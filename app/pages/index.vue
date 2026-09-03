@@ -5,15 +5,15 @@ const topics = [
   { to: '/wiki/Dungeons', label: 'Dungeons', blurb: 'Schematic maps, outlines and details of all dungeons' },
   { to: '/wiki/Guides', label: 'Guides', blurb: 'Useful information including Interface Guide, Boss Guides, Tips and other stuff.' },
   { to: '/wiki/Skills', label: 'Skills', blurb: 'Information on the effects and costs of all skills.' },
-  { to: '/wiki/Category:Monsters', label: 'Monsters', blurb: 'Descriptions, often pictures, and sometimes tips for all monsters' },
+  { to: '/wiki/Category/Monsters', label: 'Monsters', blurb: 'Descriptions, often pictures, and sometimes tips for all monsters' },
   { to: '/wiki/Items', label: 'Items', blurb: 'Weapons, Armor, Jewelry and their uses, with a special section on Mythic (Rainbow) Items.' },
-  { to: '/wiki/Category:Quests', label: 'Quests', blurb: 'The Quests that make the game interesting.' },
-  { to: "/wiki/Category:NPC's", label: "NPC's", blurb: 'Non Player Characters and Objects you will encounter.' },
+  { to: '/wiki/Category/Quests', label: 'Quests', blurb: 'The Quests that make the game interesting.' },
+  { to: "/wiki/Category/NPC's", label: "NPC's", blurb: 'Non Player Characters and Objects you will encounter.' },
   { to: '/wiki/Towns/Outposts', label: 'Towns/Outposts', blurb: 'The places in the game that are NOT dungeons!' },
   { to: '/wiki/Builds', label: 'Builds', blurb: 'Share experience on how to create the perfect character.' },
   { to: '/wiki/Game_Mechanics', label: 'Game Mechanics', blurb: 'Those all important formulae and calculations, and a List of Equations.' },
-  { to: '/wiki/Category:Guilds', label: 'Guilds (Posses)', blurb: 'Groups of players working together cooperatively.' },
-  { to: '/wiki/Category:Glossary', label: 'Glossary', blurb: 'Definitions of game terms, many with links to more extensive articles.' },
+  { to: '/wiki/Category/Guilds', label: 'Guilds (Posses)', blurb: 'Groups of players working together cooperatively.' },
+  { to: '/wiki/Category/Glossary', label: 'Glossary', blurb: 'Definitions of game terms, many with links to more extensive articles.' },
 ]
 
 const news = [

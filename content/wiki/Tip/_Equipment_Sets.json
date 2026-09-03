@@ -1,9 +1,11 @@
 {
   "title": "Tip: Equipment Sets",
   "wikiTitle": "Tip:_Equipment_Sets",
-  "path": "/wiki/Tip:_Equipment_Sets",
+  "path": "/wiki/Tip/_Equipment_Sets",
   "description": "Tip: Equipment Sets — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Tips"
+  ],
   "images": [],
   "html": "<p><b>[Warning: Point of view, needs more input]</b>\n</p><p>Equipment is something you start searching for from level one. At first all you are searching for is equipment with pluses to stats on them that you need. Later you will find though that there are a lot of different modifiers that come on equipment. You should select your equipment based on these modifiers. Matching them up and collecting different suits for specific bosses.\n</p><p>Examples of matching up modifiers is like matching up \"+ Ranger Critical hit%\" on Ranger gear. This will make a ranger that does critical strikes more often. Other possibility is searching and matching up for \"+Poison Damage\" for your poison attacks to do a lot more damage. Even matching up resists is a good idea. Getting a suit of high cold and or poison resist for fighting Balzack may be a good idea. So that you don't take as much damage from him and his minions.\n</p><p>Lets Really look at that \"+Ranger Critical Hit%\" example. <i>[This is not based on actual numbers you may find in game.]</i>\n</p><p>Lets say you have:\nHelm +100% Ranger Critical Hit% /\nShoulders +100% Ranger Critical Hit% /\nArmor +200% Ranger Critical Hit% /\nGloves +50% Ranger Critical Hit% /\nBoots +50% Ranger Critical Hit% /\nWeapon +200% Ranger Critical Hit% /\nJewlery Pieces * 3 +300% Ranger Critical Hit% /\nTotal = +1,000 Ranger Critical Hit%<br/>\n</p><p>If you normally critical were to critical hit about 1% of the time then this would that you would increase by <b>1000% of 1%</b> which is actually 10%, mean that you would do critical about 11% your shots.\n</p><p><br/>\nThis is only a example. It should show you though that focusing on one or two things on your gear will be more useful over the long run then focusing on which gear has more stats or better of something you don't have much of anyway.\n</p><p>This is true of all builds. If you are a particular element of mage then focusing on that elements damage makes more sense then focusing on other elemental types of damage. Even if you still do those types of damage , you main damage should be the focus maybe.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

@@ -3,7 +3,10 @@
   "wikiTitle": "Bane",
   "path": "/wiki/Bane",
   "description": "Bane — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/2h-Weapon-_Bane.jpg"
   ],

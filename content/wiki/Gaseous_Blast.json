@@ -3,7 +3,10 @@
   "wikiTitle": "Gaseous_Blast",
   "path": "/wiki/Gaseous_Blast",
   "description": "Gaseous Blast — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Offensive",
+    "Ranger Skills"
+  ],
   "images": [
     "/images/recovered/Gaseous-blast.png"
   ],

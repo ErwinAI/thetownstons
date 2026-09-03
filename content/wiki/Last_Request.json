@@ -1,0 +1,13 @@
+{
+  "title": "Last Request",
+  "wikiTitle": "Last_Request",
+  "path": "/wiki/Last_Request",
+  "description": "Last Request — The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Algernon Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> --\n</p><p><b>Quest Type:</b> Hunt/Collect\n</p><p><b>Quest Description:</b> Collect 3 Soldier's Badges.  They can be found in <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a>\n</p><p><b>Quest Reward:</b> 1250 Gold and 1 <a href=\"/wiki/Kings_Coin\" title=\"Kings Coin\">Kings Coin</a>\n</p><p><b>Return to:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a>\n</p><p><b>Repeatable:</b> <a href=\"/wiki/Repeatable\" title=\"Repeatable\">Yes</a>\n</p>\n\n \n<div class=\"visualClear\"></div>"
+}

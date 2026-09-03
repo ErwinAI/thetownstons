@@ -8,8 +8,7 @@
   },
   {
     "wiki": "1H_Croneclaw_.jpg",
-    "dds": "icon_Weapon_Pick_1H_Croneclaw.dds",
-    "recovered": "public\\images\\recovered\\1H_Croneclaw_.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
@@ -38,7 +37,7 @@
   },
   {
     "wiki": "1H_spiked_club.jpg",
-    "dds": "weapon_icon_spiked_club.dds",
+    "dds": "Weapon_Spiked_Club.dds",
     "recovered": "public\\images\\recovered\\1H_spiked_club.png",
     "pages": [
       "One-Handed-fighter"
@@ -95,16 +94,14 @@
   },
   {
     "wiki": "1h-Weapon-_Superior_Wand_of_Superiority.jpg",
-    "dds": "Weapon_Wand_Mermaid_icon.dds",
-    "recovered": "public\\images\\recovered\\1h-Weapon-_Superior_Wand_of_Superiority.png",
+    "dds": null,
     "pages": [
       "Superior Wand of Superiority"
     ]
   },
   {
     "wiki": "1h-Weapon-_Sword_of_Gosh.jpg",
-    "dds": "white.dds",
-    "recovered": "public\\images\\recovered\\1h-Weapon-_Sword_of_Gosh.png",
+    "dds": null,
     "pages": [
       "Not the Sword of Gosh",
       "White Paladin"
@@ -112,8 +109,7 @@
   },
   {
     "wiki": "1h-Weapon-_Uber_Wand.jpg",
-    "dds": "Weapon_Wand_Mermaid_icon.dds",
-    "recovered": "public\\images\\recovered\\1h-Weapon-_Uber_Wand.png",
+    "dds": null,
     "pages": [
       "Uber Wand"
     ]
@@ -132,8 +128,7 @@
   },
   {
     "wiki": "1h-weapon-_Ancient_Club_.jpg",
-    "dds": "Weapon_Club_Bone_icon.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Ancient_Club_.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
@@ -161,32 +156,28 @@
   },
   {
     "wiki": "1h-weapon-_Battle_Scepter.jpg",
-    "dds": "Weapon_Icon_Scepter.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Battle_Scepter.png",
+    "dds": null,
     "pages": [
       "One-Handed-mage"
     ]
   },
   {
     "wiki": "1h-weapon-_Blade_Claw.JPG",
-    "dds": "Weapon_Mace_Claw_icon.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Blade_Claw.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
   },
   {
     "wiki": "1h-weapon-_Blood_Axe.JPG",
-    "dds": "Weapon_Axe_Rock_icon.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Blood_Axe.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
   },
   {
     "wiki": "1h-weapon-_Celestial_Battle_Axe.JPG",
-    "dds": "Weapon_Axe_Rock_icon.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Celestial_Battle_Axe.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
@@ -201,40 +192,35 @@
   },
   {
     "wiki": "1h-weapon-_Cleaver.JPG",
-    "dds": "Cleave_on.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Cleaver.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
   },
   {
     "wiki": "1h-weapon-_Cutlass.JPG",
-    "dds": "weapon_icon_cutlass.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Cutlass.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
   },
   {
     "wiki": "1h-weapon-_Dagger_.jpg",
-    "dds": "Weapon_Spiked_Dagger.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
   },
   {
     "wiki": "1h-weapon-_Dimensional_Hammer.jpg",
-    "dds": "Weapon_Hammer_Skull_icon.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Dimensional_Hammer.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
   },
   {
     "wiki": "1h-weapon-_Disjointing_Pick_.jpg",
-    "dds": "icon_Weapon_2H_Pick_01.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Disjointing_Pick_.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
@@ -248,7 +234,7 @@
   },
   {
     "wiki": "1h-weapon-_Dwarven_Pick_.jpg",
-    "dds": "icon_Weapon_2H_Pick_01.dds",
+    "dds": "icon_Weapon_Pick_1H_Dwarven.dds",
     "recovered": "public\\images\\recovered\\1h-weapon-_Dwarven_Pick_.png",
     "pages": [
       "One-Handed-fighter"
@@ -256,8 +242,7 @@
   },
   {
     "wiki": "1h-weapon-_Fanged_Axe.JPG",
-    "dds": "Weapon_Axe_Rock_icon.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Fanged_Axe.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
@@ -271,16 +256,14 @@
   },
   {
     "wiki": "1h-weapon-_Gladius_.jpg",
-    "dds": "weapon_icon_gladius.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Gladius_.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
   },
   {
     "wiki": "1h-weapon-_Gnarled_Wand.jpg",
-    "dds": "Weapon_Wand_Mermaid_icon.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Gnarled_Wand.png",
+    "dds": null,
     "pages": [
       "One-Handed-mage"
     ]
@@ -294,8 +277,7 @@
   },
   {
     "wiki": "1h-weapon-_Hammer.jpg",
-    "dds": "Weapon_Hammer_Skull_icon.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Hammer.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
@@ -317,8 +299,7 @@
   },
   {
     "wiki": "1h-weapon-_Intricate_Wand.jpg",
-    "dds": "Weapon_Wand_Mermaid_icon.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Intricate_Wand.png",
+    "dds": null,
     "pages": [
       "One-Handed-mage"
     ]
@@ -347,8 +328,7 @@
   },
   {
     "wiki": "1h-weapon-_Knotty_Rod.jpg",
-    "dds": "Weapon_Icon_Cod_Rod.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Knotty_Rod.png",
+    "dds": null,
     "pages": [
       "One-Handed-mage"
     ]
@@ -363,7 +343,7 @@
   },
   {
     "wiki": "1h-weapon-_Military_Pick_.jpg",
-    "dds": "icon_Weapon_2H_Pick_01.dds",
+    "dds": "icon_Weapon_Pick_1H_Military.dds",
     "recovered": "public\\images\\recovered\\1h-weapon-_Military_Pick_.png",
     "pages": [
       "One-Handed-fighter"
@@ -378,7 +358,7 @@
   },
   {
     "wiki": "1h-weapon-_Nether_Scepter.jpg",
-    "dds": "Weapon_Icon_Scepter.dds",
+    "dds": "Weapon_Icon_Scepter_Nether.dds",
     "recovered": "public\\images\\recovered\\1h-weapon-_Nether_Scepter.png",
     "pages": [
       "One-Handed-mage"
@@ -407,16 +387,14 @@
   },
   {
     "wiki": "1h-weapon-_People's_Pick_.jpg",
-    "dds": "icon_Weapon_2H_Pick_01.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_People's_Pick_.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
   },
   {
     "wiki": "1h-weapon-_Pixie_Duster.jpg",
-    "dds": "Weapon_Wand_Feather_Duster_weapon_icon.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Pixie_Duster.png",
+    "dds": null,
     "pages": [
       "One-Handed-mage"
     ]
@@ -437,8 +415,7 @@
   },
   {
     "wiki": "1h-weapon-_Reliance.jpg",
-    "dds": "white.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Reliance.png",
+    "dds": null,
     "pages": [
       "Reliance",
       "White Paladin"
@@ -446,8 +423,7 @@
   },
   {
     "wiki": "1h-weapon-_Rune_Axe.JPG",
-    "dds": "Weapon_Axe_Rock_icon.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Rune_Axe.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
@@ -477,7 +453,7 @@
   },
   {
     "wiki": "1h-weapon-_Skeleton_Wand.jpg",
-    "dds": "Weapon_Wand_Mermaid_icon.dds",
+    "dds": "Weapon_Wand_Skeleton_icon.dds",
     "recovered": "public\\images\\recovered\\1h-weapon-_Skeleton_Wand.png",
     "pages": [
       "One-Handed-mage"
@@ -485,7 +461,7 @@
   },
   {
     "wiki": "1h-weapon-_Sledge_Hammer.jpg",
-    "dds": "Weapon_Hammer_Skull_icon.dds",
+    "dds": "Weapon_Icon_Hammer_Sledge.dds",
     "recovered": "public\\images\\recovered\\1h-weapon-_Sledge_Hammer.png",
     "pages": [
       "One-Handed-fighter"
@@ -493,24 +469,21 @@
   },
   {
     "wiki": "1h-weapon-_Small_Club_.jpg",
-    "dds": "Weapon_Club_Bone_icon.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Small_Club_.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
   },
   {
     "wiki": "1h-weapon-_Soul_Smasher.jpg",
-    "dds": "Weapon_Claymore_Soul_Cutlass_Flamberge.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Soul_Smasher.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
   },
   {
     "wiki": "1h-weapon-_Soul_Sword.JPG",
-    "dds": "weapon_icon_barbed sword.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon-_Soul_Sword.png",
+    "dds": null,
     "pages": [
       "One-Handed-fighter"
     ]
@@ -545,8 +518,8 @@
   },
   {
     "wiki": "1h-weapon-_Twisted_Cane.jpg",
-    "dds": "Weapon_TwistedCane.dds",
-    "recovered": null,
+    "dds": "Weapon_Icon_TwistedCane.dds",
+    "recovered": "public\\images\\recovered\\1h-weapon-_Twisted_Cane.png",
     "pages": [
       "One-Handed-mage"
     ]
@@ -569,8 +542,7 @@
   },
   {
     "wiki": "1h-weapon_Wrath.jpg",
-    "dds": "white.dds",
-    "recovered": "public\\images\\recovered\\1h-weapon_Wrath.png",
+    "dds": null,
     "pages": [
       "White Paladin",
       "Wrath"
@@ -699,8 +671,7 @@
   },
   {
     "wiki": "2h-Weapon-_Aggro_Pick.jpg",
-    "dds": "icon_Weapon_2H_Pick_01.dds",
-    "recovered": "public\\images\\recovered\\2h-Weapon-_Aggro_Pick.png",
+    "dds": null,
     "pages": [
       "Aggro Pick"
     ]
@@ -742,24 +713,21 @@
   },
   {
     "wiki": "2h-Weapon-_Sissi_Staff.jpg",
-    "dds": "Weapon_Staff_Horny_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-Weapon-_Sissi_Staff.png",
+    "dds": null,
     "pages": [
       "Sissirat's Brother's Cousin's Roomate's Staff of Something Really Awesome"
     ]
   },
   {
     "wiki": "2h-Weapon-_Smasher.jpg",
-    "dds": "Weapon_Hammer_Brainsmasher.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Smasher"
     ]
   },
   {
     "wiki": "2h-Weapon-_Staff_of_Rarr.jpg",
-    "dds": "Weapon_Staff_Horny_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-Weapon-_Staff_of_Rarr.png",
+    "dds": null,
     "pages": [
       "Staff of Rarrr"
     ]
@@ -838,8 +806,7 @@
   },
   {
     "wiki": "2h-ranged-_Jagged_Crossbow.jpg",
-    "dds": "Jag.dds",
-    "recovered": "public\\images\\recovered\\2h-ranged-_Jagged_Crossbow.png",
+    "dds": null,
     "pages": [
       "Two-Handed-ranger"
     ]
@@ -954,6 +921,7 @@
     "dds": "2HMeleeMastery_on.dds",
     "recovered": "public\\images\\recovered\\2h-swivel-arm-action.png",
     "pages": [
+      "2H Swivel Arm Action",
       "Fighter Skills",
       "Self Buff",
       "Sissirat Guide"
@@ -968,15 +936,14 @@
   },
   {
     "wiki": "2h-weapon-_Barbarian_Axe.jpg",
-    "dds": "Weapon_Axe_Rock_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Barbarian_Axe.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
   },
   {
     "wiki": "2h-weapon-_Bastard_Sword_.jpg",
-    "dds": "weapon_icon_barbed sword.dds",
+    "dds": "weapon_icon_bastardsword.dds",
     "recovered": "public\\images\\recovered\\2h-weapon-_Bastard_Sword_.png",
     "pages": [
       "Two-Handed-fighter"
@@ -984,8 +951,7 @@
   },
   {
     "wiki": "2h-weapon-_Bat_Axe.jpg",
-    "dds": "Weapon_Axe_Rock_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Bat_Axe.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
@@ -999,16 +965,14 @@
   },
   {
     "wiki": "2h-weapon-_Battle_Spear.jpg",
-    "dds": "Weapon_Icon_Polearm_Spear.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Battle_Spear.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
   },
   {
     "wiki": "2h-weapon-_Bo_Staff.jpg",
-    "dds": "Weapon_Staff_Horny_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Bo_Staff.png",
+    "dds": null,
     "pages": [
       "Two-Handed-mage"
     ]
@@ -1030,8 +994,7 @@
   },
   {
     "wiki": "2h-weapon-_Ceremonial_Pick.jpg",
-    "dds": "icon_Weapon_2H_Pick_01.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Ceremonial_Pick.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
@@ -1041,6 +1004,7 @@
     "dds": "Weapon_Claweye_Staff.dds",
     "recovered": "public\\images\\recovered\\2h-weapon-_Claweye_Staff.png",
     "pages": [
+      "Claweye Staff",
       "Two-Handed-mage"
     ]
   },
@@ -1053,32 +1017,28 @@
   },
   {
     "wiki": "2h-weapon-_Combat_Mace.jpg",
-    "dds": "Weapon_Icon_Mace.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Combat_Mace.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
   },
   {
     "wiki": "2h-weapon-_Crescent_Axe.jpg",
-    "dds": "Weapon_Axe_Rock_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Crescent_Axe.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
   },
   {
     "wiki": "2h-weapon-_Dire_Pick.jpg",
-    "dds": "icon_Weapon_2H_Pick_01.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Dire_Pick.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
   },
   {
     "wiki": "2h-weapon-_Dragon_Fin_.JPG",
-    "dds": "Weapon_Icon_Shield_Dragon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Dragon_Fin_.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
@@ -1092,16 +1052,14 @@
   },
   {
     "wiki": "2h-weapon-_Giant_Sword.jpg",
-    "dds": "weapon_icon_barbed sword.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Giant_Sword.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
   },
   {
     "wiki": "2h-weapon-_Goth_Pick_.jpg",
-    "dds": "icon_Weapon_2H_Pick_01.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Goth_Pick_.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
@@ -1116,24 +1074,21 @@
   },
   {
     "wiki": "2h-weapon-_Great_Sword.jpg",
-    "dds": "Weapon_Icon_Great_Axe.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Great_Sword.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
   },
   {
     "wiki": "2h-weapon-_Hooked_Staff.jpg",
-    "dds": "Weapon_Staff_Horny_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Hooked_Staff.png",
+    "dds": null,
     "pages": [
       "Two-Handed-mage"
     ]
   },
   {
     "wiki": "2h-weapon-_Huge_Mallet.jpg",
-    "dds": "Weapon_Icon_Hammer_Mallet.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Huge_Mallet.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
@@ -1197,16 +1152,14 @@
   },
   {
     "wiki": "2h-weapon-_Sawtooth_Axe.jpg",
-    "dds": "Weapon_Axe_Rock_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Sawtooth_Axe.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
   },
   {
     "wiki": "2h-weapon-_Serrated_Axe.jpg",
-    "dds": "Weapon_Axe_Rock_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Serrated_Axe.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
@@ -1228,15 +1181,14 @@
   },
   {
     "wiki": "2h-weapon-_Skull_Staff.jpg",
-    "dds": "Weapon_Staff_Horny_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Skull_Staff.png",
+    "dds": null,
     "pages": [
       "Two-Handed-mage"
     ]
   },
   {
     "wiki": "2h-weapon-_Spiked_Staff.jpg",
-    "dds": "Weapon_SpikedStaff.dds",
+    "dds": "weapon_icon_spikedstaff.dds",
     "recovered": "public\\images\\recovered\\2h-weapon-_Spiked_Staff.png",
     "pages": [
       "Two-Handed-mage"
@@ -1251,7 +1203,7 @@
   },
   {
     "wiki": "2h-weapon-_Ten_Ton_Hammer.jpg",
-    "dds": "Icon_Weapon_2H_TenTonHammer.dds",
+    "dds": "Weapon_2H_TenTonHammer.dds",
     "recovered": "public\\images\\recovered\\2h-weapon-_Ten_Ton_Hammer.png",
     "pages": [
       "Ten Ton Hammer"
@@ -1266,32 +1218,28 @@
   },
   {
     "wiki": "2h-weapon-_Tiki_Axe.jpg",
-    "dds": "Weapon_Axe_Rock_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Tiki_Axe.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
   },
   {
     "wiki": "2h-weapon-_Timber_Axe_.jpg",
-    "dds": "Weapon_Axe_Rock_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Timber_Axe_.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
   },
   {
     "wiki": "2h-weapon-_Titan_Axe.jpg",
-    "dds": "Weapon_Axe_Rock_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Titan_Axe.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
   },
   {
     "wiki": "2h-weapon-_Titan_Pick.jpg",
-    "dds": "icon_Weapon_2H_Pick_01.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Titan_Pick.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
@@ -1305,8 +1253,7 @@
   },
   {
     "wiki": "2h-weapon-_Twisted_Staff.jpg",
-    "dds": "Weapon_Staff_Horny_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Twisted_Staff.png",
+    "dds": null,
     "pages": [
       "Two-Handed-mage"
     ]
@@ -1320,8 +1267,7 @@
   },
   {
     "wiki": "2h-weapon-_Warhammer.jpg",
-    "dds": "Weapon_Icon_Hammer_Warhammer.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon-_Warhammer.png",
+    "dds": null,
     "pages": [
       "Two-Handed-fighter"
     ]
@@ -1342,16 +1288,14 @@
   },
   {
     "wiki": "2h-weapon_Random_Axe_of_Kindness.jpg",
-    "dds": "Weapon_Axe_Rock_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon_Random_Axe_of_Kindness.png",
+    "dds": null,
     "pages": [
       "Random Axe of Kindness"
     ]
   },
   {
     "wiki": "2h-weapon_Skull_Opener.jpg",
-    "dds": "Weapon_Hammer_Skull_icon.dds",
-    "recovered": "public\\images\\recovered\\2h-weapon_Skull_Opener.png",
+    "dds": null,
     "pages": [
       "Skull Opener"
     ]
@@ -1382,6 +1326,7 @@
     "dds": null,
     "pages": [
       "Abaddon",
+      "Abba- Champions",
       "Quest Items List",
       "Relic Quests"
     ]
@@ -1409,7 +1354,7 @@
   },
   {
     "wiki": "Abaddon's_Amazing_Fire_Orok_Plushy_Dolls.jpg",
-    "dds": "Fire.dds",
+    "dds": "Orok_Runt_Fire.dds",
     "recovered": "public\\images\\recovered\\Abaddon's_Amazing_Fire_Orok_Plushy_Dolls.png",
     "pages": [
       "Relic Quests"
@@ -1424,10 +1369,10 @@
   },
   {
     "wiki": "Abaddon's_Guard-Healer.jpg",
-    "dds": "heal_on.dds",
-    "recovered": "public\\images\\recovered\\Abaddon's_Guard-Healer.png",
+    "dds": null,
     "pages": [
-      "Abaddon"
+      "Abaddon",
+      "Abba- Champions"
     ]
   },
   {
@@ -1456,8 +1401,7 @@
   },
   {
     "wiki": "Abaddon2.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Boss Guide"
     ]
@@ -1497,9 +1441,9 @@
     "pages": [
       "Acidic Blight",
       "Critical Ranger",
+      "Curses",
       "Dark Conniption Fighter",
-      "Poison Mage",
-      "Ranger Skills"
+      "Poison Mage"
     ]
   },
   {
@@ -1525,8 +1469,7 @@
   },
   {
     "wiki": "Algernon4.jpg",
-    "dds": "dungeon_Algernon.dds",
-    "recovered": "public\\images\\recovered\\Algernon4.png",
+    "dds": null,
     "pages": [
       "Algernon"
     ]
@@ -1564,8 +1507,8 @@
   },
   {
     "wiki": "Algor.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": "Orok_Chieftain_Snow.dds",
+    "recovered": "public\\images\\recovered\\Algor.png",
     "pages": [
       "Algor's Terror Dome",
       "Boss Guide",
@@ -1574,10 +1517,16 @@
   },
   {
     "wiki": "Algors4.jpg",
-    "dds": "dungeon_Algors_TerrorDome.dds",
-    "recovered": "public\\images\\recovered\\Algors4.png",
+    "dds": null,
     "pages": [
       "Algor's Terror Dome"
+    ]
+  },
+  {
+    "wiki": "Algorsterrordomebasecamp.jpg",
+    "dds": null,
+    "pages": [
+      "Algors Terror Dome Base Camp"
     ]
   },
   {
@@ -1596,32 +1545,28 @@
   },
   {
     "wiki": "Amulet-_Beads_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Beads_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
   },
   {
     "wiki": "Amulet-_Bolt_Choker_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Bolt_Choker_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
   },
   {
     "wiki": "Amulet-_Chain_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Chain_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
   },
   {
     "wiki": "Amulet-_Choker_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Choker_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
@@ -1635,32 +1580,28 @@
   },
   {
     "wiki": "Amulet-_Crescent_Charm_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Crescent_Charm_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
   },
   {
     "wiki": "Amulet-_Dawg_Tags_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Dawg_Tags_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
   },
   {
     "wiki": "Amulet-_Demon_Essence_Amulet_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Demon_Essence_Amulet_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
   },
   {
     "wiki": "Amulet-_Extra_Ammo_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Extra_Ammo_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
@@ -1682,16 +1623,14 @@
   },
   {
     "wiki": "Amulet-_Jurassic_Gewgaw_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Jurassic_Gewgaw_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
   },
   {
     "wiki": "Amulet-_Locket_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Locket_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
@@ -1712,8 +1651,7 @@
   },
   {
     "wiki": "Amulet-_Obelisk_Chunk_Amulet_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Obelisk_Chunk_Amulet_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
@@ -1727,8 +1665,7 @@
   },
   {
     "wiki": "Amulet-_Petrified_Hatchling_Amulet_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Petrified_Hatchling_Amulet_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
@@ -1742,40 +1679,35 @@
   },
   {
     "wiki": "Amulet-_Phoenix_Pendant_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Phoenix_Pendant_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
   },
   {
     "wiki": "Amulet-_Reaver_Tooth_Wampum_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Reaver_Tooth_Wampum_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
   },
   {
     "wiki": "Amulet-_Royal_Necklet_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Royal_Necklet_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
   },
   {
     "wiki": "Amulet-_Shaman_Collar_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Shaman_Collar_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
   },
   {
     "wiki": "Amulet-_Shiny_Bauble_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Shiny_Bauble_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
@@ -1804,8 +1736,7 @@
   },
   {
     "wiki": "Amulet-_Wampum_64px.jpg",
-    "dds": "inventory_icon_amulet_shadow.dds",
-    "recovered": "public\\images\\recovered\\Amulet-_Wampum_64px.png",
+    "dds": null,
     "pages": [
       "Amulets"
     ]
@@ -1833,8 +1764,7 @@
   },
   {
     "wiki": "Audrey2.jpg",
-    "dds": "heal_on.dds",
-    "recovered": "public\\images\\recovered\\Audrey2.png",
+    "dds": null,
     "pages": [
       "Audrey the Alchemist"
     ]
@@ -1877,10 +1807,16 @@
   },
   {
     "wiki": "BB4.jpg",
-    "dds": "dungeon_Balzacks_Burrow.dds",
-    "recovered": "public\\images\\recovered\\BB4.png",
+    "dds": null,
     "pages": [
       "Balzack's Burrow"
+    ]
+  },
+  {
+    "wiki": "BBBC.jpg",
+    "dds": null,
+    "pages": [
+      "Balzack's Base Camp"
     ]
   },
   {
@@ -1903,6 +1839,7 @@
     "wiki": "Baem.jpg",
     "dds": null,
     "pages": [
+      "Baem - Sir Fess of Maerz",
       "Baern - Sir Fess of Maerz"
     ]
   },
@@ -1911,13 +1848,13 @@
     "dds": "YummyYums.dds",
     "recovered": null,
     "pages": [
+      "Bag o' Yummy Yums",
       "Yummy Yum"
     ]
   },
   {
     "wiki": "Balzack.jpg",
-    "dds": "QuestItem_Balzack's_Junk_Icon.dds",
-    "recovered": "public\\images\\recovered\\Balzack.png",
+    "dds": null,
     "pages": [
       "Balzack",
       "Balzack's Burrow",
@@ -1926,8 +1863,7 @@
   },
   {
     "wiki": "Banker_interface.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
@@ -1953,7 +1889,7 @@
   {
     "wiki": "Banshee.JPG",
     "dds": "Fade_Banshee_Ice.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Banshee.png",
     "pages": [
       "Fade Banshee"
     ]
@@ -1977,8 +1913,7 @@
   },
   {
     "wiki": "Bars.jpg",
-    "dds": "heal_on.dds",
-    "recovered": "public\\images\\recovered\\Bars.png",
+    "dds": null,
     "pages": [
       "Health and mana bars"
     ]
@@ -2013,11 +1948,25 @@
     ]
   },
   {
+    "wiki": "Blademaster.jpg",
+    "dds": null,
+    "pages": [
+      "Defeat the Blade Masters"
+    ]
+  },
+  {
     "wiki": "Blademaster_sword.jpg",
     "dds": "weapon_icon_blademaster_sword.dds",
     "recovered": "public\\images\\recovered\\Blademaster_sword.png",
     "pages": [
       "Quest Items List"
+    ]
+  },
+  {
+    "wiki": "Blayde.jpg",
+    "dds": null,
+    "pages": [
+      "Blayde, Da Flayme, and Phreeze"
     ]
   },
   {
@@ -2033,9 +1982,16 @@
     ]
   },
   {
+    "wiki": "Bling-gnome.png",
+    "dds": "BlingGnome_on.dds",
+    "recovered": "public\\images\\recovered\\Bling-gnome.png",
+    "pages": [
+      "Druid (Ice or Fire)"
+    ]
+  },
+  {
     "wiki": "Blue_Fish.jpg",
-    "dds": "Item_Icon_BlueFish.dds",
-    "recovered": "public\\images\\recovered\\Blue_Fish.png",
+    "dds": null,
     "pages": [
       "Quest Items List"
     ]
@@ -2076,7 +2032,7 @@
   },
   {
     "wiki": "Body-_Amethyst_Plate_64px.jpg",
-    "dds": "Plate_3_Body_Icon.dds",
+    "dds": "Mythic_Plate_Armor_2_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Body-_Amethyst_Plate_64px.png",
     "pages": [
       "Fighter Armor"
@@ -2091,8 +2047,7 @@
   },
   {
     "wiki": "Body-_Bone_Splint_Armor_64px.jpg",
-    "dds": "Splint_3_Body_Icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Bone_Splint_Armor_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
@@ -2106,40 +2061,35 @@
   },
   {
     "wiki": "Body-_Chain1_Mail_64px.jpg",
-    "dds": "starting_ranger_body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Chain1_Mail_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
   },
   {
     "wiki": "Body-_Chain2_Mesh_Suit_Green_64px.jpg",
-    "dds": "starting_ranger_body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Chain2_Mesh_Suit_Green_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
   },
   {
     "wiki": "Body-_Chain2_Mesh_Suit_Red_64px.jpg",
-    "dds": "Chain_2_Body_Red_Icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Chain2_Mesh_Suit_Red_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
   },
   {
     "wiki": "Body-_Chain3-_Rogue_Shirt_64px.jpg",
-    "dds": "starting_ranger_body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Chain3-_Rogue_Shirt_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
   },
   {
     "wiki": "Body-_Chain3_Mail_64px.jpg",
-    "dds": "starting_ranger_body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Chain3_Mail_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
@@ -2153,32 +2103,28 @@
   },
   {
     "wiki": "Body-_Cloth1_Duds_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Cloth1_Duds_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Body-_Cloth1_Rags_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Cloth1_Rags_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Body-_Cloth2_Jumpsuit_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Cloth2_Jumpsuit_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Body-_Cloth3_Killer_Threads_.jpg",
-    "dds": "Cloth_4_Body_Icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Cloth3_Killer_Threads_.png",
+    "dds": null,
     "pages": [
       "Emerald Cloth Suit",
       "Horrific Taint",
@@ -2187,31 +2133,28 @@
   },
   {
     "wiki": "Body-_Cloth3_Killer_Threads_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Cloth3_Killer_Threads_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Body-_Coopers_Cooler_Splint.jpg",
-    "dds": "Splint_3_Body_Icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Coopers_Cooler_Splint.png",
+    "dds": null,
     "pages": [
       "Cooper's Cooler Splint"
     ]
   },
   {
     "wiki": "Body-_Crimson_Armor_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Crimson_Armor_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
   },
   {
     "wiki": "Body-_Crystal_Plate_64px.jpg",
-    "dds": "Plate_3_Body_Icon.dds",
+    "dds": "Mythic_Plate_Armor_2_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Body-_Crystal_Plate_64px.png",
     "pages": [
       "Fighter Armor",
@@ -2220,7 +2163,7 @@
   },
   {
     "wiki": "Body-_Dark_Plate_64px.jpg",
-    "dds": "Plate_3_Body_Icon.dds",
+    "dds": "Plate_05_Body_Dark_icon.dds",
     "recovered": "public\\images\\recovered\\Body-_Dark_Plate_64px.png",
     "pages": [
       "Fighter Armor"
@@ -2228,8 +2171,7 @@
   },
   {
     "wiki": "Body-_Death",
-    "dds": "Splint_07_Body_Poison_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Death.png",
+    "dds": null,
     "pages": [
       "Death's Habit",
       "Poison Mage",
@@ -2238,8 +2180,7 @@
   },
   {
     "wiki": "Body-_Death's_Habit.jpg",
-    "dds": "Splint_07_Body_Poison_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Death's_Habit.png",
+    "dds": null,
     "pages": [
       "Death's Habit",
       "Poison Mage",
@@ -2248,16 +2189,14 @@
   },
   {
     "wiki": "Body-_Ghost1_Threads_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Ghost1_Threads_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Body-_Ghost3_Tatters_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Ghost3_Tatters_64px.png",
+    "dds": null,
     "pages": [
       "BSOL mage",
       "Mage Armor"
@@ -2265,8 +2204,7 @@
   },
   {
     "wiki": "Body-_Ghost4_Habit_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Ghost4_Habit_64px.png",
+    "dds": null,
     "pages": [
       "BSOL mage",
       "Ice Mage",
@@ -2276,15 +2214,14 @@
   },
   {
     "wiki": "Body-_Leather1_Armor_64px.jpg",
-    "dds": "starting_ranger_body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Leather1_Armor_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
   },
   {
     "wiki": "Body-_Leather_Brigandine_64px.jpg",
-    "dds": "Leather_02_Body_icon.dds",
+    "dds": "Mythic_Leather_Armor_1_body.dds",
     "recovered": "public\\images\\recovered\\Body-_Leather_Brigandine_64px.png",
     "pages": [
       "Ranger Armor"
@@ -2292,7 +2229,7 @@
   },
   {
     "wiki": "Body-_Leather_Vest_64px.jpg",
-    "dds": "Leather_02_Body_icon.dds",
+    "dds": "Mythic_Leather_Armor_1_body.dds",
     "recovered": "public\\images\\recovered\\Body-_Leather_Vest_64px.png",
     "pages": [
       "Ranger Armor"
@@ -2314,8 +2251,7 @@
   },
   {
     "wiki": "Body-_Military_Splint_Cuirass_64px.jpg",
-    "dds": "Splint_3_Body_Icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Military_Splint_Cuirass_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
@@ -2357,7 +2293,7 @@
   },
   {
     "wiki": "Body-_Ornate_Plate_64px.jpg",
-    "dds": "white.dds",
+    "dds": "Mythic_Plate_Armor_2_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Body-_Ornate_Plate_64px.png",
     "pages": [
       "Fighter Armor",
@@ -2366,15 +2302,14 @@
   },
   {
     "wiki": "Body-_Padded_Khalat_64px.jpg",
-    "dds": "Padded_1_Body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Padded_Khalat_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Body-_Plate-_Full_Plate_64px.jpg",
-    "dds": "Plate_3_Body_Icon.dds",
+    "dds": "Mythic_Plate_Armor_2_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Body-_Plate-_Full_Plate_64px.png",
     "pages": [
       "Fighter Armor"
@@ -2382,7 +2317,7 @@
   },
   {
     "wiki": "Body-_Rickety_Plate_64px.jpg",
-    "dds": "Plate_3_Body_Icon.dds",
+    "dds": "Mythic_Plate_Armor_2_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Body-_Rickety_Plate_64px.png",
     "pages": [
       "Fighter Armor"
@@ -2390,7 +2325,7 @@
   },
   {
     "wiki": "Body-_Royal_Plate_64px.jpg",
-    "dds": "Plate_3_Body_Icon.dds",
+    "dds": "Mythic_Plate_Armor_2_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Body-_Royal_Plate_64px.png",
     "pages": [
       "Fighter Armor"
@@ -2398,15 +2333,14 @@
   },
   {
     "wiki": "Body-_Scale-_Mail_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Scale-_Mail_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
   },
   {
     "wiki": "Body-_Shadow_Plate_64px.jpg",
-    "dds": "Plate_3_Body_Icon.dds",
+    "dds": "Mythic_Plate_Armor_2_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Body-_Shadow_Plate_64px.png",
     "pages": [
       "Fighter Armor"
@@ -2421,31 +2355,28 @@
   },
   {
     "wiki": "Body-_Skanksy",
-    "dds": "Plate_05_Body_Dark_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Skanksy.png",
+    "dds": null,
     "pages": [
       "Skanksy's Dark Crystals"
     ]
   },
   {
     "wiki": "Body-_Skanksy's_Dark_Crystals.jpg",
-    "dds": "Plate_05_Body_Dark_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Skanksy's_Dark_Crystals.png",
+    "dds": null,
     "pages": [
       "Skanksy's Dark Crystals"
     ]
   },
   {
     "wiki": "Body-_Splint-_Mail_64px.jpg",
-    "dds": "Splint_3_Body_Icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Splint-_Mail_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
   },
   {
     "wiki": "Body-_Studded_Leather_Armor_64px.jpg",
-    "dds": "Leather_02_Body_icon.dds",
+    "dds": "Mythic_Leather_Armor_1_body.dds",
     "recovered": "public\\images\\recovered\\Body-_Studded_Leather_Armor_64px.png",
     "pages": [
       "Ranger Armor"
@@ -2453,8 +2384,7 @@
   },
   {
     "wiki": "Body-_Sunstone_Armor.jpg",
-    "dds": "white.dds",
-    "recovered": "public\\images\\recovered\\Body-_Sunstone_Armor.png",
+    "dds": null,
     "pages": [
       "Aurora",
       "Fighter Armor",
@@ -2463,7 +2393,7 @@
   },
   {
     "wiki": "Body-_Unique_Scale-_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Body_icon.dds",
+    "dds": "Unique_Cloth_Armor_3_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Body-_Unique_Scale-_64px.png",
     "pages": [
       "Fighter Armor"
@@ -2471,31 +2401,28 @@
   },
   {
     "wiki": "Body-_Wizard_Robe_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Wizard_Robe_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Body-_Wrapped_Mu",
-    "dds": "Mythic_Cloth_armor_1_Body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Wrapped_Mu.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Body-_Wrapped_Mu'umu'u_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Body_icon.dds",
-    "recovered": "public\\images\\recovered\\Body-_Wrapped_Mu'umu'u_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Body-_chain_05_body.jpg",
-    "dds": "Chain_2_Body_icon.dds",
+    "dds": "Chain_05_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Body-_chain_05_body.png",
     "pages": [
       "Ranger Armor"
@@ -2503,7 +2430,7 @@
   },
   {
     "wiki": "Body-_cloth_ninja_01_body.jpg",
-    "dds": "Cloth_4_Body_Icon.dds",
+    "dds": "Cloth_Ninja_01_Body_Icon.dds",
     "recovered": "public\\images\\recovered\\Body-_cloth_ninja_01_body.png",
     "pages": [
       "Mage Armor"
@@ -2511,7 +2438,7 @@
   },
   {
     "wiki": "Body-_crystal_03_body.jpg",
-    "dds": "Crystal_1_Body_icon.dds",
+    "dds": "Crystal_03_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Body-_crystal_03_body.png",
     "pages": [
       "Fighter Armor"
@@ -2519,7 +2446,7 @@
   },
   {
     "wiki": "Body-_crystal_04_body.jpg",
-    "dds": "Crystal_1_Body_icon.dds",
+    "dds": "Crystal_04_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Body-_crystal_04_body.png",
     "pages": [
       "Fighter Armor"
@@ -2535,6 +2462,14 @@
       "AoE Spammer - Hybrid Class",
       "BSOL mage",
       "Bookworm"
+    ]
+  },
+  {
+    "wiki": "Bookworm.png",
+    "dds": "Mental_Prowess_on.dds",
+    "recovered": "public\\images\\recovered\\Bookworm.png",
+    "pages": [
+      "Hydrostatic (Shadow/Ice) Mage"
     ]
   },
   {
@@ -2622,8 +2557,7 @@
   },
   {
     "wiki": "Boots-_Cloth1_Slippers_64px.jpg",
-    "dds": "Mythic_Leather_Armor_1_boots.dds",
-    "recovered": "public\\images\\recovered\\Boots-_Cloth1_Slippers_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
@@ -2646,8 +2580,7 @@
   },
   {
     "wiki": "Boots-_Crimson_Greaves_64px.jpg",
-    "dds": "Mythic_Leather_Armor_1_boots.dds",
-    "recovered": "public\\images\\recovered\\Boots-_Crimson_Greaves_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
@@ -2663,7 +2596,7 @@
   },
   {
     "wiki": "Boots-_Dark_Plate_Greaves_64px.jpg",
-    "dds": "Plate_3_Boots_Icon.dds",
+    "dds": "Plate_05_Body_Dark_icon.dds",
     "recovered": "public\\images\\recovered\\Boots-_Dark_Plate_Greaves_64px.png",
     "pages": [
       "Fighter Armor"
@@ -2671,8 +2604,8 @@
   },
   {
     "wiki": "Boots-_Death",
-    "dds": "Splint_07_Boots_Poison_icon.dds",
-    "recovered": "public\\images\\recovered\\Boots-_Death.png",
+    "dds": "Human_Male_Splint_07_Legs_Poison.dds",
+    "recovered": null,
     "pages": [
       "Death's Two Legs",
       "Poison Mage"
@@ -2680,8 +2613,8 @@
   },
   {
     "wiki": "Boots-_Death's_Two_Legs.jpg",
-    "dds": "Splint_07_Boots_Poison_icon.dds",
-    "recovered": "public\\images\\recovered\\Boots-_Death's_Two_Legs.png",
+    "dds": "Human_Male_Splint_07_Legs_Poison.dds",
+    "recovered": null,
     "pages": [
       "Death's Two Legs",
       "Poison Mage"
@@ -2775,8 +2708,7 @@
   },
   {
     "wiki": "Boots-_Military_Splint_Greaves_64px.jpg",
-    "dds": "Splint_3_Boots_Icon.dds",
-    "recovered": "public\\images\\recovered\\Boots-_Military_Splint_Greaves_64px.png",
+    "dds": null,
     "pages": [
       "Cortez's Crushers",
       "Ranger Armor"
@@ -2784,8 +2716,7 @@
   },
   {
     "wiki": "Boots-_Ornate_Greaves_64px.jpg",
-    "dds": "white.dds",
-    "recovered": "public\\images\\recovered\\Boots-_Ornate_Greaves_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor",
       "White Paladin"
@@ -2793,39 +2724,35 @@
   },
   {
     "wiki": "Boots-_Oznog",
-    "dds": "Spark.dds",
-    "recovered": "public\\images\\recovered\\Boots-_Oznog.png",
+    "dds": null,
     "pages": [
       "Oznog's Sparkling Foot Husks"
     ]
   },
   {
     "wiki": "Boots-_Oznog's_Sparkling_Foot_Husks.jpg",
-    "dds": "Spark.dds",
-    "recovered": "public\\images\\recovered\\Boots-_Oznog's_Sparkling_Foot_Husks.png",
+    "dds": null,
     "pages": [
       "Oznog's Sparkling Foot Husks"
     ]
   },
   {
     "wiki": "Boots-_Padded_Foot_Wraps_64px.jpg",
-    "dds": "Padded_03_Boots_icon.dds",
-    "recovered": "public\\images\\recovered\\Boots-_Padded_Foot_Wraps_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Boots-_Padded_Footwear_64px.jpg",
-    "dds": "Padded_03_Boots_icon.dds",
-    "recovered": "public\\images\\recovered\\Boots-_Padded_Footwear_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Boots-_Plate-_Greaves_64px.jpg",
-    "dds": "Plate_3_Boots_Icon.dds",
+    "dds": "Mythic_Plate_Armor_2_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Boots-_Plate-_Greaves_64px.png",
     "pages": [
       "Fighter Armor"
@@ -2848,7 +2775,7 @@
   },
   {
     "wiki": "Boots-_Royal_Plate_Greaves_64px.jpg",
-    "dds": "Plate_3_Boots_Icon.dds",
+    "dds": "Mythic_Plate_Armor_2_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Boots-_Royal_Plate_Greaves_64px.png",
     "pages": [
       "Fighter Armor"
@@ -2856,24 +2783,21 @@
   },
   {
     "wiki": "Boots-_Scale-_Greaves_64px.jpg",
-    "dds": "Mythic_Leather_Armor_1_boots.dds",
-    "recovered": "public\\images\\recovered\\Boots-_Scale-_Greaves_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
   },
   {
     "wiki": "Boots-_Shadow_Greaves_64px.jpg",
-    "dds": "Cloth_05_Shadow_Boots_icon.dds",
-    "recovered": "public\\images\\recovered\\Boots-_Shadow_Greaves_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
   },
   {
     "wiki": "Boots-_Sparkles.jpg",
-    "dds": "Spark.dds",
-    "recovered": "public\\images\\recovered\\Boots-_Sparkles.png",
+    "dds": null,
     "pages": [
       "Sparkles"
     ]
@@ -2888,7 +2812,7 @@
   },
   {
     "wiki": "Boots-_Sunstone_Boots_64px.jpg",
-    "dds": "white.dds",
+    "dds": "Mythic_Leather_Armor_1_boots.dds",
     "recovered": "public\\images\\recovered\\Boots-_Sunstone_Boots_64px.png",
     "pages": [
       "Fighter Armor",
@@ -2912,15 +2836,14 @@
   },
   {
     "wiki": "Boots-_Wizard_Stockings_64px.jpg",
-    "dds": "Mythic_Leather_Armor_1_boots.dds",
-    "recovered": "public\\images\\recovered\\Boots-_Wizard_Stockings_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Boots-_chain_05_boots.jpg",
-    "dds": "Boots_Icon_Chain.dds",
+    "dds": "Chain_05_Boots_icon.dds",
     "recovered": "public\\images\\recovered\\Boots-_chain_05_boots.png",
     "pages": [
       "Ranger Armor"
@@ -2928,7 +2851,7 @@
   },
   {
     "wiki": "Boots-_cloth_ninja_01_boots.jpg",
-    "dds": "Cloth_05_Boots_icon.dds",
+    "dds": "Cloth_Ninja_01_Boots_Icon.dds",
     "recovered": "public\\images\\recovered\\Boots-_cloth_ninja_01_boots.png",
     "pages": [
       "Mage Armor"
@@ -2936,7 +2859,7 @@
   },
   {
     "wiki": "Boots-_crystal_03_boots.jpg",
-    "dds": "Crystal_1_Boots_Icon.dds",
+    "dds": "Crystal_03_Boots_icon.dds",
     "recovered": "public\\images\\recovered\\Boots-_crystal_03_boots.png",
     "pages": [
       "Fighter Armor"
@@ -2944,7 +2867,7 @@
   },
   {
     "wiki": "Boots-_crystal_04_boots.jpg",
-    "dds": "Crystal_1_Boots_Icon.dds",
+    "dds": "Crystal_04_Boots_icon.dds",
     "recovered": "public\\images\\recovered\\Boots-_crystal_04_boots.png",
     "pages": [
       "Fighter Armor"
@@ -2952,7 +2875,7 @@
   },
   {
     "wiki": "Boots-_starting_ranger_boots_64px.jpg",
-    "dds": "starting_ranger_body_icon.dds",
+    "dds": "starting_ranger_boots_icon.dds",
     "recovered": "public\\images\\recovered\\Boots-_starting_ranger_boots_64px.png",
     "pages": [
       "Ranger Armor"
@@ -2960,8 +2883,7 @@
   },
   {
     "wiki": "Boss-Sissirat.jpg",
-    "dds": "QuestItem_Icon_Energy_Drink_Sissirat.dds",
-    "recovered": "public\\images\\recovered\\Boss-Sissirat.png",
+    "dds": null,
     "pages": [
       "Algernon",
       "Boss Guide",
@@ -2971,8 +2893,7 @@
   },
   {
     "wiki": "Boss_-_Rattle_Tooth.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Boss Guide",
       "Dew Valley Rattle Tooth"
@@ -3020,6 +2941,13 @@
     ]
   },
   {
+    "wiki": "Capwn.jpg",
+    "dds": null,
+    "pages": [
+      "Capwn"
+    ]
+  },
+  {
     "wiki": "Cat_L100.jpg",
     "dds": null,
     "pages": [
@@ -3043,7 +2971,7 @@
   {
     "wiki": "Chaos_Fade_General.jpg",
     "dds": "Fade_General_Ice.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Chaos_Fade_General.png",
     "pages": [
       "Fade General"
     ]
@@ -3056,10 +2984,17 @@
     ]
   },
   {
-    "wiki": "Chilling-touch.jpg",
-    "dds": "heal_on.dds",
-    "recovered": "public\\images\\recovered\\Chilling-touch.png",
+    "wiki": "ChillBill.JPG",
+    "dds": null,
     "pages": [
+      "Shivery the Incorrigible Snowman"
+    ]
+  },
+  {
+    "wiki": "Chilling-touch.jpg",
+    "dds": null,
+    "pages": [
+      "Chilling Touch",
       "Druid (Ice or Fire)",
       "Healthy Obsidian Mage",
       "Mage Skills",
@@ -3071,6 +3006,13 @@
     "dds": null,
     "pages": [
       "Skeer'ikt the Chirper"
+    ]
+  },
+  {
+    "wiki": "Chudd.jpg",
+    "dds": null,
+    "pages": [
+      "Gr'Aves, Chudd, D'Oyle, and Pvvnly"
     ]
   },
   {
@@ -3103,8 +3045,7 @@
   },
   {
     "wiki": "Cold_snap.jpg",
-    "dds": "Fire.dds",
-    "recovered": "public\\images\\recovered\\Cold_snap.png",
+    "dds": null,
     "pages": [
       "AUNReBO Sentinel",
       "AoE Spammer - Hybrid Class",
@@ -3125,6 +3066,13 @@
     "dds": null,
     "pages": [
       "Combined Dungeons Map"
+    ]
+  },
+  {
+    "wiki": "Concerned_abba_labba.jpg",
+    "dds": null,
+    "pages": [
+      "Concerned Abba Labba"
     ]
   },
   {
@@ -3169,7 +3117,7 @@
   {
     "wiki": "Crimson_Shaman.jpg",
     "dds": "Whisker_Shaman.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Crimson_Shaman.png",
     "pages": [
       "Whisker Shaman"
     ]
@@ -3184,6 +3132,20 @@
       "Crispy Critters",
       "Mage Skills",
       "Offensive"
+    ]
+  },
+  {
+    "wiki": "Crooked_guard_melee.jpg",
+    "dds": null,
+    "pages": [
+      "Crooked Guard"
+    ]
+  },
+  {
+    "wiki": "Crooked_guard_ranger.jpg",
+    "dds": null,
+    "pages": [
+      "Crooked Guard"
     ]
   },
   {
@@ -3202,10 +3164,16 @@
   },
   {
     "wiki": "DVmap.jpg",
-    "dds": "dungeon_dew_valley.dds",
-    "recovered": "public\\images\\recovered\\DVmap.png",
+    "dds": null,
     "pages": [
       "Dew Valley"
+    ]
+  },
+  {
+    "wiki": "Daflayme.jpg",
+    "dds": null,
+    "pages": [
+      "Blayde, Da Flayme, and Phreeze"
     ]
   },
   {
@@ -3217,14 +3185,13 @@
   },
   {
     "wiki": "Dark-wizardry.jpg",
-    "dds": "heal_on.dds",
-    "recovered": "public\\images\\recovered\\Dark-wizardry.png",
+    "dds": null,
     "pages": [
+      "Dark Wizardry",
       "Healthy Obsidian Mage",
       "Hydrostatic (Shadow/Ice) Mage",
       "Mage Skills",
-      "Self Buff",
-      "Vergrim Killer Mage"
+      "Self Buff"
     ]
   },
   {
@@ -3275,16 +3242,14 @@
   },
   {
     "wiki": "Deward.jpg",
-    "dds": "merchant.dds",
-    "recovered": "public\\images\\recovered\\Deward.png",
+    "dds": null,
     "pages": [
       "Deward the Arms Merchant"
     ]
   },
   {
     "wiki": "Dewvalley2.jpg",
-    "dds": "dungeon_dew_valley.dds",
-    "recovered": "public\\images\\recovered\\Dewvalley2.png",
+    "dds": null,
     "pages": [
       "Dew Valley"
     ]
@@ -3320,9 +3285,9 @@
   },
   {
     "wiki": "Divine-ascendancy.jpg",
-    "dds": "white.dds",
-    "recovered": "public\\images\\recovered\\Divine-ascendancy.png",
+    "dds": null,
     "pages": [
+      "Divine Ascendancy",
       "Fighter Skills",
       "Self Buff",
       "White Paladin"
@@ -3343,7 +3308,7 @@
   {
     "wiki": "Divine_Hunter.jpg",
     "dds": "orok_hunter.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Divine_Hunter.png",
     "pages": [
       "Orok Hunter"
     ]
@@ -3379,10 +3344,24 @@
     ]
   },
   {
+    "wiki": "Doyle.jpg",
+    "dds": null,
+    "pages": [
+      "Gr'Aves, Chudd, D'Oyle, and Pvvnly"
+    ]
+  },
+  {
     "wiki": "Dreadly-Intentions.jpg",
     "dds": null,
     "pages": [
       "Dreadly Intentions"
+    ]
+  },
+  {
+    "wiki": "Dumdadumdum.jpg",
+    "dds": null,
+    "pages": [
+      "Abba- Champions"
     ]
   },
   {
@@ -3395,7 +3374,7 @@
   },
   {
     "wiki": "Dungeon_inferno.jpg",
-    "dds": "Fire.dds",
+    "dds": "dungeon_ice.dds",
     "recovered": "public\\images\\recovered\\Dungeon_inferno.png",
     "pages": [
       "AUNReBO Sentinel",
@@ -3404,9 +3383,23 @@
     ]
   },
   {
+    "wiki": "Dungeon_inferno.png",
+    "dds": "dungeon_ice.dds",
+    "recovered": "public\\images\\recovered\\Dungeon_inferno.png",
+    "pages": [
+      "Druid (Ice or Fire)"
+    ]
+  },
+  {
+    "wiki": "EP.jpg",
+    "dds": null,
+    "pages": [
+      "The Embercore Portal"
+    ]
+  },
+  {
     "wiki": "EP4.jpg",
-    "dds": "dungeon_Embercore_Path.dds",
-    "recovered": "public\\images\\recovered\\EP4.png",
+    "dds": null,
     "pages": [
       "Embercore Path"
     ]
@@ -3487,8 +3480,7 @@
   },
   {
     "wiki": "Effect_Icon-_PallofFear_on_43px.jpg",
-    "dds": "PallofFear_on.dds",
-    "recovered": "public\\images\\recovered\\Effect_Icon-_PallofFear_on_43px.png",
+    "dds": null,
     "pages": [
       "Skills"
     ]
@@ -3583,8 +3575,16 @@
       "AUNReBO Sentinel",
       "Critical Ranger",
       "Druid (Ice or Fire)",
-      "Passive",
-      "Poison Mage"
+      "Extra Crispy Monster Bait",
+      "Passive"
+    ]
+  },
+  {
+    "wiki": "Extra-crispy-monster-bait.png",
+    "dds": "BaitHealthModPassive_on.dds",
+    "recovered": "public\\images\\recovered\\Extra-crispy-monster-bait.png",
+    "pages": [
+      "Druid (Ice or Fire)"
     ]
   },
   {
@@ -3595,9 +3595,22 @@
     ]
   },
   {
+    "wiki": "FETM.jpg",
+    "dds": null,
+    "pages": [
+      "Fighter Equipment Token Master"
+    ]
+  },
+  {
+    "wiki": "FIR.jpg",
+    "dds": null,
+    "pages": [
+      "Frump's Interdungeonal Resort"
+    ]
+  },
+  {
     "wiki": "FM4.jpg",
-    "dds": "dungeon_Frumps_Misfortune.dds",
-    "recovered": "public\\images\\recovered\\FM4.png",
+    "dds": null,
     "pages": [
       "Frump's Misfortune"
     ]
@@ -3612,7 +3625,7 @@
   {
     "wiki": "Fade_Widow.jpg",
     "dds": "Fade_Widower.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Fade_Widow.png",
     "pages": [
       "Fade Widow"
     ]
@@ -3634,6 +3647,8 @@
     "dds": null,
     "pages": [
       "Arcane Scout",
+      "Curses",
+      "Fear Shot",
       "Ranger Skills"
     ]
   },
@@ -3647,7 +3662,7 @@
   {
     "wiki": "Fiery_Pygmy.jpg",
     "dds": "Mutant_Hulk_ice.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Fiery_Pygmy.png",
     "pages": [
       "Mutant Hulk"
     ]
@@ -3700,16 +3715,24 @@
     ]
   },
   {
+    "wiki": "Fire_Shot.png",
+    "dds": "FireShot_on.dds",
+    "recovered": "public\\images\\recovered\\Fire_Shot.png",
+    "pages": [
+      "Druid (Ice or Fire)"
+    ]
+  },
+  {
     "wiki": "Fire_Treasure_Chest.PNG",
-    "dds": "Fire.dds",
-    "recovered": "public\\images\\recovered\\Fire_Treasure_Chest.png",
+    "dds": "Treasure_Hunt_Chest_1.dds",
+    "recovered": null,
     "pages": [
       "Treasure Chests"
     ]
   },
   {
     "wiki": "Fire_token_vendor.jpg",
-    "dds": "Fire.dds",
+    "dds": "mapicon_vendor_token.dds",
     "recovered": "public\\images\\recovered\\Fire_token_vendor.png",
     "pages": [
       "Token Vendors"
@@ -3717,16 +3740,14 @@
   },
   {
     "wiki": "Fizz_Rock_Samples.jpg",
-    "dds": "rocks.dds",
-    "recovered": "public\\images\\recovered\\Fizz_Rock_Samples.png",
+    "dds": null,
     "pages": [
       "Quest Items List"
     ]
   },
   {
     "wiki": "Fizz_drink.jpg",
-    "dds": "FizzDrinkBuff_on.dds",
-    "recovered": "public\\images\\recovered\\Fizz_drink.png",
+    "dds": null,
     "pages": [
       "Quest Items List"
     ]
@@ -3740,17 +3761,23 @@
     ]
   },
   {
+    "wiki": "Fledgling_Hunter.jpg",
+    "dds": "orok_hunter.dds",
+    "recovered": "public\\images\\recovered\\Fledgling_Hunter.png",
+    "pages": [
+      "Orok Hunter"
+    ]
+  },
+  {
     "wiki": "Free_player_wheelchair.jpg",
-    "dds": "player.dds",
-    "recovered": "public\\images\\recovered\\Free_player_wheelchair.png",
+    "dds": null,
     "pages": [
       "Skills"
     ]
   },
   {
     "wiki": "Frenzy_on_43px.jpg",
-    "dds": "Frenzy_on.dds",
-    "recovered": "public\\images\\recovered\\Frenzy_on_43px.png",
+    "dds": null,
     "pages": [
       "Skills"
     ]
@@ -3758,7 +3785,7 @@
   {
     "wiki": "Frigid_Orok_Runt.jpg",
     "dds": "Orok_Runt.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Frigid_Orok_Runt.png",
     "pages": [
       "Orok Scout"
     ]
@@ -3771,9 +3798,17 @@
     ]
   },
   {
+    "wiki": "Frosty_Ranged_Cannonier.jpg",
+    "dds": "Mutant_ChestCannon_Ranged_Weapon.dds",
+    "recovered": "public\\images\\recovered\\Frosty_Ranged_Cannonier.png",
+    "pages": [
+      "Mutant Ranged Cannonier"
+    ]
+  },
+  {
     "wiki": "Frozen_Orok_Slayer.jpg",
     "dds": "Orok_Warrior.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Frozen_Orok_Slayer.png",
     "pages": [
       "Orok Warrior"
     ]
@@ -3794,8 +3829,7 @@
   },
   {
     "wiki": "Frump.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Boss Guide",
       "Frump",
@@ -3861,8 +3895,7 @@
   },
   {
     "wiki": "Girdle_of_Infinitum.jpg",
-    "dds": "Fire.dds",
-    "recovered": "public\\images\\recovered\\Girdle_of_Infinitum.png",
+    "dds": null,
     "pages": [
       "Druid (Ice or Fire)",
       "Girdle of Infinitum"
@@ -3885,8 +3918,7 @@
   },
   {
     "wiki": "Gloves-_Amethyst_Gauntlets_64px.jpg",
-    "dds": "Mythic_Leather_Armor_1_gloves.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Amethyst_Gauntlets_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
@@ -3907,8 +3939,7 @@
   },
   {
     "wiki": "Gloves-_Bone_Splint_Bracers_64px.jpg",
-    "dds": "Splint_3_Gloves_Icon.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Bone_Splint_Bracers_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
@@ -3955,8 +3986,7 @@
   },
   {
     "wiki": "Gloves-_Cloth2_Mitts_64px.jpg",
-    "dds": "Mythic_Leather_Armor_1_gloves.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Cloth2_Mitts_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
@@ -3971,16 +4001,14 @@
   },
   {
     "wiki": "Gloves-_Crimson_Gauntlets_64px.jpg",
-    "dds": "Mythic_Leather_Armor_1_gloves.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Crimson_Gauntlets_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
   },
   {
     "wiki": "Gloves-_Crystal_Gauntlets_64px.jpg",
-    "dds": "Crystal_1_Gloves_Icon.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Crystal_Gauntlets_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor",
       "Tank With a Trick Up His Sleeve"
@@ -3988,7 +4016,7 @@
   },
   {
     "wiki": "Gloves-_Dark_Plate_Gauntlets.jpg",
-    "dds": "Plate_3_Gloves_Icon.dds",
+    "dds": "Plate_05_Body_Dark_icon.dds",
     "recovered": "public\\images\\recovered\\Gloves-_Dark_Plate_Gauntlets.png",
     "pages": [
       "The Late Knight's Gauntlets"
@@ -3996,7 +4024,7 @@
   },
   {
     "wiki": "Gloves-_Dark_Plate_Gauntlets_64px.jpg",
-    "dds": "Plate_3_Gloves_Icon.dds",
+    "dds": "Plate_05_Body_Dark_icon.dds",
     "recovered": "public\\images\\recovered\\Gloves-_Dark_Plate_Gauntlets_64px.png",
     "pages": [
       "Fighter Armor"
@@ -4004,8 +4032,7 @@
   },
   {
     "wiki": "Gloves-_Death",
-    "dds": "Splint_07_Gloves_Poison_icon.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Death.png",
+    "dds": null,
     "pages": [
       "Death's Grip",
       "Poison Mage"
@@ -4013,8 +4040,7 @@
   },
   {
     "wiki": "Gloves-_Death's_Grip.jpg",
-    "dds": "Splint_07_Gloves_Poison_icon.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Death's_Grip.png",
+    "dds": null,
     "pages": [
       "Death's Grip",
       "Poison Mage"
@@ -4045,7 +4071,8 @@
     "wiki": "Gloves-_Fuzzy_Trimmed_Luv_Cuffs.jpg",
     "dds": null,
     "pages": [
-      "Fuzz Trimmed Luv Cuffs"
+      "Fuzz Trimmed Luv Cuffs",
+      "Fuzzy Trimmed Luv Cuffs"
     ]
   },
   {
@@ -4058,7 +4085,7 @@
   },
   {
     "wiki": "Gloves-_Ghost3_Gloves_64px.jpg",
-    "dds": "Mythic_Leather_Armor_1_gloves.dds",
+    "dds": "Ghost_3_Gloves_Icon.dds",
     "recovered": "public\\images\\recovered\\Gloves-_Ghost3_Gloves_64px.png",
     "pages": [
       "BSOL mage",
@@ -4068,7 +4095,7 @@
   },
   {
     "wiki": "Gloves-_Ghost4_Gloves_64px.jpg",
-    "dds": "Mythic_Leather_Armor_1_gloves.dds",
+    "dds": "Ghost_4_Gloves_Icon.dds",
     "recovered": "public\\images\\recovered\\Gloves-_Ghost4_Gloves_64px.png",
     "pages": [
       "BSOL mage",
@@ -4109,8 +4136,7 @@
   },
   {
     "wiki": "Gloves-_Military_Splint_Vambraces_64px.jpg",
-    "dds": "Splint_3_Gloves_Icon.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Military_Splint_Vambraces_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
@@ -4131,8 +4157,7 @@
   },
   {
     "wiki": "Gloves-_Ornate_Gauntlets_64px.jpg",
-    "dds": "white.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Ornate_Gauntlets_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor",
       "White Paladin"
@@ -4162,15 +4187,14 @@
   },
   {
     "wiki": "Gloves-_Padded_Hand_Wraps_64px.jpg",
-    "dds": "Padded_1_Gloves_icon.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Padded_Hand_Wraps_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Gloves-_Plate-_Gauntlets_64px.jpg",
-    "dds": "Plate_3_Gloves_Icon.dds",
+    "dds": "Mythic_Plate_Armor_2_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Gloves-_Plate-_Gauntlets_64px.png",
     "pages": [
       "Fighter Armor"
@@ -4178,15 +4202,14 @@
   },
   {
     "wiki": "Gloves-_Rickety_Bracers_64px.jpg",
-    "dds": "Mythic_Leather_Armor_1_gloves.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Rickety_Bracers_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
   },
   {
     "wiki": "Gloves-_Royal_Plate_Gauntlets_64px.jpg",
-    "dds": "Plate_3_Gloves_Icon.dds",
+    "dds": "Mythic_Plate_Armor_2_Body_icon.dds",
     "recovered": "public\\images\\recovered\\Gloves-_Royal_Plate_Gauntlets_64px.png",
     "pages": [
       "Fighter Armor"
@@ -4208,8 +4231,7 @@
   },
   {
     "wiki": "Gloves-_Scale-_Gauntlets_64px.jpg",
-    "dds": "Mythic_Leather_Armor_1_gloves.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Scale-_Gauntlets_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
@@ -4223,8 +4245,7 @@
   },
   {
     "wiki": "Gloves-_Shadow_Gauntlets_64px.jpg",
-    "dds": "Cloth_4_Gloves_Shadow_Icon.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Shadow_Gauntlets_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
@@ -4254,8 +4275,7 @@
   },
   {
     "wiki": "Gloves-_Sunstone_Gauntlets.jpg",
-    "dds": "white.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Sunstone_Gauntlets.png",
+    "dds": null,
     "pages": [
       "Beacons",
       "Fighter Armor",
@@ -4307,15 +4327,14 @@
   },
   {
     "wiki": "Gloves-_Wizard_Hand_Stockings_64px.jpg",
-    "dds": "Mythic_Leather_Armor_1_gloves.dds",
-    "recovered": "public\\images\\recovered\\Gloves-_Wizard_Hand_Stockings_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Gloves-_chain_05_gloves.jpg",
-    "dds": "Gloves_Icon_Chain.dds",
+    "dds": "Chain_05_Gloves_icon.dds",
     "recovered": "public\\images\\recovered\\Gloves-_chain_05_gloves.png",
     "pages": [
       "Ranger Armor"
@@ -4323,7 +4342,7 @@
   },
   {
     "wiki": "Gloves-_cloth_ninja_01_gloves.jpg",
-    "dds": "Cloth_4_Gloves_icon.dds",
+    "dds": "Cloth_Ninja_01_Gloves_Icon.dds",
     "recovered": "public\\images\\recovered\\Gloves-_cloth_ninja_01_gloves.png",
     "pages": [
       "Mage Armor"
@@ -4331,7 +4350,7 @@
   },
   {
     "wiki": "Gloves-_crystal_03_gloves.jpg",
-    "dds": "Crystal_1_Gloves_Icon.dds",
+    "dds": "Crystal_03_Gloves_icon.dds",
     "recovered": "public\\images\\recovered\\Gloves-_crystal_03_gloves.png",
     "pages": [
       "Fighter Armor"
@@ -4339,7 +4358,7 @@
   },
   {
     "wiki": "Gloves-_crystal_04_gloves.jpg",
-    "dds": "Crystal_1_Gloves_Icon.dds",
+    "dds": "Crystal_04_Gloves_icon.dds",
     "recovered": "public\\images\\recovered\\Gloves-_crystal_04_gloves.png",
     "pages": [
       "Fighter Armor"
@@ -4376,8 +4395,7 @@
   },
   {
     "wiki": "Golden_ticket.jpg",
-    "dds": "QuestItem_Icon_GoldenTicket.dds",
-    "recovered": "public\\images\\recovered\\Golden_ticket.png",
+    "dds": null,
     "pages": [
       "Quest Items List"
     ]
@@ -4398,6 +4416,13 @@
     ]
   },
   {
+    "wiki": "Graves.jpg",
+    "dds": null,
+    "pages": [
+      "Gr'Aves, Chudd, D'Oyle, and Pvvnly"
+    ]
+  },
+  {
     "wiki": "Gray_Paint.jpg",
     "dds": null,
     "pages": [
@@ -4406,16 +4431,14 @@
   },
   {
     "wiki": "Great_weapon_rack.PNG",
-    "dds": "Weapon_Icon_Great_Axe.dds",
-    "recovered": "public\\images\\recovered\\Great_weapon_rack.png",
+    "dds": null,
     "pages": [
       "Treasure Chests"
     ]
   },
   {
     "wiki": "Green_Paint.jpg",
-    "dds": "QuestItem_GreenPaint.dds",
-    "recovered": "public\\images\\recovered\\Green_Paint.png",
+    "dds": null,
     "pages": [
       "Quest Items List"
     ]
@@ -4443,152 +4466,133 @@
   },
   {
     "wiki": "Guide-C-Combat-Screen.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-Chat-Window.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-ESC-Menu-Options-General-Sub-Menu.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-ESC-Menu-Options-Sub-Menu.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-ESC-Menu.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-I-and-B-The-Invetory.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-Karl.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-Main-Interface.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-Minimap.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-O-and-G-The-Social-Screen.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-P-Posse-Screen.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-P-and-K-Skill-Menu.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-Short-Cut-Buttons.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-Skill-Bar.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-Stock-Pile.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-Sub-Menu-One.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-T-and-L-Quest-Log-Screen.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide-vendor-interface.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Guide_hp_mana_box.png",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
@@ -4680,8 +4684,7 @@
   },
   {
     "wiki": "Heal_self_not_Other.jpg",
-    "dds": "heal_on.dds",
-    "recovered": "public\\images\\recovered\\Heal_self_not_Other.png",
+    "dds": null,
     "pages": [
       "Dark Conniption Fighter",
       "Fighter Skills",
@@ -4692,7 +4695,7 @@
   },
   {
     "wiki": "HealthPotion.jpg",
-    "dds": "heal_on.dds",
+    "dds": "Item_Icon_HealthPotion01.dds",
     "recovered": "public\\images\\recovered\\HealthPotion.png",
     "pages": [
       "Health Potions"
@@ -4707,16 +4710,14 @@
   },
   {
     "wiki": "Helm-_(Rickety",
-    "dds": "Mythic_Cloth_armor_1_Helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_(Rickety.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
   },
   {
     "wiki": "Helm-_(Rickety)_Lid_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_(Rickety)_Lid_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
@@ -4739,8 +4740,7 @@
   },
   {
     "wiki": "Helm-_Chain2_Coif_64px.jpg",
-    "dds": "starting_ranger_helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Chain2_Coif_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor",
       "Skewed Brass Ringlets"
@@ -4756,7 +4756,7 @@
   },
   {
     "wiki": "Helm-_Cloth1_Face_Rag_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Helm_icon.dds",
+    "dds": "Imperial_Male_Unique_Cloth_Armor_3_Face.dds",
     "recovered": "public\\images\\recovered\\Helm-_Cloth1_Face_Rag_64px.png",
     "pages": [
       "Mage Armor"
@@ -4764,16 +4764,14 @@
   },
   {
     "wiki": "Helm-_Cloth1_Mask_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Cloth1_Mask_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Helm-_Cloth2_Cap_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Cloth2_Cap_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
@@ -4788,16 +4786,14 @@
   },
   {
     "wiki": "Helm-_Crystal_Helmet.jpg",
-    "dds": "Crystal_5_Helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Crystal_Helmet.png",
+    "dds": null,
     "pages": [
       "Crystal Globe"
     ]
   },
   {
     "wiki": "Helm-_Crystal_Helmet_64px.jpg",
-    "dds": "Crystal_5_Helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Crystal_Helmet_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor",
       "Tank With a Trick Up His Sleeve"
@@ -4813,8 +4809,7 @@
   },
   {
     "wiki": "Helm-_Death",
-    "dds": "Splint_07_Helm_Poison_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Death.png",
+    "dds": null,
     "pages": [
       "Death's Head",
       "Poison Mage"
@@ -4822,8 +4817,7 @@
   },
   {
     "wiki": "Helm-_Death's_Head.jpg",
-    "dds": "Splint_07_Helm_Poison_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Death's_Head.png",
+    "dds": null,
     "pages": [
       "Death's Head",
       "Poison Mage"
@@ -4831,16 +4825,14 @@
   },
   {
     "wiki": "Helm-_Ghost1_Mask_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Ghost1_Mask_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Helm-_Ghost3_Mask_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Ghost3_Mask_64px.png",
+    "dds": null,
     "pages": [
       "BSOL mage",
       "Mage Armor",
@@ -4849,8 +4841,7 @@
   },
   {
     "wiki": "Helm-_Ghost4_Miter_64px.jpg",
-    "dds": "Smite_On.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Ghost4_Miter_64px.png",
+    "dds": null,
     "pages": [
       "BSOL mage",
       "Ice Mage",
@@ -4874,31 +4865,28 @@
   },
   {
     "wiki": "Helm-_Leather0_Hood_64px.jpg",
-    "dds": "starting_ranger_helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Leather0_Hood_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
   },
   {
     "wiki": "Helm-_Leather1_Cap_64px.jpg",
-    "dds": "starting_ranger_helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Leather1_Cap_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
   },
   {
     "wiki": "Helm-_Military_Morion_64px.jpg",
-    "dds": "starting_ranger_helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Military_Morion_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
   },
   {
     "wiki": "Helm-_Ornate_Helm_64px.jpg",
-    "dds": "white.dds",
+    "dds": "Chain_3_Helm_Ornate_icon.dds",
     "recovered": "public\\images\\recovered\\Helm-_Ornate_Helm_64px.png",
     "pages": [
       "Fighter Armor",
@@ -4907,8 +4895,7 @@
   },
   {
     "wiki": "Helm-_Padded_Turban_64px.jpg",
-    "dds": "Padded_1_Helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Padded_Turban_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
@@ -4954,8 +4941,7 @@
   },
   {
     "wiki": "Helm-_Scale-_Headgear_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Scale-_Headgear_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
@@ -4970,8 +4956,7 @@
   },
   {
     "wiki": "Helm-_Skull_Mask_64px.jpg",
-    "dds": "starting_ranger_helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Skull_Mask_64px.png",
+    "dds": null,
     "pages": [
       "Billy's Goat",
       "Ranger Armor"
@@ -4979,15 +4964,14 @@
   },
   {
     "wiki": "Helm-_Splint-_Cap_64px.jpg",
-    "dds": "Splint_3_Helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Splint-_Cap_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
   },
   {
     "wiki": "Helm-_Sunstone_Helm_64px.jpg",
-    "dds": "white.dds",
+    "dds": "Mythic_Cloth_armor_1_Helm_icon.dds",
     "recovered": "public\\images\\recovered\\Helm-_Sunstone_Helm_64px.png",
     "pages": [
       "Brilliance",
@@ -5027,8 +5011,7 @@
   },
   {
     "wiki": "Helm-_Wrapped_Headgear_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Helm_icon.dds",
-    "recovered": "public\\images\\recovered\\Helm-_Wrapped_Headgear_64px.png",
+    "dds": null,
     "pages": [
       "Mage Armor"
     ]
@@ -5043,7 +5026,7 @@
   },
   {
     "wiki": "Helm-_chain_05_helm.jpg",
-    "dds": "Chain_2_Helm_icon.dds",
+    "dds": "Chain_05_Helm_icon.dds",
     "recovered": "public\\images\\recovered\\Helm-_chain_05_helm.png",
     "pages": [
       "Ranger Armor"
@@ -5051,7 +5034,7 @@
   },
   {
     "wiki": "Helm-_cloth_ninja_01_helm.jpg",
-    "dds": "Cloth_4_Helm_icon.dds",
+    "dds": "Cloth_Ninja_01_Helm_Icon.dds",
     "recovered": "public\\images\\recovered\\Helm-_cloth_ninja_01_helm.png",
     "pages": [
       "Mage Armor"
@@ -5059,7 +5042,7 @@
   },
   {
     "wiki": "Helm-_crystal_03_helm.jpg",
-    "dds": "Crystal_5_Helm_icon.dds",
+    "dds": "Crystal_03_Helm_icon.dds",
     "recovered": "public\\images\\recovered\\Helm-_crystal_03_helm.png",
     "pages": [
       "Fighter Armor"
@@ -5067,7 +5050,7 @@
   },
   {
     "wiki": "Helm-_crystal_04_helm.jpg",
-    "dds": "Crystal_5_Helm_icon.dds",
+    "dds": "Crystal_04_Helm_icon.dds",
     "recovered": "public\\images\\recovered\\Helm-_crystal_04_helm.png",
     "pages": [
       "Fighter Armor"
@@ -5108,16 +5091,14 @@
   },
   {
     "wiki": "Hughard.jpg",
-    "dds": "merchant.dds",
-    "recovered": "public\\images\\recovered\\Hughard.png",
+    "dds": null,
     "pages": [
       "Hughard the Arms Merchant"
     ]
   },
   {
     "wiki": "I",
-    "dds": "BaitHealthModPassive_on.dds",
-    "recovered": "public\\images\\recovered\\I.png",
+    "dds": null,
     "pages": [
       "Fighter Skills",
       "Passive",
@@ -5127,8 +5108,7 @@
   },
   {
     "wiki": "I'm_Rubber_You're_Screwed.jpg",
-    "dds": "BaitHealthModPassive_on.dds",
-    "recovered": "public\\images\\recovered\\I'm_Rubber_You're_Screwed.png",
+    "dds": null,
     "pages": [
       "Fighter Skills",
       "Passive",
@@ -5142,10 +5122,10 @@
     "recovered": "public\\images\\recovered\\Ice-bolt.png",
     "pages": [
       "Healthy Obsidian Mage",
+      "Ice Bolt",
       "Ice Mage",
       "Mage Skills",
-      "Offensive",
-      "PvP Tips"
+      "Offensive"
     ]
   },
   {
@@ -5160,8 +5140,7 @@
   },
   {
     "wiki": "Ice-shards.jpg",
-    "dds": "OffensiveGesture_on.dds",
-    "recovered": "public\\images\\recovered\\Ice-shards.png",
+    "dds": null,
     "pages": [
       "Ice Mage",
       "Mage Skills",
@@ -5172,7 +5151,7 @@
   {
     "wiki": "Ice_Orok_AC_Repairman.jpg",
     "dds": "Orok_Chieftain.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Ice_Orok_AC_Repairman.png",
     "pages": [
       "Orok Chieftain"
     ]
@@ -5180,7 +5159,7 @@
   {
     "wiki": "Ice_Orok_Runt.jpg",
     "dds": "Orok_Runt.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Ice_Orok_Runt.png",
     "pages": [
       "Orok Spawn"
     ]
@@ -5195,8 +5174,7 @@
   },
   {
     "wiki": "Icy_Phantom.jpg",
-    "dds": "QuestItem_Icon_Phantom_Cup_Shadow.dds",
-    "recovered": "public\\images\\recovered\\Icy_Phantom.png",
+    "dds": null,
     "pages": [
       "Phantom"
     ]
@@ -5236,6 +5214,13 @@
     ]
   },
   {
+    "wiki": "Intellect_Shrine.jpg",
+    "dds": null,
+    "pages": [
+      "Attribute Shrine"
+    ]
+  },
+  {
     "wiki": "Invulnerable_on_43px.jpg",
     "dds": "Invulnerable_on.dds",
     "recovered": "public\\images\\recovered\\Invulnerable_on_43px.png",
@@ -5262,6 +5247,13 @@
     "dds": null,
     "pages": [
       "J'aymz Fatfilled"
+    ]
+  },
+  {
+    "wiki": "Jezzee.jpg",
+    "dds": null,
+    "pages": [
+      "Je'zzee Jaymes"
     ]
   },
   {
@@ -5298,6 +5290,13 @@
     "recovered": "public\\images\\recovered\\KingsCoins.png",
     "pages": [
       "King's Coins"
+    ]
+  },
+  {
+    "wiki": "Kurley.jpg",
+    "dds": null,
+    "pages": [
+      "Kurley the Lazy"
     ]
   },
   {
@@ -5430,8 +5429,7 @@
   },
   {
     "wiki": "Liger_henchman.jpg",
-    "dds": "Liger.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "The Liger"
     ]
@@ -5446,8 +5444,7 @@
   },
   {
     "wiki": "Logan_the_liger.jpg",
-    "dds": "Liger.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Logan the Liger"
     ]
@@ -5461,16 +5458,35 @@
   },
   {
     "wiki": "Louard.jpg",
-    "dds": "merchant.dds",
-    "recovered": "public\\images\\recovered\\Louard.png",
+    "dds": null,
     "pages": [
       "Louard the Arms Merchant"
     ]
   },
   {
+    "wiki": "MC_whammy_bar.jpg",
+    "dds": null,
+    "pages": [
+      "MC Whammy Bar"
+    ]
+  },
+  {
+    "wiki": "METM.jpg",
+    "dds": null,
+    "pages": [
+      "Mage Equipment Token Master"
+    ]
+  },
+  {
+    "wiki": "MM3.jpg",
+    "dds": null,
+    "pages": [
+      "The Mutanous Malaise"
+    ]
+  },
+  {
     "wiki": "MM4.jpg",
-    "dds": "dungeon_Mutanous_Malaise.dds",
-    "recovered": "public\\images\\recovered\\MM4.png",
+    "dds": null,
     "pages": [
       "The Mutanous Malaise"
     ]
@@ -5485,8 +5501,7 @@
   },
   {
     "wiki": "Mad_Melee_Mastery.jpg",
-    "dds": "BaitHealthModPassive_on.dds",
-    "recovered": "public\\images\\recovered\\Mad_Melee_Mastery.png",
+    "dds": null,
     "pages": [
       "Fighter Skills",
       "Passive"
@@ -5531,8 +5546,8 @@
   },
   {
     "wiki": "Manglefeet.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": "Mutant_Wheeler_Boss.dds",
+    "recovered": "public\\images\\recovered\\Manglefeet.png",
     "pages": [
       "Level 100 Boss Guide",
       "Manglefeet",
@@ -5654,7 +5669,7 @@
   },
   {
     "wiki": "Mental-prowess.jpg",
-    "dds": "heal_on.dds",
+    "dds": "Mental_Prowess_on.dds",
     "recovered": "public\\images\\recovered\\Mental-prowess.png",
     "pages": [
       "AUNReBO Sentinel",
@@ -5665,9 +5680,16 @@
     ]
   },
   {
+    "wiki": "Mental-prowess.png",
+    "dds": "Mental_Prowess_on.dds",
+    "recovered": "public\\images\\recovered\\Mental-prowess.png",
+    "pages": [
+      "Hydrostatic (Shadow/Ice) Mage"
+    ]
+  },
+  {
     "wiki": "Mining_Pick.jpg",
-    "dds": "QuestItem_Icon_MiningPick.dds",
-    "recovered": "public\\images\\recovered\\Mining_Pick.png",
+    "dds": null,
     "pages": [
       "Quest Items List"
     ]
@@ -5687,9 +5709,15 @@
     ]
   },
   {
+    "wiki": "Monster-_Dew_Valley_Pup.jpg",
+    "dds": null,
+    "pages": [
+      "Wolf Pup"
+    ]
+  },
+  {
     "wiki": "Monster-_Dew_Valley_Wolf.jpg",
-    "dds": "dungeon_dew_valley.dds",
-    "recovered": "public\\images\\recovered\\Monster-_Dew_Valley_Wolf.png",
+    "dds": null,
     "pages": [
       "Wolf"
     ]
@@ -5697,23 +5725,23 @@
   {
     "wiki": "Monster-_Dread_the_Ice_Mantis.jpg",
     "dds": "Fade_DreadMantis.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Monster-_Dread_the_Ice_Mantis.png",
     "pages": [
       "Dread Mantis"
     ]
   },
   {
     "wiki": "Monster-_Fire_Mutant_Puker.jpg",
-    "dds": "Fire.dds",
-    "recovered": "public\\images\\recovered\\Monster-_Fire_Mutant_Puker.png",
+    "dds": "mutant_puker_ice.dds",
+    "recovered": null,
     "pages": [
       "Mutant Puker"
     ]
   },
   {
     "wiki": "Monster-_Fire_Mutant_Twins.jpg",
-    "dds": "Fire.dds",
-    "recovered": "public\\images\\recovered\\Monster-_Fire_Mutant_Twins.png",
+    "dds": "Mutant_Twins.dds",
+    "recovered": null,
     "pages": [
       "Mutant Twins"
     ]
@@ -5721,7 +5749,7 @@
   {
     "wiki": "Monster-_Frigid_Dread_Mantis.jpg",
     "dds": "Fade_DreadMantis.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Monster-_Frigid_Dread_Mantis.png",
     "pages": [
       "Crypolyn Kaptcher",
       "Dread Mantis",
@@ -5739,7 +5767,7 @@
   {
     "wiki": "Monster-_Mutant_Ranged_Spitter.jpg",
     "dds": "mutant_spitter.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Monster-_Mutant_Ranged_Spitter.png",
     "pages": [
       "Mutant Ranged Spitter"
     ]
@@ -5761,7 +5789,7 @@
   },
   {
     "wiki": "Monster-_Shadow_Fade_Factory_Worker.jpg",
-    "dds": "Weapon_Wand_Skeleton_Shadow_icon.dds",
+    "dds": "Fade_Banshee_Shadow.dds",
     "recovered": "public\\images\\recovered\\Monster-_Shadow_Fade_Factory_Worker.png",
     "pages": [
       "Fade Skeleton"
@@ -5770,7 +5798,7 @@
   {
     "wiki": "Monster-_Shadow_Fade_Lich.jpg",
     "dds": "Fade_LichLord_Ice.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Monster-_Shadow_Fade_Lich.png",
     "pages": [
       "Fade Lichlord"
     ]
@@ -5778,14 +5806,14 @@
   {
     "wiki": "Monster-_Whisker_Blademaster.jpg",
     "dds": "Whisker_Blademaster.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Monster-_Whisker_Blademaster.png",
     "pages": [
       "Whisker Blademaster"
     ]
   },
   {
     "wiki": "Monster-_Whisker_Broodling.jpg",
-    "dds": "Item_Icon_WhiskerSigil.dds",
+    "dds": "Whisker_Broodling.dds",
     "recovered": "public\\images\\recovered\\Monster-_Whisker_Broodling.png",
     "pages": [
       "Newbie Guide",
@@ -5801,13 +5829,21 @@
   },
   {
     "wiki": "Monster-bait.jpg",
-    "dds": "Bait_on.dds",
+    "dds": "Bait.dds",
     "recovered": "public\\images\\recovered\\Monster-bait.png",
     "pages": [
       "AUNReBO Sentinel",
       "Arcane Scout",
       "BSOL mage",
       "Critical Ranger",
+      "Druid (Ice or Fire)"
+    ]
+  },
+  {
+    "wiki": "Monster-bait.png",
+    "dds": "Bait.dds",
+    "recovered": "public\\images\\recovered\\Monster-bait.png",
+    "pages": [
       "Druid (Ice or Fire)"
     ]
   },
@@ -5829,24 +5865,31 @@
   },
   {
     "wiki": "Mutant_Mania.jpg",
-    "dds": "dungeon_MutantMania.dds",
-    "recovered": "public\\images\\recovered\\Mutant_Mania.png",
+    "dds": null,
     "pages": [
       "Mutant Mania"
     ]
   },
   {
+    "wiki": "Mutant_Melee_Spitter.jpg",
+    "dds": "mutant_spitter.dds",
+    "recovered": "public\\images\\recovered\\Mutant_Melee_Spitter.png",
+    "pages": [
+      "Mutant Melee Spitter"
+    ]
+  },
+  {
     "wiki": "Mutant_Ranged_Wasp.jpg",
     "dds": "Mutant_ChestCannon_Ranged_Weapon.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Mutant_Ranged_Wasp.png",
     "pages": [
       "Mutant Ranged Wasp"
     ]
   },
   {
     "wiki": "Mutant_Wasp.jpg",
-    "dds": "Mutantwasp_Melee.dds",
-    "recovered": null,
+    "dds": "mutant_spitter_melee_weapon.dds",
+    "recovered": "public\\images\\recovered\\Mutant_Wasp.png",
     "pages": [
       "Mutant Melee Wasp"
     ]
@@ -5854,7 +5897,7 @@
   {
     "wiki": "Mutant_hulk.jpg",
     "dds": "Mutant_Hulk_ice.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Mutant_hulk.png",
     "pages": [
       "Mutant Hulk"
     ]
@@ -5868,8 +5911,7 @@
   },
   {
     "wiki": "My-flaming-buddy.jpg",
-    "dds": "white.dds",
-    "recovered": "public\\images\\recovered\\My-flaming-buddy.png",
+    "dds": null,
     "pages": [
       "White Paladin"
     ]
@@ -5918,7 +5960,7 @@
   },
   {
     "wiki": "Noobosaur.jpg",
-    "dds": "mapicon_helper_noobosaur.dds",
+    "dds": "Noobosaur.dds",
     "recovered": "public\\images\\recovered\\Noobosaur.png",
     "pages": [
       "Helpful Noobosaur",
@@ -5934,10 +5976,16 @@
   },
   {
     "wiki": "Normal_weapon_rack.PNG",
-    "dds": "weapon_icon_1H_axe_03_normal.dds",
-    "recovered": "public\\images\\recovered\\Normal_weapon_rack.png",
+    "dds": null,
     "pages": [
       "Treasure Chests"
+    ]
+  },
+  {
+    "wiki": "Notthe.jpg",
+    "dds": null,
+    "pages": [
+      "Not The Rumored Refinery Forerat"
     ]
   },
   {
@@ -5954,10 +6002,18 @@
   },
   {
     "wiki": "Noxious_Conscript.jpg",
-    "dds": "Mutant_Conscript_Ice.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Conscript"
+    ]
+  },
+  {
+    "wiki": "OKotC.jpg",
+    "dds": null,
+    "pages": [
+      "Keeper of the Candies",
+      "Overthrown Keeper of the Candies",
+      "Watcher of the Candies"
     ]
   },
   {
@@ -5970,8 +6026,7 @@
   },
   {
     "wiki": "Obelisk_Interface.jpg",
-    "dds": "mapicon_obelisk.dds",
-    "recovered": "public\\images\\recovered\\Obelisk_Interface.png",
+    "dds": null,
     "pages": [
       "Obelisk"
     ]
@@ -6001,8 +6056,7 @@
   },
   {
     "wiki": "Opportunity.jpg",
-    "dds": "QuestItem_Opportunity.dds",
-    "recovered": "public\\images\\recovered\\Opportunity.png",
+    "dds": null,
     "pages": [
       "Quest Items List"
     ]
@@ -6029,6 +6083,13 @@
     ]
   },
   {
+    "wiki": "Phreeze.jpg",
+    "dds": null,
+    "pages": [
+      "Blayde, Da Flayme, and Phreeze"
+    ]
+  },
+  {
     "wiki": "Pincers.jpg",
     "dds": "Mutant_Pincer_Ice.dds",
     "recovered": "public\\images\\recovered\\Pincers.png",
@@ -6045,8 +6106,7 @@
   },
   {
     "wiki": "Plate_Piercer2.jpg",
-    "dds": "Fire.dds",
-    "recovered": "public\\images\\recovered\\Plate_Piercer2.png",
+    "dds": null,
     "pages": [
       "Druid (Ice or Fire)",
       "Plate Piercer"
@@ -6065,6 +6125,14 @@
     ]
   },
   {
+    "wiki": "Poison-resistance.png",
+    "dds": "PoisonResist_Buff_on.dds",
+    "recovered": "public\\images\\recovered\\Poison-resistance.png",
+    "pages": [
+      "Druid (Ice or Fire)"
+    ]
+  },
+  {
     "wiki": "Poison-shot.jpg",
     "dds": "PoisonShot_on.dds",
     "recovered": "public\\images\\recovered\\Poison-shot.png",
@@ -6072,8 +6140,8 @@
       "Offensive",
       "Poison Mage",
       "Poison Ranger",
-      "Ranger Skills",
-      "Skills"
+      "Poison Shot",
+      "Ranger Skills"
     ]
   },
   {
@@ -6174,9 +6242,17 @@
     ]
   },
   {
+    "wiki": "Pyromania.png",
+    "dds": "firemastery_on.dds",
+    "recovered": "public\\images\\recovered\\Pyromania.png",
+    "pages": [
+      "Druid (Ice or Fire)"
+    ]
+  },
+  {
     "wiki": "Queen_of_shadows.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": "Mutant_Wheeler_Boss_Shadow.dds",
+    "recovered": "public\\images\\recovered\\Queen_of_shadows.png",
     "pages": [
       "Level 100 Boss Guide",
       "Queen of Shadows",
@@ -6185,8 +6261,7 @@
   },
   {
     "wiki": "Quest_interface.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
@@ -6208,17 +6283,22 @@
   },
   {
     "wiki": "Queue.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Diedre's Queue",
       "Newbie Guide"
     ]
   },
   {
+    "wiki": "RETM.jpg",
+    "dds": null,
+    "pages": [
+      "Ranger Equipment Token Master"
+    ]
+  },
+  {
     "wiki": "RGmap.jpg",
-    "dds": "dungeon_Ratsputins_Gulag.dds",
-    "recovered": "public\\images\\recovered\\RGmap.png",
+    "dds": null,
     "pages": [
       "Ratsputin's Gulag"
     ]
@@ -6254,8 +6334,7 @@
   },
   {
     "wiki": "Ratsputin",
-    "dds": "Whisker_ratsputin.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Relic Quests"
     ]
@@ -6286,8 +6365,7 @@
   },
   {
     "wiki": "Ratsputin.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Level 100 Boss Guide",
       "Ratsputin",
@@ -6332,16 +6410,14 @@
   },
   {
     "wiki": "Red_Fish.jpg",
-    "dds": "Item_Icon_RedFish.dds",
-    "recovered": "public\\images\\recovered\\Red_Fish.png",
+    "dds": null,
     "pages": [
       "Quest Items List"
     ]
   },
   {
     "wiki": "Red_Paint.jpg",
-    "dds": "QuestItem_RedPaint.dds",
-    "recovered": "public\\images\\recovered\\Red_Paint.png",
+    "dds": null,
     "pages": [
       "Quest Items List"
     ]
@@ -6381,8 +6457,8 @@
   },
   {
     "wiki": "Righteous-stomp.jpg",
-    "dds": "Stomp_on.dds",
-    "recovered": "public\\images\\recovered\\Righteous-stomp.png",
+    "dds": "RighteousStomp_on.dds",
+    "recovered": null,
     "pages": [
       "AUNReBO Sentinel",
       "AoE Mage",
@@ -6637,6 +6713,13 @@
     ]
   },
   {
+    "wiki": "Ring-of-fire.png",
+    "dds": null,
+    "pages": [
+      "Hydrostatic (Shadow/Ice) Mage"
+    ]
+  },
+  {
     "wiki": "Roh-Zee",
     "dds": null,
     "pages": [
@@ -6704,8 +6787,7 @@
   },
   {
     "wiki": "Rotgut's_Common_Triple_Chin_Choker.jpg",
-    "dds": "Trip_on.dds",
-    "recovered": "public\\images\\recovered\\Rotgut's_Common_Triple_Chin_Choker.png",
+    "dds": null,
     "pages": [
       "Relic Quests"
     ]
@@ -6734,8 +6816,8 @@
   },
   {
     "wiki": "Rotgut.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": "dungeon_Mutanous_Malaise.dds",
+    "recovered": "public\\images\\recovered\\Rotgut.png",
     "pages": [
       "Boss Guide",
       "Pyromancer Toasting Rotgut",
@@ -6817,6 +6899,20 @@
     ]
   },
   {
+    "wiki": "Shadow",
+    "dds": null,
+    "pages": [
+      "The Shadow's Gate"
+    ]
+  },
+  {
+    "wiki": "Shadow's_Gate.jpg",
+    "dds": null,
+    "pages": [
+      "The Shadow's Gate"
+    ]
+  },
+  {
     "wiki": "Shadow-bolt.jpg",
     "dds": "ShadowBolt_on.dds",
     "recovered": "public\\images\\recovered\\Shadow-bolt.png",
@@ -6828,8 +6924,16 @@
     ]
   },
   {
+    "wiki": "Shadow-bolt.png",
+    "dds": "ShadowBolt_on.dds",
+    "recovered": "public\\images\\recovered\\Shadow-bolt.png",
+    "pages": [
+      "Hydrostatic (Shadow/Ice) Mage"
+    ]
+  },
+  {
     "wiki": "Shadow-lightning.jpg",
-    "dds": "heal_on.dds",
+    "dds": "ShadowLightning_on.dds",
     "recovered": "public\\images\\recovered\\Shadow-lightning.png",
     "pages": [
       "Arcane Scout",
@@ -6837,6 +6941,14 @@
       "Healthy Obsidian Mage",
       "Hydrostatic (Shadow/Ice) Mage",
       "Mage Skills"
+    ]
+  },
+  {
+    "wiki": "Shadow-lightning.png",
+    "dds": "ShadowLightning_on.dds",
+    "recovered": "public\\images\\recovered\\Shadow-lightning.png",
+    "pages": [
+      "Hydrostatic (Shadow/Ice) Mage"
     ]
   },
   {
@@ -6850,7 +6962,7 @@
   },
   {
     "wiki": "Shadow-word-smackdown.jpg",
-    "dds": "OffensiveGesture_on.dds",
+    "dds": "ShadowWordSmackdown_on.dds",
     "recovered": "public\\images\\recovered\\Shadow-word-smackdown.png",
     "pages": [
       "Mage Skills",
@@ -6859,9 +6971,16 @@
     ]
   },
   {
+    "wiki": "Shadow3.jpg",
+    "dds": null,
+    "pages": [
+      "The Shadow's Embrace"
+    ]
+  },
+  {
     "wiki": "Shadow_Fade_Desperado.jpg",
     "dds": "Fade_Banshee_Shadow.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Shadow_Fade_Desperado.png",
     "pages": [
       "Fade Devastator!"
     ]
@@ -6869,7 +6988,7 @@
   {
     "wiki": "Shadow_howler.jpg",
     "dds": "Mutant_Howler_Shadow.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Shadow_howler.png",
     "pages": [
       "Shadow Howler"
     ]
@@ -6987,33 +7106,37 @@
     ]
   },
   {
+    "wiki": "Shiver_Shot.png",
+    "dds": "IceShot_on.dds",
+    "recovered": "public\\images\\recovered\\Shiver_Shot.png",
+    "pages": [
+      "Druid (Ice or Fire)"
+    ]
+  },
+  {
     "wiki": "Shoulder-_Amethyst_Spaulders_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Shoulder_icon.dds",
-    "recovered": "public\\images\\recovered\\Shoulder-_Amethyst_Spaulders_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
   },
   {
     "wiki": "Shoulder-_Crimson_Spaulders_64px.jpg",
-    "dds": "Mythic_Cloth_armor_1_Shoulder_icon.dds",
-    "recovered": "public\\images\\recovered\\Shoulder-_Crimson_Spaulders_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor"
     ]
   },
   {
     "wiki": "Shoulder-_Splint-_Spaulders_64px.jpg",
-    "dds": "Splint_3_Shoulder_icon.dds",
-    "recovered": "public\\images\\recovered\\Shoulder-_Splint-_Spaulders_64px.png",
+    "dds": null,
     "pages": [
       "Ranger Armor"
     ]
   },
   {
     "wiki": "Shoulder-_Sunstone_Spaulders_64px.jpg",
-    "dds": "white.dds",
-    "recovered": "public\\images\\recovered\\Shoulder-_Sunstone_Spaulders_64px.png",
+    "dds": null,
     "pages": [
       "Fighter Armor",
       "Glimmers",
@@ -7022,24 +7145,24 @@
   },
   {
     "wiki": "Shoulder-_cloth_ninja_01_shoulder.jpg",
-    "dds": "Cloth_4_Shoulder_icon.dds",
-    "recovered": "public\\images\\recovered\\Shoulder-_cloth_ninja_01_shoulder.png",
+    "dds": "Cloth_Ninja_01_Shoulders_Icon.dds",
+    "recovered": null,
     "pages": [
       "Mage Armor"
     ]
   },
   {
     "wiki": "Shoulder-_crystal_03_shoulder.jpg",
-    "dds": "Crystal_1_Shoulder_Icon.dds",
-    "recovered": "public\\images\\recovered\\Shoulder-_crystal_03_shoulder.png",
+    "dds": "Crystal_03_Shoulder_icon.dds",
+    "recovered": null,
     "pages": [
       "Fighter Armor"
     ]
   },
   {
     "wiki": "Shoulder-_crystal_04_shoulder.jpg",
-    "dds": "Crystal_1_Shoulder_Icon.dds",
-    "recovered": "public\\images\\recovered\\Shoulder-_crystal_04_shoulder.png",
+    "dds": "Crystal_04_Shoulder_icon.dds",
+    "recovered": null,
     "pages": [
       "Fighter Armor"
     ]
@@ -7215,7 +7338,7 @@
   },
   {
     "wiki": "Shoulders-_Ornate_Spaulders_64px.jpg",
-    "dds": "white.dds",
+    "dds": "Mythic_Leather_Armor_1_shoulders.dds",
     "recovered": "public\\images\\recovered\\Shoulders-_Ornate_Spaulders_64px.png",
     "pages": [
       "Fighter Armor",
@@ -7310,6 +7433,7 @@
     "wiki": "Shoulders-_Sorewun",
     "dds": null,
     "pages": [
+      "Murdak's Monster Mainers",
       "Sorewun's Ego"
     ]
   },
@@ -7317,6 +7441,7 @@
     "wiki": "Shoulders-_Sorewun's_Ego.jpg",
     "dds": null,
     "pages": [
+      "Murdak's Monster Mainers",
       "Sorewun's Ego"
     ]
   },
@@ -7389,6 +7514,27 @@
     ]
   },
   {
+    "wiki": "Sir_Kent.jpg",
+    "dds": null,
+    "pages": [
+      "Sir Kent the Artisan"
+    ]
+  },
+  {
+    "wiki": "Sir_Panickee.jpg",
+    "dds": null,
+    "pages": [
+      "Sir Panickee"
+    ]
+  },
+  {
+    "wiki": "Sir_Tified_Luhny.jpg",
+    "dds": null,
+    "pages": [
+      "Sir Tified Luhny"
+    ]
+  },
+  {
     "wiki": "Sir_kutree.jpg",
     "dds": null,
     "pages": [
@@ -7404,8 +7550,7 @@
   },
   {
     "wiki": "Sissirat",
-    "dds": "QuestItem_Icon_Energy_Drink_Sissirat.dds",
-    "recovered": "public\\images\\recovered\\Sissirat.png",
+    "dds": null,
     "pages": [
       "Quest Items List",
       "Relic Quests"
@@ -7452,11 +7597,20 @@
     "dds": "SummonSnowman_on.dds",
     "recovered": "public\\images\\recovered\\Skill-_Build_Snowman.png",
     "pages": [
+      "Build Snowman",
       "Druid (Ice or Fire)",
       "Hydrostatic (Shadow/Ice) Mage",
       "Mage Skills",
-      "Offensive",
-      "Summoner"
+      "Offensive"
+    ]
+  },
+  {
+    "wiki": "Skill-_Build_Snowman.png",
+    "dds": "SummonSnowman_on.dds",
+    "recovered": "public\\images\\recovered\\Skill-_Build_Snowman.png",
+    "pages": [
+      "Druid (Ice or Fire)",
+      "Hydrostatic (Shadow/Ice) Mage"
     ]
   },
   {
@@ -7469,6 +7623,14 @@
       "Druid (Ice or Fire)",
       "Fighter Skills",
       "Passive"
+    ]
+  },
+  {
+    "wiki": "Skill-_Divine-ward.png",
+    "dds": "DivineResist_Buff_on.dds",
+    "recovered": "public\\images\\recovered\\Skill-_Divine-ward.png",
+    "pages": [
+      "Druid (Ice or Fire)"
     ]
   },
   {
@@ -7489,10 +7651,10 @@
     "recovered": "public\\images\\recovered\\Skill-_Ice-ward.png",
     "pages": [
       "Critical Ranger",
+      "Ice Ward",
       "Mage Skills",
       "Passive",
-      "Poison Ranger",
-      "Skills"
+      "Poison Ranger"
     ]
   },
   {
@@ -7501,6 +7663,7 @@
     "recovered": "public\\images\\recovered\\Skill-_Nippy_Twigs.png",
     "pages": [
       "Mage Skills",
+      "Nippy Twigs",
       "Self Buff",
       "Summoner"
     ]
@@ -7511,6 +7674,7 @@
     "recovered": "public\\images\\recovered\\Skill-_On_The_Rocks.png",
     "pages": [
       "Mage Skills",
+      "On The Rocks",
       "Self Buff"
     ]
   },
@@ -7522,8 +7686,8 @@
       "Critical Ranger",
       "Passive",
       "Poison Ranger",
-      "Ranger Skills",
-      "Skills"
+      "Poison Ward",
+      "Ranger Skills"
     ]
   },
   {
@@ -7535,7 +7699,7 @@
       "Mage Skills",
       "Passive",
       "Poison Ranger",
-      "Skills"
+      "Shadow Ward"
     ]
   },
   {
@@ -7545,6 +7709,7 @@
     "pages": [
       "Mage Skills",
       "Self Buff",
+      "Snow Globe",
       "Summoner"
     ]
   },
@@ -7600,7 +7765,7 @@
   },
   {
     "wiki": "Snow_Warg_Pelts.jpg",
-    "dds": "warg.dds",
+    "dds": "SnowWargPelt.dds",
     "recovered": "public\\images\\recovered\\Snow_Warg_Pelts.png",
     "pages": [
       "Quest Items List"
@@ -7608,26 +7773,30 @@
   },
   {
     "wiki": "Snow_runts.jpg",
-    "dds": "Sanctuary_on.dds",
-    "recovered": "public\\images\\recovered\\Snow_runts.png",
+    "dds": null,
     "pages": [
       "Sanctuary Of The Snowmen"
     ]
   },
   {
     "wiki": "Snow_sanctuary.jpg",
-    "dds": "Sanctuary_on.dds",
-    "recovered": "public\\images\\recovered\\Snow_sanctuary.png",
+    "dds": null,
     "pages": [
       "Sanctuary Of The Snowmen"
     ]
   },
   {
     "wiki": "Snowmen.jpg",
-    "dds": "Sanctuary_on.dds",
-    "recovered": "public\\images\\recovered\\Snowmen.png",
+    "dds": null,
     "pages": [
       "Sanctuary Of The Snowmen"
+    ]
+  },
+  {
+    "wiki": "Soldier_Hogarth.jpg",
+    "dds": null,
+    "pages": [
+      "Soldier Hogarth"
     ]
   },
   {
@@ -7650,7 +7819,8 @@
       "Critical Ranger",
       "Poison Ranger",
       "Ranger Skills",
-      "Self Buff"
+      "Self Buff",
+      "Spirit of the Hare"
     ]
   },
   {
@@ -7673,12 +7843,20 @@
     ]
   },
   {
+    "wiki": "Squeakeasy_bookkeeper.jpg",
+    "dds": null,
+    "pages": [
+      "Squeakeasy Bookkeeper"
+    ]
+  },
+  {
     "wiki": "Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston",
     "dds": "Weapon_Icon_2H_Stiki_Wiki.dds",
     "recovered": "public\\images\\recovered\\Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston.png",
     "pages": [
       "Main Page/news",
-      "Stiki Wiki Hot Glue Gun"
+      "Stiki Wiki Hot Glue Gun",
+      "Stiki Wiki Hot-Glue Gun (Made in Townston)"
     ]
   },
   {
@@ -7686,13 +7864,71 @@
     "dds": "Weapon_Icon_2H_Stiki_Wiki.dds",
     "recovered": "public\\images\\recovered\\Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston)_128px.png",
     "pages": [
-      "Stiki Wiki Hot Glue Gun"
+      "Stiki Wiki Hot Glue Gun",
+      "Stiki Wiki Hot-Glue Gun (Made in Townston)"
+    ]
+  },
+  {
+    "wiki": "Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston)_BOTTOM_200x555px.jpg",
+    "dds": "Weapon_Icon_2H_Stiki_Wiki.dds",
+    "recovered": "public\\images\\recovered\\Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston)_BOTTOM_200x555px.png",
+    "pages": [
+      "Stiki Wiki Hot-Glue Gun (Made in Townston)"
     ]
   },
   {
     "wiki": "Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston)_DISPLAY_400px.jpg",
     "dds": "Weapon_Icon_2H_Stiki_Wiki.dds",
     "recovered": "public\\images\\recovered\\Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston)_DISPLAY_400px.png",
+    "pages": [
+      "Main Page/news",
+      "Stiki Wiki Hot-Glue Gun (Made in Townston)"
+    ]
+  },
+  {
+    "wiki": "Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston)_SIDE_VIEW_294x555px.jpg",
+    "dds": "Weapon_Icon_2H_Stiki_Wiki.dds",
+    "recovered": "public\\images\\recovered\\Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston)_SIDE_VIEW_294x555px.png",
+    "pages": [
+      "Stiki Wiki Hot-Glue Gun (Made in Townston)"
+    ]
+  },
+  {
+    "wiki": "Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston)_TOP_200x555px.jpg",
+    "dds": "Weapon_Icon_2H_Stiki_Wiki.dds",
+    "recovered": "public\\images\\recovered\\Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston)_TOP_200x555px.png",
+    "pages": [
+      "Stiki Wiki Hot-Glue Gun (Made in Townston)"
+    ]
+  },
+  {
+    "wiki": "Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston)_TOP_FRONT_400px.jpg",
+    "dds": "Weapon_Icon_2H_Stiki_Wiki.dds",
+    "recovered": "public\\images\\recovered\\Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston)_TOP_FRONT_400px.png",
+    "pages": [
+      "Stiki Wiki Hot-Glue Gun (Made in Townston)"
+    ]
+  },
+  {
+    "wiki": "Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston)_TOP_REAR_400px.jpg",
+    "dds": "Weapon_Icon_2H_Stiki_Wiki.dds",
+    "recovered": "public\\images\\recovered\\Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston)_TOP_REAR_400px.png",
+    "pages": [
+      "Stiki Wiki Hot-Glue Gun (Made in Townston)"
+    ]
+  },
+  {
+    "wiki": "Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston.png",
+    "dds": "Weapon_Icon_2H_Stiki_Wiki.dds",
+    "recovered": "public\\images\\recovered\\Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston.png",
+    "pages": [
+      "Main Page/news"
+    ]
+  },
+  {
+    "wiki": "Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston.png)_DISPLAY_400px.jpg",
+    "dds": "Weapon_Icon_2H_Stiki_Wiki.dds",
+    "recovered": "public\\images\\recovered\\Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston.png)_DISPLAY_400px.png",
     "pages": [
       "Main Page/news"
     ]
@@ -7736,8 +7972,8 @@
   },
   {
     "wiki": "Test.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": "Shield_Test.dds",
+    "recovered": "public\\images\\recovered\\Test.png",
     "pages": [
       "Help:Wiki Guide"
     ]
@@ -7761,6 +7997,20 @@
     "dds": null,
     "pages": [
       "The Ax"
+    ]
+  },
+  {
+    "wiki": "TheBomb.JPG",
+    "dds": null,
+    "pages": [
+      "The Bomb"
+    ]
+  },
+  {
+    "wiki": "ThePyro.jpg",
+    "dds": null,
+    "pages": [
+      "The Pyro"
     ]
   },
   {
@@ -7818,8 +8068,7 @@
   },
   {
     "wiki": "Thermometer.jpg",
-    "dds": "QuestItem_Thermometer.dds",
-    "recovered": "public\\images\\recovered\\Thermometer.png",
+    "dds": null,
     "pages": [
       "Quest Items List"
     ]
@@ -7851,6 +8100,13 @@
     ]
   },
   {
+    "wiki": "TipperGourd.jpg",
+    "dds": null,
+    "pages": [
+      "Tipper Gourd"
+    ]
+  },
+  {
     "wiki": "ToeKnee.PNG",
     "dds": null,
     "pages": [
@@ -7859,16 +8115,14 @@
   },
   {
     "wiki": "Token_master_interface.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Interface Guide"
     ]
   },
   {
     "wiki": "Townston.jpg",
-    "dds": "dungeon_townston.dds",
-    "recovered": "public\\images\\recovered\\Townston.png",
+    "dds": null,
     "pages": [
       "Townston"
     ]
@@ -7895,7 +8149,8 @@
       "AoE Mage",
       "Poison Ranger",
       "Ranger Skills",
-      "Self Buff"
+      "Self Buff",
+      "Toxic Talent"
     ]
   },
   {
@@ -7925,6 +8180,14 @@
     ]
   },
   {
+    "wiki": "Trigger-finger.png",
+    "dds": "Frenzy_on.dds",
+    "recovered": "public\\images\\recovered\\Trigger-finger.png",
+    "pages": [
+      "Druid (Ice or Fire)"
+    ]
+  },
+  {
     "wiki": "Trigger-happy.jpg",
     "dds": "rapidFire_on.dds",
     "recovered": "public\\images\\recovered\\Trigger-happy.png",
@@ -7934,6 +8197,14 @@
       "Druid (Ice or Fire)",
       "Passive",
       "Ranger Skills"
+    ]
+  },
+  {
+    "wiki": "Trigger-happy.png",
+    "dds": "rapidFire_on.dds",
+    "recovered": "public\\images\\recovered\\Trigger-happy.png",
+    "pages": [
+      "Druid (Ice or Fire)"
     ]
   },
   {
@@ -7952,8 +8223,7 @@
   },
   {
     "wiki": "Two_Fish.jpg",
-    "dds": "Item_Icon_TwoFish.dds",
-    "recovered": "public\\images\\recovered\\Two_Fish.png",
+    "dds": null,
     "pages": [
       "Quest Items List"
     ]
@@ -7982,7 +8252,7 @@
   {
     "wiki": "Unipsycho.jpg",
     "dds": "Mutant_Unipsycho.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Unipsycho.png",
     "pages": [
       "Mutant Unipsycho"
     ]
@@ -7993,13 +8263,14 @@
     "recovered": "public\\images\\recovered\\Unnerving-shout.png",
     "pages": [
       "AoE Mage",
-      "Fighter Skills"
+      "Curses",
+      "Fighter Skills",
+      "Unnerving Shout"
     ]
   },
   {
     "wiki": "VV4.jpg",
-    "dds": "dungeon_Vergrims_Vexation.dds",
-    "recovered": "public\\images\\recovered\\VV4.png",
+    "dds": null,
     "pages": [
       "Vergrim's Vexation"
     ]
@@ -8013,8 +8284,7 @@
   },
   {
     "wiki": "Vergrim",
-    "dds": "dungeon_Vergrims_Vexation.dds",
-    "recovered": "public\\images\\recovered\\Vergrim.png",
+    "dds": null,
     "pages": [
       "Relic Quests"
     ]
@@ -8042,8 +8312,7 @@
   },
   {
     "wiki": "Vergrim.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Boss Guide",
       "Vergrim Killer Mage",
@@ -8052,8 +8321,7 @@
   },
   {
     "wiki": "Vergrim2.jpg",
-    "dds": "dungeon_Vergrims_Vexation.dds",
-    "recovered": "public\\images\\recovered\\Vergrim2.png",
+    "dds": null,
     "pages": [
       "Vergrim",
       "Vergrim's Vexation"
@@ -8071,6 +8339,13 @@
     "dds": null,
     "pages": [
       "Vergrim Killer Mage PART DEUX"
+    ]
+  },
+  {
+    "wiki": "Vergrims3.jpg",
+    "dds": null,
+    "pages": [
+      "Vergrim's Vexation"
     ]
   },
   {
@@ -8143,8 +8418,7 @@
   },
   {
     "wiki": "WaypointScrolls.jpg",
-    "dds": "scroll.dds",
-    "recovered": "public\\images\\recovered\\WaypointScrolls.png",
+    "dds": null,
     "pages": [
       "Waypoint Scrolls"
     ]
@@ -8159,7 +8433,7 @@
   },
   {
     "wiki": "Weapon_icon_2h_gun_18.JPG",
-    "dds": "Weapon_Icon_2h_Gun_18.dds",
+    "dds": "Weapon_Icon_2h_Gun_01.dds",
     "recovered": "public\\images\\recovered\\Weapon_icon_2h_gun_18.png",
     "pages": [
       "Abaddon's Handy Candy Broomstick"
@@ -8182,7 +8456,7 @@
   },
   {
     "wiki": "Whisker_Berserker.jpg",
-    "dds": "Berserk_on.dds",
+    "dds": "Whisker_berserker.dds",
     "recovered": "public\\images\\recovered\\Whisker_Berserker.png",
     "pages": [
       "Whisker Berserker"
@@ -8212,7 +8486,7 @@
   {
     "wiki": "Whisker_seer.jpg",
     "dds": "Whisker_Seer.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Whisker_seer.png",
     "pages": [
       "The Seer",
       "Whisker Seer"
@@ -8221,7 +8495,7 @@
   {
     "wiki": "Whisker_venomspitter.jpg",
     "dds": "Whisker_VenomSpitter.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Whisker_venomspitter.png",
     "pages": [
       "Whisker Venomspitter"
     ]
@@ -8229,9 +8503,10 @@
   {
     "wiki": "Whomper.jpg",
     "dds": "mutant_spitter_melee_weapon.dds",
-    "recovered": null,
+    "recovered": "public\\images\\recovered\\Whomper.png",
     "pages": [
-      "Mutant Melee Whomper"
+      "Mutant Melee Whomper",
+      "Mutant Whomper"
     ]
   },
   {
@@ -8266,8 +8541,7 @@
   },
   {
     "wiki": "Widower_Maker.jpg",
-    "dds": "UI_D.dds",
-    "recovered": null,
+    "dds": null,
     "pages": [
       "Boss Guide",
       "The Widower's Nest",
@@ -8291,8 +8565,8 @@
   },
   {
     "wiki": "Wishing_well.PNG",
-    "dds": "mapicon_wishingwell.dds",
-    "recovered": "public\\images\\recovered\\Wishing_well.png",
+    "dds": "Mystery_Wishing_Well_Icon.dds",
+    "recovered": null,
     "pages": [
       "Wishing Well"
     ]
@@ -8316,6 +8590,7 @@
     "dds": "YummyYums.dds",
     "recovered": null,
     "pages": [
+      "Bag o' Yummy Yums",
       "Yummy Yum"
     ]
   },
@@ -8363,7 +8638,7 @@
   },
   {
     "wiki": "weapon_icon_2h_gun_18.png",
-    "dds": "Weapon_Icon_2h_Gun_18.dds",
+    "dds": "Weapon_Icon_2h_Gun_01.dds",
     "recovered": "public\\images\\recovered\\weapon_icon_2h_gun_18.png",
     "pages": [
       "Category talk:Two-Handed-Ranger-Rainbows"

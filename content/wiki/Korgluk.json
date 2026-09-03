@@ -3,7 +3,10 @@
   "wikiTitle": "Korgluk",
   "path": "/wiki/Korgluk",
   "description": "Korgluk — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Champions",
+    "Oroks"
+  ],
   "images": [],
   "html": "<p>Korgluk is a giant <a href=\"/wiki/Orok_Chieftain\" title=\"Orok Chieftain\">Shadow Orok Chieftain</a> who is Boss rated.  He is armed with the usual two axes and has a terrific knockback!  Along with another Boss, <a href=\"/wiki/Tugtor_the_Brash\" title=\"Tugtor the Brash\">Tugtor the Brash</a> he guards the <a href=\"/wiki/Teleporter\" title=\"Teleporter\">Teleporter</a> at the end of <a href=\"/wiki/Horrific_Dungeon_of_Legend\" title=\"Horrific Dungeon of Legend\">Horrific Dungeon of Legend Stage 3 - Lower Cindercore</a>.  They are hard to defeat but drop lots of loot including possible Rainbows.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

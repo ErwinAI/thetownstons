@@ -3,7 +3,10 @@
   "wikiTitle": "My_Pretty_Puncturer",
   "path": "/wiki/My_Pretty_Puncturer",
   "description": "My Pretty Puncturer — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/My-Pretty-Puncturer.jpg"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "Abracadabras_Fly_Footwear",
   "path": "/wiki/Abracadabras_Fly_Footwear",
   "description": "Abracadabras Fly Footwear — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Boots-_Abracadabras_Fly_Footwear.jpg"
   ],

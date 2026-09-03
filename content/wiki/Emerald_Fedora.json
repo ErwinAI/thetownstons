@@ -3,7 +3,10 @@
   "wikiTitle": "Emerald_Fedora",
   "path": "/wiki/Emerald_Fedora",
   "description": "Emerald Fedora — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Emerald-Fedora.jpg"
   ],

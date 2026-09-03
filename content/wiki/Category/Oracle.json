@@ -1,9 +1,13 @@
 {
   "title": "Oracle",
   "wikiTitle": "Category:Oracle",
-  "path": "/wiki/Category:Oracle",
+  "path": "/wiki/Category/Oracle",
   "description": "Oracle — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Demonspawn",
+    "Revenants"
+  ],
   "images": [
     "/images/Divine_Soothsayer.jpg"
   ],

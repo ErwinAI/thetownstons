@@ -3,7 +3,10 @@
   "wikiTitle": "Dunce's_Genius_Cap",
   "path": "/wiki/Dunce's_Genius_Cap",
   "description": "Dunce's Genius Cap — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Helm-_Wizard_Hat.jpg"
   ],

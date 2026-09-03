@@ -3,7 +3,9 @@
   "wikiTitle": "Dark_Castle_Layout",
   "path": "/wiki/Dark_Castle_Layout",
   "description": "Shadow Temple Layout — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "DungeonsLayouts"
+  ],
   "images": [
     "/images/Layout_Dark_castle.jpg",
     "/images/Map_Dark_castle.jpg"

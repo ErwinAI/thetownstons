@@ -3,7 +3,9 @@
   "wikiTitle": "Endurance",
   "path": "/wiki/Endurance",
   "description": "Endurance — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Glossary"
+  ],
   "images": [],
   "html": "<p>One of the four <a href=\"/wiki/Attributes\" title=\"Attributes\">attributes</a> that define your character. Each point increases your health. Endurance itself can be attained by equiping gear giving \"+ Endurance\", and by using attribute points that you get when you level up. To boost the health, you can also equip skills like <a href=\"/wiki/Gym_Freak\" title=\"Gym Freak\">Gym Freak</a> or <a href=\"/wiki/Average_BMI\" title=\"Average BMI\">Average BMI</a> which will give more health for each point of Endurance you have,.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

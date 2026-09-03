@@ -3,7 +3,9 @@
   "wikiTitle": "Embercore_Drake",
   "path": "/wiki/Embercore_Drake",
   "description": "Embercore Drake — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn"
+  ],
   "images": [
     "/images/Monster-_drake.jpg"
   ],

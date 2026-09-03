@@ -3,9 +3,11 @@
   "wikiTitle": "Waypoint_Scrolls",
   "path": "/wiki/Waypoint_Scrolls",
   "description": "Waypoint Scrolls — The Townstons wiki",
-  "categories": [],
-  "images": [
-    "/images/recovered/WaypointScrolls.png"
+  "categories": [
+    "Utility Items"
   ],
-  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:66px;\"><a class=\"image\" href=\"/images/recovered/WaypointScrolls.png\" title=\"Waypoint Scroll\"><img alt=\"Waypoint Scroll\" border=\"0\" class=\"thumbimage\" height=\"64\" src=\"/images/recovered/WaypointScrolls.png\" width=\"64\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/recovered/WaypointScrolls.png\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Waypoint Scroll</div></div></div>\n<p>These are scrolls which create a waypoint at your current location. Currently, five scrolls will fit in one stack.  The waypoint then allows you to teleport back to <a href=\"/wiki/Townston\" title=\"Townston\">Townston</a>. It also acts as a save point while you are logged in as you can use any obelisk to return to your open waypoint. You can only have one waypoint open at a time. If you use a waypoint scroll while you have an existing waypoint, the old waypoint is removed and a new one created where you are.  If the dungeon is RESET or you log out or are disconnected for 15 minutes, the waypoint created by the scroll will be lost, unlike a <a href=\"/wiki/Waypoint_Compass\" title=\"Waypoint Compass\">Waypoint Compass</a>.\n</p>\n\n \n<div class=\"visualClear\"></div>"
+  "images": [
+    "/images/WaypointScrolls.jpg"
+  ],
+  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:66px;\"><a class=\"image\" href=\"/images/WaypointScrolls.jpg\" title=\"Waypoint Scroll\"><img alt=\"Waypoint Scroll\" border=\"0\" class=\"thumbimage\" height=\"64\" src=\"/images/WaypointScrolls.jpg\" width=\"64\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/WaypointScrolls.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Waypoint Scroll</div></div></div>\n<p>These are scrolls which create a waypoint at your current location. Currently, five scrolls will fit in one stack.  The waypoint then allows you to teleport back to <a href=\"/wiki/Townston\" title=\"Townston\">Townston</a>. It also acts as a save point while you are logged in as you can use any obelisk to return to your open waypoint. You can only have one waypoint open at a time. If you use a waypoint scroll while you have an existing waypoint, the old waypoint is removed and a new one created where you are.  If the dungeon is RESET or you log out or are disconnected for 15 minutes, the waypoint created by the scroll will be lost, unlike a <a href=\"/wiki/Waypoint_Compass\" title=\"Waypoint Compass\">Waypoint Compass</a>.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

@@ -3,7 +3,9 @@
   "wikiTitle": "Lava_Pools_Layout",
   "path": "/wiki/Lava_Pools_Layout",
   "description": "Lava Pools Layout — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "DungeonsLayouts"
+  ],
   "images": [
     "/images/Layout_Lava_Waste.jpg",
     "/images/Map_Lava_Waste.jpg"

@@ -3,7 +3,9 @@
   "wikiTitle": "Khodebshchik",
   "path": "/wiki/Khodebshchik",
   "description": "Khodebshchik — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's"
+  ],
   "images": [
     "/images/Khodebshchik.jpg"
   ],

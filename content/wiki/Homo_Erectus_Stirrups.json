@@ -3,7 +3,12 @@
   "wikiTitle": "Homo_Erectus_Stirrups",
   "path": "/wiki/Homo_Erectus_Stirrups",
   "description": "Homo Erectus Stirrups — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Fighter Rainbow Armor",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Boots-_Homo_Erectus_Stirrups.jpg"
   ],

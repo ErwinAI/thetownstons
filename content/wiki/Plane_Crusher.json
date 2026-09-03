@@ -3,7 +3,10 @@
   "wikiTitle": "Plane_Crusher",
   "path": "/wiki/Plane_Crusher",
   "description": "Plane Crusher — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/1h-weapon-_Plane_Crusher.jpg"
   ],

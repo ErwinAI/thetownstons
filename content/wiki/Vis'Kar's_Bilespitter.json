@@ -3,7 +3,10 @@
   "wikiTitle": "Vis'Kar's_Bilespitter",
   "path": "/wiki/Vis'Kar's_Bilespitter",
   "description": "Vis'Kar's Bilespitter — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Ranger-Rainbows"
+  ],
   "images": [
     "/images/2h-Ranged-_VisKars_Bilespitter.jpg"
   ],

@@ -3,7 +3,10 @@
   "wikiTitle": "Retribution",
   "path": "/wiki/Retribution",
   "description": "Retribution — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Self Buff",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/Retribution.png"
   ],

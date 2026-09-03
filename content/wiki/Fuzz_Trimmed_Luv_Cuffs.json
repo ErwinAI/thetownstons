@@ -3,7 +3,11 @@
   "wikiTitle": "Fuzz_Trimmed_Luv_Cuffs",
   "path": "/wiki/Fuzz_Trimmed_Luv_Cuffs",
   "description": "Fuzz Trimmed Luv Cuffs — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Gloves-_Fuzzy_Trimmed_Luv_Cuffs.jpg"
   ],

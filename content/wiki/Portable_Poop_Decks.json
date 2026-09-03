@@ -3,7 +3,11 @@
   "wikiTitle": "Portable_Poop_Decks",
   "path": "/wiki/Portable_Poop_Decks",
   "description": "Portable Poop Decks — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shoulders",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Cloth_pirate_01_shoulder_icon.png"
   ],

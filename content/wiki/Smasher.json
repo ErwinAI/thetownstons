@@ -3,7 +3,10 @@
   "wikiTitle": "Smasher",
   "path": "/wiki/Smasher",
   "description": "Smasher — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/2h-Weapon-_Smasher.jpg"
   ],

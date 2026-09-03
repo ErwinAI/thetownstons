@@ -1,0 +1,11 @@
+{
+  "title": "Damage Over Time",
+  "wikiTitle": "Damage_Over_Time",
+  "path": "/wiki/Damage_Over_Time",
+  "description": "Damage Over Time — The Townstons wiki",
+  "categories": [
+    "Glossary"
+  ],
+  "images": [],
+  "html": "<p><b>Damage Over Time</b> is also known as <b>DoT</b>\n</p><p>As the the term suggests, it is damage applied over successive seconds as opposed to one single burst.\nGenerally used to simulate, burning or poisoning.\n</p><p>For example:\n</p>\n<dl><dd>Rank 15 <a href=\"/wiki/Ring_of_Fire\" title=\"Ring of Fire\">Ring of Fire</a>-\n</dd><dd>\"...burns up to 12 enemies by sending out a wave of fire bolts in a 360 degree radius. Each bolt deals between 200 to 1402 Fire Damage and has a chance to inflict between 327 to 1854 Fire Damage over 3 seconds.\"\n</dd></dl>\n<dl><dd>The 200 to 1402 would be instantaneous damage.\n</dd></dl>\n<dl><dd>The 327 to 1854 over 3 seconds is Damage Over Time, which works out to 109 to 618 damage every second for 3 seconds.\n</dd></dl>\n<p><br/>\nSee <a href=\"/wiki/DoT_Stacking\" title=\"DoT Stacking\">DoT Stacking</a> for additional information.\n</p>\n\n \n<div class=\"visualClear\"></div>"
+}

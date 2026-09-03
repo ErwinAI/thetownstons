@@ -3,7 +3,10 @@
   "wikiTitle": "Barrel_o'_Fizz",
   "path": "/wiki/Barrel_o'_Fizz",
   "description": "Barrel o' Fizz — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's",
+    "Machines and Devices"
+  ],
   "images": [
     "/images/recovered/Barrel_o_Fizz.png"
   ],

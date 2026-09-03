@@ -3,7 +3,10 @@
   "wikiTitle": "Ye_Old_Manhole_Cover",
   "path": "/wiki/Ye_Old_Manhole_Cover",
   "description": "Ye Old Manhole Cover — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shields"
+  ],
   "images": [
     "/images/Shield-_Ye_Old_Manhole_Cover.jpg"
   ],

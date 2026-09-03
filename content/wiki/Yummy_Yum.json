@@ -3,7 +3,10 @@
   "wikiTitle": "Yummy_Yum",
   "path": "/wiki/Yummy_Yum",
   "description": "Yummy Yum — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Miscellaneous"
+  ],
   "images": [
     "/images/Bagoyum.jpg",
     "/images/Yyyy.jpg"

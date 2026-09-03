@@ -1,9 +1,11 @@
 {
   "title": "Category:Exploring Quests",
   "wikiTitle": "Category:Exploring_Quests",
-  "path": "/wiki/Category:Exploring_Quests",
+  "path": "/wiki/Category/Exploring_Quests",
   "description": "Category:Exploring Quests — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Quests"
+  ],
   "images": [
     "/images/recovered/Exclamation.png"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "Buckler_of_the_Dreaded_Brown_Eye",
   "path": "/wiki/Buckler_of_the_Dreaded_Brown_Eye",
   "description": "Buckler of the Dreaded Brown Eye — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shields",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Shield-_Buckler_of_the_Dreaded_Brown_Eye.jpg"
   ],

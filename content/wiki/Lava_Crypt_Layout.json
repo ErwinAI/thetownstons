@@ -3,7 +3,9 @@
   "wikiTitle": "Lava_Crypt_Layout",
   "path": "/wiki/Lava_Crypt_Layout",
   "description": "Lava Crypt Layout — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "DungeonsLayouts"
+  ],
   "images": [
     "/images/Layout_Torture.jpg",
     "/images/Map_Torture.jpg"

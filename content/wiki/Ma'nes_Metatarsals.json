@@ -3,7 +3,11 @@
   "wikiTitle": "Ma'nes_Metatarsals",
   "path": "/wiki/Ma'nes_Metatarsals",
   "description": "Ma'nes Metatarsals — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Boots-_Ghost4_Boots_64px.png"
   ],

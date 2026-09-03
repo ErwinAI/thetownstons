@@ -3,7 +3,10 @@
   "wikiTitle": "Diabolical",
   "path": "/wiki/Diabolical",
   "description": "Diabolical — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/Diabolical.jpg"
   ],

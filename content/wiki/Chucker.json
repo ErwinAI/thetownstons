@@ -3,7 +3,10 @@
   "wikiTitle": "Chucker",
   "path": "/wiki/Chucker",
   "description": "Chucker — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/2h-Weapon-_Chucker.jpg"
   ],

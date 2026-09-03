@@ -3,7 +3,11 @@
   "wikiTitle": "Naj's_Flak_Jacket",
   "path": "/wiki/Naj's_Flak_Jacket",
   "description": "Naj's Flak Jacket — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Body Armor",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Body-_Naj's_Flak_Jacket.jpg"
   ],

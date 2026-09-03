@@ -3,7 +3,11 @@
   "wikiTitle": "The_Lost_One",
   "path": "/wiki/The_Lost_One",
   "description": "The Lost One — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Rings",
+    "Growth Items"
+  ],
   "images": [
     "/images/Ring-_The_Lost_One.jpg"
   ],

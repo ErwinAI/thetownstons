@@ -3,7 +3,11 @@
   "wikiTitle": "The_Nadir",
   "path": "/wiki/The_Nadir",
   "description": "The Nadir — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Boots-_Ghost3_Boots_64px.png"
   ],

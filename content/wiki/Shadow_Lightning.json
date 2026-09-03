@@ -3,7 +3,10 @@
   "wikiTitle": "Shadow_Lightning",
   "path": "/wiki/Shadow_Lightning",
   "description": "Shadow Lightning — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Offensive",
+    "Mage Skills"
+  ],
   "images": [
     "/images/recovered/Shadow-lightning.png"
   ],

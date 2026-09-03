@@ -3,7 +3,11 @@
   "wikiTitle": "Slag_Pads",
   "path": "/wiki/Slag_Pads",
   "description": "Slag Pads — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shoulders",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Shoulders-_Slag_Pads.jpg"
   ],

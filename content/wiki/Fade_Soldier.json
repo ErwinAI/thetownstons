@@ -3,7 +3,10 @@
   "wikiTitle": "Fade_Soldier",
   "path": "/wiki/Fade_Soldier",
   "description": "Fade Skeleton — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Fades"
+  ],
   "images": [
     "/images/recovered/Monster-_Shadow_Fade_Factory_Worker.png"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "Magma_Mashers",
   "path": "/wiki/Magma_Mashers",
   "description": "Magma Mashers — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Gloves-_Magma_Mashers.jpg"
   ],

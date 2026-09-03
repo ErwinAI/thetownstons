@@ -3,7 +3,11 @@
   "wikiTitle": "The_Electric_Fence",
   "path": "/wiki/The_Electric_Fence",
   "description": "The Electric Fence — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shields",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Shield-_The_Electric_Fence.jpg"
   ],

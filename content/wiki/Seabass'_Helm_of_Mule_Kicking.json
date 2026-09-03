@@ -3,7 +3,11 @@
   "wikiTitle": "Seabass'_Helm_of_Mule_Kicking",
   "path": "/wiki/Seabass'_Helm_of_Mule_Kicking",
   "description": "Seabass' Helm of Mule Kicking — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Helm-_Royal_Plate_Helm.png"
   ],

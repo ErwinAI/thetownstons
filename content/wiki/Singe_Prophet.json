@@ -3,7 +3,10 @@
   "wikiTitle": "Singe_Prophet",
   "path": "/wiki/Singe_Prophet",
   "description": "Singe Prophet — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Champions"
+  ],
   "images": [
     "/images/Singeprophet.jpg"
   ],

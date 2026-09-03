@@ -3,7 +3,10 @@
   "wikiTitle": "Edge_of_Su_Naj",
   "path": "/wiki/Edge_of_Su_Naj",
   "description": "Edge of Su Naj — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/1h-Weapon-_Edge_of_Su_Naj.jpg"
   ],

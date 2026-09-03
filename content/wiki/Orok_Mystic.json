@@ -3,7 +3,9 @@
   "wikiTitle": "Orok_Mystic",
   "path": "/wiki/Orok_Mystic",
   "description": "Orok Mystic — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Oroks"
+  ],
   "images": [
     "/images/Orok_mystic.jpg"
   ],

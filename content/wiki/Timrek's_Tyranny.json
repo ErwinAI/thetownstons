@@ -3,7 +3,11 @@
   "wikiTitle": "Timrek's_Tyranny",
   "path": "/wiki/Timrek's_Tyranny",
   "description": "Timrek's Tyranny — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Gloves-_Timrek's_Tyranny.jpg"
   ],

@@ -3,7 +3,9 @@
   "wikiTitle": "Saundy_-_Sir_Munn_of_Hillfier_and_Bremstan",
   "path": "/wiki/Saundy_-_Sir_Munn_of_Hillfier_and_Bremstan",
   "description": "Saundy - Sir Munn of Hillfier and Bremstan — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's"
+  ],
   "images": [
     "/images/Saundy.jpg"
   ],

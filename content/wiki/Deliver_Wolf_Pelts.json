@@ -3,7 +3,10 @@
   "wikiTitle": "Deliver_Wolf_Pelts",
   "path": "/wiki/Deliver_Wolf_Pelts",
   "description": "Deliver Wolf Pelts — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Dew Valley Quests",
+    "Wolf Pelt Quests"
+  ],
   "images": [],
   "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Sir_Lee_of_York\" title=\"Sir Lee of York\">Sir Lee of York</a>\n</p><p><b>Quest Type:</b> Delivery\n</p><p><b>Quest Description:</b> Take bundle of Pelts to <a href=\"/wiki/Hughard_the_Arms_Merchant\" title=\"Hughard the Arms Merchant\">Hughard the Arms Merchant</a> in <a href=\"/wiki/Townston\" title=\"Townston\">Townston</a>.\n</p><p><b>Quest Reward:</b> 750 Gold\n</p><p><b>Return to:</b> <a href=\"/wiki/Hughard_the_Arms_Merchant\" title=\"Hughard the Arms Merchant\">Hughard the Arms Merchant</a>\n</p><p><b>Repeatable:</b> No\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

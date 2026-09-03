@@ -3,7 +3,11 @@
   "wikiTitle": "Wring",
   "path": "/wiki/Wring",
   "description": "Wring — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Rings",
+    "Growth Items"
+  ],
   "images": [
     "/images/Ring-_Wring.jpg"
   ],

@@ -1,12 +1,29 @@
 <script setup lang="ts">
 const route = useRoute()
 const slug = computed(() => {
+  // Colons in titles (Category:Foo) get eaten as Vue/Nitro params.
+  // Prefer the real request path, then fall back to the catch-all.
+  let path = ''
+  if (import.meta.server) {
+    path = useRequestURL().pathname
+  }
+  else if (import.meta.client) {
+    path = window.location.pathname
+  }
+  path = path.replace(/^\/wiki\//, '').replace(/\/+$/, '')
+  try {
+    path = decodeURIComponent(path)
+  }
+  catch {
+    // keep raw
+  }
+  if (path) return path
   const parts = route.params.slug
   return Array.isArray(parts) ? parts.join('/') : String(parts || '')
 })
 
 const { data: page } = await useAsyncData(
-  () => 'wiki-' + route.path,
+  () => 'wiki-' + slug.value,
     () => $fetch(`/api/wiki/${slug.value.split('/').map(encodeURIComponent).join('/')}`).catch(() => null),
 )
 
@@ -21,9 +38,9 @@ const categoryName = computed(() => {
 
 const members = computed(() => {
   if (!categoryName.value || !catalog.value) return []
-  const want = categoryName.value.toLowerCase()
+  const want = categoryName.value.toLowerCase().replace(/_/g, ' ')
   return catalog.value.filter((item) =>
-    (item.categories || []).some((c) => c.toLowerCase() === want),
+    (item.categories || []).some((c) => c.toLowerCase().replace(/_/g, ' ') === want),
   )
 })
 
@@ -44,7 +61,7 @@ const categories = computed(() => page.value?.categories ?? [])
     <div v-if="categories.length" class="catlinks">
       Categories:
       <template v-for="(cat, i) in categories" :key="cat">
-        <NuxtLink :to="'/wiki/Category:' + cat.replace(/ /g, '_')">{{ cat }}</NuxtLink>
+        <NuxtLink :to="'/wiki/Category/' + cat.replace(/ /g, '_')">{{ cat }}</NuxtLink>
         <span v-if="i < categories.length - 1"> | </span>
       </template>
     </div>

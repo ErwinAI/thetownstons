@@ -3,7 +3,10 @@
   "wikiTitle": "Fragalot",
   "path": "/wiki/Fragalot",
   "description": "Fragalot — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/2h-Weapon-_Fragalot.jpg"
   ],

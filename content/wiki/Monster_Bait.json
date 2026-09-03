@@ -3,7 +3,10 @@
   "wikiTitle": "Monster_Bait",
   "path": "/wiki/Monster_Bait",
   "description": "Monster Bait — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Offensive",
+    "Ranger Skills"
+  ],
   "images": [
     "/images/recovered/Monster-bait.png"
   ],

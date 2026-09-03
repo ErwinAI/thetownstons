@@ -3,7 +3,10 @@
   "wikiTitle": "Slayer",
   "path": "/wiki/Slayer",
   "description": "Slayer — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/Slayer.jpg"
   ],

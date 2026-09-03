@@ -3,7 +3,11 @@
   "wikiTitle": "Habbibi's_Happenin'_Headdress",
   "path": "/wiki/Habbibi's_Happenin'_Headdress",
   "description": "Habbibi's Happenin' Headdress — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Helms-_Habbibis_Happenin_Headdress.jpg"
   ],

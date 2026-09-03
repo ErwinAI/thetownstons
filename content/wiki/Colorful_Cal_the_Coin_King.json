@@ -3,7 +3,10 @@
   "wikiTitle": "Colorful_Cal_the_Coin_King",
   "path": "/wiki/Colorful_Cal_the_Coin_King",
   "description": "Colorful Cal the Coin King — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Champions"
+  ],
   "images": [
     "/images/Colorful_Cal.PNG"
   ],

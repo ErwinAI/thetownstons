@@ -3,7 +3,10 @@
   "wikiTitle": "Dark_Angel",
   "path": "/wiki/Dark_Angel",
   "description": "Angel — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Demi-Humans"
+  ],
   "images": [
     "/images/Embercore_Angel.jpg"
   ],

@@ -3,7 +3,10 @@
   "wikiTitle": "Poison_Broodling",
   "path": "/wiki/Poison_Broodling",
   "description": "Whisker — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Whiskers"
+  ],
   "images": [
     "/images/recovered/Monster-_Whisker_Broodling.png"
   ],

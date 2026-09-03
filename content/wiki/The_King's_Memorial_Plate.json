@@ -3,7 +3,11 @@
   "wikiTitle": "The_King's_Memorial_Plate",
   "path": "/wiki/The_King's_Memorial_Plate",
   "description": "The King's Memorial Plate — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Body Armor",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/The_Kings_Memorial_Plate.jpg"
   ],

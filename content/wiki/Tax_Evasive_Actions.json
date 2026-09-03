@@ -3,7 +3,11 @@
   "wikiTitle": "Tax_Evasive_Actions",
   "path": "/wiki/Tax_Evasive_Actions",
   "description": "Tax Evasive Actions — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Audit Quests",
+    "Algernon Quests",
+    "Audit Algernon Quests"
+  ],
   "images": [],
   "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Loremaster_Vraile\" title=\"Loremaster Vraile\">Loremaster Vraile</a>\n</p><p><b>Quest Type:</b> Contact\n</p><p><b>Quest Description:</b> Talk to <a href=\"/wiki/Agent_Hammer\" title=\"Agent Hammer\">Agent Hammer</a> on Level 1 of <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a>\n</p><p><b>Quest Reward:</b> 1750 gold\n</p><p><b>Return to:</b> <a href=\"/wiki/Agent_Hammer\" title=\"Agent Hammer\">Agent Hammer</a>\n</p><p><b>Repeatable:</b> No\n</p><p><b>Followed by:</b>\n</p>\n<a name=\"Tax_Evasive_Actions_.282.29\"></a><h2> <span class=\"mw-headline\">Tax Evasive Actions (2)</span></h2>\n<p><b>Quest Giver:</b> <a href=\"/wiki/Agent_Hammer\" title=\"Agent Hammer\">Agent Hammer</a>\n</p><p><b>Quest Type:</b> Collect\n</p><p><b>Quest Description:</b> Collect MORE receipts from creatures in <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a>.\n</p><p><b>Quest Reward:</b> 875 gold and 1 <a href=\"/wiki/Kings_Coin\" title=\"Kings Coin\">Kings Coin</a>\n</p><p><b>Return to:</b> <a href=\"/wiki/Loremaster_Vraile\" title=\"Loremaster Vraile\">Loremaster Vraile</a>\n</p><p><b>Repeatable:</b> ?\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

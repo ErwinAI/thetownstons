@@ -3,7 +3,11 @@
   "wikiTitle": "Manglefeet_Fanatic",
   "path": "/wiki/Manglefeet_Fanatic",
   "description": "Manglefeet Fanatic — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Demi-Humans",
+    "Humanoids"
+  ],
   "images": [
     "/images/Manglefeet_fanatic.jpg"
   ],

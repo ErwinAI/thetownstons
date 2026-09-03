@@ -3,7 +3,10 @@
   "wikiTitle": "Sam's_Dungeon_Wholesale",
   "path": "/wiki/Sam's_Dungeon_Wholesale",
   "description": "Sam's Dungeon Wholesale — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's",
+    "Merchants"
+  ],
   "images": [
     "/images/Sam2.jpg"
   ],

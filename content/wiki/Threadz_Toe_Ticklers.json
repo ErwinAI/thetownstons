@@ -3,7 +3,11 @@
   "wikiTitle": "Threadz_Toe_Ticklers",
   "path": "/wiki/Threadz_Toe_Ticklers",
   "description": "Threadz Toe Ticklers — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Boots-Threadz_Toe_Ticklers.jpg"
   ],

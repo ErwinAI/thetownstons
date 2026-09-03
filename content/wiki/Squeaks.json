@@ -3,7 +3,11 @@
   "wikiTitle": "Squeaks",
   "path": "/wiki/Squeaks",
   "description": "Squeaks — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Mouse_ears_02_helm_icon.png"
   ],

@@ -3,7 +3,11 @@
   "wikiTitle": "Emerald_Slippers",
   "path": "/wiki/Emerald_Slippers",
   "description": "Emerald Slippers — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Boots",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Boots-_Emerald_Slippers.jpg"
   ],

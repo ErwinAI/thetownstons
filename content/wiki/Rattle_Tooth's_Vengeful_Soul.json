@@ -3,7 +3,10 @@
   "wikiTitle": "Rattle_Tooth's_Vengeful_Soul",
   "path": "/wiki/Rattle_Tooth's_Vengeful_Soul",
   "description": "Rattle Tooth's Vengeful Soul — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Champions",
+    "Whiskers"
+  ],
   "images": [
     "/images/Rattle_tooths_soul.jpg"
   ],

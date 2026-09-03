@@ -3,7 +3,10 @@
   "wikiTitle": "Knight",
   "path": "/wiki/Knight",
   "description": "Knight — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Revenants",
+    "Demonspawn"
+  ],
   "images": [
     "/images/MobKnight.jpg"
   ],

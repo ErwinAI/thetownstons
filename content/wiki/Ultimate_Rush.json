@@ -3,7 +3,11 @@
   "wikiTitle": "Ultimate_Rush",
   "path": "/wiki/Ultimate_Rush",
   "description": "Ultimate Rush — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Gloves-_Ultimate_Rush.jpg"
   ],

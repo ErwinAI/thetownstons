@@ -3,7 +3,11 @@
   "wikiTitle": "Shazam!",
   "path": "/wiki/Shazam!",
   "description": "Shazam! — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Body Armor",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/Body-_Shazam!.jpg"
   ],

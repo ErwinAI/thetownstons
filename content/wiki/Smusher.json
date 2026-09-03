@@ -3,7 +3,10 @@
   "wikiTitle": "Smusher",
   "path": "/wiki/Smusher",
   "description": "Smusher — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/Smusher.jpg"
   ],

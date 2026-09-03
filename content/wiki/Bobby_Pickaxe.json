@@ -3,7 +3,12 @@
   "wikiTitle": "Bobby_Pickaxe",
   "path": "/wiki/Bobby_Pickaxe",
   "description": "Bobby Pickaxe — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Demi-Humans",
+    "Champions",
+    "Humanoids"
+  ],
   "images": [
     "/images/Bobby_pickaxe.jpg"
   ],

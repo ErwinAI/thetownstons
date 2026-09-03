@@ -3,7 +3,9 @@
   "wikiTitle": "Jewelry_Token_Master",
   "path": "/wiki/Jewelry_Token_Master",
   "description": "Jewelry Token Master — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's"
+  ],
   "images": [
     "/images/JTM.jpg"
   ],

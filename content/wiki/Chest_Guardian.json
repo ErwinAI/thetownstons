@@ -3,7 +3,10 @@
   "wikiTitle": "Chest_Guardian",
   "path": "/wiki/Chest_Guardian",
   "description": "Chest Guardian — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Miscellaneous",
+    "Quests"
+  ],
   "images": [
     "/images/Chest_Guardian.jpg",
     "/images/Trophy_Guardian.jpg",

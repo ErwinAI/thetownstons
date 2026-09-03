@@ -3,7 +3,11 @@
   "wikiTitle": "Mutant_Pink_Slips",
   "path": "/wiki/Mutant_Pink_Slips",
   "description": "Mutant Pink Slips — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Algernon Quests",
+    "Algernon Mutant Quests",
+    "Repeatable Quests"
+  ],
   "images": [],
   "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Agent_Matt_Roach\" title=\"Agent Matt Roach\">Agent Matt Roach</a>\n</p><p><b>Quest Type:</b> Hunt\n</p><p><b>Quest Description:</b> Kill 20 <a href=\"/wiki/Mutant_Fizzmaster_Mixer\" title=\"Mutant Fizzmaster Mixer\">Mutant Fizzmaster Mixers</a> and 20 <a href=\"/wiki/Mutant_Fizzmaster_Guard\" title=\"Mutant Fizzmaster Guard\">Mutant Fizzmaster Guards</a> in <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a> offs.\n</p><p><b>Quest Reward:</b> 2500 Gold\n</p><p><b>Return to:</b> <a href=\"/wiki/Agent_Illiot_Fess\" title=\"Agent Illiot Fess\">Agent Illiot Fess</a>\n</p><p><b>Repeatable:</b> Yes\n</p><p><b>Following Quest:</b> None\n</p><p><i>Last Build Updated:</i> 155\n</p><p><i>Tip: To get the repeat on the quest, you must return to <a href=\"/wiki/Agent_Matt_Roach\" title=\"Agent Matt Roach\">Agent Matt Roach</a>.</i>\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

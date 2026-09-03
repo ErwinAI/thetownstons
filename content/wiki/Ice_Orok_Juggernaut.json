@@ -3,7 +3,10 @@
   "wikiTitle": "Ice_Orok_Juggernaut",
   "path": "/wiki/Ice_Orok_Juggernaut",
   "description": "Orok Juggernaut — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Oroks"
+  ],
   "images": [
     "/images/recovered/Monster-_Ice_Orok_Juggernaut.png"
   ],

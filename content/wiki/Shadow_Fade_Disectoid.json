@@ -3,7 +3,10 @@
   "wikiTitle": "Shadow_Fade_Disectoid",
   "path": "/wiki/Shadow_Fade_Disectoid",
   "description": "Fade Hatchling — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Fades"
+  ],
   "images": [
     "/images/recovered/Monster-_Shadow_Fade_Disectoid.png"
   ],

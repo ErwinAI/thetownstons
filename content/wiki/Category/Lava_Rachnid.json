@@ -1,9 +1,13 @@
 {
   "title": "Rachnid",
   "wikiTitle": "Category:Lava_Rachnid",
-  "path": "/wiki/Category:Lava_Rachnid",
+  "path": "/wiki/Category/Lava_Rachnid",
   "description": "Rachnid — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Demonspawn",
+    "Demi-Humans"
+  ],
   "images": [
     "/images/Lava_Rachnid.jpg"
   ],

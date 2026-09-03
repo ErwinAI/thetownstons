@@ -3,7 +3,10 @@
   "wikiTitle": "The_Gavel",
   "path": "/wiki/The_Gavel",
   "description": "The Gavel — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/2h-Weapon-_The_Gavel.jpg"
   ],

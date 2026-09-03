@@ -3,7 +3,9 @@
   "wikiTitle": "Rose",
   "path": "/wiki/Rose",
   "description": "Rose — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's"
+  ],
   "images": [
     "/images/Rose.jpg"
   ],

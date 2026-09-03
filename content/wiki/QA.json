@@ -3,7 +3,9 @@
   "wikiTitle": "QA",
   "path": "/wiki/QA",
   "description": "QA — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Glossary"
+  ],
   "images": [],
   "html": "<p><b>QA</b> is short for <b>Quality Assurance</b>.<br/>\n</p><p>This is an internal NCSoft step in the development process.  Essentially, a patch or update will hit QA prior to going to the <a href=\"/wiki/PTS\" title=\"PTS\">PTS</a>.  There is presumably an interal NCSoft game server where the QA personnel play and test the pre-release patch.  If the game passes QA, it goes on to the PTS; if it fails, it goes back to the <a href=\"/wiki/Devs\" title=\"Devs\">Devs</a> for rework.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

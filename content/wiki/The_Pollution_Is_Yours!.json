@@ -3,7 +3,12 @@
   "wikiTitle": "The_Pollution_Is_Yours!",
   "path": "/wiki/The_Pollution_Is_Yours!",
   "description": "The Pollution Is Yours! — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Algor's Terror Dome Quests",
+    "Captain Pollution Quests",
+    "Townston Quests",
+    "Townston Commander Quests"
+  ],
   "images": [],
   "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a>\n</p><p><b>Quest Type:</b> Destroy\n</p><p><b>Quest Description:</b> Head into the <a href=\"/wiki/Algor's_Terror_Dome\" title=\"Algor's Terror Dome\">Lair of the Snow Chieftain</a> and destroy <a href=\"/wiki/Algor_the_Cold\" title=\"Algor the Cold\">Algor the Cold</a>\n</p><p><b>Quest Reward:</b> 15000 Gold and 10 <a href=\"/wiki/King's_Coins\" title=\"King's Coins\">King's Coins</a>\n</p><p><b>Return to:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a>\n</p><p><b>Repeatable:</b> No\n</p><p><b>Following Quest:</b> None\n</p><p><i>Last Build Updated:</i> 155\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

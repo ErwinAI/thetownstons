@@ -3,7 +3,10 @@
   "wikiTitle": "Shadow_Pincer",
   "path": "/wiki/Shadow_Pincer",
   "description": "Mutant Pincer — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Mutants"
+  ],
   "images": [
     "/images/recovered/Pincers.png"
   ],

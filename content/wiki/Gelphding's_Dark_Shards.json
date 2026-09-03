@@ -3,7 +3,11 @@
   "wikiTitle": "Gelphding's_Dark_Shards",
   "path": "/wiki/Gelphding's_Dark_Shards",
   "description": "Gelphding's Dark Shards — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shoulders",
+    "Fighter Rainbow Armor"
+  ],
   "images": [
     "/images/Shoulders-_Gelphding's_Dark_Shards.jpg"
   ],

@@ -3,7 +3,10 @@
   "wikiTitle": "Mage_Equip_Token_Master",
   "path": "/wiki/Mage_Equip_Token_Master",
   "description": "Mage Equipment Token Master — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's",
+    "Merchants"
+  ],
   "images": [
     "/images/Mage_Equipment_Token_Master.PNG"
   ],

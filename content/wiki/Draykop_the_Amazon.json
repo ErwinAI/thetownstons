@@ -3,7 +3,10 @@
   "wikiTitle": "Draykop_the_Amazon",
   "path": "/wiki/Draykop_the_Amazon",
   "description": "Draykop the Amazon — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "NPC's",
+    "Merchants"
+  ],
   "images": [
     "/images/Amazon.jpg"
   ],

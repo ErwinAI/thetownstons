@@ -3,7 +3,10 @@
   "wikiTitle": "Wake_of_the_Devastator",
   "path": "/wiki/Wake_of_the_Devastator",
   "description": "Wake of the Devastator — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/Wake-of-the-Devastator.jpg"
   ],

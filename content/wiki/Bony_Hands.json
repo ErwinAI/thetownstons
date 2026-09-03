@@ -3,7 +3,11 @@
   "wikiTitle": "Bony_Hands",
   "path": "/wiki/Bony_Hands",
   "description": "Bony Hands — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Gloves-_Bony_Hands.jpg"
   ],

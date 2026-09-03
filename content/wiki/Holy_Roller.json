@@ -3,7 +3,10 @@
   "wikiTitle": "Holy_Roller",
   "path": "/wiki/Holy_Roller",
   "description": "Holy Roller — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Offensive",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/Holy-roller.png"
   ],

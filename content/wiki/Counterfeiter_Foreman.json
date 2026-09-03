@@ -3,7 +3,10 @@
   "wikiTitle": "Counterfeiter_Foreman",
   "path": "/wiki/Counterfeiter_Foreman",
   "description": "Counterfeiter Foreman — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Champions"
+  ],
   "images": [
     "/images/Counterfeit_Foreman.PNG"
   ],

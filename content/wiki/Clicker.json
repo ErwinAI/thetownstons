@@ -3,7 +3,10 @@
   "wikiTitle": "Clicker",
   "path": "/wiki/Clicker",
   "description": "Clicker — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Mage-Rainbows"
+  ],
   "images": [
     "/images/1h-Weapon-_Clicker.jpg"
   ],

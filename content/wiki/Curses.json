@@ -1,0 +1,16 @@
+{
+  "title": "Curses",
+  "wikiTitle": "Curses",
+  "path": "/wiki/Curses",
+  "description": "Curses — The Townstons wiki",
+  "categories": [
+    "Glossary",
+    "Skills"
+  ],
+  "images": [
+    "/images/recovered/Unnerving-shout.png",
+    "/images/recovered/Acidic-blight.png",
+    "/images/Fear-shot.jpg"
+  ],
+  "html": "<p>Curses are <a href=\"/wiki/Skills\" title=\"Skills\">skills</a> that are intended to have a negative affect on the target your skill bar.  A target's resistance to the particular curse is determined by either it's defense rating, if the skill requires a weapon; or it's elemental resistance if the curse is an area-of-effect type.\n</p><p><br/>\n<small>This list is sortable. Click the button next to the heading you wish to sort by. A 2 column sort is also possible, by first sorting one column then the second. </small>\n</p>\n<table border=\"1\" cellpadding=\"2\" cellspacing=\"0\" class=\"sortable\" style=\"text-align:center;\">\n<tr>\n<th class=\"unsortable\">Icon\n</th><th>Skill Name\n</th><th>Class\n</th><th class=\"unsortable\"># of Ranks\n</th><th class=\"unsortable\">Cool Down Time\n</th><th class=\"unsortable\">Description\n</th><th class=\"unsortable\">Range\n</th><th>Weapon Req'd\n</th><th>Element\n</th><th>Level First Available\n</th></tr>\n<tr>\n<td><a class=\"image\" href=\"/images/recovered/Unnerving-shout.png\" title=\"Image:Unnerving-shout.jpg\"><img alt=\"Image:Unnerving-shout.jpg\" border=\"0\" height=\"43\" src=\"/images/recovered/Unnerving-shout.png\" width=\"43\"/></a>\n</td><td><a href=\"/wiki/Unnerving_Shout\" title=\"Unnerving Shout\">Unnerving Shout</a>\n</td><td>Fighter\n</td><td>5\n</td><td>25\n</td><td style=\"text-align:left\">Enemy Attack Rating and Movement Speed Decrease\n</td><td>PbAoE\n</td><td>No\n</td><td>Divine\n</td><td>8\n</td></tr>\n<tr>\n<td><a class=\"image\" href=\"/images/recovered/Acidic-blight.png\" title=\"Image:Acidic-blight.jpg\"><img alt=\"Image:Acidic-blight.jpg\" border=\"0\" height=\"43\" src=\"/images/recovered/Acidic-blight.png\" width=\"43\"/></a>\n</td><td><a href=\"/wiki/Acidic_Blight\" title=\"Acidic Blight\">Acidic Blight</a>\n</td><td>Ranger\n</td><td>10\n</td><td>45\n</td><td style=\"text-align:left\">Enemy Damage Resistance Decrease\n</td><td>PbAoE\n</td><td>No\n</td><td>Poison\n</td><td>4\n</td></tr>\n<tr>\n<td><a class=\"image\" href=\"/images/Fear-shot.jpg\" title=\"Image:Fear-shot.jpg\"><img alt=\"Image:Fear-shot.jpg\" border=\"0\" height=\"43\" src=\"/images/Fear-shot.jpg\" width=\"43\"/></a>\n</td><td><a href=\"/wiki/Fear_Shot\" title=\"Fear Shot\">Fear Shot</a>\n</td><td>Ranger\n</td><td>10\n</td><td>7\n</td><td style=\"text-align:left\">Fear/Attack Rating Boost\n</td><td>Range\n</td><td>Ranged\n</td><td>Poison\n</td><td>10\n</td></tr>\n</table>\n\n \n<div class=\"visualClear\"></div>"
+}

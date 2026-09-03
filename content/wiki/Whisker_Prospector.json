@@ -3,7 +3,10 @@
   "wikiTitle": "Whisker_Prospector",
   "path": "/wiki/Whisker_Prospector",
   "description": "Whisker Prospector — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Whiskers"
+  ],
   "images": [
     "/images/Whisker_prospector.jpg"
   ],

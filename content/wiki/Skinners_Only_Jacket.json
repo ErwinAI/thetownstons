@@ -3,7 +3,11 @@
   "wikiTitle": "Skinners_Only_Jacket",
   "path": "/wiki/Skinners_Only_Jacket",
   "description": "Skinners Only Jacket — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shoulders",
+    "Ranger Rainbow Armor"
+  ],
   "images": [
     "/images/Shoulders-_Skinners_Only_Jacket.jpg"
   ],

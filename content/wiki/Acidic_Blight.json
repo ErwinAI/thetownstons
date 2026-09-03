@@ -3,7 +3,10 @@
   "wikiTitle": "Acidic_Blight",
   "path": "/wiki/Acidic_Blight",
   "description": "Acidic Blight — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Curses",
+    "Ranger Skills"
+  ],
   "images": [
     "/images/recovered/Exclamation.png",
     "/images/recovered/Acidic-blight.png"

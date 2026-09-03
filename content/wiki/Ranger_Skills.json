@@ -3,7 +3,9 @@
   "wikiTitle": "Ranger_Skills",
   "path": "/wiki/Ranger_Skills",
   "description": "Ranger Skills — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Skills"
+  ],
   "images": [
     "/images/recovered/Gaseous-blast.png",
     "/images/recovered/Monster-bait.png",

@@ -1,0 +1,15 @@
+{
+  "title": "Knight",
+  "wikiTitle": "Acrtic_Felknight",
+  "path": "/wiki/Acrtic_Felknight",
+  "description": "Knight — The Townstons wiki",
+  "categories": [
+    "Monsters",
+    "Revenants",
+    "Demonspawn"
+  ],
+  "images": [
+    "/images/MobKnight.jpg"
+  ],
+  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:252px;\"><a class=\"image\" href=\"/images/MobKnight.jpg\" title=\"Shadowspawn Knight\"><img alt=\"Shadowspawn Knight\" border=\"0\" class=\"thumbimage\" height=\"268\" src=\"/images/MobKnight.jpg\" width=\"250\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/MobKnight.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Shadowspawn Knight</div></div></div>\n<p>The origin of Knights and Felknights are a mystery. It is said that they are the spirits of fallen warriors who were consumed by bitterness over their death, and so are unable to leave this world; instead doomed to haunt it till time's end. \n</p><p><b>Race:</b> Revenant\n</p><p><b>Class:</b> Fighter\n</p>\n<a name=\"Basic_Types\"></a><h2> <span class=\"mw-headline\">Basic Types</span></h2>\n<table border=\"1\" cellpadding=\"2\" cellspacing=\"0\">\n<tr>\n<th>Name\n</th><th>Element\n</th><th>Habitat\n</th></tr>\n<tr>\n<td>Embercore Felknight\n</td><td>Fire\n</td><td>The <a href=\"/wiki/Embercore_Path\" title=\"Embercore Path\">Embercore Path</a>, level 6 - 7, <a href=\"/wiki/The_Embercore_Path\" title=\"The Embercore Path\">Store Room 1A</a>\n</td></tr>\n<tr>\n<td>Divine Felknight\n</td><td>Divine\n</td><td><a href=\"/wiki/Demonic_Crypts\" title=\"Demonic Crypts\">Demonic Crypts</a> (The <a href=\"/wiki/Shadow's_Embrace\" title=\"Shadow's Embrace\">Shadow's Embrace</a> level 1), The <a href=\"/wiki/Shadow's_Embrace\" title=\"Shadow's Embrace\">Shadow's Embrace</a> level 5 - 7\n</td></tr>\n<tr>\n<td>Shadowspawn Knight\n</td><td>Shadow\n</td><td><a href=\"/wiki/Demonic_Crypts\" title=\"Demonic Crypts\">Demonic Crypts</a> (The <a href=\"/wiki/Shadow's_Embrace\" title=\"Shadow's Embrace\">Shadow's Embrace</a> level 1), The <a href=\"/wiki/Shadow's_Embrace\" title=\"Shadow's Embrace\">Shadow's Embrace</a> level 5 - 7\n</td></tr>\n<tr>\n<td>Arctic Felknight\n</td><td>Ice\n</td><td><a href=\"/wiki/Embercore_Path\" title=\"Embercore Path\">Embercore Path</a>, Lower Levels\n</td></tr>\n</table>\n\n \n<div class=\"visualClear\"></div>"
+}

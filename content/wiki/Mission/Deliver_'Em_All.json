@@ -1,9 +1,13 @@
 {
   "title": "Mission:Deliver 'Em All",
   "wikiTitle": "Mission:Deliver_'Em_All",
-  "path": "/wiki/Mission:Deliver_'Em_All",
+  "path": "/wiki/Mission/Deliver_'Em_All",
   "description": "Mission:Deliver 'Em All — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Algernon Quests",
+    "Mission Important Quests",
+    "Repeatable Quests"
+  ],
   "images": [],
   "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Sir_Kent_the_Artisan\" title=\"Sir Kent the Artisan\">Sir Kent the Artisan</a>\n</p><p><b>Quest Type:</b> Deliver\n</p><p><b>Quest Description:</b> Now that the figurines are painted, deliver them to the <a href=\"/wiki/Townston_Lieutenant\" title=\"Townston Lieutenant\">Townston Lieutenant</a>\n</p><p><b>Quest Reward:</b> 5000 gold and 4 <a href=\"/wiki/King's_Coins\" title=\"King's Coins\">King's Coins</a>.\n</p><p><b>Return to:</b> <a href=\"/wiki/Townston_Lieutenant\" title=\"Townston Lieutenant\">Townston Lieutenant</a>\n</p><p><b>Repeatable:</b> No\n</p><p><b>Following Quest:</b> None\n</p><p><i>Last Build Updated:</i> 155\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

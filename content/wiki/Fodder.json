@@ -3,7 +3,9 @@
   "wikiTitle": "Fodder",
   "path": "/wiki/Fodder",
   "description": "Fodder — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Glossary"
+  ],
   "images": [],
   "html": "<p><b>Fodder</b> are the weakest type of mob; weaker and, ironically, less common than <b>Normal</b> mobs. They pose very little threat to players, and are always in a small group of Fodders, as they don't appear so vulnerable when they are in a group.\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

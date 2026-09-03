@@ -3,7 +3,11 @@
   "wikiTitle": "Doesn't_Squeak",
   "path": "/wiki/Doesn't_Squeak",
   "description": "Doesn't Squeak — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Helms",
+    "Mage Rainbow Armor"
+  ],
   "images": [
     "/images/recovered/Mouse_ears_01_helm_icon.png"
   ],

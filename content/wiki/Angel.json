@@ -3,7 +3,10 @@
   "wikiTitle": "Angel",
   "path": "/wiki/Angel",
   "description": "Angel — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Demonspawn",
+    "Demi-Humans"
+  ],
   "images": [
     "/images/Embercore_Angel.jpg"
   ],

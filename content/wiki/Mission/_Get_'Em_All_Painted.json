@@ -1,9 +1,14 @@
 {
   "title": "Mission: Get 'Em All Painted",
   "wikiTitle": "Mission:_Get_'Em_All_Painted",
-  "path": "/wiki/Mission:_Get_'Em_All_Painted",
+  "path": "/wiki/Mission/_Get_'Em_All_Painted",
   "description": "Mission: Get 'Em All Painted — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Algernon Quests",
+    "Mission Important Quests",
+    "Townston Quests",
+    "Townston Lieutenant Quests"
+  ],
   "images": [],
-  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Lieutenant\" title=\"Townston Lieutenant\">Townston Lieutenant</a>\n</p><p><b>Quest Type:</b> Collect\n</p><p><b>Quest Description:</b>  Now that you have the Figurines, get them all painted by <a href=\"/wiki/Sir_Kent_the_Artisan\" title=\"Sir Kent the Artisan\">Sir Kent the Artisan</a>. You'll need to kill the <a href=\"/wiki/Particularly_Rude_Broodling\" title=\"Particularly Rude Broodling\">Particularly Rude Broodling</a>, of course.\n</p><p><b>Quest Reward:</b> 2500 Gold\n</p><p><b>Return to:</b> <a href=\"/wiki/Sir_Kent_the_Artisan\" title=\"Sir Kent the Artisan\">Sir Kent the Artisan</a>\n</p><p><b>Repeatable:</b>No\n</p><p><b>Following Quest:</b> <a href=\"/wiki/Mission:Deliver_'Em_All\" title=\"Mission:Deliver 'Em All\">Mission:Deliver 'Em All</a>\n</p><p><i>Last Build Updated:</i> 155\n</p>\n\n \n<div class=\"visualClear\"></div>"
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Lieutenant\" title=\"Townston Lieutenant\">Townston Lieutenant</a>\n</p><p><b>Quest Type:</b> Collect\n</p><p><b>Quest Description:</b>  Now that you have the Figurines, get them all painted by <a href=\"/wiki/Sir_Kent_the_Artisan\" title=\"Sir Kent the Artisan\">Sir Kent the Artisan</a>. You'll need to kill the <a href=\"/wiki/Particularly_Rude_Broodling\" title=\"Particularly Rude Broodling\">Particularly Rude Broodling</a>, of course.\n</p><p><b>Quest Reward:</b> 2500 Gold\n</p><p><b>Return to:</b> <a href=\"/wiki/Sir_Kent_the_Artisan\" title=\"Sir Kent the Artisan\">Sir Kent the Artisan</a>\n</p><p><b>Repeatable:</b>No\n</p><p><b>Following Quest:</b> <a href=\"/wiki/Mission/Deliver_'Em_All\" title=\"Mission:Deliver 'Em All\">Mission:Deliver 'Em All</a>\n</p><p><i>Last Build Updated:</i> 155\n</p>\n\n \n<div class=\"visualClear\"></div>"
 }

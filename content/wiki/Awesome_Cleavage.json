@@ -3,7 +3,10 @@
   "wikiTitle": "Awesome_Cleavage",
   "path": "/wiki/Awesome_Cleavage",
   "description": "Awesome Cleavage — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Passive",
+    "Fighter Skills"
+  ],
   "images": [
     "/images/recovered/Awesome-cleavage.png"
   ],

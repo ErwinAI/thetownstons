@@ -3,7 +3,10 @@
   "wikiTitle": "Shadowspawn_Knight",
   "path": "/wiki/Shadowspawn_Knight",
   "description": "Knight — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Revenants",
+    "Demonspawn"
+  ],
   "images": [
     "/images/MobKnight.jpg"
   ],

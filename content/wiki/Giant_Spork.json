@@ -3,7 +3,10 @@
   "wikiTitle": "Giant_Spork",
   "path": "/wiki/Giant_Spork",
   "description": "Giant Spork — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Two-Handed-Fighter-Rainbows"
+  ],
   "images": [
     "/images/2h-Weapon-_Giant_Spork.jpg"
   ],

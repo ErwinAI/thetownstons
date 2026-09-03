@@ -3,7 +3,11 @@
   "wikiTitle": "Mage_PvP_Builds",
   "path": "/wiki/Mage_PvP_Builds",
   "description": "Category:Mage PvP Builds — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "PvP Builds",
+    "Builds",
+    "PvP"
+  ],
   "images": [],
-  "html": "<div id=\"mw-pages\">\n<h2>Articles in category \"Mage PvP Builds\"</h2>\n<p>There are 2 articles in this category.\n</p><h3>H</h3>\n<ul><li><a href=\"/wiki/Hydrostatic_%28Shadow%2FIce%29_Mage\" title=\"Hydrostatic (Shadow/Ice) Mage\">Hydrostatic (Shadow/Ice) Mage</a></li></ul><h3>T</h3>\n<ul><li><a href=\"/wiki/Two_Skills_Mage\" title=\"Two Skills Mage\">Two Skills Mage</a></li></ul>\n</div>\n \n<div class=\"visualClear\"></div>"
+  "html": "<div id=\"mw-pages\">\n<h2>Articles in category \"Mage PvP Builds\"</h2>\n<p>There are 2 articles in this category.\n</p><h3>H</h3>\n<ul><li><a href=\"/wiki/Hydrostatic_%28Shadow/Ice%29_Mage\" title=\"Hydrostatic (Shadow/Ice) Mage\">Hydrostatic (Shadow/Ice) Mage</a></li></ul><h3>T</h3>\n<ul><li><a href=\"/wiki/Two_Skills_Mage\" title=\"Two Skills Mage\">Two Skills Mage</a></li></ul>\n</div>\n \n<div class=\"visualClear\"></div>"
 }

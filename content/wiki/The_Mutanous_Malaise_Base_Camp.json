@@ -3,7 +3,9 @@
   "wikiTitle": "The_Mutanous_Malaise_Base_Camp",
   "path": "/wiki/The_Mutanous_Malaise_Base_Camp",
   "description": "The Mutanous Malaise Mezzanine — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Towns/Outposts"
+  ],
   "images": [
     "/images/recovered/MMM.png"
   ],

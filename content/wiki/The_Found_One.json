@@ -3,7 +3,11 @@
   "wikiTitle": "The_Found_One",
   "path": "/wiki/The_Found_One",
   "description": "The Found One — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Amulets",
+    "Growth Items"
+  ],
   "images": [
     "/images/Amulet-_The_Found_One.jpg"
   ],

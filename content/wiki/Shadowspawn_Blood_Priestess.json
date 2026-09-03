@@ -3,7 +3,11 @@
   "wikiTitle": "Shadowspawn_Blood_Priestess",
   "path": "/wiki/Shadowspawn_Blood_Priestess",
   "description": "Oracle — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Monsters",
+    "Demonspawn",
+    "Revenants"
+  ],
   "images": [
     "/images/Divine_Soothsayer.jpg"
   ],

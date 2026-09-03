@@ -3,7 +3,9 @@
   "wikiTitle": "Wasteland_Layout",
   "path": "/wiki/Wasteland_Layout",
   "description": "Cave Layout — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "DungeonsLayouts"
+  ],
   "images": [
     "/images/Layout_Wasteland.jpg",
     "/images/Map_Wasteland.jpg"

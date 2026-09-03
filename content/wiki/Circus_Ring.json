@@ -3,7 +3,11 @@
   "wikiTitle": "Circus_Ring",
   "path": "/wiki/Circus_Ring",
   "description": "Circus Ring — The Townstons wiki",
-  "categories": [],
+  "categories": [
+    "Rainbow items",
+    "Rainbow Rings",
+    "Growth Items"
+  ],
   "images": [
     "/images/Ring-_Circus_Ring.jpg"
   ],

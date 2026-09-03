@@ -3,9 +3,12 @@
   "wikiTitle": "Hughard_the_Arms_Merchant",
   "path": "/wiki/Hughard_the_Arms_Merchant",
   "description": "Hughard the Arms Merchant — The Townstons wiki",
-  "categories": [],
-  "images": [
-    "/images/recovered/Hughard.png"
+  "categories": [
+    "NPC's",
+    "Merchants"
   ],
-  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:102px;\"><a class=\"image\" href=\"/images/recovered/Hughard.png\" title=\"Hughard the Arms Merchant\"><img alt=\"Hughard the Arms Merchant\" border=\"0\" class=\"thumbimage\" height=\"115\" src=\"/images/recovered/Hughard.png\" width=\"100\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/recovered/Hughard.png\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Hughard the Arms Merchant</div></div></div>\n<p>Hughard the Arms Merchant is in <a href=\"/wiki/Townston\" title=\"Townston\">Townston</a>. \n</p><p>He sells the player <a href=\"/wiki/Armor\" title=\"Armor\">armor</a> and <a href=\"/wiki/Weapons\" title=\"Weapons\">weapons</a>. His items are usually in the level 10-20 range.\n</p><p>He also gives some quests:\n</p>\n<ul><li> <a href=\"/wiki/Stolen_Singing_Swords\" title=\"Stolen Singing Swords\">Stolen Singing Swords</a>\n</li></ul>\n\n \n<div class=\"visualClear\"></div>"
+  "images": [
+    "/images/Hughard.jpg"
+  ],
+  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:102px;\"><a class=\"image\" href=\"/images/Hughard.jpg\" title=\"Hughard the Arms Merchant\"><img alt=\"Hughard the Arms Merchant\" border=\"0\" class=\"thumbimage\" height=\"115\" src=\"/images/Hughard.jpg\" width=\"100\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Hughard.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Hughard the Arms Merchant</div></div></div>\n<p>Hughard the Arms Merchant is in <a href=\"/wiki/Townston\" title=\"Townston\">Townston</a>. \n</p><p>He sells the player <a href=\"/wiki/Armor\" title=\"Armor\">armor</a> and <a href=\"/wiki/Weapons\" title=\"Weapons\">weapons</a>. His items are usually in the level 10-20 range.\n</p><p>He also gives some quests:\n</p>\n<ul><li> <a href=\"/wiki/Stolen_Singing_Swords\" title=\"Stolen Singing Swords\">Stolen Singing Swords</a>\n</li></ul>\n\n \n<div class=\"visualClear\"></div>"
 }
