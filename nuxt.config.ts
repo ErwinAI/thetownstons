@@ -13,7 +13,15 @@ function wikiRoutes(dir: string): string[] {
       if (!name.endsWith('.json')) continue
       try {
         const data = JSON.parse(readFileSync(full, 'utf8')) as { path?: string }
-        if (data.path && !/[()[\]?*]/.test(data.path)) routes.push(data.path)
+        if (!data.path) continue
+        let path = data.path
+        try {
+          path = decodeURIComponent(data.path)
+        }
+        catch {
+          // keep encoded
+        }
+        if (!/[()[\]?*]/.test(path)) routes.push(data.path)
       }
       catch {
         // skip broken generated files
@@ -48,7 +56,7 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: false,
       failOnError: false,
-      routes: ['/', '/all', '/api/wiki', ...wikiRoutes('content/wiki')],
+      routes: ['/', '/all', '/api/wiki', '/api/pages', ...wikiRoutes('content/wiki')],
     },
   },
 })

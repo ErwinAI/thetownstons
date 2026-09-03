@@ -28,7 +28,7 @@ const sections = [
     { to: '/wiki/Category/Game_Mechanics', label: 'Game Mechanics' },
   ]},
   { title: 'Special', links: [
-    { to: '/wiki/Category/Rainbow_items', label: 'Rainbow List' },
+    { to: '/wiki/Category/Rainbow_Items', label: 'Rainbow List' },
     { to: '/wiki/List_of_Equations', label: 'List of Equations' },
     { to: '/wiki/Category/Glossary', label: 'Glossary' },
     { to: '/wiki/The_Townstons', label: 'The Townstons' },

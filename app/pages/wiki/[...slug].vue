@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { findCanonicalPath, wikiApiPath } from '#shared/wiki'
+
 const route = useRoute()
 const slug = computed(() => {
   // Colons in titles (Category:Foo) get eaten as Vue/Nitro params.
@@ -22,24 +24,38 @@ const slug = computed(() => {
   return Array.isArray(parts) ? parts.join('/') : String(parts || '')
 })
 
-const { data: page } = await useAsyncData(
-  () => 'wiki-' + slug.value,
-    () => $fetch(`/api/wiki/${slug.value.split('/').map(encodeURIComponent).join('/')}`).catch(() => null),
+const { data: catalog } = await useAsyncData('wiki-catalog', () =>
+  $fetch('/api/pages').catch(() => []),
 )
 
-const { data: catalog } = await useAsyncData('wiki-catalog', () => $fetch('/api/wiki'))
+const pages = computed(() => Array.isArray(catalog.value) ? catalog.value : [])
+
+const canonicalPath = computed(() => findCanonicalPath(slug.value, pages.value))
+const requestPath = computed(() => `/wiki/${slug.value}`)
+const targetPath = computed(() => canonicalPath.value || requestPath.value)
+
+if (canonicalPath.value && canonicalPath.value !== requestPath.value) {
+  await navigateTo(canonicalPath.value, { redirectCode: 301, replace: true })
+}
+
+const apiSlug = computed(() => targetPath.value.replace(/^\/wiki\//, ''))
+
+const { data: page } = await useAsyncData(
+  () => 'wiki-' + apiSlug.value,
+  () => $fetch(wikiApiPath(targetPath.value)).catch(() => null),
+)
 
 const categoryName = computed(() => {
-  const raw = slug.value
+  const raw = apiSlug.value
   if (raw.startsWith('Category:')) return raw.slice('Category:'.length).replace(/_/g, ' ')
   if (raw.startsWith('Category/')) return raw.slice('Category/'.length).replace(/_/g, ' ')
   return ''
 })
 
 const members = computed(() => {
-  if (!categoryName.value || !catalog.value) return []
+  if (!categoryName.value || !pages.value.length) return []
   const want = categoryName.value.toLowerCase().replace(/_/g, ' ')
-  return catalog.value.filter((item) =>
+  return pages.value.filter((item) =>
     (item.categories || []).some((c) => c.toLowerCase().replace(/_/g, ' ') === want),
   )
 })
