@@ -1,0 +1,11 @@
+{
+  "title": "Moonglaze",
+  "wikiTitle": "Moonglaze",
+  "path": "/wiki/Moonglaze",
+  "description": "Moonglaze — The Townstons wiki",
+  "categories": [],
+  "images": [
+    "/images/1h-weapon-_Moonglaze.jpg"
+  ],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Moonglaze\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/1h-weapon-_Moonglaze.jpg\" title=\"Image:1h-weapon-_Moonglaze.jpg\"><img alt=\"Image:1h-weapon-_Moonglaze.jpg\" border=\"0\" height=\"192\" src=\"/images/1h-weapon-_Moonglaze.jpg\" width=\"128\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type: </b>\n</td><td style=\"width:50%;\">Piercing Damage\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding: </b>\n</td><td style=\"width:50%;\">One-Handed\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed: </b>\n</td><td style=\"width:50%;\">Freakin' Fast\n</td></tr></table>\n<p><br/>\n</p>\n<a name=\"Attributes:\"></a><h2> <span class=\"mw-headline\"> Attributes: </span></h2>\n<ul><li> + Strength\n</li><li> + Endurance\n</li><li> + % Movement speed\n</li><li> + Total Health\n</li><li> + Melee Attack Rating\n</li><li> + Melee Attack Speed\n</li><li> + Damage per Second to Piercing Attacks\n</li><li> + Ice Damage per Second to Weapon Attack\n</li></ul>\n\n \n<div class=\"visualClear\"></div>"
+}

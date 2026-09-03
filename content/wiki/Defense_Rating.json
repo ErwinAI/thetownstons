@@ -1,0 +1,9 @@
+{
+  "title": "Defense Rating",
+  "wikiTitle": "Defense_Rating",
+  "path": "/wiki/Defense_Rating",
+  "description": "Defense Rating — The Townstons wiki",
+  "categories": [],
+  "images": [],
+  "html": "<p>Defense Rating is the grand total of a hidden formula to give you defense versus the enemy mobs of the Dungeon Runner world.  Generally speaking, Defense Rating is equal to 14*STR (<a href=\"/wiki/Strength\" title=\"Strength\">Strength</a>) plus bonuses from items (defense on most items, jewelry and amulets -may- contain a bonus defense bonus but not a standard defense bonus) and skills.  Fighters especially usually want to get most of their defense from good armor instead of from attribute points alone.\n</p><p>A good rule of thumb will tell you that a defense rating of 1000 needs to be hit with an attack rating of 1000 or more to receive a good chance to hit.  The higher your defense rating compared to your enemy's attack rating, the less often you will be hit.  Keep in mind that there is no way to entirely negate an opponent's ability to hit you, you can only reduce the chance you will be hit at all.  Theoretically an attack rating of even 1 can successfully hit a defense rating of 1000 some of the time, and a defense of 1 can defend against an attack of 1000 some of the time.  An unconfirmed rumor says there is never less than a 5% chance to hit and never more than a 95% chance to hit, but the exact equations are not known.\n</p>\n\n \n<div class=\"visualClear\"></div>"
+}

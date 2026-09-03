@@ -1,0 +1,242 @@
+/* MonoBook-style recreation of the 2008 Townstons wiki skin. */
+:root {
+  --wiki-bg: #f3f3f3;
+  --wiki-content: #fff;
+  --wiki-border: #aaa;
+  --wiki-link: #002bb8;
+  --wiki-link-visited: #5a3696;
+  --wiki-missing: #ba0000;
+  --wiki-portlet: #fff;
+  --wiki-heading: #000;
+  --sidebar-width: 13em;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--wiki-bg);
+  color: #000;
+  font: 13px/1.5 sans-serif;
+}
+
+a { color: var(--wiki-link); text-decoration: none; }
+a:visited { color: var(--wiki-link-visited); }
+a:hover { text-decoration: underline; }
+a.missing { color: var(--wiki-missing); }
+
+.wiki-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: var(--sidebar-width) 1fr;
+}
+
+.wiki-sidebar {
+  padding: 0.4em 0.55em 2em;
+  font-size: 13px;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.wiki-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  margin: 0.25em 0 0.7em;
+  padding: 0.35em 0;
+  overflow: hidden;
+  color: #222;
+  font: bold 18px/1.15 Georgia, "Times New Roman", serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+.wiki-logo-the {
+  display: block;
+  width: 70%;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.25em;
+  border-bottom: 2px solid #fff;
+}
+
+.wiki-logo-name {
+  display: block;
+}
+
+.portlet {
+  margin: 0 0 1em;
+  padding: 0;
+  background: transparent;
+}
+
+.portlet h5 {
+  margin: 0;
+  padding: 0 0.2em;
+  font-size: 91%;
+  font-weight: normal;
+  white-space: nowrap;
+  background: transparent;
+}
+
+.portlet .pBody {
+  border: 1px solid #aaa;
+  background: var(--wiki-portlet);
+  padding: 0.4em 0.7em 0.5em;
+}
+
+.portlet ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.portlet li { margin: 0 0 0.15em; }
+
+.wiki-content-wrap {
+  background: var(--wiki-content);
+  border: 1px solid var(--wiki-border);
+  border-right: none;
+  min-height: 100vh;
+  padding: 0 1.2em 2.5em;
+  font-size: 14px;
+  min-width: 0;
+}
+
+.firstHeading {
+  font-size: 188%;
+  font-weight: normal;
+  margin: 0.4em 0 0.3em;
+  padding: 0;
+  border-bottom: 1px solid #aaa;
+}
+
+#siteSub {
+  font-size: 92%;
+  color: #555;
+  font-style: italic;
+  margin: 0 0 0.8em;
+}
+
+.wiki-body {
+  font-size: 140%;
+  line-height: 1.5em;
+}
+
+.wiki-body h1,
+.wiki-body h2,
+.wiki-body h3,
+.wiki-body h4 {
+  font-weight: bold;
+  border-bottom: 1px solid #aaa;
+  margin: 1em 0 0.4em;
+}
+
+.wiki-body h2 { font-size: 150%; }
+.wiki-body h3 { font-size: 132%; border-bottom: none; }
+.wiki-body p { margin: 0.4em 0 0.7em; }
+.wiki-body ul,
+.wiki-body ol { margin: 0.3em 0 0.7em 1.6em; padding: 0; }
+.wiki-body table { border-collapse: collapse; margin: 0.6em 0; }
+.wiki-body img {
+  max-width: 220px;
+  height: auto;
+  vertical-align: middle;
+  background: #1a1a1a;
+  border: 1px solid #555;
+}
+
+.wiki-body img[width="43"],
+.wiki-body img[height="43"],
+.wiki-body img[width="55"],
+.wiki-body img[height="57"] {
+  width: 43px;
+  height: 43px;
+  object-fit: contain;
+  image-rendering: auto;
+}
+.wiki-body td,
+.wiki-body th { vertical-align: top; }
+
+.toc {
+  border: 1px solid #aaa;
+  background: #f9f9f9;
+  padding: 5px;
+  display: table;
+  font-size: 95%;
+}
+
+.toc h2 {
+  display: inline;
+  border: 0;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.catlinks {
+  border: 1px solid #aaa;
+  background: #f9f9f9;
+  padding: 0.4em 0.8em;
+  margin: 1.4em 0 0;
+  font-size: 90%;
+}
+
+.wiki-footer {
+  clear: both;
+  margin-top: 2em;
+  padding-top: 0.8em;
+  border-top: 1px solid #aaa;
+  color: #555;
+  font-size: 90%;
+}
+
+.home-box {
+  border: 1px solid blue;
+  padding: 12px;
+  margin: 0 0 10px;
+}
+
+.home-intro {
+  border: 1px solid red;
+  padding: 12px;
+  margin: 0 0 10px;
+  background: lightgoldenrodyellow;
+}
+
+.home-banner {
+  margin: 0 0 0.8em;
+  padding: 0.35em 0.6em;
+  font: bold 24px/1.2 Georgia, "Times New Roman", serif;
+  color: #3a1d0f;
+  background: linear-gradient(#f4d9a8, #e2b56a);
+  border: 1px solid #8a5a22;
+  text-align: center;
+}
+
+.home-banner-title {
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+@media (max-width: 800px) {
+  .wiki-shell { grid-template-columns: 1fr; }
+  .wiki-content-wrap { border-right: 1px solid var(--wiki-border); }
+  .home-grid { grid-template-columns: 1fr; }
+}
+
+.article-list {
+  columns: 3 14em;
+  column-gap: 2em;
+}
+
+.article-list a { display: block; }
+
+.poll-meta { font-size: 13px; color: #444; }

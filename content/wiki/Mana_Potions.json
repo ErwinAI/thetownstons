@@ -1,0 +1,11 @@
+{
+  "title": "Mana Potions",
+  "wikiTitle": "Mana_Potions",
+  "path": "/wiki/Mana_Potions",
+  "description": "Mana Potions — The Townstons wiki",
+  "categories": [],
+  "images": [
+    "/images/recovered/ManaPotions.png"
+  ],
+  "html": "<div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:61px;\"><a class=\"image\" href=\"/images/recovered/ManaPotions.png\" title=\"Mana Potions\"><img alt=\"Mana Potions\" border=\"0\" class=\"thumbimage\" height=\"30\" src=\"/images/recovered/ManaPotions.png\" width=\"59\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/recovered/ManaPotions.png\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div>Mana Potions</div></div></div>\n<p>Mana potions restore a large portion of your mana over a certain length of time. There are two types of mana potions. They are minor mana potions and major mana potions.\n</p>\n<ul><li> Minor mana potions can be used by both nonmembers and members, they regenerate 40% health over 5 seconds. They can be stacked up piles of 5 maximum.\n</li></ul>\n<ul><li> Major mana potions can only be used by members, they regenerate 50% of your mana over 5 secs and the restoration effects stack. They can be stacked up to 10.\n</li></ul>\n\n \n<div class=\"visualClear\"></div>"
+}

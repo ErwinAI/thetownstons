@@ -1,0 +1,12 @@
+{
+  "title": "Library Layout",
+  "wikiTitle": "Library_Layout",
+  "path": "/wiki/Library_Layout",
+  "description": "Library Layout — The Townstons wiki",
+  "categories": [],
+  "images": [
+    "/images/Layout_Ransacked_Library.jpg",
+    "/images/Map_Ransacked_Library.jpg"
+  ],
+  "html": "<p>The ransacked Library is a mess!  Books lie around on the floor, shelves are pulled down, tables are broken.  There are lots of blind corners where mobs can hide.  It is dark and dreary.\n</p>\n<table>\n<tr>\n<th>Library Layout Appearance\n</th><th>Library Layout Typical Map\n</th></tr>\n<tr>\n<td><div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:402px;\"><a class=\"image\" href=\"/images/Layout_Ransacked_Library.jpg\" title=\"Layout Ransacked Library.jpg\"><img alt=\"\" border=\"0\" class=\"thumbimage\" height=\"247\" src=\"/images/Layout_Ransacked_Library.jpg\" width=\"400\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Layout_Ransacked_Library.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div></div></div></div>\n</td><td><div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:302px;\"><a class=\"image\" href=\"/images/Map_Ransacked_Library.jpg\" title=\"Map Ransacked Library.jpg\"><img alt=\"\" border=\"0\" class=\"thumbimage\" height=\"433\" src=\"/images/Map_Ransacked_Library.jpg\" width=\"300\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Map_Ransacked_Library.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div></div></div></div>\n</td></tr>\n</table>\n\n \n<div class=\"visualClear\"></div>"
+}

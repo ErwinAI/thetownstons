@@ -1,0 +1,9 @@
+{
+  "title": "Casting Speed",
+  "wikiTitle": "Casting_Speed",
+  "path": "/wiki/Casting_Speed",
+  "description": "Casting Speed — The Townstons wiki",
+  "categories": [],
+  "images": [],
+  "html": "<p>As of Build 121, a cast speed modifier has been added to the game. \n</p><p>This modifier applies to <a href=\"/wiki/Mage_Skills\" title=\"Mage Skills\">Mage Skills</a> only (i.e. Fire Bolt, Crispy Critters, Ice Bolt, Ring of Fire, Ice Shards, Shadow Bolt, Shadow Lightning and Teleport) and should not apply to either <a href=\"/wiki/Ranger_Skills\" title=\"Ranger Skills\">Ranger Skills</a> or <a href=\"/wiki/Fighter_Skills\" title=\"Fighter Skills\">Fighter Skills</a>.\n</p>\n<a name=\"What_affects_Casting_Speed.3F\"></a><h2> <span class=\"mw-headline\">What affects Casting Speed?</span></h2>\n<dl><dd><dl><dd><ul><li><b>% Attack Speed</b> - WILL affect the casting speed.\n</li></ul>\n</dd></dl>\n</dd></dl>\n<dl><dd><dl><dd><ul><li><b>% Melee Attack Speed</b> - WILL NOT\n</li><li><b>% Ranged Attack Speed</b> - WILL NOT\n</li></ul>\n</dd></dl>\n</dd></dl>\n<p><br/>\nAny generic attack speed modifier will affect the speed of casting these Mage Skills. As a bonus/nerf a generic attack speed modifier will also affect ranged and melee attack speeds, as well.\n</p><p>Presumably at some point, a new modifier \"% Cast Speed\" could be introduced to new items and/or skills.\n</p><p>For example:\n</p>\n<dl><dd><dl><dd><ul><li><a href=\"/wiki/Unnerving_Shout\" title=\"Unnerving Shout\">Unnerving Shout</a>, <a href=\"/wiki/Ice_Bolt\" title=\"Ice Bolt\">Ice Bolt</a> or <a href=\"/wiki/Shiver_Shot\" title=\"Shiver Shot\">Shiver Shot</a> all have an element of -% Attack Speed which would slow down your Cast Speed.\n</li><li>Some <a href=\"/wiki/Skills\" title=\"Skills\">Non-Player Skill Effects</a> such as Slow or Enfeeble would also slow down your Cast Speed.\n</li></ul>\n</dd></dl>\n</dd></dl>\n\n \n<div class=\"visualClear\"></div>"
+}

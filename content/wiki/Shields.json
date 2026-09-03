@@ -1,0 +1,9 @@
+{
+  "title": "Shields",
+  "wikiTitle": "Shields",
+  "path": "/wiki/Shields",
+  "description": "Shields — The Townstons wiki",
+  "categories": [],
+  "images": [],
+  "html": "<p>There are 3 sizes of shield in the game:\n</p>\n<ul><li> small, round shiels which take up 4 spaces in the inventory\n<ul><li> Spiked Doily\n</li><li> Padded Buckler\n</li><li> Scale Shield\n</li></ul>\n</li></ul>\n<ul><li> medium shields which take up 6 spaces in the inventory\n<ul><li> Ghost Buckler\n</li><li> Crystal Shield\n</li><li> Plate Shield\n</li></ul>\n</li></ul>\n<ul><li> large, tower shields which take up 8 spaces in the inventory.\n</li></ul>\n<p>There are different types of shield in each category, and the %block chance for shield is generally inline with it's size - but not always so.\n</p><p>A shield takes the place of a second melee weapon and can't be used with a two-handed weapon or a ranged weapon.\n</p>\n\n \n<div class=\"visualClear\"></div>"
+}

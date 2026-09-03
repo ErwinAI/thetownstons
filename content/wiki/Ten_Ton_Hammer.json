@@ -1,0 +1,11 @@
+{
+  "title": "Ten Ton Hammer",
+  "wikiTitle": "Ten_Ton_Hammer",
+  "path": "/wiki/Ten_Ton_Hammer",
+  "description": "Ten Ton Hammer — The Townstons wiki",
+  "categories": [],
+  "images": [
+    "/images/recovered/2h-weapon-_Ten_Ton_Hammer.png"
+  ],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Ten Ton Hammer\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/2h-weapon-_Ten_Ton_Hammer.png\" title=\"Image:2h-weapon-_Ten_Ton_Hammer.jpg\"><img alt=\"Image:2h-weapon-_Ten_Ton_Hammer.jpg\" border=\"0\" height=\"128\" src=\"/images/recovered/2h-weapon-_Ten_Ton_Hammer.png\" width=\"64\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type: </b>\n</td><td style=\"width:50%;\">Crushing Damage\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding: </b>\n</td><td style=\"width:50%;\">Two-Handed\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed: </b>\n</td><td style=\"width:50%;\">Grandma\n</td></tr></table>\n<a name=\"Attributes\"></a><h2> <span class=\"mw-headline\"> Attributes </span></h2>\n<ul><li> + Strength\n</li><li> + Agility\n</li><li> + % Enemy Stun Chance\n</li><li> + % Mana Steal\n</li><li> + % Melee Attack Rating\n</li><li> + % Melee Critical Hit Change\n</li></ul>\n\n \n<div class=\"visualClear\"></div>"
+}

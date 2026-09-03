@@ -1,0 +1,20 @@
+{
+  "name": "thetownstons",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "restore": ".venv/Scripts/python scripts/parse_wiki.py && .venv/Scripts/python scripts/match_dds.py",
+    "restore:parse": ".venv/Scripts/python scripts/parse_wiki.py",
+    "restore:assets": ".venv/Scripts/python scripts/download_assets.py",
+    "restore:images": ".venv/Scripts/python scripts/download_images.py"
+  },
+  "dependencies": {
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.42",
+    "vue-router": "^5.3.0"
+  }
+}

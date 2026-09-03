@@ -1,0 +1,12 @@
+{
+  "title": "Cave Layout",
+  "wikiTitle": "Cave_Layout",
+  "path": "/wiki/Cave_Layout",
+  "description": "Cave Layout — The Townstons wiki",
+  "categories": [],
+  "images": [
+    "/images/Layout_Wasteland.jpg",
+    "/images/Map_Wasteland.jpg"
+  ],
+  "html": "<p>The Cave is a very common layout found in many dungeons.  Its twists and turns can lead to some suprises unless you go slowly and watch for mobs ahead.  The dead ends may contain a Champion and supporters guarding four treasure chests.\n</p><p><br/>\n</p>\n<table>\n<tr>\n<th>Cave Layout Appearance\n</th><th>Cave Layout Typical Map\n</th></tr>\n<tr>\n<td><div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:402px;\"><a class=\"image\" href=\"/images/Layout_Wasteland.jpg\" title=\"Layout Wasteland.jpg\"><img alt=\"\" border=\"0\" class=\"thumbimage\" height=\"291\" src=\"/images/Layout_Wasteland.jpg\" width=\"400\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Layout_Wasteland.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div></div></div></div>\n</td><td><div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:402px;\"><a class=\"image\" href=\"/images/Map_Wasteland.jpg\" title=\"Map Wasteland.jpg\"><img alt=\"\" border=\"0\" class=\"thumbimage\" height=\"331\" src=\"/images/Map_Wasteland.jpg\" width=\"400\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Map_Wasteland.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div></div></div></div>\n</td></tr>\n</table>\n\n \n<div class=\"visualClear\"></div>"
+}

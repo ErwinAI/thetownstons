@@ -1,0 +1,12 @@
+{
+  "title": "Lava Pools Layout",
+  "wikiTitle": "Lava_Wasteland_Layout",
+  "path": "/wiki/Lava_Wasteland_Layout",
+  "description": "Lava Pools Layout — The Townstons wiki",
+  "categories": [],
+  "images": [
+    "/images/Layout_Lava_Waste.jpg",
+    "/images/Map_Lava_Waste.jpg"
+  ],
+  "html": "<p>This layout is almost identical to the <a href=\"/wiki/Cave_Layout\" title=\"Cave Layout\">Cave Layout</a> except that the empty pits are now filled with bubbling lava.  It is a surprisingly beautiful level and a great level for distance viewing.  You can see mobs a long way away.\n</p><p><br/>\n</p>\n<table>\n<tr>\n<th>Lava Pools Layout Appearance\n</th><th>Lava Pools Layout Typical Map\n</th></tr>\n<tr>\n<td><div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:402px;\"><a class=\"image\" href=\"/images/Layout_Lava_Waste.jpg\" title=\"Layout Lava Waste.jpg\"><img alt=\"\" border=\"0\" class=\"thumbimage\" height=\"237\" src=\"/images/Layout_Lava_Waste.jpg\" width=\"400\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Layout_Lava_Waste.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div></div></div></div>\n</td><td><div class=\"thumb tright\"><div class=\"thumbinner\" style=\"width:402px;\"><a class=\"image\" href=\"/images/Map_Lava_Waste.jpg\" title=\"Map Lava Waste.jpg\"><img alt=\"\" border=\"0\" class=\"thumbimage\" height=\"339\" src=\"/images/Map_Lava_Waste.jpg\" width=\"400\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Map_Lava_Waste.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div></div></div></div>\n</td></tr>\n</table>\n\n \n<div class=\"visualClear\"></div>"
+}

@@ -1,0 +1,5 @@
+wayback-machine-downloader==0.1.0
+requests
+beautifulsoup4
+html2text
+pillow

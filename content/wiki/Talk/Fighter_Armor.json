@@ -1,0 +1,9 @@
+{
+  "title": "Talk:Fighter Armor",
+  "wikiTitle": "Talk:Fighter_Armor",
+  "path": "/wiki/Talk:Fighter_Armor",
+  "description": "Talk:Fighter Armor — The Townstons wiki",
+  "categories": [],
+  "images": [],
+  "html": "<a name=\"Crimson_Armor\"></a><h2> <span class=\"mw-headline\">Crimson Armor</span></h2>\n<p>I decided to see what the Dev's were wearing and came across the crimson armor on PoppinFresh:\n</p><p>Hmmm something I never saw before, so I looked at his XML feed.\n</p>\n<pre> &lt;Icon&gt;Mythic_Plate_Armor_2_Helm_icon&lt;/Icon&gt; \n &lt;Visual&gt;PlateUniqueHelm2&lt;/Visual&gt; \n</pre>\n<pre> &lt;Icon&gt;Mythic_Plate_Armor_2_Boot_icon&lt;/Icon&gt; \n &lt;Visual&gt;PlateUniqueBoots2&lt;/Visual&gt; \n</pre>\n<pre> &lt;Icon&gt;Mythic_Plate_Armor_2_Shoulder_icon&lt;/Icon&gt; \n &lt;Visual&gt;PlateUniqueShoulders2&lt;/Visual&gt; \n</pre>\n<p>So I'd say that it's plate, but no clue if it is or will be in the game after build 100.\n--<a href=\"/wiki/User:Spetsdod\" title=\"User:Spetsdod\">Spetsdod</a> 08:35, 20 January 2008 (CET)\n</p>\n\n<div class=\"visualClear\"></div>"
+}

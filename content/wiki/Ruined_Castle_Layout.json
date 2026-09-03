@@ -1,0 +1,12 @@
+{
+  "title": "Ruins Layout",
+  "wikiTitle": "Ruined_Castle_Layout",
+  "path": "/wiki/Ruined_Castle_Layout",
+  "description": "Ruins Layout — The Townstons wiki",
+  "categories": [],
+  "images": [
+    "/images/Layout_Ruined_castle.jpg",
+    "/images/Map_Ruined_castle.jpg"
+  ],
+  "html": "<p>The Ruins appear to be those of a great castle.  It is much like the <a href=\"/wiki/Catacombs_Layout\" title=\"Catacombs Layout\">Catacombs Layout</a> but the decorations and columns are fancier.  The map usually appears as a sequence of connected columned halls.\n</p>\n<table>\n<tr>\n<th>Ruins Layout Appearance\n</th><th>Ruins Layout Typical Map\n</th></tr>\n<tr>\n<td><div class=\"center\"><div class=\"thumb tnone\"><div class=\"thumbinner\" style=\"width:402px;\"><a class=\"image\" href=\"/images/Layout_Ruined_castle.jpg\" title=\"Layout Ruined castle.jpg\"><img alt=\"\" border=\"0\" class=\"thumbimage\" height=\"244\" src=\"/images/Layout_Ruined_castle.jpg\" width=\"400\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Layout_Ruined_castle.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div></div></div></div></div>\n</td><td><div class=\"center\"><div class=\"thumb tnone\"><div class=\"thumbinner\" style=\"width:302px;\"><a class=\"image\" href=\"/images/Map_Ruined_castle.jpg\" title=\"Map Ruined castle.jpg\"><img alt=\"\" border=\"0\" class=\"thumbimage\" height=\"428\" src=\"/images/Map_Ruined_castle.jpg\" width=\"300\"/></a> <div class=\"thumbcaption\"><div class=\"magnify\" style=\"float:right\"><a class=\"internal\" href=\"/images/Map_Ruined_castle.jpg\" title=\"Enlarge\"><img alt=\"\" height=\"11\" src=\"/thetownstons/skins/common/images/magnify-clip.png\" width=\"15\"/></a></div></div></div></div></div>\n</td></tr>\n</table>\n\n \n<div class=\"visualClear\"></div>"
+}
