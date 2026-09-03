@@ -1,0 +1,2314 @@
+[
+  {
+    "page": "1H Swivel Arm Action",
+    "wiki": "1h-swivel-arm-action.png",
+    "gc_label": "1H Swivel Arm Action",
+    "icon": "1HMeleeMastery_on",
+    "dds": "1HMeleeMastery_on.dds",
+    "recovered": "public\\images\\recovered\\1h-swivel-arm-action.png"
+  },
+  {
+    "page": "2H Swivel Arm Action",
+    "wiki": "2h-swivel-arm-action.png",
+    "gc_label": "2H Swivel Arm Action",
+    "icon": "2hmeleemastery_on",
+    "dds": "2HMeleeMastery_on.dds",
+    "recovered": "public\\images\\recovered\\2h-swivel-arm-action.png"
+  },
+  {
+    "page": "Abel Tukahst",
+    "wiki": "Abel-tukahst.jpg",
+    "dds": null
+  },
+  {
+    "page": "Acidic Blight",
+    "wiki": "Acidic-blight.png",
+    "gc_label": "Acidic Blight",
+    "icon": "AcidicBlight_on",
+    "dds": "AcidicBlight_on.dds",
+    "recovered": "public\\images\\recovered\\Acidic-blight.png"
+  },
+  {
+    "page": "Average BMI",
+    "wiki": "Average-bmi.png",
+    "gc_label": "Average BMI",
+    "icon": "LesserHealthNut_on",
+    "dds": "LesserHealthNut_on.dds",
+    "recovered": "public\\images\\recovered\\Average-bmi.png"
+  },
+  {
+    "page": "Awesome Cleavage",
+    "wiki": "Awesome-cleavage.png",
+    "gc_label": "Awesome Cleavage",
+    "icon": "GreaterCleave_On",
+    "dds": "GreaterCleave_on.dds",
+    "recovered": "public\\images\\recovered\\Awesome-cleavage.png"
+  },
+  {
+    "page": "Banner of Foolish Bravery",
+    "wiki": "Banner-of-the-foolish-bravery.png",
+    "gc_label": "Banner of Foolish Bravery",
+    "icon": "Leadership_on",
+    "dds": "Leadership_on.dds",
+    "recovered": "public\\images\\recovered\\Banner-of-the-foolish-bravery.png"
+  },
+  {
+    "page": "Blue Screen of Life",
+    "wiki": "Blue_Screen_of_Life.png",
+    "gc_label": "Blue Screen of Life",
+    "icon": "sanctuary_on",
+    "dds": "Sanctuary_on.dds",
+    "recovered": "public\\images\\recovered\\Blue_Screen_of_Life.png"
+  },
+  {
+    "page": "Bookworm",
+    "wiki": "Bookworm.png",
+    "gc_label": "Bookworm",
+    "icon": "Magic_resist",
+    "dds": "Magic_resist.dds",
+    "recovered": "public\\images\\recovered\\Bookworm.png"
+  },
+  {
+    "page": "Build Snowman",
+    "wiki": "Skill-_Build_Snowman.png",
+    "gc_label": "Build Snowman",
+    "icon": "SummonSnowman_On",
+    "dds": "SummonSnowman_on.dds",
+    "recovered": "public\\images\\recovered\\Skill-_Build_Snowman.png"
+  },
+  {
+    "page": "Butcher",
+    "wiki": "Butcher.png",
+    "gc_label": "Butcher",
+    "icon": "butcher_on",
+    "dds": "Butcher_on.dds",
+    "recovered": "public\\images\\recovered\\Butcher.png"
+  },
+  {
+    "page": "Chilling Touch",
+    "wiki": "Chilling-touch.png",
+    "gc_label": "Chilling Touch",
+    "icon": "NCS_IceMastery_on",
+    "dds": "NCS_IceMastery_on.dds",
+    "recovered": "public\\images\\recovered\\Chilling-touch.png"
+  },
+  {
+    "page": "Cleave",
+    "wiki": "Cleave.png",
+    "gc_label": "Cleave",
+    "icon": "Cleave",
+    "dds": "Cleave.dds",
+    "recovered": "public\\images\\recovered\\Cleave.png"
+  },
+  {
+    "page": "Couch Potato",
+    "wiki": "Couch-potato.png",
+    "gc_label": "Couch Potato",
+    "icon": "Couch_Potato_on",
+    "dds": "Couch_Potato_on.dds",
+    "recovered": "public\\images\\recovered\\Couch-potato.png"
+  },
+  {
+    "page": "Crispy Critters",
+    "wiki": "Crispy_Critters.png",
+    "gc_label": "Crispy Critters",
+    "icon": "Fire_Cone_On",
+    "dds": "Fire_Cone_on.dds",
+    "recovered": "public\\images\\recovered\\Crispy_Critters.png"
+  },
+  {
+    "page": "Curses",
+    "wiki": "Unnerving-shout.png",
+    "dds": null
+  },
+  {
+    "page": "Curses",
+    "wiki": "Acidic-blight.png",
+    "dds": null
+  },
+  {
+    "page": "Curses",
+    "wiki": "Fear-shot.png",
+    "dds": null
+  },
+  {
+    "page": "Dark Conniption",
+    "wiki": "Dark_Conniption.png",
+    "gc_label": "Dark Conniption",
+    "icon": "ShadowMeleeAttack_On",
+    "dds": "ShadowMeleeAttack_on.dds",
+    "recovered": "public\\images\\recovered\\Dark_Conniption.png"
+  },
+  {
+    "page": "Dark Wizardry",
+    "wiki": "Dark-wizardry.png",
+    "gc_label": "Dark Wizardry",
+    "icon": "ShadowMastery_on",
+    "dds": "ShadowMastery_on.dds",
+    "recovered": "public\\images\\recovered\\Dark-wizardry.png"
+  },
+  {
+    "page": "Divine Ascendancy",
+    "wiki": "Divine-ascendancy.png",
+    "gc_label": "Divine Ascendancy",
+    "icon": "NCS_divinemastery_on",
+    "dds": "NCS_divinemastery_on.dds",
+    "recovered": "public\\images\\recovered\\Divine-ascendancy.png"
+  },
+  {
+    "page": "Divine Resistance",
+    "wiki": "Divine-resistance.png",
+    "gc_label": "Divine Resistance",
+    "icon": "DivineResist_Buff_on",
+    "dds": "DivineResist_Buff_on.dds",
+    "recovered": "public\\images\\recovered\\Divine-resistance.png"
+  },
+  {
+    "page": "Divine Ward",
+    "wiki": "Skill-_Divine-ward.png",
+    "gc_label": "Divine Ward",
+    "icon": "NCS_DivineResist_Buff_on",
+    "dds": "NCS_DivineResist_Buff_on.dds",
+    "recovered": "public\\images\\recovered\\Skill-_Divine-ward.png"
+  },
+  {
+    "page": "Extra Crispy Monster Bait",
+    "wiki": "Extra-crispy-monster-bait.png",
+    "gc_label": "Extra Crispy Monster Bait",
+    "icon": "BaitHealthModPassive_on",
+    "dds": "BaitHealthModPassive_on.dds",
+    "recovered": "public\\images\\recovered\\Extra-crispy-monster-bait.png"
+  },
+  {
+    "page": "Fear of Gosh",
+    "wiki": "Fear-of-gosh.png",
+    "gc_label": "Fear of Gosh",
+    "icon": "FearMeleeAttack_on",
+    "dds": "FearMeleeAttack_on.dds",
+    "recovered": "public\\images\\recovered\\Fear-of-gosh.png"
+  },
+  {
+    "page": "Fear Shot",
+    "wiki": "Fear-shot.png",
+    "gc_label": "Fear Shot",
+    "icon": "Precision_On",
+    "dds": "Precision_on.dds",
+    "recovered": "public\\images\\recovered\\Fear-shot.png"
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Butcher.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Cleave.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Fear-of-gosh.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Holy-roller.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Flaming_buddy.PNG",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Righteous-stomp.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Soul-rend.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Awesome-cleavage.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Banner-of-the-foolish-bravery.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Skill-_Divine-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Gym-freak.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "I'm_Rubber_You're_Screwed.jpg",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Mad_Melee_Mastery.jpg",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Way-of-the-roo.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "1h-swivel-arm-action.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "2h-swivel-arm-action.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Dark_Conniption.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Divine-ascendancy.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Divine-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Heal_self_not_Other.jpg",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Light_in_the_Loafers.jpg",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Offensive-gesture.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Retribution.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Thickheadedness.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Unnerving-shout.png",
+    "dds": null
+  },
+  {
+    "page": "Fire Bolt",
+    "wiki": "Fire-bolt.png",
+    "gc_label": "Fire Bolt",
+    "icon": "Firebolt_On",
+    "dds": "FireBolt_On.dds",
+    "recovered": "public\\images\\recovered\\Fire-bolt.png"
+  },
+  {
+    "page": "Fire Ward",
+    "wiki": "Skill-_Fire-ward.png",
+    "gc_label": "Fire Ward",
+    "icon": "NCS_FireResist_Buff_64_on",
+    "dds": "NCS_FireResist_Buff_64_on.dds",
+    "recovered": "public\\images\\recovered\\Skill-_Fire-ward.png"
+  },
+  {
+    "page": "Gaseous Blast",
+    "wiki": "Gaseous-blast.png",
+    "gc_label": "Gaseous Blast",
+    "icon": "Invulnerable_On",
+    "dds": "Invulnerable_on.dds",
+    "recovered": "public\\images\\recovered\\Gaseous-blast.png"
+  },
+  {
+    "page": "Gwen of the Tree Folk",
+    "wiki": "Gwen-of-the-tree-folk.jpg",
+    "dds": null
+  },
+  {
+    "page": "Gym Freak",
+    "wiki": "Gym-freak.png",
+    "gc_label": "Gym Freak",
+    "icon": "HealthNut_on",
+    "dds": "HealthNut_on.dds",
+    "recovered": "public\\images\\recovered\\Gym-freak.png"
+  },
+  {
+    "page": "Holy Roller",
+    "wiki": "Holy-roller.png",
+    "gc_label": "Holy Roller",
+    "icon": "charge_on",
+    "dds": "Charge_on.dds",
+    "recovered": "public\\images\\recovered\\Holy-roller.png"
+  },
+  {
+    "page": "Ice Bolt",
+    "wiki": "Ice-bolt.png",
+    "gc_label": "Ice Bolt",
+    "icon": "IceBall_On",
+    "dds": "Iceball_on.dds",
+    "recovered": "public\\images\\recovered\\Ice-bolt.png"
+  },
+  {
+    "page": "Ice Resistance",
+    "wiki": "Ice-resistance.png",
+    "gc_label": "Ice Resistance",
+    "icon": "IceResist_Buff_on",
+    "dds": "IceResist_Buff_on.dds",
+    "recovered": "public\\images\\recovered\\Ice-resistance.png"
+  },
+  {
+    "page": "Ice Ward",
+    "wiki": "Skill-_Ice-ward.png",
+    "gc_label": "Ice Ward",
+    "icon": "NCS_IceResist_Buff_on",
+    "dds": "NCS_IceResist_Buff_on.dds",
+    "recovered": "public\\images\\recovered\\Skill-_Ice-ward.png"
+  },
+  {
+    "page": "Improved Shadow Lightning",
+    "wiki": "Improved-shadow-lightning.png",
+    "gc_label": "Improved Shadow Lightning",
+    "icon": "ShadowLightningGreater_On",
+    "dds": "ShadowLightningGreater_on.dds",
+    "recovered": "public\\images\\recovered\\Improved-shadow-lightning.png"
+  },
+  {
+    "page": "Lothar of the Mound People",
+    "wiki": "Lothar-of-the-mound-people.jpg",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Skill-_Build_Snowman.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Crispy_Critters.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Fire-bolt.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Ice-bolt.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Ice-shards.jpg",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Ring-of-fire.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Shadow-bolt.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Shadow-lightning.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Shadow-word-smackdown.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Bookworm.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Couch-potato.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Skill-_Fire-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Skill-_Ice-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Improved-shadow-lightning.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Mental-prowess.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Skill-_Shadow-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Blue_Screen_of_Life.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Chilling-touch.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Dark-wizardry.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Fire-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Ice-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Skill-_On_The_Rocks.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Skill-_Nippy_Twigs.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Pyromania.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Shadow-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Skill-_Snow_Globe.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Spontaneous_Rengeration.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Teleport.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Cold_snap.jpg",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Shower_of_gold.jpg",
+    "dds": null
+  },
+  {
+    "page": "Mental Prowess",
+    "wiki": "Mental-prowess.png",
+    "gc_label": "Mental Prowess",
+    "icon": "sanctuary_on",
+    "dds": "Sanctuary_on.dds",
+    "recovered": "public\\images\\recovered\\Mental-prowess.png"
+  },
+  {
+    "page": "Monster Bait",
+    "wiki": "Monster-bait.png",
+    "gc_label": "Monster Bait",
+    "icon": "Bait_On",
+    "dds": "Bait_on.dds",
+    "recovered": "public\\images\\recovered\\Monster-bait.png"
+  },
+  {
+    "page": "Nippy Twigs",
+    "wiki": "Skill-_Nippy_Twigs.png",
+    "gc_label": "Nippy Twigs",
+    "icon": "NippyTwigs_on",
+    "dds": "NippyTwigs_on.dds",
+    "recovered": "public\\images\\recovered\\Skill-_Nippy_Twigs.png"
+  },
+  {
+    "page": "Noxious Shot",
+    "wiki": "Noxious-shot.png",
+    "gc_label": "Noxious Shot",
+    "icon": "noxiousshot_On",
+    "dds": "NoxiousShot_On.dds",
+    "recovered": "public\\images\\recovered\\Noxious-shot.png"
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Butcher.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Cleave.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Fear-of-gosh.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Holy-roller.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Righteous-stomp.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Soul-rend.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Gaseous-blast.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Monster-bait.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Noxious-shot.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Poison-shot.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Putrid-penetration.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Shiver_Shot.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Skill-_Build_Snowman.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Crispy_Critters.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Fire-bolt.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Ice-bolt.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Ice-shards.jpg",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Ring-of-fire.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Shadow-bolt.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Shadow-lightning.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Shadow-word-smackdown.png",
+    "dds": null
+  },
+  {
+    "page": "On The Rocks",
+    "wiki": "Skill-_On_The_Rocks.png",
+    "gc_label": "On The Rocks",
+    "icon": "OnTheRocks_on",
+    "dds": "OnTheRocks_on.dds",
+    "recovered": "public\\images\\recovered\\Skill-_On_The_Rocks.png"
+  },
+  {
+    "page": "Passive",
+    "wiki": "Awesome-cleavage.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Banner-of-the-foolish-bravery.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Skill-_Divine-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Gym-freak.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "I'm_Rubber_You're_Screwed.jpg",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Mad_Melee_Mastery.jpg",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Way-of-the-roo.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Barf-O-Rama.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Average-bmi.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Extra-crispy-monster-bait.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Skill-_Poison-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Trigger-happy.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Bookworm.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Couch-potato.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Skill-_Fire-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Skill-_Ice-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Improved-shadow-lightning.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Mental-prowess.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Skill-_Shadow-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Bling-gnome.png",
+    "dds": null
+  },
+  {
+    "page": "Poison Resistance",
+    "wiki": "Poison-resistance.png",
+    "gc_label": "Poison Resistance",
+    "icon": "PoisonResist_Buff_on",
+    "dds": "PoisonResist_Buff_on.dds",
+    "recovered": "public\\images\\recovered\\Poison-resistance.png"
+  },
+  {
+    "page": "Poison Shot",
+    "wiki": "Poison-shot.png",
+    "gc_label": "Poison Shot",
+    "icon": "PoisonShot_On",
+    "dds": "PoisonShot_on.dds",
+    "recovered": "public\\images\\recovered\\Poison-shot.png"
+  },
+  {
+    "page": "Poison Ward",
+    "wiki": "Skill-_Poison-ward.png",
+    "gc_label": "Poison Ward",
+    "icon": "NCS_PoisonResist_Buff_on",
+    "dds": "NCS_PoisonResist_Buff_on.dds",
+    "recovered": "public\\images\\recovered\\Skill-_Poison-ward.png"
+  },
+  {
+    "page": "Putrid Penetration",
+    "wiki": "Putrid-penetration.png",
+    "gc_label": "Putrid Penetration",
+    "icon": "PenetrateKnockdownShot_on",
+    "dds": "PenetrateKnockdownShot_on.dds",
+    "recovered": "public\\images\\recovered\\Putrid-penetration.png"
+  },
+  {
+    "page": "Pyromania",
+    "wiki": "Pyromania.png",
+    "gc_label": "Pyromania",
+    "icon": "FireMastery_on",
+    "dds": "firemastery_on.dds",
+    "recovered": "public\\images\\recovered\\Pyromania.png"
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Gaseous-blast.png",
+    "dds": null
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Monster-bait.png",
+    "dds": null
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Noxious-shot.png",
+    "dds": null
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Poison-shot.png",
+    "dds": null
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Putrid-penetration.png",
+    "dds": null
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Average-bmi.png",
+    "dds": null
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Extra-crispy-monster-bait.png",
+    "dds": null
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Skill-_Poison-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Trigger-happy.png",
+    "dds": null
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Poison-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Spirit-of-the-hare.png",
+    "dds": null
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Toxic-talent.png",
+    "dds": null
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Trigger-finger.png",
+    "dds": null
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Acidic-blight.png",
+    "dds": null
+  },
+  {
+    "page": "Ranger Skills",
+    "wiki": "Fear-shot.png",
+    "dds": null
+  },
+  {
+    "page": "Retribution",
+    "wiki": "Retribution.png",
+    "gc_label": "Retribution",
+    "icon": "Retribution_on",
+    "dds": "Retribution_on.dds",
+    "recovered": "public\\images\\recovered\\Retribution.png"
+  },
+  {
+    "page": "Righteous Stomp",
+    "wiki": "Righteous-stomp.png",
+    "gc_label": "Righteous Stomp",
+    "icon": "RighteousStomp_on",
+    "dds": "RighteousStomp_on.dds",
+    "recovered": "public\\images\\recovered\\Righteous-stomp.png"
+  },
+  {
+    "page": "Ring of Fire",
+    "wiki": "Ring-of-fire.png",
+    "gc_label": "Ring of Fire",
+    "icon": "Immolation_On",
+    "dds": "Immolation_on.dds",
+    "recovered": "public\\images\\recovered\\Ring-of-fire.png"
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "1h-swivel-arm-action.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "2h-swivel-arm-action.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Divine-ascendancy.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Divine-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Heal_self_not_Other.jpg",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Light_in_the_Loafers.jpg",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Offensive-gesture.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Retribution.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Thickheadedness.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Poison-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Spirit-of-the-hare.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Toxic-talent.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Trigger-finger.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Blue_Screen_of_Life.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Chilling-touch.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Dark-wizardry.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Fire-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Ice-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Skill-_On_The_Rocks.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Skill-_Nippy_Twigs.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Pyromania.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Shadow-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Skill-_Snow_Globe.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Spontaneous_Rengeration.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Teleport.png",
+    "dds": null
+  },
+  {
+    "page": "Shadow Lightning",
+    "wiki": "Shadow-lightning.png",
+    "gc_label": "Shadow Lightning",
+    "icon": "ShadowLightning_On",
+    "dds": "ShadowLightning_on.dds",
+    "recovered": "public\\images\\recovered\\Shadow-lightning.png"
+  },
+  {
+    "page": "Shadow Ward",
+    "wiki": "Skill-_Shadow-ward.png",
+    "gc_label": "Shadow Ward",
+    "icon": "NCS_ShadowResist_Buff_on",
+    "dds": "NCS_ShadowResist_Buff_on.dds",
+    "recovered": "public\\images\\recovered\\Skill-_Shadow-ward.png"
+  },
+  {
+    "page": "Shiver Shot",
+    "wiki": "Shiver_Shot.png",
+    "gc_label": "Shiver Shot",
+    "icon": "IceShot_On",
+    "dds": "IceShot_on.dds",
+    "recovered": "public\\images\\recovered\\Shiver_Shot.png"
+  },
+  {
+    "page": "Snow Globe",
+    "wiki": "Skill-_Snow_Globe.png",
+    "gc_label": "Snow Globe",
+    "icon": "SnowGlobe_on",
+    "dds": "SnowGlobe_on.dds",
+    "recovered": "public\\images\\recovered\\Skill-_Snow_Globe.png"
+  },
+  {
+    "page": "Soul Rend",
+    "wiki": "Soul-rend.png",
+    "gc_label": "Soul Rend",
+    "icon": "DivineMeleeAttack_on",
+    "dds": "DivineMeleeAttack_on.dds",
+    "recovered": "public\\images\\recovered\\Soul-rend.png"
+  },
+  {
+    "page": "Spirit of the Hare",
+    "wiki": "Spirit-of-the-hare.png",
+    "gc_label": "Spirit of the Hare",
+    "icon": "MovementSpeed_Buff_on",
+    "dds": "MovementSpeed_Buff_on.dds",
+    "recovered": "public\\images\\recovered\\Spirit-of-the-hare.png"
+  },
+  {
+    "page": "Spontaneous Re-Generation",
+    "wiki": "Spontaneous_Rengeration.png",
+    "gc_label": "Spontaneous Re-Generation",
+    "icon": "Iconoclast_on",
+    "dds": "Iconoclast_on.dds",
+    "recovered": "public\\images\\recovered\\Spontaneous_Rengeration.png"
+  },
+  {
+    "page": "Thickheadedness",
+    "wiki": "Thickheadedness.png",
+    "gc_label": "Thickheadedness",
+    "icon": "unstoppable_on",
+    "dds": "unstoppable_on.dds",
+    "recovered": "public\\images\\recovered\\Thickheadedness.png"
+  },
+  {
+    "page": "Townston",
+    "wiki": "Townston.jpg",
+    "dds": null
+  },
+  {
+    "page": "Toxic Talent",
+    "wiki": "Toxic-talent.png",
+    "gc_label": "Toxic Talent",
+    "icon": "PoisonMastery_On",
+    "dds": "PoisonMastery_on.dds",
+    "recovered": "public\\images\\recovered\\Toxic-talent.png"
+  },
+  {
+    "page": "Trigger Finger Frenzy",
+    "wiki": "Trigger-finger.png",
+    "gc_label": "Trigger Finger Frenzy",
+    "icon": "RangedMastery_On",
+    "dds": "RangedMastery_on.dds",
+    "recovered": "public\\images\\recovered\\Trigger-finger.png"
+  },
+  {
+    "page": "Trigger Happy",
+    "wiki": "Trigger-happy.png",
+    "gc_label": "Trigger Happy",
+    "icon": "rapidFire_on",
+    "dds": "rapidFire_on.dds",
+    "recovered": "public\\images\\recovered\\Trigger-happy.png"
+  },
+  {
+    "page": "Unnerving Shout",
+    "wiki": "Unnerving-shout.png",
+    "gc_label": "Unnerving Shout",
+    "icon": "UnnervingShout_on",
+    "dds": "UnnervingShout_on.dds",
+    "recovered": "public\\images\\recovered\\Unnerving-shout.png"
+  },
+  {
+    "page": "Way of the Roo",
+    "wiki": "Way-of-the-roo.png",
+    "gc_label": "Way of the Roo",
+    "icon": "PowerStrike_on",
+    "dds": "PowerStrike_on.dds",
+    "recovered": "public\\images\\recovered\\Way-of-the-roo.png"
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Butcher.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Cleave.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Fear-of-gosh.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Holy-roller.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Righteous-stomp.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Soul-rend.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Awesome-cleavage.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Banner-of-the-foolish-bravery.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Skill-_Divine-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Gym-freak.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Mad_Melee_Mastery.jpg",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Way-of-the-roo.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "1h-swivel-arm-action.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "2h-swivel-arm-action.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Divine-ascendancy.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Divine-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Heal_self_not_Other.jpg",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Light_in_the_Loafers.jpg",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Offensive-gesture.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Retribution.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Thickheadedness.png",
+    "dds": null
+  },
+  {
+    "page": "Fighter Skills",
+    "wiki": "Unnerving-shout.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Skill-_Build_Snowman.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Crispy_Critters.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Fire-bolt.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Ice-bolt.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Ice-shards.jpg",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Ring-of-fire.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Shadow-bolt.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Shadow-lightning.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Shadow-word-smackdown.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Bookworm.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Couch-potato.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Skill-_Fire-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Skill-_Ice-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Improved-shadow-lightning.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Mental-prowess.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Skill-_Shadow-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Blue_Screen_of_Life.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Chilling-touch.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Dark-wizardry.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Fire-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Ice-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Skill-_On_The_Rocks.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Skill-_Nippy_Twigs.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Pyromania.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Shadow-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Skill-_Snow_Globe.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Spontaneous_Rengeration.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Teleport.png",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Cold_snap.jpg",
+    "dds": null
+  },
+  {
+    "page": "Mage Skills",
+    "wiki": "Shower_of_gold.jpg",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Butcher.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Cleave.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Fear-of-gosh.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Holy-roller.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Righteous-stomp.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Soul-rend.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Gaseous-blast.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Monster-bait.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Noxious-shot.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Poison-shot.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Putrid-penetration.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Skill-_Build_Snowman.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Fire-bolt.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Ice-bolt.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Ice-shards.jpg",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Ring-of-fire.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Shadow-bolt.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Shadow-lightning.png",
+    "dds": null
+  },
+  {
+    "page": "Offensive",
+    "wiki": "Shadow-word-smackdown.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Awesome-cleavage.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Banner-of-the-foolish-bravery.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Skill-_Divine-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Gym-freak.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "I'm_Rubber_You're_Screwed.jpg",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Mad_Melee_Mastery.jpg",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Way-of-the-roo.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Barf-O-Rama.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Average-bmi.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Extra-crispy-monster-bait.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Skill-_Poison-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Trigger-happy.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Bookworm.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Couch-potato.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Skill-_Fire-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Skill-_Ice-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Improved-shadow-lightning.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Mental-prowess.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Skill-_Shadow-ward.png",
+    "dds": null
+  },
+  {
+    "page": "Passive",
+    "wiki": "Bling-gnome.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "1h-swivel-arm-action.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "2h-swivel-arm-action.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Dark_Conniption.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Divine-ascendancy.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Divine-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Heal_self_not_Other.jpg",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Light_in_the_Loafers.jpg",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Offensive-gesture.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Retribution.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Thickheadedness.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Poison-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Spirit-of-the-hare.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Toxic-talent.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Trigger-finger.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Blue_Screen_of_Life.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Chilling-touch.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Dark-wizardry.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Fire-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Ice-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Skill-_On_The_Rocks.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Skill-_Nippy_Twigs.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Pyromania.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Shadow-resistance.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Skill-_Snow_Globe.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Spontaneous_Rengeration.png",
+    "dds": null
+  },
+  {
+    "page": "Self Buff",
+    "wiki": "Teleport.png",
+    "dds": null
+  },
+  {
+    "page": "Abel Tukahst",
+    "wiki": "Abel-tukahst.jpg",
+    "dds": null
+  },
+  {
+    "page": "Agent Hammer",
+    "wiki": "Agent_hammer.jpg",
+    "dds": null
+  },
+  {
+    "page": "Agent Illiot Fess",
+    "wiki": "Agent_Illiot_Ness.jpg",
+    "dds": null
+  },
+  {
+    "page": "Audrey the Alchemist",
+    "wiki": "Audrey2.jpg",
+    "dds": null
+  },
+  {
+    "page": "Baem - Sir Fess of Maerz",
+    "wiki": "Baem.jpg",
+    "dds": null
+  },
+  {
+    "page": "Baern - Sir Fess of Maerz",
+    "wiki": "Baem.jpg",
+    "dds": null
+  },
+  {
+    "page": "Barrel o' Fizz",
+    "wiki": "Barrel_o_Fizz.png",
+    "dds": null
+  },
+  {
+    "page": "Bling Gnome",
+    "wiki": "Gnome.png",
+    "gc_label": "Bling Gnome",
+    "icon": "BlingGnome",
+    "dds": "BlingGnome.dds",
+    "recovered": "public\\images\\recovered\\Gnome.png"
+  },
+  {
+    "page": "Bling Gnome",
+    "wiki": "Poop.png",
+    "gc_label": "Bling Gnome",
+    "icon": "BlingGnome",
+    "dds": "BlingGnome.dds",
+    "recovered": "public\\images\\recovered\\Poop.png"
+  },
+  {
+    "page": "Chairman Manchair",
+    "wiki": "Chairman_manchair.jpg",
+    "dds": null
+  },
+  {
+    "page": "Concerned Abba Labba",
+    "wiki": "Concerned_abba_labba.jpg",
+    "dds": null
+  },
+  {
+    "page": "Deward the Arms Merchant",
+    "wiki": "Deward.jpg",
+    "dds": null
+  },
+  {
+    "page": "Diedre's Queue",
+    "wiki": "Queue.jpg",
+    "dds": null
+  },
+  {
+    "page": "Dorcas",
+    "wiki": "Dorcus.jpg",
+    "dds": null
+  },
+  {
+    "page": "Draykop the Amazon",
+    "wiki": "Amazon.jpg",
+    "dds": null
+  },
+  {
+    "page": "Fiery Pygmy Tracks",
+    "wiki": "PygmyTracks.jpg",
+    "dds": null
+  },
+  {
+    "page": "Fiery Pygmy Tracks",
+    "wiki": "PygmyTracks2.jpg",
+    "dds": null
+  },
+  {
+    "page": "Fighter Equipment Token Master",
+    "wiki": "FETM.jpg",
+    "dds": null
+  },
+  {
+    "page": "Fighter Equipment Token Master",
+    "wiki": "Fighter_Equipment_Token_Master.PNG",
+    "dds": null
+  },
+  {
+    "page": "Grapplin' Gertie",
+    "wiki": "Grapplin_gertie.jpg",
+    "dds": null
+  },
+  {
+    "page": "Gwen of the Tree Folk",
+    "wiki": "Gwen-of-the-tree-folk.jpg",
+    "dds": null
+  },
+  {
+    "page": "Gypsy Sally",
+    "wiki": "Sally2.jpg",
+    "dds": null
+  },
+  {
+    "page": "Helpful Noobosaur",
+    "wiki": "Noobosaur.png",
+    "gc_label": "Helpful Noobosaur",
+    "icon": "Noobosaur",
+    "dds": "Noobosaur.dds",
+    "recovered": "public\\images\\recovered\\Noobosaur.png"
+  },
+  {
+    "page": "Hughard the Arms Merchant",
+    "wiki": "Hughard.jpg",
+    "dds": null
+  },
+  {
+    "page": "Jewelry Token Master",
+    "wiki": "JTM.jpg",
+    "dds": null
+  },
+  {
+    "page": "Khodebshchik",
+    "wiki": "Khodebshchik.jpg",
+    "dds": null
+  },
+  {
+    "page": "King's Coins",
+    "wiki": "KingsCoins.png",
+    "dds": null
+  },
+  {
+    "page": "Kurley the Lazy",
+    "wiki": "Kurley.jpg",
+    "dds": null
+  },
+  {
+    "page": "Levy - Sir Chergde of Feiss",
+    "wiki": "Levy.jpg",
+    "dds": null
+  },
+  {
+    "page": "Logan the Liger",
+    "wiki": "Logan_the_liger.jpg",
+    "dds": null
+  },
+  {
+    "page": "Loremaster Vraile",
+    "wiki": "Vraile.jpg",
+    "dds": null
+  },
+  {
+    "page": "Lothar of the Mound People",
+    "wiki": "Lothar-of-the-mound-people.jpg",
+    "dds": null
+  },
+  {
+    "page": "Louard the Arms Merchant",
+    "wiki": "Louard.jpg",
+    "dds": null
+  },
+  {
+    "page": "Mage Equipment Token Master",
+    "wiki": "METM.jpg",
+    "dds": null
+  },
+  {
+    "page": "Mage Equipment Token Master",
+    "wiki": "Mage_Equipment_Token_Master.PNG",
+    "dds": null
+  },
+  {
+    "page": "Obelisk",
+    "wiki": "Obelisk.png",
+    "gc_label": "Obelisk",
+    "icon": "mapicon_obelisk",
+    "dds": "mapicon_obelisk.dds",
+    "recovered": "public\\images\\recovered\\Obelisk.png"
+  },
+  {
+    "page": "Obelisk",
+    "wiki": "Obelisk_Interface.png",
+    "gc_label": "Obelisk",
+    "icon": "mapicon_obelisk",
+    "dds": "mapicon_obelisk.dds",
+    "recovered": "public\\images\\recovered\\Obelisk_Interface.png"
+  },
+  {
+    "page": "Ranger Equipment Token Master",
+    "wiki": "RETM.jpg",
+    "dds": null
+  },
+  {
+    "page": "Ranger Equipment Token Master",
+    "wiki": "Ranger_Equipment_Token_Master.PNG",
+    "dds": null
+  },
+  {
+    "page": "Rose",
+    "wiki": "Rose.jpg",
+    "dds": null
+  },
+  {
+    "page": "Sam's Dungeon Wholesale",
+    "wiki": "Sam2.jpg",
+    "dds": null
+  },
+  {
+    "page": "Saundy - Sir Munn of Hillfier and Bremstan",
+    "wiki": "Saundy.jpg",
+    "dds": null
+  },
+  {
+    "page": "Shivery the Incorrigible Snowman",
+    "wiki": "ChillBill.png",
+    "gc_label": "Shivery the Incorrigible Snowman",
+    "icon": "Snowman",
+    "dds": "Snowman.dds",
+    "recovered": "public\\images\\recovered\\ChillBill.png"
+  },
+  {
+    "page": "Sir Kent the Artisan",
+    "wiki": "Sir_Kent.jpg",
+    "dds": null
+  },
+  {
+    "page": "Sir Lee of York",
+    "wiki": "Sir_lee.jpg",
+    "dds": null
+  },
+  {
+    "page": "Sir Panickee",
+    "wiki": "Sir_Panickee.jpg",
+    "dds": null
+  },
+  {
+    "page": "Sir Tendewm",
+    "wiki": "SirTendewm.jpg",
+    "dds": null
+  },
+  {
+    "page": "Sir Tified Luhny",
+    "wiki": "Sir_Tified_Luhny.jpg",
+    "dds": null
+  },
+  {
+    "page": "Skeer'ikt the Chirper",
+    "wiki": "Chirper.jpg",
+    "dds": null
+  },
+  {
+    "page": "Soldier Hogarth",
+    "wiki": "Soldier_Hogarth.jpg",
+    "dds": null
+  },
+  {
+    "page": "Tangled - Sir Kutree",
+    "wiki": "Sir_kutree.jpg",
+    "dds": null
+  },
+  {
+    "page": "Draykop the Amazon",
+    "wiki": "Amazon.jpg",
+    "dds": null
+  },
+  {
+    "page": "The Ax",
+    "wiki": "TheAx.jpg",
+    "dds": null
+  },
+  {
+    "page": "The Bomb",
+    "wiki": "TheBomb.JPG",
+    "dds": null
+  },
+  {
+    "page": "The Liger",
+    "wiki": "Liger.jpg",
+    "dds": null
+  },
+  {
+    "page": "The Liger",
+    "wiki": "Liger_henchman.jpg",
+    "dds": null
+  },
+  {
+    "page": "The Pyro",
+    "wiki": "ThePyro.jpg",
+    "dds": null
+  },
+  {
+    "page": "Tilles the Sellout",
+    "wiki": "Tiles.jpg",
+    "dds": null
+  },
+  {
+    "page": "Tilles the Sellout",
+    "wiki": "Tiles.jpg",
+    "dds": null
+  },
+  {
+    "page": "Tipper Gourd",
+    "wiki": "TipperGourd.jpg",
+    "dds": null
+  },
+  {
+    "page": "Townston",
+    "wiki": "Townston.jpg",
+    "dds": null
+  },
+  {
+    "page": "Townston Commander",
+    "wiki": "TownstonsCommander.jpg",
+    "dds": null
+  },
+  {
+    "page": "Townston Lieutenant",
+    "wiki": "Lieutenant.jpg",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Smallchest.JPG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "SmallLongChest.JPG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "SmallSquareChest.jpg",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "SmallRoundChest2.jpg",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "NormalChest_modified.jpg",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "BigChest_modified.jpg",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "BigSquarechest.JPG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Big_Round_Chest.jpg",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Uberchest.jpg",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "TanChest.jpg",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "BigTanChest.jpg",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "RelicChest.jpg",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "RelicChest2.jpg",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Divine_Treasure_Chest.PNG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Ice_Treasure_Chest.PNG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Fire_Treasure_Chest.PNG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Shadow_treasure_chest.PNG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Poison_Treasure_Chest.PNG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Ranger_Altar.PNG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Mage_Altar.PNG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Fighter_Altar.PNG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Great_weapon_rack.PNG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Normal_weapon_rack.PNG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Sword_stone.PNG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Radical_sword.PNG",
+    "dds": null
+  },
+  {
+    "page": "Treasure Chests",
+    "wiki": "Boss_chest.PNG",
+    "dds": null
+  },
+  {
+    "page": "UndercoverPancakes975",
+    "wiki": "Undercoverpancakes975.jpg",
+    "dds": null
+  },
+  {
+    "page": "Wally Wanka",
+    "wiki": "WallyWanka.JPG",
+    "dds": null
+  },
+  {
+    "page": "Werscheppe - Sir Voss of Graaghtetuud",
+    "wiki": "Werscheppe.jpg",
+    "dds": null
+  },
+  {
+    "page": "Wishing Well",
+    "wiki": "Wishing_well.png",
+    "gc_label": "Wishing Well",
+    "icon": "Mystery_Wishing_Well_Icon",
+    "dds": "Mystery_Wishing_Well_Icon.dds",
+    "recovered": "public\\images\\recovered\\Wishing_well.png"
+  },
+  {
+    "page": "(image)",
+    "wiki": "Heal_self_not_Other.jpg",
+    "gc_label": "Heal Self, not Other",
+    "icon": "Heal_on",
+    "dds": "heal_on.dds"
+  },
+  {
+    "page": "(image)",
+    "wiki": "I'm_Rubber_You're_Screwed.jpg",
+    "gc_label": "I'm Rubber, You're Screwed",
+    "icon": "DefenseRating_Buff_on",
+    "dds": "DefenseRating_Buff_on.dds"
+  },
+  {
+    "page": "(image)",
+    "wiki": "Mad_Melee_Mastery.jpg",
+    "gc_label": "Mad Melee Mastery",
+    "icon": "MeleeAttackRating_Buff_on",
+    "dds": "MeleeAttackRating_Buff_on.dds"
+  },
+  {
+    "page": "(image)",
+    "wiki": "Light_in_the_Loafers.jpg",
+    "gc_label": "Light in the Loafers",
+    "icon": "MinMoveSpeedModBuff_on",
+    "dds": "MinMoveSpeedModBuff_on.dds"
+  },
+  {
+    "page": "(image)",
+    "wiki": "Ice-shards.jpg",
+    "gc_label": "Ice Shards",
+    "icon": "IceMultiBolt_On",
+    "dds": "IceMultiBolt_on.dds"
+  },
+  {
+    "page": "(image)",
+    "wiki": "Cold_snap.jpg",
+    "gc_label": "Cold Snap",
+    "icon": "IceTargetedBurst_on",
+    "dds": "IceTargetedBurst_on.dds"
+  },
+  {
+    "page": "(image)",
+    "wiki": "Shower_of_gold.jpg",
+    "gc_label": "Gosh's Glorious Shower of Gold",
+    "icon": "DivineIntervention_on",
+    "dds": "DivineIntervention_on.dds"
+  },
+  {
+    "page": "(image)",
+    "wiki": "Flaming_buddy.PNG",
+    "gc_label": "My Flaming Buddy",
+    "icon": "FlameTotem_on",
+    "dds": "FlameTotem_on.dds"
+  },
+  {
+    "page": "(image)",
+    "wiki": "1h-swivel-arm-action.png",
+    "gc_label": "1H Swivel Arm Action",
+    "icon": "1HMeleeMastery_on",
+    "dds": "1HMeleeMastery_on.dds"
+  },
+  {
+    "page": "(image)",
+    "wiki": "2h-swivel-arm-action.png",
+    "gc_label": "2H Swivel Arm Action",
+    "icon": "2hmeleemastery_on",
+    "dds": "2HMeleeMastery_on.dds"
+  }
+]

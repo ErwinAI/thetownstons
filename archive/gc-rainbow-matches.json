@@ -1,0 +1,1727 @@
+[
+  {
+    "page": "20 Cubit Spinnerz",
+    "wiki": "Boots-_20_Cubit_Spinnerz.png",
+    "gc_label": "20 Cubit Spinnerz",
+    "icon": "Mythic_Plate_Armor_2_Boot_icon",
+    "dds": "Mythic_Plate_Armor_2_Boot_icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_20_Cubit_Spinnerz.png"
+  },
+  {
+    "page": "Abaddon's Handy Candy Broomstick",
+    "wiki": "Weapon_icon_2h_gun_18.png",
+    "gc_label": "Abaddon's Handy Candy BoomStick",
+    "icon": "Weapon_Icon_2h_Gun_18",
+    "dds": "Weapon_Icon_2h_Gun_18.dds",
+    "recovered": "public\\images\\recovered\\Weapon_icon_2h_gun_18.png"
+  },
+  {
+    "page": "Abracadabras Fly Footwear",
+    "wiki": "Boots-_Abracadabras_Fly_Footwear.png",
+    "gc_label": "Abracadabra's Fly Footwear",
+    "icon": "Padded_4_Boot_icon",
+    "dds": "Padded_4_Boot_icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Abracadabras_Fly_Footwear.png"
+  },
+  {
+    "page": "Aggro Pick",
+    "wiki": "2h-Weapon-_Aggro_Pick.png",
+    "gc_label": "Aggro Pick",
+    "icon": "Weapon_Icon_Polearm_Naginata",
+    "dds": "Weapon_Icon_Polearm_Naginata.dds",
+    "recovered": "public\\images\\recovered\\2h-Weapon-_Aggro_Pick.png"
+  },
+  {
+    "page": "Ali-Bubba's Phantasmal Shoulder Pads",
+    "wiki": "Shoulders-_Padded_Shoulders.png",
+    "gc_label": "Ali-Bubba's Phantasmal Shoulder Pads",
+    "icon": "Padded_4_Shoulder_icon",
+    "dds": "Padded_4_Shoulder_icon.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_Padded_Shoulders.png"
+  },
+  {
+    "page": "Amphisbaena's Double Dander Doublet",
+    "wiki": "Gloves-_Amphisbaenas_Double_Dander_Doublet.png",
+    "gc_label": "Amphisbaena's Double Dander Doublet",
+    "icon": "Plate_05_Shoulder_icon",
+    "dds": "Plate_05_Shoulder_icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Amphisbaenas_Double_Dander_Doublet.png"
+  },
+  {
+    "page": "Amulet of Yawn-Bore",
+    "wiki": "Amulet-_The_Found_One.png",
+    "gc_label": "Amulet of Yawn-Bore",
+    "icon": "inventory_icon_amulet_orokpendant",
+    "dds": "inventory_icon_amulet_orokpendant.dds",
+    "recovered": "public\\images\\recovered\\Amulet-_The_Found_One.png"
+  },
+  {
+    "page": "Ancient Scarab Ring of Extreme Importance",
+    "wiki": "Ring-_Ancient_Scarab_Ring_Of_Exteme_Importance.png",
+    "gc_label": "Ancient Scarab Ring of Extreme Importance",
+    "icon": "Inventory_Icon_Ring_01",
+    "dds": "Inventory_Icon_Ring_01.dds",
+    "recovered": "public\\images\\recovered\\Ring-_Ancient_Scarab_Ring_Of_Exteme_Importance.png"
+  },
+  {
+    "page": "Aurora",
+    "wiki": "Body-_Sunstone_Armor.png",
+    "gc_label": "Aurora",
+    "icon": "Crystal_5_Body_icon",
+    "dds": "Crystal_5_Body_icon.dds",
+    "recovered": "public\\images\\recovered\\Body-_Sunstone_Armor.png"
+  },
+  {
+    "page": "Axiom",
+    "wiki": "1h-weapon-_Axiom.png",
+    "gc_label": "Axiom",
+    "icon": "weapon_icon_ceremonial_hachet_magic",
+    "dds": "weapon_icon_ceremonial_hachet_magic.dds",
+    "recovered": "public\\images\\recovered\\1h-weapon-_Axiom.png"
+  },
+  {
+    "page": "B-List Celebrity Heart Pendant",
+    "wiki": "Amulet-_B-List_Celebrity_Heart_Pendant.png",
+    "gc_label": "B-List Celebrity Heart Pendant",
+    "icon": "inventory_icon_amulet15",
+    "dds": "inventory_icon_amulet15.dds",
+    "recovered": "public\\images\\recovered\\Amulet-_B-List_Celebrity_Heart_Pendant.png"
+  },
+  {
+    "page": "Backwards Hydraskin Hat",
+    "wiki": "Backwards-Hydraskin-Hat.png",
+    "gc_label": "Backwards Hydraskin Hat",
+    "icon": "Plate_05_Helm_icon",
+    "dds": "Plate_05_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Backwards-Hydraskin-Hat.png"
+  },
+  {
+    "page": "Bad Mutha",
+    "wiki": "2h-Ranged-_Bad_Mutha-BFG_9001.png",
+    "gc_label": "Bad Mutha",
+    "icon": "Weapon_Icon_NomeGun",
+    "dds": "Weapon_Icon_NomeGun.dds",
+    "recovered": "public\\images\\recovered\\2h-Ranged-_Bad_Mutha-BFG_9001.png"
+  },
+  {
+    "page": "Bane",
+    "wiki": "2h-Weapon-_Bane.png",
+    "gc_label": "Bane",
+    "icon": "Weapon_Runed_Axe_shadow_weapon_icon",
+    "dds": "Weapon_Runed_Axe_shadow_weapon_icon.dds",
+    "recovered": "public\\images\\recovered\\2h-Weapon-_Bane.png"
+  },
+  {
+    "page": "Beacons",
+    "wiki": "Gloves-_Sunstone_Gauntlets.png",
+    "gc_label": "Beacons",
+    "icon": "Crystal_5_Gloves_Icon",
+    "dds": "Crystal_5_Gloves_icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Sunstone_Gauntlets.png"
+  },
+  {
+    "page": "Billy's Goat",
+    "wiki": "Helm-_Skull_Mask_64px.png",
+    "gc_label": "Billy's Goat",
+    "icon": "Splint_4_Helm_Icon",
+    "dds": "Splint_4_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Helm-_Skull_Mask_64px.png"
+  },
+  {
+    "page": "Bone Miramba",
+    "wiki": "Body-_Bone_Miramba.png",
+    "gc_label": "Bone Miramba",
+    "icon": "Splint_4_Body_Icon",
+    "dds": "Splint_4_Body_Icon.dds",
+    "recovered": "public\\images\\recovered\\Body-_Bone_Miramba.png"
+  },
+  {
+    "page": "Bony Hands",
+    "wiki": "Gloves-_Bony_Hands.png",
+    "gc_label": "Bony Hands",
+    "icon": "Splint_4_Gloves_Icon",
+    "dds": "Splint_4_Gloves_Icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Bony_Hands.png"
+  },
+  {
+    "page": "Boots Made for Walking",
+    "wiki": "Boots-_Boots_Made_for_Walking.png",
+    "gc_label": "Boots Made for Walking",
+    "icon": "Unique_Cloth_Armor_Set_2_Boot_icon",
+    "dds": "Unique_Cloth_Armor_Set_2_Boot_icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Boots_Made_for_Walking.png"
+  },
+  {
+    "page": "Boots of Quartz",
+    "wiki": "Boots-_Boots_of_Quartz.png",
+    "gc_label": "Boots of Quartz",
+    "icon": "Crystal_1_Boots_Icon",
+    "dds": "Crystal_1_Boots_Icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Boots_of_Quartz.png"
+  },
+  {
+    "page": "Brain on a Stick",
+    "wiki": "1h-Weapon-_Brain_on_a_Stick.png",
+    "gc_label": "Brain on a Stick",
+    "icon": "Weapon_Icon_Scepter_Nether",
+    "dds": "Weapon_Icon_Scepter_Nether.dds",
+    "recovered": "public\\images\\recovered\\1h-Weapon-_Brain_on_a_Stick.png"
+  },
+  {
+    "page": "Brilliance",
+    "wiki": "Helm-_Sunstone_Helm_64px.png",
+    "gc_label": "Brilliance",
+    "icon": "Crystal_5_Helm_icon",
+    "dds": "Crystal_5_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Helm-_Sunstone_Helm_64px.png"
+  },
+  {
+    "page": "Buckler of the Dreaded Brown Eye",
+    "wiki": "Shield-_Buckler_of_the_Dreaded_Brown_Eye.png",
+    "gc_label": "Buckler of the Dreaded Brown Eye",
+    "icon": "Weapon_Icon_Shield_kite_black",
+    "dds": "Weapon_Icon_Shield_Kite_Black.dds",
+    "recovered": "public\\images\\recovered\\Shield-_Buckler_of_the_Dreaded_Brown_Eye.png"
+  },
+  {
+    "page": "Buffalo Bill's Outfit",
+    "wiki": "Body-_Buffalo_Bills_Outfit.png",
+    "gc_label": "Buffalo Bill's Outfit",
+    "icon": "Body_Icon_Leather03",
+    "dds": "Body_Icon_Leather03.dds",
+    "recovered": "public\\images\\recovered\\Body-_Buffalo_Bills_Outfit.png"
+  },
+  {
+    "page": "Celestial Blade",
+    "wiki": "2h-weapon-_Celestial_Blade.png",
+    "gc_label": "Celestial Blade",
+    "icon": "Weapon_Icon_FlameTongue",
+    "dds": "Weapon_Icon_FlameTongue.dds",
+    "recovered": "public\\images\\recovered\\2h-weapon-_Celestial_Blade.png"
+  },
+  {
+    "page": "Chavez's Shoulders of Shattering",
+    "wiki": "Shoulders-_Chavezs_Shoulders_of_Shattering.png",
+    "gc_label": "Chavez's Shoulders of Shattering",
+    "icon": "Splint_3_Shoulder_Icon",
+    "dds": "Splint_3_Shoulder_icon.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_Chavezs_Shoulders_of_Shattering.png"
+  },
+  {
+    "page": "Chucker",
+    "wiki": "2h-Weapon-_Chucker.png",
+    "gc_label": "Chucker",
+    "icon": "icon_Weapon_2H_Pick_12",
+    "dds": "Icon_Weapon_2H_Pick_12.dds",
+    "recovered": "public\\images\\recovered\\2h-Weapon-_Chucker.png"
+  },
+  {
+    "page": "Cinder",
+    "wiki": "Body-_Cinder.png",
+    "gc_label": "Cinder",
+    "icon": "Crystal_6_Body_icon",
+    "dds": "Crystal_6_Body_icon.dds",
+    "recovered": "public\\images\\recovered\\Body-_Cinder.png"
+  },
+  {
+    "page": "Circus Ring",
+    "wiki": "Ring-_Circus_Ring.png",
+    "gc_label": "Circus Ring",
+    "icon": "Inventory_Icon_Ring_27",
+    "dds": "Inventory_Icon_Ring_27.dds",
+    "recovered": "public\\images\\recovered\\Ring-_Circus_Ring.png"
+  },
+  {
+    "page": "Clicker",
+    "wiki": "1h-Weapon-_Clicker.png",
+    "gc_label": "Clicker",
+    "icon": "weapon_wand_blue_pearls_icon",
+    "dds": "Weapon_Wand_Blue_Pearls_icon.dds",
+    "recovered": "public\\images\\recovered\\1h-Weapon-_Clicker.png"
+  },
+  {
+    "page": "Colossus",
+    "wiki": "1h-Weapon-_Colossus.png",
+    "gc_label": "Colossus",
+    "icon": "Weapon_Mace_Ram_Skull_icon",
+    "dds": "Weapon_Mace_Ram_Skull_icon.dds",
+    "recovered": "public\\images\\recovered\\1h-Weapon-_Colossus.png"
+  },
+  {
+    "page": "Contrarian",
+    "wiki": "Shield-_Contrarian.png",
+    "gc_label": "Contrarian",
+    "icon": "Weapon_Icon_Shield_Tower_Metal",
+    "dds": "Weapon_Icon_Shield_Tower_Metal.dds",
+    "recovered": "public\\images\\recovered\\Shield-_Contrarian.png"
+  },
+  {
+    "page": "Cooper's Cooler Splint",
+    "wiki": "Body-_Coopers_Cooler_Splint.png",
+    "gc_label": "Cooper's Cooler Splint",
+    "icon": "Body_Icon_Splint01",
+    "dds": "Body_Icon_Splint01.dds",
+    "recovered": "public\\images\\recovered\\Body-_Coopers_Cooler_Splint.png"
+  },
+  {
+    "page": "Cortez's Crushers",
+    "wiki": "Boots-_Military_Splint_Greaves_64px.png",
+    "gc_label": "Cortez's Crushers",
+    "icon": "Splint_3_Boots_Icon",
+    "dds": "Splint_3_Boots_Icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Military_Splint_Greaves_64px.png"
+  },
+  {
+    "page": "Country Fried Amulet",
+    "wiki": "Amulet-_Country_Fried_Amulet.png",
+    "gc_label": "Country Fried Amulet",
+    "icon": "inventory_icon_amulet_generic",
+    "dds": "inventory_icon_amulet_generic.dds",
+    "recovered": "public\\images\\recovered\\Amulet-_Country_Fried_Amulet.png"
+  },
+  {
+    "page": "Creepy Feet",
+    "wiki": "Boots-_Bone_Splint_Boots.png",
+    "gc_label": "Creepy Feet",
+    "icon": "Splint_4_Boots_Icon",
+    "dds": "Splint_4_Boots_Icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Bone_Splint_Boots.png"
+  },
+  {
+    "page": "Crow Feeder",
+    "wiki": "Crow-Feeder.png",
+    "gc_label": "Crow Feeder",
+    "icon": "icon_Weapon_2H_Pick_11",
+    "dds": "Icon_Weapon_2H_Pick_11.dds",
+    "recovered": "public\\images\\recovered\\Crow-Feeder.png"
+  },
+  {
+    "page": "Crushing Yield Absorber",
+    "wiki": "Shield-_Crushing_Yield_Absorber.png",
+    "gc_label": "Crushing Yield Absorber",
+    "icon": "Weapon_Icon_Shield_Tower_Wood",
+    "dds": "Weapon_Icon_Shield_Tower_Wood.dds",
+    "recovered": "public\\images\\recovered\\Shield-_Crushing_Yield_Absorber.png"
+  },
+  {
+    "page": "Crystal Globe",
+    "wiki": "Helm-_Crystal_Helmet.png",
+    "gc_label": "Crystal Globe",
+    "icon": "Crystal_1_Head_icon",
+    "dds": "Crystal_1_Head_icon.dds",
+    "recovered": "public\\images\\recovered\\Helm-_Crystal_Helmet.png"
+  },
+  {
+    "page": "D'habl'u Ti'eff",
+    "wiki": "Dhablu_Tieff.png",
+    "gc_label": "D'habl'u Ti'eff",
+    "icon": "Icon_Weapon_Xbow_2H_11",
+    "dds": "Icon_Weapon_Xbow_2H_11.dds",
+    "recovered": "public\\images\\recovered\\Dhablu_Tieff.png"
+  },
+  {
+    "page": "Dark Ring Around The Collar",
+    "wiki": "Ring-_Dark_Ring_Around_The_Collar.png",
+    "gc_label": "Dark Ring Around the Collar",
+    "icon": "Inventory_Icon_Ring_28",
+    "dds": "Inventory_Icon_Ring_28.dds",
+    "recovered": "public\\images\\recovered\\Ring-_Dark_Ring_Around_The_Collar.png"
+  },
+  {
+    "page": "Death's Disdain",
+    "wiki": "Shoulders-_Deaths_Disdain.png",
+    "gc_label": "Death's Disdain",
+    "icon": "Ghost_3_Shoulder_icon",
+    "dds": "Ghost_3_Shoulder_icon.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_Deaths_Disdain.png"
+  },
+  {
+    "page": "Death's Grip",
+    "wiki": "Gloves-_Deaths_Grip.png",
+    "gc_label": "Death's Grip",
+    "icon": "Ghost_3_Gloves_icon",
+    "dds": "Ghost_3_Gloves_Icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Deaths_Grip.png"
+  },
+  {
+    "page": "Death's Habit",
+    "wiki": "Body-_Deaths_Habit.png",
+    "gc_label": "Death's Habit",
+    "icon": "Ghost_3_Body_icon",
+    "dds": "Ghost_3_Body_icon.dds",
+    "recovered": "public\\images\\recovered\\Body-_Deaths_Habit.png"
+  },
+  {
+    "page": "Death's Head",
+    "wiki": "Helm-_Deaths_Head.png",
+    "gc_label": "Death's Head",
+    "icon": "Ghost_3_Helm_icon",
+    "dds": "Ghost_3_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Helm-_Deaths_Head.png"
+  },
+  {
+    "page": "Death's Two Legs",
+    "wiki": "Boots-_Deaths_Two_Legs.png",
+    "gc_label": "Death's Two Legs",
+    "icon": "Ghost_3_Boot_icon",
+    "dds": "Ghost_3_Boot_icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Deaths_Two_Legs.png"
+  },
+  {
+    "page": "Death by the Slice",
+    "wiki": "2h-weapon_Death_by_the_Slice.png",
+    "gc_label": "Death by the Slice",
+    "icon": "weapon_axe_pizza_cutter_icon",
+    "dds": "Weapon_Axe_Pizza_Cutter_icon.dds",
+    "recovered": "public\\images\\recovered\\2h-weapon_Death_by_the_Slice.png"
+  },
+  {
+    "page": "Demon Sniper",
+    "wiki": "DemonSniper.png",
+    "gc_label": "Demon Sniper",
+    "icon": "Icon_Weapon_Xbow_2H_09_Shadow",
+    "dds": "icon_Weapon_Xbow_2H_09_Shadow.dds",
+    "recovered": "public\\images\\recovered\\DemonSniper.png"
+  },
+  {
+    "page": "Diabolical",
+    "wiki": "Diabolical.png",
+    "gc_label": "Diabolical",
+    "icon": "Icon_Weapon_2H_Axe_07",
+    "dds": "Icon_Weapon_2H_Axe_07.dds",
+    "recovered": "public\\images\\recovered\\Diabolical.png"
+  },
+  {
+    "page": "Dialed In",
+    "wiki": "Ring-_Dialed_In.png",
+    "gc_label": "Dialed In",
+    "icon": "Inventory_Icon_Ring_06",
+    "dds": "Inventory_Icon_Ring_06.dds",
+    "recovered": "public\\images\\recovered\\Ring-_Dialed_In.png"
+  },
+  {
+    "page": "Disemboweler",
+    "wiki": "Disemboweler.png",
+    "gc_label": "Disemboweler",
+    "icon": "Weapon_Icon_DrakeSword",
+    "dds": "weapon_icon_drakesword.dds",
+    "recovered": "public\\images\\recovered\\Disemboweler.png"
+  },
+  {
+    "page": "Djinni's Wish Granters",
+    "wiki": "Gloves-_Djinnis_Wish_Granters.png",
+    "gc_label": "Djinni's Wish Granters",
+    "icon": "Padded_4_Gloves_icon",
+    "dds": "Padded_4_Gloves_icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Djinnis_Wish_Granters.png"
+  },
+  {
+    "page": "Doc Wyvern's",
+    "wiki": "Boots-_Doc_Wyverns.png",
+    "gc_label": "Doc Wyvern's Boots",
+    "icon": "Plate_05_Boots_icon",
+    "dds": "Plate_05_Boots_icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Doc_Wyverns.png"
+  },
+  {
+    "page": "Doesn't Squeak",
+    "wiki": "Mouse_ears_01_helm_icon.png",
+    "gc_label": "Doesn't Squeak",
+    "icon": "Mouse_Ears_01_Helm_icon",
+    "dds": "Mouse_Ears_01_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Mouse_ears_01_helm_icon.png"
+  },
+  {
+    "page": "Doppelganger's Meat Hooks",
+    "wiki": "Gloves-_Doppelgangers_Meat_Hooks.png",
+    "gc_label": "Doppleganger's Meat Hooks",
+    "icon": "Unique_Cloth_Armor_Set_2_Glove_icon",
+    "dds": "Unique_Cloth_Armor_Set_2_Glove_icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Doppelgangers_Meat_Hooks.png"
+  },
+  {
+    "page": "Dreadly Intentions",
+    "wiki": "Dreadly-Intentions.png",
+    "gc_label": "Dreadly Intentions",
+    "icon": "Icon_Weapon_2H_Axe_08",
+    "dds": "Icon_Weapon_2H_Axe_08.dds",
+    "recovered": "public\\images\\recovered\\Dreadly-Intentions.png"
+  },
+  {
+    "page": "Duality of Man",
+    "wiki": "Amulet-_Honest-to-Goodness_Duality_of_Man.png",
+    "gc_label": "Duality of Man",
+    "icon": "inventory_icon_amulet17",
+    "dds": "inventory_icon_amulet17.dds",
+    "recovered": "public\\images\\recovered\\Amulet-_Honest-to-Goodness_Duality_of_Man.png"
+  },
+  {
+    "page": "Duke Blaster",
+    "wiki": "2h-Ranged-_Duke_Blaster-Popper.png",
+    "gc_label": "Duke Blaster",
+    "icon": "Weapon_Icon_LaserRifle",
+    "dds": "Weapon_Icon_LaserRifle.dds",
+    "recovered": "public\\images\\recovered\\2h-Ranged-_Duke_Blaster-Popper.png"
+  },
+  {
+    "page": "Dunce's Genius Cap",
+    "wiki": "Helm-_Wizard_Hat.png",
+    "gc_label": "Dunce's Genius Cap",
+    "icon": "Cloth_4_Helm_icon",
+    "dds": "Cloth_4_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Helm-_Wizard_Hat.png"
+  },
+  {
+    "page": "Edge of Su Naj",
+    "wiki": "1h-Weapon-_Edge_of_Su_Naj.png",
+    "gc_label": "Edge of Su Naj",
+    "icon": "Weapon_Icon_SpikedDagger",
+    "dds": "Weapon_Icon_SpikedDagger.dds",
+    "recovered": "public\\images\\recovered\\1h-Weapon-_Edge_of_Su_Naj.png"
+  },
+  {
+    "page": "Ember Crushers",
+    "wiki": "Boots-_Ember_Crushers.png",
+    "gc_label": "Ember Crushers",
+    "icon": "Crystal_6_Boots_icon",
+    "dds": "Crystal_6_Boots_Icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Ember_Crushers.png"
+  },
+  {
+    "page": "Emerald Cloth Suit",
+    "wiki": "Body-_Cloth3_Killer_Threads.png",
+    "gc_label": "Emerald Cloth Suit",
+    "icon": "Unique_Cloth_Armor_3_Body_icon",
+    "dds": "Unique_Cloth_Armor_3_Body_icon.dds",
+    "recovered": "public\\images\\recovered\\Body-_Cloth3_Killer_Threads.png"
+  },
+  {
+    "page": "Emerald Fedora",
+    "wiki": "Emerald-Fedora.png",
+    "gc_label": "Emerald Fedora",
+    "icon": "Mythic_Cloth_Armor_2_Hat_icon",
+    "dds": "Mythic_Cloth_Armor_2_Hat_icon.dds",
+    "recovered": "public\\images\\recovered\\Emerald-Fedora.png"
+  },
+  {
+    "page": "Emerald Slippers",
+    "wiki": "Boots-_Emerald_Slippers.png",
+    "gc_label": "Emerald Slippers",
+    "icon": "Mythic_Cloth_Armor_2_Boot_icon",
+    "dds": "Mythic_Cloth_Armor_2_Boot_icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Emerald_Slippers.png"
+  },
+  {
+    "page": "Executioner",
+    "wiki": "1h-weapon_Executioner.png",
+    "gc_label": "Executioner",
+    "icon": "Weapon_Icon_Blademaster_Sword",
+    "dds": "weapon_icon_blademaster_sword.dds",
+    "recovered": "public\\images\\recovered\\1h-weapon_Executioner.png"
+  },
+  {
+    "page": "Fab Finger Girdle",
+    "wiki": "Fab_Finger_Girdle.png",
+    "gc_label": "Fab Finger Girdle",
+    "icon": "inventory_icon_ring_29",
+    "dds": "Inventory_Icon_Ring_29.dds",
+    "recovered": "public\\images\\recovered\\Fab_Finger_Girdle.png"
+  },
+  {
+    "page": "Feathered Cap",
+    "wiki": "Feathered_cap.png",
+    "gc_label": "Feathered Cap",
+    "icon": "Pimp_Helm_icon",
+    "dds": "Pimp_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Feathered_cap.png"
+  },
+  {
+    "page": "Foil Covered Thinkbox",
+    "wiki": "Helm-_Royal_Plate_Helm_64px.png",
+    "gc_label": "Foil Covered Thinkbox",
+    "icon": "Plate_3_Head_icon",
+    "dds": "Plate_3_Head_icon.dds",
+    "recovered": "public\\images\\recovered\\Helm-_Royal_Plate_Helm_64px.png"
+  },
+  {
+    "page": "Fragalot",
+    "wiki": "2h-Weapon-_Fragalot.png",
+    "gc_label": "Fragalot",
+    "icon": "Weapon_Icon_NightmareBlade",
+    "dds": "Weapon_Icon_NightmareBlade.dds",
+    "recovered": "public\\images\\recovered\\2h-Weapon-_Fragalot.png"
+  },
+  {
+    "page": "Fragtastic Finger Bracelet",
+    "wiki": "Ring-_Fragtastic_Finger_Bracelet.png",
+    "gc_label": "Fragtastic Finger Bracelet",
+    "icon": "inventory_icon_ring_25",
+    "dds": "Inventory_Icon_Ring_25.dds",
+    "recovered": "public\\images\\recovered\\Ring-_Fragtastic_Finger_Bracelet.png"
+  },
+  {
+    "page": "Fuzzy Trimmed Luv Cuffs",
+    "wiki": "Gloves-_Fuzzy_Trimmed_Luv_Cuffs.png",
+    "gc_label": "Fuzz Trimmed Luv Cuffs",
+    "icon": "Gloves_Icon_Chain",
+    "dds": "Gloves_Icon_Chain.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Fuzzy_Trimmed_Luv_Cuffs.png"
+  },
+  {
+    "page": "Fuzz Trimmed Luv Cuffs",
+    "wiki": "Gloves-_Fuzzy_Trimmed_Luv_Cuffs.png",
+    "gc_label": "Fuzz Trimmed Luv Cuffs",
+    "icon": "Gloves_Icon_Chain",
+    "dds": "Gloves_Icon_Chain.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Fuzzy_Trimmed_Luv_Cuffs.png"
+  },
+  {
+    "page": "Gandolt's Finely Crafted House Shoes",
+    "wiki": "Boots-_Gandolts_Finely_Crafted_House_Shoes.png",
+    "gc_label": "Gandolt's Finely Crafted House Shoes",
+    "icon": "Cloth_4_Boot_icon",
+    "dds": "Cloth_4_Boot_icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Gandolts_Finely_Crafted_House_Shoes.png"
+  },
+  {
+    "page": "Gank'd Nighttime Elf Ear",
+    "wiki": "Amulet-_Ganks_Nighttime_Elf_Ear.png",
+    "gc_label": "Gank'd Nighttime Elf Ear",
+    "icon": "inventory_icon_amulet25",
+    "dds": "inventory_icon_amulet25.dds",
+    "recovered": "public\\images\\recovered\\Amulet-_Ganks_Nighttime_Elf_Ear.png"
+  },
+  {
+    "page": "Garden Variety Ring",
+    "wiki": "Ring-_Garden_Variety_Ring.png",
+    "gc_label": "Garden Variety Ring",
+    "icon": "inventory_icon_ring_19",
+    "dds": "Inventory_Icon_Ring_19.dds",
+    "recovered": "public\\images\\recovered\\Ring-_Garden_Variety_Ring.png"
+  },
+  {
+    "page": "Gelphding's Dark Shards",
+    "wiki": "Shoulders-_Gelphdings_Dark_Shards.png",
+    "gc_label": "Gelphding's Dark Shards",
+    "icon": "Shoulder_Icon_Crystal_1_Purple",
+    "dds": "Shoulder_Icon_Crystal_1_Purple.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_Gelphdings_Dark_Shards.png"
+  },
+  {
+    "page": "Giant Spork",
+    "wiki": "2h-Weapon-_Giant_Spork.png",
+    "gc_label": "Giant Spork",
+    "icon": "Weapon_Icon_Polearm_Trident",
+    "dds": "Weapon_Icon_Polearm_Trident.dds",
+    "recovered": "public\\images\\recovered\\2h-Weapon-_Giant_Spork.png"
+  },
+  {
+    "page": "Giant Tuning Fork",
+    "wiki": "2h-Weapon-_Giant_Tuning_Fork.png",
+    "gc_label": "Giant Tuning Fork",
+    "icon": "Weapon_Icon_Polearm_Spear",
+    "dds": "Weapon_Icon_Polearm_Spear.dds",
+    "recovered": "public\\images\\recovered\\2h-Weapon-_Giant_Tuning_Fork.png"
+  },
+  {
+    "page": "Girdle of Infinitum",
+    "wiki": "Girdle_of_Infinitum.png",
+    "gc_label": "Girdle of Infinitum",
+    "icon": "Body_Icon_Chainmail03",
+    "dds": "Body_Icon_Chainmail03.dds",
+    "recovered": "public\\images\\recovered\\Girdle_of_Infinitum.png"
+  },
+  {
+    "page": "Glimmers",
+    "wiki": "Shoulder-_Sunstone_Spaulders_64px.png",
+    "gc_label": "Glimmers",
+    "icon": "Crystal_5_Shoulder_Icon",
+    "dds": "Crystal_5_Shoulder_icon.dds",
+    "recovered": "public\\images\\recovered\\Shoulder-_Sunstone_Spaulders_64px.png"
+  },
+  {
+    "page": "Gnasher",
+    "wiki": "2h-weapon_Gnasher.png",
+    "gc_label": "Gnasher",
+    "icon": "Weapon_Polearm_Gnarly_icon",
+    "dds": "Weapon_Polearm_Gnarly_icon.dds",
+    "recovered": "public\\images\\recovered\\2h-weapon_Gnasher.png"
+  },
+  {
+    "page": "Grasping Manus",
+    "wiki": "Gloves-_Cloth1_Gloves_64px.png",
+    "gc_label": "Grasping Manus",
+    "icon": "HeavyGloves_Icon",
+    "dds": "HeavyGloves_Icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Cloth1_Gloves_64px.png"
+  },
+  {
+    "page": "Habbibi's Happenin' Headdress",
+    "wiki": "Helms-_Habbibis_Happenin_Headdress.png",
+    "gc_label": "Habbibi's Happenin' Headdress",
+    "icon": "Padded_4_Helm_icon",
+    "dds": "Padded_4_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Helms-_Habbibis_Happenin_Headdress.png"
+  },
+  {
+    "page": "Hard Rocker Pads",
+    "wiki": "Shoulders-_Cloth1_Shoulder_Pads_64px.png",
+    "gc_label": "Hard Rocker Pads",
+    "icon": "starting_ranger_shoulder_icon",
+    "dds": "starting_ranger_shoulder_icon.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_Cloth1_Shoulder_Pads_64px.png"
+  },
+  {
+    "page": "Headsplitter",
+    "wiki": "1h-Weapon-_Headsplitter.png",
+    "gc_label": "Headsplitter",
+    "icon": "weapon_icon_bloodaxe",
+    "dds": "weapon_icon_bloodaxe.dds",
+    "recovered": "public\\images\\recovered\\1h-Weapon-_Headsplitter.png"
+  },
+  {
+    "page": "Homo Erectus Stirrups",
+    "wiki": "Boots-_Homo_Erectus_Stirrups.png",
+    "gc_label": "Homo Erectus Stirrups",
+    "icon": "Boots_Icon_Chain01",
+    "dds": "Boots_Icon_Chain01.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Homo_Erectus_Stirrups.png"
+  },
+  {
+    "page": "Hoof Loop",
+    "wiki": "HoofLoop.png",
+    "gc_label": "Hoof Loop",
+    "icon": "inventory_icon_ring_05",
+    "dds": "Inventory_Icon_Ring_05.dds",
+    "recovered": "public\\images\\recovered\\HoofLoop.png"
+  },
+  {
+    "page": "Horrific Taint",
+    "wiki": "Body-_Cloth3_Killer_Threads.png",
+    "gc_label": "Horrific Taint",
+    "icon": "Unique_Cloth_Armor_3_Body_icon",
+    "dds": "Unique_Cloth_Armor_3_Body_icon.dds",
+    "recovered": "public\\images\\recovered\\Body-_Cloth3_Killer_Threads.png"
+  },
+  {
+    "page": "Ichabod's Cap",
+    "wiki": "Helm-_Ichabods_Cap.png",
+    "gc_label": "Ichabod's Cap",
+    "icon": "starting_ranger_helm_icon",
+    "dds": "starting_ranger_helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Helm-_Ichabods_Cap.png"
+  },
+  {
+    "page": "Incrusted Leviathan Carapace",
+    "wiki": "Incrusted-Leviathan-Carapace.png",
+    "gc_label": "Incrusted Leviathan Carapace",
+    "icon": "Plate_05_Body_icon",
+    "dds": "Plate_05_Body_icon.dds",
+    "recovered": "public\\images\\recovered\\Incrusted-Leviathan-Carapace.png"
+  },
+  {
+    "page": "Inter-Galactaxe",
+    "wiki": "2h-weapon-_Inter-Glactaxe.png",
+    "gc_label": "Inter-Galactaxe",
+    "icon": "Icon_Weapon_2H_Axe_10",
+    "dds": "icon_Weapon_2H_Axe_10.dds",
+    "recovered": "public\\images\\recovered\\2h-weapon-_Inter-Glactaxe.png"
+  },
+  {
+    "page": "IRing",
+    "wiki": "Ring-_iRing.png",
+    "gc_label": "iRing",
+    "icon": "Inventory_Icon_Ring_12",
+    "dds": "Inventory_Icon_Ring_12.dds",
+    "recovered": "public\\images\\recovered\\Ring-_iRing.png"
+  },
+  {
+    "page": "Jackalope's Visage",
+    "wiki": "Jackalopes_Visage.png",
+    "gc_label": "Jackalope's Visage",
+    "icon": "Helmet_Icon_LeatherCap",
+    "dds": "Helmet_Icon_LeatherCap.dds",
+    "recovered": "public\\images\\recovered\\Jackalopes_Visage.png"
+  },
+  {
+    "page": "Jimi's Burning Desire",
+    "wiki": "Jimis-Burning-Desire.png",
+    "gc_label": "Jimi's Burning Desire",
+    "icon": "Weapon_2H_Axe_Guitar_01_Fire_icon",
+    "dds": "Weapon_2H_Axe_Guitar_01_Fire_icon.dds",
+    "recovered": "public\\images\\recovered\\Jimis-Burning-Desire.png"
+  },
+  {
+    "page": "King's Coins",
+    "wiki": "KingsCoins.png",
+    "gc_label": "King's Coins x 20",
+    "icon": "Voucher_King's_Coins_Icon",
+    "dds": "Voucher_King's_Coins_Icon.dds",
+    "recovered": "public\\images\\recovered\\KingsCoins.png"
+  },
+  {
+    "page": "L33t Stick",
+    "wiki": "1h-Weapon-_L33t_Stick.png",
+    "gc_label": "L33t Stick",
+    "icon": "Weapon_Rock_Wand_fire_weapon_icon",
+    "dds": "Weapon_Rock_Wand_fire_weapon_icon.dds",
+    "recovered": "public\\images\\recovered\\1h-Weapon-_L33t_Stick.png"
+  },
+  {
+    "page": "Large Dull Edge",
+    "wiki": "1h-Weapon-_Large_Dull_Edge.png",
+    "gc_label": "Large Dull Edge (Needs Sharpening)",
+    "icon": "weapon_icon_1h_sword_09_poison",
+    "dds": "weapon_icon_1h_sword_09_poison.dds",
+    "recovered": "public\\images\\recovered\\1h-Weapon-_Large_Dull_Edge.png"
+  },
+  {
+    "page": "Lethal Paws",
+    "wiki": "Gloves-_Lethal_Paws.png",
+    "gc_label": "Lethal Paws",
+    "icon": "Mythic_Leather_Armor_1_gloves",
+    "dds": "Mythic_Leather_Armor_1_gloves.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Lethal_Paws.png"
+  },
+  {
+    "page": "Ma'nes Aegis",
+    "wiki": "Shield-_Manes_Aegis_64px.png",
+    "gc_label": "Ma'nes Aegis",
+    "icon": "Weapon_Icon_Shield_kite_black",
+    "dds": "Weapon_Icon_Shield_Kite_Black.dds",
+    "recovered": "public\\images\\recovered\\Shield-_Manes_Aegis_64px.png"
+  },
+  {
+    "page": "Ma'nes Metatarsals",
+    "wiki": "Boots-_Ghost4_Boots_64px.png",
+    "gc_label": "Ma'nes Metatarsals",
+    "icon": "Ghost_4_Boot_icon",
+    "dds": "Ghost_4_Boot_icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Ghost4_Boots_64px.png"
+  },
+  {
+    "page": "Ma'nes Miter",
+    "wiki": "Helm-_Ghost4_Miter_64px.png",
+    "gc_label": "Ma'nes Miter",
+    "icon": "Ghost_4_Helm_icon",
+    "dds": "Ghost_4_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Helm-_Ghost4_Miter_64px.png"
+  },
+  {
+    "page": "Ma'nes Phalanges",
+    "wiki": "Gloves-_Ghost4_Gloves_64px.png",
+    "gc_label": "Ma'nes Phalanges",
+    "icon": "Ghost_4_Gloves_icon",
+    "dds": "Ghost_4_Gloves_Icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Ghost4_Gloves_64px.png"
+  },
+  {
+    "page": "Ma'nes Ribcage",
+    "wiki": "Body-_Ghost4_Habit_64px.png",
+    "gc_label": "Ma'nes Ribcage",
+    "icon": "Ghost_4_Body_icon",
+    "dds": "Ghost_4_Body_icon.dds",
+    "recovered": "public\\images\\recovered\\Body-_Ghost4_Habit_64px.png"
+  },
+  {
+    "page": "Ma'nes Scapulae",
+    "wiki": "Shoulders-_Ghost4_Spaulders_64px.png",
+    "gc_label": "Ma'nes Scapulae",
+    "icon": "Ghost_4_Shoulder_icon",
+    "dds": "Ghost_4_Shoulder_icon.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_Ghost4_Spaulders_64px.png"
+  },
+  {
+    "page": "Mad Bling",
+    "wiki": "Amulet-_Mad_Bling.png",
+    "gc_label": "Mad Bling",
+    "icon": "inventory_icon_amulet_bloodvial",
+    "dds": "inventory_icon_amulet_bloodvial.dds",
+    "recovered": "public\\images\\recovered\\Amulet-_Mad_Bling.png"
+  },
+  {
+    "page": "Magma Mashers",
+    "wiki": "Gloves-_Magma_Mashers.png",
+    "gc_label": "Magma Mashers",
+    "icon": "Crystal_6_Gloves_icon",
+    "dds": "Crystal_6_Gloves_Icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Magma_Mashers.png"
+  },
+  {
+    "page": "Master Chef's Toxic Flood Gun",
+    "wiki": "2h-ranged-_Master_Chefs_Toxic_Flood_Gun.png",
+    "gc_label": "Master Chef's Toxic Flood Gun",
+    "icon": "Weapon_Icon_2h_Gun_09_Green",
+    "dds": "Weapon_Icon_2h_Gun_09_Green.dds",
+    "recovered": "public\\images\\recovered\\2h-ranged-_Master_Chefs_Toxic_Flood_Gun.png"
+  },
+  {
+    "page": "Medusa's Engagement Ring",
+    "wiki": "Ring-_Medusas_Engagement_Ring.png",
+    "gc_label": "Medusa's Engagement Ring",
+    "icon": "Inventory_Icon_Ring_18",
+    "dds": "Inventory_Icon_Ring_18.dds",
+    "recovered": "public\\images\\recovered\\Ring-_Medusas_Engagement_Ring.png"
+  },
+  {
+    "page": "Merlin's Night Gown",
+    "wiki": "Body-_Merlins_Night_Gown.png",
+    "gc_label": "Merlin's Night Gown",
+    "icon": "Cloth_4_Body_Icon",
+    "dds": "Cloth_4_Body_Icon.dds",
+    "recovered": "public\\images\\recovered\\Body-_Merlins_Night_Gown.png"
+  },
+  {
+    "page": "Molten Helm",
+    "wiki": "Helms-_Molten_Helm.png",
+    "gc_label": "Molten Helm",
+    "icon": "Crystal_6_Helm_icon",
+    "dds": "Crystal_6_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Helms-_Molten_Helm.png"
+  },
+  {
+    "page": "Moonglaze",
+    "wiki": "1h-weapon-_Moonglaze.png",
+    "gc_label": "Moonglaze",
+    "icon": "Icon_Weapon_Pick_1H_Moonscythe_Ice",
+    "dds": "Icon_Weapon_Pick_1H_Moonscythe_ice.dds",
+    "recovered": "public\\images\\recovered\\1h-weapon-_Moonglaze.png"
+  },
+  {
+    "page": "Murdak's Monster Maimers",
+    "wiki": "Gloves-_Murdaks_Monster_Maimers.png",
+    "gc_label": "Murdak's Monster Maimers",
+    "icon": "Cloth_4_Gloves_icon",
+    "dds": "Cloth_4_Gloves_icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Murdaks_Monster_Maimers.png"
+  },
+  {
+    "page": "Murdak's Monster Mainers",
+    "wiki": "Shoulders-_Sorewuns_Ego.png",
+    "gc_label": "Murdak's Monster Maimers",
+    "icon": "Cloth_4_Gloves_icon",
+    "dds": "Cloth_4_Gloves_icon.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_Sorewuns_Ego.png"
+  },
+  {
+    "page": "Mystical Green Glowstick on a String",
+    "wiki": "Amulet-_Mystical_Green_Glowstick_on_a_String.png",
+    "gc_label": "Mystical Green Glowstick on a String",
+    "icon": "inventory_icon_amulet8",
+    "dds": "inventory_icon_amulet8.dds",
+    "recovered": "public\\images\\recovered\\Amulet-_Mystical_Green_Glowstick_on_a_String.png"
+  },
+  {
+    "page": "My Pretty Puncturer",
+    "wiki": "My-Pretty-Puncturer.png",
+    "gc_label": "My Pretty Puncturer",
+    "icon": "Icon_Weapon_Pick_1H_MyPrettyPuncture_Divine",
+    "dds": "Icon_Weapon_Pick_1H_MyPrettyPuncture_Divine.dds",
+    "recovered": "public\\images\\recovered\\My-Pretty-Puncturer.png"
+  },
+  {
+    "page": "Nacho's Conquistador Cuirass",
+    "wiki": "Body-_Nachos_Conquistador_Cuirass.png",
+    "gc_label": "Nacho's Conquistador Cuirass",
+    "icon": "Splint_3_Body_Icon",
+    "dds": "Splint_3_Body_Icon.dds",
+    "recovered": "public\\images\\recovered\\Body-_Nachos_Conquistador_Cuirass.png"
+  },
+  {
+    "page": "Naj's Flak Jacket",
+    "wiki": "Body-_Najs_Flak_Jacket.png",
+    "gc_label": "Nai's Flak Jacket",
+    "icon": "Plate_3_Body_Icon",
+    "dds": "Plate_3_Body_Icon.dds",
+    "recovered": "public\\images\\recovered\\Body-_Najs_Flak_Jacket.png"
+  },
+  {
+    "page": "New Fangled Spangled Tabard",
+    "wiki": "Shoulders-_New_Fangled_Spangled_Tabard.png",
+    "gc_label": "New Fangled Spangled Tabard",
+    "icon": "Plate_3_Shoulder_icon",
+    "dds": "Plate_3_Shoulder_icon.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_New_Fangled_Spangled_Tabard.png"
+  },
+  {
+    "page": "Nocturnal Protection",
+    "wiki": "Body-_Nocturnal_Protection.png",
+    "gc_label": "Nocturnal Protection",
+    "icon": "Body_Icon_Heavy01_Black",
+    "dds": "Body_Icon_Heavy01_Black.dds",
+    "recovered": "public\\images\\recovered\\Body-_Nocturnal_Protection.png"
+  },
+  {
+    "page": "Not the Sword of Gosh",
+    "wiki": "1h-Weapon-_Sword_of_Gosh.png",
+    "gc_label": "Not the Sword of Gosh",
+    "icon": "weapon_icon_1H_sword_05_divine",
+    "dds": "weapon_icon_1H_sword_05_divine.dds",
+    "recovered": "public\\images\\recovered\\1h-Weapon-_Sword_of_Gosh.png"
+  },
+  {
+    "page": "Old Man Henson's Noggin' Protector",
+    "wiki": "Old-Man-Hensons-Noggin-Protector.png",
+    "gc_label": "Old Man Henson's Noggin' Protector",
+    "icon": "Helm_icon_Crystal_1_Purple",
+    "dds": "Helm_icon_Crystal_1_Purple.dds",
+    "recovered": "public\\images\\recovered\\Old-Man-Hensons-Noggin-Protector.png"
+  },
+  {
+    "page": "Ourorboros's Eczema Covered Ecdysis",
+    "wiki": "Gloves-_Ourorboross_Eczema_Covered_Ecdysis.png",
+    "gc_label": "Ourorboros's Eczema Covered Ecdysis",
+    "icon": "Plate_05_Gloves_icon",
+    "dds": "Plate_05_Gloves_icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Ourorboross_Eczema_Covered_Ecdysis.png"
+  },
+  {
+    "page": "Oznog's Sparkling Foot Husks",
+    "wiki": "Boots-_Oznogs_Sparkling_Foot_Husks.png",
+    "gc_label": "Oznog's Sparkling Foot Husks",
+    "icon": "Boots_Icon_Crystal_1_Purple",
+    "dds": "Boots_Icon_Crystal_1_Purple.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Oznogs_Sparkling_Foot_Husks.png"
+  },
+  {
+    "page": "Pacifier",
+    "wiki": "Amulet-_Pacifier.png",
+    "gc_label": "Pacifier",
+    "icon": "inventory_icon_amulet19",
+    "dds": "inventory_icon_amulet19.dds",
+    "recovered": "public\\images\\recovered\\Amulet-_Pacifier.png"
+  },
+  {
+    "page": "Phat Bling",
+    "wiki": "Amulet-_Phat_Bling.png",
+    "gc_label": "Phat Bling",
+    "icon": "inventory_icon_amulet4",
+    "dds": "inventory_icon_amulet4.dds",
+    "recovered": "public\\images\\recovered\\Amulet-_Phat_Bling.png"
+  },
+  {
+    "page": "Pink's Favorite Axe",
+    "wiki": "Pinks-Favorite-Axe.png",
+    "gc_label": "Pink's Favorite Axe",
+    "icon": "Weapon_2H_Axe_Guitar_02_icon",
+    "dds": "Weapon_2H_Axe_Guitar_02_icon.dds",
+    "recovered": "public\\images\\recovered\\Pinks-Favorite-Axe.png"
+  },
+  {
+    "page": "Plane Crusher",
+    "wiki": "1h-weapon-_Plane_Crusher.png",
+    "gc_label": "Plane Crusher",
+    "icon": "Weapon_Icon_Grotesque_Bone_Club_Magical",
+    "dds": "weapon_icon_grotesque_bone_club_magical.dds",
+    "recovered": "public\\images\\recovered\\1h-weapon-_Plane_Crusher.png"
+  },
+  {
+    "page": "Plate Piercer",
+    "wiki": "Plate_Piercer2.png",
+    "gc_label": "Plate Piercer",
+    "icon": "Icon_Weapon_Xbow_2H_10",
+    "dds": "Icon_Weapon_Xbow_2H_10.dds",
+    "recovered": "public\\images\\recovered\\Plate_Piercer2.png"
+  },
+  {
+    "page": "Poncherello's Conqueror",
+    "wiki": "Poncherellos-Conqueror.png",
+    "gc_label": "Poncherello's Conqueror",
+    "icon": "Splint_3_Helm_Icon",
+    "dds": "Splint_3_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Poncherellos-Conqueror.png"
+  },
+  {
+    "page": "Portable Poop Decks",
+    "wiki": "Cloth_pirate_01_shoulder_icon.png",
+    "gc_label": "Portable Poop Decks",
+    "icon": "Cloth_Pirate_01_Shoulder_Icon",
+    "dds": "Cloth_Pirate_01_Shoulder_Icon.dds",
+    "recovered": "public\\images\\recovered\\Cloth_pirate_01_shoulder_icon.png"
+  },
+  {
+    "page": "Radiance",
+    "wiki": "Shoulders-_Radiance.png",
+    "gc_label": "Radiance",
+    "icon": "Crystal_1_Shoulder_Icon",
+    "dds": "Crystal_1_Shoulder_Icon.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_Radiance.png"
+  },
+  {
+    "page": "Random Axe of Kindness",
+    "wiki": "2h-weapon_Random_Axe_of_Kindness.png",
+    "gc_label": "Random Axe of Kindness",
+    "icon": "Icon_Weapon_2H_Axe_12",
+    "dds": "icon_Weapon_2H_Axe_12.dds",
+    "recovered": "public\\images\\recovered\\2h-weapon_Random_Axe_of_Kindness.png"
+  },
+  {
+    "page": "Razor Wire Shackles",
+    "wiki": "Boots-_Razor_Wire_Shackles.png",
+    "gc_label": "Razor Wire Shackles",
+    "icon": "Boots_Icon_Chain",
+    "dds": "Boots_Icon_Chain.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Razor_Wire_Shackles.png"
+  },
+  {
+    "page": "Red Ring of Death",
+    "wiki": "Ring-_Red_Ring_of_Death.png",
+    "gc_label": "Red Ring of Death",
+    "icon": "Inventory_Icon_Ring_32",
+    "dds": "Inventory_Icon_Ring_32.dds",
+    "recovered": "public\\images\\recovered\\Ring-_Red_Ring_of_Death.png"
+  },
+  {
+    "page": "Reliance",
+    "wiki": "1h-weapon-_Reliance.png",
+    "gc_label": "Reliance",
+    "icon": "weapon_icon_savage_orok_cleaver_magical",
+    "dds": "weapon_icon_savage_orok_cleaver_magical.dds",
+    "recovered": "public\\images\\recovered\\1h-weapon-_Reliance.png"
+  },
+  {
+    "page": "Rigid Milwaukee Brace",
+    "wiki": "Shoulders-_Rigid_Milwaukee_Brace.png",
+    "gc_label": "Rigid Milwaukee Brace",
+    "icon": "Shoulder_Icon_Generic",
+    "dds": "Shoulder_Icon_Generic.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_Rigid_Milwaukee_Brace.png"
+  },
+  {
+    "page": "Ripper McGee's Ripper McTee... Rex (External Use Only!)",
+    "wiki": "Ripper_McGees_Ripper_McTee_Rex.png",
+    "kept": "/images/Ripper_McGees_Ripper_McTee_Rex.png"
+  },
+  {
+    "page": "Salty Toes of the Low Tide",
+    "wiki": "Cloth_pirate_01_boots_icon.png",
+    "gc_label": "Salty Toes of the Low Tide",
+    "icon": "Cloth_Pirate_01_Boots_Icon",
+    "dds": "Cloth_Pirate_01_Boots_Icon.dds",
+    "recovered": "public\\images\\recovered\\Cloth_pirate_01_boots_icon.png"
+  },
+  {
+    "page": "Sancho's Mysterious Gloves of Destruction",
+    "wiki": "Gloves-_Sanchos_Mysterious_Gloves_of_Destruction.png",
+    "gc_label": "Sancho's Mysterious Gloves of Destruction",
+    "icon": "Splint_3_Gloves_Icon",
+    "dds": "Splint_3_Gloves_Icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Sanchos_Mysterious_Gloves_of_Destruction.png"
+  },
+  {
+    "page": "Santoro's Vise",
+    "wiki": "Helm-_Santoros_Vise.png",
+    "gc_label": "Santoro's Vise",
+    "icon": "Helmet_Icon_Full01",
+    "dds": "Helmet_Icon_Full01.dds",
+    "recovered": "public\\images\\recovered\\Helm-_Santoros_Vise.png"
+  },
+  {
+    "page": "Seabass' Helm of Mule Kicking",
+    "wiki": "Helm-_Royal_Plate_Helm.png",
+    "gc_label": "Seabass' Helm of Mule Kicking",
+    "icon": "Plate_3_Helm_icon",
+    "dds": "Plate_3_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Helm-_Royal_Plate_Helm.png"
+  },
+  {
+    "page": "Sea Bird Projectile Protector of the Scallywag",
+    "wiki": "Image_Pirate_Hat.png",
+    "gc_label": "Sea Bird Projectile Protector of the Scallywag",
+    "icon": "Cloth_Pirate_01_Helm_Icon",
+    "dds": "Cloth_Pirate_01_Helm_Icon.dds",
+    "recovered": "public\\images\\recovered\\Image_Pirate_Hat.png"
+  },
+  {
+    "page": "Second Hands",
+    "wiki": "Gloves-_Second_Hands.png",
+    "gc_label": "Second Hands",
+    "icon": "Unique_Cloth_Armor_Set_2_Glove_icon",
+    "dds": "Unique_Cloth_Armor_Set_2_Glove_icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Second_Hands.png"
+  },
+  {
+    "page": "Shadow Queen's Hang Nail",
+    "wiki": "Shield-_Shadow_Queen.pngs_Hang_Nail.png",
+    "gc_label": "Shadow Queen's Hang Nail",
+    "icon": "Weapon_Icon_Shield_Plate_05",
+    "dds": "Weapon_Icon_Shield_Plate_05.dds",
+    "recovered": "public\\images\\recovered\\Shield-_Shadow_Queen.pngs_Hang_Nail.png"
+  },
+  {
+    "page": "Shardian",
+    "wiki": "Shield-_Shardian.png",
+    "gc_label": "Shardian",
+    "icon": "Weapon_Icon_Shield_Dragon_Glow",
+    "dds": "Weapon_Icon_Shield_Dragon_Glow.dds",
+    "recovered": "public\\images\\recovered\\Shield-_Shardian.png"
+  },
+  {
+    "page": "Shattergrasp",
+    "wiki": "Gloves-_Shattergrasp.png",
+    "gc_label": "Shattergrasp",
+    "icon": "Crystal_1_Gloves_Icon",
+    "dds": "Crystal_1_Gloves_Icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Shattergrasp.png"
+  },
+  {
+    "page": "Shazam!",
+    "wiki": "Body-_Shazam!.png",
+    "gc_label": "Shazam!",
+    "icon": "Padded_4_Body_Icon",
+    "dds": "Padded_4_Body_Icon.dds",
+    "recovered": "public\\images\\recovered\\Body-_Shazam!.png"
+  },
+  {
+    "page": "Sheer Protection",
+    "wiki": "Sheer_Protection.png",
+    "gc_label": "Sheer Protection",
+    "icon": "Crystal_1_Body_icon",
+    "dds": "Crystal_1_Body_icon.dds",
+    "recovered": "public\\images\\recovered\\Sheer_Protection.png"
+  },
+  {
+    "page": "Sissirat's Brother's Cousin's Roomate's Staff of Something Really Awesome",
+    "wiki": "2h-Weapon-_Sissi_Staff.png",
+    "gc_label": "Sissirat's Brother's Cousin's Roommate's Staff of Something Really Awesome",
+    "icon": "weapon_icon_shaman_staff_green",
+    "dds": "weapon_icon_shaman_staff_green.dds",
+    "recovered": "public\\images\\recovered\\2h-Weapon-_Sissi_Staff.png"
+  },
+  {
+    "page": "Sissirat's Super Sissy Smasher of Stench",
+    "wiki": "Weapon_runed_club_poison_weapon_icon.png",
+    "gc_label": "Sissirat's Super Sissy Smasher of Stench",
+    "icon": "Weapon_Runed_Club_poison_weapon_icon",
+    "dds": "Weapon_Runed_Club_poison_weapon_icon.dds",
+    "recovered": "public\\images\\recovered\\Weapon_runed_club_poison_weapon_icon.png"
+  },
+  {
+    "page": "Skanksy's Dark Crystals",
+    "wiki": "Body-_Skanksys_Dark_Crystals.png",
+    "gc_label": "Skanksy's Dark Crystals",
+    "icon": "Body_Icon_Crystal_1_Purple",
+    "dds": "Body_Icon_Crystal_1_Purple.dds",
+    "recovered": "public\\images\\recovered\\Body-_Skanksys_Dark_Crystals.png"
+  },
+  {
+    "page": "Skee'Tor",
+    "wiki": "Skee_Tor.png",
+    "gc_label": "Skee'Tor",
+    "icon": "Icon_Weapon_Pick_1H_Skeeter_Fire",
+    "dds": "icon_Weapon_Pick_1H_Skeeter_Fire.dds",
+    "recovered": "public\\images\\recovered\\Skee_Tor.png"
+  },
+  {
+    "page": "Skewed Brass Ringlets",
+    "wiki": "Helm-_Chain2_Coif_64px.png",
+    "gc_label": "Skewed Brass Ringlets",
+    "icon": "Chain_2_Helm_icon",
+    "dds": "Chain_2_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Helm-_Chain2_Coif_64px.png"
+  },
+  {
+    "page": "Skinners Only Jacket",
+    "wiki": "Shoulders-_Skinners_Only_Jacket.png",
+    "gc_label": "Skinners Only Jacket",
+    "icon": "Mythic_Leather_Armor_1_shoulders",
+    "dds": "Mythic_Leather_Armor_1_shoulders.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_Skinners_Only_Jacket.png"
+  },
+  {
+    "page": "Skulliosis",
+    "wiki": "1h-weapon_Skulliosis.png",
+    "gc_label": "Skulliosis",
+    "icon": "icon_Weapon_Pick_1H_Skulliosis",
+    "dds": "icon_Weapon_Pick_1H_Skulliosis.dds",
+    "recovered": "public\\images\\recovered\\1h-weapon_Skulliosis.png"
+  },
+  {
+    "page": "Skull Opener",
+    "wiki": "2h-weapon_Skull_Opener.png",
+    "gc_label": "Skull Opener",
+    "icon": "icon_Weapon_2H_Pick_10",
+    "dds": "Icon_Weapon_2H_Pick_10.dds",
+    "recovered": "public\\images\\recovered\\2h-weapon_Skull_Opener.png"
+  },
+  {
+    "page": "Slag Pads",
+    "wiki": "Shoulders-_Slag_Pads.png",
+    "gc_label": "Slag Pads",
+    "icon": "Crystal_6_Shoulder_icon",
+    "dds": "Crystal_6_Shoulder_Icon.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_Slag_Pads.png"
+  },
+  {
+    "page": "Slayer",
+    "wiki": "Slayer.png",
+    "gc_label": "Slayer",
+    "icon": "Weapon_Icon_Chainsword",
+    "dds": "Weapon_Icon_Chainsword.dds",
+    "recovered": "public\\images\\recovered\\Slayer.png"
+  },
+  {
+    "page": "Smasher",
+    "wiki": "2h-Weapon-_Smasher.png",
+    "gc_label": "Smasher",
+    "icon": "Weapon_Hammer_Skull_icon",
+    "dds": "Weapon_Hammer_Skull_icon.dds",
+    "recovered": "public\\images\\recovered\\2h-Weapon-_Smasher.png"
+  },
+  {
+    "page": "Smusher",
+    "wiki": "Smusher.png",
+    "gc_label": "Smusher",
+    "icon": "Weapon_Mace_Flanged_icon",
+    "dds": "Weapon_Mace_Flanged_icon.dds",
+    "recovered": "public\\images\\recovered\\Smusher.png"
+  },
+  {
+    "page": "Sorewun's Ego",
+    "wiki": "Shoulders-_Sorewuns_Ego.png",
+    "gc_label": "Sorewun's Ego",
+    "icon": "Cloth_4_Shoulder_icon",
+    "dds": "Cloth_4_Shoulder_icon.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_Sorewuns_Ego.png"
+  },
+  {
+    "page": "Sparkles",
+    "wiki": "Boots-_Sparkles.png",
+    "gc_label": "Sparkles",
+    "icon": "Crystal_5_Boots_Icon",
+    "dds": "Crystal_5_Boots_icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Sparkles.png"
+  },
+  {
+    "page": "Squeaks",
+    "wiki": "Mouse_ears_02_helm_icon.png",
+    "gc_label": "Squeaks",
+    "icon": "Mouse_Ears_02_Helm_icon",
+    "dds": "Mouse_Ears_02_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Mouse_ears_02_helm_icon.png"
+  },
+  {
+    "page": "Staff of Rarrr",
+    "wiki": "2h-Weapon-_Staff_of_Rarr.png",
+    "gc_label": "Staff of Rarrr",
+    "icon": "Weapon_Staff_Horny_icon",
+    "dds": "Weapon_Staff_Horny_icon.dds",
+    "recovered": "public\\images\\recovered\\2h-Weapon-_Staff_of_Rarr.png"
+  },
+  {
+    "page": "Stiki Wiki Hot Glue Gun",
+    "wiki": "Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston.png)_128px.png",
+    "gc_label": "Stiki Wiki Hot-Glue Gun",
+    "icon": "Weapon_Icon_2H_Stiki_Wiki",
+    "dds": "Weapon_Icon_2H_Stiki_Wiki.dds",
+    "recovered": "public\\images\\recovered\\Stiki_Wiki_Hot-Glue_Gun_(Made_in_Townston.png)_128px.png"
+  },
+  {
+    "page": "Superior Wand of Superiority",
+    "wiki": "1h-Weapon-_Superior_Wand_of_Superiority.png",
+    "gc_label": "Superior Wand of Stupendous Superiority",
+    "icon": "Weapon_Icon_BattleStave",
+    "dds": "Weapon_Icon_BattleStave.dds",
+    "recovered": "public\\images\\recovered\\1h-Weapon-_Superior_Wand_of_Superiority.png"
+  },
+  {
+    "page": "Sweetheart's Ring of Extra XOXOXO",
+    "wiki": "Ring-_Sweethearts_Ring_of_Extra_XOXOXO.png",
+    "gc_label": "Sweetheart's Ring of Extra XOXOXO",
+    "icon": "Inventory_Icon_Ring_14",
+    "dds": "Inventory_Icon_Ring_14.dds",
+    "recovered": "public\\images\\recovered\\Ring-_Sweethearts_Ring_of_Extra_XOXOXO.png"
+  },
+  {
+    "page": "Sweet Vengeance",
+    "wiki": "1h-weapon-_Sweet_Vengeance.png",
+    "gc_label": "Sweet Vengeance",
+    "icon": "weapon_icon_spiked_club_magical",
+    "dds": "weapon_icon_spiked_club_magical.dds",
+    "recovered": "public\\images\\recovered\\1h-weapon-_Sweet_Vengeance.png"
+  },
+  {
+    "page": "Ten Ton Hammer",
+    "wiki": "2h-weapon-_Ten_Ton_Hammer.png",
+    "gc_label": "Ten Ton Hammer",
+    "icon": "Icon_Weapon_2H_TenTonHammer",
+    "dds": "Icon_Weapon_2H_TenTonHammer.dds",
+    "recovered": "public\\images\\recovered\\2h-weapon-_Ten_Ton_Hammer.png"
+  },
+  {
+    "page": "The Condemned",
+    "wiki": "Helm-_Ghost3_Mask_64px.png",
+    "gc_label": "The Condemned",
+    "icon": "Ghost_3_Helm_icon",
+    "dds": "Ghost_3_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Helm-_Ghost3_Mask_64px.png"
+  },
+  {
+    "page": "The Electric Fence",
+    "wiki": "Shield-_The_Electric_Fence.png",
+    "gc_label": "The Electric Fence",
+    "icon": "Weapon_Icon_Shield_Round_Small",
+    "dds": "Weapon_Icon_Shield_Round_Small.dds",
+    "recovered": "public\\images\\recovered\\Shield-_The_Electric_Fence.png"
+  },
+  {
+    "page": "The Fabled One",
+    "wiki": "1h-weapon-_The_Fabled_One.png",
+    "gc_label": "The Fabled One",
+    "icon": "Weapon_Icon_Fanged_Handaxe_Magical",
+    "dds": "weapon_icon_fanged_handaxe_magical.dds",
+    "recovered": "public\\images\\recovered\\1h-weapon-_The_Fabled_One.png"
+  },
+  {
+    "page": "The Found One",
+    "wiki": "Amulet-_The_Found_One.png",
+    "gc_label": "The Found One",
+    "icon": "inventory_icon_amulet_orokpendant",
+    "dds": "inventory_icon_amulet_orokpendant.dds",
+    "recovered": "public\\images\\recovered\\Amulet-_The_Found_One.png"
+  },
+  {
+    "page": "The Gavel",
+    "wiki": "2h-Weapon-_The_Gavel.png",
+    "gc_label": "The Gavel",
+    "icon": "weapon_icon_hammer_sledge",
+    "dds": "Weapon_Icon_Hammer_Sledge.dds",
+    "recovered": "public\\images\\recovered\\2h-Weapon-_The_Gavel.png"
+  },
+  {
+    "page": "The Horror",
+    "wiki": "Body-_Deaths_Habit.png",
+    "gc_label": "The Horror",
+    "icon": "Ghost_3_Body_icon",
+    "dds": "Ghost_3_Body_icon.dds",
+    "recovered": "public\\images\\recovered\\Body-_Deaths_Habit.png"
+  },
+  {
+    "page": "The Judge",
+    "wiki": "The_Judge.png",
+    "gc_label": "The Judge",
+    "icon": "Weapon_Icon_Shotgun",
+    "dds": "Weapon_Icon_Shotgun.dds",
+    "recovered": "public\\images\\recovered\\The_Judge.png"
+  },
+  {
+    "page": "The King's Jumpsuit",
+    "wiki": "Body-_Cloth3_Killer_Threads.png",
+    "gc_label": "The King's Jumpsuit",
+    "icon": "Unique_Cloth_Armor_3_Body_icon",
+    "dds": "Unique_Cloth_Armor_3_Body_icon.dds",
+    "recovered": "public\\images\\recovered\\Body-_Cloth3_Killer_Threads.png"
+  },
+  {
+    "page": "The King's Memorial Plate",
+    "wiki": "The_Kings_Memorial_Plate.png",
+    "gc_label": "The King's Memorial Plate",
+    "icon": "Body_Icon_Heavy01_Gold",
+    "dds": "Body_Icon_Heavy01_Gold.dds",
+    "recovered": "public\\images\\recovered\\The_Kings_Memorial_Plate.png"
+  },
+  {
+    "page": "The King's Mitts",
+    "wiki": "Gloves-_The_Kings_Mitts.png",
+    "gc_label": "The King's Mitts",
+    "icon": "Gloves_Icon_Heavy01_Gold",
+    "dds": "Gloves_Icon_Heavy01_Gold.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_The_Kings_Mitts.png"
+  },
+  {
+    "page": "The Late Knight's Cap",
+    "wiki": "The-Late-Knights-Cap.png",
+    "gc_label": "The Late Knight's Cap",
+    "icon": "Helmet_Icon_Winged01_Black",
+    "dds": "Helmet_Icon_Winged01_Black.dds",
+    "recovered": "public\\images\\recovered\\The-Late-Knights-Cap.png"
+  },
+  {
+    "page": "The Late Knight's Gauntlets",
+    "wiki": "Gloves-_Dark_Plate_Gauntlets.png",
+    "gc_label": "The Late Knight's Gauntlets",
+    "icon": "Gloves_Icon_Heavy01_Black",
+    "dds": "Gloves_Icon_Heavy01_Black.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Dark_Plate_Gauntlets.png"
+  },
+  {
+    "page": "The Late Knight's Grievances",
+    "wiki": "The-Late-Knights-Grievances.png",
+    "gc_label": "The Late Knight's Grievances",
+    "icon": "Boots_Icon_Heavy01_Black",
+    "dds": "Boots_Icon_Heavy01_Black.dds",
+    "recovered": "public\\images\\recovered\\The-Late-Knights-Grievances.png"
+  },
+  {
+    "page": "The Late Knight's Stacks",
+    "wiki": "Shoulders-_The_Late_Knights_Stacks.png",
+    "gc_label": "The Late Knight's Stacks",
+    "icon": "Shoulder_Icon_Plate_Black",
+    "dds": "Shoulder_Icon_Plate_Black.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_The_Late_Knights_Stacks.png"
+  },
+  {
+    "page": "The Lost One",
+    "wiki": "Ring-_The_Lost_One.png",
+    "gc_label": "The Lost One",
+    "icon": "Inventory_Icon_Ring_20",
+    "dds": "Inventory_Icon_Ring_20.dds",
+    "recovered": "public\\images\\recovered\\Ring-_The_Lost_One.png"
+  },
+  {
+    "page": "The Manipulators",
+    "wiki": "Gloves-_Ghost3_Gloves_64px.png",
+    "gc_label": "The Manipulators",
+    "icon": "Ghost_3_Gloves_icon",
+    "dds": "Ghost_3_Gloves_Icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Ghost3_Gloves_64px.png"
+  },
+  {
+    "page": "The Merciless",
+    "wiki": "Shoulders-_Ghost3_Spaulders_64px.png",
+    "gc_label": "The Merciless",
+    "icon": "Ghost_3_Shoulder_icon",
+    "dds": "Ghost_3_Shoulder_icon.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-_Ghost3_Spaulders_64px.png"
+  },
+  {
+    "page": "The Most Amazing Ring Known to Goats",
+    "wiki": "Ring-_The_Most_Amazing_Ring_Known_to_Goats.png",
+    "gc_label": "The Most Amazing Ring Known to Goats",
+    "icon": "inventory_icon_ring_08",
+    "dds": "Inventory_Icon_Ring_08.dds",
+    "recovered": "public\\images\\recovered\\Ring-_The_Most_Amazing_Ring_Known_to_Goats.png"
+  },
+  {
+    "page": "The Nadir",
+    "wiki": "Boots-_Ghost3_Boots_64px.png",
+    "gc_label": "The Nadir",
+    "icon": "Ghost_3_Boot_icon",
+    "dds": "Ghost_3_Boot_icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Ghost3_Boots_64px.png"
+  },
+  {
+    "page": "The One True Bling",
+    "wiki": "Ring-_The_One_True_Bling.png",
+    "gc_label": "The One True Bling",
+    "icon": "Inventory_Icon_Ring_13",
+    "dds": "Inventory_Icon_Ring_13.dds",
+    "recovered": "public\\images\\recovered\\Ring-_The_One_True_Bling.png"
+  },
+  {
+    "page": "The Un-Holy Hand Grenade of Anti-Gosh",
+    "wiki": "Amulet-_The_Un-Holy_Hand_Grenade_of_Anti-Gosh.png",
+    "gc_label": "The Un-Holy Hand Grenade of Anti-Gosh",
+    "icon": "inventory_icon_amulet13",
+    "dds": "inventory_icon_amulet13.dds",
+    "recovered": "public\\images\\recovered\\Amulet-_The_Un-Holy_Hand_Grenade_of_Anti-Gosh.png"
+  },
+  {
+    "page": "The Wicked Barb",
+    "wiki": "2h-weapon-_The_Wicked_Barb.png",
+    "gc_label": "The Wicked Barb",
+    "icon": "Weapon_Icon_Flamberge",
+    "dds": "weapon_icon_flamberge.dds",
+    "recovered": "public\\images\\recovered\\2h-weapon-_The_Wicked_Barb.png"
+  },
+  {
+    "page": "Threadz Ear Protectors",
+    "wiki": "Shoulders-Threadz_Ear_Protectors.png",
+    "gc_label": "Threadz Ear Protectors (Think about it)",
+    "icon": "Mythic_Cloth_01_Shoulders_Icon",
+    "dds": "Mythic_Cloth_01_Shoulders_Icon.dds",
+    "recovered": "public\\images\\recovered\\Shoulders-Threadz_Ear_Protectors.png"
+  },
+  {
+    "page": "Threadz Finger Warmers",
+    "wiki": "Gloves-Threadz_Finger_Warmers.png",
+    "gc_label": "Threadz Finger Warmers",
+    "icon": "Mythic_Cloth_01_Gloves_Icon",
+    "dds": "Mythic_Cloth_01_Gloves_Icon.dds",
+    "recovered": "public\\images\\recovered\\Gloves-Threadz_Finger_Warmers.png"
+  },
+  {
+    "page": "Threadz Hat",
+    "wiki": "Helm-Threadz_Hat.png",
+    "gc_label": "Threadz Hat",
+    "icon": "Mythic_Cloth_01_Helm_Icon",
+    "dds": "Mythic_Cloth_01_Helm_Icon.dds",
+    "recovered": "public\\images\\recovered\\Helm-Threadz_Hat.png"
+  },
+  {
+    "page": "Threadz Toe Ticklers",
+    "wiki": "Boots-Threadz_Toe_Ticklers.png",
+    "gc_label": "Threadz Toe Ticklers",
+    "icon": "Mythic_Cloth_01_Boots_Icon",
+    "dds": "Mythic_Cloth_01_Boots_Icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-Threadz_Toe_Ticklers.png"
+  },
+  {
+    "page": "Threadz Wrap",
+    "wiki": "Body-Threadz_Wrap.png",
+    "gc_label": "Threadz Wrap",
+    "icon": "Mythic_Cloth_01_Body_Icon",
+    "dds": "Mythic_Cloth_01_Body_Icon.dds",
+    "recovered": "public\\images\\recovered\\Body-Threadz_Wrap.png"
+  },
+  {
+    "page": "Time Slippin' Slippers",
+    "wiki": "Boots-_Time_Slippin_Slippers.png",
+    "gc_label": "Time Slippin' Slippers",
+    "icon": "Unique_Cloth_Armor_3_Boot_icon",
+    "dds": "Unique_Cloth_Armor_3_Boot_icon.dds",
+    "recovered": "public\\images\\recovered\\Boots-_Time_Slippin_Slippers.png"
+  },
+  {
+    "page": "Timrek's Tyranny",
+    "wiki": "Gloves-_Timreks_Tyranny.png",
+    "gc_label": "Timrek's Tyranny",
+    "icon": "Gloves_Icon_Crystal_1_Purple",
+    "dds": "Gloves_Icon_Crystal_1_Purple.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Timreks_Tyranny.png"
+  },
+  {
+    "page": "Tormentor",
+    "wiki": "1h-weapon-_Tormentor.png",
+    "gc_label": "Tormentor",
+    "icon": "Weapon_Runed_Club_shadow_weapon_icon",
+    "dds": "Weapon_Runed_Club_shadow_weapon_icon.dds",
+    "recovered": "public\\images\\recovered\\1h-weapon-_Tormentor.png"
+  },
+  {
+    "page": "Uber-Brella",
+    "wiki": "2h-weapon_Uber-Brella.png",
+    "gc_label": "Uber-Brella",
+    "icon": "icon_Weapon_2H_Pick_03",
+    "dds": "Icon_Weapon_2H_Pick_03.dds",
+    "recovered": "public\\images\\recovered\\2h-weapon_Uber-Brella.png"
+  },
+  {
+    "page": "Uber-Most Amulet of the Dreaded Dragonfly",
+    "wiki": "Amulet-_Uber-Most_Amulet_of_the_Dreaded_Dragonfly.png",
+    "gc_label": "Uber-Most Amulet of the Dreaded Dragonfly",
+    "icon": "inventory_icon_amulet10",
+    "dds": "inventory_icon_amulet10.dds",
+    "recovered": "public\\images\\recovered\\Amulet-_Uber-Most_Amulet_of_the_Dreaded_Dragonfly.png"
+  },
+  {
+    "page": "Uber Wand",
+    "wiki": "1h-Weapon-_Uber_Wand.png",
+    "gc_label": "Uber Wand",
+    "icon": "weapon_wand_skeleton_icon",
+    "dds": "Weapon_Wand_Skeleton_icon.dds",
+    "recovered": "public\\images\\recovered\\1h-Weapon-_Uber_Wand.png"
+  },
+  {
+    "page": "Ultimate Rush",
+    "wiki": "Gloves-_Ultimate_Rush.png",
+    "gc_label": "Ultimate Rush",
+    "icon": "Gloves_Icon_Chain01",
+    "dds": "Gloves_Icon_Chain01.dds",
+    "recovered": "public\\images\\recovered\\Gloves-_Ultimate_Rush.png"
+  },
+  {
+    "page": "Ultramarine Sneaks",
+    "wiki": "Ultramarine_Sneaks.png",
+    "gc_label": "Ultramarine Sneaks",
+    "icon": "Boots_Icon_Leather01",
+    "dds": "Boots_Icon_Leather01.dds",
+    "recovered": "public\\images\\recovered\\Ultramarine_Sneaks.png"
+  },
+  {
+    "page": "Unforgettable",
+    "wiki": "2h-Weapon-_Unforgettable.png",
+    "gc_label": "Unforgettable",
+    "icon": "Icon_Weapon_2H_Axe_02",
+    "dds": "Icon_Weapon_2H_Axe_02.dds",
+    "recovered": "public\\images\\recovered\\2h-Weapon-_Unforgettable.png"
+  },
+  {
+    "page": "Valentine's Doily of Death",
+    "wiki": "Shield-_Valentines_Doily_of_Death.png",
+    "gc_label": "Valentine's Doily of Death",
+    "icon": "Weapon_Icon_Shield_Spiked",
+    "dds": "Weapon_Icon_Shield_Spiked.dds",
+    "recovered": "public\\images\\recovered\\Shield-_Valentines_Doily_of_Death.png"
+  },
+  {
+    "page": "Vane",
+    "wiki": "Vane.png",
+    "gc_label": "Vane",
+    "icon": "icon_Weapon_2H_Pick_18",
+    "dds": "Icon_Weapon_2H_Pick_18.dds",
+    "recovered": "public\\images\\recovered\\Vane.png"
+  },
+  {
+    "page": "Vile Shoulders",
+    "wiki": "Vile-Shoulders.png",
+    "gc_label": "Vile Shoulders",
+    "icon": "Splint_4_Shoulder_Icon",
+    "dds": "Splint_4_Shoulder_icon.dds",
+    "recovered": "public\\images\\recovered\\Vile-Shoulders.png"
+  },
+  {
+    "page": "Vis'Kar's Bilespitter",
+    "wiki": "2h-Ranged-_VisKars_Bilespitter.png",
+    "gc_label": "Vis'Kar's Bilespitter",
+    "icon": "Icon_Weapon_Xbow_2H_08_Poison",
+    "dds": "Icon_Weapon_Xbow_2H_08_Poison.dds",
+    "recovered": "public\\images\\recovered\\2h-Ranged-_VisKars_Bilespitter.png"
+  },
+  {
+    "page": "Wake of the Devastator",
+    "wiki": "Wake-of-the-Devastator.png",
+    "gc_label": "Wake of the Devastator",
+    "icon": "Weapon_Polearm_Crescent_icon",
+    "dds": "Weapon_Polearm_Crescent_icon.dds",
+    "recovered": "public\\images\\recovered\\Wake-of-the-Devastator.png"
+  },
+  {
+    "page": "Wang Dynasty Headgear",
+    "wiki": "Helm-_Wang_Dynasty_Headgear.png",
+    "gc_label": "Wang Dynasty Headgear",
+    "icon": "Unique_Cloth_Armor_Set_2_Helm_icon",
+    "dds": "Unique_Cloth_Armor_Set_2_Helm_icon.dds",
+    "recovered": "public\\images\\recovered\\Helm-_Wang_Dynasty_Headgear.png"
+  },
+  {
+    "page": "Wrath",
+    "wiki": "1h-weapon_Wrath.png",
+    "gc_label": "Wrath",
+    "icon": "Weapon_Icon_Soulsword",
+    "dds": "weapon_icon_soulsword.dds",
+    "recovered": "public\\images\\recovered\\1h-weapon_Wrath.png"
+  },
+  {
+    "page": "Wring",
+    "wiki": "Ring-_Wring.png",
+    "gc_label": "Wring",
+    "icon": "Inventory_Icon_Ring_26",
+    "dds": "Inventory_Icon_Ring_26.dds",
+    "recovered": "public\\images\\recovered\\Ring-_Wring.png"
+  },
+  {
+    "page": "Yeahhhh Boyyy!",
+    "wiki": "Amulet-_Yeahhh_Boyyy.png",
+    "gc_label": "Yeahhhh Boyyy!",
+    "icon": "inventory_icon_amulet20",
+    "dds": "inventory_icon_amulet20.dds",
+    "recovered": "public\\images\\recovered\\Amulet-_Yeahhh_Boyyy.png"
+  },
+  {
+    "page": "Ye Old Manhole Cover",
+    "wiki": "Shield-_Ye_Old_Manhole_Cover.png",
+    "gc_label": "Ye Old Manhole Cover",
+    "icon": "Weapon_Icon_Shield_Tower_Metal",
+    "dds": "Weapon_Icon_Shield_Tower_Metal.dds",
+    "recovered": "public\\images\\recovered\\Shield-_Ye_Old_Manhole_Cover.png"
+  },
+  {
+    "page": "Yoke of the Chained Letter",
+    "wiki": "Yoke-of-the-Chained-Letter.png",
+    "gc_label": "Yoke of the Chained Letter",
+    "icon": "Chain_2_Shoulder_icon",
+    "dds": "Chain_2_Shoulder_icon.dds",
+    "recovered": "public\\images\\recovered\\Yoke-of-the-Chained-Letter.png"
+  }
+]
