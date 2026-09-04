@@ -21,7 +21,12 @@ function wikiRoutes(dir: string): string[] {
         catch {
           // keep encoded
         }
-        routes.push(path.replace(/[()[\]?*]/g, (ch) => encodeURIComponent(ch)))
+        const slug = path.replace(/^\/wiki\//, '')
+        const encoded = `/wiki/${slug.split('/').map((part) => part.replace(/[?#\[\]@!$&'()*+,;=%.]/g, encodeURIComponent)).join('/')}`
+        routes.push(encoded)
+        if (encoded !== path) routes.push(path)
+        const api = `/api/wiki/${encoded.replace(/^\/wiki\//, '')}`
+        routes.push(api)
       }
       catch {
         // skip broken generated files

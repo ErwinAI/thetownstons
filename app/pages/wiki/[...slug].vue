@@ -1,16 +1,20 @@
 <script setup lang="ts">
-import { findCanonicalPath, sanitizeWikiHtml, wikiApiPath } from '#shared/wiki'
+import { findCanonicalPath, mergeQuestionTitle, sanitizeWikiHtml, wikiApiPath, wikiHref } from '#shared/wiki'
 
 const route = useRoute()
 const slug = computed(() => {
   // Colons in titles (Category:Foo) get eaten as Vue/Nitro params.
   // Prefer the real request path, then fall back to the catch-all.
   let path = ''
+  let search = ''
   if (import.meta.server) {
-    path = useRequestURL().pathname
+    const url = useRequestURL()
+    path = url.pathname
+    search = url.search
   }
   else if (import.meta.client) {
     path = window.location.pathname
+    search = window.location.search
   }
   path = path.replace(/^\/wiki\//, '').replace(/\/+$/, '')
   try {
@@ -19,6 +23,7 @@ const slug = computed(() => {
   catch {
     // keep raw
   }
+  path = mergeQuestionTitle(path, search)
   if (path) return path
   const parts = route.params.slug
   return Array.isArray(parts) ? parts.join('/') : String(parts || '')
@@ -34,8 +39,8 @@ const canonicalPath = computed(() => findCanonicalPath(slug.value, pages.value))
 const requestPath = computed(() => `/wiki/${slug.value}`)
 const targetPath = computed(() => canonicalPath.value || requestPath.value)
 
-if (canonicalPath.value && canonicalPath.value !== requestPath.value) {
-  await navigateTo(canonicalPath.value, { redirectCode: 301, replace: true })
+if (canonicalPath.value && wikiHref(canonicalPath.value) !== wikiHref(requestPath.value)) {
+  await navigateTo(wikiHref(canonicalPath.value), { redirectCode: 301, replace: true })
 }
 
 const apiSlug = computed(() => targetPath.value.replace(/^\/wiki\//, ''))
@@ -148,7 +153,7 @@ const displayHtml = computed(() => {
               <h3>{{ group.letter }}</h3>
               <ul>
                 <li v-for="item in group.items" :key="item.path">
-                  <NuxtLink :to="item.path">{{ item.title }}</NuxtLink>
+                  <NuxtLink :to="wikiHref(item.path)">{{ item.title }}</NuxtLink>
                 </li>
               </ul>
             </template>
@@ -166,7 +171,7 @@ const displayHtml = computed(() => {
               <h3>{{ group.letter }}</h3>
               <ul>
                 <li v-for="member in group.items" :key="member.path">
-                  <NuxtLink :to="member.path">{{ member.title }}</NuxtLink>
+                  <NuxtLink :to="wikiHref(member.path)">{{ member.title }}</NuxtLink>
                 </li>
               </ul>
             </template>
@@ -177,7 +182,7 @@ const displayHtml = computed(() => {
     <div v-if="categories.length" class="catlinks">
       Categories:
       <template v-for="(cat, i) in categories" :key="cat">
-        <NuxtLink :to="'/wiki/Category/' + cat.replace(/ /g, '_')">{{ cat }}</NuxtLink>
+        <NuxtLink :to="wikiHref('/wiki/Category/' + cat.replace(/ /g, '_'))">{{ cat }}</NuxtLink>
         <span v-if="i < categories.length - 1"> | </span>
       </template>
     </div>
@@ -194,7 +199,7 @@ const displayHtml = computed(() => {
               <h3>{{ group.letter }}</h3>
               <ul>
                 <li v-for="member in group.items" :key="member.path">
-                  <NuxtLink :to="member.path">{{ member.title }}</NuxtLink>
+                  <NuxtLink :to="wikiHref(member.path)">{{ member.title }}</NuxtLink>
                 </li>
               </ul>
             </template>

@@ -1,9 +1,12 @@
+import { mergeQuestionTitle } from '#shared/wiki'
+
 export default defineEventHandler((event) => {
   const slug = (getRouterParam(event, 'slug') || '').replace(/\/+$/, '')
-  const raw = (event.node?.req?.url || event.path || '')
-    .split('?')[0]
-    .replace(/^\/api\/wiki\//, '')
-    .replace(/\/+$/, '')
+  const full = (event.node?.req?.url || event.path || '').replace(/^\/api\/wiki\//, '')
+  const q = full.indexOf('?')
+  const pathOnly = (q >= 0 ? full.slice(0, q) : full).replace(/\/+$/, '')
+  const search = q >= 0 ? full.slice(q) : ''
+  const raw = mergeQuestionTitle(pathOnly, search)
   let decoded = raw
   try {
     decoded = decodeURIComponent(raw)

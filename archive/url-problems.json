@@ -1,0 +1,987 @@
+{
+  "pages": 2069,
+  "unique_hrefs": 2387,
+  "total_hrefs": 18769,
+  "encoded_stored_paths": 31,
+  "file_vs_path_mismatches": 29,
+  "file_mismatch_samples": [
+    {
+      "file": "1-2_Blade.json",
+      "path": "/wiki/1/2_Blade",
+      "file_slug": "1-2_Blade"
+    },
+    {
+      "file": "1-2_Slacker.json",
+      "path": "/wiki/1/2_Slacker",
+      "file_slug": "1-2_Slacker"
+    },
+    {
+      "file": "Abaddon's_Guard_Caster.json",
+      "path": "/wiki/Abaddon's_Guard_%28Caster%29",
+      "file_slug": "Abaddon's_Guard_Caster"
+    },
+    {
+      "file": "Abaddon's_Guard_Melee.json",
+      "path": "/wiki/Abaddon's_Guard_%28Melee%29",
+      "file_slug": "Abaddon's_Guard_Melee"
+    },
+    {
+      "file": "Algor's_Terror_Dome_Quest.json",
+      "path": "/wiki/Algor's_Terror_Dome_%28Quest%29",
+      "file_slug": "Algor's_Terror_Dome_Quest"
+    },
+    {
+      "file": "An_Explorer's_Task_Algor's.json",
+      "path": "/wiki/An_Explorer's_Task_%28Algor's%29",
+      "file_slug": "An_Explorer's_Task_Algor's"
+    },
+    {
+      "file": "Audit_Terra-Infirma_4.json",
+      "path": "/wiki/Audit_Terra-Infirma_%284%29",
+      "file_slug": "Audit_Terra-Infirma_4"
+    },
+    {
+      "file": "Captain_Pollution_5.json",
+      "path": "/wiki/Captain_Pollution_%285%29",
+      "file_slug": "Captain_Pollution_5"
+    },
+    {
+      "file": "Conservation_Extremists_2.json",
+      "path": "/wiki/Conservation_Extremists_%282%29",
+      "file_slug": "Conservation_Extremists_2"
+    },
+    {
+      "file": "Donations-thanks.json",
+      "path": "/wiki/Donations/thanks",
+      "file_slug": "Donations-thanks"
+    },
+    {
+      "file": "Druid_Ice_or_Fire.json",
+      "path": "/wiki/Druid_%28Ice_or_Fire%29",
+      "file_slug": "Druid_Ice_or_Fire"
+    },
+    {
+      "file": "Exploring_Frump's_Misfortune_2.json",
+      "path": "/wiki/Exploring_Frump's_Misfortune_%282%29",
+      "file_slug": "Exploring_Frump's_Misfortune_2"
+    },
+    {
+      "file": "Farming_Gold..._Vegetables,_Again_Part_II.json",
+      "path": "/wiki/Farming_Gold..._Vegetables,_Again?_Part_II",
+      "file_slug": "Farming_Gold..._Vegetables,_Again_Part_II"
+    },
+    {
+      "file": "Farming_Gold..._Vegetables_Part_II.json",
+      "path": "/wiki/Farming_Gold..._Vegetables?_Part_II",
+      "file_slug": "Farming_Gold..._Vegetables_Part_II"
+    },
+    {
+      "file": "Frump's_Misfortune_quest.json",
+      "path": "/wiki/Frump's_Misfortune_%28quest%29",
+      "file_slug": "Frump's_Misfortune_quest"
+    },
+    {
+      "file": "Hydrostatic_Shadow-Ice_Mage.json",
+      "path": "/wiki/Hydrostatic_%28Shadow%2FIce%29_Mage",
+      "file_slug": "Hydrostatic_Shadow-Ice_Mage"
+    },
+    {
+      "file": "Its_Burning,_Man!_3.json",
+      "path": "/wiki/Its_Burning,_Man!_%283%29",
+      "file_slug": "Its_Burning,_Man!_3"
+    },
+    {
+      "file": "Main_Page-news.json",
+      "path": "/wiki/Main_Page/news",
+      "file_slug": "Main_Page-news"
+    },
+    {
+      "file": "Main_Page-newsarchive.json",
+      "path": "/wiki/Main_Page/newsarchive",
+      "file_slug": "Main_Page-newsarchive"
+    },
+    {
+      "file": "Normal_mob.json",
+      "path": "/wiki/Normal_%28mob%29",
+      "file_slug": "Normal_mob"
+    },
+    {
+      "file": "Ratsputin's_Gulag_Quest.json",
+      "path": "/wiki/Ratsputin's_Gulag_%28Quest%29",
+      "file_slug": "Ratsputin's_Gulag_Quest"
+    },
+    {
+      "file": "Stiki_Wiki_Hot-Glue_Gun_Made_in_Townston.json",
+      "path": "/wiki/Stiki_Wiki_Hot-Glue_Gun_%28Made_in_Townston%29",
+      "file_slug": "Stiki_Wiki_Hot-Glue_Gun_Made_in_Townston"
+    },
+    {
+      "file": "The_Trouble_with_Ice_Oroks_2.json",
+      "path": "/wiki/The_Trouble_with_Ice_Oroks_%282%29",
+      "file_slug": "The_Trouble_with_Ice_Oroks_2"
+    },
+    {
+      "file": "The_Trouble_with_Ice_Oroks_3.json",
+      "path": "/wiki/The_Trouble_with_Ice_Oroks_%283%29",
+      "file_slug": "The_Trouble_with_Ice_Oroks_3"
+    },
+    {
+      "file": "Towns-Outposts.json",
+      "path": "/wiki/Towns/Outposts",
+      "file_slug": "Towns-Outposts"
+    }
+  ],
+  "path_character_classes": {
+    "ellipsis": 12,
+    "nested-slash": 159,
+    "plain": 1299,
+    "apostrophe": 375,
+    "paren": 36,
+    "comma": 89,
+    "bang": 46,
+    "other-special": 5,
+    "question": 3,
+    "ampersand": 8,
+    "category-slash": 154,
+    "category-colon": 1
+  },
+  "path_examples": {
+    "ellipsis": [
+      "/wiki/...Contract",
+      "/wiki/C.H.U.M.",
+      "/wiki/Expand_and...",
+      "/wiki/Farming_Gold..._Vegetables,_Again",
+      "/wiki/Farming_Gold..._Vegetables,_Again?_Part_II",
+      "/wiki/Farming_Gold..._Vegetables",
+      "/wiki/Farming_Gold..._Vegetables?_Part_II",
+      "/wiki/Ill_Gotten_Gold..._Vegetables,_Again"
+    ],
+    "nested-slash": [
+      "/wiki/1/2_Blade",
+      "/wiki/1/2_Slacker",
+      "/wiki/Donations/thanks",
+      "/wiki/Main_Page/news",
+      "/wiki/Main_Page/newsarchive",
+      "/wiki/Towns/Outposts",
+      "/wiki/1/2_Blade",
+      "/wiki/1/2_Slacker"
+    ],
+    "plain": [
+      "/wiki/1H_Swivel_Arm_Action",
+      "/wiki/20_Cubit_Spinnerz",
+      "/wiki/2H_Swivel_Arm_Action",
+      "/wiki/5_Fleshy_and_1_Metal_Hook_Holders",
+      "/wiki/Aba-_Champions",
+      "/wiki/Abaddon",
+      "/wiki/Abadunkadunkadonna",
+      "/wiki/Abba-_Champions"
+    ],
+    "apostrophe": [
+      "/wiki/Abaddon's_Abysmal_Candy",
+      "/wiki/Abaddon's_Amazing_Relic",
+      "/wiki/Abaddon's_Cipher",
+      "/wiki/Abaddon's_Common_Relics",
+      "/wiki/Abaddon's_Family",
+      "/wiki/Abaddon's_Family_Business",
+      "/wiki/Abaddon's_Guard",
+      "/wiki/Abaddon's_Guard_%28Caster%29"
+    ],
+    "paren": [
+      "/wiki/Abaddon's_Guard_%28Caster%29",
+      "/wiki/Abaddon's_Guard_%28Melee%29",
+      "/wiki/Abaddon's_Guard_%28Caster%29",
+      "/wiki/Abaddon's_Guard_%28Melee%29",
+      "/wiki/Algor's_Terror_Dome_%28Quest%29",
+      "/wiki/Algor's_Terror_Dome_%28Quest%29",
+      "/wiki/An_Explorer's_Task_%28Algor's%29",
+      "/wiki/An_Explorer's_Task_%28Algor's%29"
+    ],
+    "comma": [
+      "/wiki/Amateur_Ow,_Er",
+      "/wiki/Amateur_Ow,_Ers",
+      "/wiki/At_last,_MutantMania",
+      "/wiki/A_Favor_for_Herschel,_Part_1",
+      "/wiki/A_Favor_for_Herschel,_Part_2",
+      "/wiki/Blayde,_Da_Flayme,_and_Phreeze",
+      "/wiki/Coddle,_Kowtow,_and_Delight",
+      "/wiki/Coddle,_Kowtow,_and_Delight_II"
+    ],
+    "bang": [
+      "/wiki/Charge!",
+      "/wiki/CLEARANCE!_Orok_Fire_Sale",
+      "/wiki/Contaminated_Devastator!",
+      "/wiki/Divine_Devastator!",
+      "/wiki/Ebon_Devastator!",
+      "/wiki/Ember_Devastator!",
+      "/wiki/Fade_Devastator!",
+      "/wiki/Fade_Devastators!"
+    ],
+    "other-special": [
+      "/wiki/Disturbing_the_the_Barrista.",
+      "/wiki/index.html",
+      "/wiki/More_with_the_Noise_Complaints.",
+      "/wiki/Mr._Fracture-Upper",
+      "/wiki/Mr._Loppit"
+    ],
+    "question": [
+      "/wiki/Farming_Gold..._Vegetables,_Again?_Part_II",
+      "/wiki/Farming_Gold..._Vegetables?_Part_II",
+      "/wiki/Travelers?_Check"
+    ],
+    "ampersand": [
+      "/wiki/Banning_the_Banished/_Levels_1_&_2",
+      "/wiki/Banning_the_Banished/_Levels_1_&_2_II",
+      "/wiki/Banning_the_Banished/_Levels_3_&_4",
+      "/wiki/Banning_the_Banished/_Levels_3_&_4_II",
+      "/wiki/Re-Banning_the_Re-Banished/_Levels_1_&_2",
+      "/wiki/Re-Banning_the_Re-Banished/_Levels_1_&_2_II",
+      "/wiki/Re-Banning_the_Re-Banished/_Levels_3_&_4",
+      "/wiki/Re-Banning_the_Re-Banished/_Levels_3_&_4_II"
+    ],
+    "category-slash": [
+      "/wiki/Category/Algernon_Quests",
+      "/wiki/Category/Algor's_Terror_Dome_Quests",
+      "/wiki/Category/Angel",
+      "/wiki/Category/Armor",
+      "/wiki/Category/Audit_Algernon_Quests",
+      "/wiki/Category/Audit_Quests",
+      "/wiki/Category/Audrey_the_Alchemist_Quests",
+      "/wiki/Category/Balzack's_Burrow_Quests"
+    ],
+    "category-colon": [
+      "/wiki/Category:Towns/Outposts"
+    ]
+  },
+  "broken": {
+    "old-wiki-namespace": {
+      "unique": 74,
+      "refs": 296,
+      "top": [
+        {
+          "href": "/wiki/User/Catwalksbyhimself",
+          "count": 58,
+          "sources": [
+            "/wiki/Boss_Guide",
+            "/wiki/Boss_Guide",
+            "/wiki/Boss_Guide"
+          ]
+        },
+        {
+          "href": "/wiki/Special/Upload",
+          "count": 49,
+          "sources": [
+            "/wiki/AoE_Spammer_-_Hybrid_Class",
+            "/wiki/Nasty_Devastator!",
+            "/wiki/Quest_Items_List"
+          ]
+        },
+        {
+          "href": "/wiki/User/LegendRunner",
+          "count": 40,
+          "sources": [
+            "/wiki/FAQ",
+            "/wiki/Melee_Reflect_Fighter",
+            "/wiki/Wiki_Guide"
+          ]
+        },
+        {
+          "href": "/wiki/User/Spetsdod",
+          "count": 38,
+          "sources": [
+            "/wiki/List_of_Equations",
+            "/wiki/Wiki_Guide",
+            "/wiki/Category_talk/Monsters"
+          ]
+        },
+        {
+          "href": "/wiki/User/Blue.octopus",
+          "count": 11,
+          "sources": [
+            "/wiki/Category_talk/Monsters",
+            "/wiki/Category_talk/Monsters",
+            "/wiki/Category_talk/Monsters"
+          ]
+        },
+        {
+          "href": "/wiki/User/Falcheon",
+          "count": 7,
+          "sources": [
+            "/wiki/Talk/Critical_Ranger",
+            "/wiki/Talk/Fighter_Skills",
+            "/wiki/Talk/Main_Page"
+          ]
+        },
+        {
+          "href": "/wiki/Special/Userlogin",
+          "count": 4,
+          "sources": [
+            "/wiki/Main_Page",
+            "/wiki/Category/Main_Page",
+            "/wiki/Main_Page/news"
+          ]
+        },
+        {
+          "href": "/wiki/User/Name",
+          "count": 4,
+          "sources": [
+            "/wiki/Guild/!!!",
+            "/wiki/Guild/BigGrigsMotleyCrue",
+            "/wiki/Guild/Legendary"
+          ]
+        },
+        {
+          "href": "/wiki/User/Black_Tom",
+          "count": 3,
+          "sources": [
+            "/wiki/Crew",
+            "/wiki/Level_100_Boss_Guide",
+            "/wiki/Category_talk/Quests"
+          ]
+        },
+        {
+          "href": "/wiki/User/Anson",
+          "count": 3,
+          "sources": [
+            "/wiki/Dev",
+            "/wiki/Devs",
+            "/wiki/Stephen"
+          ]
+        },
+        {
+          "href": "/wiki/User/Sannio",
+          "count": 3,
+          "sources": [
+            "/wiki/Dev",
+            "/wiki/Devs",
+            "/wiki/Stephen"
+          ]
+        },
+        {
+          "href": "/wiki/User/ItsMeLou",
+          "count": 3,
+          "sources": [
+            "/wiki/Category_talk/Rainbow_items",
+            "/wiki/Category_talk/Two-Handed-Ranger-Rainbows",
+            "/wiki/Category_talk/Two-Handed-Ranger-Rainbows"
+          ]
+        },
+        {
+          "href": "/wiki/User/Jesus_Freak",
+          "count": 3,
+          "sources": [
+            "/wiki/Guild/Geeks_For_Jesus",
+            "/wiki/Guild/_Geeks_For_Jesus",
+            "/wiki/Main_Page/news"
+          ]
+        },
+        {
+          "href": "/wiki/User/Flydd",
+          "count": 3,
+          "sources": [
+            "/wiki/Talk/Critical_Ranger",
+            "/wiki/Talk/Fighter_Skills",
+            "/wiki/Talk/Main_Page"
+          ]
+        },
+        {
+          "href": "/wiki/User/Radaga",
+          "count": 3,
+          "sources": [
+            "/wiki/Talk/Interface_Guide",
+            "/wiki/Talk/Interface_Guide",
+            "/wiki/Talk/Interface_Guide"
+          ]
+        }
+      ]
+    },
+    "genuinely-missing": {
+      "unique": 499,
+      "refs": 1284,
+      "top": [
+        {
+          "href": "/wiki/Soldier_Kwale",
+          "count": 25,
+          "sources": [
+            "/wiki/Algors_Terror_Dome_Base_Camp",
+            "/wiki/Audit_Terra-Infirmary",
+            "/wiki/Audit_Terra-Infirmary"
+          ]
+        },
+        {
+          "href": "/wiki/Punkin",
+          "count": 23,
+          "sources": [
+            "/wiki/Banned_Farmer",
+            "/wiki/Banned_Farmer",
+            "/wiki/Piñata_Invitational"
+          ]
+        },
+        {
+          "href": "/wiki/Rattle_Tooth's_Ghost",
+          "count": 22,
+          "sources": [
+            "/wiki/Fire_Dancer",
+            "/wiki/Piñata_Invitational",
+            "/wiki/Ratsputin's_Gulag"
+          ]
+        },
+        {
+          "href": "/wiki/Maerz_Catacombs_of_Doom",
+          "count": 17,
+          "sources": [
+            "/wiki/Bone_Collector",
+            "/wiki/Bone_Crusher",
+            "/wiki/Divine_Fade_Skeleton"
+          ]
+        },
+        {
+          "href": "/wiki/Chuck_McBarris",
+          "count": 17,
+          "sources": [
+            "/wiki/Dungeon_Idol_Fans_Gone_Wild",
+            "/wiki/Dungeon_Idol_Fans_Gone_Wild",
+            "/wiki/False_Idolatries"
+          ]
+        },
+        {
+          "href": "/wiki/Rattle_Tooth's_Vengeful_Blaster",
+          "count": 17,
+          "sources": [
+            "/wiki/Piñata_Invitational",
+            "/wiki/Ratsputin's_Gulag",
+            "/wiki/Ratsputin's_Maximum_Security_Kremlin"
+          ]
+        },
+        {
+          "href": "/wiki/Chet_the_Decembrist",
+          "count": 16,
+          "sources": [
+            "/wiki/Piñata_Invitational",
+            "/wiki/Ratsputin's_Gulag",
+            "/wiki/Ratsputin's_Maximum_Security_Kremlin"
+          ]
+        },
+        {
+          "href": "/wiki/King's_Coin",
+          "count": 14,
+          "sources": [
+            "/wiki/Always_Trouble_with_Ice_Oroks",
+            "/wiki/Audit_Terra-Infirmary",
+            "/wiki/Audit_Terra-Infirma_%284%29"
+          ]
+        },
+        {
+          "href": "/wiki/Divine_Juggernaught",
+          "count": 14,
+          "sources": [
+            "/wiki/Piñata_Invitational",
+            "/wiki/Ratsputin's_Maximum_Security_Kremlin",
+            "/wiki/Ratsputin's_Underground_Network_-_Level_1"
+          ]
+        },
+        {
+          "href": "/wiki/Rattle_Tooth's_Lair",
+          "count": 14,
+          "sources": [
+            "/wiki/Piñata_Invitational",
+            "/wiki/Ratsputin's_Maximum_Security_Kremlin",
+            "/wiki/Ratsputin's_Underground_Network_-_Level_1"
+          ]
+        },
+        {
+          "href": "/wiki/Rattle_Tooth's_Vengeful_Blastemaster",
+          "count": 14,
+          "sources": [
+            "/wiki/Piñata_Invitational",
+            "/wiki/Ratsputin's_Maximum_Security_Kremlin",
+            "/wiki/Ratsputin's_Underground_Network_-_Level_1"
+          ]
+        },
+        {
+          "href": "/wiki/Dr._Richard_Choppe",
+          "count": 13,
+          "sources": [
+            "/wiki/Arctic_Blademaster",
+            "/wiki/Deathtroit",
+            "/wiki/Divine_Whisker_Blademaster"
+          ]
+        },
+        {
+          "href": "/wiki/Daze_Pustain's_Pad",
+          "count": 13,
+          "sources": [
+            "/wiki/Chaos_Fade_General",
+            "/wiki/Divine_Fade_General",
+            "/wiki/Divine_Orok_Chieftain"
+          ]
+        },
+        {
+          "href": "/wiki/Chill_Bill",
+          "count": 12,
+          "sources": [
+            "/wiki/Build_Snowman",
+            "/wiki/Mage_Skills",
+            "/wiki/Mage_Skills"
+          ]
+        },
+        {
+          "href": "/wiki/Ice_Fade_Hatchling",
+          "count": 12,
+          "sources": [
+            "/wiki/Deathtroit",
+            "/wiki/Deathtroit",
+            "/wiki/Deathtroit"
+          ]
+        }
+      ]
+    },
+    "empty-or-missing-category": {
+      "unique": 66,
+      "refs": 67,
+      "top": [
+        {
+          "href": "/wiki/Category/Golding_Farms_Quest_Line",
+          "count": 2,
+          "sources": [
+            "/wiki/Banned_Farmer",
+            "/wiki/Category/Ratsputin's_Gulag_Quests"
+          ]
+        },
+        {
+          "href": "/wiki/Category/Algernon_Orok_Quests",
+          "count": 1,
+          "sources": [
+            "/wiki/Category/Algernon_Quests"
+          ]
+        },
+        {
+          "href": "/wiki/Category/Hide_and_Seek_Quest_Line",
+          "count": 1,
+          "sources": [
+            "/wiki/Category/Algernon_Quests"
+          ]
+        },
+        {
+          "href": "/wiki/Category/Rattle_Tooth's_Kinfolk_Quest_Line",
+          "count": 1,
+          "sources": [
+            "/wiki/Category/Algernon_Quests"
+          ]
+        },
+        {
+          "href": "/wiki/Category/Snow_Warg_Pelt_Series",
+          "count": 1,
+          "sources": [
+            "/wiki/Category/Algor's_Terror_Dome_Quests"
+          ]
+        },
+        {
+          "href": "/wiki/Category/Dancing_Quests",
+          "count": 1,
+          "sources": [
+            "/wiki/Category/Balzack's_Burrow_Quests"
+          ]
+        },
+        {
+          "href": "/wiki/Category/Javier_Waldez_Quests",
+          "count": 1,
+          "sources": [
+            "/wiki/Category/Balzack's_Burrow_Quests"
+          ]
+        },
+        {
+          "href": "/wiki/Category/Jerry_Quests",
+          "count": 1,
+          "sources": [
+            "/wiki/Category/Balzack's_Burrow_Quests"
+          ]
+        },
+        {
+          "href": "/wiki/Category/Noise_Complaints_Quests",
+          "count": 1,
+          "sources": [
+            "/wiki/Category/Balzack's_Burrow_Quests"
+          ]
+        },
+        {
+          "href": "/wiki/Category/Sam_",
+          "count": 1,
+          "sources": [
+            "/wiki/Category/Balzack's_Burrow_Quests"
+          ]
+        },
+        {
+          "href": "/wiki/Category/TDA_Agent_Anise_Rawgers_Quests",
+          "count": 1,
+          "sources": [
+            "/wiki/Category/Balzack's_Burrow_Quests"
+          ]
+        },
+        {
+          "href": "/wiki/Category/Dew_Valley_Infestation_Quest_Line",
+          "count": 1,
+          "sources": [
+            "/wiki/Category/Dew_Valley_Quests"
+          ]
+        },
+        {
+          "href": "/wiki/Category/NEWCOMERS_Quest_Line",
+          "count": 1,
+          "sources": [
+            "/wiki/Category/Dew_Valley_Quests"
+          ]
+        },
+        {
+          "href": "/wiki/Category/Rattle_Tooth_Quest_Line",
+          "count": 1,
+          "sources": [
+            "/wiki/Category/Dew_Valley_Quests"
+          ]
+        },
+        {
+          "href": "/wiki/Category/Abbadon's_Family_Quests",
+          "count": 1,
+          "sources": [
+            "/wiki/Category/Embercore_Path_Quests"
+          ]
+        }
+      ]
+    }
+  },
+  "prerender_encodes_only": "()[]?*",
+  "pages_with_unencoded_reserved": 472,
+  "unencoded_reserved_samples": [
+    {
+      "path": "/wiki/Abaddon's_Abysmal_Candy",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Abaddon's_Amazing_Relic",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Abaddon's_Cipher",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Abaddon's_Common_Relics",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Abaddon's_Family",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Abaddon's_Family_Business",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Abaddon's_Guard",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Abaddon's_Guard_%28Caster%29",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Abaddon's_Guard_%28Melee%29",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Abaddon's_Guard_%28Caster%29",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Abaddon's_Guard_%28Melee%29",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Abaddon's_Handy_Candy_Broomstick",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Abaddon's_Handy_Candy_Cane",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Abaddon's_Hardened_Candy_Corn_Cowl",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Abaddon's_Unusual_Relics",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Agrock's_'DNA'_Test",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Agrock's_Army",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Agrock's_Gauntlet",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Algor's_Amazing_Relic",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Algor's_Axe_of_Global_Warming_Protection",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Algor's_Common_Relics",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Algor's_Freeze_Popper",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Algor's_Terror-Dome",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Algor's_Terror_Dome",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Algor's_Terror_Dome_%28Quest%29",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Algor's_Terror_Dome_%28Quest%29",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Algor's_Unusual_Relics",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Ali-Bubba's_Phantasmal_Shoulder_Pads",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/All_Up_In_Abaddon's_Family_Business",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Amateur_Ow,_Er",
+      "chars": [
+        ","
+      ]
+    },
+    {
+      "path": "/wiki/Amateur_Ow,_Ers",
+      "chars": [
+        ","
+      ]
+    },
+    {
+      "path": "/wiki/Amphisbaena's_Double_Dander_Doublet",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Anatomy_of_a_Whisker's_Soul_-_Rattle_Tooth",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Anatomy_of_a_Whisker's_Soul_-_Sissirat",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/Anatomy_of_a_Whisker's_Soul_-_Vergrim",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/An_Explorer's_Task",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/An_Explorer's_Task_%28Algor's%29",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/An_Explorer's_Task_%28Algor's%29",
+      "chars": [
+        "'"
+      ]
+    },
+    {
+      "path": "/wiki/At_last,_MutantMania",
+      "chars": [
+        ","
+      ]
+    },
+    {
+      "path": "/wiki/Audit_Vergrim's_Vexation",
+      "chars": [
+        "'"
+      ]
+    }
+  ],
+  "comma_pages": [
+    "/wiki/Amateur_Ow,_Er",
+    "/wiki/Amateur_Ow,_Ers",
+    "/wiki/At_last,_MutantMania",
+    "/wiki/A_Favor_for_Herschel,_Part_1",
+    "/wiki/A_Favor_for_Herschel,_Part_2",
+    "/wiki/Blayde,_Da_Flayme,_and_Phreeze",
+    "/wiki/Coddle,_Kowtow,_and_Delight",
+    "/wiki/Coddle,_Kowtow,_and_Delight_II",
+    "/wiki/Coddling,_Kowtowing,_and_Delighting",
+    "/wiki/Coddling,_Kowtowing,_and_Delighting_II",
+    "/wiki/Corpse_Run,_Part_1",
+    "/wiki/Corpse_Run,_Part_2",
+    "/wiki/Corpse_Run,_Part_3-and-then-some",
+    "/wiki/Corpse_Run,_Part_3",
+    "/wiki/Empress_Chynah,_Manglefeet's_Manager",
+    "/wiki/Farming_Gold..._Vegetables,_Again",
+    "/wiki/Farming_Gold..._Vegetables,_Again?_Part_II",
+    "/wiki/Gr'Aves,_Chudd,_D'Oyle,_and_Pvvnly",
+    "/wiki/Ill_Gotten_Gold..._Vegetables,_Again",
+    "/wiki/Ill_Gotten_Gold..._Vegetables,_Again_II",
+    "/wiki/It's_Burning,_Man",
+    "/wiki/Its_Burning,_Man!_%283%29",
+    "/wiki/Its_Burning,_Man!_%283%29",
+    "/wiki/It_Keeps_Burning,_Man!",
+    "/wiki/Just_the_'Facts,_Only_Moreso",
+    "/wiki/Just_the_'Facts,_Part_1",
+    "/wiki/Just_the_'Facts,_Part_2",
+    "/wiki/Just_the_'Facts,_Part_3",
+    "/wiki/Just_the_'Facts,_Part_4",
+    "/wiki/King's_Coin_Counterfeit_Conspiracy,_Aftermath",
+    "/wiki/King's_Coin_Counterfeit_Conspiracy,_Part_1",
+    "/wiki/King's_Coin_Counterfeit_Conspiracy,_Part_2a",
+    "/wiki/King's_Coin_Counterfeit_Conspiracy,_Part_2b",
+    "/wiki/King's_Coin_Counterfeit_Conspiracy,_Part_2c",
+    "/wiki/King's_Coin_Counterfeit_Conspiracy,_Part_3",
+    "/wiki/King's_Coin_Counterfeit_Conspiracy,_Part_4",
+    "/wiki/King's_Coin_Counterfeit_Conspiracy,_Part_5",
+    "/wiki/King's_Coin_Counterfeit_Conspiracy,_Part_6",
+    "/wiki/King's_Coin_Counterfeit_Conspiracy,_Part_7",
+    "/wiki/King's_Coin_Counterfeit_Conspiracy,_Part_8",
+    "/wiki/King's_Coin_Counterfeit_Conspiracy,_Post-Aftermath",
+    "/wiki/Missing_Man,_Part_1",
+    "/wiki/Missing_Man,_Part_2",
+    "/wiki/Missing_Man,_Part_3",
+    "/wiki/Missing_Man,_Part_4",
+    "/wiki/Okon's_Inaction_Figure,_Part_1",
+    "/wiki/Okon's_Inaction_Figure,_Part_2",
+    "/wiki/Okon's_Inaction_Figure,_Part_3",
+    "/wiki/One_Lump,_or_Two",
+    "/wiki/Ponderous,_Truly_Ponderous",
+    "/wiki/Really,_Light_and_Heat_Obstructa",
+    "/wiki/Really,_Light_and_Heat_Obstructa_II",
+    "/wiki/Revengeance,_Part_Circle",
+    "/wiki/Revengeance,_Part_Semi-circle",
+    "/wiki/Revengeance,_Part_Triangle",
+    "/wiki/Revengeance_is_Mine,_Part_Cat",
+    "/wiki/Revengeance_is_Mine,_Part_Dog",
+    "/wiki/Revengeance_is_Mine,_Part_Llama",
+    "/wiki/Revengeance_is_Minor,_Part_Blue",
+    "/wiki/Revengeance_is_Minor,_Part_Green",
+    "/wiki/Revengeance_is_Minor,_Part_Red",
+    "/wiki/Seeking_Secrets,_Part_1",
+    "/wiki/Seeking_Secrets,_Part_2",
+    "/wiki/Seeking_Secrets,_Part_3",
+    "/wiki/Seeking_Secrets,_Part_4",
+    "/wiki/Seeking_Secrets,_Part_5",
+    "/wiki/Slayeth_Wolves,_Verily",
+    "/wiki/Sufficiently_Size_Me,_Too",
+    "/wiki/The_King's_Hit_List,_Epilogue",
+    "/wiki/The_King's_Hit_List,_Part_1",
+    "/wiki/The_King's_Hit_List,_Part_10",
+    "/wiki/The_King's_Hit_List,_Part_2",
+    "/wiki/The_King's_Hit_List,_Part_3",
+    "/wiki/The_King's_Hit_List,_Part_4",
+    "/wiki/The_King's_Hit_List,_Part_5",
+    "/wiki/The_King's_Hit_List,_Part_6",
+    "/wiki/The_King's_Hit_List,_Part_7",
+    "/wiki/The_King's_Hit_List,_Part_8",
+    "/wiki/The_King's_Hit_List,_Part_9",
+    "/wiki/The_Missing_Ring,_Part_1",
+    "/wiki/The_Missing_Ring,_Part_2",
+    "/wiki/The_Missing_Ring,_Part_3",
+    "/wiki/The_Missing_Ring,_Part_4",
+    "/wiki/Weakened_at_Bernie's,_Too",
+    "/wiki/You_Cast_Level_1_Ban,_Again",
+    "/wiki/You_Cast_Level_2_Ban,_Again",
+    "/wiki/You_Cast_Level_3_Ban,_Again",
+    "/wiki/You_Cast_Level_4_Ban,_Again",
+    "/wiki/Re/_The_King's_Hit_List,_Epilogue"
+  ],
+  "comma_page_count": 89
+}

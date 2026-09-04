@@ -36,12 +36,41 @@ const SLUG_ALIASES: Record<string, string> = {
   "azzazin": "azza zin",
   "love/hate (mostly hate)": "love hate (mostly hate)",
   "love hate mostly hate": "love hate (mostly hate)",
+  "king's coin": "king's coins",
+  "kings coin": "king's coins",
+  "kings coins": "king's coins",
 }
 
-/** Encode apostrophes in wiki hrefs so routers don't chop Algor's_* into /wiki/Algor. */
+/** Path chars that browsers, Vue Router, and static hosts treat as syntax. */
+const UNSAFE_SLUG = /[?#\[\]@!$&'()*+,;=%.]/g
+
+export function encodeWikiSlug(slug: string): string {
+  return slug.split('/').map((part) => part.replace(UNSAFE_SLUG, encodeURIComponent)).join('/')
+}
+
+/** Safe /wiki/... href. Keeps slashes (Daily_Deed/_Storeroom) and encodes the rest. */
+export function wikiHref(pathOrSlug: string): string {
+  let slug = pathOrSlug.replace(/^\/wiki\//, '')
+  try {
+    slug = decodeURIComponent(slug)
+  }
+  catch {
+    // keep raw
+  }
+  return `/wiki/${encodeWikiSlug(slug)}`
+}
+
+/** If `?` is part of the title (Travelers?_Check), not a query string (`?utm=`). */
+export function mergeQuestionTitle(pathname: string, search: string): string {
+  const query = (search || '').replace(/^\?/, '')
+  if (!query || query.includes('=')) return pathname
+  return `${pathname}?${query}`
+}
+
+/** Encode reserved chars in wiki hrefs so Algor's / Part 2 / Travelers? never get chopped. */
 export function sanitizeWikiHtml(html: string): string {
   return html.replace(/\b(href|src)="(\/wiki\/[^"]*)"/gi, (_all, attr: string, url: string) => {
-    return `${attr}="${url.replace(/'/g, '%27')}"`
+    return `${attr}="${wikiHref(url)}"`
   })
 }
 
