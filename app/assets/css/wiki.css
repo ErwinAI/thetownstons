@@ -101,7 +101,7 @@ a.missing { color: var(--wiki-missing); }
   border-right: none;
   min-height: 100vh;
   padding: 0 1.2em 2.5em;
-  font-size: 14px;
+  font-size: 13px;
   min-width: 0;
 }
 
@@ -121,7 +121,7 @@ a.missing { color: var(--wiki-missing); }
 }
 
 .wiki-body {
-  font-size: 140%;
+  font-size: 100%;
   line-height: 1.5em;
 }
 
@@ -240,3 +240,26 @@ a.missing { color: var(--wiki-missing); }
 .article-list a { display: block; }
 
 .poll-meta { font-size: 13px; color: #444; }
+
+.client-quest {
+  clear: both;
+  margin: 1.2em 0 0;
+  padding: 0.55em 0.8em 0.7em;
+  border: 1px solid #aaa;
+  background: #f8f8f0;
+}
+
+.client-quest h2 {
+  margin: 0 0 0.4em;
+  padding-bottom: 0.15em;
+  border-bottom: 1px solid #aaa;
+  font-size: 150%;
+  font-weight: normal;
+}
+
+.client-quest blockquote {
+  margin: 0.35em 0 0.8em;
+  padding: 0.4em 0.75em;
+  border-left: 3px solid #8a5a22;
+  background: #fff;
+}

@@ -48,7 +48,9 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Restored Dungeon Runners fansite wiki from thetownstons.com via the Wayback Machine.' },
       ],
       link: [
-        { rel: 'icon', href: '/favicon.ico' },
+        { rel: 'icon', href: '/favicon.ico', sizes: '32x32' },
+        { rel: 'icon', type: 'image/png', href: '/favicon.png', sizes: '32x32' },
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
       ],
     },
   },
