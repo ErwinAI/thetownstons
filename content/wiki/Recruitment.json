@@ -9,5 +9,5 @@
     "Sir Lee of York Quests"
   ],
   "images": [],
-  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Sir_Lee_of_York\" title=\"Sir Lee of York\">Sir Lee of York</a>\n</p><p><b>Quest Type:</b> Delivery\n</p><p><b>Quest Description:</b> Talk to the Kingdom Representative in Dew Valley\n</p><p><b>Quest Reward:</b> 125 Gold\n</p><p><b>Return to:</b> <a href=\"/wiki/Kingdom_Representative\" title=\"Kingdom Representative\">Kingdom Representative</a>\n</p><p><b>Repeatable:</b> No\n</p>\n\n \n<div class=\"visualClear\"></div>"
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Sir_Lee_of_York\" title=\"Sir Lee of York\">Sir Lee of York</a></p>\n<p><b>Quest Type:</b> Delivery</p>\n<p><b>Quest Description:</b> Talk to the Kingdom Representative in Dew Valley</p>\n<p><b>Quest Reward:</b> 125 Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Kingdom_Representative\" title=\"Kingdom Representative\">Kingdom Representative</a></p>\n<p><b>Repeatable:</b> No</p>\n\n<div class=\"visualClear\"></div>"
 }

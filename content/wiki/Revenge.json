@@ -8,5 +8,5 @@
     "Dew Valley Quests"
   ],
   "images": [],
-  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Samford_the_Hermit\" title=\"Samford the Hermit\">Samford the Hermit</a>\n</p><p><b>Quest Type:</b> Hunt\n</p><p><b>Quest Description:</b> Kill 6 <a href=\"/wiki/Wolf\" title=\"Wolf\">Dew Valley Wolves</a> and 12 <a href=\"/wiki/Wolf_Pup\" title=\"Wolf Pup\">Dew Valley Wolf Pups</a>\n</p><p><b>Quest Reward:</b> 500 Gold\n</p><p><b>Return to:</b> <a href=\"/wiki/Samford_the_Hermit\" title=\"Samford the Hermit\">Samford the Hermit</a>\n</p><p><b>Repeatable:</b> No\n</p>\n\n \n<div class=\"visualClear\"></div>"
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Samford_the_Hermit\" title=\"Samford the Hermit\">Samford the Hermit</a></p>\n<p><b>Quest Type:</b> Hunt</p>\n<p><b>Quest Description:</b> Kill 6 <a href=\"/wiki/Wolf\" title=\"Wolf\">Dew Valley Wolves</a> and 12 <a href=\"/wiki/Wolf_Pup\" title=\"Wolf Pup\">Dew Valley Wolf Pups</a></p>\n<p><b>Quest Reward:</b> 500 Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Samford_the_Hermit\" title=\"Samford the Hermit\">Samford the Hermit</a></p>\n<p><b>Repeatable:</b> No</p>\n\n<div class=\"visualClear\"></div>"
 }

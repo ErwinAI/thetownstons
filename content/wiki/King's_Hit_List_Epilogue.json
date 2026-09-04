@@ -10,5 +10,5 @@
     "Townston Quests"
   ],
   "images": [],
-  "html": "<p><b>Quest Giver: </b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a>\n</p><p><b>Quest Type: </b>Destroy\n</p><p><b>Quest Description: </b> Destroy the <a href=\"/wiki/Queen_of_Shadows\" title=\"Queen of Shadows\">Queen of Shadows</a>, and return with her Proof of Pwnage -- AGAIN!\n</p><p><b>Quest Reward: </b> 22500 gold and 2 King's Coins\n</p><p><b>Return to: </b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a>\n</p><p><b>Repeatable: </b> Yes\n</p>\n\n \n<div class=\"visualClear\"></div>"
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Quest Type:</b> Destroy</p>\n<p><b>Quest Description:</b> Destroy the <a href=\"/wiki/Queen_of_Shadows\" title=\"Queen of Shadows\">Queen of Shadows</a>, and return with her Proof of Pwnage -- AGAIN!</p>\n<p><b>Quest Reward:</b> 22500 gold and 2 King's Coins</p>\n<p><b>Return to:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Repeatable:</b> Yes</p>\n\n<div class=\"visualClear\"></div>"
 }
