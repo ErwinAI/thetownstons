@@ -2,12 +2,12 @@
   "title": "Practice Match",
   "wikiTitle": "Practice_Match",
   "path": "/wiki/Practice_Match",
-  "description": "Practice Match \u2014 The Townstons wiki",
+  "description": "Practice Match — The Townstons wiki",
   "categories": [
     "Quests",
     "Pwnston Quests"
   ],
   "images": [],
-  "html": "<p><b>Quest Giver:</b> Pwnston Practice Master</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Speak with the Pwnston Practice Master near the entrance to the practice PvP matches.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Pwnston Practice Master</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Pwnston\" title=\"Pwnston\">Pwnston</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Speak with the Pwnston Practice Master near the entrance to the practice PvP matches.</p>\n<p><b>Offer:</b></p>\n<blockquote>Practices matches are a good idea if you're new to Pwnston. Your group will be pitted against each either in a free for all. Seek Pwnston Practice Master, not too far from here, for he will allow you to enter practice matches.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Practice makes perfect!</blockquote>\n<p><b>Client level range:</b> 1\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "html": "<p><b>Quest Giver:</b> Pwnston Practice Master</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Speak with the Pwnston Practice Master near the entrance to the practice PvP matches.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Pwnston Practice Master</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Pwnston\" title=\"Pwnston\">Pwnston</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Journal text, offer, and turn-in as they appeared in game.</p>\n<p><b>Journal:</b> Speak with the Pwnston Practice Master near the entrance to the practice PvP matches.</p>\n<p><b>Offer:</b></p>\n<blockquote>Practices matches are a good idea if you're new to Pwnston. Your group will be pitted against each either in a free for all. Seek Pwnston Practice Master, not too far from here, for he will allow you to enter practice matches.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Practice makes perfect!</blockquote>\n<p><b>Level range:</b> 1–100</p>\n</div>\n<div class=\"visualClear\"></div>",
   "source": "dungeon-runners-client"
 }

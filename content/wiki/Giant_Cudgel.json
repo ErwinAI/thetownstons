@@ -2,7 +2,7 @@
   "title": "Giant Cudgel",
   "wikiTitle": "Giant_Cudgel",
   "path": "/wiki/Giant_Cudgel",
-  "description": "Giant Cudgel \u2014 The Townstons wiki",
+  "description": "Giant Cudgel — The Townstons wiki",
   "categories": [
     "Two-Handed-fighter",
     "Weapons"
@@ -10,5 +10,5 @@
   "images": [
     "/images/recovered/2h-weapon-_Giant_Cudgel.png"
   ],
-  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Giant Cudgel\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/2h-weapon-_Giant_Cudgel.png\" title=\"Giant Cudgel\"><img alt=\"Giant Cudgel\" border=\"0\" src=\"/images/recovered/2h-weapon-_Giant_Cudgel.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Crushing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">Two-Handed\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Grandma\n</td></tr>\n</table>\n<p><b>Giant Cudgel</b> is listed on the <a href=\"/wiki/Category/Two-Handed-fighter\" title=\"Category:Two-Handed-fighter\">Two-Handed-fighter</a> weapon list. Stats on this page come from that list and the Dungeon Runners client files.</p>\n<div class=\"visualClear\"></div>"
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Giant Cudgel\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/2h-weapon-_Giant_Cudgel.png\" title=\"Giant Cudgel\"><img alt=\"Giant Cudgel\" border=\"0\" src=\"/images/recovered/2h-weapon-_Giant_Cudgel.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Crushing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">Two-Handed\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Grandma\n</td></tr>\n</table>\n<p><b>Giant Cudgel</b> is listed on the <a href=\"/wiki/Category/Two-Handed-fighter\" title=\"Category:Two-Handed-fighter\">Two-Handed-fighter</a> weapon list. Stats on this page come from the old weapon lists.</p>\n<div class=\"visualClear\"></div>"
 }

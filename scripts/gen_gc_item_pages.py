@@ -167,7 +167,7 @@ def render_page(row: dict, gc_row: dict | None, category: str, materials: list[s
     extra = ""
     if materials:
         extra = (
-            "<p>The client also has material-tier versions of this weapon "
+            "<p>This weapon also exists in other materials "
             f"({html.escape(', '.join(materials[:8]))}"
             f"{', …' if len(materials) > 8 else ''}).</p>\n"
         )
@@ -181,7 +181,7 @@ def render_page(row: dict, gc_row: dict | None, category: str, materials: list[s
         f"<p><b>{html.escape(title)}</b> is listed on the "
         f'<a href="/wiki/Category/{html.escape(category)}" title="Category:{html.escape(category)}">'
         f"{html.escape(category)}</a> weapon list. "
-        f"Stats on this page come from that list and the Dungeon Runners client files.</p>\n"
+        f"Stats on this page come from the old weapon lists.</p>\n"
         f"{extra}"
         f'<div class="visualClear"></div>'
     )

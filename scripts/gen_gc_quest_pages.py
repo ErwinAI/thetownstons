@@ -350,18 +350,17 @@ def reward_text(quest: dict, catalog: dict) -> str:
     tokens = int(quest.get("token") or 0)
     if tokens:
         parts.append(coin_link(tokens, catalog))
-    return " and ".join(parts) if parts else "None listed in the client files"
+    return " and ".join(parts) if parts else "None listed"
 
 
 def client_section(quest: dict) -> str:
     chunks = ['<div class="client-quest">']
     chunks.append("<h2>In-game text</h2>")
     chunks.append(
-        "<p>Recovered from the Dungeon Runners client files. "
-        "The notes above are from the old wiki when they exist.</p>"
+        "<p>Journal text, offer, and turn-in as they appeared in game.</p>"
     )
     if quest.get("obsolete"):
-        chunks.append("<p><i>This quest was removed from the game; the client still has the text.</i></p>")
+        chunks.append("<p><i>This quest was removed from the game.</i></p>")
     if quest.get("summary"):
         chunks.append(f"<p><b>Journal:</b> {quest['summary']}</p>")
     if quest.get("description"):
@@ -380,7 +379,7 @@ def client_section(quest: dict) -> str:
     if quest.get("min") or quest.get("max"):
         lo = quest.get("min") or "?"
         hi = quest.get("max") or "?"
-        chunks.append(f"<p><b>Client level range:</b> {html.escape(str(lo))}–{html.escape(str(hi))}</p>")
+        chunks.append(f"<p><b>Level range:</b> {html.escape(str(lo))}–{html.escape(str(hi))}</p>")
     chunks.append("</div>")
     return "\n".join(chunks)
 

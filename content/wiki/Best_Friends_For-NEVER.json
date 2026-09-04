@@ -2,13 +2,13 @@
   "title": "Best Friends For-NEVER",
   "wikiTitle": "Best_Friends_For-NEVER",
   "path": "/wiki/Best_Friends_For-NEVER",
-  "description": "Best Friends For-NEVER \u2014 The Townstons wiki",
+  "description": "Best Friends For-NEVER — The Townstons wiki",
   "categories": [
     "Quests",
     "Mutant Mania Quests",
     "Repeatable Quests"
   ],
   "images": [],
-  "html": "<p><b>Quest Giver:</b> Okon</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Best Friends For-NEVER!</p>\n<p><b>Quest Reward:</b> None listed in the client files</p>\n<p><b>Return to:</b> Okon</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Best Friends For-NEVER!</p>\n<p><b>Offer:</b></p>\n<blockquote>I heard what you did to your friend, Grapplin' Gertie, in the Limitless Lower Locationals. They say she won't fight again. I don't want to play with you any more. I think you're a meanie.<br/><br/>And a poopie-head.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>I heard what you did to your friend, Grapplin' Gertie, in the Limitless Lower Locationals. They say she won't fight again. I don't want to play with you any more. I think you're a meanie.<br/><br/>And a poopie-head.</blockquote>\n<p><b>Client level range:</b> 84\u201390</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "html": "<p><b>Quest Giver:</b> Okon</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Best Friends For-NEVER!</p>\n<p><b>Quest Reward:</b> None listed</p>\n<p><b>Return to:</b> Okon</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Journal text, offer, and turn-in as they appeared in game.</p>\n<p><b>Journal:</b> Best Friends For-NEVER!</p>\n<p><b>Offer:</b></p>\n<blockquote>I heard what you did to your friend, Grapplin' Gertie, in the Limitless Lower Locationals. They say she won't fight again. I don't want to play with you any more. I think you're a meanie.<br/><br/>And a poopie-head.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>I heard what you did to your friend, Grapplin' Gertie, in the Limitless Lower Locationals. They say she won't fight again. I don't want to play with you any more. I think you're a meanie.<br/><br/>And a poopie-head.</blockquote>\n<p><b>Level range:</b> 84–90</p>\n</div>\n<div class=\"visualClear\"></div>",
   "source": "dungeon-runners-client"
 }

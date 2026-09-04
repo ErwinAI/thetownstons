@@ -2,12 +2,12 @@
   "title": "Toss a King's Coin Down the Well",
   "wikiTitle": "Toss_a_King's_Coin_Down_the_Well",
   "path": "/wiki/Toss_a_King's_Coin_Down_the_Well",
-  "description": "Toss a King's Coin Down the Well \u2014 The Townstons wiki",
+  "description": "Toss a King's Coin Down the Well — The Townstons wiki",
   "categories": [
     "Quests",
     "Repeatable Quests"
   ],
   "images": [],
-  "html": "<p><b>Quest Giver:</b> The Wishing Well</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Toss a King's Coin down the well for good luck!</p>\n<p><b>Quest Reward:</b> None listed in the client files</p>\n<p><b>Return to:</b> The Wishing Well</p>\n<p><b>Repeatable:</b> Yes</p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Toss a King's Coin down the well for good luck!</p>\n<p><b>Offer:</b></p>\n<blockquote>The Wishing Well likes to eat coins!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>The King's Coin clanks as you toss it down the well.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>King&#x27;s Coin \u00d71</li></ul>\n<p><b>Client level range:</b> 1\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "html": "<p><b>Quest Giver:</b> The Wishing Well</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Toss a King's Coin down the well for good luck!</p>\n<p><b>Quest Reward:</b> None listed</p>\n<p><b>Return to:</b> The Wishing Well</p>\n<p><b>Repeatable:</b> Yes</p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Journal text, offer, and turn-in as they appeared in game.</p>\n<p><b>Journal:</b> Toss a King's Coin down the well for good luck!</p>\n<p><b>Offer:</b></p>\n<blockquote>The Wishing Well likes to eat coins!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>The King's Coin clanks as you toss it down the well.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>King&#x27;s Coin ×1</li></ul>\n<p><b>Level range:</b> 1–100</p>\n</div>\n<div class=\"visualClear\"></div>",
   "source": "dungeon-runners-client"
 }

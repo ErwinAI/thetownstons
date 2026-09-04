@@ -140,6 +140,46 @@ a.missing { color: var(--wiki-missing); }
 .wiki-body ul,
 .wiki-body ol { margin: 0.3em 0 0.7em 1.6em; padding: 0; }
 .wiki-body table { border-collapse: collapse; margin: 0.6em 0; }
+
+.wiki-cat-members {
+  width: 100%;
+}
+
+.wiki-cat-members td {
+  width: 33%;
+  padding-right: 1em;
+}
+
+.wiki-cat-members h3 {
+  margin: 0.8em 0 0.2em;
+  border-bottom: none;
+  font-size: 132%;
+}
+
+.wiki-roll-pool {
+  clear: left;
+  max-width: 42em;
+}
+
+.wiki-mod-table {
+  width: 100%;
+  border: 1px solid #aaa;
+}
+
+.wiki-mod-table th,
+.wiki-mod-table td {
+  border: 1px solid #ccc;
+  padding: 0.2em 0.55em;
+  text-align: left;
+}
+
+.wiki-mod-table th {
+  background: #e8e8e8;
+}
+
+.wiki-mod-table tr:nth-child(even) td {
+  background: #f6f6f6;
+}
 .wiki-body img {
   max-width: 220px;
   height: auto;

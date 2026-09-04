@@ -2,12 +2,12 @@
   "title": "Whisker Migration",
   "wikiTitle": "Whisker_Migration",
   "path": "/wiki/Whisker_Migration",
-  "description": "Whisker Migration \u2014 The Townstons wiki",
+  "description": "Whisker Migration — The Townstons wiki",
   "categories": [
     "Quests",
     "Algor's Terror Dome Quests"
   ],
   "images": [],
-  "html": "<p><b>Quest Giver:</b> Unknown</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> See in-game text below.</p>\n<p><b>Quest Reward:</b> None listed in the client files</p>\n<p><b>Return to:</b> Unknown</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/It%27s_Burning,_Man\" title=\"It&#x27;s Burning, Man\">It&#x27;s Burning, Man</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Algor%27s_Terror_Dome_%28Quest%29\" title=\"Algor&#x27;s Terror Dome (Quest)\">Algor&#x27;s Terror Dome (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Client level range:</b> 10\u201325</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "html": "<p><b>Quest Giver:</b> Unknown</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> See in-game text below.</p>\n<p><b>Quest Reward:</b> None listed</p>\n<p><b>Return to:</b> Unknown</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/It%27s_Burning,_Man\" title=\"It&#x27;s Burning, Man\">It&#x27;s Burning, Man</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Algor%27s_Terror_Dome_%28Quest%29\" title=\"Algor&#x27;s Terror Dome (Quest)\">Algor&#x27;s Terror Dome (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Journal text, offer, and turn-in as they appeared in game.</p>\n<p><b>Level range:</b> 10–25</p>\n</div>\n<div class=\"visualClear\"></div>",
   "source": "dungeon-runners-client"
 }

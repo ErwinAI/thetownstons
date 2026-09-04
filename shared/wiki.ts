@@ -34,6 +34,8 @@ const SLUG_ALIASES: Record<string, string> = {
   azzaz: "azza zin",
   "azza zins": "azza zin",
   "azzazin": "azza zin",
+  "love/hate (mostly hate)": "love hate (mostly hate)",
+  "love hate mostly hate": "love hate (mostly hate)",
 }
 
 /** Encode apostrophes in wiki hrefs so routers don't chop Algor's_* into /wiki/Algor. */

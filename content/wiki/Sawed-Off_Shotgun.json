@@ -2,7 +2,7 @@
   "title": "Sawed-Off Shotgun",
   "wikiTitle": "Sawed-Off_Shotgun",
   "path": "/wiki/Sawed-Off_Shotgun",
-  "description": "Sawed-Off Shotgun \u2014 The Townstons wiki",
+  "description": "Sawed-Off Shotgun — The Townstons wiki",
   "categories": [
     "Two-Handed-ranger",
     "Weapons"
@@ -10,5 +10,5 @@
   "images": [
     "/images/recovered/2h-ranged-_Sawed-Off_Shotgunn.png"
   ],
-  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Sawed-Off Shotgun\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/2h-ranged-_Sawed-Off_Shotgunn.png\" title=\"Sawed-Off Shotgun\"><img alt=\"Sawed-Off Shotgun\" border=\"0\" src=\"/images/recovered/2h-ranged-_Sawed-Off_Shotgunn.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Slashing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">Two-Handed Ranged\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Slothful\n</td></tr>\n</table>\n<p><b>Sawed-Off Shotgun</b> is listed on the <a href=\"/wiki/Category/Two-Handed-ranger\" title=\"Category:Two-Handed-ranger\">Two-Handed-ranger</a> weapon list. Stats on this page come from that list and the Dungeon Runners client files.</p>\n<div class=\"visualClear\"></div>"
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Sawed-Off Shotgun\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/2h-ranged-_Sawed-Off_Shotgunn.png\" title=\"Sawed-Off Shotgun\"><img alt=\"Sawed-Off Shotgun\" border=\"0\" src=\"/images/recovered/2h-ranged-_Sawed-Off_Shotgunn.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Slashing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">Two-Handed Ranged\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Slothful\n</td></tr>\n</table>\n<p><b>Sawed-Off Shotgun</b> is listed on the <a href=\"/wiki/Category/Two-Handed-ranger\" title=\"Category:Two-Handed-ranger\">Two-Handed-ranger</a> weapon list. Stats on this page come from the old weapon lists.</p>\n<div class=\"visualClear\"></div>"
 }

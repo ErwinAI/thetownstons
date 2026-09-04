@@ -21,7 +21,7 @@ function wikiRoutes(dir: string): string[] {
         catch {
           // keep encoded
         }
-        if (!/[()[\]?*]/.test(path)) routes.push(data.path)
+        routes.push(path.replace(/[()[\]?*]/g, (ch) => encodeURIComponent(ch)))
       }
       catch {
         // skip broken generated files

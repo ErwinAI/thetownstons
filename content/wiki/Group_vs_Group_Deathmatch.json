@@ -2,12 +2,12 @@
   "title": "Group vs Group Deathmatch",
   "wikiTitle": "Group_vs_Group_Deathmatch",
   "path": "/wiki/Group_vs_Group_Deathmatch",
-  "description": "Group vs Group Deathmatch \u2014 The Townstons wiki",
+  "description": "Group vs Group Deathmatch — The Townstons wiki",
   "categories": [
     "Quests",
     "Pwnston Quests"
   ],
   "images": [],
-  "html": "<p><b>Quest Giver:</b> Pwnston L33tenant</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Speak with the Pwnston L33tenant. He will allow entrance to Group vs Group Deathmatch!</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Pwnston L33tenant</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Pwnston\" title=\"Pwnston\">Pwnston</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Speak with the Pwnston L33tenant. He will allow entrance to Group vs Group Deathmatch!</p>\n<p><b>Offer:</b></p>\n<blockquote>Group vs Group Deathmatch consists of two teams with up to five Dungeon Runners per team in a face off to the death... and resurrection... and death... and resurrection.... for seven minutes. The team that racks up the most points wins! Seek the L33tenant for entrance to these titillating matches.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Come to prove your worth versus other Dungeon Runners? You have found the right place!</blockquote>\n<p><b>Client level range:</b> 1\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "html": "<p><b>Quest Giver:</b> Pwnston L33tenant</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Speak with the Pwnston L33tenant. He will allow entrance to Group vs Group Deathmatch!</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Pwnston L33tenant</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Pwnston\" title=\"Pwnston\">Pwnston</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Journal text, offer, and turn-in as they appeared in game.</p>\n<p><b>Journal:</b> Speak with the Pwnston L33tenant. He will allow entrance to Group vs Group Deathmatch!</p>\n<p><b>Offer:</b></p>\n<blockquote>Group vs Group Deathmatch consists of two teams with up to five Dungeon Runners per team in a face off to the death... and resurrection... and death... and resurrection.... for seven minutes. The team that racks up the most points wins! Seek the L33tenant for entrance to these titillating matches.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Come to prove your worth versus other Dungeon Runners? You have found the right place!</blockquote>\n<p><b>Level range:</b> 1–100</p>\n</div>\n<div class=\"visualClear\"></div>",
   "source": "dungeon-runners-client"
 }

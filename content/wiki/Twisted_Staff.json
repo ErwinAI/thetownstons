@@ -2,7 +2,7 @@
   "title": "Twisted Staff",
   "wikiTitle": "Twisted_Staff",
   "path": "/wiki/Twisted_Staff",
-  "description": "Twisted Staff \u2014 The Townstons wiki",
+  "description": "Twisted Staff — The Townstons wiki",
   "categories": [
     "Two-Handed-mage",
     "Weapons"
@@ -10,5 +10,5 @@
   "images": [
     "/images/recovered/2h-weapon-_Twisted_Staff.png"
   ],
-  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Twisted Staff\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/2h-weapon-_Twisted_Staff.png\" title=\"Twisted Staff\"><img alt=\"Twisted Staff\" border=\"0\" src=\"/images/recovered/2h-weapon-_Twisted_Staff.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Crushing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">Two-handed\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Fast\n</td></tr>\n</table>\n<p><b>Twisted Staff</b> is listed on the <a href=\"/wiki/Category/Two-Handed-mage\" title=\"Category:Two-Handed-mage\">Two-Handed-mage</a> weapon list. Stats on this page come from that list and the Dungeon Runners client files.</p>\n<div class=\"visualClear\"></div>"
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Twisted Staff\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/2h-weapon-_Twisted_Staff.png\" title=\"Twisted Staff\"><img alt=\"Twisted Staff\" border=\"0\" src=\"/images/recovered/2h-weapon-_Twisted_Staff.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Crushing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">Two-handed\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Fast\n</td></tr>\n</table>\n<p><b>Twisted Staff</b> is listed on the <a href=\"/wiki/Category/Two-Handed-mage\" title=\"Category:Two-Handed-mage\">Two-Handed-mage</a> weapon list. Stats on this page come from the old weapon lists.</p>\n<div class=\"visualClear\"></div>"
 }

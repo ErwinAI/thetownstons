@@ -1,0 +1,15 @@
+---
+description: Townstons wiki copy is always written from a player perspective.
+globs: content/wiki/**/*.json,scripts/**/*.py
+alwaysApply: true
+---
+
+# Wiki player voice
+
+IT HAS TO ALWAYS BE WRITTEN FROM A PLAYER PERSPECTIVE.
+
+analyse existing pages. Write like that. Always.
+
+When creating or editing wiki HTML, quests, rainbows, modifiers, prefixes, or category lists, follow `.cursor/skills/wiki-player-voice/SKILL.md`.
+
+Never mention `.gc` files, ModPAL, templates, LabelType, QuestGiver_A, or scraping in article text. Facts may come from the client dump; the page must read like a player wiki.

@@ -130,6 +130,7 @@ WEAPON_CAT = {
     "2H Pick": "Two-Handed-Fighter-Rainbows",
     "1H Staff": "One-Handed-Mage-Rainbows",
     "2H Staff": "Two-Handed-Mage-Rainbows",
+    "1H Gun": "One-Handed-Ranger-Rainbows",
     "2H Gun": "Two-Handed-Ranger-Rainbows",
     "2H Crossbow": "Two-Handed-Ranger-Rainbows",
     "2H Cannon": "Two-Handed-Ranger-Rainbows",
@@ -321,42 +322,150 @@ def parse_mythic_pal(path: Path) -> list[dict]:
     return items
 
 
+PLAYER_STAT = {
+    "STR": "+ Strength",
+    "AGI": "+ Agility",
+    "END": "+ Endurance",
+    "INT": "+ Intellect",
+    "+Melee damage": "+ Melee Damage",
+    "+Ranged": "+ Ranged Damage",
+    "+Crushing": "+ Crushing Damage",
+    "+Piercing": "+ Piercing Damage",
+    "+Slashing": "+ Slashing Damage",
+    "+Fire": "+ Fire Damage",
+    "+Ice": "+ Ice Damage",
+    "+Divine": "+ Divine Damage",
+    "+Shadow": "+ Shadow Damage",
+    "+Poison": "+ Poison Damage",
+    "Fire resist": "+ Fire Damage Resistance",
+    "Ice resist": "+ Ice Damage Resistance",
+    "Divine resist": "+ Divine Damage Resistance",
+    "Shadow resist": "+ Shadow Damage Resistance",
+    "Poison resist": "+ Poison Damage Resistance",
+    "Health regen": "+ Health Regeneration",
+    "Mana regen": "+ Mana Regeneration",
+    "Speed": "+ % Movement Speed",
+    "Cast speed": "+ % Casting Speed",
+    "Character size": "+ % Character Size",
+    "Damage": "+ Damage",
+    "Stun": "+ % Enemy Stun Chance",
+    "Stun resist": "+ % Stun Resistance",
+    "Max health": "+ Total Health",
+    "Max mana": "+ Total Mana",
+    "Melee attack speed": "+ % Melee Attack Speed",
+    "Ranged attack speed": "+ % Ranged Attack Speed",
+    "Melee crit": "+ % Melee Critical Chance",
+    "Ranged crit": "+ % Ranged Critical Chance",
+    "Block": "+ Block",
+    "Health steal": "+ Health Steal",
+    "Mana steal": "+ Mana Steal",
+    "Melee reflect": "+ Melee Damage Reflection",
+    "Ranged reflect": "+ Ranged Damage Reflection",
+    "Attack rating": "+ Attack Rating",
+    "Melee AR": "+ Melee Attack Rating",
+    "Ranged AR": "+ Ranged Attack Rating",
+    "Defense": "+ Defense Rating",
+}
+KIND_PHRASE = {
+    "1H Sword": "one-handed sword",
+    "2H Sword": "two-handed sword",
+    "1H Axe": "one-handed axe",
+    "2H Axe": "two-handed axe",
+    "1H Mace": "one-handed mace",
+    "2H Mace": "two-handed mace",
+    "1H Pick": "one-handed pick",
+    "2H Pick": "two-handed pick",
+    "1H Staff": "one-handed staff",
+    "2H Staff": "two-handed staff",
+    "1H Gun": "one-handed gun",
+    "2H Gun": "two-handed gun",
+    "2H Crossbow": "two-handed crossbow",
+    "2H Cannon": "two-handed cannon",
+    "Plate": "plate",
+    "Scale": "scale",
+    "Crystal": "crystal",
+    "Leather": "leather",
+    "Chain": "chain",
+    "Splint": "splint",
+    "Ring": "ring",
+    "Amulet": "amulet",
+}
+
+
+def player_stat_lines(raw: str) -> list[str]:
+    if not raw:
+        return []
+    lines = []
+    for part in re.split(r"\s*,\s*", raw):
+        part = part.strip()
+        if not part:
+            continue
+        lines.append(PLAYER_STAT.get(part, part if part.startswith("+") else f"+ {part}"))
+    return lines
+
+
 def suffix_page_html(pools: dict[str, list[tuple[str, str, str]]]) -> str:
     parts = [
-        "<p>Rainbow (mythic) items have a <b>fixed base name</b>. "
-        "When the client rolls a mythic, it can also attach one of these "
-        "<b>name endings</b>. The ending is a real modifier: the same word always "
-        "comes from the same stat bonus in that pool.</p>",
-        "<p>Existing wiki pages that list “Brilliance (Do Not Remove Label)” are "
-        "the base name plus one of these endings. This page is the full client list, "
-        "grouped by the ModPAL that owns it. Placeholders labeled NEEDS ENTRY in the "
-        "dump are omitted.</p>",
+        "<p>Rainbow items keep a <b>fixed base name</b>. A rolled copy can also pick up "
+        "one of these joke endings. The same ending always means the same bonus on that "
+        "kind of gear. <i>Brilliance (Do Not Remove Label)</i> is just Brilliance plus "
+        "the fighter-armor ending.</p>",
         "<p>See <a href=\"/wiki/Modifiers\" title=\"Modifiers\">Modifiers</a> for how "
-        "names are stacked, and a rainbow item page for that item’s fixed base mods.</p>",
+        "ordinary green / blue / yellow / purple names are stacked, and "
+        "<a href=\"/wiki/Name_Descriptors\" title=\"Name Descriptors\">Name Descriptors</a> "
+        "for the Superior last word.</p>",
+        '<table class="toc" id="toc" summary="Contents"><tr><td><div id="toctitle">'
+        "<h2>Contents</h2></div><ul>",
     ]
+    for pool in pools:
+        anchor = re.sub(r"[^A-Za-z0-9]+", "_", pool)
+        parts.append(
+            f'<li class="toclevel-1"><a href="#{anchor}"><span class="toctext">'
+            f"{html.escape(pool)}</span></a></li>"
+        )
+    parts.append("</ul></td></tr></table>")
     for pool, rows in pools.items():
         anchor = re.sub(r"[^A-Za-z0-9]+", "_", pool)
         parts.append(f'<a name="{anchor}"></a><h2> <span class="mw-headline">{html.escape(pool)}</span></h2>')
-        parts.append("<ul>")
+        parts.append('<table class="wiki-mod-table">')
+        parts.append("<tr><th>Name ending</th><th>Where it sits</th><th>Bonus</th></tr>")
         for label, kind, stats in rows:
-            extra = f" — {html.escape(stats)}" if stats else ""
-            parts.append(f"<li> {html.escape(label)} <i>({kind.lower()})</i>{extra}\n</li>")
-        parts.append("</ul>")
-    parts.append("<p><i>Labels and stats come from the client ModPAL files listed above.</i></p>")
+            where = "in front of the name" if kind.upper() == "PREFIX" else "after the name"
+            bonus = ", ".join(player_stat_lines(stats)) or "—"
+            parts.append(
+                f"<tr><td>{html.escape(label)}</td>"
+                f"<td>{where}</td><td>{html.escape(bonus)}</td></tr>"
+            )
+        parts.append("</table>")
     parts.append('<div class="visualClear"></div>')
     return "\n".join(parts)
 
 
 def rainbow_html(item: dict) -> str:
     title = html.escape(item["label"])
+    kind = item.get("kind") or ""
+    klass = item.get("class") or ""
+    slot = item.get("slot") or ""
+    phrase = KIND_PHRASE.get(kind, kind.lower() if kind else "")
+    if not phrase or phrase in {"cloth", "ghost", "padded", "rubber", "leather", "chain", "splint", "scale", "plate", "crystal"}:
+        if slot and slot != "Weapon":
+            phrase = slot.lower()
+        elif not phrase:
+            phrase = "rainbow item"
+    who = f"{klass.lower()} " if klass else ""
     rows = []
-    if item["slot"] and item["slot"] != "Weapon":
-        rows.append(("Piece", item["slot"]))
-    if item["kind"]:
-        rows.append(("Client type", item["kind"]))
-    if item["class"]:
-        rows.append(("Class palette", item["class"]))
-    rows.append(("Quality", "Mythic (rainbow)"))
+    if slot and slot != "Weapon":
+        rows.append(("Piece", slot))
+    elif slot == "Weapon" or kind in KIND_PHRASE:
+        rows.append(("Piece", "Weapon"))
+        pretty_kind = " ".join(w.capitalize() if w.lower() not in {"of", "the"} else w for w in phrase.split())
+        rows.append(("Type", pretty_kind.title() if pretty_kind == pretty_kind.lower() else pretty_kind))
+    if klass:
+        rows.append(("Class", klass))
+    if slot and slot != "Weapon":
+        rows.append(("Defense Rating", "varies with item level"))
+    else:
+        rows.append(("Damage", "varies with item level"))
     infobox = [
         '<table align="right" cellpadding="2" cellspacing="0" style="text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;">',
         f'<tr><td colspan="2" style="text-align:center; background:#9999FF; font-size:150%;"> {title}\n</td></tr>',
@@ -364,39 +473,50 @@ def rainbow_html(item: dict) -> str:
     ]
     for key, val in rows:
         infobox.append(
-            f'<tr><td style="width:50%;"><b>{html.escape(key)}:&nbsp;</b>\n</td>'
-            f'<td style="width:50%;">{html.escape(val)}\n</td></tr>'
+            f'<tr><td style="width:50%;" valign="top"><b>{html.escape(key)}:&nbsp;</b>\n</td>'
+            f'<td style="width:50%;" valign="top">{html.escape(val)}\n</td></tr>'
         )
     infobox.append("</table>")
+    article = f"{who}{phrase}".strip()
+    copula = "are" if phrase in {"gloves", "boots", "shoulders"} else "is a"
     body = [
-        f"<p><b>{title}</b> is a named mythic item from the client file "
-        f"<code>{html.escape(item['file'])}</code> ({html.escape(item['entry'])}).</p>",
-        "<p>This is the <b>base name</b>. Rolled mythics can also append a suffix "
-        'from <a href="/wiki/Mythic_Suffixes" title="Mythic Suffixes">Mythic Suffixes</a>. '
-        "Those endings change the last part of the name and add the bonus listed on that page. "
-        "This page does not invent extra roll combinations.</p>",
+        f"<p><b>{title}</b> {copula} {html.escape(article)}.</p>",
+        "<p>It is unknown how many different varieties of this particular mythic item exist. "
+        "Some of the Mythic items in this series may have the <b>same</b> name but "
+        "<b>different</b> attributes.</p>",
     ]
     notes = []
     if item.get("wishing"):
-        notes.append("The client marks this entry as wishing-well only.")
+        notes.append("This one came from the Wishing Well.")
     if item.get("soulbound"):
-        notes.append("The template sets <code>SoulBound = true</code>.")
+        notes.append("This item is soulbound.")
     if item.get("never_live"):
-        notes.append("The client file marks this entry <i>never went live</i>.")
+        notes.append("This name never dropped on the live servers.")
     if item.get("deprecated"):
-        notes.append("The client file marks this entry deprecated / removed from generators.")
+        notes.append("This name was pulled from later loot tables.")
     for flav in item.get("flavors") or []:
         notes.append(html.escape(flav))
     if notes:
         body.append("<p>" + " ".join(notes) + "</p>")
+    body.append('<a name="Attributes:"></a><h2> <span class="mw-headline"> Attributes: </span></h2>')
     if item["mods"]:
-        body.append("<p><b>Fixed mods on this template</b> (client <code>LabelType = NONE</code>, always on the item):</p>")
+        body.append("<p>The base item always carries:</p>")
         body.append("<ul>")
+        seen = set()
         for mod in item["mods"]:
-            body.append(f"<li> {html.escape(mod)}\n</li>")
+            for line in player_stat_lines(mod):
+                if line in seen:
+                    continue
+                seen.add(line)
+                body.append(f"<li> {html.escape(line)}\n</li>")
         body.append("</ul>")
     else:
-        body.append("<p>This mythic entry does not declare enhancement Mod blocks of its own. It only sets the name and the flags above.</p>")
+        body.append("<p>No fixed bonuses are known beyond the rainbow name itself.</p>")
+    body.append(
+        "<p>Rolled copies can also pick up an extra ending. Those endings and their "
+        'bonuses are listed on <a href="/wiki/Mythic_Suffixes" title="Mythic Suffixes">'
+        "Mythic Suffixes</a>.</p>"
+    )
     body.append('<div class="visualClear"></div>')
     return "\n".join(infobox) + "\n" + "\n".join(body)
 
