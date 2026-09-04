@@ -1,0 +1,14 @@
+{
+  "title": "Pumping Ironic-i-tude",
+  "wikiTitle": "Pumping_Ironic-i-tude",
+  "path": "/wiki/Pumping_Ironic-i-tude",
+  "description": "Pumping Ironic-i-tude \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Colonel Cabo</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Work out with Gertie on the nearby Heavy Bag. Afterward, spar with any 5 tough guys in Upper MutantMania. When you're done, check in with Colonel Cabo in the MutantMania Training Center.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Colonel Cabo</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Work out with Gertie on the nearby Heavy Bag. Afterward, spar with any 5 tough guys in Upper MutantMania. When you're done, check in with Colonel Cabo in the MutantMania Training Center.</p>\n<p><b>Offer:</b></p>\n<blockquote>Hello again! That workout we did last time was great. I felt so invigorated! *Giggle!* Can we do it again?<br/><br/>After you're done helping me with the heavy bag, Colonel Cabo told me you're supposed to spar with some of the local tough guys from Upper MutantMania.<br/><br/>When you're all done, don't forget to check in with Colonel Cabo! *Grin!*</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Ah trust...Ah say, Ah trust you had a good workout with Grapplin' Gertie? You and she are going to go all the way, friend. All the way to the top! Championship, that is!</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Spar with 5 Local Tough Guys</li></ul>\n<p><b>Client level range:</b> 82\u201384</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

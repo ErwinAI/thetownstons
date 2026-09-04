@@ -2,12 +2,12 @@
   "title": "The Hermit's Hoop",
   "wikiTitle": "The_Hermit's_Hoop",
   "path": "/wiki/The_Hermit's_Hoop",
-  "description": "The Hermit's Hoop — The Townstons wiki",
+  "description": "The Hermit's Hoop \u2014 The Townstons wiki",
   "categories": [
     "Quests",
     "Dew Valley Quests",
     "Samford the Hermit Quests"
   ],
   "images": [],
-  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Samford_the_Hermit\" title=\"Samford the Hermit\">Samford the Hermit</a>\n</p><p><b>Quest Type:</b> Retrieve Item\n</p><p><b>Quest Description:</b> Collect Samford's Ring from the chest next to the abandoned cart in Dew Valley 1\n</p><p><b>Quest Reward:</b> 250 Gold\n</p><p><b>Return to:</b> <a href=\"/wiki/Samford_the_Hermit\" title=\"Samford the Hermit\">Samford the Hermit</a>\n</p><p><b>Repeatable:</b> No\n</p>\n\n \n<div class=\"visualClear\"></div>"
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Samford_the_Hermit\" title=\"Samford the Hermit\">Samford the Hermit</a>\n</p><p><b>Quest Type:</b> Retrieve Item\n</p><p><b>Quest Description:</b> Collect Samford's Ring from the chest next to the abandoned cart in Dew Valley 1\n</p><p><b>Quest Reward:</b> 250 Gold\n</p><p><b>Return to:</b> <a href=\"/wiki/Samford_the_Hermit\" title=\"Samford the Hermit\">Samford the Hermit</a>\n</p><p><b>Repeatable:</b> No\n</p>\n\n \n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Locate the wrecked cart in Dew Valley Forest and recover the Hermit's Hoop. Return the ring to Samford the Hermit in Dew Valley.</p>\n<p><b>Offer:</b></p>\n<blockquote>An almost special ring, just for you... but random.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>My ring! My precious, precious ring. I lent it to some other yahoo, but I guess that dope lost it. Thanks for returning it. Here, before you stumble back to your place in the queue, let me give you something for your troubles.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Hermit&#x27;s Hoop \u00d71</li></ul>\n<p><b>Client level range:</b> 1\u20135</p>\n</div>\n\n<div class=\"visualClear\"></div>"
 }

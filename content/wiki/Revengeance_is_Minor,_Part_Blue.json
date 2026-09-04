@@ -1,0 +1,13 @@
+{
+  "title": "Revengeance is Minor, Part Blue",
+  "wikiTitle": "Revengeance_is_Minor,_Part_Blue",
+  "path": "/wiki/Revengeance_is_Minor,_Part_Blue",
+  "description": "Revengeance is Minor, Part Blue \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Shadow's Embrace Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> [GoS] Leda Beaurde</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Search through Level 1 of the Shadow's Embrace for Halfassin White. Once you find him, kill him before he kills you. Afterward, report the kill to [GoS] Leda Beaurde in the Shadow's Gate.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> [GoS] Leda Beaurde</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/The_Shadow%27s_Embrace_(Quest)\" title=\"The Shadow&#x27;s Embrace (Quest)\">The Shadow&#x27;s Embrace (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Search through Level 1 of the Shadow's Embrace for Halfassin White. Once you find him, kill him before he kills you. Afterward, report the kill to [GoS] Leda Beaurde in the Shadow's Gate.</p>\n<p><b>Offer:</b></p>\n<blockquote>Halfassin White says he killed me? Well, I killed *him*! Don't be confused by the fact that I am dead right now. It's a temporary circumstance brought about by a completely separate happenstance, I assure you. Anyway, if he's not dead right now, I'm sure he's teetering on the edge. Do me a favor and go find him on Level 1 and deliver the final blow. Then go to Leda Beaurde and make sure I get the proper kill credit.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Another Halfassin wants me to track his kills? What a hassle. You know why they're called Halfassins, right? Because each one is worth only half of a *real* assassin.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Kill Halfassin White</li></ul>\n<p><b>Client level range:</b> 47\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

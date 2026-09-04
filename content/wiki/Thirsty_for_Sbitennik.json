@@ -1,0 +1,14 @@
+{
+  "title": "Thirsty for Sbitennik",
+  "wikiTitle": "Thirsty_for_Sbitennik",
+  "path": "/wiki/Thirsty_for_Sbitennik",
+  "description": "Thirsty for Sbitennik \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Ratsputin's Gulag Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Elmer Decembrist</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Retrieve a Sbitennik drink from Khodebshchik in Ratsputin's Holding Cell and then return it to Elmer the Decembrist. Elmer the Decembrist in Ratsputin's Underground Network - Level 2 off of the 5th level of Ratsputin's Gulag.</p>\n<p><b>Quest Reward:</b> Gold and 2 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coins</a></p>\n<p><b>Return to:</b> Elmer Decembrist</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Ratsputin%27s_Gulag_%28Quest%29\" title=\"Ratsputin&#x27;s Gulag (Quest)\">Ratsputin&#x27;s Gulag (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Retrieve a Sbitennik drink from Khodebshchik in Ratsputin's Holding Cell and then return it to Elmer the Decembrist. Elmer the Decembrist in Ratsputin's Underground Network - Level 2 off of the 5th level of Ratsputin's Gulag.</p>\n<p><b>Offer:</b></p>\n<blockquote>Hewwo thewe fwiend. I weqwiwe mowe of youw fancifuw dwink in owdew to continue spweading the wowd. Dat wascawwy whiskew Watsputin must vacate this awea wif expediency. Pwease be swift in youw wetwievaw of youw dewicious Sbitennik! When you get the dwink, pwease bwing it to Ewmew in Watsputin's Undewgwound Netwowk - Wevew 2. I thank you kindwy fow youw assistance.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>MMmmm! Dat most cewtainwy hit the spot. Howevew, I seem to have finished off the wast of this fine dwink. Might you be abwe to acqwiwe mowe? I wouwd gwatefuw if you couwd.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Sbitennik Drink \u00d71</li></ul>\n<p><b>Client level range:</b> 75\u201395</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

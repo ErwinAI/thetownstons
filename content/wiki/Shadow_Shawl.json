@@ -1,0 +1,14 @@
+{
+  "title": "Shadow Shawl",
+  "wikiTitle": "Shadow_Shawl",
+  "path": "/wiki/Shadow_Shawl",
+  "description": "Shadow Shawl — The Townstons wiki",
+  "categories": [
+    "Rainbow items",
+    "Rainbow Shoulders",
+    "Mage Rainbow Armor"
+  ],
+  "images": [],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr><td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Shadow Shawl\n</td></tr>\n<tr><td colspan=\"2\"><hr/>\n</td></tr>\n<tr><td style=\"width:50%;\"><b>Piece:&nbsp;</b>\n</td><td style=\"width:50%;\">Shoulders\n</td></tr>\n<tr><td style=\"width:50%;\"><b>Material:&nbsp;</b>\n</td><td style=\"width:50%;\">Cloth (XXLight)\n</td></tr>\n<tr><td style=\"width:50%;\"><b>Class palette:&nbsp;</b>\n</td><td style=\"width:50%;\">Mage\n</td></tr>\n<tr><td style=\"width:50%;\"><b>Quality:&nbsp;</b>\n</td><td style=\"width:50%;\">Mythic (rainbow)\n</td></tr>\n</table>\n<p><b>Shadow Shawl</b> is the cloth ninja shoulders from <code>items/pal/MageShouldersPAL.gc</code> (<code>PreBuiltWishingWell001</code>). The client sets <code>SoulBound = true</code>. A leather copy in <code>LeatherMythicPAL.gc</code> is marked <i>never went live</i>.</p>\n<p>Rolled name endings: <a href=\"/wiki/Mythic_Suffixes\" title=\"Mythic Suffixes\">Mythic Suffixes</a>.</p>\n<p><b>Fixed mods</b> on this wishing-well template:</p>\n<ul>\n<li> AGI, INT\n</li>\n<li> Max health, Max mana\n</li>\n<li> +Fire, +Shadow\n</li>\n<li> Divine resist, Shadow resist\n</li></ul>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Dungeon Dancers Two Step",
+  "wikiTitle": "Dungeon_Dancers_Two_Step",
+  "path": "/wiki/Dungeon_Dancers_Two_Step",
+  "description": "Dungeon Dancers Two Step \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Balzack's Burrow Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Baby the Line Dancer</p>\n<p><b>Quest Type:</b> Hunt/Collect</p>\n<p><b>Quest Description:</b> Explain to the monsters in Cryptacular that they need to learn the Dungeon Dancers Two step and take their re-entry passes away if they put up a fight.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> Baby the Line Dancer</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Balzack%27s_Burrow\" title=\"Balzack&#x27;s Burrow\">Balzack&#x27;s Burrow</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Explain to the monsters in Cryptacular that they need to learn the Dungeon Dancers Two step and take their re-entry passes away if they put up a fight.</p>\n<p><b>Offer:</b></p>\n<blockquote>These moody monsters just will not listen. How am I supposed to prepare a show good enough for the King and his kin if these monsters won't learn the Dungeon Dancers Two Step. Well if they won't listen to me, you should knock some sense into them for me. If any of them give you trouble, just take their re-entry passes and bring them back to me. I will do what I can to make sure they are not let back in.<br.<br/>Speaking of just letting anyone in have you seen the way some of these monsters are dressed? It's like they totally dropped the dress code in here. That and where is the bouncer tonight, there usually is this massive Orok standing guard outside making sure none of those terribly dressed hooligan monsters come in here.<br/><br/>Once you have Dungeon Two Stepped their heads come back here to me Baby at the entrance of Cryptacular.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>I am in such a need of a pick me up, this night has been a complete waste. Take this boring coin. This club has really gone down hill, I don't think I will ever come back!</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Teach the monsters the Dungeon Dancer Two Step.</li><li>Cryptacular Re-Entry Pass \u00d710</li></ul>\n<p><b>Client level range:</b> 56\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

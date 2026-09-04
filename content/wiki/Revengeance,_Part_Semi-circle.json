@@ -1,0 +1,13 @@
+{
+  "title": "Revengeance, Part Semi-circle",
+  "wikiTitle": "Revengeance,_Part_Semi-circle",
+  "path": "/wiki/Revengeance,_Part_Semi-circle",
+  "description": "Revengeance, Part Semi-circle \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Shadow's Embrace Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> [GoS] Leda Beaurde</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Find Halfassin Black on Level 2 of the Shadow's Embrace, keeping in mind he will be disguised. After you kill him, check in with Leda Beaurde in the Shadow's Gate.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> [GoS] Leda Beaurde</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/The_Shadow%27s_Embrace_(Quest)\" title=\"The Shadow&#x27;s Embrace (Quest)\">The Shadow&#x27;s Embrace (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Find Halfassin Black on Level 2 of the Shadow's Embrace, keeping in mind he will be disguised. After you kill him, check in with Leda Beaurde in the Shadow's Gate.</p>\n<p><b>Offer:</b></p>\n<blockquote>That's the last time Halfassin Black sneaks up on me like that! He only got me this time because he cheats and was in disguise this time. Well, two can play at his little game...while I don my *own* disguise, I need you to find him on Level 2, even though he is probably still incognito. Sneak up behind him and deliver the coup de grace...with postage due!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>I hate to admit it, but I'm a bit amused by these two particular Halfassins. Don't they even realize they keep killing each other, and *only* each other? Their efforts are futile but heartwarming, like the warm, fuzzy feeling you get when you make your first kill.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Kill Halfassin Black</li></ul>\n<p><b>Client level range:</b> 47\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

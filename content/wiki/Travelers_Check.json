@@ -1,0 +1,13 @@
+{
+  "title": "Travelers? Check",
+  "wikiTitle": "Travelers?_Check",
+  "path": "/wiki/Travelers?_Check",
+  "description": "Travelers? Check \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Widower's Nest Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Speak with the Loremaster Vraile in Townston.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Exploring_Widower%27s_Nest\" title=\"Exploring Widower&#x27;s Nest\">Exploring Widower&#x27;s Nest</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Doug%27s_Digsite\" title=\"The Widower&#x27;s Nest\">The Widower&#x27;s Nest</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Speak with the Loremaster Vraile in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>Go and speak to Loremaster Vraile. He needs you to do some more exploring in the Widower's Nest, something about working on a walkthrough.<br/><br/>Find Loremaster Vraile and talk to him about exploring the Widower's Nest.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Good to see you again explorer. I am in need of your services once again.</blockquote>\n<p><b>Client level range:</b> 20\u201340</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

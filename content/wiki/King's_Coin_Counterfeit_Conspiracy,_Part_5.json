@@ -1,0 +1,13 @@
+{
+  "title": "King's Coin Counterfeit Conspiracy, Part 5",
+  "wikiTitle": "King's_Coin_Counterfeit_Conspiracy,_Part_5",
+  "path": "/wiki/King's_Coin_Counterfeit_Conspiracy,_Part_5",
+  "description": "King's Coin Counterfeit Conspiracy, Part 5 \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Shadow's Embrace Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Sir Ving N&#x27;Seacressy</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Go to Lower Shadow's Embrace and beat enough evidence out of the inhabitants to incriminate the Haxhaxors. Afterward, return to Sir Ving N'Seacressy in the Shadow's Gate.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Sir Ving N&#x27;Seacressy</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/The_Shadow%27s_Embrace_(Quest)\" title=\"The Shadow&#x27;s Embrace (Quest)\">The Shadow&#x27;s Embrace (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Go to Lower Shadow's Embrace and beat enough evidence out of the inhabitants to incriminate the Haxhaxors. Afterward, return to Sir Ving N'Seacressy in the Shadow's Gate.</p>\n<p><b>Offer:</b></p>\n<blockquote>I'm worried about the Haxhaxors behind the King's Coin counterfeiting operation. The K.I.C.K.A.S.S.S. clean-up crew found way more fake King's Coins than expected, and I suspect that they are trying to bankroll some larger operation.<br/><br/>Of course, I'm simply curious, and this is certainly not a matter that reflects my profession (whatever that may be). Still, if you wouldn't mind helping feed my hunger for knowledge, it would be satisfying if you went anywhere within Lower Shadow's Embrace and <i>asked</i> the inhabitants if they knew what the Haxhaxors are up to.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>My word, you certainly seem to have gathered quite a bit of evidence against the Haxhaxors and their operations! I'll make sure this gets to the proper authorities. *Turns and begins examining the evidence*</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Incriminating Evidence \u00d76</li></ul>\n<p><b>Client level range:</b> 49\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

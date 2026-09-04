@@ -1,0 +1,13 @@
+{
+  "title": "More Monkeysphere Cutbacks",
+  "wikiTitle": "More_Monkeysphere_Cutbacks",
+  "path": "/wiki/More_Monkeysphere_Cutbacks",
+  "description": "More Monkeysphere Cutbacks \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Algernon Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Sir_Kent_the_Artisan\" title=\"Sir Kent the Artisan\">Sir Kent the Artisan</a></p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Kill an additional 25 Whisker Broodlings and 25 Whisker Blademasters to reduce Sir Kent the Artisan's Monkeysphere. Afterward, return to Sir Kent the Artisan on Level 1 of Algernon.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> <a href=\"/wiki/Sir_Kent_the_Artisan\" title=\"Sir Kent the Artisan\">Sir Kent the Artisan</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/More_Monkeysphere_Cutbacks\" title=\"More Monkeysphere Cutbacks\">More Monkeysphere Cutbacks</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Kill an additional 25 Whisker Broodlings and 25 Whisker Blademasters to reduce Sir Kent the Artisan's Monkeysphere. Afterward, return to Sir Kent the Artisan on Level 1 of Algernon.</p>\n<p><b>Offer:</b></p>\n<blockquote>Maintaining my Monkeysphere is a full-time job, so get back to work! I cannot be expected to care about anything when my Monkeysphere is constantly filling up to the point of over saturation. Look, I cannot even make eye contact with you right now and I know you are a person but all I see standing in front of me right now is a thing that can go kill stuff for me. I mean, I cannot even remember your name at the moment.<br/><br/>Please go out and kill some Whisker Broodlings and Whisker Blademasters in Algernon. When you are done, return to me, Sir Kent the Artisan, here on the first level of Algernon so I can repay you for your help.<br/><br/>Oh, you better go. I can feel my hand involuntarily reaching for my weapon. Go now! Run!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Ah, a job well done and you have certainly earned this reward. Minus a little Interaction Tax off the top of course!</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Slain Whiskers Broodlings</li><li>Slain Whiskers Blademasters</li></ul>\n<p><b>Client level range:</b> 3\u201320</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

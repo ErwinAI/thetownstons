@@ -1,0 +1,13 @@
+{
+  "title": "Vergrim's Vexation (Quest)",
+  "wikiTitle": "Vergrim's_Vexation_(Quest)",
+  "path": "/wiki/Vergrim's_Vexation_(Quest)",
+  "description": "Vergrim's Vexation (Quest) \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Vergrim's Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Quest Type:</b> Discover</p>\n<p><b>Quest Description:</b> Sally Forth, Dungeon Runner, to Vergrim's Vexation! Then Return to the Townston Commander in Townston.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Another_Journey\" title=\"Another Journey\">Another Journey</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Cavernous_Cavern_of_Caves\" title=\"Vergrim&#x27;s Vexation\">Vergrim&#x27;s Vexation</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Sally Forth, Dungeon Runner, to Vergrim's Vexation! Then Return to the Townston Commander in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>The further depths of the dungeon are calling you, young Dungeon Runner. Past the caves and ruins of Algernon and beyond the untamed hinterlands of Algor's Terror-Dome lies the domain of Vergrim, an ancient Whisker prophet. His allies are many and his powers are great.<br/><br/>You will find the portal to Vexation Station on Algor's Terror-Dome - Level 5. Alternatively, rumors abound of a teleporter that will allow a solo adventurer to be transported from Algor's lair to Vexation Station. Search for this teleporter once you have defeated Algor.<br/><br/>Return to me, the Townston Commander, here in Townston when you have accomplished this task.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Well done. The lands of Vergrim are ripe for conquering.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Locate Vexation Station</li><li>Locate Vergrim&#x27;s Vexation</li></ul>\n<p><b>Client level range:</b> 15\u201330</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Candy Runner",
+  "wikiTitle": "Candy_Runner",
+  "path": "/wiki/Candy_Runner",
+  "description": "Candy Runner \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutanous Malaise Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> boy1 girl1</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Collect Yummy Yums Candy for the kids from the Candy Vaults of Mutanous Malaise and return them to Rose in Townston.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> boy1 girl1</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Deadie_VimPalen%27s_Pad\" title=\"The Mutanous Malaise\">The Mutanous Malaise</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Collect Yummy Yums Candy for the kids from the Candy Vaults of Mutanous Malaise and return them to Rose in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>More candy, please. Please. Please. Please. Please. Please. Please.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Thank you. Thank you. Thank you. Thank you. Thank you.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Yummy Yums \u00d750</li></ul>\n<p><b>Client level range:</b> 30\u201355</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

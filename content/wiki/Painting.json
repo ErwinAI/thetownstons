@@ -1,0 +1,12 @@
+{
+  "title": "Painting",
+  "wikiTitle": "Painting",
+  "path": "/wiki/Painting",
+  "description": "Painting \u2014 The Townstons wiki",
+  "categories": [
+    "Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Unknown</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> See in-game text below.</p>\n<p><b>Quest Reward:</b> None listed in the client files</p>\n<p><b>Return to:</b> Unknown</p>\n<p><b>Repeatable:</b> No</p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

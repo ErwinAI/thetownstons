@@ -1,0 +1,13 @@
+{
+  "title": "It's the Wolves",
+  "wikiTitle": "It's_the_Wolves",
+  "path": "/wiki/It's_the_Wolves",
+  "description": "It's the Wolves \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Holiday Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Shivery_the_Incorrigible_Snowman\" title=\"Shivery the Incorrigible Snowman\">Shivery the Incorrigible Snowman</a></p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Speak with Shivery the Incorrigible Snowman to travel to the Sanctuary of the Snowmen and kill all the wolves in the Sanctuary.</p>\n<p><b>Quest Reward:</b> Gold and 2 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coins</a></p>\n<p><b>Return to:</b> <a href=\"/wiki/Shivery_the_Incorrigible_Snowman\" title=\"Shivery the Incorrigible Snowman\">Shivery the Incorrigible Snowman</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Winter_Cleaning\" title=\"Winter Cleaning\">Winter Cleaning</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Speak with Shivery the Incorrigible Snowman to travel to the Sanctuary of the Snowmen and kill all the wolves in the Sanctuary.</p>\n<p><b>Offer:</b></p>\n<blockquote>I can't believe how many different wolves have invaded my Sanctuary. Their noses allow them to track me down as soon as I roll back into the Sanctuary. What does snow smell like anyway? Maybe it's the asparagus I ate.<br/><br/>These wolves will need to be dealt with before I can move back to the Sanctuary. You'll need to find a few different varieties, so make sure that there's fresh snow on the ground, or you might not be able to find them all.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Throw another wolf on the barbie! That's one step closer to me being able to move back into the Sanctuary.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Slay Wolf Pups</li><li>Slay Snow Monster&#x27;s Best Friend</li><li>Kill The Abominable Snow Dog</li></ul>\n<p><b>Client level range:</b> 5\u2013?</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

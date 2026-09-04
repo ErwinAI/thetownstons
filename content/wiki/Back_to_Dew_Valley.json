@@ -1,0 +1,13 @@
+{
+  "title": "Back to Dew Valley",
+  "wikiTitle": "Back_to_Dew_Valley",
+  "path": "/wiki/Back_to_Dew_Valley",
+  "description": "Back to Dew Valley \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Algernon Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Sir Prize the Kingdom Representative</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Return to Dew Valley using the Obelisk in Townston and speak with the Kingdom Representative.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Sir Prize the Kingdom Representative</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Return to Dew Valley using the Obelisk in Townston and speak with the Kingdom Representative.</p>\n<p><b>Offer:</b></p>\n<blockquote>Hail Dungeon Runner! I have seen many a young adventurer fall to the horrors of Algernon before they are ready. If you want my advice, you should head back to Dew Valley and hone your skills before venturing to the depths of Algernon.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Welcome back to Dew Valley. My tasks will sharpen your skills and prepare you for your next challenge.</blockquote>\n<p><b>Client level range:</b> 1\u20132</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

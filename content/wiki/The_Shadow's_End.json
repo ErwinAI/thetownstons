@@ -1,0 +1,13 @@
+{
+  "title": "The Shadow's End",
+  "wikiTitle": "The_Shadow's_End",
+  "path": "/wiki/The_Shadow's_End",
+  "description": "The Shadow's End \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Algernon Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Quest Type:</b> GoTo / Kill</p>\n<p><b>Quest Description:</b> Find and kill the Shadowlord in the Crypt of the Shadow Lord, located off of Level 3 of Algernon. Afterward, return to the Townston Commander in Townston.</p>\n<p><b>Quest Reward:</b> Gold and 4 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coins</a></p>\n<p><b>Return to:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Find and kill the Shadowlord in the Crypt of the Shadow Lord, located off of Level 3 of Algernon. Afterward, return to the Townston Commander in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>The undead scourge is being lead by the Shadow Lord, a foe I have met before, and he must be stopped. Go into the Shadow Lord's crypt, find his Throne Room, and kill him there. Banish his soul back to the Abyss!<br/><br/>Once you have vanquished the Shadow Lord return to me, the Townston Commander, here in Townston.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>You've done this dark deed? Huzzah, Dungeon Runner, you have saved me from having to vanquish the Shadow Lord myself and I thank you! So does my ailing back!</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Shadow Lord&#x27;s Throne Room</li><li>Slay the Shadowlord</li></ul>\n<p><b>Client level range:</b> 8\u201320</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

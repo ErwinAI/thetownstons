@@ -1,0 +1,14 @@
+{
+  "title": "Really, Light and Heat Obstructa",
+  "wikiTitle": "Really,_Light_and_Heat_Obstructa",
+  "path": "/wiki/Really,_Light_and_Heat_Obstructa",
+  "description": "Really, Light and Heat Obstructa \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Frump's Misfortune Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Taxman Jones</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Kill 35 Ice Mutants and 35 Shadow Fade in Lower Frump's Misfortune and Return to Junior Exec Ivan in Frump's Interdungeonal Resort.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> Taxman Jones</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Frump%27s_Misfortune_%28quest%29\" title=\"Frump&#x27;s Misfortune (quest)\">Frump&#x27;s Misfortune (quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Kill 35 Ice Mutants and 35 Shadow Fade in Lower Frump's Misfortune and Return to Junior Exec Ivan in Frump's Interdungeonal Resort.</p>\n<p><b>Offer:</b></p>\n<blockquote>Still nothing from The Frump or his people to report. You know what to do, get into the main areas of Lower Frump's Misfortune and slay any Ice Mutants or Shadow Fade that move. I will get a response from The Frump if it kills you!<br/><br/>When you have finished with this and you are ready for you reward return to me, Taxman Jones, here in Frump's Interdungeonal Resort.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>He can't ignore me forever! Let me know when you are ready to go wreak more devastation in Lower Frump's Misfortune. I just don't understand, we are all adults here.... Why won't he return my calls!</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Slain Ice Mutants</li><li>Slain Shadow Fades</li></ul>\n<p><b>Client level range:</b> 30\u201350</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

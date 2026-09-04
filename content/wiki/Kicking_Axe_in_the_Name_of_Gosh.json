@@ -1,0 +1,13 @@
+{
+  "title": "Kicking Axe in the Name of Gosh",
+  "wikiTitle": "Kicking_Axe_in_the_Name_of_Gosh",
+  "path": "/wiki/Kicking_Axe_in_the_Name_of_Gosh",
+  "description": "Kicking Axe in the Name of Gosh — The Townstons wiki",
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
+  "images": [],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr><td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Kicking Axe in the Name of Gosh\n</td></tr>\n<tr><td colspan=\"2\"><hr/>\n</td></tr>\n<tr><td style=\"width:50%;\"><b>Client type:&nbsp;</b>\n</td><td style=\"width:50%;\">1H Axe\n</td></tr>\n<tr><td style=\"width:50%;\"><b>Class palette:&nbsp;</b>\n</td><td style=\"width:50%;\">Fighter\n</td></tr>\n<tr><td style=\"width:50%;\"><b>Quality:&nbsp;</b>\n</td><td style=\"width:50%;\">Mythic (rainbow)\n</td></tr>\n</table>\n<p><b>Kicking Axe in the Name of Gosh</b> is a named mythic item from the client file <code>items/pal/1HAxePAL.gc</code> (GeneratedMythic001_Divine).</p>\n<p>This is the <b>base name</b>. Rolled mythics can also append a suffix from <a href=\"/wiki/Mythic_Suffixes\" title=\"Mythic Suffixes\">Mythic Suffixes</a>. Those endings change the last part of the name and add the bonus listed on that page. This page does not invent extra roll combinations.</p>\n<p>The template sets <code>SoulBound = true</code>. .</p>\n<p>This mythic entry does not declare enhancement Mod blocks of its own. It only sets the name and the flags above.</p>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

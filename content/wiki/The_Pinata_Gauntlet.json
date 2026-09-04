@@ -1,0 +1,13 @@
+{
+  "title": "The Pinata Gauntlet",
+  "wikiTitle": "The_Pinata_Gauntlet",
+  "path": "/wiki/The_Pinata_Gauntlet",
+  "description": "The Pinata Gauntlet \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Ratsputin's Gulag Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> QuestGiver_B</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Destroy the Pinata in the Pinata Gauntlet off of Level 6 of Ratsputin's Gulag and return to the Excited Lad in Ratsputin's Holding Cell.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> QuestGiver_B</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Ratsputin%27s_Gulag_%28Quest%29\" title=\"Ratsputin&#x27;s Gulag (Quest)\">Ratsputin&#x27;s Gulag (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Destroy the Pinata in the Pinata Gauntlet off of Level 6 of Ratsputin's Gulag and return to the Excited Lad in Ratsputin's Holding Cell.</p>\n<p><b>Offer:</b></p>\n<blockquote>Ahh, the Pinata Gauntlet! Did you ever used to watch Townston Gladiators? They had this awesome event called the Gauntlet. Well, this is nothing like that, but it was really cool and Haste was my favorite Gladiator! The Pinata Gauntlet is going to be tough, but I bet you could do it on Extreme!<br/><br/>Go to Level 6 of Ratsputin's Gulag and that is where you will find the entrance to the Pinata Invitational. Once you are there you will need to destroy the pinata. Return to me, the Excited Lad, here in Ratsputin's Holding Cell when you are done.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>What was it like?! No way! Thaaaaat souuuunds sooooo cooool!</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Destroy the Pinata</li></ul>\n<p><b>Client level range:</b> 75\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

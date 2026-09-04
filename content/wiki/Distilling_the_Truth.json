@@ -1,0 +1,13 @@
+{
+  "title": "Distilling the Truth",
+  "wikiTitle": "Distilling_the_Truth",
+  "path": "/wiki/Distilling_the_Truth",
+  "description": "Distilling the Truth \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Algernon Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Lieutenant\" title=\"Townston Lieutenant\">Townston Lieutenant</a></p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Speak with the Townston Lieutenant in Townston.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Townston_Lieutenant\" title=\"Townston Lieutenant\">Townston Lieutenant</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Hops_to_Conclusions\" title=\"Hops to Conclusions\">Hops to Conclusions</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Speak with the Townston Lieutenant in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>OK Dungeon Runner, I'll take care of these FizzStar samples. We need to have them tested and see if they are the real deal. Which, of course, means I have to speak to Audrey and ask her to test them. It should only take me a couple hours to explain that we are not married, I am not her husband and never have been. And then the cats...I'll have to ask how each and every one is doing. That should take about another two hours.<br/><br/>I could really use a pick-me-up myself...not that I would drink anything but Townston's Red Karl brand! Don't give me that suspicious look! In the meantime, could you update the Townston Lieutenant about our progress with the investigation? I would do it myself, but I am really just too tired to make such a long journey.<br/><br/>On a completely unrelated note, why did you bring me 7 samples? Why not just 1?</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Who sent you? Who are you? You can't prove it! I have nothing to hide!!!</blockquote>\n<p><b>Client level range:</b> 3\u201320</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

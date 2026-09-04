@@ -1,0 +1,13 @@
+{
+  "title": "Meet Herschel the Hitter",
+  "wikiTitle": "Meet_Herschel_the_Hitter",
+  "path": "/wiki/Meet_Herschel_the_Hitter",
+  "description": "Meet Herschel the Hitter \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Herschel the Hitter</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Meet Herschel the Hitter in the MutantMania Training Center.</p>\n<p><b>Quest Reward:</b> None listed in the client files</p>\n<p><b>Return to:</b> Herschel the Hitter</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Nine-Tenths_of_the_Brawl\" title=\"Nine-Tenths of the Brawl\">Nine-Tenths of the Brawl</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Meet Herschel the Hitter in the MutantMania Training Center.</p>\n<p><b>Offer:</b></p>\n<blockquote>Friend, Ah've been working you hard, but Ah believe you can take it. But Ah also believe you may need a bit of a pick-me-up. Restorative, that is.<br/><br/>Ah've been talking with Herschel the Hitter? That boy may have just the tonic to help you keep your edge. Go chat with Herschel. He's soaking on the sauna of the MutantMania Training Center.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Oy! Old Herschel is having so much shpilkes lately, he's about to plotz!</blockquote>\n<p><b>Client level range:</b> 84\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

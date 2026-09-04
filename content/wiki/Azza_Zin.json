@@ -1,0 +1,13 @@
+{
+  "title": "Azza Zin",
+  "wikiTitle": "Azza_Zin",
+  "path": "/wiki/Azza_Zin",
+  "description": "Azza Zin — The Townstons wiki",
+  "categories": [
+    "Rainbow items",
+    "Mage Rainbow Armor"
+  ],
+  "images": [],
+  "html": "<p><b>Azza Zin</b> is a named cloth mage mythic set. Each piece is <code>GeneratedMythic004</code> in the Mage PAL files (<code>Base*Classes.XXLight</code>). The item generators point at those templates in <code>items/ig/mage/MythicMage*IG.gc</code>.</p><p>The templates set <code>SoulBound = true</code> and a fixed base name. They do not declare their own enhancement Mod blocks. Rolled endings: <a href=\"/wiki/Mythic_Suffixes\" title=\"Mythic Suffixes\">Mythic Suffixes</a> (Mage armor pool).</p><p>Pieces:</p><ul>\n<li> <a href=\"/wiki/Azza_Zin's_Credence\" title=\"Azza Zin&#x27;s Credence\">Azza Zin&#x27;s Credence</a> — Body\n</li><li> <a href=\"/wiki/Azza_Zin's_Credenzas\" title=\"Azza Zin&#x27;s Credenzas\">Azza Zin&#x27;s Credenzas</a> — Shoulders\n</li><li> <a href=\"/wiki/Azza_Zin's_Credo\" title=\"Azza Zin&#x27;s Credo\">Azza Zin&#x27;s Credo</a> — Helm\n</li><li> <a href=\"/wiki/Azza_Zin's_Credentials\" title=\"Azza Zin&#x27;s Credentials\">Azza Zin&#x27;s Credentials</a> — Gloves\n</li><li> <a href=\"/wiki/Azza_Zin's_Creepers\" title=\"Azza Zin&#x27;s Creepers\">Azza Zin&#x27;s Creepers</a> — Boots\n</li></ul><div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

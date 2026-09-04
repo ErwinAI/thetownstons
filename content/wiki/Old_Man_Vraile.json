@@ -1,0 +1,13 @@
+{
+  "title": "Old Man Vraile",
+  "wikiTitle": "Old_Man_Vraile",
+  "path": "/wiki/Old_Man_Vraile",
+  "description": "Old Man Vraile \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Algernon Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Speak with the Loremaster Vraile in Townston.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Survey_Algernon\" title=\"Survey Algernon\">Survey Algernon</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Speak with the Loremaster Vraile in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>Loremaster Vraile needs someone to help him survey Algernon for this year's property taxes. I went ahead and volunteered you to help! You are so lucky. Loremaster Vraile tells really great stories. You should ask him about how they used to wear onions on their belts-- it was the fashion back then. Fascinating!<br/><br/>Anyway, we really need you to help out with the survey. We lease out some of the dungeons periodically to the monsters. To make sure we are getting our proper money's worth, we have to regularly survey the dungeons. So get out there and make sure we are making enough money!<br/><br/>You will find Vraile in the upper reaches of Townston, in-between the two higher-level weapon vendors and near the Horrific Dungeon of Legend.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>I used to be hip when I was your age. I remember it clearly as though it were yesterday. In fact, it was yesterday and my hip was acting up. You see, there was a storm coming and the cats were all meowing in unison to the moon. Cats are known to do that. This was all before chickens learnt to speak and ruled the world. But that is a different story.</blockquote>\n<p><b>Client level range:</b> 3\u201320</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

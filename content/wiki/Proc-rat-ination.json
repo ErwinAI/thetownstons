@@ -1,0 +1,13 @@
+{
+  "title": "Proc-rat-ination",
+  "wikiTitle": "Proc-rat-ination",
+  "path": "/wiki/Proc-rat-ination",
+  "description": "Proc-rat-ination \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Kurley_the_Lazy\" title=\"Kurley the Lazy\">Kurley the Lazy</a></p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Bring Kurley somes of yours Fizz Rock for a giant penny. He's in A Secret Squeakeasy.</p>\n<p><b>Quest Reward:</b> 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> <a href=\"/wiki/Kurley_the_Lazy\" title=\"Kurley the Lazy\">Kurley the Lazy</a></p>\n<p><b>Repeatable:</b> Yes</p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Bring Kurley somes of yours Fizz Rock for a giant penny. He's in A Secret Squeakeasy.</p>\n<p><b>Offer:</b></p>\n<blockquote>Heys yous, rats-face! I needs helps, squeak, and you look-a-like you's not doing anythings. I wasis supposeds to bes mining Fizz Rocks for Sissirats' and I gots thirsty. I thoughts I just stop by Squeakseasy, squeak, and gets some FizzWater to gets some energy.<br/><br/>Was bads idea because one led to four and now I is heres all tired and having no energies. And I still hasn't mades my quota. Sissirats is goings to kick the squeaks out of me. Can you helps?<br/><br/>I just needs some Fizz Rocks to make mys quotas. If you brings 20 Fizz Rocks to mes I will give yous this really bigs shiny penny I founded on the floor. Townstons Guards are carelessess with theirs giant pennies! Sound like a deals? Great!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Squeaks! Thankses! You saveds my tail, yous did!<br/><br/>Hmms, with my quotas met, I can stays and get anothers FizzStar! Maybe Dungeon Runner will gets me some mores Fizz Rock? Then I don'ts has to leave!</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Mined Fizz Rock \u00d720</li></ul>\n<p><b>Client level range:</b> 3\u201320</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

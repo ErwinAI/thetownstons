@@ -1,0 +1,13 @@
+{
+  "title": "Missing Man, Part 1",
+  "wikiTitle": "Missing_Man,_Part_1",
+  "path": "/wiki/Missing_Man,_Part_1",
+  "description": "Missing Man, Part 1 \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Shadow's Embrace Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Sir Reele</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Sir Reele went missing in the Guild of Shadows Training Chamber of Doom off Level 1 of the Shadow's Embrace. Find him.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Sir Reele</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Missing_Man,_Part_2\" title=\"Missing Man, Part 2\">Missing Man, Part 2</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/The_Shadow%27s_Embrace_(Quest)\" title=\"The Shadow&#x27;s Embrace (Quest)\">The Shadow&#x27;s Embrace (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Sir Reele went missing in the Guild of Shadows Training Chamber of Doom off Level 1 of the Shadow's Embrace. Find him.</p>\n<p><b>Offer:</b></p>\n<blockquote>If I *were* an agent of K.I.C.K.A.S.S.S.--and I'm not admitting that I am--but if I was, I would probably mention that Sir Reele was searching for secret documents when he went missing in the Guild of Shadows Training Chamber of Doom. That's the sub-level off of Level 1 of the Shadow's Embrace dungeon. And I might also mention that I'd pay anyone who discovered his fate and completed his task. But I'm clearly not an agent of K.I.C.K.A.S.S.S., so I won't be saying such things. *wink!*</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>I died in the Guild of Shadows Training Chamber of Doom, but for some reason I haven't resurrected yet! Are you here to rescue me?</blockquote>\n<p><b>Client level range:</b> 45\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

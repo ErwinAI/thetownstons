@@ -1,0 +1,13 @@
+{
+  "title": "Loud Noises: C",
+  "wikiTitle": "Loud_Noises:_C",
+  "path": "/wiki/Loud_Noises/_C",
+  "description": "Loud Noises: C \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Balzack's Burrow Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Sam &#x27;Dog Walker&#x27;</p>\n<p><b>Quest Type:</b> Hunt/Collect</p>\n<p><b>Quest Description:</b> Find the group of Frosty Melee Wasps that attacked the stable boy's dog, kill them and get back the squeak toy.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Sam &#x27;Dog Walker&#x27;</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Balzack%27s_Burrow\" title=\"Balzack&#x27;s Burrow\">Balzack&#x27;s Burrow</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Find the group of Frosty Melee Wasps that attacked the stable boy's dog, kill them and get back the squeak toy.</p>\n<p><b>Offer:</b></p>\n<blockquote>As the most important dog walker in all of Townston, all of the Kingdom even! I demand that you listen to my words and heed my advice. When walking a dog beware where you step, for it is not always as obvious as when walking behind a horse when you will step in something steaming and stinky. The shoe that steps in the gift left by the dog must be attended to quickly or the smell will forever inhabit it. If the smell does linger you are to then take it to the place of washing and repeat the cleansing of the stench twenty eight times while covering your hands and the shoe in Gosh Blessed water.<br/><br/>Listen to me again Dungeon Runner, if you can over all this barking. Go into that filthy night club Balzack's Burrow and find the stable boy's dog's squeak toy. While you're at it you may as well kill enough of those Gosh forsaken Frosty Melee Wasps to teach them a lesson.<br/><br/>When you have killed them all come back to me, the Dog Walker who walks a very important dog here in Balzack's Base Camp.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Finally! For the love of Gosh you took long enough you know. I have had to put up with this dog, and now that you opened you mouth I think I prefer the dog. Take your pay and come back when my headache is gone.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Teach the Frosty Melee Wasps not to steal.</li><li>Squeak Toy \u00d71</li></ul>\n<p><b>Client level range:</b> 55\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Je'zzee Wants Whisker Metal",
+  "wikiTitle": "Je'zzee_Wants_Whisker_Metal",
+  "path": "/wiki/Je'zzee_Wants_Whisker_Metal",
+  "description": "Je'zzee Wants Whisker Metal \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Frump's Misfortune Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Nielsen</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Go to the lower branches of Frump's Misfortune to kill Divine Whisker Blademasters and collect 20 blademaster swords. Return to Nielsen with the swords in Frump's Interdungeonal Resort.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Nielsen</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Cleaning_up_Je%27zzee%27s_Mess\" title=\"Cleaning up Je&#x27;zzee&#x27;s Mess\">Cleaning up Je&#x27;zzee&#x27;s Mess</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Deathtroit\" title=\"Frump&#x27;s Misfortune\">Frump&#x27;s Misfortune</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Go to the lower branches of Frump's Misfortune to kill Divine Whisker Blademasters and collect 20 blademaster swords. Return to Nielsen with the swords in Frump's Interdungeonal Resort.</p>\n<p><b>Offer:</b></p>\n<blockquote>The Divine Whiskers are known for being quite resourceful and are believed to have a monopoly on a certain type of metal vein. We don't know where it is, but that's okay. We know where some Divine Whisker Blademasters hang out and we also know their swords are smelted out of the same metal. I'd tell you to ask politely, bribe, or barter with them, but that's neither fun nor heroic.<br/><br/>Head into Choppe's Shoppe, Karnage's Lot, or Je'zzee's Gorage and keep killing Divine Whisker Blademasters until you can pry at least 20 swords from their paws. Once you have the goods, deliver them to Mr. Nielsen in Frump's Interdungeonal Resort.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Hmmm. I'm not so sure there is anything all that special about these swords. Je'zzee Jaym'zz is a so called expert craftsman right? We are starting to have some doubts without having seen any progress.<br/><br/>Our problem, not yours. Speaking of problems, we do have a debugging task that you could assist us with when you get a chance.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Blademaster Swords \u00d720</li></ul>\n<p><b>Client level range:</b> 25\u201345</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

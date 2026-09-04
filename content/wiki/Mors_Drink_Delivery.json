@@ -1,0 +1,13 @@
+{
+  "title": "Mors Drink Delivery",
+  "wikiTitle": "Mors_Drink_Delivery",
+  "path": "/wiki/Mors_Drink_Delivery",
+  "description": "Mors Drink Delivery \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Ratsputin's Gulag Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Grasshopper the Decembrist</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Go to The Whisker's Library - Dogma Section off Level 7 of Ratsputin's Gulag. Find Grasshopper and give him this drink of Mors.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Grasshopper the Decembrist</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Ratsputin%27s_Gulag_%28Quest%29\" title=\"Ratsputin&#x27;s Gulag (Quest)\">Ratsputin&#x27;s Gulag (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Go to The Whisker's Library - Dogma Section off Level 7 of Ratsputin's Gulag. Find Grasshopper and give him this drink of Mors.</p>\n<p><b>Offer:</b></p>\n<blockquote>When I look at my gifted hands, all covered in this Shadow Spice, I can't help but to wonder about other great artisans like B'Etie Crocher, Chef Byorar'd, Hamburg Elper, and Oscher Maiyor. Is this how they started?<br/><br/>I'd like for you to do one more drink run for me, if you could find it in your heart to help me out.<br/><br/>On the seventh level, you will find the entrance to The Whisker's Library - Dogma Section. Somewhere on that level, you will find Grasshopper, who ordered this drink of Mors. Bring it to him and then all my orders will have been completed.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Never assume because a man has no eyes he cannot see. Close your eyes. What do you hear?<br/><br/>Do you hear the grasshopper that is at your feet?<br/><br/>Well, you should. I'm talking to you right now. Got you! You gullible fool. Haha, I played a joke at your expense.<br/><br/>Sorry, I must amuse myself. Just looking at you wasn't enough. Now, if you can snatch these coins from my hand, they will be yours to keep.<br/><br/>Oh, and thank you, strange gullible one, for the tasty beverage.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Mors Drink \u00d71</li></ul>\n<p><b>Client level range:</b> 75\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

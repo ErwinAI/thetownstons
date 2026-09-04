@@ -1,0 +1,13 @@
+{
+  "title": "Audit: Algor's Terror-Dome",
+  "wikiTitle": "Audit:_Algor's_Terror-Dome",
+  "path": "/wiki/Audit/_Algor's_Terror-Dome",
+  "description": "Audit: Algor's Terror-Dome \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Algor's Terror Dome Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Lieutenant\" title=\"Townston Lieutenant\">Townston Lieutenant</a></p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Talk to Loremaster Vraile about the Sickness in Algor's Terror-Dome.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Townston_Lieutenant\" title=\"Townston Lieutenant\">Townston Lieutenant</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Audit/_Terra-Infirma\" title=\"Audit: Terra-Infirma\">Audit: Terra-Infirma</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Algor%27s_Terror_Dome_%28Quest%29\" title=\"Algor&#x27;s Terror Dome (Quest)\">Algor&#x27;s Terror Dome (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Talk to Loremaster Vraile about the Sickness in Algor's Terror-Dome.</p>\n<p><b>Offer:</b></p>\n<blockquote>Ho, Dungeon Runner! We have quite an interesting situation here. At Algor's introduction Press Conference he said something cryptic about the dungeon being sick. No one is sure exactly what he meant by that, but I assume it was more of Algor's hippy-nonsense.<br/><br/>The real problem is that we can't get to auditing the dungeon until we know for sure if it is in tip top shape. Medicine isn't my thing so go and chat up Loremaster Vraile about what needs to be done in order to get the audit process started. I wouldn't hurry, though, you might make yourself seem eager and willing to do things for the good of the Kingdom. If that were to happen I would be obligated by the Bully Code of Coolerthanushire to box your ears!<br/><br/>See you around... loser. What? I didn't say anything... loser.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Did the Townston Lieutenant send you to talk to me? I know what this is about, the fever in Algor's Terror-Dome. Well, let's discuss, shall we.</blockquote>\n<p><b>Client level range:</b> 10\u201325</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

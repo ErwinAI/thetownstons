@@ -1,0 +1,13 @@
+{
+  "title": "Coddle, Kowtow, and Delight",
+  "wikiTitle": "Coddle,_Kowtow,_and_Delight",
+  "path": "/wiki/Coddle,_Kowtow,_and_Delight",
+  "description": "Coddle, Kowtow, and Delight \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Frump's Misfortune Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Junior_Exec_Ivan\" title=\"Junior Exec Ivan\">Junior Exec Ivan</a></p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Kill 35 Ice Orok Runts and 45 Ice Orok Scouts in Upper Frump's Misfortune and Return to Junior Exec Ivan in Frump's Interdungeonal Resort.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Junior_Exec_Ivan\" title=\"Junior Exec Ivan\">Junior Exec Ivan</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Coddle,_Kowtow,_and_Delight\" title=\"Coddle, Kowtow, and Delight\">Coddle, Kowtow, and Delight</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Frump%27s_Misfortune_%28quest%29\" title=\"Frump&#x27;s Misfortune (quest)\">Frump&#x27;s Misfortune (quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Kill 35 Ice Orok Runts and 45 Ice Orok Scouts in Upper Frump's Misfortune and Return to Junior Exec Ivan in Frump's Interdungeonal Resort.</p>\n<p><b>Offer:</b></p>\n<blockquote>We have been getting complaints from Dungeon Runners that Frump's Misfortune is too cold. Needless to say that we take our patrons concerns to our black hearts and we need to take appropriate action. The Ice Oroks in the main areas of Upper Frump's Misfortune are causing this fluctuation in temperature so they need to be dealt with. Customer care is The Frump's main priority with Frump's Misfortune and you would be going a long way in gaining his favor if you can take care of this problem. If the customers aren't comfortable then they won't stay in the dungeon long and we won't make as much loot.<br/><br/>Head into the main areas of Upper Frump's Misfortune and slay Ice Orok Runts and Scouts. By the time you are done with that the temperatures should return to normal. Come and talk to me, Junior Exec Ivan, here in Frump's Interdungeonal Resort when you are through.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>It certainly does feel better in here, I must admit. Fine work.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Slain Ice Orok Runts</li><li>Slain Ice Orok Scouts</li></ul>\n<p><b>Client level range:</b> 25\u201345</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

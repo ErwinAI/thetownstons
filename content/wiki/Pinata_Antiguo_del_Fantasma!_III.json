@@ -1,0 +1,13 @@
+{
+  "title": "Pinata Antiguo del Fantasma! III",
+  "wikiTitle": "Pinata_Antiguo_del_Fantasma!_III",
+  "path": "/wiki/Pinata_Antiguo_del_Fantasma!_III",
+  "description": "Pinata Antiguo del Fantasma! III \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Ratsputin's Gulag Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> QuestGiver_D</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Kill the Pinata Antiguo del Fantasma and the 3 Heroes in the Pinata Standoff that randomly appears off of Level 4 of Ratsputin's Gulag. Then return to the Scared Lass in Ratsputin's Holding Cell.</p>\n<p><b>Quest Reward:</b> Gold and 2 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coins</a></p>\n<p><b>Return to:</b> QuestGiver_D</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Ratsputin%27s_Gulag_%28Quest%29\" title=\"Ratsputin&#x27;s Gulag (Quest)\">Ratsputin&#x27;s Gulag (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Kill the Pinata Antiguo del Fantasma and the 3 Heroes in the Pinata Standoff that randomly appears off of Level 4 of Ratsputin's Gulag. Then return to the Scared Lass in Ratsputin's Holding Cell.</p>\n<p><b>Offer:</b></p>\n<blockquote>Ok, so maybe it is the evil monster in the Pinata Standoff off of Level 4 that give me the willies. Maybe, just maybe, if you can kill them I won't be scared any more....<br/><br/>Go to the entrance to the Pinata Invitational off of Level 4 of Ratsputin's Gulag and it might magically take you to the Pinata Showdown. If it does kill the three evil Heroes and the evil pinata spirit, Pinata Antiguo del Fantasma. When you have done this return to me, the Scared Lass, here in Ratsputin's Holding Cell.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Hmm, I'm still at Scared Level Teal... try again, please.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Destroy the Pinata Antiguo del Fantasma on Level 4</li><li>Destroy the Three Evil Heroes on Level 4</li></ul>\n<p><b>Client level range:</b> 85\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

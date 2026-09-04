@@ -1,0 +1,14 @@
+{
+  "title": "Audit: Vergrim's Red Tape",
+  "wikiTitle": "Audit:_Vergrim's_Red_Tape",
+  "path": "/wiki/Audit/_Vergrim's_Red_Tape",
+  "description": "Audit: Vergrim's Red Tape \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Vergrim's Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Tangled_-_Sir_Kutree\" title=\"Tangled - Sir Kutree\">Tangled - Sir Kutree</a></p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Collect Papers from the creatures in Vergrim's Vexation and Return to Sir Kutree on Level 1 of Vergrim's Vexation.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> <a href=\"/wiki/Tangled_-_Sir_Kutree\" title=\"Tangled - Sir Kutree\">Tangled - Sir Kutree</a></p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Vergrim%27s_Vexation_(Quest)\" title=\"Vergrim&#x27;s Vexation (Quest)\">Vergrim&#x27;s Vexation (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Collect Papers from the creatures in Vergrim's Vexation and Return to Sir Kutree on Level 1 of Vergrim's Vexation.</p>\n<p><b>Offer:</b></p>\n<blockquote>This should not be anything new for you, actually, I'm surprised that the creatures don't just hand over their paper work to you when they see you coming. They talk about you when you aren't there, in whispers, and they tell stories of you wiping out an entire dungeon. They fear you and respect you and there is even talk of them setting up some sort of fan club.<br/><br/>Ok, not really. It sounded cool though, yeah? I just wanted to pump you up a little before sending you out to certain doom.<br/><br/>When you have the paperwork collected report to me, Sir Kutree, on Level 1 of Vergrim's Vexation.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Back so soon? Alrighty then, let me see the papers. Yes, yes, everything is here. Let me know when you are ready to get started again.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>VV-1(Mutant Papers) \u00d71</li><li>VV-2 (Fade Papers) \u00d71</li><li>VV-3 (Whisker Papers) \u00d71</li></ul>\n<p><b>Client level range:</b> 25\u201330</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

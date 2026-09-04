@@ -1,0 +1,14 @@
+{
+  "title": "Weakened at Bernie's, Too",
+  "wikiTitle": "Weakened_at_Bernie's,_Too",
+  "path": "/wiki/Weakened_at_Bernie's,_Too",
+  "description": "Weakened at Bernie's, Too \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Colonel Cabo</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Go to Bernie's Backyard Brawl off Level 1 of MutantMania. Brawl against Vinny Vamoose and then report back to Colonel Cabo in the MutantMania Training Center.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Colonel Cabo</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Go to Bernie's Backyard Brawl off Level 1 of MutantMania. Brawl against Vinny Vamoose and then report back to Colonel Cabo in the MutantMania Training Center.</p>\n<p><b>Offer:</b></p>\n<blockquote>Go to, Ah say go to Bernie's Backyard Brawl and look up Vinny Vamoose. He doesn't always win, but Ah still hear good things about him. Ah want to give him a chance to show me if he's any good. Ah want you to take him on. Fight him, that is. If he ever does something to stand out from the crowd, maybe Ah'll represent him on the professional circuit.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Hello there, friend. So, tell me about your latest fight, the one with Vinny Vamoose. Uh huh. Uh huh. Uh huh.<br/><br/>Ah see. Well, he sounds like he still has a scrap of promise. Ah'll probably give him another chance. Just one.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Brawl with Vinny Vamoose</li></ul>\n<p><b>Client level range:</b> 80\u201390</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

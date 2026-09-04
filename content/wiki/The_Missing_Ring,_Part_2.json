@@ -1,0 +1,13 @@
+{
+  "title": "The Missing Ring, Part 2",
+  "wikiTitle": "The_Missing_Ring,_Part_2",
+  "path": "/wiki/The_Missing_Ring,_Part_2",
+  "description": "The Missing Ring, Part 2 \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Chairman_Manchair\" title=\"Chairman Manchair\">Chairman Manchair</a></p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Rough up the locals in Upper MutantMania until they give up the fight ring posts. Deliver the recovered posts to Chairman Manchair in the All-Amateur Assault off MutantMania's Level 3.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Chairman_Manchair\" title=\"Chairman Manchair\">Chairman Manchair</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Rough up the locals in Upper MutantMania until they give up the fight ring posts. Deliver the recovered posts to Chairman Manchair in the All-Amateur Assault off MutantMania's Level 3.</p>\n<p><b>Offer:</b></p>\n<blockquote>Nelly Virago, here. Ace reporter for MutantMania Monthly Magazine. Aren't you that competitor who found the clue in the hijacked All-Amateur Assault Polyhedral Circle Pan-Community Project Committee caravan? I thought so.<br/><br/>I'd like to get your comments on the fact that the clue revealed that the Lucky Luchadores were the hijackers, and that it is believed that they are currently trying to smuggle their ill-gotten AAAPCPCPC fight ring posts throughout Upper MutantMania.<br/><br/>No comment? Well, I guess I can always get an interview with Chairman Manchair in the All-Amateur Assault after those posts are recovered. If they're recovered, of course. Because recovering them would be big news. The sort of news that my readers love to read about. In the news.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Thank ye, guv'nor! We'll be using these posts to start buildin' the new fight ring, we will! Next time ye see <i>ace reporter</i> Nelly Virago, ask her for me if she knows where be our missing ropes, if you please.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Fight Ring Posts \u00d78</li></ul>\n<p><b>Client level range:</b> 81\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

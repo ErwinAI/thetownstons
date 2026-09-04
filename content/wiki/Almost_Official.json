@@ -1,0 +1,13 @@
+{
+  "title": "Almost Official",
+  "wikiTitle": "Almost_Official",
+  "path": "/wiki/Almost_Official",
+  "description": "Almost Official \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Dew Valley Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Deidre the Resourceful</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Seek out Deidre the Resourceful in Dew Valley.</p>\n<p><b>Quest Reward:</b> None listed in the client files</p>\n<p><b>Return to:</b> Deidre the Resourceful</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/A_Funny_Way_of_Helping\" title=\"A Funny Way of Helping\">A Funny Way of Helping</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Dew_Valley_Forest\" title=\"Dew Valley\">Dew Valley</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Seek out Deidre the Resourceful in Dew Valley.</p>\n<p><b>Offer:</b></p>\n<blockquote>I am grateful for your help. If you ever need my assistance, please don't hesitate to seek me out.<br/><br/>As agreed, here is my ticket--help queue ticket #2. Don't go away...I believe you are next to be assisted by the Ministry of Human Resources!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Greetings! I am Deidre the Resourceful of the Kingdom's Ministry of Human Resources. Do you have ticket #2? Very good. Give it here.<br/><br/>You're almost ready to become an official Dungeon Runner of the realm! Unfortunately, I'm too busy to help you today.<br/><br/>NEXT!</blockquote>\n<p><b>Client level range:</b> 1\u20135</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Another Journey",
+  "wikiTitle": "Another_Journey",
+  "path": "/wiki/Another_Journey",
+  "description": "Another Journey \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Vergrim's Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Loremaster_Vraile\" title=\"Loremaster Vraile\">Loremaster Vraile</a></p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Speak with the Loremaster Vraile in Townston.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Loremaster_Vraile\" title=\"Loremaster Vraile\">Loremaster Vraile</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Exploring_Vergrim%27s_Vexation\" title=\"Exploring Vergrim&#x27;s Vexation\">Exploring Vergrim&#x27;s Vexation</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Vergrim%27s_Vexation_(Quest)\" title=\"Vergrim&#x27;s Vexation (Quest)\">Vergrim&#x27;s Vexation (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Speak with the Loremaster Vraile in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>Loremaster Vraile once again seeks your help in mapping out the dungeon.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Good to see you again explorer. I am in need of your services once again.</blockquote>\n<p><b>Client level range:</b> 15\u201330</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

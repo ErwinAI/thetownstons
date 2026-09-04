@@ -1,0 +1,14 @@
+{
+  "title": "Frump's Frugal",
+  "wikiTitle": "Frump's_Frugal",
+  "path": "/wiki/Frump's_Frugal",
+  "description": "Frump's Frugal \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Frump's Misfortune Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Taxman Jones</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Collect Frump's Missing Fortune from within Frump's Misfortune and Return to Taxman Jones.</p>\n<p><b>Quest Reward:</b> 5 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coins</a></p>\n<p><b>Return to:</b> Taxman Jones</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Frump%27s_Misfortune_%28quest%29\" title=\"Frump&#x27;s Misfortune (quest)\">Frump&#x27;s Misfortune (quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Collect Frump's Missing Fortune from within Frump's Misfortune and Return to Taxman Jones.</p>\n<p><b>Offer:</b></p>\n<blockquote>Look, Dungeon Runner, The Frump has been hiding his assets all over Frump's Misfortune and claiming them as lost wages. I need those assets so I can start showing some returns for my efforts here and that is why I'm talking to you now. Do you consider youself a treasure hunter? Not a loot hunter, a treasure hunter. Loot is easy to come across, you can give a Whiskerling a cross look and loot will pop out, but treasure... Treasure is special!<br/><br/>I talked to some disgruntled creatures that work in Frump's Misfortune and they said that The Frump has been hiding his Missing Fortune in Ancient Relic Chest throughout Frump's Misfortune. They aren't easy to find, but keep at it and it will be rewarding.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Don't tell me you found Frump's Missing Fortune?! Oh, this is going to make me look really good! Let me know if you are feeling lucky and want to go out and hunt some more treasure.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Frump&#x27;s Missing Fortune \u00d71</li></ul>\n<p><b>Client level range:</b> 35\u201350</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

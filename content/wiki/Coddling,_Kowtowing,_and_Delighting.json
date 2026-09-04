@@ -1,0 +1,14 @@
+{
+  "title": "Coddling, Kowtowing, and Delighting",
+  "wikiTitle": "Coddling,_Kowtowing,_and_Delighting",
+  "path": "/wiki/Coddling,_Kowtowing,_and_Delighting",
+  "description": "Coddling, Kowtowing, and Delighting \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Frump's Misfortune Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Junior_Exec_Ivan\" title=\"Junior Exec Ivan\">Junior Exec Ivan</a></p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Kill 20 Ice Orok Runts, 20 Ice Orok Scouts, and 4 Ice Orok Leaders in Upper Frump's Misfortune then Return to Junior Exec Ivan in Frump's Interdungeonal Resort.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> <a href=\"/wiki/Junior_Exec_Ivan\" title=\"Junior Exec Ivan\">Junior Exec Ivan</a></p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Frump%27s_Misfortune_%28quest%29\" title=\"Frump&#x27;s Misfortune (quest)\">Frump&#x27;s Misfortune (quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Kill 20 Ice Orok Runts, 20 Ice Orok Scouts, and 4 Ice Orok Leaders in Upper Frump's Misfortune then Return to Junior Exec Ivan in Frump's Interdungeonal Resort.</p>\n<p><b>Offer:</b></p>\n<blockquote>To be honest, I don't know if Ice Oroks are even capable of being taught anything, so I want you to keep pounding it into their thick skulls that The Frump is not a man to be crossed. Unless you are, were, or will one day be married to him.<br/><br/>Head back into the main areas of Upper Frump's Misfortune and take out the Ice Orok Runts, Scouts, and Leaders. Finish them off and then make your way back into Frump's Interdungeonal Resort and talk to me, Junior Exec Ivan.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Those Ice Oroks just don't get it do they. Let me know when you are rested up and ready to take another crack at those numbskulls.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Slain Ice Orok Runts</li><li>Slain Ice Orok Scout</li><li>Slain Ice Orok Leaders</li></ul>\n<p><b>Client level range:</b> 25\u201335</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

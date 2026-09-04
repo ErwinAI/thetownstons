@@ -1,0 +1,13 @@
+{
+  "title": "Word of Gosh",
+  "wikiTitle": "Word_of_Gosh",
+  "path": "/wiki/Word_of_Gosh",
+  "description": "Word of Gosh — The Townstons wiki",
+  "categories": [
+    "Rainbow items",
+    "One-Handed-Fighter-Rainbows"
+  ],
+  "images": [],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr><td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Word of Gosh\n</td></tr>\n<tr><td colspan=\"2\"><hr/>\n</td></tr>\n<tr><td style=\"width:50%;\"><b>Client type:&nbsp;</b>\n</td><td style=\"width:50%;\">1H Axe\n</td></tr>\n<tr><td style=\"width:50%;\"><b>Class palette:&nbsp;</b>\n</td><td style=\"width:50%;\">Fighter\n</td></tr>\n<tr><td style=\"width:50%;\"><b>Quality:&nbsp;</b>\n</td><td style=\"width:50%;\">Mythic (rainbow)\n</td></tr>\n</table>\n<p><b>Word of Gosh</b> is a named mythic item from the client file <code>items/pal/1HAxePAL.gc</code> (MythicPreBuilt005).</p>\n<p>This is the <b>base name</b>. Rolled mythics can also append a suffix from <a href=\"/wiki/Mythic_Suffixes\" title=\"Mythic Suffixes\">Mythic Suffixes</a>. Those endings change the last part of the name and add the bonus listed on that page. This page does not invent extra roll combinations.</p>\n<p>The template sets <code>SoulBound = true</code>. Go forth unto the World and spread the &#x27;Word&#x27; of Gosh to thine enemy. Hint: Actions speak louder than words.</p>\n<p><b>Fixed mods on this template</b> (client <code>LabelType = NONE</code>, always on the item):</p>\n<ul>\n<li> AGI, END\n</li>\n<li> Ranged reflect\n</li>\n<li> +Divine\n</li>\n<li> +Divine, +Slashing\n</li>\n<li> Max mana\n</li>\n</ul>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

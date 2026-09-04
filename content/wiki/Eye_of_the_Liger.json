@@ -1,0 +1,13 @@
+{
+  "title": "Eye of the Liger",
+  "wikiTitle": "Eye_of_the_Liger",
+  "path": "/wiki/Eye_of_the_Liger",
+  "description": "Eye of the Liger \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Logan_the_Liger\" title=\"Logan the Liger\">Logan the Liger</a></p>\n<p><b>Quest Type:</b> Activate / Kill</p>\n<p><b>Quest Description:</b> Help the Liger defeat 10 Ponderous Luchadores off MutantMania's Level 7, in the Sufficiently-Sized Scuffle or Purpose-Pondering Peak. Afterward, return to Logan the Liger in the Purpose-Pondering Peak.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Logan_the_Liger\" title=\"Logan the Liger\">Logan the Liger</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Help the Liger defeat 10 Ponderous Luchadores off MutantMania's Level 7, in the Sufficiently-Sized Scuffle or Purpose-Pondering Peak. Afterward, return to Logan the Liger in the Purpose-Pondering Peak.</p>\n<p><b>Offer:</b></p>\n<blockquote>Did you not understand my meaning? I cannot help you, for how can a pat of melted butter return the edge to the sword?<br/><br/>Once, I was called Logan the Liger. My skill was great, and yet not enough to defeat Menacing Manglefeet the Murderous. It was only thanks to the Liger that I was able to overcome him, so long ago. And it was only due to my cheating that I have fallen so far. I cannot help you.<br/><br/>But...perhaps the Liger can. To regain your edge, to defeat Manglefeet, you must study the Liger.<br/><br/>Take this kibble and place it in the nearby food bowl. When the Liger appears, spend some time observing it's nature. Assist it in defeating 10 Ponderous Luchadores. Ponderous Luchadores love attending fights in the Sufficiently-Sized Scuffle and Purpose-Pondering Peak. Study the Liger's technique, but return here when you are done. At that time, I will determine if you have achieved the Eye of the Liger.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Let me look into your eyes. Yes...yes, I can see now that you have the Eye of the Liger. Or at least a glimmer of it. It's hard to tell, with your eyes being so bloodshot.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Call the Liger \u00d71</li><li>Defeat Ponderous Luchadores with Liger</li></ul>\n<p><b>Client level range:</b> 86\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

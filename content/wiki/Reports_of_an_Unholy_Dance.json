@@ -1,0 +1,13 @@
+{
+  "title": "Reports of an Unholy Dance",
+  "wikiTitle": "Reports_of_an_Unholy_Dance",
+  "path": "/wiki/Reports_of_an_Unholy_Dance",
+  "description": "Reports of an Unholy Dance \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Balzack's Burrow Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Sam &#x27;Dog Walker&#x27;</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Tell the Oroks in Balzack's Burrow Level 1 that they are not allowed to dance the Unholy Hokey Pokey with your fist.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Sam &#x27;Dog Walker&#x27;</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Loud_Noises/_I\" title=\"Loud Noises: I\">Loud Noises: I</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Balzack%27s_Burrow\" title=\"Balzack&#x27;s Burrow\">Balzack&#x27;s Burrow</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Tell the Oroks in Balzack's Burrow Level 1 that they are not allowed to dance the Unholy Hokey Pokey with your fist.</p>\n<p><b>Offer:</b></p>\n<blockquote>The Stable Boy of the Knight who is the Protector of the Bishop of Gosh informed me that the Balzack's Burrow has become a dance club for the monsters of the tri-dungeon area. There are rumors of things that go against not only the teachings of the Bishop of Gosh, but the King himself.<br/><br/>I have taken it upon myself to make sure that there is no Unholy Hokey Pokey going on inside the Balzack's Burrow. Dungeons are NOT dance clubs! This is an affront to not only our way, the teachings of the Bishop of Gosh and the honor of the King himself! For all my determination and will I have been attempting to enter this wretched place, but the King's Bishop's Knight's Stable Boy's Dog won't go in. So you will need to do it for me. Make sure to teach the Oroks inside that they are not allowed to dance that way.<br/><br/>Once you have taught enough of the Oroks in there to lay off the Unholy Hokey Pokey, come back to me the Dog Walker who walks the dog in Balzack's Base Camp for a small reward.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Were you defiled by having to watch the Unholy dance? Has its image been permanently burned into your eyes? Your soul, is it still intact? You may want to go see the Bishop of Gosh and have your eyes washed out with holy water! Here take this coin so you can afford it.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Stop the Unholy Dancing.</li></ul>\n<p><b>Client level range:</b> 55\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

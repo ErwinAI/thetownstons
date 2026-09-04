@@ -1,0 +1,13 @@
+{
+  "title": "Revengeance, Part Circle",
+  "wikiTitle": "Revengeance,_Part_Circle",
+  "path": "/wiki/Revengeance,_Part_Circle",
+  "description": "Revengeance, Part Circle \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Shadow's Embrace Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> [GoS] Leda Beaurde</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Search through Level 2 of the Shadow's Embrace for Halfassin Black. Once you find him, kill him before he kills you. Ask [GoS] Leda Beaurde in the Shadow's Gate to track the kill.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> [GoS] Leda Beaurde</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/The_Shadow%27s_Embrace_(Quest)\" title=\"The Shadow&#x27;s Embrace (Quest)\">The Shadow&#x27;s Embrace (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Search through Level 2 of the Shadow's Embrace for Halfassin Black. Once you find him, kill him before he kills you. Ask [GoS] Leda Beaurde in the Shadow's Gate to track the kill.</p>\n<p><b>Offer:</b></p>\n<blockquote>Have you seen him!? I think he's gone by now...but you never know! I bet he is on level 2. Go finish him off for me.<br/><br/>Who? Why, Halfassin Black, of course! That cheater snuck up on me. When you are done with him, go tell Leda Beaurde in the Shadow's Embrace--look around for her, she is probably hiding somewhere. But don't be a kill-stealer...*I* want the credit for the kill!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>You must be very skilled if you can see me here. What do you want from me?<br/><br/>A Halfassin wants me to track his kills? No...I only do Guild of Shadows work. Those Halfassins aren't worth my time-they're not part of the Guild of Shadows. They're just a bunch of wanna-be's that never-will. But, I'll tell you what...maybe *this* Halfassin has what it takes. I'll make a mental note of his kill. If he turns out to be something special, I'll split his GoS recruitment bonus with you.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Kill Halfassin Black</li></ul>\n<p><b>Client level range:</b> 45\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

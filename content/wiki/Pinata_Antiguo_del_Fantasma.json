@@ -1,0 +1,13 @@
+{
+  "title": "Pinata Antiguo del Fantasma",
+  "wikiTitle": "Pinata_Antiguo_del_Fantasma",
+  "path": "/wiki/Pinata_Antiguo_del_Fantasma",
+  "description": "Pinata Antiguo del Fantasma \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Ratsputin's Gulag Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> QuestGiver_D</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Kill the Pinata Antiguo del Fantasma in the Pinata Standoff that randomly appears off of Level 2 of Ratsputin's Gulag. Then return to the Scared Lass in Ratsputin's Holding Cell.</p>\n<p><b>Quest Reward:</b> Gold and 2 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coins</a></p>\n<p><b>Return to:</b> QuestGiver_D</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Ratsputin%27s_Gulag_%28Quest%29\" title=\"Ratsputin&#x27;s Gulag (Quest)\">Ratsputin&#x27;s Gulag (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Kill the Pinata Antiguo del Fantasma in the Pinata Standoff that randomly appears off of Level 2 of Ratsputin's Gulag. Then return to the Scared Lass in Ratsputin's Holding Cell.</p>\n<p><b>Offer:</b></p>\n<blockquote>I hate scary stories! My dah tells me a scary story about an old ancient pinata spirit that haunts the Pinata Invitational and now I can't sleep. Maybe if someone would put the spirit to rest I would be able to go to sleep. Will you help me?<br/><br/>No one has lived to tell about the magical place where the spirit lives, but I do know that sometimes when you try to go to the Pinata Invitational you magically get sent there. Go to the entrance to the Pinata Invitational and see if it takes you to the Pinata Showdown. If it does you need to find a way to fight the evil pinata spirit. If you are able to put the spirit to rest return to me, the Scared Lass, here in Ratsputin's Holding Cell.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Did you kill it? Here let me try to sleep.... Nope, it must still be out there somewhere.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Destroy the Pinata Antiguo del Fantasma on Level 2</li></ul>\n<p><b>Client level range:</b> 75\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

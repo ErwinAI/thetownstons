@@ -1,0 +1,13 @@
+{
+  "title": "Learning about MutantMania",
+  "wikiTitle": "Learning_about_MutantMania",
+  "path": "/wiki/Learning_about_MutantMania",
+  "description": "Learning about MutantMania \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Loremaster_Vraile\" title=\"Loremaster Vraile\">Loremaster Vraile</a></p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Speak with the Loremaster Vraile in Townston.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Loremaster_Vraile\" title=\"Loremaster Vraile\">Loremaster Vraile</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Exploring_Upper_MutantMania\" title=\"Exploring Upper MutantMania\">Exploring Upper MutantMania</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Speak with the Loremaster Vraile in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>They say that some of the best collectables can be found in the MutantMania dungeon! And here I am--stuck all day on these steps, giving out quests to noobs!<br/><br/>Thinking back, Loremaster Vraile was the one who first tipped me off about the MutantMania. He seemed to know quite a few details about it, although I'm not sure why he would be so familiar with any underground sport.<br/><br/>If I were you, I would go to Loremaster Vraile and learn what evils may exist in that evil area of evil.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Greetings, Dungeon Runner. How may I educate you, this fine day?</blockquote>\n<p><b>Client level range:</b> 80\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

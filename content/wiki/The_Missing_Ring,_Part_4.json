@@ -1,0 +1,13 @@
+{
+  "title": "The Missing Ring, Part 4",
+  "wikiTitle": "The_Missing_Ring,_Part_4",
+  "path": "/wiki/The_Missing_Ring,_Part_4",
+  "description": "The Missing Ring, Part 4 \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Chairman_Manchair\" title=\"Chairman Manchair\">Chairman Manchair</a></p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Go anywhere within Upper MutantMania and shake down the locals until they give up the stools and buckets. Bring the stools and buckets to Chairman Manchair in the All-Amateur Assault off MutantMania's Level 3.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Chairman_Manchair\" title=\"Chairman Manchair\">Chairman Manchair</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Go anywhere within Upper MutantMania and shake down the locals until they give up the stools and buckets. Bring the stools and buckets to Chairman Manchair in the All-Amateur Assault off MutantMania's Level 3.</p>\n<p><b>Offer:</b></p>\n<blockquote>Nelly Virago, here. Ace reporter for MutantMania Monthly Magazine. You did a great job tracking down the stolen All-Amateur Assault Polyhedral Circle Pan-Community Project Committee fight ring posts and ropes, but the story's not done quite yet. No, this story needs a hook. A <i>human interest</i> angle.<br/><br/>I know! At best, the completed fight ring is a place to work, but it can be more than that. Retrieve the missing stools and buckets, and it will feel like a home. A home for the competitors to sit and spit. Now that's a story my readers can empathize with!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Od's bodkins! Ye be a sight for sore eyes! With these stools and buckets, we now be set for our first official fight. Just in time, too. Our old ring was gettin' a bit old in the tooth. Make sure you sign up! Cheers!</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Fight Ring Stools \u00d72</li><li>Fight Ring Buckets \u00d72</li></ul>\n<p><b>Client level range:</b> 81\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

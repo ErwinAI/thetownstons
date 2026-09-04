@@ -1,0 +1,14 @@
+{
+  "title": "CLEARANCE! Orok Fire Sale",
+  "wikiTitle": "CLEARANCE!_Orok_Fire_Sale",
+  "path": "/wiki/CLEARANCE!_Orok_Fire_Sale",
+  "description": "CLEARANCE! Orok Fire Sale \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Algernon Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Speak to 15 (more) Orok Scouts, 15 (more) Orok Warriors and 30 (more) Orok Spawns, then return to the Townston Commander in Townston.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Speak to 15 (more) Orok Scouts, 15 (more) Orok Warriors and 30 (more) Orok Spawns, then return to the Townston Commander in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>OK Dungeon Runner, you did a bang up job letting those Orok know they were violating the Fire Code. You really impressed me in coming back alive too! I'm getting some more complaints that even more Oroks came in to replace the ones you convinced to leave. It looks like you might want to head back into the Orok Outpost and have another polite discussion with them.<br/><br/>And by 'might' I mean 'have no choice but to'. Toodles!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Has anyone ever told you you are a great public speaker? The Oroks definitely took notice.<br/><br/>If you want a chance to practice your speaking skills some more, let me know.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>&#x27;&#x27;Speak&#x27;&#x27; with Orok Scouts</li><li>&#x27;&#x27;Speak&#x27;&#x27; with Orok Spawns</li><li>&#x27;&#x27;Speak&#x27;&#x27; with Orok Warriors</li></ul>\n<p><b>Client level range:</b> 5\u201320</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

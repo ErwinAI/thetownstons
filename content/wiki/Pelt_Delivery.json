@@ -1,0 +1,13 @@
+{
+  "title": "Pelt Delivery",
+  "wikiTitle": "Pelt_Delivery",
+  "path": "/wiki/Pelt_Delivery",
+  "description": "Pelt Delivery \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Dew Valley Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Hughard_the_Arms_Merchant\" title=\"Hughard the Arms Merchant\">Hughard the Arms Merchant</a></p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Deliver a bundle of pelts to Hughard the Arms Merchant in Townston.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Hughard_the_Arms_Merchant\" title=\"Hughard the Arms Merchant\">Hughard the Arms Merchant</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Dew_Valley_Forest\" title=\"Dew Valley\">Dew Valley</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Deliver a bundle of pelts to Hughard the Arms Merchant in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>You gave me way more pelts here than I need for that coat I am making. Tell you what, take this bundle of pelts to Hughard in Townston. He'll sell them off for us, and I'll cut you in for some of the profits.<br/><br/>Hughard has a shop just outside the town square. Just follow the paths and you'll find him eventually. Big guy. You can't miss him.<br/><br/>Oh, I forgot...uh, <i>Verily, Hughard the Arms Merchant shall be expecting thine arrival, good friend.</i></blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Sir Lee of York mentioned you'd be arriving. Here's your portion of the profits.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Bundle of Pelts \u00d71</li></ul>\n<p><b>Client level range:</b> 3\u201310</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

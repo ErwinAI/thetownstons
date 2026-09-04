@@ -25,6 +25,15 @@ export function foldWikiKey(value: string): string {
 const SLUG_ALIASES: Record<string, string> = {
   shrines: 'attribute shrine',
   shrine: 'attribute shrine',
+  "abaddon's handy candy boomstick": "abaddon's handy candy broomstick",
+  "nai's flak jacket": "naj's flak jacket",
+  "najas flak jacket": "naj's flak jacket",
+  "doc wyvern's boots": "doc wyvern's",
+  "sissirat's brother's cousin's roommate's staff of something really awesome":
+    "sissirat's brother's cousin's roomate's staff of something really awesome",
+  azzaz: "azza zin",
+  "azza zins": "azza zin",
+  "azzazin": "azza zin",
 }
 
 /** Encode apostrophes in wiki hrefs so routers don't chop Algor's_* into /wiki/Algor. */

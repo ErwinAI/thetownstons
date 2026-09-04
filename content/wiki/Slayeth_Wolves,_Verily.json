@@ -1,0 +1,13 @@
+{
+  "title": "Slayeth Wolves, Verily",
+  "wikiTitle": "Slayeth_Wolves,_Verily",
+  "path": "/wiki/Slayeth_Wolves,_Verily",
+  "description": "Slayeth Wolves, Verily \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Dew Valley Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Sir_Lee_of_York\" title=\"Sir Lee of York\">Sir Lee of York</a></p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Kill 6 Dew Valley Wolves and 12 Dew Valley Pups, then return to Sir Lee of York in Dew Valley.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Sir_Lee_of_York\" title=\"Sir Lee of York\">Sir Lee of York</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Wolf_Pelts\" title=\"Wolf Pelts\">Wolf Pelts</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Dew_Valley_Forest\" title=\"Dew Valley\">Dew Valley</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Kill 6 Dew Valley Wolves and 12 Dew Valley Pups, then return to Sir Lee of York in Dew Valley.</p>\n<p><b>Offer:</b></p>\n<blockquote>What ticket number did you have...no, wait, never mind. I don't even care.<br/><br/>I've been standing here forever, and for what? For *what*? Don't bother answering. I'm being rhetorical.<br/><br/>So what do you want from me?<br/><br/>You want a quest? From me? Seriously? Wow. It's been so long...let's see...okay, I may be a bit rusty, but here I go.<br/><br/><i>Um, forsooth, valiant Dungeon Runner! Wolves and their pups have been slaying good citizens of the realm in Dew Valley Forest. Travel there swiftly, slay them, and, uh, returneth to me.<br/><br/></i>Afterward, er, I shall reward thee with a goodly amount of...rewards.''<br/><br/><font color=#FBBB06>Tip:</font> If you have not finished the new player tutorial, you can return to where you left off at any time, even if you accept this quest from Sir Lee of York.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>'Um, zounds! That shall teacheth those wolves! I am unsure what it shall teacheth them...but that is beside, uh, mine point.'</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Slay Dew Valley Wolves</li><li>Slay Dew Valley Pups</li></ul>\n<p><b>Client level range:</b> 1\u20135</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

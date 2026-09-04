@@ -1,0 +1,14 @@
+{
+  "title": "Pushing Fifty",
+  "wikiTitle": "Pushing_Fifty",
+  "path": "/wiki/Pushing_Fifty",
+  "description": "Pushing Fifty \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Doctor Whom the Eleventh</p>\n<p><b>Quest Type:</b> Hunt/Collect</p>\n<p><b>Quest Description:</b> Equip the headbucket. <i>Spar</i> with any 25 partners in Level 6 of MutantMania. As you get the snot beat out of you, collect 50 boogers. Return all boogers AND the headbucket to Doctor Whom the Eleventh in that same level.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Doctor Whom the Eleventh</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Equip the headbucket. <i>Spar</i> with any 25 partners in Level 6 of MutantMania. As you get the snot beat out of you, collect 50 boogers. Return all boogers AND the headbucket to Doctor Whom the Eleventh in that same level.</p>\n<p><b>Offer:</b></p>\n<blockquote>Each time I give you a check-up, my--we'll call them <i>experiments</i>--my experiments move foward a bit more. But, I think I've mentioned that before. Haven't I? There's so much I forget to mention to my victi...helpers. My helpers.<br/><br/>We'll proceed the same as last time. First, I need you to check your heart rate. Get out there and <i>spar</i> with enough people to get your ticker pumping. How many partners did I ask for last time? Never mind. Let's try 25 this time.<br/><br/>Also, I will need another fluids test, so make sure to get the snot beat out of you again by your new partners! Here is a new bucket for your head. Put it on, but, as always, I want my bucket *back* after the tests! Now, go anywhere in level 6 and get the snot beat out of you. My new tests need...hmmm...50 boogers.<br/><br/>After I get the boogers and my bucket back from you, I have a special surprise for you.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Very nice, very nice...these new boogers will go perfect in my soup...test tubes. Perfect in my test tubes.<br/><br/>Stand still now while I give you a booster shot. For the next few minutes, it'll help you be resistant to poisons, toxins, yadda yadda, blah blah blah.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Bucket \u00d71</li><li>&#x27;&#x27;Spar&#x27;&#x27; with 25 Partners</li><li>Boogers \u00d750</li></ul>\n<p><b>Client level range:</b> 88\u201398</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

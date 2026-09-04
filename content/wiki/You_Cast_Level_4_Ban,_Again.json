@@ -1,0 +1,14 @@
+{
+  "title": "You Cast Level 4 Ban, Again",
+  "wikiTitle": "You_Cast_Level_4_Ban,_Again",
+  "path": "/wiki/You_Cast_Level_4_Ban,_Again",
+  "description": "You Cast Level 4 Ban, Again \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Ratsputin's Gulag Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> QuestGiver_A</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Slay the Banned Farmers in Upper Ratsputin's Gulag again and then return to Yakov Smearnov in Ratsputin's Holding Cell.</p>\n<p><b>Quest Reward:</b> Gold and 4 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coins</a></p>\n<p><b>Return to:</b> QuestGiver_A</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Ratsputin%27s_Gulag_%28Quest%29\" title=\"Ratsputin&#x27;s Gulag (Quest)\">Ratsputin&#x27;s Gulag (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Slay the Banned Farmers in Upper Ratsputin's Gulag again and then return to Yakov Smearnov in Ratsputin's Holding Cell.</p>\n<p><b>Offer:</b></p>\n<blockquote>Are you ready for more hot banning action, Dungeon Runner? I won't stop you, trust me, my favorite hobby is banning. I do it to my pet hamster all the time. Running on the hamster wheel while I am reading Dungeon Power magazine? BANNED! Drinking water? BANNED! Looking all cute and fluffy? BANNED 4 EVAR!<br/><br/>Get out there and enjoy yourself. Make your way out to every level of Upper Ratsputin's Gulag and wipe out each of the Banned Farmers you see. When you have done this return to me, Yakov Smearnov, here in Ratsputin's Holding Cell.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Keep this up and you will be the head customer service rep for this dungeon! Let me know when you want to take up this quest again.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Slay the Banned Farmer on Level 1</li><li>Slay the Banned Farmer on the Level 1 Branch</li><li>Slay the Banned Farmer on Level 2</li><li>Slay the Banned Farmer on Level 3</li><li>Slay the Banned Farmer on the Level 3 Branch</li><li>Slay the Banned Farmer on Level 4</li><li>Slay the Banned Farmer on the Level 4 Branch</li></ul>\n<p><b>Client level range:</b> 93\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

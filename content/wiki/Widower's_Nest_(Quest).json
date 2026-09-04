@@ -1,0 +1,13 @@
+{
+  "title": "Widower's Nest (Quest)",
+  "wikiTitle": "Widower's_Nest_(Quest)",
+  "path": "/wiki/Widower's_Nest_(Quest)",
+  "description": "Widower's Nest (Quest) \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Widower's Nest Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Quest Type:</b> Discover</p>\n<p><b>Quest Description:</b> Sally Forth, Dungeon Runner, to Widower's Nest! Then Return to the Townston Commander in Townston.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Travelers?_Check\" title=\"Travelers? Check\">Travelers? Check</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Doug%27s_Digsite\" title=\"The Widower&#x27;s Nest\">The Widower&#x27;s Nest</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Sally Forth, Dungeon Runner, to Widower's Nest! Then Return to the Townston Commander in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>We've recently purchased the Widower's Nest, which was a huge hit back when it was first introduced. Now, with the release of all the next gen dungeons, we were able to get the Widower's Nest slightly used at a great bargain! A great break for us. Hopefully we will be able to get some of the old diehard Dungeon Runners back with this old school dungeon.<br/><br/>Most Dungeon Runners don't know this, but there are two ways to get into the Widower's Nest Base Camp. A portal on Vergrim's Vexation - Level 5 and the teleporter that transports adventurers one way into Widower's Nest Base Camp.<br/><br/>Go into the Widower's Nest and make sure it at least starts up. When you have done that you should return to me, the Townston Commander, here in Townston.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Well done. The lands of the Widower are ripe for reselling!</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Locate Widower&#x27;s Nest Base Camp</li><li>Locate Widower&#x27;s Nest</li></ul>\n<p><b>Client level range:</b> 20\u201340</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

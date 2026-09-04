@@ -1,0 +1,13 @@
+{
+  "title": "NEWCOMERS START HERE",
+  "wikiTitle": "NEWCOMERS_START_HERE",
+  "path": "/wiki/NEWCOMERS_START_HERE",
+  "description": "NEWCOMERS START HERE \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Dew Valley Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Liza Beth</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Staying in Dew Valley, trade your ticket to advance in the help queue.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Liza Beth</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Dew_Valley_Forest\" title=\"Dew Valley\">Dew Valley</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Staying in Dew Valley, trade your ticket to advance in the help queue.</p>\n<p><b>Offer:</b></p>\n<blockquote>W3lcOMe TO d3W V4LL3Y! 1 AM TH3 HELpER noob0$@ur 45$I9neD.... Oops! Sorry about that...I forget that not everyone can speak Noobonese. I'll start again.<br/><br/>Welcome to Dew Valley! I'm your Helper Noobosaur. As with all newcomers, you will need to work your way through the nearby help queue in order to be assisted by the Ministry of Human Resources. Dungeon Runners will be assisted in order by help queue ticket number. Your ticket is #54,000,601.<br/><br/>By the way, we Noobosaurs love to share information. If you have any questions, I might have some good answers!<br/><br/><font color=#FBBB06>Tip:</font> Click on characters or objects with a <i><font color=#FFD800>!</font></i> or <i><font color=#FFD800>?</font></i> floating overhead--they have information or quests for you. Many quests have special needs, such as killing monsters, finding places, or collecting objects.<br/><br/>For this particular quest, once you click the <i>Accept</i> button, you should see that two characters in Dew Valley now have quests for you: Liza Beth enthusiastically starts you on a new player tutorial, while Sir Lee hopefully wakes up enough to get you right into the action.</font></blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>What is that in your hand? Did you want me to take your help queue ticket from you?<br/><br/></blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Ticket #54,000,601 \u00d71</li></ul>\n<p><b>Client level range:</b> 1\u20135</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

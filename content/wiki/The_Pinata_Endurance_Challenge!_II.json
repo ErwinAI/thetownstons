@@ -1,0 +1,13 @@
+{
+  "title": "The Pinata Endurance Challenge! II",
+  "wikiTitle": "The_Pinata_Endurance_Challenge!_II",
+  "path": "/wiki/The_Pinata_Endurance_Challenge!_II",
+  "description": "The Pinata Endurance Challenge! II \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Ratsputin's Gulag Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> QuestGiver_B</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Destroy the 4 Pinatas and Slay 1 Hero Gladiator in the Pinata Endurance Challenge off of Level 4 of Ratsputin's Gulag and return to the Excited Lad in Ratstpuin's Holding Cell.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> QuestGiver_B</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Ratsputin%27s_Gulag_%28Quest%29\" title=\"Ratsputin&#x27;s Gulag (Quest)\">Ratsputin&#x27;s Gulag (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Destroy the 4 Pinatas and Slay 1 Hero Gladiator in the Pinata Endurance Challenge off of Level 4 of Ratsputin's Gulag and return to the Excited Lad in Ratstpuin's Holding Cell.</p>\n<p><b>Offer:</b></p>\n<blockquote>Hello there, Dungeon Runner. I have heard that the Hero Gladiators in the Pinata Endurance Challenge are talking some pretty nasty smack about you and how you are all out of shape and huffing and puffing during the challenge. Say it isn't so! You need to get in there and shut them up and fast. I've got a onesy on order with a silkscreen image of you on it and I don't want to be embarrassed to wear it!<br/><br/>Find the entrance to the Pinata Invitational off of Level 4 of Ratsputin's Gulag and destroy all four Pinatas there. You will also need to slay one of the smack talking Hero Gladiators. When you are done return to me, the Excited Lad, here in Ratsputin's Holding Cell.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Did you shut them up? What's that? I'll let you catch your breath....</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Destroy Pinatas</li><li>Slay a Hero Gladiator</li></ul>\n<p><b>Client level range:</b> 80\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

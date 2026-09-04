@@ -1,0 +1,13 @@
+{
+  "title": "Loud Noises: I",
+  "wikiTitle": "Loud_Noises:_I",
+  "path": "/wiki/Loud_Noises/_I",
+  "description": "Loud Noises: I \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Balzack's Burrow Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Stable Boy&#x27;s Dog</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Quiet the King's Bishop's Knight's Stable Boy's dog.</p>\n<p><b>Quest Reward:</b> None listed in the client files</p>\n<p><b>Return to:</b> Stable Boy&#x27;s Dog</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Loud_Noises_Deuce\" title=\"Loud Noises Deuce\">Loud Noises Deuce</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Balzack%27s_Burrow\" title=\"Balzack&#x27;s Burrow\">Balzack&#x27;s Burrow</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Quiet the King's Bishop's Knight's Stable Boy's dog.</p>\n<p><b>Offer:</b></p>\n<blockquote>Can you believe the disrespect of the Monster's mothers? Letting their children grow up in a place like this. Something is definitely wrong with the mothers of the Monsters that visit seedy clubs like these. Their manners are terrible. Not only that, but they also need to learn to wear a stronger deodorant, the smell coming from the mouth of Balzack's Burrow is just awful!<br/><br/>Some Frost Melee Wasps just flew out of Balzack's Burrow and attacked this stupid dog that I am supposed to be walking, and now it won't shut up! I do not wish to be troubled anymore by its barking. Find out what is wrong with it and quiet it for me!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>WOOF WOOF WOOF! WOOF WOOF WOOF WOOF!</blockquote>\n<p><b>Client level range:</b> 55\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

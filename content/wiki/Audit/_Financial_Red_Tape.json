@@ -1,0 +1,14 @@
+{
+  "title": "Audit: Financial Red Tape",
+  "wikiTitle": "Audit:_Financial_Red_Tape",
+  "path": "/wiki/Audit/_Financial_Red_Tape",
+  "description": "Audit: Financial Red Tape \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Widower's Nest Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Soldier Clohz of Yorbahk</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Go Collect 30 Receipts and 6 Expense Reports from the Poison Whiskers and Poison Demon Spawn in Upper Widowers Nest.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> Soldier Clohz of Yorbahk</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Doug%27s_Digsite\" title=\"The Widower&#x27;s Nest\">The Widower&#x27;s Nest</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Go Collect 30 Receipts and 6 Expense Reports from the Poison Whiskers and Poison Demon Spawn in Upper Widowers Nest.</p>\n<p><b>Offer:</b></p>\n<blockquote>We got a batch of Expense Reports and Receipts in, but there has been nothing new since so I need you to go and work your 'magic' on those lazy monsters.<br/><br/>The Receipts are easy to come by, but remember to book a conference with the Poison Whisker and Demon Spawn Leaders to get the Expense Reports.<br/><br/>Go and collect Receipts and Expense Reports from the Poison Whiskers and Poison Demon Spawn in Upper Widower's Nest. Return to me, Soldier Clohz of Yorbahk, here on Level 1 of the Widower's Nest when you are through.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>You are a paperwork guru! Let me know when you want to give it another go.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Receipts \u00d730</li><li>Expense Reports \u00d76</li></ul>\n<p><b>Client level range:</b> 20\u201340</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

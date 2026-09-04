@@ -1,0 +1,13 @@
+{
+  "title": "The King's Coin",
+  "wikiTitle": "The_King's_Coin",
+  "path": "/wiki/The_King's_Coin",
+  "description": "The King's Coin \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Dew Valley Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Fighter_Equipment_Token_Master\" title=\"Fighter Equipment Token Master\">Fighter Equipment Token Master</a></p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Take the King's Coin to the Fighter Equipment Token Master in Townston.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Fighter_Equipment_Token_Master\" title=\"Fighter Equipment Token Master\">Fighter Equipment Token Master</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Dew_Valley_Forest\" title=\"Dew Valley\">Dew Valley</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Take the King's Coin to the Fighter Equipment Token Master in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>You should know that a single King's Coin is more rare and precious than a handful of gold.<br/><br/>Good citizens have been awarded similar tokens for their service to the Kingdom. Vile creatures have harvested them from fallen Dungeon Runners. Assisting those citizens and killing those creatures will help your pile of King's Coin grow.<br/><br/>When you have finished adventuring in Dew Valley and moved on to Townston, you should visit the Token Masters. They are merchants of a sort. Look for them on the hill near Tilles the Sellout and the Horrific Dungeon of Legend.<br/><br/>The Token Masters will trade you powerful artifacts from the treasury for King's Coin, if you so desire.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Yes, yes. I will give you an item from the kingdom treasury for King's Coin.<br/><br/>Also, you can buy from any of the other vendors, but I will give you treasure that your current profession frequently finds useful.<br/><br/></blockquote>\n<p><b>Client level range:</b> 1\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Corpse Run, Part 2",
+  "wikiTitle": "Corpse_Run,_Part_2",
+  "path": "/wiki/Corpse_Run,_Part_2",
+  "description": "Corpse Run, Part 2 \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Shadow's Embrace Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Jerome&#x27;s Bones</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Search through Upper Shadow's Embrace for Jerome Lester's corpses and loot them. Bring anything with his name on it to Jerome in the Shadow's Gate.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Jerome&#x27;s Bones</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Corpse_Run,_Part_3\" title=\"Corpse Run, Part 3\">Corpse Run, Part 3</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/The_Shadow%27s_Embrace_(Quest)\" title=\"The Shadow&#x27;s Embrace (Quest)\">The Shadow&#x27;s Embrace (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Search through Upper Shadow's Embrace for Jerome Lester's corpses and loot them. Bring anything with his name on it to Jerome in the Shadow's Gate.</p>\n<p><b>Offer:</b></p>\n<blockquote>Bringing me back my razzin' frazzin' gloves didn't work--I'm still dead. Anyway, who dies *outside* of a dungeon? Only Jerome Lester, Royal Gravedigger, apparently.<br/><br/>...I need me a new plan. Hm. A Dungeon Runner's armor is like a second skin, right? Maybe I need *all* my armor back before I can get back into my *real* skin? Go search through the rest of Upper Shadow's Embrace for other corpses of mine. Bring me back any head, shoulder, and body armor of mine that you find.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>What kept ya? Hm, found more of my gear, didja? I guess everything might be a little loose since I <i>lost weight.</i></blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Jerome Lester&#x27;s Helmet \u00d71</li><li>Jerome Lester&#x27;s Spaulders \u00d71</li><li>Jerome Lester&#x27;s Suit of Armor \u00d71</li></ul>\n<p><b>Client level range:</b> 45\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

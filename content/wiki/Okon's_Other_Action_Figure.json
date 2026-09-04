@@ -1,0 +1,13 @@
+{
+  "title": "Okon's Other Action Figure",
+  "wikiTitle": "Okon's_Other_Action_Figure",
+  "path": "/wiki/Okon's_Other_Action_Figure",
+  "description": "Okon's Other Action Figure \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> AbstractInsertion</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Find AbstractInsertion in Level 1 of MutantMania. Give her Okon's check in exchange for the action figure.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> AbstractInsertion</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Find AbstractInsertion in Level 1 of MutantMania. Give her Okon's check in exchange for the action figure.</p>\n<p><b>Offer:</b></p>\n<blockquote>They put out a new action figure for one of the setth that I collect. Thith new figure has a rare cuthtom paint job. I bought one through ectoBay. The theller'th name is AbstractInsertion. I buy thtuff from her all the time. She'th a great perthon, not like that jerk UndercoverPancaketh975, except I think she getth beat up a lot. Anyway, AbstractInsertion has some pretty awethome thtuff. Would you do me a favor and trade her my check for the action figure?</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Good afternoons, Dungeon Runner. You has mine check from Okon?</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Okon&#x27;s Check \u00d71</li></ul>\n<p><b>Client level range:</b> 81\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

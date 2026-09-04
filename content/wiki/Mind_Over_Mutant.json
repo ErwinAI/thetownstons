@@ -1,0 +1,13 @@
+{
+  "title": "Mind Over Mutant",
+  "wikiTitle": "Mind_Over_Mutant",
+  "path": "/wiki/Mind_Over_Mutant",
+  "description": "Mind Over Mutant \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Algernon Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Illiot Fess - Kingdom Agent</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Collect 15 Mutant Mind Control Devices (for Science!) and return them to Agent Illiot Fess in Townston.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> Illiot Fess - Kingdom Agent</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Collect 15 Mutant Mind Control Devices (for Science!) and return them to Agent Illiot Fess in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>Dungeon Runner! Am I glad to see you! Agent Fess sent me down here to investigate what the Fire Mutants had to do with this Fizz Water phenomenon. It looks like the Whisker Clan has found out how to control the minds of the Mutants and is using them as cheap labor in their Fizz Water operations.<br/><br/>I need you to go and collect some of these mind control devices and bring them back to Agent Fess. He should know what to do! I would have done this, but I'm too scared to move.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Mind Control devices, eh? I doubt that highly. It's more likely they're just bribing the Mutants with Fizz Water.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Mind Control Device \u00d715</li></ul>\n<p><b>Client level range:</b> 10\u201320</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

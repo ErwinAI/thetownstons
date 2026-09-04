@@ -1,0 +1,14 @@
+{
+  "title": "Sitar Hero - Forever",
+  "wikiTitle": "Sitar_Hero_-_Forever",
+  "path": "/wiki/Sitar_Hero_-_Forever",
+  "description": "Sitar Hero - Forever \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutanous Malaise Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> QuestGiver_A</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Kill the two Sitar Heroes in the Mutanous Malaise, Level 2, and the two Sitar Heroes in the Mutanous Malaise, Level 6. Afterward, return to Gee Dubya Shrub in the Mutanous Malaise Mezzanine.</p>\n<p><b>Quest Reward:</b> Gold and 2 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coins</a></p>\n<p><b>Return to:</b> QuestGiver_A</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Deadie_VimPalen%27s_Pad\" title=\"The Mutanous Malaise\">The Mutanous Malaise</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Kill the two Sitar Heroes in the Mutanous Malaise, Level 2, and the two Sitar Heroes in the Mutanous Malaise, Level 6. Afterward, return to Gee Dubya Shrub in the Mutanous Malaise Mezzanine.</p>\n<p><b>Offer:</b></p>\n<blockquote>Well, it looks like playing Sitar Hero on Co-Op is all the rage. We can't take down these creatures fast enough before they respawn and just keep on rocking. Get into the Mutanous Malaise and take down these Sitar Heroes!<br/><br/>You will be able to find two of the Sitar Heroes in Mutanous Malaise, Level 2, and the other two Sitar Heroes are in Level 6. When you have dealt with all of them return to me, Gee Dubya Shrub, here in the Mutanous Malaise Mezzanine.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Well done. Let me know if you want to get back in there and do it again.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>100%_3vi1</li><li>RiffMaster2020</li><li>Pure_Hour_of_Rock_Power</li><li>Hand_Solo6333</li></ul>\n<p><b>Client level range:</b> 37\u201355</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

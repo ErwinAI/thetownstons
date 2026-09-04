@@ -1,0 +1,13 @@
+{
+  "title": "Madachino",
+  "wikiTitle": "Madachino",
+  "path": "/wiki/Madachino",
+  "description": "Madachino \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Balzack's Burrow Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Deliver Javier's Message to the Townston Commander.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Disturbing_the_the_Barrista.\" title=\"Disturbing the the Barrista.\">Disturbing the the Barrista.</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Balzack%27s_Burrow\" title=\"Balzack&#x27;s Burrow\">Balzack&#x27;s Burrow</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Deliver Javier's Message to the Townston Commander.</p>\n<p><b>Offer:</b></p>\n<blockquote>The noise coming from the club is worse than normal today, and they are not buying my coffee. Seriously I even have the new super large giant sized bucket on special today! I think...here...let me see. Yes, look here, according to my annoyance meter they are being way too loud in there and not buying enough coffee. Take this complaint to the Townston Commander and make him read it.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>What is this? A noise complaint coming from Javier outside of Balzacks Burrow? I just knew it, opening that dungeon was a mistake. Why in the heck would anyone put a nightclub dungeon so close to Townston anyway? It is only 11 dungeon lots away.</blockquote>\n<p><b>Client level range:</b> 57\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

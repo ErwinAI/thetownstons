@@ -1,0 +1,14 @@
+{
+  "title": "Coddling, Kowtowing, and Delighting II",
+  "wikiTitle": "Coddling,_Kowtowing,_and_Delighting_II",
+  "path": "/wiki/Coddling,_Kowtowing,_and_Delighting_II",
+  "description": "Coddling, Kowtowing, and Delighting II \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Frump's Misfortune Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Junior_Exec_Ivan\" title=\"Junior Exec Ivan\">Junior Exec Ivan</a></p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Kill 15 Ice Orok AC Repairmen and 3 Ice Orok AC Overseers in Upper Frump's Misfortune then Return to Junior Exec Ivan in Frump's Interdungeonal Resort.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> <a href=\"/wiki/Junior_Exec_Ivan\" title=\"Junior Exec Ivan\">Junior Exec Ivan</a></p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Frump%27s_Misfortune_%28quest%29\" title=\"Frump&#x27;s Misfortune (quest)\">Frump&#x27;s Misfortune (quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Kill 15 Ice Orok AC Repairmen and 3 Ice Orok AC Overseers in Upper Frump's Misfortune then Return to Junior Exec Ivan in Frump's Interdungeonal Resort.</p>\n<p><b>Offer:</b></p>\n<blockquote>Are you familiar with the ancient phrase, 'Kicketh the tires and lighteth the fires'? Well, it is a good thing, and is exactly what you are doing, so I think I'm just going to sit back and watch you doeth what it is that you doeth.<br/><br/>Nothing new this time, just get out there into Upper Frump's Misfortune and take out the Ice Orok AC Repairmen and Ice Orok AC Overseers. When you get done return to me, Junior Exec Ivan, in Frump's Interdungeonal Resort.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>You really are a pleasure to watch when you are running the dungeon. A true classless act! Let me know if you want to take another run.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Slain Ice Orok AC Repairmen</li><li>Slain Ice Orok AC Overseers</li></ul>\n<p><b>Client level range:</b> 35\u201350</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

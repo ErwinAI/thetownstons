@@ -1,0 +1,13 @@
+{
+  "title": "Nine-Tenths of the Brawl",
+  "wikiTitle": "Nine-Tenths_of_the_Brawl",
+  "path": "/wiki/Nine-Tenths_of_the_Brawl",
+  "description": "Nine-Tenths of the Brawl \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Herschel the Hitter</p>\n<p><b>Quest Type:</b> Hunt/Collect</p>\n<p><b>Quest Description:</b> Go to MutantMania's Level 2 and find Missle McScud. Get Herschel the Hitter's small package from him. Afterward, return the package to Herschel in the MutantMania Training Center.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Herschel the Hitter</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Go to MutantMania's Level 2 and find Missle McScud. Get Herschel the Hitter's small package from him. Afterward, return the package to Herschel in the MutantMania Training Center.</p>\n<p><b>Offer:</b></p>\n<blockquote>Hey, let's kibitz for a moment. They call me Herschel the Hitter, but you probably knew that already because everyone around here knows ol' Herschel. I've been watchin' you help that kid get his little tchotchkes. Maybe that means you're <i>okay,</i> so maybe *that* means I'm going to let you in on a little somethin'. But before I do, you have to do somethin' for me.<br/><br/>This shmendrik on level 2 of the MutantMania has something of mine. Nothing too big; just a small package. He's gotten it into his head that it's now his, simply because he is in possession of it. Do me a favor and shlep over there and take the package from him.<br/><br/>They call him Missle McScud, but after you get through with him they'll call him Sizzle McDud.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>I like you. I ask you to do something, and you didn't kvetch at all. Old Herschel is going to keep you in mind for future dealings. Come back for a nosh sometime. We'll talk about doing more business together, nu?</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Defuse Missle McScud</li><li>Herschel&#x27;s Small Package \u00d71</li></ul>\n<p><b>Client level range:</b> 80\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

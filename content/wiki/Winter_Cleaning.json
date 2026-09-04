@@ -1,0 +1,13 @@
+{
+  "title": "Winter Cleaning",
+  "wikiTitle": "Winter_Cleaning",
+  "path": "/wiki/Winter_Cleaning",
+  "description": "Winter Cleaning \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Holiday Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Shivery_the_Incorrigible_Snowman\" title=\"Shivery the Incorrigible Snowman\">Shivery the Incorrigible Snowman</a></p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Speak with Shivery the Incorrigible Snowman to travel to the Sanctuary of the Snowmen and kill 100 creatures in the the Sanctuary of the Snowmen.</p>\n<p><b>Quest Reward:</b> Gold and 4 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coins</a></p>\n<p><b>Return to:</b> <a href=\"/wiki/Shivery_the_Incorrigible_Snowman\" title=\"Shivery the Incorrigible Snowman\">Shivery the Incorrigible Snowman</a></p>\n<p><b>Repeatable:</b> No</p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Speak with Shivery the Incorrigible Snowman to travel to the Sanctuary of the Snowmen and kill 100 creatures in the the Sanctuary of the Snowmen.</p>\n<p><b>Offer:</b></p>\n<blockquote>What a little Dungeon Runner overachiever you are! Looking for more tasks?<br/><br/>Why don't you do some winter cleaning for me? The more creatures you clear out of the Sanctuary, the more lazy I can be... uhh... I mean... the greater pride you will feel as a Dungeon Runner! Return to me when you're done with this winter cleaning.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>A fresh clean Sanctuary! Just what Shivery wanted for the holidays.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Slay Creatures in the Sanctuary</li></ul>\n<p><b>Client level range:</b> 5\u2013?</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

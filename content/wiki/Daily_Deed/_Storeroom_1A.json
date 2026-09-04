@@ -1,0 +1,14 @@
+{
+  "title": "Daily Deed: Storeroom 1A",
+  "wikiTitle": "Daily_Deed:_Storeroom_1A",
+  "path": "/wiki/Daily_Deed/_Storeroom_1A",
+  "description": "Daily Deed: Storeroom 1A \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Embercore Path Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Janitor</p>\n<p><b>Quest Type:</b> Hunt/Collect</p>\n<p><b>Quest Description:</b> Go Kill all of Abaddon's Ciphers in the Storeroom 1A Cellar and return to Mopicles in Storeroom 1A.</p>\n<p><b>Quest Reward:</b> Gold and 2 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coins</a></p>\n<p><b>Return to:</b> Janitor</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/The_Embercore_Path\" title=\"The Embercore Path\">The Embercore Path</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Go Kill all of Abaddon's Ciphers in the Storeroom 1A Cellar and return to Mopicles in Storeroom 1A.</p>\n<p><b>Offer:</b></p>\n<blockquote>Ho, Dungeon Runner. I am Mopicles! I know what your thinking: this guy is a janitor? No, I'm actually a Janiator. I have half my skill bar filled with crazy melee skills and the other half is all mad whack janitor skills. My full title is actually Lazy Close-to-Retirement Gassy Janiator. It's more of a player versus eyesore build, but if the devs ever make a PvP play type that focuses up on mopping, you'd be dead meat!<br/><br/>Anyway, I actually need a favor from you. I need to get down to the Storeroom 1A Cellar to get it cleaned up as part of my daily tasks, but the cellar is currently full of Abaddon's Ciphers. These mobs just hang out in their sarcophagi and meditate to focus their dark powers which in turn powers The Embercore's Candy Fabricators. You would be doing me and the King's Board of Trustees a solid if you were to get in there and shut those ciphers down.<br/><br/>Head into the Storeroom 1A Cellar and kill all of Abaddon's Ciphers there to clear out the dungeon and hit Abaddon's candy making ability in one fell swoop! When you have finished with this task, return to me, Mopicles, here in Storeroom 1A.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>You cleared the area out for me? Excellent! Time to put my trusty Pine-Fresh Mop of the Luminescent Shine to work! Come back tomorrow and see if I need your help again.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Kill Abaddon&#x27;s Ciphers</li><li>Storeroom 1A Cellar Door Key \u00d71</li></ul>\n<p><b>Client level range:</b> 40\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

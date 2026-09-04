@@ -1,0 +1,13 @@
+{
+  "title": "Dusty Dancing",
+  "wikiTitle": "Dusty_Dancing",
+  "path": "/wiki/Dusty_Dancing",
+  "description": "Dusty Dancing \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Balzack's Burrow Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Jerry the Dusty Dancer</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Search out the old dance instructor in Balzack's Burrow level 3.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Jerry the Dusty Dancer</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Dusty_Dancer\" title=\"Dusty Dancer\">Dusty Dancer</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Balzack%27s_Burrow\" title=\"Balzack&#x27;s Burrow\">Balzack&#x27;s Burrow</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Search out the old dance instructor in Balzack's Burrow level 3.</p>\n<p><b>Offer:</b></p>\n<blockquote>Someday I will be promoted to something better, maybe even to the Knight's dog walker, just you see. But for now, I was reading a piece of parchment and it was talking about how the King's Bishop had sent a dance instructor into Balzack's Burrow to teach the dancers inside the proper and official dance of the kingdom. Go see if you can find this instructor.<br/><br/>While you are talking to him, would you inquire if he has any dogs that need walking? I mean if I am going to have to stay employed as a dog walker I should probably try to drum up some more business.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>You put your soul in, you take your soul out, you put your soul in and you shake it all about. Do the Un-Holy Hokey Pokey, what a great dance. If only I was the one who would have come up with it.</blockquote>\n<p><b>Client level range:</b> 55\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

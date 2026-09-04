@@ -1,0 +1,13 @@
+{
+  "title": "Punkins",
+  "wikiTitle": "Punkins",
+  "path": "/wiki/Punkins",
+  "description": "Punkins \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Ratsputin's Gulag Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> QuestGiver_A</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Kill 8 Punkins on the golded farms in Upper Ratsputin's Gulag and return to Yakov Smearnov in Ratsputin's Holding Cell.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> QuestGiver_A</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Ratsputin%27s_Gulag_%28Quest%29\" title=\"Ratsputin&#x27;s Gulag (Quest)\">Ratsputin&#x27;s Gulag (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Kill 8 Punkins on the golded farms in Upper Ratsputin's Gulag and return to Yakov Smearnov in Ratsputin's Holding Cell.</p>\n<p><b>Offer:</b></p>\n<blockquote>There has been a troubling development. iVan has discovered that we are ramping up our research of the golded vegetables in an attempt to figure out how to reverse the effects and is mounting a counter attack. We aren't sure of the specifics but expect a surprise and we know at this point is that iVan has sent some of his minions, called Punkins, to stop you.<br/><br/>When you make your way to the farms in Upper Ratsputin's Gulag be prepared for anything. Slay the required number of these Punkins and when you have done so return to me, Yakov Smearnov, here in Ratsputin's Holding Cell.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Hunh, you are alive? Well, there goes my twenty gold coins.... Never take a bet with Loremaster Vraile, that guy is a stone cold lock!! Let me know when you are ready to give this quest another go. Perhaps I can go double or nothing with Vraile....</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Slay Punkins</li></ul>\n<p><b>Client level range:</b> 80\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

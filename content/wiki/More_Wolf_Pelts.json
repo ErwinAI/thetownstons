@@ -2,12 +2,13 @@
   "title": "More Wolf Pelts",
   "wikiTitle": "More_Wolf_Pelts",
   "path": "/wiki/More_Wolf_Pelts",
-  "description": "More Wolf Pelts — The Townstons wiki",
+  "description": "More Wolf Pelts \u2014 The Townstons wiki",
   "categories": [
     "Dew Valley Quests",
     "Repeatable Quests",
-    "Wolf Pelt Quests"
+    "Wolf Pelt Quests",
+    "Quests"
   ],
   "images": [],
-  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Sir_Lee_of_York\" title=\"Sir Lee of York\">Sir Lee of York</a>\n</p><p><b>Quest Type:</b>  Collect\n</p><p><b>Quest Description:</b> Collect 20 Wolf Pelts from the <a href=\"/wiki/Wolf\" title=\"Wolf\">Wolves and Wolf Pups</a> in <a href=\"/wiki/Dew_Valley\" title=\"Dew Valley\">Dew Valley</a> Forest\n</p><p><b>Quest Reward:</b> 750 Gold\n</p><p><b>Return to:</b> <a href=\"/wiki/Sir_Lee_of_York\" title=\"Sir Lee of York\">Sir Lee of York</a>\n</p><p><b>Repeatable:</b> <a href=\"/wiki/Repeatable\" title=\"Repeatable\">Yes</a>\n</p><p><b>Note:</b> <i> Before Build 130 this quest was given by <a href=\"/wiki/Samford_the_Hermit\" title=\"Samford the Hermit\">Samford the Hermit</a>.</i>\n</p>\n\n \n<div class=\"visualClear\"></div>"
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Sir_Lee_of_York\" title=\"Sir Lee of York\">Sir Lee of York</a>\n</p><p><b>Quest Type:</b>  Collect\n</p><p><b>Quest Description:</b> Collect 20 Wolf Pelts from the <a href=\"/wiki/Wolf\" title=\"Wolf\">Wolves and Wolf Pups</a> in <a href=\"/wiki/Dew_Valley\" title=\"Dew Valley\">Dew Valley</a> Forest\n</p><p><b>Quest Reward:</b> 750 Gold\n</p><p><b>Return to:</b> <a href=\"/wiki/Sir_Lee_of_York\" title=\"Sir Lee of York\">Sir Lee of York</a>\n</p><p><b>Repeatable:</b> <a href=\"/wiki/Repeatable\" title=\"Repeatable\">Yes</a>\n</p><p><b>Note:</b> <i> Before Build 130 this quest was given by <a href=\"/wiki/Samford_the_Hermit\" title=\"Samford the Hermit\">Samford the Hermit</a>.</i>\n</p>\n\n \n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Collect another 20 Wolf Pelts in Dew Valley Forest. Afterward, return to Sir Lee of York in Dew Valley.</p>\n<p><b>Offer:</b></p>\n<blockquote><i>Thou hast done a most excellent, er....</i> Ah, forget it.<br/><br/>Look, both you know and I know that you're not even listening to me anymore. Just go out into Dew Valley Forest, kill every wolf you see, bring me back the pelts, and we'll get along just fine.<br/><br/><font color=#FBBB06>Tip:</font> Typically, you cannot re-do a quest after you have completed it and turned it in. However, some quests can be repeated. These quests can often be identified by the appearance of words like <i>another</i> or <i>more</i> in their titles or descriptions.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Thanks for the pelts. I can use some of them as seat cushions. Now, if only I had something to sit on.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Wolf Pelt \u00d720</li></ul>\n<p><b>Client level range:</b> 3\u201310</p>\n</div>\n\n<div class=\"visualClear\"></div>"
 }

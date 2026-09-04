@@ -1,0 +1,13 @@
+{
+  "title": "Audit: Terra-Infirma",
+  "wikiTitle": "Audit:_Terra-Infirma",
+  "path": "/wiki/Audit/_Terra-Infirma",
+  "description": "Audit: Terra-Infirma \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Algor's Terror Dome Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Loremaster_Vraile\" title=\"Loremaster Vraile\">Loremaster Vraile</a></p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Collect 17 Thermometers from the Fire Mutants in Upper Algor's Terror-Dome and Report to Soldier Kwale in the Algor's Terror-Dome Base Camp.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Loremaster_Vraile\" title=\"Loremaster Vraile\">Loremaster Vraile</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Audit/_Terra-Infirma\" title=\"Audit: Terra-Infirma\">Audit: Terra-Infirma</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Algor%27s_Terror_Dome_%28Quest%29\" title=\"Algor&#x27;s Terror Dome (Quest)\">Algor&#x27;s Terror Dome (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Collect 17 Thermometers from the Fire Mutants in Upper Algor's Terror-Dome and Report to Soldier Kwale in the Algor's Terror-Dome Base Camp.</p>\n<p><b>Offer:</b></p>\n<blockquote>At this point we don't know anything about the state of the dungeon's health other than it has a couple runny portals and some congestion. We need you to get in there and find out what is going on the old fashion way: take its temperature. This way we know for sure if Algor's Terror-Dome has a fever or not. Maybe it just has a Sinus Infection? Or Pink Eye? I mean, I've seen a dungeon with Pink Eye before. Who hasn't?!<br/><br/>I want you to start from the top. Get into the upper area of the dungeon and get some temperature readings from the Fire Mutants there. Then, when you have enough Thermometers, report to Soldier Kwale in the Algor's Terror-Dome Base Camp. Don't even ask me how to take their temperature, I trust you will figure something out yourself. Roll up your sleeves and get to work!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>I heard you were coming. Did you get the readings from the Fire Mutants? Good! It isn't a pretty job, but someone has to do it. I'm just glad that someone isn't me.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Thermometers \u00d717</li></ul>\n<p><b>Client level range:</b> 10\u201325</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

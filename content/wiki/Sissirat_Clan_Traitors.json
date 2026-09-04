@@ -1,0 +1,14 @@
+{
+  "title": "Sissirat Clan Traitors",
+  "wikiTitle": "Sissirat_Clan_Traitors",
+  "path": "/wiki/Sissirat_Clan_Traitors",
+  "description": "Sissirat Clan Traitors \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Vergrim's Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Skeer%27ikt_the_Chirper\" title=\"Skeer&#x27;ikt the Chirper\">Skeer&#x27;ikt the Chirper</a></p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Kill 48 of the Traitors to Sissirat's Clan and Return to Skeer'ikt the Chirper in Vergrim's Vexation off of Level 1 in the Cavernous Cavern of Caves.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> <a href=\"/wiki/Skeer%27ikt_the_Chirper\" title=\"Skeer&#x27;ikt the Chirper\">Skeer&#x27;ikt the Chirper</a></p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Vergrim%27s_Vexation_(Quest)\" title=\"Vergrim&#x27;s Vexation (Quest)\">Vergrim&#x27;s Vexation (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Kill 48 of the Traitors to Sissirat's Clan and Return to Skeer'ikt the Chirper in Vergrim's Vexation off of Level 1 in the Cavernous Cavern of Caves.</p>\n<p><b>Offer:</b></p>\n<blockquote>You killed many of Vergrimses Whisker Clan, now it is times for killings the traitors to the Great One, Sissirat! Some of Sissirat's whisker clan has left Algernon and joined forces with Vergrims's clan and this is just an offense punishable by death! Go kills 48 of the traitors to Sissirat and return to me. I knows that killing theses traitorious Whiskers can gets repetitives, but you have to sees the big pictures. After you kills this 48 then you will kills the next 48, and afters that you wills kill the next 48. See! Whens you looks at it likes that then you gets all exciteds and wants to kills 48 more!<br/><br/>Go and kills 48 of the traitors to Sissirat and returns to me, Skeer'ikt the Chirper, heres in the Cavernous Cavern of Caves whens you are done and readys for more.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Goods! You haves killed thems then? I can tells from the looks on your face that you did. Thanks you and here is some more candy for you. Again?</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Toxic Blademasters Traitors</li><li>Toxic Whisker Shaman Traitors</li><li>Toxic Venomspitter Traitors</li></ul>\n<p><b>Client level range:</b> 25\u201330</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

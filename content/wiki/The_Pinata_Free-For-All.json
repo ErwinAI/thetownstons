@@ -1,0 +1,13 @@
+{
+  "title": "The Pinata Free-For-All",
+  "wikiTitle": "The_Pinata_Free-For-All",
+  "path": "/wiki/The_Pinata_Free-For-All",
+  "description": "The Pinata Free-For-All \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Ratsputin's Gulag Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> QuestGiver_B</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Destroy the Pinata in the Pinata Free-For-All off of Level 2 of Ratsputins Gulag and return to the Excited Lad in Ratsputin's Holding Cell.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> QuestGiver_B</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Ratsputin%27s_Gulag_%28Quest%29\" title=\"Ratsputin&#x27;s Gulag (Quest)\">Ratsputin&#x27;s Gulag (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Destroy the Pinata in the Pinata Free-For-All off of Level 2 of Ratsputins Gulag and return to the Excited Lad in Ratsputin's Holding Cell.</p>\n<p><b>Offer:</b></p>\n<blockquote>Have you heard, Dungeon Runner?! The Pinata Invitational has begun! All you have to do to is find the entrance to get in. I bet you would really be great at destroying the pinata! I would enter, but they are letting the monsters enter this year and I am pretty sure that they might completely ignore the pinata and try to eat me. I don't mind though, some day when I grow up I will be able to enter and by then I will be the bestest Pinateer in the whole server... I mean world....<br/><br/>To enter the Pinata Free-For-All you need to find the door to the Pinata Invitational off of Level 2 of Ratsputin's Gulag. Once there destroy the pinata before anyone else and you will win! Return to me, the Excited Lad, here in Ratsputin's Holding Cell when you have destroyed the pinata so you can tell me all about it.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>You did it, didn't you?! I knew you would! How was it? Did the loot go everywhere?! AWESOME!</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Destroy the Pinata</li></ul>\n<p><b>Client level range:</b> 75\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

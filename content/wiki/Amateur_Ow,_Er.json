@@ -1,0 +1,13 @@
+{
+  "title": "Amateur Ow, Er",
+  "wikiTitle": "Amateur_Ow,_Er",
+  "path": "/wiki/Amateur_Ow,_Er",
+  "description": "Amateur Ow, Er \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Colonel Cabo</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Go to the All-Amateur Assault off Level 3 of MutantMania. Assaultify Footstompin' Felix and then report back to Colonel Cabo in the MutantMania Training Center.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Colonel Cabo</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Expand_and...\" title=\"Expand and...\">Expand and...</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Go to the All-Amateur Assault off Level 3 of MutantMania. Assaultify Footstompin' Felix and then report back to Colonel Cabo in the MutantMania Training Center.</p>\n<p><b>Offer:</b></p>\n<blockquote>Since Logan lost his edge, Ah've been struggling to find a replacement professional pugilist. Fighter, that is. Who's Logan? Friend, let's talk about something else.<br/><br/>Have you heard, Ah say, have you heard about Chairman Manchair's new fight ring in the All-Amateur Assault? Manchair's scheme has got plenty of new competitors showing up to fight in his arenas. Ah expect there will be a better rank of fighters in the AAA from now on, which is great for an entrepreneurial manager like yours truly. In fact, there's this one fighter named Footstompin' Felix that doesn't look half bad.<br/><br/>Friend, do me another favor and go tell me if Footstompin' Felix is any good. Ah'll compensate you for your time, and any incurred health issues. Broken bones, that is.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>You're back! And only a bit worse for the wear. How was Footstompin' Felix? No good? But you seem to be.<br/><br/>Ah may have misjudged you, Friend. You've been, Ah say, you've been doing a great job helping me scout out new pugilistic talent. Fighters, that is. But now Ah think that *you* are the fighter Ah've been looking for all along.<br/><br/>From now on, you fight for me! Ah'm your new manager, and Ah'll not take no for an answer. But I will take twenty percent off the top.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Assaultify Footstompin&#x27; Felix</li></ul>\n<p><b>Client level range:</b> 81\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

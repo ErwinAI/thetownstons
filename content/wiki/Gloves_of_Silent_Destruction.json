@@ -1,0 +1,14 @@
+{
+  "title": "Gloves of Silent Destruction",
+  "wikiTitle": "Gloves_of_Silent_Destruction",
+  "path": "/wiki/Gloves_of_Silent_Destruction",
+  "description": "Gloves of Silent Destruction — The Townstons wiki",
+  "categories": [
+    "Rainbow items",
+    "Rainbow Gloves",
+    "Mage Rainbow Armor"
+  ],
+  "images": [],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr><td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Gloves of Silent Destruction\n</td></tr>\n<tr><td colspan=\"2\"><hr/>\n</td></tr>\n<tr><td style=\"width:50%;\"><b>Piece:&nbsp;</b>\n</td><td style=\"width:50%;\">Gloves\n</td></tr>\n<tr><td style=\"width:50%;\"><b>Material:&nbsp;</b>\n</td><td style=\"width:50%;\">Cloth (XXLight)\n</td></tr>\n<tr><td style=\"width:50%;\"><b>Class palette:&nbsp;</b>\n</td><td style=\"width:50%;\">Mage\n</td></tr>\n<tr><td style=\"width:50%;\"><b>Quality:&nbsp;</b>\n</td><td style=\"width:50%;\">Mythic (rainbow)\n</td></tr>\n</table>\n<p><b>Gloves of Silent Destruction</b> is the cloth ninja gloves from <code>items/pal/MageGlovesPAL.gc</code> (<code>PreBuiltWishingWell001</code>). The client sets <code>SoulBound = true</code>. <code>LeatherMythicPAL.gc</code> has a never-live leather name <i>Gauntlets of Silent Destruction</i>.</p>\n<p>Rolled name endings: <a href=\"/wiki/Mythic_Suffixes\" title=\"Mythic Suffixes\">Mythic Suffixes</a>.</p>\n<p><b>Fixed mods</b> on this wishing-well template:</p>\n<ul>\n<li> AGI, INT\n</li>\n<li> Poison resist, Shadow resist\n</li>\n<li> +Fire, +Ice\n</li>\n<li> Max health, Max mana\n</li></ul>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

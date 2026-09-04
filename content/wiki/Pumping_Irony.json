@@ -1,0 +1,13 @@
+{
+  "title": "Pumping Irony",
+  "wikiTitle": "Pumping_Irony",
+  "path": "/wiki/Pumping_Irony",
+  "description": "Pumping Irony \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Colonel Cabo</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Show Gertie how to use the nearby Heavy Bag then go to MutantMania's Level 4 and teach Abraham the Animal a lesson. Afterward, meet with Colonel Cabo in the MutantMania Training Center.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Colonel Cabo</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Show Gertie how to use the nearby Heavy Bag then go to MutantMania's Level 4 and teach Abraham the Animal a lesson. Afterward, meet with Colonel Cabo in the MutantMania Training Center.</p>\n<p><b>Offer:</b></p>\n<blockquote>My word! You have such big...muscles! *Giggle!* I hope to have muscles as big as yours some day.<br/><br/>Thanks for coming to help me with my workout. Colonel Cabo says I need to get more work on the heavy bag. Can you show me how to do it correctly? You can use the heavy bag near the back of this gym.<br/><br/>When you're done, could you help me with something else? *Bats eyelashes* There is a ruffian on level 4 named Abraham the Animal who keeps picking on me because I'm a girl. Could you maybe <i>spar</i> with him until he agrees to leave me alone? I'd appreciate your help ever so much!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Welcome back, friend. Ah hope you taught Gertie some good lessons. She's a good kid and Ah plan on riding her to the top. Ah mean using her. Ah mean being her manager.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>&#x27;&#x27;Spar&#x27;&#x27; with Abraham the Animal</li></ul>\n<p><b>Client level range:</b> 82\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

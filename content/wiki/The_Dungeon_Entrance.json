@@ -1,0 +1,13 @@
+{
+  "title": "The Dungeon Entrance",
+  "wikiTitle": "The_Dungeon_Entrance",
+  "path": "/wiki/The_Dungeon_Entrance",
+  "description": "The Dungeon Entrance \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Townston Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Illiot Fess - Kingdom Agent</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Speak with Baern, a guard located near the entrance to the dungeon in Townston.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Illiot Fess - Kingdom Agent</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Token_Masters\" title=\"Townston\">Townston</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Speak with Baern, a guard located near the entrance to the dungeon in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>A few key mage skills can often mean the difference between life and death. The ultimate power of the mage cannot be matched. Browse my skills and take note of what skills can assist you in the future.<br/><br/>When ye are ready to explore the dungeon, speak with the Baern, who guards the entrance to the dungeon.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Yes. I am Baern. Enter the dungeon at your own risk. If you are in fact going into the dungeon, I could use your assistance in some matters.</blockquote>\n<p><b>Client level range:</b> 1\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

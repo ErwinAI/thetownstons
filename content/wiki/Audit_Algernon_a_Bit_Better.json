@@ -1,0 +1,13 @@
+{
+  "title": "Audit Algernon a Bit Better",
+  "wikiTitle": "Audit_Algernon_a_Bit_Better",
+  "path": "/wiki/Audit_Algernon_a_Bit_Better",
+  "description": "Audit Algernon a Bit Better \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Algernon Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Lieutenant\" title=\"Townston Lieutenant\">Townston Lieutenant</a></p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Collect missing receipts from the creatures in Algernon and return to the Townston Lieutenant in Townston.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> <a href=\"/wiki/Townston_Lieutenant\" title=\"Townston Lieutenant\">Townston Lieutenant</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Audit_Algernon/_The_Paperwork\" title=\"Audit Algernon: The Paperwork\">Audit Algernon: The Paperwork</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Collect missing receipts from the creatures in Algernon and return to the Townston Lieutenant in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>It looks like you brought back a good number of receipts, but we seems to be missing a couple. You might want to try and be a bit more thorough this time. If we don't get an accurate count of our lost revenue then the King's Board of Trustees is just going to tell me to gather the receipts all over again. And then again. And I'm already sending a lot of Dungeon Runners into Algernon to collect these for me. So don't you go making me look bad!<br/><br/>Oh, and while you're down there, could you look for a good crossbow for me? I keep hearing reports that they're dropping like mad out there and I don't want to miss out! Thanks!<br/><br/>Oh, when you collect the missing receipts, return them to the Townston Lieutenant.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Oh wow, it looks like you got the last of them! Of course, if you failed me in any way, we would be having a very different conversation now wouldn't we? There's a good Dungeon Runner!<br/><br/>Did you find any crossbows?</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Missing Orok Receipts \u00d71</li><li>Missing Fade Receipts \u00d71</li><li>Missing Mutant Receipts \u00d71</li></ul>\n<p><b>Client level range:</b> 7\u201320</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Re: Ghost of Whiskers Past - Sissirat's Revengeance",
+  "wikiTitle": "Re:_Ghost_of_Whiskers_Past_-_Sissirat's_Revengeance",
+  "path": "/wiki/Re/_Ghost_of_Whiskers_Past_-_Sissirat's_Revengeance",
+  "description": "Re: Ghost of Whiskers Past - Sissirat's Revengeance \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Ratsputin's Gulag Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Slay Sissirat's Vengeful Soul again in Sissirat's Revenge, off of The Whisker's Library - Edict Section, slay 8 Sissirat's Vengeful Blademasters again and 6 Sissirat's Vengeful Blasters again, then return to the Townston Commander...again.</p>\n<p><b>Quest Reward:</b> Gold and 2 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coins</a></p>\n<p><b>Return to:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Ratsputin%27s_Gulag_%28Quest%29\" title=\"Ratsputin&#x27;s Gulag (Quest)\">Ratsputin&#x27;s Gulag (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Slay Sissirat's Vengeful Soul again in Sissirat's Revenge, off of The Whisker's Library - Edict Section, slay 8 Sissirat's Vengeful Blademasters again and 6 Sissirat's Vengeful Blasters again, then return to the Townston Commander...again.</p>\n<p><b>Offer:</b></p>\n<blockquote>That's right. The Townston Alchemical Association is still bumbling away at a solution to Ratsputin's imprisoned souls, so unless you think twiddling your thumbs will create some sort of alternate power source to help their Antikythera mechanisms and abacuses run faster you might as well make yourself useful otherwise.<br/><br/>Make your way back to Sissirat's Revenge in The Whisker's Library - Edict Section, off of Level 4 of Ratsputin's Gulag. Once there, slay Sissirat's Vengeful Soul, 8 of Sissirat's Vengeful Blademasters, and 6 of Sissirat's Vengeful Blasters. When you are done with this, return to me, the Townston Commander, here in Townston.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Fine work, Dungeon Runner. Bet you can't do it again.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Slay Sissirat&#x27;s Vengeful Soul</li><li>Slay Sissirat&#x27;s Vengeful Blademasters</li><li>Slay Sissirat&#x27;s Vengeful Blasters</li></ul>\n<p><b>Client level range:</b> 78\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

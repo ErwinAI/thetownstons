@@ -1,0 +1,13 @@
+{
+  "title": "The Dew Valley Infestation",
+  "wikiTitle": "The_Dew_Valley_Infestation",
+  "path": "/wiki/The_Dew_Valley_Infestation",
+  "description": "The Dew Valley Infestation \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Dew Valley Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Sir Prize the Kingdom Representative</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Kill 25 Whisker Ratlings in Dew Valley Forest. Afterward, return to Sir Prize the Kingdom Representative in Dew Valley.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Sir Prize the Kingdom Representative</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Red_Rocks\" title=\"Red Rocks\">Red Rocks</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Dew_Valley_Forest\" title=\"Dew Valley\">Dew Valley</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Kill 25 Whisker Ratlings in Dew Valley Forest. Afterward, return to Sir Prize the Kingdom Representative in Dew Valley.</p>\n<p><b>Offer:</b></p>\n<blockquote>Welcome to Dew Valley, Dungeon Runner!<br/><br/>I am assigned to assign you assignments, and be advised that I treat my responsibilities *very* seriously. If you correctly handle my missions, it will reflect well in *both* of our permanent records...and someday help me get back to my rightful place behind the scenes on the front lines.<br/><br/>The Whiskers are first...they overmined during the Great Fizz Rock Rush, and have been plaguing Dew Valley ever since. Their numbers have been increasing, and the forest now swarms with them like never before.<br/><br/>Rid the Dew Valley Forest of some of the smaller Whisker Ratlings. Return here when you're done and I will give you something more challenging. <font color=#FBBB06>Tip:</font> If you have already killed most of the creatures in Dew Valley Forest, consider going deeper into the dungeon. Alternately, you might want to right-click on your character health bar and or choose to <i>Reset Instances</i> to force the dungeon to re-stock all its monsters.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Well done. Your payment is very well deserved...or at least awarded promptly.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Slay Whisker Ratlings</li></ul>\n<p><b>Client level range:</b> 1\u201315</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

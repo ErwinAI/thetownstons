@@ -1,0 +1,13 @@
+{
+  "title": "Whack-a-Rat",
+  "wikiTitle": "Whack-a-Rat",
+  "path": "/wiki/Whack-a-Rat",
+  "description": "Whack-a-Rat \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Dew Valley Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Quest Type:</b> GoTo / Item</p>\n<p><b>Quest Description:</b> Show the photocopied portrait to the Townston Commander in Townston. And watch your back.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> <a href=\"/wiki/Townston_Commander\" title=\"Townston Commander\">Townston Commander</a></p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Rattle_Tooth%27s_Kinfolk\" title=\"Rattle Tooth&#x27;s Kinfolk\">Rattle Tooth&#x27;s Kinfolk</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Dew_Valley_Forest\" title=\"Dew Valley\">Dew Valley</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Show the photocopied portrait to the Townston Commander in Townston. And watch your back.</p>\n<p><b>Offer:</b></p>\n<blockquote>The portrait shows a very happy Rattle Family gathered together. There is a name plate that identifes the happy rats as Rattle Eye, Rattle Neck and Rattle Ear.<br/><br/>Just below the portrait you notice a piece of paper with a crudely drawn picture of you and a large target over your head. You think it would be best to show this to the Townston Commander in Townston to find out its meaning. You should show him soon. Real soon.<br/><br/>What was that sound?!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>So this is Rattle Tooth's Family? I've heard they want you taken out pretty badly for taking down Rattle Tooth. There are already a couple profitable hits out on your head. We should probably take out the Family before someone tries to take you out.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Make a Photocopy of the Rattle Family Portrait \u00d71</li><li>Find the Townston Commander</li></ul>\n<p><b>Client level range:</b> 2\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Weakened at Bernie's",
+  "wikiTitle": "Weakened_at_Bernie's",
+  "path": "/wiki/Weakened_at_Bernie's",
+  "description": "Weakened at Bernie's \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Colonel Cabo</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Go to Bernie's Backyard Brawl off Level 1 of MutantMania. Brawl against Jumping Josiah and then report back to Colonel Cabo in the MutantMania Training Center.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Colonel Cabo</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Amateur_Ow,_Er\" title=\"Amateur Ow, Er\">Amateur Ow, Er</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Go to Bernie's Backyard Brawl off Level 1 of MutantMania. Brawl against Jumping Josiah and then report back to Colonel Cabo in the MutantMania Training Center.</p>\n<p><b>Offer:</b></p>\n<blockquote>Have you seen my assistant, Archimeates? Ah swear, that boy is as sharp as a knife made out of marbles. It's a joke, friend. You missed it.<br/><br/>On to business...Friend, Ah'm lookin'...Ah say, Ah'm looking t' represent a new competitor. Fighter, that is. Ah lost mah best one back-a-ways, and have been searching for a replacement ever since. Ah need someone with a strong back and a weak mind t' help me find a new fighter, and you...Ah say, you fit the role perfectly. The first part, friend, not the second.<br/><br/>Go...Ah say, go to Bernie's Backyard Brawl off Level 1 of MutantMania and take on Jumping Josiah. Ah'll give you some compensation for your time. When you're done, come back and tell me if he's a good fighter. Competitor, that is.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>You look...Ah say, you look like you went a few rounds with the champ. Manglefeet, that is.<br/><br/>So, how was Jumping Josiah? Not jumping any more, eh? Well, there's more where he came from. Stick around, friend. Ah may ask you t' research another competitor for me.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Brawl with Jumping Josiah</li></ul>\n<p><b>Client level range:</b> 80\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

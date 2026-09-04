@@ -1,0 +1,14 @@
+{
+  "title": "Re-Banning the Re-Banished: Levels 3 & 4",
+  "wikiTitle": "Re-Banning_the_Re-Banished:_Levels_3_&_4",
+  "path": "/wiki/Re-Banning_the_Re-Banished/_Levels_3_&_4",
+  "description": "Re-Banning the Re-Banished: Levels 3 & 4 \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Ratsputin's Gulag Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> QuestGiver_A</p>\n<p><b>Quest Type:</b> Hunt/Collect</p>\n<p><b>Quest Description:</b> Go to the golded farms on Level 3, the branch off of Level 3, Level 4, and the branch off of Level 4 of Ratsputin's Gulag and slay the Banned Farmers. Also, collect 15 Golded Pumpkins and 30 Golded Ears o' Corn then return to Yakov Smearnov in Ratsputin's Holding Cell.</p>\n<p><b>Quest Reward:</b> Gold and 2 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coins</a></p>\n<p><b>Return to:</b> QuestGiver_A</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Ratsputin%27s_Gulag_%28Quest%29\" title=\"Ratsputin&#x27;s Gulag (Quest)\">Ratsputin&#x27;s Gulag (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Go to the golded farms on Level 3, the branch off of Level 3, Level 4, and the branch off of Level 4 of Ratsputin's Gulag and slay the Banned Farmers. Also, collect 15 Golded Pumpkins and 30 Golded Ears o' Corn then return to Yakov Smearnov in Ratsputin's Holding Cell.</p>\n<p><b>Offer:</b></p>\n<blockquote>Ban them! Ban them all, I say! I won't rest until they are all banned from this dungeon and begging to be let back in!<br/><br/>Run into Level 3, the branch off of Level 3, Level 4, and the branch off of Level 4 and ban those Banned Farmers yet again. You will also need to pick up more of the golded vegetables. When you have finished with this round of bans and picked up the required vegetables please return to me, Yakov Smearnov, here in Ratsputin's Holding Cell.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>I am pleased. But already the Banned Farmers are creating new accounts with different account info and making their way back into the dungeon. Are you ready to do this quest again?</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Locate the Farm on Level 3</li><li>Slay the Banned Farmer on Level 3</li><li>Locate the Farm on Level 3 Branch</li><li>Slay the Banned Farmer on the Level 3 Branch</li><li>Locate the Farm on Level 4</li><li>Slay the Banned Farmer on Level 4</li><li>Locate the Farm on Level 4 Branch</li><li>Slay the Banned Farmer on the Level 4 Branch</li><li>Golded Pumpkins \u00d715</li><li>Golded Ears o&#x27; Corn \u00d730</li></ul>\n<p><b>Client level range:</b> 78\u201379</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Collectable Cup Set",
+  "wikiTitle": "Collectable_Cup_Set",
+  "path": "/wiki/Collectable_Cup_Set",
+  "description": "Collectable Cup Set \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Okon</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Go into Upper MutantMania and clobber anyone that may have acquired a collectable cup. Once you have a complete set, return it to Okon in the MutantMania Training Center.</p>\n<p><b>Quest Reward:</b> Gold and 2 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coins</a></p>\n<p><b>Return to:</b> Okon</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Go into Upper MutantMania and clobber anyone that may have acquired a collectable cup. Once you have a complete set, return it to Okon in the MutantMania Training Center.</p>\n<p><b>Offer:</b></p>\n<blockquote>Thankth again for breaking up that NaijeerianConsular419 thcam. I heard that a delivery of collectable MutantMania cupth wath thtolen from ectoBay. I bet thothe mean guyth in the MutantMania dungeon got 'em all.<br/><br/>I already have a thet of thothe cupth from when they firtht came out, but do you think you could try to find thome of the mithing cupth? I'd love a whole 'nother thet!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Wowie, thatth amathing!!<br/><br/>If thethe cupth weren't tho cool I would give them as birthday gift'th.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Jumping Josiah&#x27;s cup \u00d71</li><li>Dangerous Dmitri&#x27;s cup \u00d71</li><li>Ravishing Reginald&#x27;s cup \u00d71</li><li>Sandy Shores&#x27;s cup \u00d71</li><li>Menacing Manglefeet the Murderous&#x27;s cup \u00d71</li></ul>\n<p><b>Client level range:</b> 83\u201393</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

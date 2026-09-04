@@ -1,0 +1,14 @@
+{
+  "title": "More Dew Valley Extermination",
+  "wikiTitle": "More_Dew_Valley_Extermination",
+  "path": "/wiki/More_Dew_Valley_Extermination",
+  "description": "More Dew Valley Extermination \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Dew Valley Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Sir Prize the Kingdom Representative</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Kill 25 Whisker Ratlings in Dew Valley Forest. Afterward, return to Sir Prize the Kingdom Respresentative in Dew Valley.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Sir Prize the Kingdom Representative</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Dew_Valley_Forest\" title=\"Dew Valley\">Dew Valley</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Kill 25 Whisker Ratlings in Dew Valley Forest. Afterward, return to Sir Prize the Kingdom Respresentative in Dew Valley.</p>\n<p><b>Offer:</b></p>\n<blockquote>A fine deed it was, collecting the samples of Fizz Rock. Now, I need your help again. Others were assisting me, but they never came back. Perhaps they died. You seem more capable than them, but time will tell.<br/><br/>I need your help in controlling the number of Whisker Ratlings in Dew Valley Forest. If they're after new veins of Fizz Rock, it's our job to push them back and keep the Kingdom's natural resources safe.<br/><br/>Hurry along and kill 25 Whisker Ratlings. When you are finished, return to me, Sir Prize the Kingdom Representative, here in Dew Valley.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Already done? If you still have a taste for cleansing the surrounding area of Ratlings, then I could still use your help.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Slay Whisker Ratlings</li></ul>\n<p><b>Client level range:</b> 3\u201315</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

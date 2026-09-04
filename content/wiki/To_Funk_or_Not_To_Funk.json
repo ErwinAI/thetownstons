@@ -1,0 +1,13 @@
+{
+  "title": "To Funk or Not To Funk",
+  "wikiTitle": "To_Funk_or_Not_To_Funk",
+  "path": "/wiki/To_Funk_or_Not_To_Funk",
+  "description": "To Funk or Not To Funk \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Balzack's Burrow Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Sam &#x27;Dog Walker&#x27;</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Take the Funk away from Tofunk the new DJ in the Fridged Bean.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Sam &#x27;Dog Walker&#x27;</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Semi-Precious_Metal\" title=\"Semi-Precious Metal\">Semi-Precious Metal</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Balzack%27s_Burrow\" title=\"Balzack&#x27;s Burrow\">Balzack&#x27;s Burrow</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Take the Funk away from Tofunk the new DJ in the Fridged Bean.</p>\n<p><b>Offer:</b></p>\n<blockquote>This Dancing that has been going on inside is not just the fault of the dancers, the blame is also upon the ones making the music. These monsters making the music to dance the unholy dances must be stopped less they continue to make music that is then considered unholy. I will report to the King's Bishop's Knight's Stable Boy of what we are hearing here, and you go in there and make the music that is coming from the Friged Bean stop.<br/><br/>I will no doubt be back before you. So when you have stopped the playing of the funky music come back to me, the King's Bishop's Knight's Stable Boy's Dog Walker here at Balzack's Base Camp.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Even though you have been able to stop one of the unholy sounds of one of the monster musicians, the problem persists. Take this small token of my thanks.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Tofunk the Funky DJ</li></ul>\n<p><b>Client level range:</b> 55\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Aching Back Ack-Splat",
+  "wikiTitle": "Aching_Back_Ack-Splat",
+  "path": "/wiki/Aching_Back_Ack-Splat",
+  "description": "Aching Back Ack-Splat \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Balzack's Burrow Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Jerry the Dusty Dancer</p>\n<p><b>Quest Type:</b> Collect</p>\n<p><b>Quest Description:</b> Remove 30 aching back patches and bring them to Jerry in Balzack's Burrow level 3.<br/>Also Bring him a cup of Karlbucks Coffee.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> Jerry the Dusty Dancer</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Balzack%27s_Burrow\" title=\"Balzack&#x27;s Burrow\">Balzack&#x27;s Burrow</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Remove 30 aching back patches and bring them to Jerry in Balzack's Burrow level 3.<br/>Also Bring him a cup of Karlbucks Coffee.</p>\n<p><b>Offer:</b></p>\n<blockquote>When you dance, dance like the King is watching, it will make you dance like a bird swims, like a fish flys, like a snake walks. You can dance all day and sleep all night if you want to. You know just step forward, fall backwards, hit your head on the wall and...<br/><br/>Oh Hello again, I am just working on my routine for my new instructional video called 'Intermediate Beginners Advanced Dance Steps for the Undead 302.' It is hard work you know being an almost out of work dance instructor. One has to do what they can to get by. Give me a moment here to collect myself again.<br/><br/>My poor aching back, how am I ever going to be able to finish creating my new dance when all I can do is hobble? Do me a favor and find some of the Ack-Splat back patches in the Frozen Bean, you know that coffee shop that is off of Balzack's Burrow level 4. Grab me a cup of coffee while your at it also, I could sure use a pick me up! Don't forget where I am ok? It's Jerry the Dusty Dancer at the entrance of Balzack's Burrow Level 3.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>The smell of coffee and the cold back patch. Thank you greatly. Take this coin and talk to me later.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Ack-Splat Back Patch \u00d727</li><li>Cup of Karlbucks Coffee \u00d71</li></ul>\n<p><b>Client level range:</b> 56\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

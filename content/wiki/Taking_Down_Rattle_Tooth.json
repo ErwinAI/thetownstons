@@ -1,0 +1,13 @@
+{
+  "title": "Taking Down Rattle Tooth",
+  "wikiTitle": "Taking_Down_Rattle_Tooth",
+  "path": "/wiki/Taking_Down_Rattle_Tooth",
+  "description": "Taking Down Rattle Tooth \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Dew Valley Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Sir Prize the Kingdom Representative</p>\n<p><b>Quest Type:</b> Hunt/Collect</p>\n<p><b>Quest Description:</b> Take out Rattle Tooth. When he is dead, report your success to Sir Prize in Dew Valley.<br/><br/>Also look for any suspicious portraits.</p>\n<p><b>Quest Reward:</b> Gold and 1 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coin</a></p>\n<p><b>Return to:</b> Sir Prize the Kingdom Representative</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Graduation_Day\" title=\"Graduation Day\">Graduation Day</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Dew_Valley_Forest\" title=\"Dew Valley\">Dew Valley</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Take out Rattle Tooth. When he is dead, report your success to Sir Prize in Dew Valley.<br/><br/>Also look for any suspicious portraits.</p>\n<p><b>Offer:</b></p>\n<blockquote>Oh good, you're still here. The situation is more serious than we thought. I have initial reports from Algernon that Rattle Tooth is already working with other Whisker clan leaders. Rattle whiskers are busy moving the Fizz Rock operations into Algernon under the guidance of Sissirat's clan.<br/><br/>We can't let this continue, the Whisker families are becoming too powerful and this renewed interest in Fizz Rock mining is quite troubling. I need you, no...Townston needs you now, more than ever. Head back to Rattle Tooth's lair and take him out.<br/><br/>While you're there, look for anything else suspicious. Like a large portrait. Sorry to be so vague.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Welcome back young hero! Wow you actually did it! I mean, so many other people keep telling me that they were the ones to take out Rattle Tooth but you...you actually did it! I am so jealous!<br/><br/>This reward is well-deserved indeed! Now if you'll excuse me, someone else is here and they're claiming they killed Rattle Tooth too, how odd!</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Slay Rattle Tooth</li><li>Suspicious portrait \u00d71</li></ul>\n<p><b>Client level range:</b> 2\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

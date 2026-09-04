@@ -1,0 +1,13 @@
+{
+  "title": "Revengeance is Minor, Part Green",
+  "wikiTitle": "Revengeance_is_Minor,_Part_Green",
+  "path": "/wiki/Revengeance_is_Minor,_Part_Green",
+  "description": "Revengeance is Minor, Part Green \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Shadow's Embrace Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> [GoS] Leda Beaurde</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Find the disguised Halfassin White on Level 1 of the Shadow's Embrace. After you kill him, check in with Leda Beaurde in the Shadow's Gate.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> [GoS] Leda Beaurde</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/The_Shadow%27s_Embrace_(Quest)\" title=\"The Shadow&#x27;s Embrace (Quest)\">The Shadow&#x27;s Embrace (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Find the disguised Halfassin White on Level 1 of the Shadow's Embrace. After you kill him, check in with Leda Beaurde in the Shadow's Gate.</p>\n<p><b>Offer:</b></p>\n<blockquote>I got the drop on Halfassin White because *I* was disguised, so now *he* is wearing a disguise? What a copy cat!<br/><br/>You need to go back to Level 1 and take him out for me, on sheer principle. ...But don't forget to tell Leda Beaurde so I can get the kill-credit!</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Not surpisingly, I don't think these guys are really cut out to be GoS material. Still, they're pretty amusing. Keep me up to date on their <i>progress.</i> Their exploits are the perfect thing to break up a day full of breaking bones.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Kill Halfassin White</li></ul>\n<p><b>Client level range:</b> 49\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Re-Banning the Re-Banished: Levels 1 & 2 II",
+  "wikiTitle": "Re-Banning_the_Re-Banished:_Levels_1_&_2_II",
+  "path": "/wiki/Re-Banning_the_Re-Banished/_Levels_1_&_2_II",
+  "description": "Re-Banning the Re-Banished: Levels 1 & 2 II \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Ratsputin's Gulag Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> QuestGiver_A</p>\n<p><b>Quest Type:</b> Hunt/Collect</p>\n<p><b>Quest Description:</b> Go to the golded farms on Level 1, the branch off of Level 1, and Level 2 of Ratsputin's Gulag and slay the Banned Farmers. Also, collect 15 Golded Pumpkins and 30 Golded Ears o' Corn then return to Yakov Smearnov in Ratsputin's Holding Cell.</p>\n<p><b>Quest Reward:</b> Gold and 2 <a href=\"/wiki/King%27s_Coins\" title=\"King&#x27;s Coins\">King&#x27;s Coins</a></p>\n<p><b>Return to:</b> QuestGiver_A</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Ratsputin%27s_Gulag_%28Quest%29\" title=\"Ratsputin&#x27;s Gulag (Quest)\">Ratsputin&#x27;s Gulag (Quest)</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Go to the golded farms on Level 1, the branch off of Level 1, and Level 2 of Ratsputin's Gulag and slay the Banned Farmers. Also, collect 15 Golded Pumpkins and 30 Golded Ears o' Corn then return to Yakov Smearnov in Ratsputin's Holding Cell.</p>\n<p><b>Offer:</b></p>\n<blockquote>The time has come for you to do something that you have already done before, but this time it's different! Ok, not really... but you are totally doing great.<br/><br/>Make haste to Level 1, the branch off of Level 1, and Level 2 and find the farms there. Find them and slay the Banned Farmers there. Then collect more samples of the golded vegetables. When you have done all of this return to me, Yakov Smearnov, here in Ratsputin's Holding Cell.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Want to try it again? I bet you can beat your best time by, like, three seconds. You have been keeping track of your time right?</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Locate the Farm on Level 1</li><li>Slay the Banned Farmer on Level 1</li><li>Locate the Farm on Level 1 Branch</li><li>Slay the Banned Farmer on the Level 1 Branch</li><li>Locate the Farm on Level 2</li><li>Slay the Banned Farmer on Level 2</li><li>Golded Pumpkins \u00d715</li><li>Golded Ears o&#x27; Corn \u00d730</li></ul>\n<p><b>Client level range:</b> 89\u201391</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

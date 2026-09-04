@@ -1,0 +1,13 @@
+{
+  "title": "Skill Trainers",
+  "wikiTitle": "Skill_Trainers",
+  "path": "/wiki/Skill_Trainers",
+  "description": "Skill Trainers \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Townston Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Unknown</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Speak with each skill trainer. They are located near the Obelisk in Townston.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Unknown</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Following Quest:</b> <a href=\"/wiki/Skill_Trainers\" title=\"Skill Trainers\">Skill Trainers</a></p>\n<p><b>Zone:</b> <a href=\"/wiki/Token_Masters\" title=\"Townston\">Townston</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Speak with each skill trainer. They are located near the Obelisk in Townston.</p>\n<p><b>Offer:</b></p>\n<blockquote>Greetings young apprentice. I am Abel Tukahst, master of the Dark Arts of the Mage. My first lesson is that you browse my skills and learn of the spells that I can teach you. Thou is fully capable of learning other class spells, even if I personally think it is a waste of time.<br/><br/>Thou shalt go speak unto Gwen of the Tree Folk. She knoweth many skills that might be useful for thee, if thou beist a treehugger. Fie! I can ne'er fathom fighting in such a wussified manner, mayhap that is more thee's style? Thou might as well eat some granola and tofu while thee is at it.... hippie. Oh yeah, thou wilt find her standing across the square, around to MY right.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>I bid thee good day. I doth know many skills that might interest thee, no matter what combat arts thou dost typically practice.</blockquote>\n<p><b>Client level range:</b> 1\u2013100</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

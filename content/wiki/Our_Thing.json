@@ -1,0 +1,13 @@
+{
+  "title": "Our Thing",
+  "wikiTitle": "Our_Thing",
+  "path": "/wiki/Our_Thing",
+  "description": "Our Thing \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Algernon Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Illiot Fess - Kingdom Agent</p>\n<p><b>Quest Type:</b> Talk</p>\n<p><b>Quest Description:</b> Talk to the Townston Commander about the Whisker Family activity.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Illiot Fess - Kingdom Agent</p>\n<p><b>Repeatable:</b> No</p>\n<p><b>Zone:</b> <a href=\"/wiki/Algernon\" title=\"Algernon\">Algernon</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Talk to the Townston Commander about the Whisker Family activity.</p>\n<p><b>Offer:</b></p>\n<blockquote>All of this talk of Whisker Organized Crime has me worried. Algernon sure isn't what it used to be. We are seeing a rise in the proliferation of Squeakeasys, and there is that new energy drink, FizzStar, which has hit Townston's energy drink business pretty hard. The Rattles are now working with Sissirat and then there is all that Fizz Rock mining which is pulling protesting Oroks into the mix. And the smell! My Gosh, the smell.<br/><br/>It seems all of these troubles can be linked to one rat, and he's a big one: Ratphonse Capwn. Sissirat is bankrolling the whole Squeakeasy/FizzStar operation but Capwn is the point-rat. We suspect he's organizing every little business they have going on. We need proof though! Actually, no we don't. Capwn is working out of his Family Ratstaurant off of level 3 of Algernon. The place is a front: they serve some sub-par food to cover what they are really doing. You know, I'm pretty sure it's not even food. And even if it is Whisker food, have you seen what they eat? They're masters of personal recycling, if you know what I mean. You wouldn't catch any sane, rational, intelligent human eating there, that's for sure!<br/><br/>I need you to inform the Townston Commander of Capwn's location, and let him know that I believe Capwn is the pointrat, the head honcho, the big cheese. The Commander should be able to give you further instructions. You can find him in Townston...since he's the Commander. Of Townston.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Have you ever eaten down at Capwn's Family Ratstaurant? The food is fantastic and definitely worth the trip.</blockquote>\n<p><b>Client level range:</b> 5\u201320</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}

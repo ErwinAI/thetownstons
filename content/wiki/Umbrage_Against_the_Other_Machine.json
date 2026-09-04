@@ -1,0 +1,14 @@
+{
+  "title": "Umbrage Against the Other Machine",
+  "wikiTitle": "Umbrage_Against_the_Other_Machine",
+  "path": "/wiki/Umbrage_Against_the_Other_Machine",
+  "description": "Umbrage Against the Other Machine \u2014 The Townstons wiki",
+  "categories": [
+    "Quests",
+    "Mutant Mania Quests",
+    "Repeatable Quests"
+  ],
+  "images": [],
+  "html": "<p><b>Quest Giver:</b> Colonel Cabo</p>\n<p><b>Quest Type:</b> Kill</p>\n<p><b>Quest Description:</b> Go to the Upper Umbrage Unleashed off Level 4 of MutantMania. Unleash your fury against Osbert the Oppressor and then report back to Colonel Cabo in the MutantMania Training Center.</p>\n<p><b>Quest Reward:</b> Gold</p>\n<p><b>Return to:</b> Colonel Cabo</p>\n<p><b>Repeatable:</b> Yes</p>\n<p><b>Zone:</b> <a href=\"/wiki/Mutant_Mania\" title=\"Mutant Mania\">Mutant Mania</a></p>\n<div class=\"client-quest\">\n<h2>In-game text</h2>\n<p>Recovered from the Dungeon Runners client files. The notes above are from the old wiki when they exist.</p>\n<p><b>Journal:</b> Go to the Upper Umbrage Unleashed off Level 4 of MutantMania. Unleash your fury against Osbert the Oppressor and then report back to Colonel Cabo in the MutantMania Training Center.</p>\n<p><b>Offer:</b></p>\n<blockquote>Friend, you can't become the newest regional champion of the Upper Umbrage Unleashed and not expect every Tom, Dick, and Scary to want to take your title from you. In fact, we want them to want that! Because it's what the crowd wants. And if the crowd wants the fighters to want your title, then we want to fulfill their wants. Ah've booked another fight for you. Go back to Upper Umbrage Unleashed off Level 4 of MutantMania. Osbert the Oppressor thinks he wants to fight you. Go give him what he wants.</blockquote>\n<p><b>Turn-in:</b></p>\n<blockquote>Ah heard Osbert the Oppressor almost took you down. No, Ah wasn't there...Ah've got things to do. A manager can't sit around holding his fighter's hand! Come back in a bit. Ah'll have another fight scheduled.</blockquote>\n<p><b>Objectives:</b></p>\n<ul><li>Unleash against Osbert the Oppressor</li></ul>\n<p><b>Client level range:</b> 82\u201392</p>\n</div>\n<div class=\"visualClear\"></div>",
+  "source": "dungeon-runners-client"
+}
