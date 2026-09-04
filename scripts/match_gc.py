@@ -16,7 +16,7 @@ DDS_DIR = Path(r"C:\Users\me\Dungeon_Runners_Client_666\dravex_v1.0.0.0_by_atom0
 REPORT = ROOT / "archive" / "gc-rainbow-matches.json"
 LABELS = ROOT / "archive" / "gc-labels.json"
 TOKEN_SPLIT = re.compile(r"[^a-z0-9]+")
-COMMENT_BLOCK = re.compile(r"/\*.*?\*/", re.S)
+COMMENT_BLOCK = re.compile(r"(?<!/)/\*.*?\*/", re.S)
 HEADER = re.compile(
     r"([A-Za-z0-9_][\w]*)\s*(?:extends\s+([\w.]+))?\s*\{",
     re.S,

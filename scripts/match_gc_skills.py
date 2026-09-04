@@ -20,7 +20,7 @@ NPC_DIR = DDS_DIR / "world"
 REPORT = ROOT / "archive" / "gc-skill-npc-matches.json"
 
 ASSIGN = re.compile(
-    r"(Label|InventoryIcon|Icon|ActiveIcon)\s*=\s*("
+    r"(Label|InventoryIcon|Icon|ActiveIcon|IconName)\s*=\s*("
     r'"(?:[^"\\]|\\.)*"'
     r"|[A-Za-z0-9_][\w']*)\s*;",
 )
@@ -62,7 +62,7 @@ def parse_fields(text: str) -> list[dict]:
                     label = val
                 elif kind == "ActiveIcon":
                     active = val
-                elif kind in {"Icon", "InventoryIcon"}:
+                elif kind in {"Icon", "InventoryIcon", "IconName"}:
                     icon = val
             classes.append({
                 "name": dotted,

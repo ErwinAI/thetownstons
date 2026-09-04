@@ -3735,6 +3735,506 @@
     "cls": "2HCannonMythicPAL.2HCannonMythic3"
   },
   {
+    "label": "Cardboard Ornate Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_06",
+    "cls": "2HCrossbow10PAL.1"
+  },
+  {
+    "label": "Wooden Ornate Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_06",
+    "cls": "2HCrossbow10PAL.2"
+  },
+  {
+    "label": "Stone Ornate Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_06",
+    "cls": "2HCrossbow10PAL.3"
+  },
+  {
+    "label": "Tin Ornate Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_06",
+    "cls": "2HCrossbow10PAL.4"
+  },
+  {
+    "label": "Iron Ornate Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_06",
+    "cls": "2HCrossbow10PAL.5"
+  },
+  {
+    "label": "Titanium Ornate Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_06",
+    "cls": "2HCrossbow10PAL.6"
+  },
+  {
+    "label": "Obsidian Ornate Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_06",
+    "cls": "2HCrossbow10PAL.7"
+  },
+  {
+    "label": "Diamond Ornate Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_06",
+    "cls": "2HCrossbow10PAL.8"
+  },
+  {
+    "label": "Celestial Ornate Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_06",
+    "cls": "2HCrossbow10PAL.9"
+  },
+  {
+    "label": "Uber Ornate Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_06",
+    "cls": "2HCrossbow10PAL.10"
+  },
+  {
+    "label": "Cardboard Scrap Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_04",
+    "cls": "2HCrossbow1PAL.1"
+  },
+  {
+    "label": "Wooden Scrap Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_04",
+    "cls": "2HCrossbow1PAL.2"
+  },
+  {
+    "label": "Stone Scrap Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_04",
+    "cls": "2HCrossbow1PAL.3"
+  },
+  {
+    "label": "Tin Scrap Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_04",
+    "cls": "2HCrossbow1PAL.4"
+  },
+  {
+    "label": "Iron Scrap Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_04",
+    "cls": "2HCrossbow1PAL.5"
+  },
+  {
+    "label": "Titanium Scrap Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_04",
+    "cls": "2HCrossbow1PAL.6"
+  },
+  {
+    "label": "Obsidian Scrap Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_04",
+    "cls": "2HCrossbow1PAL.7"
+  },
+  {
+    "label": "Diamond Scrap Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_04",
+    "cls": "2HCrossbow1PAL.8"
+  },
+  {
+    "label": "Celestial Scrap Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_04",
+    "cls": "2HCrossbow1PAL.9"
+  },
+  {
+    "label": "Uber Scrap Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_04",
+    "cls": "2HCrossbow1PAL.10"
+  },
+  {
+    "label": "Cardboard Hunting Crossbow",
+    "icon": "weapon_icon_orok_crossbow",
+    "cls": "2HCrossbow2PAL.1"
+  },
+  {
+    "label": "Wooden Hunting Crossbow",
+    "icon": "weapon_icon_orok_crossbow",
+    "cls": "2HCrossbow2PAL.2"
+  },
+  {
+    "label": "Stone Hunting Crossbow",
+    "icon": "weapon_icon_orok_crossbow",
+    "cls": "2HCrossbow2PAL.3"
+  },
+  {
+    "label": "Tin Hunting Crossbow",
+    "icon": "weapon_icon_orok_crossbow",
+    "cls": "2HCrossbow2PAL.4"
+  },
+  {
+    "label": "Iron Hunting Crossbow",
+    "icon": "weapon_icon_orok_crossbow",
+    "cls": "2HCrossbow2PAL.5"
+  },
+  {
+    "label": "Titanium Hunting Crossbow",
+    "icon": "weapon_icon_orok_crossbow",
+    "cls": "2HCrossbow2PAL.6"
+  },
+  {
+    "label": "Obsidian Hunting Crossbow",
+    "icon": "weapon_icon_orok_crossbow",
+    "cls": "2HCrossbow2PAL.7"
+  },
+  {
+    "label": "Diamond Hunting Crossbow",
+    "icon": "weapon_icon_orok_crossbow",
+    "cls": "2HCrossbow2PAL.8"
+  },
+  {
+    "label": "Celestial Hunting Crossbow",
+    "icon": "weapon_icon_orok_crossbow",
+    "cls": "2HCrossbow2PAL.9"
+  },
+  {
+    "label": "Uber Hunting Crossbow",
+    "icon": "weapon_icon_orok_crossbow",
+    "cls": "2HCrossbow2PAL.10"
+  },
+  {
+    "label": "Cardboard Militia Crossbow",
+    "icon": "Weapon_Icon_crossbow_light",
+    "cls": "2HCrossbow3PAL.1"
+  },
+  {
+    "label": "Wooden Militia Crossbow",
+    "icon": "Weapon_Icon_crossbow_light",
+    "cls": "2HCrossbow3PAL.2"
+  },
+  {
+    "label": "Stone Militia Crossbow",
+    "icon": "Weapon_Icon_crossbow_light",
+    "cls": "2HCrossbow3PAL.3"
+  },
+  {
+    "label": "Tin Militia Crossbow",
+    "icon": "Weapon_Icon_crossbow_light",
+    "cls": "2HCrossbow3PAL.4"
+  },
+  {
+    "label": "Iron Militia Crossbow",
+    "icon": "Weapon_Icon_crossbow_light",
+    "cls": "2HCrossbow3PAL.5"
+  },
+  {
+    "label": "Titanium Militia Crossbow",
+    "icon": "Weapon_Icon_crossbow_light",
+    "cls": "2HCrossbow3PAL.6"
+  },
+  {
+    "label": "Obsidian Militia Crossbow",
+    "icon": "Weapon_Icon_crossbow_light",
+    "cls": "2HCrossbow3PAL.7"
+  },
+  {
+    "label": "Diamond Militia Crossbow",
+    "icon": "Weapon_Icon_crossbow_light",
+    "cls": "2HCrossbow3PAL.8"
+  },
+  {
+    "label": "Celestial Militia Crossbow",
+    "icon": "Weapon_Icon_crossbow_light",
+    "cls": "2HCrossbow3PAL.9"
+  },
+  {
+    "label": "Uber Militia Crossbow",
+    "icon": "Weapon_Icon_crossbow_light",
+    "cls": "2HCrossbow3PAL.10"
+  },
+  {
+    "label": "Cardboard Gothic Crossbow",
+    "icon": "Weapon_Icon_crossbow_gothic",
+    "cls": "2HCrossbow4PAL.1"
+  },
+  {
+    "label": "Wooden Gothic Crossbow",
+    "icon": "Weapon_Icon_crossbow_gothic",
+    "cls": "2HCrossbow4PAL.2"
+  },
+  {
+    "label": "Stone Gothic Crossbow",
+    "icon": "Weapon_Icon_crossbow_gothic",
+    "cls": "2HCrossbow4PAL.3"
+  },
+  {
+    "label": "Tin Gothic Crossbow",
+    "icon": "Weapon_Icon_crossbow_gothic",
+    "cls": "2HCrossbow4PAL.4"
+  },
+  {
+    "label": "Iron Gothic Crossbow",
+    "icon": "Weapon_Icon_crossbow_gothic",
+    "cls": "2HCrossbow4PAL.5"
+  },
+  {
+    "label": "Titanium Gothic Crossbow",
+    "icon": "Weapon_Icon_crossbow_gothic",
+    "cls": "2HCrossbow4PAL.6"
+  },
+  {
+    "label": "Obsidian Gothic Crossbow",
+    "icon": "Weapon_Icon_crossbow_gothic",
+    "cls": "2HCrossbow4PAL.7"
+  },
+  {
+    "label": "Diamond Gothic Crossbow",
+    "icon": "Weapon_Icon_crossbow_gothic",
+    "cls": "2HCrossbow4PAL.8"
+  },
+  {
+    "label": "Celestial Gothic Crossbow",
+    "icon": "Weapon_Icon_crossbow_gothic",
+    "cls": "2HCrossbow4PAL.9"
+  },
+  {
+    "label": "Uber Gothic Crossbow",
+    "icon": "Weapon_Icon_crossbow_gothic",
+    "cls": "2HCrossbow4PAL.10"
+  },
+  {
+    "label": "Cardboard Infantry Crossbow",
+    "icon": "Weapon_Icon_crossbow_infantry",
+    "cls": "2HCrossbow5PAL.1"
+  },
+  {
+    "label": "Wooden Infantry Crossbow",
+    "icon": "Weapon_Icon_crossbow_infantry",
+    "cls": "2HCrossbow5PAL.2"
+  },
+  {
+    "label": "Stone Infantry Crossbow",
+    "icon": "Weapon_Icon_crossbow_infantry",
+    "cls": "2HCrossbow5PAL.3"
+  },
+  {
+    "label": "Tin Infantry Crossbow",
+    "icon": "Weapon_Icon_crossbow_infantry",
+    "cls": "2HCrossbow5PAL.4"
+  },
+  {
+    "label": "Iron Infantry Crossbow",
+    "icon": "Weapon_Icon_crossbow_infantry",
+    "cls": "2HCrossbow5PAL.5"
+  },
+  {
+    "label": "Titanium Infantry Crossbow",
+    "icon": "Weapon_Icon_crossbow_infantry",
+    "cls": "2HCrossbow5PAL.6"
+  },
+  {
+    "label": "Obsidian Infantry Crossbow",
+    "icon": "Weapon_Icon_crossbow_infantry",
+    "cls": "2HCrossbow5PAL.7"
+  },
+  {
+    "label": "Diamond Infantry Crossbow",
+    "icon": "Weapon_Icon_crossbow_infantry",
+    "cls": "2HCrossbow5PAL.8"
+  },
+  {
+    "label": "Celestial Infantry Crossbow",
+    "icon": "Weapon_Icon_crossbow_infantry",
+    "cls": "2HCrossbow5PAL.9"
+  },
+  {
+    "label": "Uber Infantry Crossbow",
+    "icon": "Weapon_Icon_crossbow_infantry",
+    "cls": "2HCrossbow5PAL.10"
+  },
+  {
+    "label": "Cardboard Watchman Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_01",
+    "cls": "2HCrossbow6PAL.1"
+  },
+  {
+    "label": "Wooden Watchman Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_01",
+    "cls": "2HCrossbow6PAL.2"
+  },
+  {
+    "label": "Stone Watchman Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_01",
+    "cls": "2HCrossbow6PAL.3"
+  },
+  {
+    "label": "Tin Watchman Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_01",
+    "cls": "2HCrossbow6PAL.4"
+  },
+  {
+    "label": "Iron Watchman Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_01",
+    "cls": "2HCrossbow6PAL.5"
+  },
+  {
+    "label": "Titanium Watchman Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_01",
+    "cls": "2HCrossbow6PAL.6"
+  },
+  {
+    "label": "Obsidian Watchman Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_01",
+    "cls": "2HCrossbow6PAL.7"
+  },
+  {
+    "label": "Diamond Watchman Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_01",
+    "cls": "2HCrossbow6PAL.8"
+  },
+  {
+    "label": "Celestial Watchman Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_01",
+    "cls": "2HCrossbow6PAL.9"
+  },
+  {
+    "label": "Uber Watchman Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_01",
+    "cls": "2HCrossbow6PAL.10"
+  },
+  {
+    "label": "Cardboard Jagged Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_02",
+    "cls": "2HCrossbow7PAL.1"
+  },
+  {
+    "label": "Wooden Jagged Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_02",
+    "cls": "2HCrossbow7PAL.2"
+  },
+  {
+    "label": "Stone Jagged Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_02",
+    "cls": "2HCrossbow7PAL.3"
+  },
+  {
+    "label": "Tin Jagged Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_02",
+    "cls": "2HCrossbow7PAL.4"
+  },
+  {
+    "label": "Iron Jagged Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_02",
+    "cls": "2HCrossbow7PAL.5"
+  },
+  {
+    "label": "Titanium Jagged Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_02",
+    "cls": "2HCrossbow7PAL.6"
+  },
+  {
+    "label": "Obsidian Jagged Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_02",
+    "cls": "2HCrossbow7PAL.7"
+  },
+  {
+    "label": "Diamond Jagged Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_02",
+    "cls": "2HCrossbow7PAL.8"
+  },
+  {
+    "label": "Celestial Jagged Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_02",
+    "cls": "2HCrossbow7PAL.9"
+  },
+  {
+    "label": "Uber Jagged Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_02",
+    "cls": "2HCrossbow7PAL.10"
+  },
+  {
+    "label": "Cardboard Repeating Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_03",
+    "cls": "2HCrossbow8PAL.1"
+  },
+  {
+    "label": "Wooden Repeating Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_03",
+    "cls": "2HCrossbow8PAL.2"
+  },
+  {
+    "label": "Stone Repeating Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_03",
+    "cls": "2HCrossbow8PAL.3"
+  },
+  {
+    "label": "Tin Repeating Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_03",
+    "cls": "2HCrossbow8PAL.4"
+  },
+  {
+    "label": "Iron Repeating Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_03",
+    "cls": "2HCrossbow8PAL.5"
+  },
+  {
+    "label": "Titanium Repeating Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_03",
+    "cls": "2HCrossbow8PAL.6"
+  },
+  {
+    "label": "Obsidian Repeating Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_03",
+    "cls": "2HCrossbow8PAL.7"
+  },
+  {
+    "label": "Diamond Repeating Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_03",
+    "cls": "2HCrossbow8PAL.8"
+  },
+  {
+    "label": "Celestial Repeating Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_03",
+    "cls": "2HCrossbow8PAL.9"
+  },
+  {
+    "label": "Uber Repeating Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_03",
+    "cls": "2HCrossbow8PAL.10"
+  },
+  {
+    "label": "Cardboard Fuel Injected Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_05",
+    "cls": "2HCrossbow9PAL.1"
+  },
+  {
+    "label": "Wooden Fuel Injected Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_05",
+    "cls": "2HCrossbow9PAL.2"
+  },
+  {
+    "label": "Stone Fuel Injected Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_05",
+    "cls": "2HCrossbow9PAL.3"
+  },
+  {
+    "label": "Tin Fuel Injected Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_05",
+    "cls": "2HCrossbow9PAL.4"
+  },
+  {
+    "label": "Iron Fuel Injected Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_05",
+    "cls": "2HCrossbow9PAL.5"
+  },
+  {
+    "label": "Titanium Fuel Injected Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_05",
+    "cls": "2HCrossbow9PAL.6"
+  },
+  {
+    "label": "Obsidian Fuel Injected Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_05",
+    "cls": "2HCrossbow9PAL.7"
+  },
+  {
+    "label": "Diamond Fuel Injected Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_05",
+    "cls": "2HCrossbow9PAL.8"
+  },
+  {
+    "label": "Celestial Fuel Injected Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_05",
+    "cls": "2HCrossbow9PAL.9"
+  },
+  {
+    "label": "Uber Fuel Injected Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_05",
+    "cls": "2HCrossbow9PAL.10"
+  },
+  {
     "label": "Plate Piercer",
     "icon": "Icon_Weapon_Xbow_2H_10",
     "cls": "2HCrossbowMythicPAL.2HCrossbowMythic1"
@@ -3753,6 +4253,211 @@
     "label": "Vis'Kar's Bilespitter",
     "icon": "Icon_Weapon_Xbow_2H_08_Poison",
     "cls": "2HCrossbowMythicPAL.2HCrossbowMythic4"
+  },
+  {
+    "label": "Sissirat's Sissy Spitter",
+    "icon": "Icon_Weapon_Xbow_2H_01",
+    "cls": "2HCrossbowMythicPAL.2HCrossbowMythic5"
+  },
+  {
+    "label": "Cardboard Shotgun",
+    "icon": "Weapon_Icon_Shotgun",
+    "cls": "2HGun1PAL.1"
+  },
+  {
+    "label": "Wooden Shotgun",
+    "icon": "Weapon_Icon_Shotgun",
+    "cls": "2HGun1PAL.2"
+  },
+  {
+    "label": "Stone Shotgun",
+    "icon": "Weapon_Icon_Shotgun",
+    "cls": "2HGun1PAL.3"
+  },
+  {
+    "label": "Tin Shotgun",
+    "icon": "Weapon_Icon_Shotgun",
+    "cls": "2HGun1PAL.4"
+  },
+  {
+    "label": "Iron Shotgun",
+    "icon": "Weapon_Icon_Shotgun",
+    "cls": "2HGun1PAL.5"
+  },
+  {
+    "label": "Titanium Shotgun",
+    "icon": "Weapon_Icon_Shotgun",
+    "cls": "2HGun1PAL.6"
+  },
+  {
+    "label": "Obsidian Shotgun",
+    "icon": "Weapon_Icon_Shotgun",
+    "cls": "2HGun1PAL.7"
+  },
+  {
+    "label": "Diamond Shotgun",
+    "icon": "Weapon_Icon_Shotgun",
+    "cls": "2HGun1PAL.8"
+  },
+  {
+    "label": "Celestial Shotgun",
+    "icon": "Weapon_Icon_Shotgun",
+    "cls": "2HGun1PAL.9"
+  },
+  {
+    "label": "Uber Shotgun",
+    "icon": "Weapon_Icon_Shotgun",
+    "cls": "2HGun1PAL.10"
+  },
+  {
+    "label": "Cardboard Sawed-Off Shotgun",
+    "icon": "Weapon_Icon_2h_Gun_01",
+    "cls": "2HGun2PAL.1"
+  },
+  {
+    "label": "Wooden Sawed-Off Shotgun",
+    "icon": "Weapon_Icon_2h_Gun_01",
+    "cls": "2HGun2PAL.2"
+  },
+  {
+    "label": "Stone Sawed-Off Shotgun",
+    "icon": "Weapon_Icon_2h_Gun_01",
+    "cls": "2HGun2PAL.3"
+  },
+  {
+    "label": "Tin Sawed-Off Shotgun",
+    "icon": "Weapon_Icon_2h_Gun_01",
+    "cls": "2HGun2PAL.4"
+  },
+  {
+    "label": "Iron Sawed-Off Shotgun",
+    "icon": "Weapon_Icon_2h_Gun_01",
+    "cls": "2HGun2PAL.5"
+  },
+  {
+    "label": "Titanium Sawed-Off Shotgun",
+    "icon": "Weapon_Icon_2h_Gun_01",
+    "cls": "2HGun2PAL.6"
+  },
+  {
+    "label": "Obsidian Sawed-Off Shotgun",
+    "icon": "Weapon_Icon_2h_Gun_01",
+    "cls": "2HGun2PAL.7"
+  },
+  {
+    "label": "Diamond Sawed-Off Shotgun",
+    "icon": "Weapon_Icon_2h_Gun_01",
+    "cls": "2HGun2PAL.8"
+  },
+  {
+    "label": "Celestial Sawed-Off Shotgun",
+    "icon": "Weapon_Icon_2h_Gun_01",
+    "cls": "2HGun2PAL.9"
+  },
+  {
+    "label": "Uber Sawed-Off Shotgun",
+    "icon": "Weapon_Icon_2h_Gun_01",
+    "cls": "2HGun2PAL.10"
+  },
+  {
+    "label": "Cardboard Pink Ryder Air Rifle",
+    "icon": "Weapon_Icon_2h_Gun_10",
+    "cls": "2HGun3PAL.1"
+  },
+  {
+    "label": "Wooden Pink Ryder Air Rifle",
+    "icon": "Weapon_Icon_2h_Gun_10",
+    "cls": "2HGun3PAL.2"
+  },
+  {
+    "label": "Stone Pink Ryder Air Rifle",
+    "icon": "Weapon_Icon_2h_Gun_10",
+    "cls": "2HGun3PAL.3"
+  },
+  {
+    "label": "Tin Pink Ryder Air Rifle",
+    "icon": "Weapon_Icon_2h_Gun_10",
+    "cls": "2HGun3PAL.4"
+  },
+  {
+    "label": "Iron Pink Ryder Air Rifle",
+    "icon": "Weapon_Icon_2h_Gun_10",
+    "cls": "2HGun3PAL.5"
+  },
+  {
+    "label": "Titanium Pink Ryder Air Rifle",
+    "icon": "Weapon_Icon_2h_Gun_10",
+    "cls": "2HGun3PAL.6"
+  },
+  {
+    "label": "Obsidian Pink Ryder Air Rifle",
+    "icon": "Weapon_Icon_2h_Gun_10",
+    "cls": "2HGun3PAL.7"
+  },
+  {
+    "label": "Diamond Pink Ryder Air Rifle",
+    "icon": "Weapon_Icon_2h_Gun_10",
+    "cls": "2HGun3PAL.8"
+  },
+  {
+    "label": "Celestial Pink Ryder Air Rifle",
+    "icon": "Weapon_Icon_2h_Gun_10",
+    "cls": "2HGun3PAL.9"
+  },
+  {
+    "label": "Uber Pink Ryder Air Rifle",
+    "icon": "Weapon_Icon_2h_Gun_10",
+    "cls": "2HGun3PAL.10"
+  },
+  {
+    "label": "Cardboard Sniper Rifle",
+    "icon": "Weapon_Icon_2h_Gun_16",
+    "cls": "2HGun4PAL.1"
+  },
+  {
+    "label": "Wooden Sniper Rifle",
+    "icon": "Weapon_Icon_2h_Gun_16",
+    "cls": "2HGun4PAL.2"
+  },
+  {
+    "label": "Stone Sniper Rifle",
+    "icon": "Weapon_Icon_2h_Gun_16",
+    "cls": "2HGun4PAL.3"
+  },
+  {
+    "label": "Tin Sniper Rifle",
+    "icon": "Weapon_Icon_2h_Gun_16",
+    "cls": "2HGun4PAL.4"
+  },
+  {
+    "label": "Iron Sniper Rifle",
+    "icon": "Weapon_Icon_2h_Gun_16",
+    "cls": "2HGun4PAL.5"
+  },
+  {
+    "label": "Titanium Sniper Rifle",
+    "icon": "Weapon_Icon_2h_Gun_16",
+    "cls": "2HGun4PAL.6"
+  },
+  {
+    "label": "Obsidian Sniper Rifle",
+    "icon": "Weapon_Icon_2h_Gun_16",
+    "cls": "2HGun4PAL.7"
+  },
+  {
+    "label": "Diamond Sniper Rifle",
+    "icon": "Weapon_Icon_2h_Gun_16",
+    "cls": "2HGun4PAL.8"
+  },
+  {
+    "label": "Celestial Sniper Rifle",
+    "icon": "Weapon_Icon_2h_Gun_16",
+    "cls": "2HGun4PAL.9"
+  },
+  {
+    "label": "Uber Sniper Rifle",
+    "icon": "Weapon_Icon_2h_Gun_16",
+    "cls": "2HGun4PAL.10"
   },
   {
     "label": "Bad Mutha",
@@ -5098,6 +5803,96 @@
     "label": "Vane",
     "icon": "icon_Weapon_2H_Pick_18",
     "cls": "2HPickMythicPAL.2HPickMythic104"
+  },
+  {
+    "label": "Scrap Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_04",
+    "cls": "2HRangedWeaponPAL.2HCrossbow1"
+  },
+  {
+    "label": "Hunting Crossbow",
+    "icon": "weapon_icon_orok_crossbow",
+    "cls": "2HRangedWeaponPAL.2HCrossbow2"
+  },
+  {
+    "label": "Militia Crossbow",
+    "icon": "Weapon_Icon_crossbow_light",
+    "cls": "2HRangedWeaponPAL.2HCrossbow3"
+  },
+  {
+    "label": "Gothic Crossbow",
+    "icon": "Weapon_Icon_crossbow_gothic",
+    "cls": "2HRangedWeaponPAL.2HCrossbow4"
+  },
+  {
+    "label": "Infantry Crossbow",
+    "icon": "Weapon_Icon_crossbow_infantry",
+    "cls": "2HRangedWeaponPAL.2HCrossbow5"
+  },
+  {
+    "label": "Watchman Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_01",
+    "cls": "2HRangedWeaponPAL.2HCrossbow6"
+  },
+  {
+    "label": "Jagged Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_02",
+    "cls": "2HRangedWeaponPAL.2HCrossbow7"
+  },
+  {
+    "label": "Repeating Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_03",
+    "cls": "2HRangedWeaponPAL.2HCrossbow8"
+  },
+  {
+    "label": "Fuel Injected Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_05",
+    "cls": "2HRangedWeaponPAL.2HCrossbow9"
+  },
+  {
+    "label": "Ornate Crossbow",
+    "icon": "Icon_Weapon_Xbow_2H_06",
+    "cls": "2HRangedWeaponPAL.2HCrossbow10"
+  },
+  {
+    "label": "Needle Chucker",
+    "icon": "Weapon_Icon_crossbow_runed",
+    "cls": "2HRangedWeaponPAL.2HCrossbowUnique1"
+  },
+  {
+    "label": "Thorn Tosser",
+    "icon": "Icon_Weapon_Xbow_2H_Xbow",
+    "cls": "2HRangedWeaponPAL.2HCrossbowUnique2"
+  },
+  {
+    "label": "Longshot",
+    "icon": "Icon_Weapon_Xbow_2H_07",
+    "cls": "2HRangedWeaponPAL.2HCrossbowUnique3"
+  },
+  {
+    "label": "Crystal Launcher",
+    "icon": "Icon_Weapon_Xbow_2H_08",
+    "cls": "2HRangedWeaponPAL.2HCrossbowUnique4"
+  },
+  {
+    "label": "Shotgun",
+    "icon": "Weapon_Icon_Shotgun",
+    "cls": "2HRangedWeaponPAL.2HGun1"
+  },
+  {
+    "label": "Over-Under Shotgun",
+    "icon": "Weapon_Icon_2h_Gun_01",
+    "cls": "2HRangedWeaponPAL.2HGun2"
+  },
+  {
+    "label": "Pink Ryder Air Rifle",
+    "icon": "Weapon_Icon_2h_Gun_10",
+    "cls": "2HRangedWeaponPAL.2HGun3"
+  },
+  {
+    "label": "Sniper Rifle",
+    "icon": "Weapon_Icon_2h_Gun_16",
+    "cls": "2HRangedWeaponPAL.2HGun4"
   },
   {
     "label": "BFG 9001",
@@ -10240,6 +11035,741 @@
     "cls": "PotionPAL.DragonJuice_Lg"
   },
   {
+    "label": "King's Coin",
+    "icon": "dungeon_token_standard_icon",
+    "cls": "QuestItemPAL.Token"
+  },
+  {
+    "label": "Ancient Relic",
+    "icon": "dungeon_token_standard_icon",
+    "cls": "QuestItemPAL.Relic1"
+  },
+  {
+    "label": "Glass of Puker Juice",
+    "icon": "QuestItem_Puker_Juice_Fire",
+    "cls": "QuestItemPAL.PukerJuice"
+  },
+  {
+    "label": "Mutant Specimen",
+    "icon": "QuestItem_BloodySack",
+    "cls": "QuestItemPAL.MutantSpecimen"
+  },
+  {
+    "label": "Snow Warg Pelt",
+    "icon": "QuestItem_SnowWargPelt",
+    "cls": "QuestItemPAL.SnowWargPelt"
+  },
+  {
+    "label": "Agrock's Tusk",
+    "icon": "QuestItem_BloodyTusk",
+    "cls": "QuestItemPAL.BloodyTusk"
+  },
+  {
+    "label": "Agrock's Tusk?",
+    "icon": "QuestItem_BloodyTusk",
+    "cls": "QuestItemPAL.BloodyTusk2"
+  },
+  {
+    "label": "AG-1(Warg Papers)",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.AGWargCard"
+  },
+  {
+    "label": "AG-2(Whiskerling Papers)",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.AGWhiskerCard"
+  },
+  {
+    "label": "AG-2A(Whiskerling Papers)",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.AGWhiskerCard1"
+  },
+  {
+    "label": "AG-2B(Whiskerling Papers)",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.AGWhiskerCard2"
+  },
+  {
+    "label": "AG-3(Orok Papers)",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.AGOrokCard"
+  },
+  {
+    "label": "AG-3A(Orok Papers)",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.AGOrokCard1"
+  },
+  {
+    "label": "AG-3B(Orok Papers)",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.AGOrokCard2"
+  },
+  {
+    "label": "AG-4(Fade Papers)",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.AGFadeCard"
+  },
+  {
+    "label": "AG-4A(Fade Papers)",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.AGFadeCard1"
+  },
+  {
+    "label": "AG-4B(Fade Papers)",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.AGFadeCard2"
+  },
+  {
+    "label": "AG-5(Shadow Spawn Papers)",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.AGShadowCard"
+  },
+  {
+    "label": "AG-6(Mutant Papers)",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.AGMutantCard"
+  },
+  {
+    "label": "AG-6A(Mutant Papers)",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.AGMutantCard1"
+  },
+  {
+    "label": "AG-6B(Mutant Papers)",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.AGMutantCard2"
+  },
+  {
+    "label": "VV-1A(Mutant Papers)",
+    "icon": "QuestItem_MutantScroll",
+    "cls": "QuestItemPAL.D03Q02_1a"
+  },
+  {
+    "label": "VV-1B(Mutant Papers)",
+    "icon": "QuestItem_MutantScroll",
+    "cls": "QuestItemPAL.D03Q02_1b"
+  },
+  {
+    "label": "VV-1(Mutant Papers)",
+    "icon": "QuestItem_MutantScroll",
+    "cls": "QuestItemPAL.D03Q02_1c"
+  },
+  {
+    "label": "VV-2A(Fade Papers)",
+    "icon": "QuestItem_MutantScroll",
+    "cls": "QuestItemPAL.D03Q02_2a"
+  },
+  {
+    "label": "VV-2B(Fade Papers)",
+    "icon": "QuestItem_MutantScroll",
+    "cls": "QuestItemPAL.D03Q02_2b"
+  },
+  {
+    "label": "VV-2(Fade Papers)",
+    "icon": "QuestItem_MutantScroll",
+    "cls": "QuestItemPAL.D03Q02_2c"
+  },
+  {
+    "label": "VV-3A(Whisker Papers)",
+    "icon": "QuestItem_MutantScroll",
+    "cls": "QuestItemPAL.D03Q02_3a"
+  },
+  {
+    "label": "VV-3B(Whisker Papers)",
+    "icon": "QuestItem_MutantScroll",
+    "cls": "QuestItemPAL.D03Q02_3b"
+  },
+  {
+    "label": "VV-3(Whisker Papers)",
+    "icon": "QuestItem_MutantScroll",
+    "cls": "QuestItemPAL.D03Q02_3c"
+  },
+  {
+    "label": "VV-4A(Orok Papers)",
+    "icon": "QuestItem_MutantScroll",
+    "cls": "QuestItemPAL.D03Q02_4a"
+  },
+  {
+    "label": "VV-4B(Orok Papers)",
+    "icon": "QuestItem_MutantScroll",
+    "cls": "QuestItemPAL.D03Q02_4b"
+  },
+  {
+    "label": "VV-4(Orok Papers)",
+    "icon": "QuestItem_MutantScroll",
+    "cls": "QuestItemPAL.D03Q02_4c"
+  },
+  {
+    "label": "Agrock's Fighter's License",
+    "icon": "QuestItem_AgrockID",
+    "cls": "QuestItemPAL.FighterID"
+  },
+  {
+    "label": "Agrock's Antisocial Security Card",
+    "icon": "QuestItem_AgrockID",
+    "cls": "QuestItemPAL.AntisocialCard"
+  },
+  {
+    "label": "Agrock's Stock Portfolio",
+    "icon": "QuestItem_AgrockID",
+    "cls": "QuestItemPAL.AgrocksStocks"
+  },
+  {
+    "label": "Orok Mission Statement",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.OrokMissionStatement"
+  },
+  {
+    "label": "Memo from Agrock",
+    "icon": "QuestItem_AgrockID",
+    "cls": "QuestItemPAL.AgrocksMemo"
+  },
+  {
+    "label": "Shredded Documents",
+    "icon": "QuestItem_OrokScroll",
+    "cls": "QuestItemPAL.ShreddedDocuments"
+  },
+  {
+    "label": "Genetically Engineered Mutant Remains",
+    "icon": "QuestItem_BloodySack",
+    "cls": "QuestItemPAL.GeneticRemains"
+  },
+  {
+    "label": "Adoption Certificates",
+    "icon": "QuestItem_MutantScroll",
+    "cls": "QuestItemPAL.AdoptionPapers"
+  },
+  {
+    "label": "OrokCorp File",
+    "icon": "QuestItem_AgrockID",
+    "cls": "QuestItemPAL.OrokFile"
+  },
+  {
+    "label": "Stealer's Ring",
+    "icon": "QuestItem_RingRed",
+    "cls": "QuestItemPAL.D02Q08_1"
+  },
+  {
+    "label": "Wi's Ring",
+    "icon": "QuestItem_RingYellow",
+    "cls": "QuestItemPAL.D02Q08_2"
+  },
+  {
+    "label": "Jordi's Ring",
+    "icon": "QuestItem_RingBrown",
+    "cls": "QuestItemPAL.D02Q08_3"
+  },
+  {
+    "label": "Na-Ti's Ring",
+    "icon": "QuestItem_RingBlack",
+    "cls": "QuestItemPAL.D02Q08_4"
+  },
+  {
+    "label": "Stinka's Ring",
+    "icon": "QuestItem_RingGrey",
+    "cls": "QuestItemPAL.D02Q08_5"
+  },
+  {
+    "label": "Squ Dang Clan LP",
+    "icon": "QuestItem_Record",
+    "cls": "QuestItemPAL.D02Q11_1"
+  },
+  {
+    "label": "Squ Dang Clan 8 Track",
+    "icon": "QuestItem_EightTrack",
+    "cls": "QuestItemPAL.D02Q11_2"
+  },
+  {
+    "label": "Orok ''Picket Sign''",
+    "icon": "QuestItem_OrokPicketSign",
+    "cls": "QuestItemPAL.D02Q12_A"
+  },
+  {
+    "label": "Reprinted Orok ''Picket Sign''",
+    "icon": "QuestItem_OrokPicketSign",
+    "cls": "QuestItemPAL.D02Q12_A_r"
+  },
+  {
+    "label": "Protest Permit",
+    "icon": "QuestItem_KWLeaflet",
+    "cls": "QuestItemPAL.D02Q12_1"
+  },
+  {
+    "label": "Reprinted Protest Permit",
+    "icon": "QuestItem_KWLeaflet",
+    "cls": "QuestItemPAL.D02Q12_1_r"
+  },
+  {
+    "label": "Kingdom Cooling Leaflet",
+    "icon": "QuestItem_KWLeaflet",
+    "cls": "QuestItemPAL.D02Q12_2"
+  },
+  {
+    "label": "Reprinted Kingdom Cooling Leaflet",
+    "icon": "QuestItem_KWLeaflet",
+    "cls": "QuestItemPAL.D02Q12_2_r"
+  },
+  {
+    "label": "Fizzythane Pellet",
+    "icon": "QuestItem_Fizzythane",
+    "cls": "QuestItemPAL.D02Q12_3"
+  },
+  {
+    "label": "Fizzythane Sample",
+    "icon": "QuestItem_Fizzythane",
+    "cls": "QuestItemPAL.D02Q12_4"
+  },
+  {
+    "label": "Thermometer",
+    "icon": "QuestItem_Thermometer",
+    "cls": "QuestItemPAL.D02Q09_1"
+  },
+  {
+    "label": "One Fish",
+    "icon": "Item_Icon_YellowFish",
+    "cls": "QuestItemPAL.D03Q03_1"
+  },
+  {
+    "label": "Two Fish",
+    "icon": "Item_Icon_TwoFish",
+    "cls": "QuestItemPAL.D03Q03_2"
+  },
+  {
+    "label": "Red Fish",
+    "icon": "Item_Icon_RedFish",
+    "cls": "QuestItemPAL.D03Q03_3"
+  },
+  {
+    "label": "Blue Fish",
+    "icon": "Item_Icon_BlueFish",
+    "cls": "QuestItemPAL.D03Q03_4"
+  },
+  {
+    "label": "Amulet of Bling",
+    "icon": "QuestItem_BlingAmulet",
+    "cls": "QuestItemPAL.D03Q05_1"
+  },
+  {
+    "label": "Ring of Bling",
+    "icon": "QuestItem_BlingRing",
+    "cls": "QuestItemPAL.D03Q05_2"
+  },
+  {
+    "label": "Vergrim's Fizzerator",
+    "icon": "QuestItem_FizzDrink1",
+    "cls": "QuestItemPAL.D03Q06_1"
+  },
+  {
+    "label": "Sissirat's Fizz-All",
+    "icon": "QuestItem_FizzDrink2",
+    "cls": "QuestItemPAL.D03Q06_2"
+  },
+  {
+    "label": "Fizz Drink Challenge",
+    "icon": "QuestItem_FizzDrinkChallenge",
+    "cls": "QuestItemPAL.D03Q06_3"
+  },
+  {
+    "label": "Vergrim's Fizzerator Recipe",
+    "icon": "QuestItem_FizzRecipe",
+    "cls": "QuestItemPAL.D03Q06_4"
+  },
+  {
+    "label": "Antique Singing Sword",
+    "icon": "QuestItem_SingingSword",
+    "cls": "QuestItemPAL.D03Q07_1"
+  },
+  {
+    "label": "F3 Schwag Bag",
+    "icon": "QuestItem_F3Bag",
+    "cls": "QuestItemPAL.D03Q08_1"
+  },
+  {
+    "label": "Sissirat Figurine (Painted)",
+    "icon": "QuestItem_SissiratFigurineP",
+    "cls": "QuestItemPAL.D01Q12_1b"
+  },
+  {
+    "label": "Sissirat Clan Broodling Figurine(Painted)",
+    "icon": "QuestItem_SBroodFigurineP",
+    "cls": "QuestItemPAL.D01Q12_2b"
+  },
+  {
+    "label": "Sissirat Clan Blademaster Figurine(Painted)",
+    "icon": "QuestItem_SBladeFigurineP",
+    "cls": "QuestItemPAL.D01Q12_3b"
+  },
+  {
+    "label": "Sissirat Clan Venomspitter Figurine(Painted)",
+    "icon": "QuestItem_SSpitterFigurineP",
+    "cls": "QuestItemPAL.D01Q12_4b"
+  },
+  {
+    "label": "Receipts",
+    "icon": "QuestItem_Receipts_Red",
+    "cls": "QuestItemPAL.D04Q02_1"
+  },
+  {
+    "label": "Expense Reports",
+    "icon": "QuestItem_Expense_Red",
+    "cls": "QuestItemPAL.D04Q02_2"
+  },
+  {
+    "label": "Performance Reviews",
+    "icon": "QuestItem_PerformanceReview_Red",
+    "cls": "QuestItemPAL.D04Q02_3"
+  },
+  {
+    "label": "Stack Rankings",
+    "icon": "QuestItem_StackRanking",
+    "cls": "QuestItemPAL.D04Q02_4"
+  },
+  {
+    "label": "Mutated 'Rice'",
+    "icon": "QuestItem_SackPoison",
+    "cls": "QuestItemPAL.D04Q04_1"
+  },
+  {
+    "label": "Orok 'Avocado'",
+    "icon": "QuestItem_OrokAvocado",
+    "cls": "QuestItemPAL.D04Q04_2"
+  },
+  {
+    "label": "Widow Maker's Spider Legs",
+    "icon": "QuestItem_WidowerLegs",
+    "cls": "QuestItemPAL.D04Q04_3"
+  },
+  {
+    "label": "Hatchling Eggs",
+    "icon": "QuestItem_HatchlingEggs",
+    "cls": "QuestItemPAL.D04Q07_1"
+  },
+  {
+    "label": "Whisker Points",
+    "icon": "QuestItem_WhiskerEar",
+    "cls": "QuestItemPAL.D04Q07_2"
+  },
+  {
+    "label": "Audrey's Care Package",
+    "icon": "QuestItem_CarePackage",
+    "cls": "QuestItemPAL.D04Q12_1"
+  },
+  {
+    "label": "Dungeon Power Magazine",
+    "icon": "QuestItem_DungeonPower",
+    "cls": "QuestItemPAL.D04Q12_2"
+  },
+  {
+    "label": "Loremaster Vraile's Care Package",
+    "icon": "QuestItem_CarePackage",
+    "cls": "QuestItemPAL.D04Q12_3"
+  },
+  {
+    "label": "Literature",
+    "icon": "QuestItem_StackRanking",
+    "cls": "QuestItemPAL.D05Q01_2"
+  },
+  {
+    "label": "Ballots",
+    "icon": "QuestItem_Receipts_Red",
+    "cls": "QuestItemPAL.D05Q01_3"
+  },
+  {
+    "label": "Venomspitter Juice",
+    "icon": "QuestItem_Spit_Vial",
+    "cls": "QuestItemPAL.D05Q03_1"
+  },
+  {
+    "label": "Whiskerling Blademaster Sword",
+    "icon": "QuestItem_blademaster_sword",
+    "cls": "QuestItemPAL.D05Q03_2"
+  },
+  {
+    "label": "Roh-Zee's Leather Gloves",
+    "icon": "QuestItem_LeatherGloves",
+    "cls": "QuestItemPAL.D05Q08_1"
+  },
+  {
+    "label": "Roh-Zee's Leather Boots",
+    "icon": "QuestItem_LeatherBoots",
+    "cls": "QuestItemPAL.D05Q08_2"
+  },
+  {
+    "label": "Roh-Zee's Leather Suit",
+    "icon": "QuestItem_LeatherBody",
+    "cls": "QuestItemPAL.D05Q08_3"
+  },
+  {
+    "label": "Chapter 11 of the Necronomicon",
+    "icon": "QuestItem_Necronomicon",
+    "cls": "QuestItemPAL.D05Q09_1"
+  },
+  {
+    "label": "Share of Frump's Misfortune",
+    "icon": "QuestItem_Frump_Share",
+    "cls": "QuestItemPAL.D05Q09_2"
+  },
+  {
+    "label": "Frump's Lucky Charm",
+    "icon": "QuestItem_Frumps_Lucky_Charm",
+    "cls": "QuestItemPAL.D05Q09_3"
+  },
+  {
+    "label": "Kr'yzz'tal Sh'yzz'ard",
+    "icon": "QuestItem_CrystalShardNecklace",
+    "cls": "QuestItemPAL.D05Q02_1"
+  },
+  {
+    "label": "Rotgut's WMD",
+    "icon": "QuestItem_PerformanceReview_Red",
+    "cls": "QuestItemPAL.D06Q02_1"
+  },
+  {
+    "label": "Polkadot Note (Easy)",
+    "icon": "QuestItem_Polkadot_note",
+    "cls": "QuestItemPAL.D06Q05_1a"
+  },
+  {
+    "label": "Polkadot Note (Medium)",
+    "icon": "QuestItem_Polkadot_note",
+    "cls": "QuestItemPAL.D06Q05_1b"
+  },
+  {
+    "label": "Polkadot Note(Hard)",
+    "icon": "QuestItem_Polkadot_note",
+    "cls": "QuestItemPAL.D06Q05_1c"
+  },
+  {
+    "label": "Polkadot Note(Expert)",
+    "icon": "QuestItem_Polkadot_note",
+    "cls": "QuestItemPAL.D06Q05_1d"
+  },
+  {
+    "label": "Plaid Note (Medium)",
+    "icon": "QuestItem_Plaid_note",
+    "cls": "QuestItemPAL.D06Q05_2b"
+  },
+  {
+    "label": "Plaid Note (Hard)",
+    "icon": "QuestItem_Plaid_note",
+    "cls": "QuestItemPAL.D06Q05_2c"
+  },
+  {
+    "label": "Plaid Note (Expert)",
+    "icon": "QuestItem_Plaid_note",
+    "cls": "QuestItemPAL.D06Q05_2d"
+  },
+  {
+    "label": "Paisley Note (Medium)",
+    "icon": "QuestItem_Paisley_note",
+    "cls": "QuestItemPAL.D06Q05_3b"
+  },
+  {
+    "label": "Paisley Note (Hard)",
+    "icon": "QuestItem_Paisley_note",
+    "cls": "QuestItemPAL.D06Q05_3c"
+  },
+  {
+    "label": "Paisley Note (Expert)",
+    "icon": "QuestItem_Paisley_note",
+    "cls": "QuestItemPAL.D06Q05_3d"
+  },
+  {
+    "label": "Leopard Note (Hard)",
+    "icon": "QuestItem_Leopard_note",
+    "cls": "QuestItemPAL.D06Q05_4c"
+  },
+  {
+    "label": "Leopard Note (Expert)",
+    "icon": "QuestItem_Leopard_note",
+    "cls": "QuestItemPAL.D06Q05_4d"
+  },
+  {
+    "label": "Yummy Yums Candy",
+    "icon": "QuestItem_Os",
+    "cls": "QuestItemPAL.D06Q10_1"
+  },
+  {
+    "label": "Ancient Relic",
+    "icon": "QuestItem_Embercore",
+    "cls": "QuestItemPAL.Relic_1"
+  },
+  {
+    "label": "Squ Dang Clan LP",
+    "icon": "QuestItem_Record",
+    "cls": "QuestItemPAL.D06Q03_1"
+  },
+  {
+    "label": "Voxophone",
+    "icon": "QuestItem_Microphone_Icon",
+    "cls": "QuestItemPAL.D06Q03_3a"
+  },
+  {
+    "label": "Ay'toe Ayte",
+    "icon": "QuestItem_Roland_Icon",
+    "cls": "QuestItemPAL.D06Q03_3b"
+  },
+  {
+    "label": "Mixer",
+    "icon": "QuestItem_Mixer_Icon",
+    "cls": "QuestItemPAL.D06Q03_3c"
+  },
+  {
+    "label": "The Gray Album",
+    "icon": "QuestItem_Record",
+    "cls": "QuestItemPAL.D06Q08_1a"
+  },
+  {
+    "label": "Runes LP",
+    "icon": "QuestItem_Record",
+    "cls": "QuestItemPAL.D06Q08_1b"
+  },
+  {
+    "label": "Stained Glass Bear LP",
+    "icon": "QuestItem_Record",
+    "cls": "QuestItemPAL.D06Q08_2a"
+  },
+  {
+    "label": "Yodel at The Moon LP",
+    "icon": "QuestItem_Record",
+    "cls": "QuestItemPAL.D06Q08_2b"
+  },
+  {
+    "label": "Golded Ear o' Corn",
+    "icon": "QuestItem_GoldCorn",
+    "cls": "QuestItemPAL.D15Q02_1"
+  },
+  {
+    "label": "Golded Pumpkin",
+    "icon": "QuestItem_GoldPumpkin",
+    "cls": "QuestItemPAL.D15Q02_2"
+  },
+  {
+    "label": "Frostbitten Schnozz",
+    "icon": "QuestItem_WhiskerNose",
+    "cls": "QuestItemPAL.D15Q08_a1_1"
+  },
+  {
+    "label": "Eye Berry",
+    "icon": "QuestItem_Icon_Eyeball",
+    "cls": "QuestItemPAL.D15Q08_a1_2"
+  },
+  {
+    "label": "Schnozzberry Drink",
+    "icon": "QuestItem_FizzDrink1",
+    "cls": "QuestItemPAL.D15Q08_a2"
+  },
+  {
+    "label": "Runt Currant",
+    "icon": "QuestItem_HatchlingEggs",
+    "cls": "QuestItemPAL.D15Q08_a3_1"
+  },
+  {
+    "label": "Divine Drum",
+    "icon": "QuestItem_Icon_Drum",
+    "cls": "QuestItemPAL.D15Q08_a3_2"
+  },
+  {
+    "label": "Kvasier Drink",
+    "icon": "QuestItem_FizzDrink2",
+    "cls": "QuestItemPAL.D15Q08_a4"
+  },
+  {
+    "label": "Fiery Talon",
+    "icon": "QuestItem_BloodyTusk",
+    "cls": "QuestItemPAL.D15Q08_a5_1"
+  },
+  {
+    "label": "Volcanic Berries",
+    "icon": "QuestItem_Embercore",
+    "cls": "QuestItemPAL.D15Q08_a5_2"
+  },
+  {
+    "label": "Sbitennik Drink",
+    "icon": "QuestItem_Puker_Juice_Fire",
+    "cls": "QuestItemPAL.D15Q08_a6"
+  },
+  {
+    "label": "Fire Eyes",
+    "icon": "QuestItem_Icon_Eyeball_Fire",
+    "cls": "QuestItemPAL.D15Q08_a7_1"
+  },
+  {
+    "label": "Shadow Spice",
+    "icon": "QuestItem_BloodySack",
+    "cls": "QuestItemPAL.D15Q08_a7_2"
+  },
+  {
+    "label": "Mors Drink",
+    "icon": "QuestItem_Puker_Juice_Fire",
+    "cls": "QuestItemPAL.D15Q08_a8"
+  },
+  {
+    "label": "TEMP",
+    "icon": "QuestItem_Puker_Juice_Fire",
+    "cls": "QuestItemPAL.D15Q03_1"
+  },
+  {
+    "label": "Temp Item 2",
+    "icon": "QuestItem_FizzingPotion",
+    "cls": "QuestItemPAL.D15Q03_2"
+  },
+  {
+    "label": "Temp Item 3",
+    "icon": "QuestItem_FizzingPotion",
+    "cls": "QuestItemPAL.D15Q03_3"
+  },
+  {
+    "label": "Rattle Tooth's Soul in a Baubel",
+    "icon": "QuestItem_Icon_Gem_White",
+    "cls": "QuestItemPAL.D15Q04_1"
+  },
+  {
+    "label": "Sissirats's Soul in a Baubel",
+    "icon": "QuestItem_Icon_Gem_Green",
+    "cls": "QuestItemPAL.D15Q04_2"
+  },
+  {
+    "label": "Vergrim's Soul in a Baubel",
+    "icon": "QuestItem_Icon_Gem_Red",
+    "cls": "QuestItemPAL.D15Q04_3"
+  },
+  {
+    "label": "Ice Whisker Nested Doll",
+    "icon": "QuestItem_Icon_Whisker_NestingDoll",
+    "cls": "QuestItemPAL.D15Q05_1"
+  },
+  {
+    "label": "Fire Mutant Nested Doll",
+    "icon": "QuestItem_Icon_Hulk_NestingDoll",
+    "cls": "QuestItemPAL.D15Q05_2"
+  },
+  {
+    "label": "WTFPWNDBBQ Sauce",
+    "icon": "QuestItem_FizzingPotion",
+    "cls": "QuestItemPAL.PVP_Q03_1"
+  },
+  {
+    "label": "Abaddon's Abysmal Knucklepop",
+    "icon": "QuestItem_Icon_Hand_Lollipop",
+    "cls": "QuestItemPAL.D08Q04_1"
+  },
+  {
+    "label": "Abaddon's Abysmal Limb-N-Crunch",
+    "icon": "QuestItem_Icon_Leg_HardCandy",
+    "cls": "QuestItemPAL.D08Q04_2"
+  },
+  {
+    "label": "Abaddon's Abysmal Candied Cranium",
+    "icon": "QuestItem_Icon_Head_CandyCorn",
+    "cls": "QuestItemPAL.D08Q04_3"
+  },
+  {
+    "label": "Monster's Scalp",
+    "icon": "QuestItem_SnowWargPelt",
+    "cls": "QuestItemPAL.SnowmanHead"
+  },
+  {
     "label": " Gold Ingot",
     "icon": "Gold_Ingot_Icon",
     "cls": "QuestItemPAL2.WW00_GB01"
@@ -13250,9 +14780,269 @@
     "cls": "DeprecatedParentArmorPAL.Shoulders008"
   },
   {
+    "label": "Hand Axe",
+    "icon": "Weapon_Icon_HandAxe",
+    "cls": "1HAxePAL.Normal001"
+  },
+  {
+    "label": "Khopesh",
+    "icon": "Weapon_Icon_General_Sickle",
+    "cls": "1HAxePAL.Normal002"
+  },
+  {
+    "label": "Kama",
+    "icon": "Weapon_Icon_Scythefiend",
+    "cls": "1HAxePAL.Normal003"
+  },
+  {
+    "label": "Cleaver",
+    "icon": "Weapon_Icon_Savage_Orok_Cleaver",
+    "cls": "1HAxePAL.Normal004"
+  },
+  {
+    "label": "Hatchet",
+    "icon": "weapon_icon_ceremonial_hachet",
+    "cls": "1HAxePAL.Normal005"
+  },
+  {
+    "label": "Battle Axe",
+    "icon": "Weapon_Icon_BattleAxe",
+    "cls": "1HAxePAL.Normal006"
+  },
+  {
+    "label": "Fanged Axe",
+    "icon": "Weapon_Icon_Fanged_Handaxe",
+    "cls": "1HAxePAL.Normal007"
+  },
+  {
+    "label": "Ceremonial Hatchet",
+    "icon": "weapon_icon_ceremonial_hachet_magic",
+    "cls": "1HAxePAL.Unique001"
+  },
+  {
+    "label": "Blood Axe",
+    "icon": "weapon_icon_bloodaxe",
+    "cls": "1HAxePAL.Unique002"
+  },
+  {
+    "label": "Ancient Cleaver",
+    "icon": "weapon_icon_savage_orok_cleaver_magical",
+    "cls": "1HAxePAL.Unique003"
+  },
+  {
+    "label": "Rune Axe",
+    "icon": "Weapon_Icon_Fanged_Handaxe_Magical",
+    "cls": "1HAxePAL.Unique004"
+  },
+  {
+    "label": "This Totally Kicks Axe!",
+    "icon": "weapon_icon_1H_axe_05_normal",
+    "cls": "1HAxePAL.GeneratedMythic001"
+  },
+  {
+    "label": "Kicking Axe in the Name of Gosh",
+    "icon": "weapon_icon_1H_axe_05_divine",
+    "cls": "1HAxePAL.GeneratedMythic001_Divine"
+  },
+  {
+    "label": "Smoking Hot Axe",
+    "icon": "weapon_icon_1H_axe_05_fire",
+    "cls": "1HAxePAL.GeneratedMythic001_Fire"
+  },
+  {
+    "label": "Freezing Axe Cold",
+    "icon": "weapon_icon_1H_axe_05_ice",
+    "cls": "1HAxePAL.GeneratedMythic001_Ice"
+  },
+  {
+    "label": "Stank Axe",
+    "icon": "weapon_icon_1H_axe_05_poison",
+    "cls": "1HAxePAL.GeneratedMythic001_Poison"
+  },
+  {
+    "label": "Evil Jack Axe",
+    "icon": "weapon_icon_1H_axe_05_shadow",
+    "cls": "1HAxePAL.GeneratedMythic001_Shadow"
+  },
+  {
+    "label": "Brazilian Power Crystal Axe",
+    "icon": "weapon_icon_1H_axe_08_normal",
+    "cls": "1HAxePAL.MythicPreBuilt001"
+  },
+  {
+    "label": "Chillaxe",
+    "icon": "weapon_icon_1H_axe_06_ice",
+    "cls": "1HAxePAL.MythicPreBuilt002"
+  },
+  {
+    "label": "Mannish Man Axe of Manliness",
+    "icon": "weapon_icon_1H_axe_09_normal",
+    "cls": "1HAxePAL.MythicPreBuilt003"
+  },
+  {
+    "label": "Burning Axe of Complete Fiery Devastation Over Your Foe Who Deserve What's Coming to Them for Doing Unspeakable and Heinous Acts Such As, But Not Limited to, Passing Gas in the Company of Others, Namely You",
+    "icon": "weapon_icon_1H_axe_10_fire",
+    "cls": "1HAxePAL.MythicPreBuilt004"
+  },
+  {
+    "label": "Word of Gosh",
+    "icon": "weapon_icon_1H_axe_08_divine",
+    "cls": "1HAxePAL.MythicPreBuilt005"
+  },
+  {
     "label": "Algor's Axe of Global Warming Protection",
     "icon": "inventory_icon_handaxe_ice",
     "cls": "1HAxePAL.MythicPreBuiltBoss001"
+  },
+  {
+    "label": "Small Club",
+    "icon": "Weapon_Icon_Splintered_Club",
+    "cls": "1HMacePAL.Normal001"
+  },
+  {
+    "label": "Spiked Club",
+    "icon": "Weapon_Icon_Spiked_Club",
+    "cls": "1HMacePAL.Normal002"
+  },
+  {
+    "label": "Sledge Hammer",
+    "icon": "weapon_icon_hammer_mallet",
+    "cls": "1HMacePAL.Normal003"
+  },
+  {
+    "label": "Hand Mace",
+    "icon": "Weapon_Icon_Mace",
+    "cls": "1HMacePAL.Normal004"
+  },
+  {
+    "label": "Ancient Club",
+    "icon": "Weapon_Runed_Club_weapon_icon",
+    "cls": "1HMacePAL.Normal005"
+  },
+  {
+    "label": "Runed Club",
+    "icon": "Weapon_Runed_Club_weapon_icon",
+    "cls": "1HMacePAL.Normal006"
+  },
+  {
+    "label": "Bone Club",
+    "icon": "Weapon_Icon_Grotesque_Bone_Club",
+    "cls": "1HMacePAL.Normal007"
+  },
+  {
+    "label": "Hammer",
+    "icon": "weapon_icon_hammer_ironwood",
+    "cls": "1HMacePAL.Normal008"
+  },
+  {
+    "label": "Construction Scrap Club",
+    "icon": "weapon_icon_1h_mace_06_normal",
+    "cls": "1HMacePAL.Normal009"
+  },
+  {
+    "label": "Scrap Club",
+    "icon": "weapon_icon_1h_mace_06_divine",
+    "cls": "1HMacePAL.Normal009_Divine"
+  },
+  {
+    "label": "Scalding Scrap Club",
+    "icon": "weapon_icon_1h_mace_06_fire",
+    "cls": "1HMacePAL.Normal009_Fire"
+  },
+  {
+    "label": "Frozen Scrap Club",
+    "icon": "weapon_icon_1h_mace_06_Ice",
+    "cls": "1HMacePAL.Normal009_Ice"
+  },
+  {
+    "label": "Infected Scrap Club",
+    "icon": "weapon_icon_1h_mace_06_Poison",
+    "cls": "1HMacePAL.Normal009_Poison"
+  },
+  {
+    "label": "Eerie Scrap Club",
+    "icon": "weapon_icon_1h_mace_06_Shadow",
+    "cls": "1HMacePAL.Normal009_Shadow"
+  },
+  {
+    "label": "Dimensional Hammer",
+    "icon": "Weapon_Icon_Tecnohammer",
+    "cls": "1HMacePAL.Unique001"
+  },
+  {
+    "label": "Soul Smasher",
+    "icon": "Weapon_Icon_Grotesque_Bone_Club_Magical",
+    "cls": "1HMacePAL.Unique002"
+  },
+  {
+    "label": "Gouger",
+    "icon": "weapon_icon_spiked_club_magical",
+    "cls": "1HMacePAL.Unique003"
+  },
+  {
+    "label": "Noggin Squisher",
+    "icon": "Weapon_Mace_Ram_Skull_icon",
+    "cls": "1HMacePAL.Unique004"
+  },
+  {
+    "label": "Head Pinner",
+    "icon": "weapon_icon_1h_mace_01_normal",
+    "cls": "1HMacePAL.Unique005"
+  },
+  {
+    "label": "Righteous Head Pinner",
+    "icon": "weapon_icon_1h_mace_01_divine",
+    "cls": "1HMacePAL.Unique005_Divine"
+  },
+  {
+    "label": "Righteous Head Pinner",
+    "icon": "weapon_icon_1h_mace_01_fire",
+    "cls": "1HMacePAL.Unique005_Fire"
+  },
+  {
+    "label": "Arctic Head Pinner",
+    "icon": "weapon_icon_1h_mace_01_ice",
+    "cls": "1HMacePAL.Unique005_Ice"
+  },
+  {
+    "label": "Rancid Head Pinner",
+    "icon": "weapon_icon_1h_mace_01_poison",
+    "cls": "1HMacePAL.Unique005_Poison"
+  },
+  {
+    "label": "Gloom Pinner",
+    "icon": "weapon_icon_1h_mace_01_shadow",
+    "cls": "1HMacePAL.Unique005_Shadow"
+  },
+  {
+    "label": "Mid-morning Star",
+    "icon": "weapon_icon_1h_mace_10_normal",
+    "cls": "1HMacePAL.Unique006"
+  },
+  {
+    "label": "Saintly Star",
+    "icon": "weapon_icon_1h_mace_10_divine",
+    "cls": "1HMacePAL.Unique006_Divine"
+  },
+  {
+    "label": "Burning Star",
+    "icon": "weapon_icon_1h_mace_10_fire",
+    "cls": "1HMacePAL.Unique006_Fire"
+  },
+  {
+    "label": "Frosty Star",
+    "icon": "weapon_icon_1h_mace_10_ice",
+    "cls": "1HMacePAL.Unique006_Ice"
+  },
+  {
+    "label": "Infested Star",
+    "icon": "weapon_icon_1h_mace_10_poison",
+    "cls": "1HMacePAL.Unique006_Poison"
+  },
+  {
+    "label": "Dark Star",
+    "icon": "weapon_icon_1h_mace_10_shadow",
+    "cls": "1HMacePAL.Unique006_Shadow"
   },
   {
     "label": "Tormentor",
@@ -13320,6 +15110,316 @@
     "cls": "1HMacePAL.MythicPreBuiltBoss003"
   },
   {
+    "label": "Scrap Pick",
+    "icon": "Icon_Weapon_Pick_1H_Scrapyard",
+    "cls": "1HPickPAL.Normal001"
+  },
+  {
+    "label": "Disjointing Pick",
+    "icon": "Icon_Weapon_Pick_1H_Disjointer",
+    "cls": "1HPickPAL.Normal002"
+  },
+  {
+    "label": "Climbing Mattock",
+    "icon": "Icon_Weapon_Pick_1H_Clawaxe",
+    "cls": "1HPickPAL.Normal003"
+  },
+  {
+    "label": "Fight Picker",
+    "icon": "Icon_Weapon_Pick_1H_Streetwise",
+    "cls": "1HPickPAL.Normal004"
+  },
+  {
+    "label": "Military Pick",
+    "icon": "Icon_Weapon_Pick_1H_Military",
+    "cls": "1HPickPAL.Normal005"
+  },
+  {
+    "label": "Solderer",
+    "icon": "Icon_Weapon_Pick_1H_Solderer",
+    "cls": "1HPickPAL.Normal006"
+  },
+  {
+    "label": "Dwarven Pick",
+    "icon": "Icon_Weapon_Pick_1H_Dwarven",
+    "cls": "1HPickPAL.Normal007"
+  },
+  {
+    "label": "People's Pick",
+    "icon": "Icon_Weapon_Pick_1H_Republican",
+    "cls": "1HPickPAL.Unique001"
+  },
+  {
+    "label": "Drillifier",
+    "icon": "Icon_Weapon_Pick_1H_Driller",
+    "cls": "1HPickPAL.Unique002"
+  },
+  {
+    "label": "Croneclaw",
+    "icon": "Icon_Weapon_Pick_1H_Croneclaw",
+    "cls": "1HPickPAL.Unique003"
+  },
+  {
+    "label": "Bad Donkey",
+    "icon": "Icon_Weapon_Pick_1H_DonkeyPick",
+    "cls": "1HPickPAL.Unique004"
+  },
+  {
+    "label": "Skulliosis",
+    "icon": "icon_Weapon_Pick_1H_Skulliosis",
+    "cls": "1HPickPAL.MythicPreBuilt001"
+  },
+  {
+    "label": "Moonglaze",
+    "icon": "Icon_Weapon_Pick_1H_Moonscythe_Ice",
+    "cls": "1HPickPAL.MythicPreBuilt002"
+  },
+  {
+    "label": "Skee'Tor",
+    "icon": "Icon_Weapon_Pick_1H_Skeeter_Fire",
+    "cls": "1HPickPAL.MythicPreBuilt003"
+  },
+  {
+    "label": "My Pretty Puncturer",
+    "icon": "Icon_Weapon_Pick_1H_MyPrettyPuncture_Divine",
+    "cls": "1HPickPAL.MythicPreBuilt004"
+  },
+  {
+    "label": "Twisted Cane",
+    "icon": "Weapon_Icon_TwistedCane",
+    "cls": "1HStaffPAL.Normal001"
+  },
+  {
+    "label": "Gnarled Wand",
+    "icon": "Weapon_Rock_Wand_weapon_icon",
+    "cls": "1HStaffPAL.Normal002"
+  },
+  {
+    "label": "Gnarled Holy-ish Wand",
+    "icon": "Weapon_Rock_Wand_divine_weapon_icon",
+    "cls": "1HStaffPAL.Normal002_Divine"
+  },
+  {
+    "label": "Gnarled Charred Wand",
+    "icon": "Weapon_Rock_Wand_fire_weapon_icon",
+    "cls": "1HStaffPAL.Normal002_Fire"
+  },
+  {
+    "label": "Gnarled Cold Wand",
+    "icon": "Weapon_Rock_Wand_ice_weapon_icon",
+    "cls": "1HStaffPAL.Normal002_Ice"
+  },
+  {
+    "label": "Gnarled Gross Wand",
+    "icon": "Weapon_Rock_Wand_poison_weapon_icon",
+    "cls": "1HStaffPAL.Normal002_Poison"
+  },
+  {
+    "label": "Gnarled Midnight Wand",
+    "icon": "Weapon_Rock_Wand_shadow_weapon_icon",
+    "cls": "1HStaffPAL.Normal002_Shadow"
+  },
+  {
+    "label": "Scepter",
+    "icon": "Weapon_Scepter_Purple_Ball_icon_divine",
+    "cls": "1HStaffPAL.Normal003"
+  },
+  {
+    "label": "Goshly Scepter",
+    "icon": "Weapon_Scepter_Purple_Ball_icon_Divine",
+    "cls": "1HStaffPAL.Normal003_Divine"
+  },
+  {
+    "label": "Burning Scepter",
+    "icon": "Weapon_Scepter_Purple_Ball_icon_Fire",
+    "cls": "1HStaffPAL.Normal003_Fire"
+  },
+  {
+    "label": "Burning Scepter",
+    "icon": "Weapon_Scepter_Purple_Ball_icon_Ice",
+    "cls": "1HStaffPAL.Normal003_Ice"
+  },
+  {
+    "label": "Toxic Scepter",
+    "icon": "Weapon_Scepter_Purple_Ball_icon_Poison",
+    "cls": "1HStaffPAL.Normal003_Poison"
+  },
+  {
+    "label": "Dark Scepter",
+    "icon": "Weapon_Scepter_Purple_Ball_icon_Shadow",
+    "cls": "1HStaffPAL.Normal003_Shadow"
+  },
+  {
+    "label": "Battle Scepter",
+    "icon": "weapon_scepter_spiked_icon",
+    "cls": "1HStaffPAL.Normal004"
+  },
+  {
+    "label": "Intricate Wand",
+    "icon": "weapon_wand_blue_pearls_icon",
+    "cls": "1HStaffPAL.Normal005"
+  },
+  {
+    "label": "Knotty Rod",
+    "icon": "weapon_mace_claw_icon",
+    "cls": "1HStaffPAL.Normal006"
+  },
+  {
+    "label": "Majestic Scepter",
+    "icon": "Weapon_Icon_Scepter",
+    "cls": "1HStaffPAL.Normal007"
+  },
+  {
+    "label": "Nether Scepter",
+    "icon": "Weapon_Icon_Scepter_Nether",
+    "cls": "1HStaffPAL.Unique001"
+  },
+  {
+    "label": "Pixie Duster",
+    "icon": "Weapon_Wand_Feather_Duster_weapon_icon",
+    "cls": "1HStaffPAL.Unique002"
+  },
+  {
+    "label": "Angelic Duster",
+    "icon": "Weapon_Wand_Feather_Duster_divine_weapon_icon",
+    "cls": "1HStaffPAL.Unique002_Divine"
+  },
+  {
+    "label": "Ember Duster",
+    "icon": "Weapon_Wand_Feather_Duster_fire_weapon_icon",
+    "cls": "1HStaffPAL.Unique002_Fire"
+  },
+  {
+    "label": "Snowflake Duster",
+    "icon": "Weapon_Wand_Feather_Duster_ice_weapon_icon",
+    "cls": "1HStaffPAL.Unique002_Ice"
+  },
+  {
+    "label": "Slime Duster",
+    "icon": "Weapon_Wand_Feather_Duster_poison_weapon_icon",
+    "cls": "1HStaffPAL.Unique002_Poison"
+  },
+  {
+    "label": "Gloom Duster",
+    "icon": "Weapon_Wand_Feather_Duster_shadow_weapon_icon",
+    "cls": "1HStaffPAL.Unique002_Shadow"
+  },
+  {
+    "label": "Mermaid Wand",
+    "icon": "weapon_wand_mermaid_icon",
+    "cls": "1HStaffPAL.Unique003"
+  },
+  {
+    "label": "Skeleton Wand",
+    "icon": "weapon_wand_skeleton_icon",
+    "cls": "1HStaffPAL.Unique004"
+  },
+  {
+    "label": "Power Wand",
+    "icon": "weapon_icon_1h_mace_08_normal",
+    "cls": "1HStaffPAL.Unique005"
+  },
+  {
+    "label": "Divination Wand",
+    "icon": "weapon_icon_1h_mace_08_divine",
+    "cls": "1HStaffPAL.Unique005_Divine"
+  },
+  {
+    "label": "Magma Wand",
+    "icon": "weapon_icon_1h_mace_08_fire",
+    "cls": "1HStaffPAL.Unique005_Fire"
+  },
+  {
+    "label": "Arctic Wand",
+    "icon": "weapon_icon_1h_mace_08_ice",
+    "cls": "1HStaffPAL.Unique005_Ice"
+  },
+  {
+    "label": "Sludge Wand",
+    "icon": "weapon_icon_1h_mace_08_poison",
+    "cls": "1HStaffPAL.Unique005_Poison"
+  },
+  {
+    "label": "Eerie Wand",
+    "icon": "weapon_icon_1h_mace_08_shadow",
+    "cls": "1HStaffPAL.Unique005_Shadow"
+  },
+  {
+    "label": "Perfect Pitched Tuning Rod",
+    "icon": "weapon_icon_1h_mace_03_normal",
+    "cls": "1HStaffPAL.Unique006"
+  },
+  {
+    "label": "Goshly Pitched Tuning Rod",
+    "icon": "weapon_icon_1h_mace_03_divine",
+    "cls": "1HStaffPAL.Unique006_Divine"
+  },
+  {
+    "label": "Searing Pitched Tuning Rod",
+    "icon": "weapon_icon_1h_mace_03_Fire",
+    "cls": "1HStaffPAL.Unique006_Fire"
+  },
+  {
+    "label": "Chilling Pitched Tuning Rod",
+    "icon": "weapon_icon_1h_mace_03_Ice",
+    "cls": "1HStaffPAL.Unique006_Ice"
+  },
+  {
+    "label": "Sickening Pitched Tuning Rod",
+    "icon": "weapon_icon_1h_mace_03_Poison",
+    "cls": "1HStaffPAL.Unique006_Poison"
+  },
+  {
+    "label": "Haunting Pitched Tuning Rod",
+    "icon": "weapon_icon_1h_mace_03_Shadow",
+    "cls": "1HStaffPAL.Unique006_Shadow"
+  },
+  {
+    "label": "Ergonomic Dark Orb with Uncanny Mystical Demeanor",
+    "icon": "Weapon_Scepter_Purple_Ball_icon",
+    "cls": "1HStaffPAL.MythicPartialBuilt001"
+  },
+  {
+    "label": "The Un-Official 'Don't Taze Me Bro' Rod of Divine Justice",
+    "icon": "weapon_icon_1h_mace_08_divine",
+    "cls": "1HStaffPAL.MythicPartialBuilt002"
+  },
+  {
+    "label": "The Freezing Whisk of Cold Subservience",
+    "icon": "weapon_icon_1h_mace_07_ice",
+    "cls": "1HStaffPAL.MythicPartialBuilt003"
+  },
+  {
+    "label": "The Pronged Poker of Politically Correct Pyrotechnics",
+    "icon": "weapon_icon_1h_mace_03_fire",
+    "cls": "1HStaffPAL.MythicPartialBuilt004"
+  },
+  {
+    "label": "Default Mage Wand of Generic Power",
+    "icon": "Weapon_Icon_BattleStave",
+    "cls": "1HStaffPAL.MythicPartialBuilt005"
+  },
+  {
+    "label": "Tytewad's Wand of No Sunshine and Gloom",
+    "icon": "weapon_wand_skeleton_Shadow_icon",
+    "cls": "1HStaffPAL.MythicPreBuilt001"
+  },
+  {
+    "label": "Nuke-tastic Plastic Duster of Yore",
+    "icon": "Weapon_Wand_Feather_Duster_fire_weapon_icon",
+    "cls": "1HStaffPAL.MythicPreBuilt002"
+  },
+  {
+    "label": "Proverbial Chill Pill in Household Cleaning Apparatus Form",
+    "icon": "Weapon_Wand_Feather_Duster_ice_weapon_icon",
+    "cls": "1HStaffPAL.MythicPreBuilt003"
+  },
+  {
+    "label": "Brain on a Stick",
+    "icon": "Weapon_Icon_Scepter_Nether",
+    "cls": "1HStaffPAL.MythicPreBuilt004"
+  },
+  {
     "label": "Sissirat's Super Sissy Stick of Stench",
     "icon": "Weapon_Rock_Wand_poison_weapon_icon",
     "cls": "1HStaffPAL.MythicPreBuiltBoss001"
@@ -13328,6 +15428,371 @@
     "label": "Abaddon's Handy Candy Cane",
     "icon": "Weapon_Icon_TwistedCane_CandyCane",
     "cls": "1HStaffPAL.MythicPreBuiltBoss002"
+  },
+  {
+    "label": "Dagger",
+    "icon": "Weapon_Icon_SpikedDagger",
+    "cls": "1HSwordPAL.Normal001"
+  },
+  {
+    "label": "Gladius",
+    "icon": "Weapon_Icon_Gladius",
+    "cls": "1HSwordPAL.Normal002"
+  },
+  {
+    "label": "Scimitar",
+    "icon": "Weapon_Icon_Scimitar",
+    "cls": "1HSwordPAL.Normal003"
+  },
+  {
+    "label": "Short Sword",
+    "icon": "Weapon_Icon_ShortSword",
+    "cls": "1HSwordPAL.Normal004"
+  },
+  {
+    "label": "Cutlass",
+    "icon": "Weapon_Icon_Cutlass",
+    "cls": "1HSwordPAL.Normal005"
+  },
+  {
+    "label": "Shamshir",
+    "icon": "Weapon_Icon_Junkersword",
+    "cls": "1HSwordPAL.Normal006"
+  },
+  {
+    "label": "Katana",
+    "icon": "Weapon_Icon_Katana",
+    "cls": "1HSwordPAL.Normal007"
+  },
+  {
+    "label": "Barbed Sword",
+    "icon": "Weapon_Icon_Barbed Sword",
+    "cls": "1HSwordPAL.Normal008"
+  },
+  {
+    "label": "Steak Knife",
+    "icon": "weapon_icon_1H_sword_01_normal",
+    "cls": "1HSwordPAL.Normal009"
+  },
+  {
+    "label": "Heavenly Steak Knife",
+    "icon": "weapon_icon_1H_sword_01_divine",
+    "cls": "1HSwordPAL.Normal009_Divine"
+  },
+  {
+    "label": "Searing Steak Knife",
+    "icon": "weapon_icon_1H_sword_01_fire",
+    "cls": "1HSwordPAL.Normal009_Fire"
+  },
+  {
+    "label": "Frozen Steak Knife",
+    "icon": "weapon_icon_1H_sword_01_Ice",
+    "cls": "1HSwordPAL.Normal009_Ice"
+  },
+  {
+    "label": "Rancid Steak Knife",
+    "icon": "weapon_icon_1H_sword_01_Poison",
+    "cls": "1HSwordPAL.Normal009_Poison"
+  },
+  {
+    "label": "Creepy Steak Knife",
+    "icon": "weapon_icon_1H_sword_01_Shadow",
+    "cls": "1HSwordPAL.Normal009_Shadow"
+  },
+  {
+    "label": "Bottle Opener",
+    "icon": "weapon_icon_1H_sword_03_normal",
+    "cls": "1HSwordPAL.Normal011"
+  },
+  {
+    "label": "Divine Bottle Opener",
+    "icon": "weapon_icon_1H_sword_03_divine",
+    "cls": "1HSwordPAL.Normal011_Divine"
+  },
+  {
+    "label": "Simmering Bottle Opener",
+    "icon": "weapon_icon_1H_sword_03_Fire",
+    "cls": "1HSwordPAL.Normal011_Fire"
+  },
+  {
+    "label": "Frosty Bottle Opener",
+    "icon": "weapon_icon_1H_sword_03_Ice",
+    "cls": "1HSwordPAL.Normal011_Ice"
+  },
+  {
+    "label": "Spoiled Bottle Opener",
+    "icon": "weapon_icon_1H_sword_03_Poison",
+    "cls": "1HSwordPAL.Normal011_Poison"
+  },
+  {
+    "label": "Spooky Bottle Opener",
+    "icon": "weapon_icon_1H_sword_03_Shadow",
+    "cls": "1HSwordPAL.Normal011_Shadow"
+  },
+  {
+    "label": "Party Knife",
+    "icon": "weapon_icon_1H_sword_06_normal",
+    "cls": "1HSwordPAL.Normal012"
+  },
+  {
+    "label": "Church Party Knife",
+    "icon": "weapon_icon_1H_sword_06_divine",
+    "cls": "1HSwordPAL.Normal012_Divine"
+  },
+  {
+    "label": "Hot Party Knife",
+    "icon": "weapon_icon_1H_sword_06_Fire",
+    "cls": "1HSwordPAL.Normal012_Fire"
+  },
+  {
+    "label": "Cool Party Knife",
+    "icon": "weapon_icon_1H_sword_06_Ice",
+    "cls": "1HSwordPAL.Normal012_Ice"
+  },
+  {
+    "label": "Stinky Party Knife",
+    "icon": "weapon_icon_1H_sword_06_Poison",
+    "cls": "1HSwordPAL.Normal012_Poison"
+  },
+  {
+    "label": "Scary Party Knife",
+    "icon": "weapon_icon_1H_sword_06_Shadow",
+    "cls": "1HSwordPAL.Normal012_Shadow"
+  },
+  {
+    "label": "Back Scratcher",
+    "icon": "weapon_icon_1H_sword_07_normal",
+    "cls": "1HSwordPAL.Normal013"
+  },
+  {
+    "label": "Gosh Scratcher",
+    "icon": "weapon_icon_1H_sword_07_divine",
+    "cls": "1HSwordPAL.Normal013_Divine"
+  },
+  {
+    "label": "Sizzlin' Scratcher",
+    "icon": "weapon_icon_1H_sword_07_Fire",
+    "cls": "1HSwordPAL.Normal013_Fire"
+  },
+  {
+    "label": "Chilly Scratcher",
+    "icon": "weapon_icon_1H_sword_07_Ice",
+    "cls": "1HSwordPAL.Normal013_Ice"
+  },
+  {
+    "label": "Rotten Scratcher",
+    "icon": "weapon_icon_1H_sword_07_Poison",
+    "cls": "1HSwordPAL.Normal013_Poison"
+  },
+  {
+    "label": "Gloomy Scratcher",
+    "icon": "weapon_icon_1H_sword_07_Shadow",
+    "cls": "1HSwordPAL.Normal013_Shadow"
+  },
+  {
+    "label": "Cracked Shard",
+    "icon": "weapon_icon_1H_sword_08_normal",
+    "cls": "1HSwordPAL.Normal014"
+  },
+  {
+    "label": "Spiritual Shard",
+    "icon": "weapon_icon_1H_sword_08_divine",
+    "cls": "1HSwordPAL.Normal014_Divine"
+  },
+  {
+    "label": "Searing Shard",
+    "icon": "weapon_icon_1H_sword_08_Fire",
+    "cls": "1HSwordPAL.Normal014_Fire"
+  },
+  {
+    "label": "Shivering Shard",
+    "icon": "weapon_icon_1H_sword_08_Ice",
+    "cls": "1HSwordPAL.Normal014_Ice"
+  },
+  {
+    "label": "Sickly Shard",
+    "icon": "weapon_icon_1H_sword_08_Poison",
+    "cls": "1HSwordPAL.Normal014_Poison"
+  },
+  {
+    "label": "Sinful Shard",
+    "icon": "weapon_icon_1H_sword_08_Shadow",
+    "cls": "1HSwordPAL.Normal014_Shadow"
+  },
+  {
+    "label": "Soul Sword",
+    "icon": "Weapon_Icon_Soulsword",
+    "cls": "1HSwordPAL.Unique001"
+  },
+  {
+    "label": "Chain Sword",
+    "icon": "Weapon_Icon_Chainsword",
+    "cls": "1HSwordPAL.Unique002"
+  },
+  {
+    "label": "Ancient Sword",
+    "icon": "Weapon_Icon_Blademaster_Sword",
+    "cls": "1HSwordPAL.Unique003"
+  },
+  {
+    "label": "Wicked Dagger",
+    "icon": "Weapon_Icon_SpikedDagger",
+    "cls": "1HSwordPAL.Unique004"
+  },
+  {
+    "label": "Blade Claw",
+    "icon": "weapon_icon_1H_sword_04_normal",
+    "cls": "1HSwordPAL.Unique005"
+  },
+  {
+    "label": "Gosh Claw",
+    "icon": "weapon_icon_1H_sword_04_divine",
+    "cls": "1HSwordPAL.Unique005_Divine"
+  },
+  {
+    "label": "Burning Claw",
+    "icon": "weapon_icon_1H_sword_04_Fire",
+    "cls": "1HSwordPAL.Unique005_Fire"
+  },
+  {
+    "label": "Frosty Claw",
+    "icon": "weapon_icon_1H_sword_04_Ice",
+    "cls": "1HSwordPAL.Unique005_Ice"
+  },
+  {
+    "label": "Fetid Claw",
+    "icon": "weapon_icon_1H_sword_04_Poison",
+    "cls": "1HSwordPAL.Unique005_Poison"
+  },
+  {
+    "label": "Dark Claw",
+    "icon": "weapon_icon_1H_sword_04_Shadow",
+    "cls": "1HSwordPAL.Unique005_Shadow"
+  },
+  {
+    "label": "Inscribed Edge",
+    "icon": "weapon_icon_1H_sword_10_normal",
+    "cls": "1HSwordPAL.Unique006"
+  },
+  {
+    "label": "Righteous Edge",
+    "icon": "weapon_icon_1H_sword_10_divine",
+    "cls": "1HSwordPAL.Unique006_Divine"
+  },
+  {
+    "label": "Searing Edge",
+    "icon": "weapon_icon_1H_sword_10_Fire",
+    "cls": "1HSwordPAL.Unique006_Fire"
+  },
+  {
+    "label": "Chilling Edge",
+    "icon": "weapon_icon_1H_sword_10_Ice",
+    "cls": "1HSwordPAL.Unique006_Ice"
+  },
+  {
+    "label": "Rancid Edge",
+    "icon": "weapon_icon_1H_sword_10_Poison",
+    "cls": "1HSwordPAL.Unique006_Poison"
+  },
+  {
+    "label": "Evil Edge",
+    "icon": "weapon_icon_1H_sword_10_Shadow",
+    "cls": "1HSwordPAL.Unique006_Shadow"
+  },
+  {
+    "label": "Power Core Blade",
+    "icon": "weapon_icon_1H_sword_02_normal",
+    "cls": "1HSwordPAL.Unique007"
+  },
+  {
+    "label": "Saintly Core Blade",
+    "icon": "weapon_icon_1H_sword_02_divine",
+    "cls": "1HSwordPAL.Unique007_Divine"
+  },
+  {
+    "label": "Melting Core Blade",
+    "icon": "weapon_icon_1H_sword_02_Fire",
+    "cls": "1HSwordPAL.Unique007_Fire"
+  },
+  {
+    "label": "Frozen Core Blade",
+    "icon": "weapon_icon_1H_sword_02_Ice",
+    "cls": "1HSwordPAL.Unique007_Ice"
+  },
+  {
+    "label": "Rotten Too The Core Blade",
+    "icon": "weapon_icon_1H_sword_02_Poison",
+    "cls": "1HSwordPAL.Unique007_Poison"
+  },
+  {
+    "label": "Sinister Core Blade",
+    "icon": "weapon_icon_1H_sword_02_Shadow",
+    "cls": "1HSwordPAL.Unique007_Shadow"
+  },
+  {
+    "label": "Baby Dragon Wingblade",
+    "icon": "weapon_icon_1h_sword_11_normal",
+    "cls": "1HSwordPAL.GeneratedMythic001"
+  },
+  {
+    "label": "Baby Gold Dragon Wingblade",
+    "icon": "weapon_icon_1H_sword_11_divine",
+    "cls": "1HSwordPAL.GeneratedMythic001_Divine"
+  },
+  {
+    "label": "Baby Red Dragon Wingblade",
+    "icon": "weapon_icon_1H_sword_11_fire",
+    "cls": "1HSwordPAL.GeneratedMythic001_Fire"
+  },
+  {
+    "label": "Baby Blue Dragon Wingblade",
+    "icon": "weapon_icon_1H_sword_11_ice",
+    "cls": "1HSwordPAL.GeneratedMythic001_Ice"
+  },
+  {
+    "label": "Baby Green Dragon Wingblade",
+    "icon": "weapon_icon_1H_sword_11_poison",
+    "cls": "1HSwordPAL.GeneratedMythic001_Poison"
+  },
+  {
+    "label": "Baby Purple Dragon Wingblade",
+    "icon": "weapon_icon_1H_sword_11_shadow",
+    "cls": "1HSwordPAL.GeneratedMythic001_Shadow"
+  },
+  {
+    "label": "Wrath",
+    "icon": "Weapon_Icon_Soulsword",
+    "cls": "1HSwordPAL.MythicPreBuilt001"
+  },
+  {
+    "label": "Slayer",
+    "icon": "Weapon_Icon_Chainsword",
+    "cls": "1HSwordPAL.MythicPreBuilt002"
+  },
+  {
+    "label": "Executioner",
+    "icon": "Weapon_Icon_Blademaster_Sword",
+    "cls": "1HSwordPAL.MythicPreBuilt003"
+  },
+  {
+    "label": "Edge of Su Naj",
+    "icon": "Weapon_Icon_SpikedDagger",
+    "cls": "1HSwordPAL.MythicPreBuilt004"
+  },
+  {
+    "label": "Large Dull Edge (Needs Sharpening)",
+    "icon": "weapon_icon_1h_sword_09_poison",
+    "cls": "1HSwordPAL.MythicPreBuilt005"
+  },
+  {
+    "label": "Not the Sword of Gosh",
+    "icon": "weapon_icon_1H_sword_05_divine",
+    "cls": "1HSwordPAL.MythicPreBuilt006"
+  },
+  {
+    "label": "Shogun",
+    "icon": "Weapon_Icon_Katana_inverted",
+    "cls": "1HSwordPAL.MythicPreBuilt007"
   },
   {
     "label": "Ratsputin's Icy Sword of Whisker Power",
@@ -13465,19 +15930,39 @@
     "cls": "FighterShouldersPAL.PartialBuiltMythicSeasonal001"
   },
   {
+    "label": "Helper Noobosaur's Unlimited Edition Noob Item Pack",
+    "icon": "Voucher_Item_Pack_Noob_Icon",
+    "cls": "ItemPackPAL.StaticPack0001"
+  },
+  {
+    "label": "Karl's 1st Limited Edition Item Pack",
+    "icon": "Voucher_Item_Pack_01_Icon",
+    "cls": "ItemPackPAL.Seasonal_01_A"
+  },
+  {
+    "label": "Mega-Health Potion Pack: 100 Servings",
+    "icon": "Voucher_Health_Pack_Icon",
+    "cls": "ItemPackPAL.Pack0001"
+  },
+  {
     "label": "Mega-Mana Potion Pack: 100 Servings",
     "icon": "Voucher_Mana_Pack_Icon",
-    "cls": "Pack0002"
+    "cls": "ItemPackPAL.Pack0002"
+  },
+  {
+    "label": "King's Coins x 10",
+    "icon": "Voucher_King's_Coins_Icon",
+    "cls": "ItemPackPAL.KingsCoinPack0001"
   },
   {
     "label": "King's Coins x 20",
     "icon": "Voucher_King's_Coins_Icon",
-    "cls": "KingsCoinPack0002"
+    "cls": "ItemPackPAL.KingsCoinPack0002"
   },
   {
     "label": "King's Coins x 40",
     "icon": "Voucher_King's_Coins_Icon",
-    "cls": "KingsCoinPack0003"
+    "cls": "ItemPackPAL.KingsCoinPack0003"
   },
   {
     "label": "Vergrim's Very Spiffy Robe of Divine Power",
@@ -13865,6 +16350,11 @@
     "cls": "MageGlovesPAL.GeneratedMythic004"
   },
   {
+    "label": "Chilly Nelson's Hobo Hat",
+    "icon": "Snowman_Hat_icon",
+    "cls": "MageHelmPAL.PartialBuiltSeasonal001"
+  },
+  {
     "label": "Ratsputen's Crown of Icy Goodness",
     "icon": "Cloth_4_Helm_Ice_icon",
     "cls": "MageHelmPAL.PrebuiltBoss001"
@@ -14243,5 +16733,50 @@
     "label": "Rabid Warg Splint Shoulders",
     "icon": "Splint_07_Shoulder_Poison_icon",
     "cls": "RangerShouldersPAL.PartialBuiltUnique001"
+  },
+  {
+    "label": "I.O.U. Certificate - 500,000 Gold",
+    "icon": "Voucher_Gold_Icon",
+    "cls": "VoucherPAL.Gold0001"
+  },
+  {
+    "label": "I.O.U. Certificate - 1,000,000 Gold",
+    "icon": "Voucher_Gold_Icon",
+    "cls": "VoucherPAL.Gold0002"
+  },
+  {
+    "label": "I.O.U. Certificate - 2,000,000 Gold",
+    "icon": "Voucher_Gold_Icon",
+    "cls": "VoucherPAL.Gold0003"
+  },
+  {
+    "label": "30 Day Membership Voucher",
+    "icon": "Voucher_Membership_Icon",
+    "cls": "VoucherPAL.Membership0001"
+  },
+  {
+    "label": "Unlock 'Requires Membership' on One Item for 10 days",
+    "icon": "Voucher_Remove_Membership_Icon",
+    "cls": "VoucherPAL.RemoveItemMembership0001"
+  },
+  {
+    "label": "Just Like 'New' Item Level Increase Sticker",
+    "icon": "Voucher_Level_Item_Icon",
+    "cls": "VoucherPAL.ChangeItemLevel0001"
+  },
+  {
+    "label": "Mr. Klean Soulbind Reset",
+    "icon": "Voucher_Item_Pack_01",
+    "cls": "VoucherPAL.ResetSouldbind0001"
+  },
+  {
+    "label": "5 Day Bling Gnome Rental",
+    "icon": "Voucher_BlingGnome_01_Icon",
+    "cls": "VoucherPAL.BlingGnome0001"
+  },
+  {
+    "label": "+100% Karl Points (XP) Buff for 4 Hours",
+    "icon": "Voucher_Buff_01_Icon",
+    "cls": "VoucherPAL.Buff0001"
   }
 ]
