@@ -1,0 +1,13 @@
+{
+  "title": "Quest Reward",
+  "wikiTitle": "Quest_Reward",
+  "path": "/wiki/Quest_Reward",
+  "description": "Quest Reward — The Townstons wiki",
+  "categories": [
+    "Glossary"
+  ],
+  "images": [
+    "/images/recovered/Quest_reward.png"
+  ],
+  "html": "<p><b>Quest Reward</b> is the buff icon the client shows after you turn in quests that grant the extra kill-experience bonus (the cowbell). The graphic is <code>MOAR_Cowbell</code> in the game files.</p>\n<p style=\"text-align:center;\"><img alt=\"Quest Reward\" src=\"/images/recovered/Quest_reward.png\"/></p>\n<div class=\"visualClear\"></div>\n"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Hand Axe",
+  "wikiTitle": "Hand_Axe",
+  "path": "/wiki/Hand_Axe",
+  "description": "Hand Axe \u2014 The Townstons wiki",
+  "categories": [
+    "One-Handed-fighter",
+    "Weapons"
+  ],
+  "images": [
+    "/images/recovered/1h-weapon-_Hand_Axe_.png"
+  ],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Hand Axe\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/1h-weapon-_Hand_Axe_.png\" title=\"Hand Axe\"><img alt=\"Hand Axe\" border=\"0\" src=\"/images/recovered/1h-weapon-_Hand_Axe_.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Slashing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">One-handed\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Freakin&#x27; Fast\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client weapon speed:&nbsp;</b>\n</td><td style=\"width:50%;\">125\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client damage coeff:&nbsp;</b>\n</td><td style=\"width:50%;\">0.66\n</td></tr>\n</table>\n<p><b>Hand Axe</b> is listed on the <a href=\"/wiki/Category/One-Handed-fighter\" title=\"Category:One-Handed-fighter\">One-Handed-fighter</a> weapon list. Stats on this page come from that list and the Dungeon Runners client files.</p>\n<p>The client also has material-tier versions of this weapon (Cardboard Hand Axe, Celestial Hand Axe, Default Hand Axe, Diamond Hand Axe, Iron Hand Axe, Obsidian Hand Axe, Stone Hand Axe, Tin Hand Axe, \u2026).</p>\n<div class=\"visualClear\"></div>"
+}

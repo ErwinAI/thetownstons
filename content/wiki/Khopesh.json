@@ -2,8 +2,13 @@
   "title": "Khopesh",
   "wikiTitle": "Khopesh",
   "path": "/wiki/Khopesh",
-  "description": "Khopesh — The Townstons wiki",
-  "categories": [],
-  "images": [],
-  "html": "<div class=\"noarticletext\">There is currently no text in this page, you can <a href=\"/wiki/Special/Search/Khopesh\" title=\"Special:Search/Khopesh\">search for this page title</a> in other pages or <a class=\"external text\" href=\"/wiki/Khopesh\" rel=\"nofollow\" title=\"http://www.thetownstons.com/thetownstons/index.php?title=Khopesh&amp;action=edit\">edit this page</a>.</div>\n\n<div class=\"visualClear\"></div>"
+  "description": "Khopesh \u2014 The Townstons wiki",
+  "categories": [
+    "One-Handed-fighter",
+    "Weapons"
+  ],
+  "images": [
+    "/images/recovered/1h-weapon-_Khopesh.png"
+  ],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Khopesh\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/1h-weapon-_Khopesh.png\" title=\"Khopesh\"><img alt=\"Khopesh\" border=\"0\" src=\"/images/recovered/1h-weapon-_Khopesh.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Slashing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">One-Handed\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Freakin&#x27; Fast\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client weapon speed:&nbsp;</b>\n</td><td style=\"width:50%;\">130\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client damage coeff:&nbsp;</b>\n</td><td style=\"width:50%;\">0.64\n</td></tr>\n</table>\n<p><b>Khopesh</b> is listed on the <a href=\"/wiki/Category/One-Handed-fighter\" title=\"Category:One-Handed-fighter\">One-Handed-fighter</a> weapon list. Stats on this page come from that list and the Dungeon Runners client files.</p>\n<p>The client also has material-tier versions of this weapon (Cardboard Khopesh, Celestial Khopesh, Default Khopesh, Diamond Khopesh, Iron Khopesh, Obsidian Khopesh, Stone Khopesh, Tin Khopesh, \u2026).</p>\n<div class=\"visualClear\"></div>"
 }

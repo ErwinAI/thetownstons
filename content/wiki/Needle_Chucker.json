@@ -2,8 +2,13 @@
   "title": "Needle Chucker",
   "wikiTitle": "Needle_Chucker",
   "path": "/wiki/Needle_Chucker",
-  "description": "Needle Chucker — The Townstons wiki",
-  "categories": [],
-  "images": [],
-  "html": "<div class=\"noarticletext\">There is currently no text in this page, you can <a href=\"/wiki/Special/Search/Needle_Chucker\" title=\"Special:Search/Needle Chucker\">search for this page title</a> in other pages or <a class=\"external text\" href=\"/wiki/Needle_Chucker\" rel=\"nofollow\" title=\"http://www.thetownstons.com/thetownstons/index.php?title=Needle_Chucker&amp;action=edit\">edit this page</a>.</div>\n\n<div class=\"visualClear\"></div>"
+  "description": "Needle Chucker \u2014 The Townstons wiki",
+  "categories": [
+    "Two-Handed-ranger",
+    "Weapons"
+  ],
+  "images": [
+    "/images/recovered/2h-ranged-_Needle_Chucker.png"
+  ],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Needle Chucker\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/2h-ranged-_Needle_Chucker.png\" title=\"Needle Chucker\"><img alt=\"Needle Chucker\" border=\"0\" src=\"/images/recovered/2h-ranged-_Needle_Chucker.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Piercing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">Two-Handed Ranged\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Normal\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Notes:&nbsp;</b>\n</td><td style=\"width:50%;\">Unique Only\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client weapon speed:&nbsp;</b>\n</td><td style=\"width:50%;\">100\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client damage coeff:&nbsp;</b>\n</td><td style=\"width:50%;\">0.51\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Soulbound:&nbsp;</b>\n</td><td style=\"width:50%;\">Yes\n</td></tr>\n</table>\n<p><b>Needle Chucker</b> is listed on the <a href=\"/wiki/Category/Two-Handed-ranger\" title=\"Category:Two-Handed-ranger\">Two-Handed-ranger</a> weapon list. Stats on this page come from that list and the Dungeon Runners client files.</p>\n<div class=\"visualClear\"></div>"
 }

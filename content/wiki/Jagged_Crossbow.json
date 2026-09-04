@@ -2,8 +2,13 @@
   "title": "Jagged Crossbow",
   "wikiTitle": "Jagged_Crossbow",
   "path": "/wiki/Jagged_Crossbow",
-  "description": "Jagged Crossbow — The Townstons wiki",
-  "categories": [],
-  "images": [],
-  "html": "<div class=\"noarticletext\">There is currently no text in this page, you can <a href=\"/wiki/Special/Search/Jagged_Crossbow\" title=\"Special:Search/Jagged Crossbow\">search for this page title</a> in other pages or <a class=\"external text\" href=\"/wiki/Jagged_Crossbow\" rel=\"nofollow\" title=\"http://www.thetownstons.com/thetownstons/index.php?title=Jagged_Crossbow&amp;action=edit\">edit this page</a>.</div>\n\n<div class=\"visualClear\"></div>"
+  "description": "Jagged Crossbow \u2014 The Townstons wiki",
+  "categories": [
+    "Two-Handed-ranger",
+    "Weapons"
+  ],
+  "images": [
+    "/images/recovered/2h-ranged-_Jagged_Crossbow.png"
+  ],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Jagged Crossbow\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/2h-ranged-_Jagged_Crossbow.png\" title=\"Jagged Crossbow\"><img alt=\"Jagged Crossbow\" border=\"0\" src=\"/images/recovered/2h-ranged-_Jagged_Crossbow.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Piercing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">Two-Handed Ranged\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Fast\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client weapon speed:&nbsp;</b>\n</td><td style=\"width:50%;\">110\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client damage coeff:&nbsp;</b>\n</td><td style=\"width:50%;\">0.47\n</td></tr>\n</table>\n<p><b>Jagged Crossbow</b> is listed on the <a href=\"/wiki/Category/Two-Handed-ranger\" title=\"Category:Two-Handed-ranger\">Two-Handed-ranger</a> weapon list. Stats on this page come from that list and the Dungeon Runners client files.</p>\n<p>The client also has material-tier versions of this weapon (Cardboard Jagged Crossbow, Celestial Jagged Crossbow, Diamond Jagged Crossbow, Iron Jagged Crossbow, Obsidian Jagged Crossbow, Stone Jagged Crossbow, Tin Jagged Crossbow, Titanium Jagged Crossbow, \u2026).</p>\n<div class=\"visualClear\"></div>"
 }

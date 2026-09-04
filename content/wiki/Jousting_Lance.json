@@ -1,0 +1,14 @@
+{
+  "title": "Jousting Lance",
+  "wikiTitle": "Jousting_Lance",
+  "path": "/wiki/Jousting_Lance",
+  "description": "Jousting Lance \u2014 The Townstons wiki",
+  "categories": [
+    "Two-Handed-fighter",
+    "Weapons"
+  ],
+  "images": [
+    "/images/recovered/2H_Jousting_Lance.png"
+  ],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Jousting Lance\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/2H_Jousting_Lance.png\" title=\"Jousting Lance\"><img alt=\"Jousting Lance\" border=\"0\" src=\"/images/recovered/2H_Jousting_Lance.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Piercing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">Two-Handed\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Slothful\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client weapon speed:&nbsp;</b>\n</td><td style=\"width:50%;\">85\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client damage coeff:&nbsp;</b>\n</td><td style=\"width:50%;\">1.17\n</td></tr>\n</table>\n<p><b>Jousting Lance</b> is listed on the <a href=\"/wiki/Category/Two-Handed-fighter\" title=\"Category:Two-Handed-fighter\">Two-Handed-fighter</a> weapon list. Stats on this page come from that list and the Dungeon Runners client files.</p>\n<p>The client also has material-tier versions of this weapon (Cardboard Jousting Lance, Celestial Jousting Lance, Diamond Jousting Lance, Iron Jousting Lance, Obsidian Jousting Lance, Stone Jousting Lance, Tin Jousting Lance, Titanium Jousting Lance, \u2026).</p>\n<div class=\"visualClear\"></div>"
+}

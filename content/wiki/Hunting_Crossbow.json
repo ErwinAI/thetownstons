@@ -2,8 +2,13 @@
   "title": "Hunting Crossbow",
   "wikiTitle": "Hunting_Crossbow",
   "path": "/wiki/Hunting_Crossbow",
-  "description": "Hunting Crossbow — The Townstons wiki",
-  "categories": [],
-  "images": [],
-  "html": "<div class=\"noarticletext\">There is currently no text in this page, you can <a href=\"/wiki/Special/Search/Hunting_Crossbow\" title=\"Special:Search/Hunting Crossbow\">search for this page title</a> in other pages or <a class=\"external text\" href=\"/wiki/Hunting_Crossbow\" rel=\"nofollow\" title=\"http://www.thetownstons.com/thetownstons/index.php?title=Hunting_Crossbow&amp;action=edit\">edit this page</a>.</div>\n\n<div class=\"visualClear\"></div>"
+  "description": "Hunting Crossbow \u2014 The Townstons wiki",
+  "categories": [
+    "Two-Handed-ranger",
+    "Weapons"
+  ],
+  "images": [
+    "/images/recovered/2h-ranged-_Hunting_Crossbow.png"
+  ],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Hunting Crossbow\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/2h-ranged-_Hunting_Crossbow.png\" title=\"Hunting Crossbow\"><img alt=\"Hunting Crossbow\" border=\"0\" src=\"/images/recovered/2h-ranged-_Hunting_Crossbow.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Piercing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">Two-Handed Ranged\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Fast\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client weapon speed:&nbsp;</b>\n</td><td style=\"width:50%;\">110\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client damage coeff:&nbsp;</b>\n</td><td style=\"width:50%;\">0.47\n</td></tr>\n</table>\n<p><b>Hunting Crossbow</b> is listed on the <a href=\"/wiki/Category/Two-Handed-ranger\" title=\"Category:Two-Handed-ranger\">Two-Handed-ranger</a> weapon list. Stats on this page come from that list and the Dungeon Runners client files.</p>\n<p>The client also has material-tier versions of this weapon (Cardboard Hunting Crossbow, Celestial Hunting Crossbow, Diamond Hunting Crossbow, Iron Hunting Crossbow, Obsidian Hunting Crossbow, Stone Hunting Crossbow, Tin Hunting Crossbow, Titanium Hunting Crossbow, \u2026).</p>\n<div class=\"visualClear\"></div>"
 }

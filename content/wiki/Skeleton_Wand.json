@@ -1,0 +1,14 @@
+{
+  "title": "Skeleton Wand",
+  "wikiTitle": "Skeleton_Wand",
+  "path": "/wiki/Skeleton_Wand",
+  "description": "Skeleton Wand \u2014 The Townstons wiki",
+  "categories": [
+    "One-Handed-mage",
+    "Weapons"
+  ],
+  "images": [
+    "/images/recovered/1h-weapon-_Skeleton_Wand.png"
+  ],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Skeleton Wand\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/1h-weapon-_Skeleton_Wand.png\" title=\"Skeleton Wand\"><img alt=\"Skeleton Wand\" border=\"0\" src=\"/images/recovered/1h-weapon-_Skeleton_Wand.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Crushing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">One-handed\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Ludicrous\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Notes:&nbsp;</b>\n</td><td style=\"width:50%;\">Unqiue Only\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client weapon speed:&nbsp;</b>\n</td><td style=\"width:50%;\">145\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client damage coeff:&nbsp;</b>\n</td><td style=\"width:50%;\">0.57\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Soulbound:&nbsp;</b>\n</td><td style=\"width:50%;\">Yes\n</td></tr>\n</table>\n<p><b>Skeleton Wand</b> is listed on the <a href=\"/wiki/Category/One-Handed-mage\" title=\"Category:One-Handed-mage\">One-Handed-mage</a> weapon list. Stats on this page come from that list and the Dungeon Runners client files.</p>\n<div class=\"visualClear\"></div>"
+}

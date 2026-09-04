@@ -1,0 +1,14 @@
+{
+  "title": "Militia Crossbow",
+  "wikiTitle": "Militia_Crossbow",
+  "path": "/wiki/Militia_Crossbow",
+  "description": "Militia Crossbow \u2014 The Townstons wiki",
+  "categories": [
+    "Two-Handed-ranger",
+    "Weapons"
+  ],
+  "images": [
+    "/images/recovered/2h-ranged-_Militia_Crossbow.png"
+  ],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Militia Crossbow\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/2h-ranged-_Militia_Crossbow.png\" title=\"Militia Crossbow\"><img alt=\"Militia Crossbow\" border=\"0\" src=\"/images/recovered/2h-ranged-_Militia_Crossbow.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Piercing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">Two-Handed Ranged\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Freakin&#x27; Fast\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client weapon speed:&nbsp;</b>\n</td><td style=\"width:50%;\">120\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client damage coeff:&nbsp;</b>\n</td><td style=\"width:50%;\">0.43\n</td></tr>\n</table>\n<p><b>Militia Crossbow</b> is listed on the <a href=\"/wiki/Category/Two-Handed-ranger\" title=\"Category:Two-Handed-ranger\">Two-Handed-ranger</a> weapon list. Stats on this page come from that list and the Dungeon Runners client files.</p>\n<p>The client also has material-tier versions of this weapon (Cardboard Militia Crossbow, Celestial Militia Crossbow, Diamond Militia Crossbow, Iron Militia Crossbow, Obsidian Militia Crossbow, Stone Militia Crossbow, Tin Militia Crossbow, Titanium Militia Crossbow, \u2026).</p>\n<div class=\"visualClear\"></div>"
+}

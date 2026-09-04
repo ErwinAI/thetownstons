@@ -1,0 +1,14 @@
+{
+  "title": "Spyder",
+  "wikiTitle": "Spyder",
+  "path": "/wiki/Spyder",
+  "description": "Spyder \u2014 The Townstons wiki",
+  "categories": [
+    "Two-Handed-fighter",
+    "Weapons"
+  ],
+  "images": [
+    "/images/recovered/2h-weapon-_Spyder.png"
+  ],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Spyder\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/2h-weapon-_Spyder.png\" title=\"Spyder\"><img alt=\"Spyder\" border=\"0\" src=\"/images/recovered/2h-weapon-_Spyder.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Piercing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">Two-Handed\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Normal\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Notes:&nbsp;</b>\n</td><td style=\"width:50%;\">Unique only\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client weapon speed:&nbsp;</b>\n</td><td style=\"width:50%;\">102\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client damage coeff:&nbsp;</b>\n</td><td style=\"width:50%;\">0.98\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Soulbound:&nbsp;</b>\n</td><td style=\"width:50%;\">Yes\n</td></tr>\n</table>\n<p><b>Spyder</b> is listed on the <a href=\"/wiki/Category/Two-Handed-fighter\" title=\"Category:Two-Handed-fighter\">Two-Handed-fighter</a> weapon list. Stats on this page come from that list and the Dungeon Runners client files.</p>\n<div class=\"visualClear\"></div>"
+}

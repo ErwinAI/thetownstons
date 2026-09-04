@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { findCanonicalPath, wikiApiPath } from '#shared/wiki'
+import { findCanonicalPath, sanitizeWikiHtml, wikiApiPath } from '#shared/wiki'
 
 const route = useRoute()
 const slug = computed(() => {
@@ -67,13 +67,14 @@ if (!page.value && !members.value.length && !categoryName.value) {
 useHead({ title: page.value?.title || categoryName.value || 'Wiki' })
 
 const categories = computed(() => page.value?.categories ?? [])
+const bodyHtml = computed(() => sanitizeWikiHtml(page.value?.html || ''))
 </script>
 
 <template>
   <article v-if="page">
     <h1 class="firstHeading">{{ page.title }}</h1>
     <div id="siteSub">From Townstons</div>
-    <div class="wiki-body" v-html="page.html" />
+    <div class="wiki-body" v-html="bodyHtml" />
     <div v-if="categories.length" class="catlinks">
       Categories:
       <template v-for="(cat, i) in categories" :key="cat">

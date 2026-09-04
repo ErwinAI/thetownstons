@@ -1,0 +1,14 @@
+{
+  "title": "Battle Scepter",
+  "wikiTitle": "Battle_Scepter",
+  "path": "/wiki/Battle_Scepter",
+  "description": "Battle Scepter \u2014 The Townstons wiki",
+  "categories": [
+    "One-Handed-mage",
+    "Weapons"
+  ],
+  "images": [
+    "/images/recovered/1h-weapon-_Battle_Scepter.png"
+  ],
+  "html": "<table align=\"right\" cellpadding=\"2\" cellspacing=\"0\" style=\"text-align:left; background:rgb(240,240,240); border:1px solid black; width:25%;\">\n<tr>\n<td colspan=\"2\" style=\"text-align:center; background:#9999FF; font-size:150%;\"> Battle Scepter\n</td></tr>\n<tr>\n<td colspan=\"2\" style=\"text-align:center;\"><a class=\"image\" href=\"/images/recovered/1h-weapon-_Battle_Scepter.png\" title=\"Battle Scepter\"><img alt=\"Battle Scepter\" border=\"0\" src=\"/images/recovered/1h-weapon-_Battle_Scepter.png\"/></a>\n</td></tr>\n<tr>\n<td colspan=\"2\"><hr/>\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Damage Type:&nbsp;</b>\n</td><td style=\"width:50%;\">Crushing\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Wielding:&nbsp;</b>\n</td><td style=\"width:50%;\">One-handed\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Attack Speed:&nbsp;</b>\n</td><td style=\"width:50%;\">Ludicrous\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client weapon speed:&nbsp;</b>\n</td><td style=\"width:50%;\">149\n</td></tr>\n<tr>\n<td style=\"width:50%;\"><b>Client damage coeff:&nbsp;</b>\n</td><td style=\"width:50%;\">0.56\n</td></tr>\n</table>\n<p><b>Battle Scepter</b> is listed on the <a href=\"/wiki/Category/One-Handed-mage\" title=\"Category:One-Handed-mage\">One-Handed-mage</a> weapon list. Stats on this page come from that list and the Dungeon Runners client files.</p>\n<p>The client also has material-tier versions of this weapon (Cardboard Battle Scepter, Celestial Battle Scepter, Diamond Battle Scepter, Iron Battle Scepter, Obsidian Battle Scepter, Stone Battle Scepter, Tin Battle Scepter, Titanium Battle Scepter, \u2026).</p>\n<div class=\"visualClear\"></div>"
+}

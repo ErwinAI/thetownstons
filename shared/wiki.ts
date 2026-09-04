@@ -18,7 +18,20 @@ function titleKey(value: string): string {
 export function foldWikiKey(value: string): string {
   let text = titleKey(value).replace(/_/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase()
   if (text.startsWith('category/')) text = `category:${text.slice('category/'.length)}`
-  return text
+  return SLUG_ALIASES[text] || text
+}
+
+/** Old wiki titles that 404 but have a recovered page under another name. */
+const SLUG_ALIASES: Record<string, string> = {
+  shrines: 'attribute shrine',
+  shrine: 'attribute shrine',
+}
+
+/** Encode apostrophes in wiki hrefs so routers don't chop Algor's_* into /wiki/Algor. */
+export function sanitizeWikiHtml(html: string): string {
+  return html.replace(/\b(href|src)="(\/wiki\/[^"]*)"/gi, (_all, attr: string, url: string) => {
+    return `${attr}="${url.replace(/'/g, '%27')}"`
+  })
 }
 
 export function isCategoryPage(page: WikiLookup): boolean {

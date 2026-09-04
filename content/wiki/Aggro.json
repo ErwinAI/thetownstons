@@ -1,0 +1,12 @@
+{
+  "title": "Aggro",
+  "wikiTitle": "Aggro",
+  "path": "/wiki/Aggro",
+  "description": "Aggro — The Townstons wiki",
+  "categories": [
+    "Glossary",
+    "Game Mechanics"
+  ],
+  "images": [],
+  "html": "<p><b>Aggro</b> is which mob is attacking which player. In Dungeon Runners, whoever hits a mob first usually keeps it. Healing and damage both pull attention, so a fighter who tags first can hold a room while casters burn it down. There is no separate aggro meter in the client.</p>\n<div class=\"visualClear\"></div>\n"
+}
