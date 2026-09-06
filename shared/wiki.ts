@@ -5,7 +5,7 @@ export type WikiLookup = {
 }
 
 function titleKey(value: string): string {
-  const trimmed = value.replace(/^\/wiki\//, '')
+  const trimmed = value.replace(/^\/api\/wiki\//, '').replace(/^\/wiki\//, '')
   try {
     return decodeURIComponent(trimmed)
   }
@@ -14,10 +14,21 @@ function titleKey(value: string): string {
   }
 }
 
-/** MediaWiki-ish fold: case, spaces/underscores, Category: vs Category/. */
-export function foldWikiKey(value: string): string {
+/** Decode + fold spaces/_/case. Does not apply title aliases. */
+export function normalizeWikiPath(value: string): string {
   let text = titleKey(value).replace(/_/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase()
   if (text.startsWith('category/')) text = `category:${text.slice('category/'.length)}`
+  return text
+}
+
+/** Same article under a different encoding (comma vs %2C), not a different title. */
+export function isSameWikiPath(a: string, b: string): boolean {
+  return normalizeWikiPath(a) === normalizeWikiPath(b)
+}
+
+/** MediaWiki-ish fold: case, spaces/underscores, Category: vs Category/. */
+export function foldWikiKey(value: string): string {
+  const text = normalizeWikiPath(value)
   return SLUG_ALIASES[text] || text
 }
 
@@ -41,11 +52,20 @@ const SLUG_ALIASES: Record<string, string> = {
   "kings coins": "king's coins",
 }
 
-/** Path chars that browsers, Vue Router, and static hosts treat as syntax. */
-const UNSAFE_SLUG = /[?#\[\]@!$&'()*+,;=%.]/g
+/**
+ * Only encode chars that actually split or traverse a URL.
+ * Comma, apostrophe, parens, etc. already resolve — percent-encoding them
+ * and 301ing to that form loops when the host decodes them back.
+ */
+const QUERY_OR_HASH = /[?#]/g
 
 export function encodeWikiSlug(slug: string): string {
-  return slug.split('/').map((part) => part.replace(UNSAFE_SLUG, encodeURIComponent)).join('/')
+  return slug.split('/').map((part) => {
+    let encoded = part.replace(QUERY_OR_HASH, encodeURIComponent)
+    // encodeURIComponent leaves "." alone. Hosts still treat ".." as parent dir.
+    if (part.includes('..')) encoded = encoded.replace(/\./g, '%2E')
+    return encoded
+  }).join('/')
 }
 
 /** Safe /wiki/... href. Keeps slashes (Daily_Deed/_Storeroom) and encodes the rest. */
@@ -67,7 +87,7 @@ export function mergeQuestionTitle(pathname: string, search: string): string {
   return `${pathname}?${query}`
 }
 
-/** Encode reserved chars in wiki hrefs so Algor's / Part 2 / Travelers? never get chopped. */
+/** Encode only ? # and .. in wiki hrefs. Leave commas and apostrophes alone. */
 export function sanitizeWikiHtml(html: string): string {
   return html.replace(/\b(href|src)="(\/wiki\/[^"]*)"/gi, (_all, attr: string, url: string) => {
     return `${attr}="${wikiHref(url)}"`
@@ -109,5 +129,5 @@ export function findCanonicalPath(slug: string, pages: WikiLookup[] | null | und
 
 export function wikiApiPath(wikiPath: string): string {
   const slug = wikiPath.replace(/^\/wiki\//, '').replace(/\/+$/, '')
-  return `/api/wiki/${slug.split('/').map(encodeURIComponent).join('/')}`
+  return `/api/wiki/${encodeWikiSlug(slug)}`
 }

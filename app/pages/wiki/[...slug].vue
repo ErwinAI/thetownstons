@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { findCanonicalPath, mergeQuestionTitle, sanitizeWikiHtml, wikiApiPath, wikiHref } from '#shared/wiki'
+import { findCanonicalPath, isSameWikiPath, mergeQuestionTitle, sanitizeWikiHtml, wikiApiPath, wikiHref } from '#shared/wiki'
 
 const route = useRoute()
 const slug = computed(() => {
@@ -39,7 +39,7 @@ const canonicalPath = computed(() => findCanonicalPath(slug.value, pages.value))
 const requestPath = computed(() => `/wiki/${slug.value}`)
 const targetPath = computed(() => canonicalPath.value || requestPath.value)
 
-if (canonicalPath.value && wikiHref(canonicalPath.value) !== wikiHref(requestPath.value)) {
+if (canonicalPath.value && !isSameWikiPath(canonicalPath.value, requestPath.value)) {
   await navigateTo(wikiHref(canonicalPath.value), { redirectCode: 301, replace: true })
 }
 

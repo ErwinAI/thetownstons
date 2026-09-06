@@ -1,5 +1,6 @@
 import { readdirSync, readFileSync, statSync } from 'node:fs'
 import { join } from 'node:path'
+import { encodeWikiSlug } from './shared/wiki'
 
 function wikiRoutes(dir: string): string[] {
   const routes: string[] = []
@@ -22,11 +23,11 @@ function wikiRoutes(dir: string): string[] {
           // keep encoded
         }
         const slug = path.replace(/^\/wiki\//, '')
-        const encoded = `/wiki/${slug.split('/').map((part) => part.replace(/[?#\[\]@!$&'()*+,;=%.]/g, encodeURIComponent)).join('/')}`
-        routes.push(encoded)
-        if (encoded !== path) routes.push(path)
-        const api = `/api/wiki/${encoded.replace(/^\/wiki\//, '')}`
-        routes.push(api)
+        const encoded = `/wiki/${encodeWikiSlug(slug)}`
+        routes.push(path)
+        if (encoded !== path) routes.push(encoded)
+        routes.push(`/api/wiki/${slug}`)
+        if (encoded !== path) routes.push(`/api/wiki/${encoded.replace(/^\/wiki\//, '')}`)
       }
       catch {
         // skip broken generated files
