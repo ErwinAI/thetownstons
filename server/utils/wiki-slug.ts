@@ -1,4 +1,4 @@
-import { mergeQuestionTitle } from '#shared/wiki'
+import { decodeWikiSlug, mergeQuestionTitle } from '#shared/wiki'
 
 export function wikiSlugFromEvent(event: Parameters<typeof getRouterParam>[0], prefix: string): string {
   const slug = (getRouterParam(event, 'slug') || '').replace(/\/+$/, '')
@@ -7,10 +7,5 @@ export function wikiSlugFromEvent(event: Parameters<typeof getRouterParam>[0], p
   const pathOnly = (q >= 0 ? full.slice(0, q) : full).replace(/\/+$/, '')
   const search = q >= 0 ? full.slice(q) : ''
   const raw = mergeQuestionTitle(pathOnly, search)
-  try {
-    return decodeURIComponent(raw)
-  }
-  catch {
-    return raw || slug
-  }
+  return decodeWikiSlug(raw || slug)
 }

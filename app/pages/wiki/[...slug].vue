@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isSameWikiPath, mergeQuestionTitle, normalizeWikiPath, sanitizeWikiHtml, wikiApiPath, wikiHref } from '#shared/wiki'
+import { decodeWikiSlug, mergeQuestionTitle, normalizeWikiPath, sanitizeWikiHtml, wikiApiPath, wikiHref, wikiRequestNeedsCanonical } from '#shared/wiki'
 
 const route = useRoute()
 const { user } = useAuth()
@@ -19,12 +19,7 @@ const slug = computed(() => {
     search = window.location.search
   }
   path = path.replace(/^\/wiki\//, '').replace(/\/+$/, '')
-  try {
-    path = decodeURIComponent(path)
-  }
-  catch {
-    // keep raw
-  }
+  path = decodeWikiSlug(path)
   path = mergeQuestionTitle(path, search)
   if (path) return path
   const parts = route.params.slug
@@ -42,7 +37,7 @@ const { data: page } = await useAsyncData(
   () => $fetch(wikiApiPath(requestPath.value)).catch(() => null),
 )
 
-if (page.value?.path && !isSameWikiPath(page.value.path, requestPath.value)) {
+if (page.value?.path && wikiRequestNeedsCanonical(requestPath.value, page.value.path)) {
   await navigateTo(wikiHref(page.value.path), { redirectCode: 301, replace: true })
 }
 
@@ -200,7 +195,7 @@ onBeforeUnmount(() => {
     </div>
   </article>
   <article v-else>
-    <WikiTitleBar :title="slug.replace(/_/g, ' ')" :edit-to="editTo" />
+    <WikiTitleBar :title="decodeWikiSlug(slug).replace(/_/g, ' ')" :edit-to="editTo" />
     <div id="siteSub">From Townstons</div>
     <div class="wiki-body">
       <p>This page does not exist yet.</p>

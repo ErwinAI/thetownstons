@@ -4,14 +4,44 @@ export type WikiLookup = {
   path: string
 }
 
-function titleKey(value: string): string {
-  const trimmed = value.replace(/^\/api\/wiki\//, '').replace(/^\/wiki\//, '')
+/** HTML entities in slugs (`&#x27;`) are not URLs. `#` inside them also gets encoded to `%23`. */
+export function decodeHtmlEntities(value: string): string {
+  return value
+    .replace(/&amp;/gi, '&')
+    .replace(/&quot;|&#x22;|&#34;/gi, '"')
+    .replace(/&apos;|&#x27;|&#39;/gi, "'")
+    .replace(/&nbsp;|&#160;/gi, ' ')
+    .replace(/&#x([0-9a-f]+);/gi, (_all, hex: string) => String.fromCodePoint(Number.parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_all, n: string) => String.fromCodePoint(Number(n)))
+}
+
+/** URI-decode, then turn leftover `&#x27;` / `&%23x27;` junk into a real slug. */
+export function decodeWikiSlug(value: string): string {
+  let text = value.replace(/^\/api\/wiki\//, '').replace(/^\/wiki\//, '')
   try {
-    return decodeURIComponent(trimmed)
+    text = decodeURIComponent(text)
   }
   catch {
-    return trimmed
+    // keep raw
   }
+  text = decodeHtmlEntities(text)
+  try {
+    text = decodeURIComponent(text)
+  }
+  catch {
+    // keep raw
+  }
+  return text
+}
+
+function titleKey(value: string): string {
+  return decodeWikiSlug(value)
+}
+
+/** Same article, but the URL still has entity junk that will 404 or look broken. */
+export function wikiRequestNeedsCanonical(requestSlug: string, pagePath: string): boolean {
+  if (!isSameWikiPath(requestSlug, pagePath)) return true
+  return /&#|&%23|&amp;/i.test(requestSlug)
 }
 
 /** Decode + fold spaces/_/case. Does not apply title aliases. */
@@ -64,22 +94,15 @@ const QUERY_OR_HASH = /[?#]/g
 export function encodeWikiSlug(slug: string): string {
   return slug.split('/').map((part) => {
     let encoded = part.replace(QUERY_OR_HASH, encodeURIComponent)
-    // encodeURIComponent leaves "." alone. Hosts still treat ".." as parent dir.
-    if (part.includes('..')) encoded = encoded.replace(/\./g, '%2E')
+    // encodeURIComponent leaves "." alone. Only a whole `..` segment is parent dir.
+    if (part === '.' || part === '..') encoded = encoded.replace(/\./g, '%2E')
     return encoded
   }).join('/')
 }
 
 /** Safe /wiki/... href. Keeps slashes (Daily_Deed/_Storeroom) and encodes the rest. */
 export function wikiHref(pathOrSlug: string): string {
-  let slug = pathOrSlug.replace(/^\/wiki\//, '')
-  try {
-    slug = decodeURIComponent(slug)
-  }
-  catch {
-    // keep raw
-  }
-  return `/wiki/${encodeWikiSlug(slug)}`
+  return `/wiki/${encodeWikiSlug(decodeWikiSlug(pathOrSlug))}`
 }
 
 /** If `?` is part of the title (Travelers?_Check), not a query string (`?utm=`). */

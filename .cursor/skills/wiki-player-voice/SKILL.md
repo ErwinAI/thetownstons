@@ -14,6 +14,12 @@ IT HAS TO ALWAYS BE WRITTEN FROM A PLAYER PERSPECTIVE.
 
 analyse existing pages. Write like that. Always.
 
+You can't put our conversation on there 1:1. Always think about broad visitor expectations on a page/section.
+
+- Write the section a stranger would open the page for: what it is, where it drops, what level, what the odds are, where to go next.
+- Chat leftovers stay in chat. Do not single out the item we were just talking about unless that page is about that item.
+- A floors table is enough on a floors page. "The chair is the 80 line" belongs on the chair page, not on the hub.
+
 ## Before writing
 
 Read recovered pages that already sound like the old wiki. Match them.

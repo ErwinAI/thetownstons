@@ -1,4 +1,4 @@
-import { isSameWikiPath, mergeQuestionTitle, normalizeWikiPath, wikiApiPath, wikiHref } from '#shared/wiki'
+import { mergeQuestionTitle, normalizeWikiPath, wikiApiPath, wikiHref, wikiRequestNeedsCanonical } from '#shared/wiki'
 import { resolveWikiPage } from '../utils/wiki-db'
 
 export default defineEventHandler(async (event) => {
@@ -18,13 +18,14 @@ export default defineEventHandler(async (event) => {
   catch {
     // keep raw
   }
+  // Keep entity junk here so wikiRequestNeedsCanonical can 301 to the real apostrophe URL.
   if (!isApi && normalizeWikiPath(slug) === 'main page') {
     return sendRedirect(event, '/', 301)
   }
   const page = await resolveWikiPage(slug)
   if (!page) return
 
-  if (isSameWikiPath(slug, page.path)) return
+  if (!wikiRequestNeedsCanonical(slug, page.path)) return
 
   const dest = isApi ? wikiApiPath(page.path) : wikiHref(page.path)
   return sendRedirect(event, dest, 301)

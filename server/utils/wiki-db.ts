@@ -1,5 +1,5 @@
 import { findWikiPage, listWikiPages, allWikiPages, type WikiPage } from './wiki'
-import { foldWikiKey, isCategoryPage, normalizeWikiPath, type WikiLookup } from '#shared/wiki'
+import { decodeWikiSlug, foldWikiKey, isCategoryPage, normalizeWikiPath, type WikiLookup } from '#shared/wiki'
 import { htmlToWikiMarkdown } from '#shared/html-to-md'
 import { lineDiff } from '#shared/text-diff'
 import { assertCanEdit } from './access'
@@ -46,13 +46,7 @@ function fromFile(page: WikiPage): WikiApiPage {
 }
 
 function slugVariants(raw: string): string[] {
-  let decoded = raw
-  try {
-    decoded = decodeURIComponent(raw)
-  }
-  catch {
-    decoded = raw
-  }
+  const decoded = decodeWikiSlug(raw)
   const trimmed = decoded.replace(/^\/wiki\//, '').replace(/\/+$/, '')
   const underscored = trimmed.replace(/ /g, '_')
   const spaced = trimmed.replace(/_/g, ' ')
