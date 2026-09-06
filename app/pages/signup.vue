@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { usernameError } from '#shared/username'
 
+const route = useRoute()
+const fromKarl = computed(() => route.query.from === 'karl')
 const username = ref('')
 const email = ref('')
 const password = ref('')
@@ -34,7 +36,7 @@ async function submit() {
     if (authError) throw authError
     await refresh()
     if (data.session) {
-      await navigateTo('/')
+      await navigateTo(fromKarl.value ? '/karl' : '/')
       return
     }
     notice.value = 'Check your email to confirm the account, then log in.'
@@ -54,6 +56,12 @@ useHead({ title: 'Sign up' })
   <article>
     <h1 class="firstHeading">Sign up</h1>
     <div id="siteSub">From Townstons</div>
+    <table v-if="fromKarl" class="infobox wiki-karl-note">
+      <tbody>
+        <tr><th>KarlAI</th></tr>
+        <tr><td>KarlAI needs an account and a confirmed email before he will answer. Sign up, confirm the mail, then ask again from any page.</td></tr>
+      </tbody>
+    </table>
     <p>Pick a username. That is what shows on edits, not your email.</p>
     <form class="wiki-form" @submit.prevent="submit">
       <p><label>Username<br><input v-model="username" required minlength="3" maxlength="24" autocomplete="username"></label></p>
@@ -62,7 +70,7 @@ useHead({ title: 'Sign up' })
       <p v-if="error" class="wiki-form-error">{{ error }}</p>
       <p v-if="notice">{{ notice }}</p>
       <p><button type="submit" :disabled="pending">{{ pending ? 'Creating…' : 'Create account' }}</button></p>
-      <p>Already have one? <NuxtLink to="/login">Log in</NuxtLink></p>
+      <p>Already have one? <NuxtLink :to="fromKarl ? '/login?from=karl' : '/login'">Log in</NuxtLink></p>
     </form>
   </article>
 </template>

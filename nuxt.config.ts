@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/wiki.css'],
   runtimeConfig: {
     supabaseServiceRoleKey: '',
+    aiGatewayApiKey: '',
     public: {
       supabaseUrl: '',
       supabaseAnonKey: '',

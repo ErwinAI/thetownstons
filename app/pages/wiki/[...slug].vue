@@ -4,6 +4,7 @@ import { isSameWikiPath, mergeQuestionTitle, normalizeWikiPath, sanitizeWikiHtml
 const route = useRoute()
 const { user } = useAuth()
 const { canEdit } = useWikiAccess()
+const karlPage = useKarlPage()
 
 const slug = computed(() => {
   let path = ''
@@ -110,6 +111,22 @@ const displayHtml = computed(() => {
 
 const editTo = computed(() => '/edit/' + apiSlug.value)
 const historyTo = computed(() => '/history/' + apiSlug.value)
+
+watch([page, categoryName, requestPath], () => {
+  if (page.value?.title && page.value.path) {
+    karlPage.value = { title: page.value.title, path: page.value.path }
+    return
+  }
+  if (categoryName.value) {
+    karlPage.value = { title: `Category:${categoryName.value}`, path: requestPath.value }
+    return
+  }
+  karlPage.value = null
+}, { immediate: true })
+
+onBeforeUnmount(() => {
+  karlPage.value = null
+})
 </script>
 
 <template>

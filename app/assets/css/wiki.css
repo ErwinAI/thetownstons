@@ -99,6 +99,7 @@ a.missing { color: var(--wiki-missing); }
 .portlet li { margin: 0 0 0.15em; }
 
 .wiki-content-wrap {
+  position: relative;
   background: var(--wiki-content);
   border: 1px solid var(--wiki-border);
   border-right: none;
@@ -439,6 +440,377 @@ a.missing { color: var(--wiki-missing); }
 
 .infobox {
   margin: 0 0 1em 1em;
+}
+
+.wiki-karl-note {
+  float: none;
+  margin: 0 0 1em;
+  border: 1px solid #aaa;
+  background: #f9f9f9;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 36em;
+}
+
+.wiki-karl-note th {
+  background: #ddd;
+  text-align: left;
+  padding: 0.3em 0.5em;
+}
+
+.wiki-karl-note td {
+  padding: 0.45em 0.5em;
+}
+
+.wiki-ask {
+  position: fixed;
+  right: 12px;
+  bottom: 10px;
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  pointer-events: none;
+}
+
+.wiki-ask-hud,
+.wiki-ask-panel,
+.wiki-ask-form,
+.wiki-ask-head button,
+.wiki-ask-pill,
+.wiki-ask-suggest button {
+  pointer-events: auto;
+}
+
+.wiki-ask-hud {
+  appearance: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  width: 5.8em;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  font: inherit;
+  color: #fff;
+}
+
+.wiki-ask-karl {
+  display: block;
+  width: 56px;
+  height: auto;
+  image-rendering: pixelated;
+  animation: karl-shiver 5s ease-in-out infinite;
+  transform-origin: 50% 80%;
+}
+
+.wiki-ask.is-busy .wiki-ask-karl {
+  animation: karl-shiver 1.6s ease-in-out infinite;
+}
+
+.wiki-ask-xp {
+  margin-top: -0.15em;
+  padding: 0.05em 0.35em 0.12em;
+  background: #1a120c;
+  border: 1px solid #6a4a22;
+  color: #f3d48a;
+  font: bold 11px/1.2 sans-serif;
+  text-shadow: 0 1px 0 #000;
+  white-space: nowrap;
+}
+
+@keyframes karl-shiver {
+  0%, 88%, 100% { transform: translate(0, 0) rotate(0deg); }
+  91% { transform: translate(-1px, 0) rotate(-1deg); }
+  94% { transform: translate(1px, 0) rotate(1deg); }
+  97% { transform: translate(-1px, 0) rotate(-1deg); }
+}
+
+.wiki-ask-panel {
+  order: -1;
+  width: min(28em, calc(100vw - 1.6em));
+  margin: 0 0 0.4em;
+  border: 1px solid #aaa;
+  background: #fff;
+  padding: 0.45em 0.6em 0.6em;
+  max-height: min(28em, 70vh);
+  overflow: auto;
+}
+
+.wiki-ask-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.35em;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.2em;
+}
+
+.wiki-ask-head button,
+.wiki-ask-form > button {
+  flex-shrink: 0;
+  padding: 0.15em 0.45em;
+  font: inherit;
+}
+
+.wiki-ask-msg {
+  margin: 0.55em 0;
+  padding: 0.45em 0.65em 0.55em;
+  border: 1px solid #d4c7b0;
+  background: #f7f1e4;
+}
+
+.wiki-ask-msg.is-assistant {
+  border-color: #c9a090;
+  background: #f8ece6;
+  padding: 0.7em 0.9em 0.9em;
+}
+
+.wiki-ask-msg p {
+  margin: 0.2em 0;
+}
+
+.karl-md {
+  margin-top: 0.35em;
+}
+
+.karl-md p {
+  margin: 0.55em 0;
+}
+
+.karl-md p:first-child {
+  margin-top: 0.2em;
+}
+
+.karl-md p:last-child {
+  margin-bottom: 0;
+}
+
+.karl-md ul,
+.karl-md ol {
+  margin: 0.35em 0 0.55em 1.4em;
+  padding: 0;
+}
+
+.karl-md strong {
+  font-weight: bold;
+}
+
+.karl-who {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  margin-bottom: 0.15em;
+}
+
+.karl-face {
+  display: block;
+  width: 22px;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+.wiki-ask-status,
+.wiki-ask-empty {
+  color: #555;
+  font-style: italic;
+}
+
+.wiki-ask-form {
+  position: relative;
+  display: flex;
+  gap: 0.35em;
+  margin-top: 0.6em;
+}
+
+.wiki-ask-field {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25em;
+  padding: 0.15em 0.25em;
+  border: 1px solid #aaa;
+  background: #fff;
+}
+
+.wiki-ask-field input {
+  flex: 1;
+  min-width: 6em;
+  border: 0;
+  padding: 0.1em 0.15em;
+  font: inherit;
+  outline: none;
+}
+
+.wiki-ask-pill {
+  display: inline;
+  max-width: 14em;
+  padding: 0 0.28em 0 0.12em;
+  margin: 0 0.12em;
+  border: 0;
+  box-shadow: inset 0 0 0 1px #8a6a3a;
+  background: #f4e4b8;
+  color: #3a1d0f;
+  font-size: inherit;
+  line-height: inherit;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.karl-page-icon {
+  display: inline-block;
+  width: 0.75em;
+  height: 0.75em;
+  margin-right: 0.15em;
+  vertical-align: -0.1em;
+}
+
+button.wiki-ask-pill {
+  cursor: pointer;
+  font: inherit;
+  line-height: inherit;
+}
+
+.wiki-ask-suggest {
+  position: absolute;
+  left: 0;
+  right: 2.8em;
+  bottom: 100%;
+  z-index: 2;
+  list-style: none;
+  margin: 0 0 0.15em;
+  padding: 0;
+  border: 1px solid #aaa;
+  background: #fff;
+  max-height: 12em;
+  overflow: auto;
+}
+
+.wiki-ask-suggest button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border: 0;
+  background: transparent;
+  padding: 0.25em 0.45em;
+  font: inherit;
+  cursor: pointer;
+}
+
+.wiki-ask-suggest button:hover {
+  background: #eee;
+}
+
+.wiki-ask-suggest .is-hint {
+  padding: 0.3em 0.45em;
+  color: #666;
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  .wiki-ask-panel { width: min(28em, calc(100vw - 1.6em)); }
+}
+
+.karl-page {
+  width: min(50vw, 100%);
+  margin: 0 auto;
+  min-height: calc(100vh - 3em);
+  display: flex;
+  flex-direction: column;
+}
+
+.karl-thread {
+  flex: 1;
+  min-height: 12em;
+  overflow: auto;
+  margin: 0.4em 0 1em;
+  padding-right: 0.2em;
+}
+
+.karl-compose {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  gap: 0.5em;
+  align-items: flex-end;
+  margin: 0 0 1em;
+  padding-top: 0.4em;
+  background: var(--wiki-content);
+}
+
+.wiki-ask-field.karl-field {
+  display: block;
+  flex: 1;
+  min-height: 4.8em;
+  padding: 0.4em 0.55em;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  background: #fff;
+  line-height: 1.5;
+}
+
+.karl-field:focus-within {
+  border-color: #888;
+}
+
+.karl-inline-text {
+  display: inline;
+  white-space: pre-wrap;
+}
+
+.karl-user-line {
+  margin: 0.4em 0 0;
+  line-height: 1.5;
+}
+
+.karl-field textarea {
+  display: block;
+  width: 100%;
+  min-height: 3.6em;
+  border: 0;
+  background: #fff;
+  resize: none;
+  font: inherit;
+  line-height: inherit;
+  outline: none;
+}
+
+.karl-field.has-inline textarea {
+  display: inline;
+  width: 8em;
+  min-width: 4em;
+  min-height: 0;
+  height: 1.5em;
+  vertical-align: baseline;
+  padding: 0;
+}
+
+.karl-ask-btn {
+  appearance: none;
+  flex-shrink: 0;
+  min-width: 4.6em;
+  padding: 0.55em 1em;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  background: #f4f4f4;
+  color: #222;
+  font: 600 13px/1.2 sans-serif;
+  cursor: pointer;
+}
+
+.karl-ask-btn:hover:not(:disabled) {
+  background: #ebebeb;
+  border-color: #999;
+}
+
+.karl-ask-btn:disabled {
+  opacity: 0.55;
+  cursor: default;
 }
 
 .wiki-history {
