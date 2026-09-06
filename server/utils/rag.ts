@@ -1,6 +1,7 @@
 import { createGateway, embed } from 'ai'
 import { capHits, KARL_LIMITS, type KarlHit } from './karl'
 import { serviceClient } from './supabase'
+import { resolveWikiPage, searchWiki } from './wiki-db'
 
 type ChunkRow = {
   title: string
@@ -65,4 +66,53 @@ export async function matchChunks(query: string, source: 'wiki' | 'game', limit?
       text: String(row.text),
     }))
   return capHits(hits, budget)
+}
+
+function expandWikiQuery(query: string): string[] {
+  const q = query.toLowerCase()
+  const extra: string[] = []
+  if (/\b(dual|two[- ]stat|agi(?:lity)?|intellect|endurance|prefix|postfix|descriptor|modifier)\b/.test(q)) {
+    extra.push('Name Descriptors')
+    extra.push('Modifiers')
+  }
+  if (/\b(best|bis|best in slot)\b/.test(q)) {
+    extra.push(query.replace(/\b(best in slot|best|bis)\b/gi, '').trim() || query)
+    if (/\bring/.test(q)) extra.push('Rainbow Rings')
+    if (/\bamulet/.test(q)) extra.push('Rainbow Amulets')
+  }
+  return [...new Set([query, ...extra].filter((row) => row.length >= 2))].slice(0, 3)
+}
+
+function stripPlain(value: string): string {
+  return String(value || '')
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+export async function retrieveWiki(query: string): Promise<KarlHit[]> {
+  const queries = expandWikiQuery(query)
+  const semantic = (await Promise.all(queries.map((q) => matchChunks(q, 'wiki')))).flat()
+  const lexical = await searchWiki(query).catch(() => [])
+  const byPath = new Map<string, KarlHit>()
+  for (const hit of semantic) {
+    const key = (hit.path || hit.title).toLowerCase()
+    if (!byPath.has(key)) byPath.set(key, hit)
+  }
+  const titled = lexical.slice(0, 6)
+  for (const row of titled) {
+    const key = String(row.path || '').toLowerCase()
+    if (!key || byPath.has(key)) continue
+    const page = await resolveWikiPage(row.path.replace(/^\/wiki\//, ''))
+    const text = stripPlain(page?.body_md || page?.html || row.headline || '')
+    if (!text) continue
+    byPath.set(key, {
+      title: page?.title || row.title,
+      path: page?.path || row.path,
+      text: text.slice(0, 1600),
+    })
+  }
+  return capHits([...byPath.values()], KARL_LIMITS.wikiChars, KARL_LIMITS.chunkChars)
 }

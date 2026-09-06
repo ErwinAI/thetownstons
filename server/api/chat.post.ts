@@ -11,9 +11,9 @@ import {
 } from 'ai'
 import { z } from 'zod'
 import { assertEmailConfirmed } from '../utils/access'
-import { KARL_INSTRUCTIONS, KARL_LIMITS, loadKarlPages, pageBlock, type KarlPageRef } from '../utils/karl'
+import { KARL_INSTRUCTIONS, KARL_LIMITS, loadKarlPages, pageBlock, type KarlHit, type KarlPageRef } from '../utils/karl'
 import { assertKarlRate } from '../utils/karl-rate'
-import { matchChunks } from '../utils/rag'
+import { matchChunks, retrieveWiki } from '../utils/rag'
 import { userFromRequest } from '../utils/supabase'
 
 function textOnlyMessages(messages: UIMessage[]): UIMessage[] {
@@ -84,12 +84,12 @@ export default defineEventHandler(async (event) => {
       ? `${KARL_INSTRUCTIONS}\n\nThe Dungeon Runner has these wiki pages open. Use them. Still search if you need more.\n\n${extra}`
       : KARL_INSTRUCTIONS
 
-    const embeds = new Map<string, Promise<ReturnType<typeof matchChunks>>>()
+    const embeds = new Map<string, Promise<KarlHit[]>>()
     function search(source: 'wiki' | 'game', query: string) {
       const key = `${source}:${query}`
       const pending = embeds.get(key)
       if (pending) return pending
-      const next = matchChunks(query, source)
+      const next = source === 'wiki' ? retrieveWiki(query) : matchChunks(query, 'game')
       embeds.set(key, next)
       return next
     }
@@ -104,7 +104,7 @@ export default defineEventHandler(async (event) => {
       }),
       tools: {
         searchArticles: tool({
-          description: 'Search Townstons wiki articles. Use for write-ups, guides, quests, and item pages. Broad questions can take up to 10 hits.',
+          description: 'Search Townstons wiki articles. Use for write-ups, guides, quests, and item pages. For dual stats or name words, search Name Descriptors. For best in slot, search the slot and class.',
           inputSchema: z.object({
             query: z.string().min(2).max(200).describe('Item, quest, place, or mechanic name'),
           }),

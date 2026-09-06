@@ -30,18 +30,11 @@ const pageFromQuery = computed(() => {
   return raw.startsWith('/wiki/') ? raw : ''
 })
 
-const pagePill = computed(() => {
-  if (pageFromQuery.value) {
-    const title = decodeURIComponent(pageFromQuery.value.replace(/^\/wiki\//, '')).replace(/_/g, ' ')
-    if (karlPage.value?.path === pageFromQuery.value) {
-      return karlPage.value
-    }
-    return { title, path: pageFromQuery.value }
-  }
-  const page = karlPage.value
-  if (!page?.title || !page.path) return null
-  if (page.path === '/wiki/Main_Page' || page.path === '/') return null
-  return page
+const incomingPage = computed<KarlPageRef | null>(() => {
+  if (!pageFromQuery.value) return null
+  if (karlPage.value?.path === pageFromQuery.value) return karlPage.value
+  const title = decodeURIComponent(pageFromQuery.value.replace(/^\/wiki\//, '')).replace(/_/g, ' ')
+  return { title, path: pageFromQuery.value }
 })
 
 const { messages, sendMessage, status, error } = useChat({
@@ -56,7 +49,7 @@ const { messages, sendMessage, status, error } = useChat({
         ...body,
         id,
         messages: stripOutgoing(messages),
-        page: pagePill.value,
+        page: sendingMentions.value[0] || incomingPage.value,
         mentions: sendingMentions.value,
       },
     }),
@@ -173,13 +166,24 @@ function stripOutgoing(messages: { parts?: { type: string, text?: string }[] }[]
   }))
 }
 
+function takePage(page: KarlPageRef | null) {
+  if (!page?.path || !page.title) return
+  if (page.path === '/wiki/Main_Page' || page.path === '/') return
+  if (bits.value.some((bit) => bit.t === 'page' && bit.path === page.path)) return
+  bits.value = [{ t: 'page', title: page.title, path: page.path }, ...bits.value]
+}
+
+watch(incomingPage, (page) => {
+  takePage(page)
+}, { immediate: true })
+
 function addMention(hit: SearchHit) {
   const match = draft.value.match(AT_TAIL)
   if (!match || match.index == null) return
   const before = draft.value.slice(0, match.index) + match[1]
   const next = [...bits.value]
   if (before) next.push({ t: 'text', v: before })
-  if (pagePill.value?.path !== hit.path && !next.some((bit) => bit.t === 'page' && bit.path === hit.path)) {
+  if (!next.some((bit) => bit.t === 'page' && bit.path === hit.path)) {
     if (mentionsFromBits().length >= 5) {
       draft.value = before
       suggestOn.value = false
@@ -281,6 +285,9 @@ async function submit() {
   searching.value = false
   await sendMessage({ text })
   sendingMentions.value = []
+  if (pageFromQuery.value) {
+    await navigateTo({ path: '/karl' }, { replace: true })
+  }
 }
 
 function onKey(event: KeyboardEvent) {
@@ -330,13 +337,7 @@ useHead({ title: 'KarlAI' })
         <template v-if="message.role === 'user'">
           <p v-for="(bit, idx) in messageTexts(message)" :key="'t' + idx" class="karl-user-line">
             <template v-for="(seg, sidx) in userSegs(bit)" :key="sidx">
-              <span v-if="seg.t === 'page'" class="wiki-ask-pill is-mention">
-                <svg class="karl-page-icon" viewBox="0 0 16 16" aria-hidden="true">
-                  <path fill="currentColor" d="M4 1.5h6.2L13 4.8V14.5H4z" />
-                  <path fill="none" stroke="currentColor" stroke-width="1.2" d="M10.2 1.5V4.8H13" />
-                </svg>
-                {{ seg.title }}
-              </span>
+              <NuxtLink v-if="seg.t === 'page'" class="wiki-ask-pill" :to="seg.path">{{ seg.title }}</NuxtLink>
               <template v-else>{{ seg.v }}</template>
             </template>
           </p>
@@ -357,34 +358,21 @@ useHead({ title: 'KarlAI' })
     </div>
 
     <form class="karl-compose" @submit.prevent="submit">
-      <div class="wiki-ask-field karl-field" :class="{ 'has-inline': bits.length || pagePill }">
-        <span v-if="pagePill" class="wiki-ask-pill is-page">
-          <svg class="karl-page-icon" viewBox="0 0 16 16" aria-hidden="true">
-            <path fill="currentColor" d="M4 1.5h6.2L13 4.8V14.5H4z" />
-            <path fill="none" stroke="currentColor" stroke-width="1.2" d="M10.2 1.5V4.8H13" />
-          </svg>
-          {{ pagePill.title }}
-        </span>
+      <div class="wiki-ask-field karl-field">
         <template v-for="(bit, idx) in bits" :key="bit.t === 'page' ? bit.path + idx : 't' + idx">
           <span v-if="bit.t === 'text'" class="karl-inline-text">{{ bit.v }}</span>
           <button
             v-else
             type="button"
-            class="wiki-ask-pill is-mention"
+            class="wiki-ask-pill"
             @click="dropMention(idx)"
-          >
-            <svg class="karl-page-icon" viewBox="0 0 16 16" aria-hidden="true">
-              <path fill="currentColor" d="M4 1.5h6.2L13 4.8V14.5H4z" />
-              <path fill="none" stroke="currentColor" stroke-width="1.2" d="M10.2 1.5V4.8H13" />
-            </svg>
-            {{ bit.title }}
-          </button>
+          >{{ bit.title }}</button>
         </template>
         <textarea
           v-model="draft"
-          :rows="bits.length || pagePill ? 1 : 3"
+          rows="3"
           maxlength="1500"
-          :placeholder="bits.length || pagePill ? '' : 'Ask KarlAI…'"
+          :placeholder="bits.length ? '' : 'Ask KarlAI…'"
           aria-label="Ask KarlAI"
           :disabled="busy || !confirmed"
           @keydown="onKey"

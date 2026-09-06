@@ -647,33 +647,27 @@ a.missing { color: var(--wiki-missing); }
   outline: none;
 }
 
-.wiki-ask-pill {
-  display: inline;
-  max-width: 14em;
-  padding: 0 0.28em 0 0.12em;
-  margin: 0 0.12em;
-  border: 0;
-  box-shadow: inset 0 0 0 1px #8a6a3a;
-  background: #f4e4b8;
-  color: #3a1d0f;
-  font-size: inherit;
-  line-height: inherit;
-  vertical-align: baseline;
-  white-space: nowrap;
-}
-
-.karl-page-icon {
-  display: inline-block;
-  width: 0.75em;
-  height: 0.75em;
-  margin-right: 0.15em;
-  vertical-align: -0.1em;
-}
-
+.wiki-ask-pill,
+a.wiki-ask-pill,
 button.wiki-ask-pill {
-  cursor: pointer;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-shadow: none;
+  background: none;
+  color: var(--wiki-link);
   font: inherit;
   line-height: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.wiki-ask-pill:hover,
+a.wiki-ask-pill:hover,
+button.wiki-ask-pill:hover {
+  text-decoration: underline;
 }
 
 .wiki-ask-suggest {
@@ -744,7 +738,10 @@ button.wiki-ask-pill {
 }
 
 .wiki-ask-field.karl-field {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.35em;
   flex: 1;
   min-height: 4.8em;
   padding: 0.4em 0.55em;
@@ -752,6 +749,7 @@ button.wiki-ask-pill {
   border-radius: 6px;
   background: #fff;
   line-height: 1.5;
+  overflow: hidden;
 }
 
 .karl-field:focus-within {
@@ -769,25 +767,17 @@ button.wiki-ask-pill {
 }
 
 .karl-field textarea {
-  display: block;
-  width: 100%;
+  flex: 1 1 12em;
+  min-width: 8em;
   min-height: 3.6em;
+  width: auto;
   border: 0;
   background: #fff;
   resize: none;
+  overflow: hidden;
   font: inherit;
   line-height: inherit;
   outline: none;
-}
-
-.karl-field.has-inline textarea {
-  display: inline;
-  width: 8em;
-  min-width: 4em;
-  min-height: 0;
-  height: 1.5em;
-  vertical-align: baseline;
-  padding: 0;
 }
 
 .karl-ask-btn {

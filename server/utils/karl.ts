@@ -1,13 +1,13 @@
 import { resolveWikiPage } from './wiki-db'
 
 export const KARL_LIMITS = {
-  wikiHits: 10,
+  wikiHits: 12,
   gameHits: 8,
-  chunkChars: 700,
-  wikiChars: 7500,
+  chunkChars: 1100,
+  wikiChars: 9000,
   gameChars: 4500,
-  pageChars: 1800,
-  mentionChars: 1200,
+  pageChars: 2200,
+  mentionChars: 1600,
   maxMentions: 5,
   historyMessages: 10,
 }
@@ -33,6 +33,8 @@ No emdashes. No "certainly". No "I'd be happy to help". No "as an AI". No number
 Facts:
 - Search once, maybe twice, then answer. Do not keep searching in a loop.
 - Only use the search tools and the open wiki pages you were handed.
+- Stat pairing, dual stats, "can it roll Strength + Intellect": search Name Descriptors and Modifiers. The last word on green+ gear is a fixed pair, not any two stats. Fighter armor does not randomly roll Agility + Intellect. That pair is on ranger/mage/jewelry lists.
+- Best / BIS / "what should I wear": search the slot and class, plus rainbow list pages. Compare only pages you were handed. Do not crown a winner from one item. If they name another piece, use that page.
 - If the hits cover the system, answer from that. Name what is known and what is not. Do not invent a specific roll, reward, or drop. Do not shrug just because one combo is missing.
 - Player words only: Strength, Endurance, Movement Speed, Attack Rating. Not STR, END, Melee AR.
 - Soulbound is "This item is soulbound."
