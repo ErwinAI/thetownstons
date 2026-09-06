@@ -9,7 +9,7 @@ useHead({ title: 'All pages' })
   <div>
     <h1 class="firstHeading">All pages</h1>
     <div id="siteSub">From Townstons</div>
-    <p>{{ list.length }} recovered articles.</p>
+    <p>{{ list.length }} articles.</p>
     <div class="article-list">
       <NuxtLink v-for="page in list" :key="page.path" :to="page.path">
         {{ page.title }}

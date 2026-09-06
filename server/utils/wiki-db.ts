@@ -361,3 +361,76 @@ export async function revertWikiPage(raw: string, id: number, editor?: string | 
     editorId: editorId || null,
   })
 }
+
+export type WikiSearchHit = {
+  title: string
+  path: string
+  rank: number
+  headline: string
+}
+
+function stripHtml(value: string): string {
+  return value.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()
+}
+
+function snippetAround(text: string, q: string): string {
+  const hay = text.toLowerCase()
+  const needle = q.toLowerCase()
+  const at = hay.indexOf(needle)
+  if (at < 0) return text.slice(0, 180)
+  const start = Math.max(0, at - 60)
+  const chunk = text.slice(start, start + 180)
+  return (start > 0 ? '…' : '') + chunk + (start + 180 < text.length ? '…' : '')
+}
+
+export async function searchWiki(q: string): Promise<WikiSearchHit[]> {
+  const query = q.replace(/\s+/g, ' ').trim()
+  if (query.length < 2) return []
+
+  const db = serviceClient()
+  if (db) {
+    const { data, error } = await db.rpc('search_wiki', { q: query, max_rows: 50 })
+    if (!error && Array.isArray(data)) {
+      return (data as { title: string, path: string, rank: number, headline: string }[]).map((row) => ({
+        title: row.title,
+        path: row.path,
+        rank: Number(row.rank) || 0,
+        headline: String(row.headline || '').replace(/<(?!\/?b\b)[^>]*>/gi, ''),
+      }))
+    }
+
+    const like = query.replace(/[%_,.()"'\\]/g, ' ').replace(/\s+/g, ' ').trim()
+    if (like.length >= 2) {
+      const { data: rows } = await db
+        .from('pages')
+        .select('title, path, html, body_md')
+        .or(`title.ilike.%${like}%,html.ilike.%${like}%,body_md.ilike.%${like}%`)
+        .limit(50)
+      if (rows?.length) {
+        return rows.map((row) => {
+          const text = stripHtml(row.body_md || row.html || '')
+          return {
+            title: row.title,
+            path: row.path,
+            rank: String(row.title).toLowerCase().includes(like.toLowerCase()) ? 1 : 0,
+            headline: snippetAround(text, like),
+          }
+        })
+      }
+    }
+  }
+
+  const needle = query.toLowerCase()
+  return allWikiPages()
+    .filter((page) => {
+      const blob = `${page.title}\n${page.description || ''}\n${stripHtml(page.html || '')}`.toLowerCase()
+      return blob.includes(needle)
+    })
+    .slice(0, 50)
+    .map((page) => ({
+      title: page.title,
+      path: page.path,
+      rank: page.title.toLowerCase().includes(needle) ? 1 : 0,
+      headline: snippetAround(stripHtml(page.html || ''), query),
+    }))
+}

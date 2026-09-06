@@ -86,8 +86,8 @@ const polls = [
         <p>Sign up, confirm your email, and hit Edit. We are writing new pages and cleaning up the old ones. Jump in.</p>
         <p>
           <b>Getting Started:</b>
-          See the <NuxtLink to="/wiki/Wiki_Guide">Beginner's Guide</NuxtLink>
-          or browse <NuxtLink to="/all">every recovered article</NuxtLink>.
+          See the <NuxtLink to="/wiki/Help/Contents">Beginner's Guide</NuxtLink>
+          or browse <NuxtLink to="/all">every article</NuxtLink>.
         </p>
       </div>
 

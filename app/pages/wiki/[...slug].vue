@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isSameWikiPath, mergeQuestionTitle, sanitizeWikiHtml, wikiApiPath, wikiHref } from '#shared/wiki'
+import { isSameWikiPath, mergeQuestionTitle, normalizeWikiPath, sanitizeWikiHtml, wikiApiPath, wikiHref } from '#shared/wiki'
 
 const route = useRoute()
 const { user } = useAuth()
@@ -31,6 +31,10 @@ const slug = computed(() => {
 })
 
 const requestPath = computed(() => `/wiki/${slug.value}`)
+
+if (normalizeWikiPath(slug.value) === 'main page') {
+  await navigateTo('/', { redirectCode: 301, replace: true })
+}
 
 const { data: page } = await useAsyncData(
   () => 'wiki-' + slug.value,

@@ -1,9 +1,0 @@
-{
-  "title": "Donations",
-  "wikiTitle": "Donations",
-  "path": "/wiki/Donations",
-  "description": "Donations — The Townstons wiki",
-  "categories": [],
-  "images": [],
-  "html": "<p>The Townstons is an unofficial wiki about Dungeon Runners, and is completely independant. Running websites cost money, and so does The Townstons! It is getting bigger every second, and is using up more and more data traffic every month. Thats why Donations are more then welcome!\n</p>\n<table border=\"0\"><tr><td><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\">\n<p><input name=\"cmd\" type=\"hidden\" value=\"_donations\"/>\n<input name=\"business\" type=\"hidden\" value=\"johanlengkeek@tiscali.nl\"/>\n<input name=\"item_name\" type=\"hidden\" value=\"The Townstons.com\"/>\n<input name=\"item_number\" type=\"hidden\" value=\"The Townstons.com\"/>\n<input name=\"no_shipping\" type=\"hidden\" value=\"0\"/>\n<input name=\"return\" type=\"hidden\" value=\"http://www.thetownstons.com/thetownstons/index.php/Donations/thanks\"/>\n<input name=\"logo_custom\" type=\"hidden\" value=\"http://www.tvpicks.net/pix/paypal-donate.png\"/>\n<input name=\"cn\" type=\"hidden\" value=\"Comments\"/>\n<input name=\"currency_code\" type=\"hidden\" value=\"EUR\"/>\n<input name=\"tax\" type=\"hidden\" value=\"0\"/>\n<input name=\"lc\" type=\"hidden\" value=\"US\"/>\n<input name=\"bn\" type=\"hidden\" value=\"PP-DonationsBF\"/>\n<input alt=\"PayPal - The safer, easier way to pay online!\" border=\"0\" name=\"submit\" src=\"http://www.tvpicks.net/pix/paypal-donate.png\" type=\"image\"/>\n<img alt=\"\" border=\"0\" height=\"1\" src=\"https://www.paypal.com/nl_NL/i/scr/pixel.gif\" width=\"1\"/>\n</p>\n</form></td><td valign=\"center\">Click Here to Donate</td></tr></table>\n\n<div class=\"visualClear\"></div>"
-}

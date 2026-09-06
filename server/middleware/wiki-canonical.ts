@@ -1,4 +1,4 @@
-import { isSameWikiPath, mergeQuestionTitle, wikiApiPath, wikiHref } from '#shared/wiki'
+import { isSameWikiPath, mergeQuestionTitle, normalizeWikiPath, wikiApiPath, wikiHref } from '#shared/wiki'
 import { resolveWikiPage } from '../utils/wiki-db'
 
 export default defineEventHandler(async (event) => {
@@ -17,6 +17,9 @@ export default defineEventHandler(async (event) => {
   }
   catch {
     // keep raw
+  }
+  if (!isApi && normalizeWikiPath(slug) === 'main page') {
+    return sendRedirect(event, '/', 301)
   }
   const page = await resolveWikiPage(slug)
   if (!page) return

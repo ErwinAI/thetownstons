@@ -361,6 +361,40 @@ a.missing { color: var(--wiki-missing); }
   color: #a00;
 }
 
+.wiki-search {
+  display: flex;
+  gap: 0.35em;
+}
+
+.wiki-search input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.15em 0.3em;
+  border: 1px solid #aaa;
+  font: inherit;
+}
+
+.wiki-search button {
+  flex-shrink: 0;
+  padding: 0.15em 0.45em;
+  font: inherit;
+}
+
+.wiki-search-hits {
+  list-style: none;
+  margin: 1em 0 0;
+  padding: 0;
+}
+
+.wiki-search-hits li {
+  margin: 0 0 1em;
+}
+
+.wiki-search-snippet {
+  margin: 0.2em 0 0;
+  color: #333;
+}
+
 .wiki-md {
   min-height: 28em;
   font-family: Consolas, "Courier New", monospace;

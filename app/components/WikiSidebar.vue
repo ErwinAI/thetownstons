@@ -12,6 +12,7 @@ const sections = [
     { to: '/', label: 'Main Page' },
     { to: '/wiki/Crew', label: 'Crew Page' },
     { to: '/wiki/FAQ', label: 'FAQ' },
+    { to: '/wiki/Help/Contents', label: 'Help' },
     { to: '/all', label: 'All pages' },
     { to: '/random', label: 'Random page' },
   ]},
@@ -43,6 +44,16 @@ const sections = [
       <img class="wiki-logo-img" src="/wiki-logo.png" alt="The Townstons" width="512" height="512">
       <span class="wiki-logo-name">The Townstons</span>
     </NuxtLink>
+
+    <div class="portlet">
+      <h5>Search</h5>
+      <div class="pBody">
+        <form class="wiki-search" action="/search" method="get">
+          <input type="search" name="q" aria-label="Search">
+          <button type="submit">Go</button>
+        </form>
+      </div>
+    </div>
 
     <div class="portlet">
       <h5>Account</h5>

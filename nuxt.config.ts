@@ -14,7 +14,7 @@ export default defineNuxtConfig({
       title: 'The Townstons',
       titleTemplate: '%s - Townstons',
       meta: [
-        { name: 'description', content: 'Restored Dungeon Runners fansite wiki from thetownstons.com via the Wayback Machine.' },
+        { name: 'description', content: 'The Townstons — a Dungeon Runners fansite wiki. Live again, and open to edit.' },
       ],
       link: [
         { rel: 'icon', href: '/favicon.ico', sizes: '32x32' },
