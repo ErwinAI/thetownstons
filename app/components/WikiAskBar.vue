@@ -1,8 +1,6 @@
 <script setup lang="ts">
 const route = useRoute()
 const karlPage = useKarlPage()
-const { user, ready } = useAuth()
-const { confirmed } = useWikiAccess()
 const hide = computed(() => route.path === '/karl')
 
 const pagePill = computed(() => {
@@ -13,15 +11,6 @@ const pagePill = computed(() => {
 })
 
 async function openKarl() {
-  if (!ready.value) return
-  if (!user.value) {
-    await navigateTo('/signup?from=karl')
-    return
-  }
-  if (!confirmed.value) {
-    await navigateTo('/login?from=karl')
-    return
-  }
   await navigateTo({
     path: '/karl',
     query: pagePill.value ? { page: pagePill.value.path } : {},

@@ -10,7 +10,6 @@ import {
   type UIMessageChunk,
 } from 'ai'
 import { z } from 'zod'
-import { assertEmailConfirmed } from '../utils/access'
 import { KARL_INSTRUCTIONS, KARL_LIMITS, loadKarlPages, pageBlock, type KarlHit, type KarlPageRef } from '../utils/karl'
 import { assertKarlRate } from '../utils/karl-rate'
 import { matchChunks, retrieveWiki } from '../utils/rag'
@@ -52,11 +51,8 @@ export default defineEventHandler(async (event) => {
     const gateway = createGateway({ apiKey })
 
     const user = await userFromRequest(event)
-    if (!user) {
-      throw createError({ statusCode: 401, statusMessage: 'Log in to ask Karl' })
-    }
-    assertEmailConfirmed(user)
-    assertKarlRate(user.id)
+    const ip = getRequestIP(event, { xForwardedFor: true }) || 'anon'
+    assertKarlRate(user?.id || ip)
 
     const body = await readBody<{
       messages?: UIMessage[]

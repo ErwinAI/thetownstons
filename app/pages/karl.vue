@@ -22,8 +22,7 @@ const searching = ref(false)
 const suggestOn = ref(false)
 const thread = ref<HTMLElement | null>(null)
 const karlPage = useKarlPage()
-const { user, ready, token } = useAuth()
-const { confirmed } = useWikiAccess()
+const { token } = useAuth()
 
 const pageFromQuery = computed(() => {
   const raw = String(route.query.page || '')
@@ -251,32 +250,13 @@ function userSegs(text: string): ComposeBit[] {
   return out
 }
 
-onMounted(async () => {
-  if (!ready.value) return
-  if (!user.value) {
-    await navigateTo('/signup?from=karl')
-    return
-  }
-  if (!confirmed.value) {
-    notice.value = 'Confirm your email first. Karl stays quiet until then.'
-  }
-})
-
 async function submit() {
   if (suggestOn.value && suggest.value[0]) {
     addMention(suggest.value[0])
     return
   }
   const text = serializeCompose().trim()
-  if (!text || !ready.value) return
-  if (!user.value) {
-    await navigateTo('/signup?from=karl')
-    return
-  }
-  if (!confirmed.value) {
-    notice.value = 'Confirm your email first. Karl stays quiet until then.'
-    return
-  }
+  if (!text) return
   sendingMentions.value = mentionsFromBits()
   bits.value = []
   draft.value = ''
@@ -374,11 +354,11 @@ useHead({ title: 'KarlAI' })
           maxlength="1500"
           :placeholder="bits.length ? '' : 'Ask KarlAI…'"
           aria-label="Ask KarlAI"
-          :disabled="busy || !confirmed"
+          :disabled="busy"
           @keydown="onKey"
         />
       </div>
-      <button class="karl-ask-btn" type="submit" :disabled="busy || !confirmed">{{ busy ? '…' : 'Ask' }}</button>
+      <button class="karl-ask-btn" type="submit" :disabled="busy">{{ busy ? '…' : 'Ask' }}</button>
       <ul v-if="suggestOn" class="wiki-ask-suggest">
         <li v-if="suggestHint" class="is-hint">{{ suggestHint }}</li>
         <li v-for="hit in suggest" :key="hit.path">
