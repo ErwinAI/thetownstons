@@ -50,6 +50,8 @@ const SLUG_ALIASES: Record<string, string> = {
   "king's coin": "king's coins",
   "kings coin": "king's coins",
   "kings coins": "king's coins",
+  amazonian: "draykop the amazon",
+  "the amazonian": "draykop the amazon",
 }
 
 /**
