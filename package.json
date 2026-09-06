@@ -10,11 +10,19 @@
     "restore": ".venv/Scripts/python scripts/parse_wiki.py && .venv/Scripts/python scripts/match_dds.py",
     "restore:parse": ".venv/Scripts/python scripts/parse_wiki.py",
     "restore:assets": ".venv/Scripts/python scripts/download_assets.py",
-    "restore:images": ".venv/Scripts/python scripts/download_images.py"
+    "restore:images": ".venv/Scripts/python scripts/download_images.py",
+    "wiki:import": "node scripts/import_wiki_to_supabase.mjs"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.115.0",
+    "marked": "^18.0.11",
     "nuxt": "^4.5.2",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2",
     "vue": "^3.5.42",
     "vue-router": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/turndown": "^5.0.6"
   }
 }

@@ -42,28 +42,31 @@ a.missing { color: var(--wiki-missing); }
 .wiki-logo {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   width: 100%;
   max-width: 100%;
-  margin: 0.25em 0 0.7em;
-  padding: 0.35em 0;
+  margin: 0 0 0.85em;
+  padding: 0;
   overflow: hidden;
   color: #222;
-  font: bold 18px/1.15 Georgia, "Times New Roman", serif;
   text-align: center;
   text-decoration: none;
 }
 
-.wiki-logo-the {
+.wiki-logo:hover {
+  text-decoration: none;
+}
+
+.wiki-logo-img {
   display: block;
-  width: 70%;
-  padding-bottom: 0.2em;
-  margin-bottom: 0.25em;
-  border-bottom: 2px solid #fff;
+  width: 100%;
+  height: auto;
 }
 
 .wiki-logo-name {
   display: block;
+  margin-top: 0.4em;
+  font: bold 15px/1.15 Georgia, "Times New Roman", serif;
 }
 
 .portlet {
@@ -105,12 +108,32 @@ a.missing { color: var(--wiki-missing); }
   min-width: 0;
 }
 
+.wiki-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1em;
+  border-bottom: 1px solid #aaa;
+  margin: 0.4em 0 0.3em;
+}
+
 .firstHeading {
   font-size: 188%;
   font-weight: normal;
-  margin: 0.4em 0 0.3em;
+  margin: 0;
   padding: 0;
-  border-bottom: 1px solid #aaa;
+  border-bottom: none;
+  flex: 1;
+  min-width: 0;
+}
+
+.wiki-title-tools {
+  display: flex;
+  gap: 0.7em;
+  flex-shrink: 0;
+  padding-top: 0.35em;
+  font-size: calc(100% + 2pt);
+  font-style: normal;
 }
 
 #siteSub {
@@ -303,3 +326,155 @@ a.missing { color: var(--wiki-missing); }
   border-left: 3px solid #8a5a22;
   background: #fff;
 }
+
+.wiki-edit-link {
+  margin-left: 0.8em;
+  font-style: normal;
+  font-size: 90%;
+}
+
+.wiki-account-email {
+  color: #444;
+  word-break: break-all;
+}
+
+.wiki-form label {
+  display: block;
+}
+
+.wiki-form input,
+.wiki-form textarea {
+  width: 100%;
+  max-width: 52em;
+  box-sizing: border-box;
+  padding: 0.35em 0.45em;
+  border: 1px solid #aaa;
+  font: inherit;
+}
+
+.wiki-form button {
+  padding: 0.35em 0.9em;
+  font: inherit;
+}
+
+.wiki-form-error {
+  color: #a00;
+}
+
+.wiki-md {
+  min-height: 28em;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.wiki-cats {
+  min-height: 5em;
+  max-width: 32em;
+}
+
+.wiki-edit-help {
+  font-size: 92%;
+  color: #444;
+}
+
+.wiki-edit-help code {
+  display: inline-block;
+  margin: 0.15em 0.2em 0.15em 0;
+  padding: 0.05em 0.3em;
+  background: #f3f3f3;
+  border: 1px solid #ddd;
+  font-size: 90%;
+}
+
+.thumb {
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  padding: 4px;
+  margin: 0.4em 0 0.8em;
+  max-width: 240px;
+}
+
+.thumb.tright { float: right; margin-left: 1em; }
+.thumb.tleft { float: left; margin-right: 1em; }
+
+.thumbcaption {
+  font-size: 90%;
+  padding: 0.2em 0.1em 0;
+}
+
+.infobox {
+  margin: 0 0 1em 1em;
+}
+
+.wiki-history {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.6em 0 1em;
+}
+
+.wiki-history th,
+.wiki-history td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.35em 0.5em;
+  text-align: left;
+}
+
+.wiki-history button {
+  margin-right: 0.4em;
+  font: inherit;
+}
+
+.wiki-history button.is-on {
+  font-weight: bold;
+}
+
+.wiki-dialog-back {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wiki-dialog {
+  background: #fff;
+  border: 1px solid #aaa;
+  padding: 0.8em 1em 1em;
+  width: min(28em, calc(100vw - 2em));
+}
+
+.wiki-dialog h2 {
+  margin: 0 0 0.4em;
+  font-size: 150%;
+}
+
+.wiki-dialog button + button {
+  margin-left: 0.5em;
+}
+
+.wiki-admin-thumb {
+  max-width: 160px;
+  height: auto;
+  background: #eee;
+  border: 1px solid #aaa;
+}
+
+.wiki-diff-body {
+  border: 1px solid #ccc;
+  background: #fafafa;
+  padding: 0.4em 0.6em;
+  overflow: auto;
+  font: 13px/1.4 Consolas, "Courier New", monospace;
+}
+
+.wiki-diff-body span {
+  display: block;
+  white-space: pre-wrap;
+}
+
+.wiki-diff-add { background: #e6ffe6; }
+.wiki-diff-del { background: #ffe6e6; }
+.wiki-diff-same { color: #444; }

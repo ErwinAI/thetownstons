@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { findCanonicalPath, isSameWikiPath, mergeQuestionTitle, sanitizeWikiHtml, wikiApiPath, wikiHref } from '#shared/wiki'
+import { isSameWikiPath, mergeQuestionTitle, sanitizeWikiHtml, wikiApiPath, wikiHref } from '#shared/wiki'
 
 const route = useRoute()
+const { user } = useAuth()
+const { canEdit } = useWikiAccess()
+
 const slug = computed(() => {
-  // Colons in titles (Category:Foo) get eaten as Vue/Nitro params.
-  // Prefer the real request path, then fall back to the catch-all.
   let path = ''
   let search = ''
   if (import.meta.server) {
@@ -29,26 +30,18 @@ const slug = computed(() => {
   return Array.isArray(parts) ? parts.join('/') : String(parts || '')
 })
 
-const { data: catalog } = await useAsyncData('wiki-catalog', () =>
-  $fetch('/api/pages').catch(() => []),
-)
-
-const pages = computed(() => Array.isArray(catalog.value) ? catalog.value : [])
-
-const canonicalPath = computed(() => findCanonicalPath(slug.value, pages.value))
 const requestPath = computed(() => `/wiki/${slug.value}`)
-const targetPath = computed(() => canonicalPath.value || requestPath.value)
-
-if (canonicalPath.value && !isSameWikiPath(canonicalPath.value, requestPath.value)) {
-  await navigateTo(wikiHref(canonicalPath.value), { redirectCode: 301, replace: true })
-}
-
-const apiSlug = computed(() => targetPath.value.replace(/^\/wiki\//, ''))
 
 const { data: page } = await useAsyncData(
-  () => 'wiki-' + apiSlug.value,
-  () => $fetch(wikiApiPath(targetPath.value)).catch(() => null),
+  () => 'wiki-' + slug.value,
+  () => $fetch(wikiApiPath(requestPath.value)).catch(() => null),
 )
+
+if (page.value?.path && !isSameWikiPath(page.value.path, requestPath.value)) {
+  await navigateTo(wikiHref(page.value.path), { redirectCode: 301, replace: true })
+}
+
+const apiSlug = computed(() => (page.value?.path || requestPath.value).replace(/^\/wiki\//, ''))
 
 const categoryName = computed(() => {
   const raw = apiSlug.value
@@ -57,44 +50,15 @@ const categoryName = computed(() => {
   return ''
 })
 
-const GLOSSARY_IN_RAINBOW = new Set([
-  'mythic suffixes',
-  'growth items',
-  'modifiers',
-  'name descriptors',
-  'kings coins',
-  "king's coins",
-  'soulbound',
-  'loot',
-  'items',
-])
+const { data: lists } = await useAsyncData(
+  () => 'cat-' + categoryName.value,
+  () => categoryName.value
+    ? $fetch('/api/category', { query: { name: categoryName.value } }).catch(() => ({ members: [], subcats: [] }))
+    : Promise.resolve({ members: [], subcats: [] }),
+)
 
-const members = computed(() => {
-  if (!categoryName.value || !pages.value.length) return []
-  const want = categoryName.value.toLowerCase().replace(/_/g, ' ')
-  return pages.value.filter((item) => {
-    if (String(item.title || '').startsWith('Category:')) return false
-    if (want === 'rainbow items' && GLOSSARY_IN_RAINBOW.has(String(item.title || '').toLowerCase())) {
-      return false
-    }
-    return (item.categories || []).some((c) => c.toLowerCase().replace(/_/g, ' ') === want)
-  })
-})
-
-const subcats = computed(() => {
-  if (!categoryName.value || !pages.value.length) return []
-  const want = categoryName.value.toLowerCase().replace(/_/g, ' ')
-  return pages.value
-    .filter((item) => {
-      if (!String(item.title || '').startsWith('Category:')) return false
-      return (item.categories || []).some((c) => c.toLowerCase().replace(/_/g, ' ') === want)
-    })
-    .map((item) => ({
-      ...item,
-      title: String(item.title).replace(/^Category:/, ''),
-    }))
-    .sort((a, b) => a.title.localeCompare(b.title))
-})
+const members = computed(() => lists.value?.members || [])
+const subcats = computed(() => lists.value?.subcats || [])
 
 function alphaColumns<T extends { title: string }>(items: T[]) {
   const groups: { letter: string, items: T[] }[] = []
@@ -120,8 +84,11 @@ function alphaColumns<T extends { title: string }>(items: T[]) {
 const memberGroups = computed(() => alphaColumns(members.value))
 const subcatGroups = computed(() => alphaColumns(subcats.value))
 
-if (!page.value && !members.value.length && !categoryName.value) {
-  throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
+const missing = computed(() => !page.value && !members.value.length && !categoryName.value)
+
+if (missing.value && import.meta.server) {
+  const event = useRequestEvent()
+  if (event) setResponseStatus(event, 404)
 }
 
 useHead({ title: page.value?.title || categoryName.value || 'Wiki' })
@@ -136,11 +103,14 @@ const displayHtml = computed(() => {
   }
   return html
 })
+
+const editTo = computed(() => '/edit/' + apiSlug.value)
+const historyTo = computed(() => '/history/' + apiSlug.value)
 </script>
 
 <template>
   <article v-if="page">
-    <h1 class="firstHeading">{{ page.title }}</h1>
+    <WikiTitleBar :title="page.title" :history-to="historyTo" :edit-to="editTo" />
     <div id="siteSub">From Townstons</div>
     <div class="wiki-body" v-html="displayHtml" />
     <div v-if="categoryName && subcats.length" id="mw-subcategories" class="wiki-body">
@@ -188,7 +158,7 @@ const displayHtml = computed(() => {
     </div>
   </article>
   <article v-else-if="categoryName">
-    <h1 class="firstHeading">Category:{{ categoryName }}</h1>
+    <WikiTitleBar :title="'Category:' + categoryName" :history-to="historyTo" :edit-to="editTo" />
     <div id="siteSub">From Townstons</div>
     <div class="wiki-body">
       <p v-if="!members.length">No recovered pages in this category yet.</p>
@@ -206,6 +176,16 @@ const displayHtml = computed(() => {
           </td>
         </tr>
       </table>
+    </div>
+  </article>
+  <article v-else>
+    <WikiTitleBar :title="slug.replace(/_/g, ' ')" :edit-to="editTo" />
+    <div id="siteSub">From Townstons</div>
+    <div class="wiki-body">
+      <p>This page does not exist yet.</p>
+      <p v-if="canEdit"><NuxtLink :to="editTo">Create this page</NuxtLink></p>
+      <p v-else-if="user">Confirm your email, then you can create this page.</p>
+      <p v-else><NuxtLink to="/login">Log in</NuxtLink> to create it, or <NuxtLink to="/signup">sign up</NuxtLink>.</p>
     </div>
   </article>
 </template>

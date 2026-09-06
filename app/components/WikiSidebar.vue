@@ -1,18 +1,19 @@
 <script setup lang="ts">
+const { user, profile, refresh } = useAuth()
+const { isAdmin, canEdit } = useWikiAccess()
+
+async function logout() {
+  await useSupabase().auth.signOut()
+  await refresh()
+}
+
 const sections = [
   { title: 'Navigation', links: [
     { to: '/', label: 'Main Page' },
     { to: '/wiki/Crew', label: 'Crew Page' },
-    { to: '/wiki/Current_events', label: 'Current events' },
-    { to: '/wiki/Townstons/Projects', label: 'Projects' },
+    { to: '/wiki/FAQ', label: 'FAQ' },
     { to: '/all', label: 'All pages' },
     { to: '/random', label: 'Random page' },
-    { to: '/wiki/Help/Contents', label: 'Help' },
-  ]},
-  { title: 'Contact', links: [
-    { to: '/wiki/Contact', label: 'Contact Info' },
-    { to: '/wiki/FAQ', label: 'FAQ' },
-    { to: '/wiki/Donations', label: 'Donate' },
   ]},
   { title: 'Sections', links: [
     { to: '/wiki/Category/Quests', label: 'Quests' },
@@ -38,10 +39,37 @@ const sections = [
 
 <template>
   <aside class="wiki-sidebar" id="column-one">
-    <NuxtLink to="/" class="wiki-logo is-text" title="Main Page">
-      <span class="wiki-logo-the">The</span>
-      <span class="wiki-logo-name">Townstons</span>
+    <NuxtLink to="/" class="wiki-logo" title="Main Page">
+      <img class="wiki-logo-img" src="/wiki-logo.png" alt="The Townstons" width="512" height="512">
+      <span class="wiki-logo-name">The Townstons</span>
     </NuxtLink>
+
+    <div class="portlet">
+      <h5>Account</h5>
+      <div class="pBody">
+        <ul>
+          <template v-if="user">
+            <li><span class="wiki-account-email">{{ profile?.username || 'Account' }}</span></li>
+            <li v-if="canEdit"><NuxtLink to="/new">New page</NuxtLink></li>
+            <li><a href="#" @click.prevent="logout">Log out</a></li>
+          </template>
+          <template v-else>
+            <li><NuxtLink to="/login">Log in</NuxtLink></li>
+            <li><NuxtLink to="/signup">Sign up</NuxtLink></li>
+          </template>
+        </ul>
+      </div>
+    </div>
+
+    <div v-if="isAdmin" class="portlet">
+      <h5>Admin</h5>
+      <div class="pBody">
+        <ul>
+          <li><NuxtLink to="/changes">All changes</NuxtLink></li>
+          <li><NuxtLink to="/admin/images">Approve images</NuxtLink></li>
+        </ul>
+      </div>
+    </div>
 
     <div v-for="group in sections" :key="group.title" class="portlet">
       <h5>{{ group.title }}</h5>

@@ -1,17 +1,11 @@
 <script setup lang="ts">
-const { data: pages } = await useAsyncData('wiki-random-list', () => $fetch('/api/pages').catch(() => []))
-
-onMounted(() => {
-  const list = Array.isArray(pages.value) ? pages.value : []
-  if (!list.length) {
-    navigateTo('/all', { replace: true })
-    return
-  }
-  const i = Math.floor(Math.random() * list.length)
-  navigateTo(list[i]!.path, { replace: true })
-})
-
-useHead({ title: 'Random page' })
+const { data } = await useAsyncData('wiki-random', () => $fetch('/api/random'))
+if (data.value?.path) {
+  await navigateTo(data.value.path, { replace: true })
+}
+else {
+  await navigateTo('/all', { replace: true })
+}
 </script>
 
 <template>

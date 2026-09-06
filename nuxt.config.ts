@@ -1,51 +1,14 @@
-import { readdirSync, readFileSync, statSync } from 'node:fs'
-import { join } from 'node:path'
-import { encodeWikiSlug } from './shared/wiki'
-
-function wikiRoutes(dir: string): string[] {
-  const routes: string[] = []
-  const walk = (current: string) => {
-    for (const name of readdirSync(current)) {
-      const full = join(current, name)
-      if (statSync(full).isDirectory()) {
-        walk(full)
-        continue
-      }
-      if (!name.endsWith('.json')) continue
-      try {
-        const data = JSON.parse(readFileSync(full, 'utf8')) as { path?: string }
-        if (!data.path) continue
-        let path = data.path
-        try {
-          path = decodeURIComponent(data.path)
-        }
-        catch {
-          // keep encoded
-        }
-        const slug = path.replace(/^\/wiki\//, '')
-        const encoded = `/wiki/${encodeWikiSlug(slug)}`
-        routes.push(path)
-        if (encoded !== path) routes.push(encoded)
-        routes.push(`/api/wiki/${slug}`)
-        if (encoded !== path) routes.push(`/api/wiki/${encoded.replace(/^\/wiki\//, '')}`)
-      }
-      catch {
-        // skip broken generated files
-      }
-    }
-  }
-  try {
-    walk(dir)
-  }
-  catch {
-    return []
-  }
-  return routes
-}
-
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   css: ['~/assets/css/wiki.css'],
+  runtimeConfig: {
+    supabaseServiceRoleKey: '',
+    public: {
+      supabaseUrl: '',
+      supabaseAnonKey: '',
+      siteUrl: 'https://www.thetownstons.com',
+    },
+  },
   app: {
     head: {
       title: 'The Townstons',
@@ -64,7 +27,7 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: false,
       failOnError: false,
-      routes: ['/', '/all', '/api/wiki', '/api/pages', ...wikiRoutes('content/wiki')],
+      routes: ['/'],
     },
   },
 })

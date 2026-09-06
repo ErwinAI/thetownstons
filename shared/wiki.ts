@@ -33,7 +33,7 @@ export function foldWikiKey(value: string): string {
 }
 
 /** Old wiki titles that 404 but have a recovered page under another name. */
-const SLUG_ALIASES: Record<string, string> = {
+export const SLUG_ALIASES: Record<string, string> = {
   shrines: 'attribute shrine',
   shrine: 'attribute shrine',
   "abaddon's handy candy boomstick": "abaddon's handy candy broomstick",
@@ -127,6 +127,23 @@ export function findWikiMatch<T extends WikiLookup>(slug: string, pages: T[] | n
 
 export function findCanonicalPath(slug: string, pages: WikiLookup[] | null | undefined): string | undefined {
   return findWikiMatch(slug, pages)?.path
+}
+
+export function foldCategoryName(name: string): string {
+  return name.replace(/^Category:/i, '').replace(/_/g, ' ').replace(/\s+/g, ' ').trim()
+}
+
+export function mergeCategoryNames(...lists: (string[] | undefined)[]): string[] {
+  const byFold = new Map<string, string>()
+  for (const list of lists) {
+    for (const raw of list || []) {
+      const name = foldCategoryName(raw)
+      if (!name) continue
+      const key = name.toLowerCase()
+      if (!byFold.has(key)) byFold.set(key, name)
+    }
+  }
+  return [...byFold.values()]
 }
 
 export function wikiApiPath(wikiPath: string): string {

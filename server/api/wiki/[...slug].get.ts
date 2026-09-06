@@ -1,6 +1,7 @@
 import { mergeQuestionTitle } from '#shared/wiki'
+import { resolveWikiPage } from '../../utils/wiki-db'
 
-export default defineEventHandler((event) => {
+export default defineEventHandler(async (event) => {
   const slug = (getRouterParam(event, 'slug') || '').replace(/\/+$/, '')
   const full = (event.node?.req?.url || event.path || '').replace(/^\/api\/wiki\//, '')
   const q = full.indexOf('?')
@@ -14,7 +15,7 @@ export default defineEventHandler((event) => {
   catch {
     // keep raw
   }
-  const page = findWikiPage(slug) || findWikiPage(decoded) || findWikiPage(raw)
+  const page = await resolveWikiPage(slug) || await resolveWikiPage(decoded) || await resolveWikiPage(raw)
   if (!page) {
     throw createError({ statusCode: 404, statusMessage: 'Page not found' })
   }

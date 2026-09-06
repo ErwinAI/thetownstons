@@ -17,6 +17,7 @@ const topics = [
 ]
 
 const news = [
+  { date: '6 September 2026', text: 'The wiki is live again. Editing is open. We are writing new pages and improving the old ones.' },
   { date: '26 September 2008', text: 'Chunk 4 UPDATE Progress' },
   { date: '12 July 2008', text: 'The new Chunk, loads of info!' },
   { date: '28 May 2008', text: 'The Townstons Forums are up!' },
@@ -82,7 +83,7 @@ const polls = [
       <div class="home-box" style="background:#f0f0ff">
         <p class="home-banner">Contributor</p>
         <p><b>Players like YOU made this wiki successful!</b></p>
-        <p>This is a static restore. Editing, accounts, forums, and chat from 2008 are not coming back. Read the pages. That's the point.</p>
+        <p>Sign up, confirm your email, and hit Edit. We are writing new pages and cleaning up the old ones. Jump in.</p>
         <p>
           <b>Getting Started:</b>
           See the <NuxtLink to="/wiki/Wiki_Guide">Beginner's Guide</NuxtLink>
