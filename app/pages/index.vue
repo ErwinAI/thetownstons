@@ -16,7 +16,7 @@ const topics = [
   { to: '/wiki/Category/Glossary', label: 'Glossary', blurb: 'Definitions of game terms, many with links to more extensive articles.' },
 ]
 
-const rainbowPages = [
+const newPages = [
   { to: '/wiki/Rainbow_Drops', label: 'Rainbow Drops', blurb: 'Boss, chest, HDoL, and Well 1-in-N. Five on Insane is 1250% loot.' },
   { to: '/wiki/Boss_Lair_Rainbows', label: 'Boss Lair Rainbows', blurb: 'The named chest lists. Sissirat through Manglefeet, with level floors.' },
   { to: '/wiki/Rainbow_Level_Bands', label: 'Rainbow Level Bands', blurb: 'Which shared-pile names can show at 15 / 35 / 55 / 75 / 95.' },
@@ -82,16 +82,6 @@ const polls = [
     </div>
 
     <div class="home-grid">
-      <div class="home-box home-box-wide" style="background:#fff6d6">
-        <p class="home-banner">Rainbows</p>
-        <ul>
-          <li v-for="page in rainbowPages" :key="page.to">
-            <b><NuxtLink :to="page.to">{{ page.label }}</NuxtLink>:</b>
-            <i> {{ page.blurb }}</i>
-          </li>
-        </ul>
-      </div>
-
       <div class="home-box" style="background:bisque">
         <p class="home-banner">Main Topics</p>
         <ul>
@@ -102,15 +92,14 @@ const polls = [
         </ul>
       </div>
 
-      <div class="home-box" style="background:#f0f0ff">
-        <p class="home-banner">Contributor</p>
-        <p><b>Players like YOU made this wiki successful!</b></p>
-        <p>Sign up, confirm your email, and hit Edit. We are writing new pages and cleaning up the old ones. Jump in.</p>
-        <p>
-          <b>Getting Started:</b>
-          See the <NuxtLink to="/wiki/Help/Contents">Beginner's Guide</NuxtLink>
-          or browse <NuxtLink to="/all">every article</NuxtLink>.
-        </p>
+      <div class="home-box" style="background:#fff6d6">
+        <p class="home-banner">New pages (2026)</p>
+        <ul>
+          <li v-for="page in newPages" :key="page.to">
+            <b><NuxtLink :to="page.to">{{ page.label }}</NuxtLink>:</b>
+            <i> {{ page.blurb }}</i>
+          </li>
+        </ul>
       </div>
 
       <div class="home-box" style="background:bisque">
