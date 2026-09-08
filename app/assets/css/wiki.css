@@ -290,6 +290,10 @@ a.missing { color: var(--wiki-missing); }
   gap: 10px;
 }
 
+.home-box-wide {
+  grid-column: 1 / -1;
+}
+
 @media (max-width: 800px) {
   .wiki-shell { grid-template-columns: 1fr; }
   .wiki-content-wrap { border-right: 1px solid var(--wiki-border); }

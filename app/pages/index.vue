@@ -16,7 +16,18 @@ const topics = [
   { to: '/wiki/Category/Glossary', label: 'Glossary', blurb: 'Definitions of game terms, many with links to more extensive articles.' },
 ]
 
+const rainbowPages = [
+  { to: '/wiki/Rainbow_Drops', label: 'Rainbow Drops', blurb: 'Boss, chest, HDoL, and Well 1-in-N. Five on Insane is 1250% loot.' },
+  { to: '/wiki/Boss_Lair_Rainbows', label: 'Boss Lair Rainbows', blurb: 'The named chest lists. Sissirat through Manglefeet, with level floors.' },
+  { to: '/wiki/Rainbow_Level_Bands', label: 'Rainbow Level Bands', blurb: 'Which shared-pile names can show at 15 / 35 / 55 / 75 / 95.' },
+  { to: '/wiki/Boss_Exclusive_Rainbow_Farming', label: 'Boss-Exclusive Rainbow Farming', blurb: 'Loot percent, party split, and worked examples for those named chests.' },
+  { to: '/wiki/Well-Only_Rainbows', label: 'Well-Only Rainbows', blurb: 'Pirate set, mouse ears, Charge!, NC Hammer. Not the shared pile.' },
+  { to: '/wiki/Discontinued_Rainbows', label: 'Discontinued Rainbows', blurb: 'Names that still exist but no longer drop. Cooper, Milwaukee, and the rest.' },
+  { to: '/wiki/Wishing_Well', label: 'Wishing Well', blurb: 'Two items per paid toss. Well-specific pile is 1 in 20. Cooldown is 30 minutes.' },
+]
+
 const news = [
+  { date: '8 September 2026', text: 'Rainbow hubs are up: boss lair lists, level bands, Well-only names, discontinued names, and Well odds.' },
   { date: '6 September 2026', text: 'The wiki is live again. Editing is open. We are writing new pages and improving the old ones.' },
   { date: '26 September 2008', text: 'Chunk 4 UPDATE Progress' },
   { date: '12 July 2008', text: 'The new Chunk, loads of info!' },
@@ -70,6 +81,16 @@ const polls = [
     </div>
 
     <div class="home-grid">
+      <div class="home-box home-box-wide" style="background:#fff6d6">
+        <p class="home-banner">Rainbows</p>
+        <ul>
+          <li v-for="page in rainbowPages" :key="page.to">
+            <b><NuxtLink :to="page.to">{{ page.label }}</NuxtLink>:</b>
+            <i> {{ page.blurb }}</i>
+          </li>
+        </ul>
+      </div>
+
       <div class="home-box" style="background:bisque">
         <p class="home-banner">Main Topics</p>
         <ul>
