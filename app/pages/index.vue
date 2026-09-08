@@ -23,7 +23,8 @@ const rainbowPages = [
   { to: '/wiki/Boss_Exclusive_Rainbow_Farming', label: 'Boss-Exclusive Rainbow Farming', blurb: 'Loot percent, party split, and worked examples for those named chests.' },
   { to: '/wiki/Well-Only_Rainbows', label: 'Well-Only Rainbows', blurb: 'Pirate set, mouse ears, Charge!, NC Hammer. Not the shared pile.' },
   { to: '/wiki/Discontinued_Rainbows', label: 'Discontinued Rainbows', blurb: 'Names that still exist but no longer drop. Cooper, Milwaukee, and the rest.' },
-  { to: '/wiki/Wishing_Well', label: 'Wishing Well', blurb: 'Two items per paid toss. Well-specific pile is 1 in 20. Cooldown is 30 minutes.' },
+  { to: '/wiki/Wishing_Well', label: 'Wishing Well', blurb: 'Top of Townston. Two items, 30 minutes, 1 in 20 for the extra bag.' },
+  { to: '/wiki/Wishing_Well_Guide', label: 'Wishing Well Guide', blurb: 'The long Well writeup. Rolls, level floors, and why a 16 is not a Charge! mule.' },
 ]
 
 const news = [
