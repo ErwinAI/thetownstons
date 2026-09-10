@@ -22,12 +22,14 @@ const newPages = [
   { to: '/wiki/Rainbow_Level_Bands', label: 'Rainbow Level Bands', blurb: 'Which shared-pile names can show at 15 / 35 / 55 / 75 / 95.' },
   { to: '/wiki/Boss_Exclusive_Rainbow_Farming', label: 'Boss-Exclusive Rainbow Farming', blurb: 'Loot percent, party split, and worked examples for those named chests.' },
   { to: '/wiki/Well-Only_Rainbows', label: 'Well-Only Rainbows', blurb: 'Pirate set, mouse ears, Charge!, NC Hammer. Not the shared pile.' },
+  { to: '/wiki/Holiday_Rainbows', label: 'Holiday Rainbows', blurb: "Karl's 1st Edition pack vs the snowman hats. Two different holiday piles." },
   { to: '/wiki/Discontinued_Rainbows', label: 'Discontinued Rainbows', blurb: 'Names that still exist but no longer drop. Cooper, Milwaukee, and the rest.' },
   { to: '/wiki/Wishing_Well', label: 'Wishing Well', blurb: 'Top of Townston. Two items, 30 minutes, 1 in 20 for the extra bag.' },
   { to: '/wiki/Wishing_Well_Guide', label: 'Wishing Well Guide', blurb: 'The long Well writeup. Rolls, level floors, and why a 16 is not a Charge! mule.' },
 ]
 
 const news = [
+  { date: '10 September 2026', text: 'Holiday Rainbows is up: Karl\'s 1st Edition pack vs the snowman hats.' },
   { date: '8 September 2026', text: 'Rainbow hubs are up: boss lair lists, level bands, Well-only names, discontinued names, and Well odds.' },
   { date: '6 September 2026', text: 'The wiki is live again. Editing is open. We are writing new pages and improving the old ones.' },
   { date: '26 September 2008', text: 'Chunk 4 UPDATE Progress' },
