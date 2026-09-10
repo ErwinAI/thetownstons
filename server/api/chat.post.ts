@@ -77,7 +77,7 @@ export default defineEventHandler(async (event) => {
     const pages = await loadKarlPages(body?.page, body?.mentions)
     const extra = pageBlock(pages)
     const instructions = extra
-      ? `${KARL_INSTRUCTIONS}\n\nThe Dungeon Runner has these wiki pages open. Use them. Still search if you need more.\n\n${extra}`
+      ? `${KARL_INSTRUCTIONS}\n\nThe Dungeon Runner has these wiki pages open. Use them. Still run both searches.\n\n${extra}`
       : KARL_INSTRUCTIONS
 
     const embeds = new Map<string, Promise<KarlHit[]>>()
@@ -94,10 +94,16 @@ export default defineEventHandler(async (event) => {
       model: gateway('openai/gpt-5.6-luna'),
       instructions,
       messages: await convertToModelMessages(incoming),
-      stopWhen: isStepCount(4),
-      prepareStep: ({ stepNumber }) => ({
-        toolChoice: stepNumber === 0 ? 'required' : stepNumber >= 2 ? 'none' : 'auto',
-      }),
+      stopWhen: isStepCount(3),
+      prepareStep: ({ stepNumber }) => {
+        if (stepNumber === 0) {
+          return { toolChoice: { type: 'tool', toolName: 'searchArticles' } }
+        }
+        if (stepNumber === 1) {
+          return { toolChoice: { type: 'tool', toolName: 'searchGame' } }
+        }
+        return { toolChoice: 'none' }
+      },
       tools: {
         searchArticles: tool({
           description: 'Search Townstons wiki articles. Use for write-ups, guides, quests, and item pages. For dual stats or name words, search Name Descriptors. For best in slot, search the slot and class.',
