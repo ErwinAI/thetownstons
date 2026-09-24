@@ -238,8 +238,8 @@ html:has(.fit-app) body {
 
 .fit-nameplate {
   grid-column: 1 / -1;
-  width: 256px;
-  height: 128px;
+  width: 220px;
+  height: 88px;
   margin: 0 auto;
   background: url("/fit/ui/nameplate.png") center / 100% 100% no-repeat;
   display: flex;
@@ -247,21 +247,21 @@ html:has(.fit-app) body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 42px 40px 34px;
+  padding: 20px 26px 16px;
   box-sizing: border-box;
 }
 
 .fit-nameplate strong {
-  font-size: 0.95rem;
-  line-height: 1.15;
+  font-size: 1.22rem;
+  line-height: 1.1;
   max-width: 100%;
   text-shadow: 0 1px 2px #000;
 }
 
 .fit-nameplate span {
   color: var(--fit-muted);
-  font-size: 0.7rem;
-  line-height: 1.2;
+  font-size: 0.84rem;
+  line-height: 1.15;
   max-width: 100%;
 }
 
@@ -286,7 +286,7 @@ html:has(.fit-app) body {
   width: 90%;
   height: 90%;
   object-fit: contain;
-  image-rendering: pixelated;
+  image-rendering: auto;
   pointer-events: none;
 }
 
@@ -439,7 +439,7 @@ html:has(.fit-app) body {
   width: 90%;
   height: 90%;
   object-fit: contain;
-  image-rendering: pixelated;
+  image-rendering: auto;
 }
 
 .fit-skill .lvl {
@@ -625,7 +625,7 @@ html:has(.fit-app) body {
     width: 100%;
   }
   .fit-nameplate {
-    width: 256px;
-    height: 128px;
+    width: 220px;
+    height: 88px;
   }
 }

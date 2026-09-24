@@ -104,7 +104,7 @@ async function placeIcon(
   const innerW = Math.max(2, Math.round(box.w * 0.9))
   const innerH = Math.max(2, Math.round(box.h * 0.9))
   let png = await sharp(iconBuf)
-    .resize({ width: innerW, height: innerH, fit: 'inside', kernel: 'nearest' })
+    .resize({ width: innerW, height: innerH, fit: 'inside', kernel: 'lanczos3' })
     .png()
     .toBuffer()
   if (ghost) png = await withOpacity(sharp, png, 0.4)

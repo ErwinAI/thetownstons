@@ -404,7 +404,7 @@ def icon_stem(raw: str | None) -> str | None:
     return stem or None
 
 
-def convert_icon(src: Path, dest: Path, size: int = 64) -> bool:
+def convert_icon(src: Path, dest: Path, size: int = 256) -> bool:
     dest.parent.mkdir(parents=True, exist_ok=True)
     try:
         with Image.open(src) as im:
@@ -584,9 +584,6 @@ def main() -> None:
                     break
         if not dds_name:
             missing += 1
-            continue
-        if dest.exists() and dest.stat().st_size > 24:
-            converted += 1
             continue
         if convert_icon(DUMP / dds_name, dest):
             converted += 1
