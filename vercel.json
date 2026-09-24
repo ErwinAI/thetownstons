@@ -3,6 +3,10 @@
     {
       "path": "/api/fit/cron",
       "schedule": "27 4 * * *"
+    },
+    {
+      "path": "/api/fit/og-cron",
+      "schedule": "13 * * * *"
     }
   ]
 }

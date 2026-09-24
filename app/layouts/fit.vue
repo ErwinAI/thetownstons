@@ -3,11 +3,15 @@ import '~/assets/css/fit.css'
 import { isFitHost, WIKI_ORIGIN } from '#shared/fit'
 
 const FIT_TITLE = 'Dungeon Runners Character Fit Viewer (patent pending)'
+const FIT_DESC = 'Look up a Dungeon Runners character: gear, skill tray, and spent attributes.'
 
 const url = useRequestURL()
 const fitHost = computed(() => isFitHost(url.host))
 const home = computed(() => (fitHost.value ? '/' : '/fit'))
 const searchesHref = computed(() => (fitHost.value ? '/searches' : '/fit/searches'))
+const origin = computed(() => `${url.protocol}//${url.host}`)
+const homeAbs = computed(() => origin.value + (fitHost.value ? '/' : '/fit'))
+const defaultOg = computed(() => `${origin.value}/fit/og-default.png`)
 
 useHead({
   title: FIT_TITLE,
@@ -15,9 +19,31 @@ useHead({
     if (!title || title === FIT_TITLE) return FIT_TITLE
     return `${title} · Fit`
   },
-  meta: [
-    { name: 'description', content: 'Look up a Dungeon Runners character: gear, skill tray, and spent attributes.' },
+  htmlAttrs: { lang: 'en' },
+  link: [
+    { rel: 'icon', href: '/favicon.ico', sizes: '32x32' },
+    { rel: 'icon', type: 'image/png', href: '/favicon.png', sizes: '32x32' },
+    { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
   ],
+})
+
+useSeoMeta({
+  description: FIT_DESC,
+  ogType: 'website',
+  ogSiteName: 'Fit',
+  ogTitle: FIT_TITLE,
+  ogDescription: FIT_DESC,
+  ogUrl: homeAbs,
+  ogImage: defaultOg,
+  ogImageWidth: 1200,
+  ogImageHeight: 630,
+  ogImageAlt: FIT_TITLE,
+  ogImageType: 'image/png',
+  twitterCard: 'summary_large_image',
+  twitterTitle: FIT_TITLE,
+  twitterDescription: FIT_DESC,
+  twitterImage: defaultOg,
+  themeColor: '#140a05',
 })
 
 const q = ref('')

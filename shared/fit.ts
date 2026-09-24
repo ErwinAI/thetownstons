@@ -21,6 +21,15 @@ export function isFitPassthrough(path: string): boolean {
   return /^\/(_nuxt|_ipx|__nuxt|api\/|images\/|fit\/|favicon|apple-touch|robots|sitemap|_vercel)/i.test(path)
 }
 
+export function fitOgImagePath(name: string, hash?: string | null) {
+  const slug = encodeURIComponent(name)
+  if (!hash) return `/api/fit/og/${slug}.png`
+  const v = /^[a-f0-9]{8,}$/i.test(hash)
+    ? hash.slice(0, 12)
+    : hash.replace(/[^\dA-Za-z.-]/g, '').slice(0, 20)
+  return `/api/fit/og/${slug}.png?v=${encodeURIComponent(v)}`
+}
+
 export const GEAR_SLOTS = [
   { id: 10, key: 'weapon', label: 'Weapon' },
   { id: 11, key: 'shield', label: 'Off-hand' },

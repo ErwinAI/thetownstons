@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { GEAR_SLOTS, HOTBAR_SLOTS, isFitHost, normalizeCharName } from '#shared/fit'
+import { GEAR_SLOTS, HOTBAR_SLOTS, fitOgImagePath, isFitHost, normalizeCharName } from '#shared/fit'
 import { formatGold, formatPlayed, formatWhen, type FitSeriesPoint, type FitSession } from '#shared/fit-xp'
 
 type FitCharView = {
@@ -33,8 +33,21 @@ const rawName = computed(() => {
 })
 const at = computed(() => String(route.query.at || ''))
 
+const url = useRequestURL()
+const origin = computed(() => `${url.protocol}//${url.host}`)
+const fitHost = isFitHost(url.host)
+const home = fitHost ? '/' : '/fit/'
+const canonical = computed(() => {
+  const path = fitHost
+    ? `/${encodeURIComponent(rawName.value || '')}`
+    : `/fit/${encodeURIComponent(rawName.value || '')}`
+  const href = origin.value + path
+  return at.value ? `${href}?at=${encodeURIComponent(at.value)}` : href
+})
+
 useHead({
   title: () => rawName.value || 'Character',
+  link: [{ rel: 'canonical', href: canonical }],
 })
 
 const { data, error, pending, refresh } = await useAsyncData(
@@ -58,6 +71,40 @@ const { data: progress } = await useAsyncData(
 )
 
 watch(at, () => { refresh() })
+
+const ogImage = computed(() => {
+  const name = data.value?.name || rawName.value || 'character'
+  const path = fitOgImagePath(name, at.value || data.value?.fetchedAt || undefined)
+  return origin.value + path
+})
+const ogTitle = computed(() => {
+  const row = data.value
+  if (!row) return rawName.value || 'Character'
+  return `${row.name} · Level ${row.level} ${row.classLabel}`
+})
+const ogDesc = computed(() => {
+  const row = data.value
+  if (!row) return `Look up ${rawName.value || 'this character'} on Fit.`
+  return `${row.name} is a level ${row.level} ${row.classLabel}. Gear, skill tray, and spent attributes from the public Dungeon Runners sheet.`
+})
+
+useSeoMeta({
+  description: ogDesc,
+  ogType: 'profile',
+  ogSiteName: 'Fit',
+  ogTitle,
+  ogDescription: ogDesc,
+  ogUrl: canonical,
+  ogImage,
+  ogImageWidth: 1200,
+  ogImageHeight: 630,
+  ogImageAlt: ogTitle,
+  ogImageType: 'image/png',
+  twitterCard: 'summary_large_image',
+  twitterTitle: ogTitle,
+  twitterDescription: ogDesc,
+  twitterImage: ogImage,
+})
 
 const tip = ref<{
   x: number
@@ -133,9 +180,6 @@ function openWiki(ev: MouseEvent, wiki: string | null | undefined) {
 }
 
 const char = computed(() => data.value)
-const url = useRequestURL()
-const fitHost = isFitHost(url.host)
-const home = fitHost ? '/' : '/fit/'
 
 function sheetLink(when?: string | null) {
   const path = fitHost ? `/${encodeURIComponent(rawName.value || '')}` : `/fit/${encodeURIComponent(rawName.value || '')}`

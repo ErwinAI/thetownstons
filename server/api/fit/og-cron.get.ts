@@ -1,4 +1,4 @@
-import { runFitCrawl } from '../../utils/fit-store'
+import { runFitOgBackfill } from '../../utils/fit-og'
 
 function assertCron(event: Parameters<typeof getHeader>[0]) {
   const secret = String(process.env.CRON_SECRET || '')
@@ -12,10 +12,10 @@ function assertCron(event: Parameters<typeof getHeader>[0]) {
 export default defineEventHandler(async (event) => {
   assertCron(event)
   const query = getQuery(event)
-  const batch = Number(query.batch || useRuntimeConfig().fitCronBatch || 80)
-  const budgetMs = Number(query.budgetMs || 180_000)
-  return await runFitCrawl({
-    batch: Number.isFinite(batch) ? Math.min(Math.max(batch, 1), 150) : 80,
-    budgetMs: Number.isFinite(budgetMs) ? Math.min(Math.max(budgetMs, 5000), 280_000) : 180_000,
+  const batch = Number(query.batch || 12)
+  const budgetMs = Number(query.budgetMs || 50_000)
+  return await runFitOgBackfill({
+    batch: Number.isFinite(batch) ? Math.min(Math.max(batch, 1), 40) : 12,
+    budgetMs: Number.isFinite(budgetMs) ? Math.min(Math.max(budgetMs, 5000), 120_000) : 50_000,
   })
 })

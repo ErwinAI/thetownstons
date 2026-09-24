@@ -8,10 +8,13 @@ type SearchRow = {
   at?: string | null
 }
 
-useHead({ title: 'Last searched' })
-
 const url = useRequestURL()
 const fitHost = isFitHost(url.host)
+
+useHead({
+  title: 'Last searched',
+  link: [{ rel: 'canonical', href: `${url.protocol}//${url.host}${fitHost ? '/searches' : '/fit/searches'}` }],
+})
 
 function hrefFor(name: string) {
   const slug = encodeURIComponent(name)

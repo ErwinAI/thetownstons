@@ -28,6 +28,9 @@ export type FitCharRow = {
   payload_hash: string | null
   search_count?: number
   last_searched_at?: string | null
+  og_hash?: string | null
+  og_path?: string | null
+  og_at?: string | null
 }
 
 export type FitSearchHit = {
@@ -276,7 +279,7 @@ export async function loadHistory(name: string): Promise<{ series: FitSeriesPoin
   return { series, sessions: sessionsFromSeries(series) }
 }
 
-async function loadSheetAt(name: string, at: string | undefined): Promise<FitSnapshotRow | null> {
+export async function loadSheetAt(name: string, at?: string): Promise<FitSnapshotRow | null> {
   const client = db()
   if (!client) return null
   const key = nameKey(name)
@@ -391,6 +394,10 @@ export async function saveLiveSheet(
       played_seconds: played,
       body,
     })
+  }
+  if (hash !== opts.charRow?.og_hash) {
+    const { captureFitOgSafe } = await import('./fit-og')
+    void captureFitOgSafe(key, hash, body, gold, played)
   }
   return { now, snapshotId, nextFetchAt: sched.nextFetchAt.toISOString(), gold, played }
 }

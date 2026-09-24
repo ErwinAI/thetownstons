@@ -1,14 +1,18 @@
 <script setup lang="ts">
 import { isFitHost } from '#shared/fit'
 
-useHead({ title: 'Dungeon Runners Character Fit Viewer (patent pending)' })
+const url = useRequestURL()
+const fitHost = isFitHost(url.host)
+const canonical = `${url.protocol}//${url.host}${fitHost ? '/' : '/fit'}`
+
+useHead({
+  title: 'Dungeon Runners Character Fit Viewer (patent pending)',
+  link: [{ rel: 'canonical', href: canonical }],
+})
 
 const { data: board, error } = await useAsyncData('fit-board-level', () =>
   $fetch<{ rows?: { name: string, class: string, level: number }[] }>('/api/fit/boards', { query: { kind: 'level' } }).catch(() => null),
 )
-
-const url = useRequestURL()
-const fitHost = isFitHost(url.host)
 
 function hrefFor(name: string) {
   const slug = encodeURIComponent(name)
