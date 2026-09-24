@@ -4,10 +4,12 @@ export default defineNuxtConfig({
   runtimeConfig: {
     supabaseServiceRoleKey: '',
     aiGatewayApiKey: '',
+    fitCronBatch: 20,
     public: {
       supabaseUrl: '',
       supabaseAnonKey: '',
       siteUrl: 'https://www.thetownstons.com',
+      fitSiteUrl: 'https://fit.thetownstons.com',
     },
   },
   app: {
@@ -29,6 +31,21 @@ export default defineNuxtConfig({
       crawlLinks: false,
       failOnError: false,
       routes: ['/'],
+    },
+    vercel: {
+      functions: {
+        maxDuration: 60,
+      },
+      config: {
+        crons: [
+          { path: '/api/fit/cron', schedule: '27 * * * *' },
+        ],
+      },
+    },
+  },
+  vite: {
+    server: {
+      allowedHosts: ['fit.thetownstons.com', 'fit.localhost', 'dungeonrunner.fit', '.dungeonrunner.fit'],
     },
   },
 })

@@ -12,12 +12,14 @@
     "restore:assets": ".venv/Scripts/python scripts/download_assets.py",
     "restore:images": ".venv/Scripts/python scripts/download_images.py",
     "wiki:import": "node scripts/import_wiki_to_supabase.mjs",
-    "wiki:embed": "node scripts/embed_wiki_and_gc.mjs"
+    "wiki:embed": "node scripts/embed_wiki_and_gc.mjs",
+    "fit:assets": ".venv/Scripts/python scripts/build_fit_assets.py"
   },
   "dependencies": {
     "@ai-sdk/vue": "^4.0.93",
     "@supabase/supabase-js": "^2.115.0",
     "ai": "^7.0.93",
+    "chart.js": "^4.5.1",
     "marked": "^18.0.11",
     "nuxt": "^4.5.2",
     "turndown": "^7.2.4",

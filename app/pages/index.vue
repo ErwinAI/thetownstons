@@ -1,5 +1,10 @@
 <script setup lang="ts">
-useHead({ title: 'Main Page' })
+import { isFitHost } from '#shared/fit'
+
+const url = useRequestURL()
+const fitHost = isFitHost(url.host)
+
+useHead({ title: fitHost ? 'Character viewer' : 'Main Page' })
 
 const topics = [
   { to: '/wiki/Dungeons', label: 'Dungeons', blurb: 'Schematic maps, outlines and details of all dungeons' },
@@ -22,6 +27,7 @@ const newPages = [
   { to: '/wiki/Rainbow_Level_Bands', label: 'Rainbow Level Bands', blurb: 'Which shared-pile names can show at 15 / 35 / 55 / 75 / 95.' },
   { to: '/wiki/Boss_Exclusive_Rainbow_Farming', label: 'Boss-Exclusive Rainbow Farming', blurb: 'Loot percent, party split, and worked examples for those named chests.' },
   { to: '/wiki/Well-Only_Rainbows', label: 'Well-Only Rainbows', blurb: 'Pirate set, mouse ears, Charge!, NC Hammer. Not the shared pile.' },
+  { to: '/wiki/Item_Levels', label: 'Item Levels', blurb: 'T1 / T2 / T3. Mobs can drop 102. The Well stays at 100.' },
   { to: '/wiki/Holiday_Rainbows', label: 'Holiday Rainbows', blurb: "Karl's 1st Edition pack vs the snowman hats. Two different holiday piles." },
   { to: '/wiki/Discontinued_Rainbows', label: 'Discontinued Rainbows', blurb: 'Names that still exist but no longer drop. Cooper, Milwaukee, and the rest.' },
   { to: '/wiki/Wishing_Well', label: 'Wishing Well', blurb: 'Top of Townston. Two items, 30 minutes, 1 in 20 for the extra bag.' },
@@ -29,6 +35,7 @@ const newPages = [
 ]
 
 const news = [
+  { date: '12 September 2026', text: 'Item Levels is up: T1 / T2 / T3, the mob window, and the stat tables.' },
   { date: '10 September 2026', text: 'Holiday Rainbows is up: Karl\'s 1st Edition pack vs the snowman hats.' },
   { date: '8 September 2026', text: 'Rainbow hubs are up: boss lair lists, level bands, Well-only names, discontinued names, and Well odds.' },
   { date: '6 September 2026', text: 'The wiki is live again. Editing is open. We are writing new pages and improving the old ones.' },
@@ -67,7 +74,8 @@ const polls = [
 </script>
 
 <template>
-  <div>
+  <FitLanding v-if="fitHost" />
+  <div v-else>
     <h1 class="firstHeading">Main Page</h1>
     <div id="siteSub">From Townstons</div>
 
