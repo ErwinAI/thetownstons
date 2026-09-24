@@ -66,8 +66,10 @@ function go() {
         </NuxtLink>
         <a class="fit-by" :href="WIKI_ORIGIN">by the townstons</a>
       </div>
-      <div class="fit-search-row">
+      <nav class="fit-midnav">
         <NuxtLink class="fit-last-searched" :to="searchesHref">Last searched</NuxtLink>
+      </nav>
+      <div class="fit-search-row">
         <form class="fit-search" @submit.prevent="go">
           <input v-model="q" type="search" name="name" placeholder="Character name" maxlength="64" aria-label="Character name">
           <button type="submit">Look up</button>

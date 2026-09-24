@@ -439,7 +439,7 @@ def crop_ui() -> None:
 
     # Full frame including outer gold rails. Wipe the inner title plate so Fit can
     # put the name above the panel instead of stretching it across the art.
-    equip = ui2.crop((422, 29, 787, 297)).convert("RGBA")
+    equip = ui2.crop((422, 29, 787, 305)).convert("RGBA")
     dark = equip.getpixel((50, 90))
     ew, eh = equip.size
     for y in range(10, 48):

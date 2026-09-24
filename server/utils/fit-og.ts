@@ -9,21 +9,21 @@ export const OG_WIDTH = 1200
 export const OG_HEIGHT = 630
 export const OG_BUCKET = 'fit-og'
 
-const EQUIP_SRC = { w: 365, h: 268 }
+const EQUIP_SRC = { w: 365, h: 276 }
 const STATS_SRC = { w: 367, h: 571 }
 const NAMEPLATE_SRC = { w: 256, h: 128 }
 
 const SLOT_BOX: Record<string, { l: number, t: number, w: number, h: number }> = {
-  weapon: { l: 0.079, t: 0.187, w: 0.170, h: 0.466 },
-  helm: { l: 0.312, t: 0.198, w: 0.162, h: 0.228 },
-  shield: { l: 0.534, t: 0.194, w: 0.164, h: 0.459 },
-  shoulders: { l: 0.751, t: 0.187, w: 0.173, h: 0.235 },
-  armor: { l: 0.310, t: 0.496, w: 0.164, h: 0.451 },
-  ring1: { l: 0.742, t: 0.515, w: 0.082, h: 0.119 },
-  ring2: { l: 0.836, t: 0.515, w: 0.082, h: 0.119 },
-  gloves: { l: 0.077, t: 0.709, w: 0.173, h: 0.235 },
-  boots: { l: 0.532, t: 0.713, w: 0.164, h: 0.228 },
-  amulet: { l: 0.751, t: 0.705, w: 0.173, h: 0.239 },
+  weapon: { l: 0.079, t: 0.181, w: 0.170, h: 0.453 },
+  helm: { l: 0.312, t: 0.192, w: 0.162, h: 0.221 },
+  shield: { l: 0.534, t: 0.188, w: 0.164, h: 0.446 },
+  shoulders: { l: 0.751, t: 0.181, w: 0.173, h: 0.228 },
+  armor: { l: 0.310, t: 0.482, w: 0.164, h: 0.438 },
+  ring1: { l: 0.742, t: 0.500, w: 0.082, h: 0.116 },
+  ring2: { l: 0.836, t: 0.500, w: 0.082, h: 0.116 },
+  gloves: { l: 0.077, t: 0.688, w: 0.173, h: 0.228 },
+  boots: { l: 0.532, t: 0.692, w: 0.164, h: 0.221 },
+  amulet: { l: 0.751, t: 0.685, w: 0.173, h: 0.232 },
 }
 
 const uiCache = new Map<string, Buffer>()

@@ -31,12 +31,11 @@ html:has(.fit-app) body {
 }
 
 .fit-top {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+  gap: 0.65rem 1rem;
   padding: 0.85rem 1.25rem 0.4rem;
-  flex-wrap: wrap;
 }
 
 .fit-brand {
@@ -45,6 +44,7 @@ html:has(.fit-app) body {
   align-items: flex-start;
   gap: 0.15rem;
   min-width: 0;
+  justify-self: start;
 }
 
 .fit-brand-home {
@@ -71,10 +71,10 @@ html:has(.fit-app) body {
 
 .fit-brand-home strong {
   color: var(--fit-gold);
-  font-size: 1.02rem;
+  font-size: clamp(0.78rem, 1.05vw, 0.98rem);
   letter-spacing: 0.02em;
   line-height: 1.2;
-  max-width: 22rem;
+  white-space: nowrap;
 }
 
 .fit-app .fit-by {
@@ -83,16 +83,34 @@ html:has(.fit-app) body {
   font-size: 0.88rem;
 }
 
-.fit-search-row {
-  display: flex;
-  align-items: center;
-  gap: 0.85rem;
-  flex-wrap: wrap;
+.fit-midnav {
+  justify-self: center;
 }
 
 .fit-last-searched {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   white-space: nowrap;
   font-size: 0.95rem;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--fit-gold-dim);
+  background: linear-gradient(#3a2712, #24160b);
+  color: var(--fit-gold);
+}
+
+.fit-last-searched:hover {
+  border-color: var(--fit-gold);
+  text-decoration: none;
+}
+
+.fit-search-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.85rem;
+  flex-wrap: wrap;
+  justify-self: end;
 }
 
 .fit-search {
@@ -189,7 +207,7 @@ html:has(.fit-app) body {
 
 .fit-sheet {
   display: grid;
-  grid-template-columns: 1.622fr 0.643fr;
+  grid-template-columns: 1.45fr 0.78fr;
   gap: 1.1rem 1.15rem;
   justify-content: center;
   align-items: start;
@@ -199,9 +217,8 @@ html:has(.fit-app) body {
 
 .fit-nameplate {
   grid-column: 1 / -1;
-  width: min(380px, 92%);
-  aspect-ratio: 256 / 128;
-  height: auto;
+  width: 256px;
+  height: 128px;
   margin: 0 auto;
   background: url("/fit/ui/nameplate.png") center / 100% 100% no-repeat;
   display: flex;
@@ -209,34 +226,28 @@ html:has(.fit-app) body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0.35rem 12% 0.5rem;
+  padding: 42px 40px 34px;
   box-sizing: border-box;
 }
 
 .fit-nameplate strong {
-  font-size: clamp(1.12rem, 2vw, 1.4rem);
+  font-size: 0.95rem;
   line-height: 1.15;
   max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   text-shadow: 0 1px 2px #000;
 }
 
 .fit-nameplate span {
   color: var(--fit-muted);
-  font-size: 0.98rem;
+  font-size: 0.7rem;
   line-height: 1.2;
   max-width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .fit-equip {
   position: relative;
   width: 100%;
-  aspect-ratio: 365 / 268;
+  aspect-ratio: 365 / 276;
   background: url("/fit/ui/equip.png") center / 100% 100% no-repeat;
 }
 
@@ -271,16 +282,16 @@ html:has(.fit-app) body {
   outline-offset: -2px;
 }
 
-.fit-slot-weapon { left: 7.9%; top: 18.7%; width: 17.0%; height: 46.6%; }
-.fit-slot-helm { left: 31.2%; top: 19.8%; width: 16.2%; height: 22.8%; }
-.fit-slot-shield { left: 53.4%; top: 19.4%; width: 16.4%; height: 45.9%; }
-.fit-slot-shoulders { left: 75.1%; top: 18.7%; width: 17.3%; height: 23.5%; }
-.fit-slot-armor { left: 31.0%; top: 49.6%; width: 16.4%; height: 45.1%; }
-.fit-slot-ring1 { left: 74.2%; top: 51.5%; width: 8.2%; height: 11.9%; }
-.fit-slot-ring2 { left: 83.6%; top: 51.5%; width: 8.2%; height: 11.9%; }
-.fit-slot-gloves { left: 7.7%; top: 70.9%; width: 17.3%; height: 23.5%; }
-.fit-slot-boots { left: 53.2%; top: 71.3%; width: 16.4%; height: 22.8%; }
-.fit-slot-amulet { left: 75.1%; top: 70.5%; width: 17.3%; height: 23.9%; }
+.fit-slot-weapon { left: 7.9%; top: 18.1%; width: 17.0%; height: 45.3%; }
+.fit-slot-helm { left: 31.2%; top: 19.2%; width: 16.2%; height: 22.1%; }
+.fit-slot-shield { left: 53.4%; top: 18.8%; width: 16.4%; height: 44.6%; }
+.fit-slot-shoulders { left: 75.1%; top: 18.1%; width: 17.3%; height: 22.8%; }
+.fit-slot-armor { left: 31.0%; top: 48.2%; width: 16.4%; height: 43.8%; }
+.fit-slot-ring1 { left: 74.2%; top: 50.0%; width: 8.2%; height: 11.6%; }
+.fit-slot-ring2 { left: 83.6%; top: 50.0%; width: 8.2%; height: 11.6%; }
+.fit-slot-gloves { left: 7.7%; top: 68.8%; width: 17.3%; height: 22.8%; }
+.fit-slot-boots { left: 53.2%; top: 69.2%; width: 16.4%; height: 22.1%; }
+.fit-slot-amulet { left: 75.1%; top: 68.5%; width: 17.3%; height: 23.2%; }
 
 .fit-slot.is-ghost img {
   opacity: 0.4;
@@ -298,32 +309,32 @@ html:has(.fit-app) body {
 
 .fit-stats h2 {
   position: absolute;
-  left: 12%;
-  right: 12%;
-  top: 3.8%;
-  height: 5.4%;
+  left: 20%;
+  right: 20%;
+  top: 3.7%;
+  height: 3.4%;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: var(--fit-gold);
-  font-size: clamp(0.82rem, 1.25vw, 1.02rem);
+  font-size: clamp(0.88rem, 1.35vw, 1.08rem);
   letter-spacing: 0.03em;
 }
 
 .fit-attr {
   position: absolute;
-  left: 12%;
-  right: 12%;
-  top: 12%;
-  height: 18%;
+  left: 11%;
+  right: 11%;
+  top: 11.2%;
+  height: 20.5%;
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 0.12em 0.65em;
+  gap: 0.28em 0.65em;
   align-content: center;
   margin: 0;
-  font-size: 0.98em;
+  font-size: 1.12em;
 }
 
 .fit-attr span:nth-child(odd) {
@@ -337,16 +348,16 @@ html:has(.fit-app) body {
 
 .fit-meta {
   position: absolute;
-  left: 12%;
-  right: 12%;
-  top: 38%;
-  height: 14%;
+  left: 11%;
+  right: 11%;
+  top: 37.2%;
+  height: 16%;
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 0.18em 0.65em;
+  gap: 0.4em 0.65em;
   align-content: start;
   margin: 0;
-  font-size: 0.98em;
+  font-size: 1.12em;
 }
 
 .fit-meta span:nth-child(odd) {
@@ -562,6 +573,27 @@ html:has(.fit-app) body {
 }
 
 @media (max-width: 900px) {
+  .fit-top {
+    grid-template-columns: 1fr;
+  }
+  .fit-brand,
+  .fit-search-row,
+  .fit-midnav {
+    justify-self: stretch;
+  }
+  .fit-search-row {
+    justify-content: flex-start;
+  }
+  .fit-midnav {
+    order: 3;
+  }
+  .fit-last-searched {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .fit-brand-home strong {
+    white-space: normal;
+  }
   .fit-sheet {
     grid-template-columns: 1fr;
     width: min(640px, calc(100vw - 1.5rem));
@@ -572,6 +604,7 @@ html:has(.fit-app) body {
     width: 100%;
   }
   .fit-nameplate {
-    width: min(380px, 92%);
+    width: 256px;
+    height: 128px;
   }
 }
