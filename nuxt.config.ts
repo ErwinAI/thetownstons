@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     supabaseServiceRoleKey: '',
     aiGatewayApiKey: '',
-    fitCronBatch: 20,
+    fitCronBatch: 80,
     public: {
       supabaseUrl: '',
       supabaseAnonKey: '',
@@ -35,11 +35,6 @@ export default defineNuxtConfig({
     vercel: {
       functions: {
         maxDuration: 60,
-      },
-      config: {
-        crons: [
-          { path: '/api/fit/cron', schedule: '27 * * * *' },
-        ],
       },
     },
   },
