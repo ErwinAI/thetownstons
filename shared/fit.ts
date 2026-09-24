@@ -23,7 +23,7 @@ export function isFitPassthrough(path: string): boolean {
 
 export const GEAR_SLOTS = [
   { id: 10, key: 'weapon', label: 'Weapon' },
-  { id: 9, key: 'shield', label: 'Shield' },
+  { id: 11, key: 'shield', label: 'Off-hand' },
   { id: 5, key: 'helm', label: 'Helm' },
   { id: 1, key: 'amulet', label: 'Amulet' },
   { id: 6, key: 'armor', label: 'Armor' },

@@ -185,16 +185,28 @@ html:has(.fit-app) body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 0.55rem 18% 0.7rem;
+  box-sizing: border-box;
 }
 
 .fit-nameplate strong {
-  font-size: 1.25rem;
+  font-size: clamp(0.82rem, 2.6vw, 1.05rem);
+  line-height: 1.15;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   text-shadow: 0 1px 2px #000;
 }
 
 .fit-nameplate span {
   color: var(--fit-muted);
-  font-size: 0.85rem;
+  font-size: 0.72rem;
+  line-height: 1.15;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .fit-equip {

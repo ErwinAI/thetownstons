@@ -1,6 +1,7 @@
 import { ATTR_PANEL, GEAR_SLOTS, HOTBAR_SLOTS, parseAvatarClass, qualityClass, WIKI_ORIGIN } from '#shared/fit'
 import { wikiHref } from '#shared/wiki'
 import catalogJson from '../data/fit-catalog.json'
+import iconCaseJson from '../data/fit-icon-case.json'
 
 export type CatalogItem = {
   label: string
@@ -36,21 +37,51 @@ export type FitCatalog = {
   mods: Record<string, CatalogMod>
 }
 
+const SKILL_FIXUPS: Record<string, CatalogSkill> = {
+  'skills.generic.SummonSnowMan': {
+    label: 'Build Snowman',
+    description: 'You build a magical Snowman to help you in a fight. Ice skills keep him from melting.',
+    icon: 'SummonSnowman_On',
+    cooldown: 60,
+    mana: 10.25,
+    maxLevel: null,
+    values: {},
+  },
+}
+
 export function loadFitCatalog(): FitCatalog {
-  return catalogJson as FitCatalog
+  const catalog = catalogJson as FitCatalog
+  for (const [key, row] of Object.entries(SKILL_FIXUPS)) {
+    const cur = catalog.skills[key]
+    if (!cur?.icon) catalog.skills[key] = { ...row, ...cur }
+  }
+  return catalog
 }
 
 function lookupItem(catalog: FitCatalog, def: string): CatalogItem | null {
-  if (catalog.items[def]) return catalog.items[def]
-  const short = def.split('.').pop() || ''
-  for (const [key, row] of Object.entries(catalog.items)) {
-    if (key === short || key.endsWith('.' + short)) return row
+  const raw = String(def || '')
+  if (!raw) return null
+  const stripped = raw.replace(/^items\.pal\./i, '').replace(/^items\./i, '')
+  if (catalog.items[raw]) return catalog.items[raw]
+  if (catalog.items[stripped]) return catalog.items[stripped]
+  const parts = stripped.split('.').filter(Boolean)
+  if (parts.length >= 2) {
+    const two = parts.slice(-2).join('.')
+    if (catalog.items[two]) return catalog.items[two]
   }
   return null
 }
 
 function lookupSkill(catalog: FitCatalog, def: string): CatalogSkill | null {
-  return catalog.skills[def] || catalog.skills['skills.generic.' + (def.split('.').pop() || '')] || null
+  const raw = String(def || '')
+  const short = raw.split('.').pop() || ''
+  const direct = catalog.skills[raw] || catalog.skills['skills.generic.' + short]
+  if (direct?.label || direct?.icon) return direct
+  const lower = short.toLowerCase()
+  for (const [key, row] of Object.entries(catalog.skills)) {
+    if ((key.split('.').pop() || '').toLowerCase() === lower && (row.label || row.icon)) return row
+  }
+  return direct || null
 }
 
 function lookupMod(catalog: FitCatalog, def: string): CatalogMod | null {
@@ -62,9 +93,12 @@ function lookupMod(catalog: FitCatalog, def: string): CatalogMod | null {
   return null
 }
 
+const ICON_CASE = iconCaseJson as Record<string, string>
+
 function iconUrl(stem: string | null | undefined): string | null {
   if (!stem) return null
-  return `/fit/icons/${encodeURIComponent(stem)}.png`
+  const actual = ICON_CASE[stem] || ICON_CASE[stem.toLowerCase()] || stem
+  return `/fit/icons/${encodeURIComponent(actual)}.png`
 }
 
 function fillSkillText(text: string | null, skill: CatalogSkill | null, level: number): string | null {
