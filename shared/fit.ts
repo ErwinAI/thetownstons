@@ -5,7 +5,7 @@ export const FIT_HOSTS = [
 
 export const WIKI_ORIGIN = 'https://www.thetownstons.com'
 export const FIT_ORIGIN = 'https://fit.thetownstons.com'
-export const FIT_OG_VERSION = 2
+export const FIT_OG_VERSION = 3
 
 export function hostName(host: string): string {
   return String(host || '').split(':')[0].trim().toLowerCase()

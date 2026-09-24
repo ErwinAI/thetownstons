@@ -1,5 +1,6 @@
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
+import { parse as parseOpenType } from 'opentype.js'
 import { FIT_OG_VERSION, GEAR_SLOTS } from '#shared/fit'
 import { formatGold, formatPlayed } from '#shared/fit-xp'
 import { presentCharacter, type FitItemView } from './fit'
@@ -73,16 +74,6 @@ async function readPublic(rel: string): Promise<Buffer | null> {
   }
 }
 
-function escapeXml(text: string) {
-  return text.replace(/[&<>"']/g, (ch) => ({
-    '&': '&amp;',
-    '<': '&lt;',
-    '>': '&gt;',
-    '"': '&quot;',
-    "'": '&apos;',
-  }[ch] || ch))
-}
-
 function iconRel(icon: string | null | undefined) {
   if (!icon) return null
   const path = icon.replace(/^\//, '').split('?')[0]
@@ -96,27 +87,58 @@ async function withOpacity(sharp: typeof import('sharp'), input: Buffer, opacity
   return sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } }).png().toBuffer()
 }
 
-async function fitFontCss() {
+type OgFont = ReturnType<typeof parseOpenType>
+let ogFonts: { regular: OgFont, bold: OgFont } | null = null
+
+function fontFromBuffer(buf: Buffer) {
+  const copy = buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength)
+  return parseOpenType(copy)
+}
+
+async function readFontBytes(name: string): Promise<Buffer | null> {
+  try {
+    const raw = await useStorage('assets:fit-fonts').getItemRaw(name)
+    if (raw) return Buffer.from(raw as ArrayBuffer)
+  }
+  catch {
+    // public/ fallback
+  }
+  return readPublic(`fit/fonts/${name}`)
+}
+
+async function loadOgFonts() {
+  if (ogFonts) return ogFonts
   const [regular, bold] = await Promise.all([
-    readPublic('fit/fonts/Inter-Regular.ttf'),
-    readPublic('fit/fonts/Inter-Bold.ttf'),
+    readFontBytes('Inter-Regular.ttf'),
+    readFontBytes('Inter-Bold.ttf'),
   ])
   if (!regular || !bold) throw new Error('Fit OG fonts missing')
-  return `
-    @font-face {
-      font-family: 'FitOg';
-      font-weight: 400;
-      font-style: normal;
-      src: url('data:font/ttf;base64,${regular.toString('base64')}') format('truetype');
-    }
-    @font-face {
-      font-family: 'FitOg';
-      font-weight: 700;
-      font-style: normal;
-      src: url('data:font/ttf;base64,${bold.toString('base64')}') format('truetype');
-    }
-    text { font-family: 'FitOg', sans-serif; }
-  `
+  ogFonts = { regular: fontFromBuffer(regular), bold: fontFromBuffer(bold) }
+  return ogFonts
+}
+
+function textPath(
+  font: OgFont,
+  text: string,
+  x: number,
+  y: number,
+  size: number,
+  fill: string,
+  anchor: 'start' | 'middle' | 'end' = 'start',
+) {
+  const scale = size / (font.unitsPerEm || 1000)
+  const glyphs = Array.from(text).map((ch) => font.charToGlyph(ch))
+  const width = glyphs.reduce((sum, glyph) => sum + (glyph.advanceWidth || 0) * scale, 0)
+  let cursor = x
+  if (anchor === 'middle') cursor = x - width / 2
+  if (anchor === 'end') cursor = x - width
+  return glyphs.map((glyph) => {
+    const path = glyph.getPath(cursor, y, size, {}, font)
+    path.fill = fill
+    const svg = path.toSVG(1)
+    cursor += (glyph.advanceWidth || 0) * scale
+    return svg
+  }).join('')
 }
 
 export function isCurrentOg(
@@ -180,7 +202,7 @@ export async function renderFitOgPng(view: FitOgView): Promise<Buffer> {
   const bySlot = view.bySlot || {}
   const subtitle = view.subtitle ?? `Level ${view.level} ${view.classLabel}`
   const nameSize = view.name.length > 18 ? 22 : view.name.length > 13 ? 26 : 30
-  const fonts = await fitFontCss()
+  const fonts = await loadOgFonts()
 
   const equipLayers = (await Promise.all(GEAR_SLOTS.map(async (slot) => {
     const box = SLOT_BOX[slot.key]
@@ -228,26 +250,25 @@ export async function renderFitOgPng(view: FitOgView): Promise<Buffer> {
   const valueX = statsX + statsW * 0.86
   const attrSvg = attrRows.map((row, i) => {
     const y = Math.round(attrTop + attrH * (i + 0.5) / attrN)
-    return `
-      <text x="${labelX}" y="${y}" font-size="20" fill="#b9a078">${escapeXml(row.label)}</text>
-      <text x="${valueX}" y="${y}" text-anchor="end" font-size="20" fill="#ffffff">${escapeXml(row.value == null ? '—' : String(row.value))}</text>`
+    const value = row.value == null ? '—' : String(row.value)
+    return `${textPath(fonts.regular, row.label, labelX, y, 20, '#b9a078')}
+      ${textPath(fonts.regular, value, valueX, y, 20, '#ffffff', 'end')}`
   }).join('')
   const metaY1 = Math.round(statsY + statsH * 0.405)
   const metaY2 = Math.round(statsY + statsH * 0.455)
   const overlay = Buffer.from(`<?xml version="1.0" encoding="UTF-8"?>
     <svg width="${OG_WIDTH}" height="${OG_HEIGHT}" viewBox="0 0 ${OG_WIDTH} ${OG_HEIGHT}" xmlns="http://www.w3.org/2000/svg">
-      <defs><style><![CDATA[${fonts}]]></style></defs>
-      <text x="${nameCx}" y="${nameplateY + 50}" text-anchor="middle" font-size="${nameSize}" font-weight="700" fill="#f3e6c4">${escapeXml(view.name)}</text>
-      <text x="${nameCx}" y="${nameplateY + 70}" text-anchor="middle" font-size="16" fill="#b9a078">${escapeXml(subtitle)}</text>
-      <text x="${statsX + statsW / 2}" y="${Math.round(statsY + statsH * 0.054)}" text-anchor="middle" font-size="18" font-weight="700" fill="#d4b056">Attributes spent</text>
+      ${textPath(fonts.bold, view.name, nameCx, nameplateY + 50, nameSize, '#f3e6c4', 'middle')}
+      ${textPath(fonts.regular, subtitle, nameCx, nameplateY + 70, 16, '#b9a078', 'middle')}
+      ${textPath(fonts.bold, 'Attributes spent', statsX + statsW / 2, Math.round(statsY + statsH * 0.054), 18, '#d4b056', 'middle')}
       ${attrSvg}
-      <text x="${labelX}" y="${metaY1}" font-size="20" fill="#b9a078">Gold</text>
-      <text x="${valueX}" y="${metaY1}" text-anchor="end" font-size="20" fill="#ffffff">${escapeXml(formatGold(view.gold))}</text>
-      <text x="${labelX}" y="${metaY2}" font-size="20" fill="#b9a078">Played</text>
-      <text x="${valueX}" y="${metaY2}" text-anchor="end" font-size="20" fill="#ffffff">${escapeXml(formatPlayed(view.playedSeconds))}</text>
-      <text x="${OG_WIDTH - 36}" y="${OG_HEIGHT - 72}" text-anchor="end" font-size="18" fill="#c4a060">Check your own char!</text>
-      <text x="${OG_WIDTH - 36}" y="${OG_HEIGHT - 40}" text-anchor="end" font-size="32" font-weight="700" fill="#e8c56b">DungeonRunner.Fit</text>
-      <text x="${OG_WIDTH - 36}" y="${OG_HEIGHT - 12}" text-anchor="end" font-size="24" font-weight="700" fill="#f3e6c4">TheTownstons</text>
+      ${textPath(fonts.regular, 'Gold', labelX, metaY1, 20, '#b9a078')}
+      ${textPath(fonts.regular, formatGold(view.gold), valueX, metaY1, 20, '#ffffff', 'end')}
+      ${textPath(fonts.regular, 'Played', labelX, metaY2, 20, '#b9a078')}
+      ${textPath(fonts.regular, formatPlayed(view.playedSeconds), valueX, metaY2, 20, '#ffffff', 'end')}
+      ${textPath(fonts.regular, 'Check your own char!', OG_WIDTH - 36, OG_HEIGHT - 72, 18, '#c4a060', 'end')}
+      ${textPath(fonts.bold, 'DungeonRunner.Fit', OG_WIDTH - 36, OG_HEIGHT - 40, 32, '#e8c56b', 'end')}
+      ${textPath(fonts.bold, 'TheTownstons', OG_WIDTH - 36, OG_HEIGHT - 12, 24, '#f3e6c4', 'end')}
     </svg>
   `)
 

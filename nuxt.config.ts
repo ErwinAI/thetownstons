@@ -32,6 +32,9 @@ export default defineNuxtConfig({
       failOnError: false,
       routes: ['/'],
     },
+    serverAssets: [
+      { baseName: 'fit-fonts', dir: 'public/fit/fonts' },
+    ],
     vercel: {
       functions: {
         maxDuration: 300,
