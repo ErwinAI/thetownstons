@@ -85,7 +85,10 @@ const ogTitle = computed(() => {
 const ogDesc = computed(() => {
   const row = data.value
   if (!row) return `Look up ${rawName.value || 'this character'} on Fit.`
-  return `${row.name} is a level ${row.level} ${row.classLabel}. Gear, skill tray, and spent attributes from the public Dungeon Runners sheet.`
+  const bits = [`${row.name} is a level ${row.level} ${row.classLabel}.`]
+  if (row.gold != null && Number.isFinite(row.gold)) bits.push(`Gold ${formatGold(row.gold)}.`)
+  if (row.playedSeconds != null && Number.isFinite(row.playedSeconds)) bits.push(`Played ${formatPlayed(row.playedSeconds)}.`)
+  return bits.join(' ')
 })
 
 useSeoMeta({
