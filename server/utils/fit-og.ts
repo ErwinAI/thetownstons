@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
-import { parse as parseOpenType } from 'opentype.js'
+import opentype from 'opentype.js'
 import { FIT_OG_VERSION, GEAR_SLOTS } from '#shared/fit'
 import { formatGold, formatPlayed } from '#shared/fit-xp'
 import { presentCharacter, type FitItemView } from './fit'
@@ -87,15 +87,22 @@ async function withOpacity(sharp: typeof import('sharp'), input: Buffer, opacity
   return sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } }).png().toBuffer()
 }
 
-type OgFont = ReturnType<typeof parseOpenType>
+type OgFont = ReturnType<typeof opentype.parse>
 let ogFonts: { regular: OgFont, bold: OgFont } | null = null
 
 function fontFromBuffer(buf: Buffer) {
   const copy = buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength)
-  return parseOpenType(copy)
+  return opentype.parse(copy)
 }
 
 async function readFontBytes(name: string): Promise<Buffer | null> {
+  try {
+    const raw = await useStorage('assets:server').getItemRaw(`fit-fonts/${name}`)
+    if (raw) return Buffer.from(raw as ArrayBuffer)
+  }
+  catch {
+    // try public copy
+  }
   try {
     const raw = await useStorage('assets:fit-fonts').getItemRaw(name)
     if (raw) return Buffer.from(raw as ArrayBuffer)
