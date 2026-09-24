@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises'
 import { join } from 'node:path'
-import { GEAR_SLOTS } from '#shared/fit'
+import { FIT_OG_VERSION, GEAR_SLOTS } from '#shared/fit'
 import { formatGold, formatPlayed } from '#shared/fit-xp'
 import { presentCharacter, type FitItemView } from './fit'
 import { serviceClient } from './supabase'
@@ -8,10 +8,10 @@ import { serviceClient } from './supabase'
 export const OG_WIDTH = 1200
 export const OG_HEIGHT = 630
 export const OG_BUCKET = 'fit-og'
+export const OG_VERSION = FIT_OG_VERSION
 
 const EQUIP_SRC = { w: 365, h: 276 }
 const STATS_SRC = { w: 367, h: 571 }
-const NAMEPLATE_SRC = { w: 256, h: 128 }
 
 const SLOT_BOX: Record<string, { l: number, t: number, w: number, h: number }> = {
   weapon: { l: 0.079, t: 0.181, w: 0.170, h: 0.453 },
@@ -31,9 +31,10 @@ let bucketReady = false
 
 export type FitOgView = {
   name: string
+  subtitle?: string
   level: number
   classLabel: string
-  attributes: { key: string, label: string, value: number }[]
+  attributes: { key: string, label: string, value: number | null }[]
   bySlot: Record<number, FitItemView>
   gold: number | null
   playedSeconds: number | null
@@ -52,7 +53,7 @@ async function readPublic(rel: string): Promise<Buffer | null> {
   for (const p of publicFile(rel)) {
     try {
       const buf = await readFile(p)
-      if (rel.startsWith('fit/ui/')) uiCache.set(rel, buf)
+      if (rel.startsWith('fit/ui/') || rel.startsWith('fit/fonts/')) uiCache.set(rel, buf)
       return buf
     }
     catch {
@@ -64,7 +65,7 @@ async function readPublic(rel: string): Promise<Buffer | null> {
     const res = await fetch(`${origin}/${rel}`)
     if (!res.ok) return null
     const buf = Buffer.from(await res.arrayBuffer())
-    if (rel.startsWith('fit/ui/')) uiCache.set(rel, buf)
+    if (rel.startsWith('fit/ui/') || rel.startsWith('fit/fonts/')) uiCache.set(rel, buf)
     return buf
   }
   catch {
@@ -93,6 +94,37 @@ async function withOpacity(sharp: typeof import('sharp'), input: Buffer, opacity
   const { data, info } = await sharp(input).ensureAlpha().raw().toBuffer({ resolveWithObject: true })
   for (let i = 3; i < data.length; i += 4) data[i] = Math.round(data[i] * opacity)
   return sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } }).png().toBuffer()
+}
+
+async function fitFontCss() {
+  const [regular, bold] = await Promise.all([
+    readPublic('fit/fonts/Inter-Regular.ttf'),
+    readPublic('fit/fonts/Inter-Bold.ttf'),
+  ])
+  if (!regular || !bold) throw new Error('Fit OG fonts missing')
+  return `
+    @font-face {
+      font-family: 'FitOg';
+      font-weight: 400;
+      font-style: normal;
+      src: url('data:font/ttf;base64,${regular.toString('base64')}') format('truetype');
+    }
+    @font-face {
+      font-family: 'FitOg';
+      font-weight: 700;
+      font-style: normal;
+      src: url('data:font/ttf;base64,${bold.toString('base64')}') format('truetype');
+    }
+    text { font-family: 'FitOg', sans-serif; }
+  `
+}
+
+export function isCurrentOg(
+  row: { og_hash?: string | null, og_path?: string | null } | null | undefined,
+  hash: string,
+) {
+  if (!row || !hash) return false
+  return row.og_hash === hash && String(row.og_path || '').includes(`/v${OG_VERSION}/`)
 }
 
 async function placeIcon(
@@ -129,22 +161,26 @@ export async function renderFitOgPng(view: FitOgView): Promise<Buffer> {
     throw new Error('Fit UI frames missing')
   }
 
-  const leftW = 540
-  const originX = 132
-  const originY = 32
-  const nameplateW = 340
-  const nameplateH = Math.round(nameplateW * NAMEPLATE_SRC.h / NAMEPLATE_SRC.w)
+  const originX = 72
+  const originY = 22
+  const footerH = 96
+  const leftW = 560
+  const nameplateW = 292
+  const nameplateH = 96
   const nameplateX = originX + Math.round((leftW - nameplateW) / 2)
   const nameplateY = originY
   const equipW = leftW
   const equipH = Math.round(equipW * EQUIP_SRC.h / EQUIP_SRC.w)
   const equipX = originX
   const equipY = nameplateY + nameplateH + 8
-  const statsH = OG_HEIGHT - originY - 36
+  const statsH = OG_HEIGHT - originY - footerH
   const statsW = Math.round(statsH * STATS_SRC.w / STATS_SRC.h)
-  const statsX = originX + leftW + 36
+  const statsX = originX + leftW + 32
   const statsY = originY
   const bySlot = view.bySlot || {}
+  const subtitle = view.subtitle ?? `Level ${view.level} ${view.classLabel}`
+  const nameSize = view.name.length > 18 ? 22 : view.name.length > 13 ? 26 : 30
+  const fonts = await fitFontCss()
 
   const equipLayers = (await Promise.all(GEAR_SLOTS.map(async (slot) => {
     const box = SLOT_BOX[slot.key]
@@ -173,54 +209,45 @@ export async function renderFitOgPng(view: FitOgView): Promise<Buffer> {
     .png()
     .toBuffer()
 
-  const nameSvg = Buffer.from(`
-    <svg width="${nameplateW}" height="${nameplateH}" xmlns="http://www.w3.org/2000/svg">
-      <text x="50%" y="46%" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, sans-serif"
-        font-size="${view.name.length > 16 ? 22 : 26}" font-weight="700" fill="#f3e6c4">${escapeXml(view.name)}</text>
-      <text x="50%" y="68%" text-anchor="middle" font-family="Trebuchet MS, Segoe UI, sans-serif"
-        font-size="16" fill="#b9a078">${escapeXml(`Level ${view.level} ${view.classLabel}`)}</text>
-    </svg>
-  `)
   const nameCard = await sharp(nameplate)
     .resize(nameplateW, nameplateH)
-    .composite([{ input: nameSvg, left: 0, top: 0 }])
     .png()
     .toBuffer()
 
-  const attrLines = (view.attributes || []).map((row) =>
-    `<tspan x="${Math.round(statsW * 0.14)}" dy="1.35em">${escapeXml(row.label)}</tspan>`,
-  ).join('')
-  const attrVals = (view.attributes || []).map((row) =>
-    `<tspan x="${Math.round(statsW * 0.86)}" dy="1.35em" text-anchor="end">${escapeXml(String(row.value))}</tspan>`,
-  ).join('')
-  const statsSvg = Buffer.from(`
-    <svg width="${statsW}" height="${statsH}" xmlns="http://www.w3.org/2000/svg">
-      <text x="50%" y="${Math.round(statsH * 0.07)}" text-anchor="middle"
-        font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="18" fill="#d4b056">Attributes spent</text>
-      <text y="${Math.round(statsH * 0.12)}" font-family="Trebuchet MS, Segoe UI, sans-serif"
-        font-size="18" fill="#b9a078">${attrLines}</text>
-      <text y="${Math.round(statsH * 0.12)}" font-family="Trebuchet MS, Segoe UI, sans-serif"
-        font-size="18" fill="#ffffff">${attrVals}</text>
-      <text x="${Math.round(statsW * 0.14)}" y="${Math.round(statsH * 0.42)}"
-        font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="18" fill="#b9a078">Gold</text>
-      <text x="${Math.round(statsW * 0.86)}" y="${Math.round(statsH * 0.42)}" text-anchor="end"
-        font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="18" fill="#ffffff">${escapeXml(formatGold(view.gold))}</text>
-      <text x="${Math.round(statsW * 0.14)}" y="${Math.round(statsH * 0.48)}"
-        font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="18" fill="#b9a078">Played</text>
-      <text x="${Math.round(statsW * 0.86)}" y="${Math.round(statsH * 0.48)}" text-anchor="end"
-        font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="18" fill="#ffffff">${escapeXml(formatPlayed(view.playedSeconds))}</text>
-    </svg>
-  `)
   const statsCard = await sharp(stats)
     .resize(statsW, statsH)
-    .composite([{ input: statsSvg, left: 0, top: 0 }])
     .png()
     .toBuffer()
 
-  const mark = Buffer.from(`
-    <svg width="${OG_WIDTH}" height="${OG_HEIGHT}" xmlns="http://www.w3.org/2000/svg">
-      <text x="${OG_WIDTH - 28}" y="${OG_HEIGHT - 18}" text-anchor="end"
-        font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="14" fill="#8a6a28">Fit · thetownstons.com</text>
+  const nameCx = nameplateX + Math.round(nameplateW / 2)
+  const attrRows = view.attributes || []
+  const attrTop = statsY + statsH * 0.112
+  const attrH = statsH * 0.205
+  const attrN = Math.max(attrRows.length, 1)
+  const labelX = statsX + statsW * 0.14
+  const valueX = statsX + statsW * 0.86
+  const attrSvg = attrRows.map((row, i) => {
+    const y = Math.round(attrTop + attrH * (i + 0.5) / attrN)
+    return `
+      <text x="${labelX}" y="${y}" font-size="20" fill="#b9a078">${escapeXml(row.label)}</text>
+      <text x="${valueX}" y="${y}" text-anchor="end" font-size="20" fill="#ffffff">${escapeXml(row.value == null ? '—' : String(row.value))}</text>`
+  }).join('')
+  const metaY1 = Math.round(statsY + statsH * 0.405)
+  const metaY2 = Math.round(statsY + statsH * 0.455)
+  const overlay = Buffer.from(`<?xml version="1.0" encoding="UTF-8"?>
+    <svg width="${OG_WIDTH}" height="${OG_HEIGHT}" viewBox="0 0 ${OG_WIDTH} ${OG_HEIGHT}" xmlns="http://www.w3.org/2000/svg">
+      <defs><style><![CDATA[${fonts}]]></style></defs>
+      <text x="${nameCx}" y="${nameplateY + 50}" text-anchor="middle" font-size="${nameSize}" font-weight="700" fill="#f3e6c4">${escapeXml(view.name)}</text>
+      <text x="${nameCx}" y="${nameplateY + 70}" text-anchor="middle" font-size="16" fill="#b9a078">${escapeXml(subtitle)}</text>
+      <text x="${statsX + statsW / 2}" y="${Math.round(statsY + statsH * 0.054)}" text-anchor="middle" font-size="18" font-weight="700" fill="#d4b056">Attributes spent</text>
+      ${attrSvg}
+      <text x="${labelX}" y="${metaY1}" font-size="20" fill="#b9a078">Gold</text>
+      <text x="${valueX}" y="${metaY1}" text-anchor="end" font-size="20" fill="#ffffff">${escapeXml(formatGold(view.gold))}</text>
+      <text x="${labelX}" y="${metaY2}" font-size="20" fill="#b9a078">Played</text>
+      <text x="${valueX}" y="${metaY2}" text-anchor="end" font-size="20" fill="#ffffff">${escapeXml(formatPlayed(view.playedSeconds))}</text>
+      <text x="${OG_WIDTH - 36}" y="${OG_HEIGHT - 72}" text-anchor="end" font-size="18" fill="#c4a060">Check your own char!</text>
+      <text x="${OG_WIDTH - 36}" y="${OG_HEIGHT - 40}" text-anchor="end" font-size="32" font-weight="700" fill="#e8c56b">DungeonRunner.Fit</text>
+      <text x="${OG_WIDTH - 36}" y="${OG_HEIGHT - 12}" text-anchor="end" font-size="24" font-weight="700" fill="#f3e6c4">TheTownstons</text>
     </svg>
   `)
 
@@ -236,14 +263,32 @@ export async function renderFitOgPng(view: FitOgView): Promise<Buffer> {
       { input: nameCard, left: nameplateX, top: nameplateY },
       { input: equipCard, left: equipX, top: equipY },
       { input: statsCard, left: statsX, top: statsY },
-      { input: mark, left: 0, top: 0 },
+      { input: overlay, left: 0, top: 0 },
     ])
     .png()
     .toBuffer()
 }
 
+export async function renderDefaultFitOg() {
+  return renderFitOgPng({
+    name: 'Fit',
+    subtitle: 'Look someone up',
+    level: 0,
+    classLabel: '',
+    attributes: [
+      { key: 'str', label: 'Strength', value: null },
+      { key: 'agi', label: 'Agility', value: null },
+      { key: 'end', label: 'Endurance', value: null },
+      { key: 'pow', label: 'Power', value: null },
+    ],
+    bySlot: {},
+    gold: null,
+    playedSeconds: null,
+  })
+}
+
 export function ogObjectPath(nameKey: string, hash: string) {
-  return `chars/${nameKey}/${hash}.png`
+  return `chars/${nameKey}/v${OG_VERSION}/${hash}.png`
 }
 
 export function ogPublicUrl(path: string) {
@@ -363,7 +408,7 @@ export async function runFitOgBackfill(opts?: { batch?: number, budgetMs?: numbe
   const batch = Math.min(Math.max(opts?.batch || 12, 1), 40)
   let q = await client
     .from('fit_chars')
-    .select('name_key, display_name, payload_hash, og_hash, last_gold, last_played_seconds, last_fetched_at')
+    .select('name_key, display_name, payload_hash, og_hash, og_path, last_gold, last_played_seconds, last_fetched_at')
     .not('payload_hash', 'is', null)
     .order('last_fetched_at', { ascending: false })
     .limit(120)
@@ -380,6 +425,7 @@ export async function runFitOgBackfill(opts?: { batch?: number, budgetMs?: numbe
     display_name: string
     payload_hash: string | null
     og_hash?: string | null
+    og_path?: string | null
     last_gold: number | null
     last_played_seconds: number | null
   }[]
@@ -390,7 +436,7 @@ export async function runFitOgBackfill(opts?: { batch?: number, budgetMs?: numbe
     if (made >= batch || Date.now() - started > budgetMs) break
     const hash = row.payload_hash
     if (!hash) continue
-    if (row.og_hash && row.og_hash === hash) {
+    if (isCurrentOg(row, hash)) {
       skipped += 1
       continue
     }

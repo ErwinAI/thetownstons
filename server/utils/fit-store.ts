@@ -395,8 +395,8 @@ export async function saveLiveSheet(
       body,
     })
   }
-  if (hash !== opts.charRow?.og_hash) {
-    const { captureFitOgSafe } = await import('./fit-og')
+  const { captureFitOgSafe, isCurrentOg } = await import('./fit-og')
+  if (!isCurrentOg(opts.charRow, hash)) {
     void captureFitOgSafe(key, hash, body, gold, played)
   }
   return { now, snapshotId, nextFetchAt: sched.nextFetchAt.toISOString(), gold, played }

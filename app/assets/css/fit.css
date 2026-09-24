@@ -238,8 +238,8 @@ html:has(.fit-app) body {
 
 .fit-nameplate {
   grid-column: 1 / -1;
-  width: 220px;
-  height: 88px;
+  width: 198px;
+  height: 76px;
   margin: 0 auto;
   background: url("/fit/ui/nameplate.png") center / 100% 100% no-repeat;
   display: flex;
@@ -247,21 +247,22 @@ html:has(.fit-app) body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 20px 26px 16px;
+  padding: 14px 18px 12px;
+  gap: 2px;
   box-sizing: border-box;
 }
 
 .fit-nameplate strong {
-  font-size: 1.22rem;
-  line-height: 1.1;
+  font-size: 1.32rem;
+  line-height: 1;
   max-width: 100%;
   text-shadow: 0 1px 2px #000;
 }
 
 .fit-nameplate span {
   color: var(--fit-muted);
-  font-size: 0.84rem;
-  line-height: 1.15;
+  font-size: 0.9rem;
+  line-height: 1.05;
   max-width: 100%;
 }
 
@@ -625,7 +626,7 @@ html:has(.fit-app) body {
     width: 100%;
   }
   .fit-nameplate {
-    width: 220px;
-    height: 88px;
+    width: 198px;
+    height: 76px;
   }
 }

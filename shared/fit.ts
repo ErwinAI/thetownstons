@@ -5,6 +5,7 @@ export const FIT_HOSTS = [
 
 export const WIKI_ORIGIN = 'https://www.thetownstons.com'
 export const FIT_ORIGIN = 'https://fit.thetownstons.com'
+export const FIT_OG_VERSION = 2
 
 export function hostName(host: string): string {
   return String(host || '').split(':')[0].trim().toLowerCase()
@@ -23,11 +24,12 @@ export function isFitPassthrough(path: string): boolean {
 
 export function fitOgImagePath(name: string, hash?: string | null) {
   const slug = encodeURIComponent(name)
-  if (!hash) return `/api/fit/og/${slug}.png`
+  const ver = `v${FIT_OG_VERSION}`
+  if (!hash) return `/api/fit/og/${slug}.png?v=${ver}`
   const v = /^[a-f0-9]{8,}$/i.test(hash)
     ? hash.slice(0, 12)
     : hash.replace(/[^\dA-Za-z.-]/g, '').slice(0, 20)
-  return `/api/fit/og/${slug}.png?v=${encodeURIComponent(v)}`
+  return `/api/fit/og/${slug}.png?v=${encodeURIComponent(`${ver}-${v}`)}`
 }
 
 export const GEAR_SLOTS = [
