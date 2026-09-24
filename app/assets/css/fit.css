@@ -11,7 +11,7 @@
   background:
     radial-gradient(1200px 600px at 50% -10%, #3a220f 0%, transparent 55%),
     var(--fit-bg);
-  font: 15px/1.4 "Trebuchet MS", "Gill Sans", "Segoe UI", sans-serif;
+  font: 17px/1.45 "Trebuchet MS", "Gill Sans", "Segoe UI", sans-serif;
 }
 
 html:has(.fit-app),
@@ -65,13 +65,13 @@ html:has(.fit-app) body {
 
 .fit-brand-text strong {
   color: var(--fit-gold);
-  font-size: 1.15rem;
+  font-size: 1.28rem;
   letter-spacing: 0.04em;
 }
 
 .fit-brand-text span {
   color: var(--fit-muted);
-  font-size: 0.82rem;
+  font-size: 0.92rem;
 }
 
 .fit-search {
@@ -172,7 +172,7 @@ html:has(.fit-app) body {
   gap: 1.1rem 1.15rem;
   justify-content: center;
   align-items: start;
-  width: min(1240px, calc(100vw - 2rem));
+  width: min(1020px, calc(100vw - 2.5rem));
   margin: 0 auto;
 }
 
@@ -192,7 +192,7 @@ html:has(.fit-app) body {
 }
 
 .fit-nameplate strong {
-  font-size: clamp(1.05rem, 2vw, 1.45rem);
+  font-size: clamp(1.12rem, 2vw, 1.4rem);
   line-height: 1.15;
   max-width: 100%;
   overflow: hidden;
@@ -203,7 +203,7 @@ html:has(.fit-app) body {
 
 .fit-nameplate span {
   color: var(--fit-muted);
-  font-size: 0.9rem;
+  font-size: 0.98rem;
   line-height: 1.2;
   max-width: 100%;
   overflow: hidden;
@@ -286,7 +286,7 @@ html:has(.fit-app) body {
   justify-content: center;
   text-align: center;
   color: var(--fit-gold);
-  font-size: clamp(0.72rem, 1.15vw, 0.92rem);
+  font-size: clamp(0.82rem, 1.25vw, 1.02rem);
   letter-spacing: 0.03em;
 }
 
@@ -294,13 +294,14 @@ html:has(.fit-app) body {
   position: absolute;
   left: 11%;
   right: 11%;
-  top: 12%;
-  height: 19%;
+  top: 11.5%;
+  height: 20%;
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 0.35em 0.75em;
+  gap: 0.22em 0.65em;
   align-content: center;
   margin: 0;
+  font-size: 1.05em;
 }
 
 .fit-attr span:nth-child(odd) {
@@ -312,9 +313,32 @@ html:has(.fit-app) body {
   font-variant-numeric: tabular-nums;
 }
 
+.fit-meta {
+  position: absolute;
+  left: 11%;
+  right: 11%;
+  top: 37%;
+  height: 12%;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.22em 0.65em;
+  align-content: start;
+  margin: 0;
+  font-size: 1.05em;
+}
+
+.fit-meta span:nth-child(odd) {
+  color: var(--fit-muted);
+}
+
+.fit-meta span:nth-child(even) {
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+}
+
 .fit-note {
   color: var(--fit-muted);
-  font-size: 0.8rem;
+  font-size: 0.92rem;
   margin: 0;
 }
 
@@ -322,7 +346,7 @@ html:has(.fit-app) body {
   position: absolute;
   left: 11%;
   right: 11%;
-  top: 37%;
+  top: 51%;
   bottom: 9%;
   margin: 0;
   padding: 0;
@@ -331,14 +355,15 @@ html:has(.fit-app) body {
 
 .fit-hotbar-wrap {
   grid-column: 1 / -1;
-  display: block;
+  display: flex;
+  justify-content: center;
   width: 100%;
   margin: 0;
 }
 
 .fit-hotbar {
   position: relative;
-  width: 100%;
+  width: min(860px, 86%);
   aspect-ratio: 450 / 70;
   background: url("/fit/ui/hotbar.png") center / 100% 100% no-repeat;
 }
@@ -349,6 +374,11 @@ html:has(.fit-app) body {
   align-items: center;
   justify-content: center;
   min-width: 0;
+  cursor: default;
+}
+
+.fit-skill.has-item {
+  cursor: pointer;
 }
 
 .fit-skill-L { left: 8.2%; top: 31.4%; width: 7.6%; height: 48.6%; }
@@ -373,7 +403,7 @@ html:has(.fit-app) body {
   position: absolute;
   right: 2%;
   bottom: 2%;
-  font-size: clamp(0.62rem, 1.1vw, 0.82rem);
+  font-size: clamp(0.78rem, 1.2vw, 0.95rem);
   line-height: 1;
   color: #fff;
   text-shadow: 0 0 2px #000, 0 0 2px #000;
@@ -383,18 +413,18 @@ html:has(.fit-app) body {
 .fit-tip {
   position: fixed;
   z-index: 40;
-  width: min(340px, calc(100vw - 24px));
-  padding: 0.6rem 0.75rem 0.7rem;
+  width: min(380px, calc(100vw - 24px));
+  padding: 0.7rem 0.85rem 0.75rem;
   background: rgba(8, 4, 2, 0.96);
   border: 1px solid var(--fit-gold-dim);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
-  pointer-events: auto;
-  font-size: 0.88rem;
+  pointer-events: none;
+  font-size: 1.05rem;
 }
 
 .fit-tip h3 {
-  margin: 0 0 0.35rem;
-  font-size: 1rem;
+  margin: 0 0 0.4rem;
+  font-size: 1.12rem;
 }
 
 .fit-tip p,
@@ -413,12 +443,6 @@ html:has(.fit-app) body {
   white-space: pre-wrap;
   max-height: 42vh;
   overflow: auto;
-}
-
-.fit-tip-wiki {
-  display: inline-block;
-  margin-top: 0.55rem;
-  font-weight: 600;
 }
 
 .q-normal { color: #f0f0f0; }
@@ -453,7 +477,7 @@ html:has(.fit-app) body {
   justify-content: center;
   gap: 0.75rem;
   margin: 0 auto 1.1rem;
-  max-width: 1240px;
+  max-width: 1020px;
 }
 
 .fit-history .fit-btn.disabled {
@@ -481,7 +505,7 @@ html:has(.fit-app) body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
-  max-width: 1240px;
+  max-width: 1020px;
   margin: 1.5rem auto 0;
 }
 
@@ -503,7 +527,7 @@ html:has(.fit-app) body {
 }
 
 .fit-sessions {
-  max-width: 1240px;
+  max-width: 1020px;
   margin: 1.25rem auto 0;
 }
 

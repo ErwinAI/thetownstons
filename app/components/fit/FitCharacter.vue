@@ -66,7 +66,6 @@ const tip = ref<{
   klass: string
   lines: string[]
   body?: string | null
-  href?: string | null
 } | null>(null)
 let hideTimer: ReturnType<typeof setTimeout> | null = null
 
@@ -79,13 +78,13 @@ function keepTip() {
 
 function hideTipSoon() {
   keepTip()
-  hideTimer = setTimeout(() => { tip.value = null }, 220)
+  hideTimer = setTimeout(() => { tip.value = null }, 80)
 }
 
 function placeTip(ev: MouseEvent) {
   const el = ev.currentTarget as HTMLElement | null
   const box = el?.getBoundingClientRect()
-  const width = 340
+  const width = 380
   const left = box
     ? Math.min(box.right + 10, (typeof window !== 'undefined' ? window.innerWidth : 1200) - width - 12)
     : ev.clientX + 14
@@ -106,7 +105,6 @@ function showItem(ev: MouseEvent, item: { name: string, qualityClass: string, li
     title: item.name,
     klass: item.qualityClass,
     lines: item.lines,
-    href: item.wiki,
   }
 }
 
@@ -125,8 +123,13 @@ function showSkill(ev: MouseEvent, skill: { name: string, level: number, descrip
     klass: 'q-normal',
     lines,
     body: skill.description,
-    href: skill.wiki || null,
   }
+}
+
+function openWiki(ev: MouseEvent, wiki: string | null | undefined) {
+  if (!wiki) return
+  ev.preventDefault()
+  window.open(wiki, '_blank', 'noopener')
 }
 
 const char = computed(() => data.value)
@@ -222,6 +225,7 @@ const slotViews = computed(() => {
               : (slotViews[slot.id]?.item?.name || slot.label)"
             @mouseenter="showItem($event, slotViews[slot.id]?.item)"
             @mouseleave="hideTipSoon"
+            @click="openWiki($event, slotViews[slot.id]?.item?.wiki)"
           >
             <img
               v-if="slotViews[slot.id]?.item?.icon"
@@ -238,6 +242,8 @@ const slotViews = computed(() => {
               <span>{{ row.label }}</span>
               <span>{{ row.value }}</span>
             </template>
+          </div>
+          <div class="fit-meta">
             <span>Gold</span>
             <span>{{ formatGold(char.gold) }}</span>
             <span>Played</span>
@@ -254,10 +260,11 @@ const slotViews = computed(() => {
               v-for="slot in HOTBAR_SLOTS"
               :key="slot.id"
               class="fit-skill"
-              :class="`fit-skill-${slot.key}`"
+              :class="[`fit-skill-${slot.key}`, char.bySkillSlot[slot.id] ? 'has-item' : 'is-empty']"
               :title="char.bySkillSlot[slot.id]?.name || slot.key"
               @mouseenter="showSkill($event, char.bySkillSlot[slot.id])"
               @mouseleave="hideTipSoon"
+              @click="openWiki($event, char.bySkillSlot[slot.id]?.wiki)"
             >
               <img
                 v-if="char.bySkillSlot[slot.id]?.icon"
@@ -308,21 +315,12 @@ const slotViews = computed(() => {
       v-if="tip"
       class="fit-tip"
       :style="{ left: tip.x + 'px', top: tip.y + 'px' }"
-      @mouseenter="keepTip"
-      @mouseleave="hideTipSoon"
     >
       <h3 :class="tip.klass">{{ tip.title }}</h3>
       <ul v-if="tip.lines.length">
         <li v-for="(line, i) in tip.lines" :key="i">{{ line }}</li>
       </ul>
       <p v-if="tip.body" class="fit-tip-body">{{ tip.body }}</p>
-      <a
-        v-if="tip.href"
-        class="fit-tip-wiki"
-        :href="tip.href"
-        target="_blank"
-        rel="noopener"
-      >Wiki page</a>
     </div>
   </div>
 </template>
