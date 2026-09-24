@@ -7,8 +7,8 @@ type FitCharView = {
   level: number
   classLabel: string
   attributes: { key: string, label: string, value: number }[]
-  bySlot: Record<number, { name: string, qualityClass: string, lines: string[], wiki: string | null, icon: string | null }>
-  bySkillSlot: Record<number, { name: string, level: number, description: string | null, cooldown: number | null, mana: number | null, icon: string | null }>
+  bySlot: Record<number, { name: string, qualityClass: string, lines: string[], wiki: string | null, icon: string | null, twoHanded?: boolean }>
+  bySkillSlot: Record<number, { name: string, level: number, description: string | null, cooldown: number | null, mana: number | null, icon: string | null, wiki: string | null }>
   gold: number | null
   playedSeconds: number | null
   fetchedAt: string
@@ -59,16 +59,50 @@ const { data: progress } = await useAsyncData(
 
 watch(at, () => { refresh() })
 
-const tip = ref<{ x: number, y: number, title: string, klass: string, lines: string[], href?: string | null } | null>(null)
+const tip = ref<{
+  x: number
+  y: number
+  title: string
+  klass: string
+  lines: string[]
+  body?: string | null
+  href?: string | null
+} | null>(null)
+let hideTimer: ReturnType<typeof setTimeout> | null = null
+
+function keepTip() {
+  if (hideTimer) {
+    clearTimeout(hideTimer)
+    hideTimer = null
+  }
+}
+
+function hideTipSoon() {
+  keepTip()
+  hideTimer = setTimeout(() => { tip.value = null }, 220)
+}
+
+function placeTip(ev: MouseEvent) {
+  const el = ev.currentTarget as HTMLElement | null
+  const box = el?.getBoundingClientRect()
+  const width = 340
+  const left = box
+    ? Math.min(box.right + 10, (typeof window !== 'undefined' ? window.innerWidth : 1200) - width - 12)
+    : ev.clientX + 14
+  const top = box
+    ? Math.min(box.top, (typeof window !== 'undefined' ? window.innerHeight : 800) - 80)
+    : ev.clientY + 14
+  return { x: Math.max(8, left), y: Math.max(8, top) }
+}
 
 function showItem(ev: MouseEvent, item: { name: string, qualityClass: string, lines: string[], wiki: string | null } | undefined) {
+  keepTip()
   if (!item) {
     tip.value = null
     return
   }
   tip.value = {
-    x: ev.clientX + 14,
-    y: ev.clientY + 14,
+    ...placeTip(ev),
     title: item.name,
     klass: item.qualityClass,
     lines: item.lines,
@@ -76,7 +110,8 @@ function showItem(ev: MouseEvent, item: { name: string, qualityClass: string, li
   }
 }
 
-function showSkill(ev: MouseEvent, skill: { name: string, level: number, description: string | null, cooldown: number | null, mana: number | null } | undefined) {
+function showSkill(ev: MouseEvent, skill: { name: string, level: number, description: string | null, cooldown: number | null, mana: number | null, wiki?: string | null } | undefined) {
+  keepTip()
   if (!skill) {
     tip.value = null
     return
@@ -84,13 +119,14 @@ function showSkill(ev: MouseEvent, skill: { name: string, level: number, descrip
   const lines = [`Rank ${skill.level}`]
   if (skill.mana != null) lines.push(`Mana ${skill.mana}`)
   if (skill.cooldown != null) lines.push(`Cooldown ${skill.cooldown}s`)
-  if (skill.description) lines.push(skill.description)
-  tip.value = { x: ev.clientX + 14, y: ev.clientY + 14, title: skill.name, klass: 'q-normal', lines }
-}
-
-function moveTip(ev: MouseEvent) {
-  if (!tip.value) return
-  tip.value = { ...tip.value, x: ev.clientX + 14, y: ev.clientY + 14 }
+  tip.value = {
+    ...placeTip(ev),
+    title: skill.name,
+    klass: 'q-normal',
+    lines,
+    body: skill.description,
+    href: skill.wiki || null,
+  }
 }
 
 const char = computed(() => data.value)
@@ -120,6 +156,26 @@ const whenLabel = computed(() => {
   if (row.source === 'live') return `Fetched ${formatWhen(row.fetchedAt)}`
   return `Cached · last fetched ${formatWhen(row.fetchedAt)}`
 })
+
+type SlotItem = { name: string, qualityClass: string, lines: string[], wiki: string | null, icon: string | null, twoHanded?: boolean }
+
+const slotViews = computed(() => {
+  const sheet = char.value
+  const out: Record<number, { item: SlotItem | undefined, ghost: boolean }> = {}
+  for (const slot of GEAR_SLOTS) {
+    const item = sheet?.bySlot[slot.id]
+    if (item) {
+      out[slot.id] = { item, ghost: false }
+      continue
+    }
+    if (slot.id === 11 && sheet?.bySlot[10]?.twoHanded) {
+      out[slot.id] = { item: sheet.bySlot[10], ghost: true }
+      continue
+    }
+    out[slot.id] = { item: undefined, ghost: false }
+  }
+  return out
+})
 </script>
 
 <template>
@@ -145,7 +201,7 @@ const whenLabel = computed(() => {
         <span v-else class="fit-btn disabled">Newer</span>
       </div>
 
-      <div class="fit-sheet" @mousemove="moveTip" @mouseleave="tip = null">
+      <div class="fit-sheet">
         <div class="fit-nameplate">
           <strong>{{ char.name }}</strong>
           <span>Level {{ char.level }} {{ char.classLabel }}</span>
@@ -156,16 +212,21 @@ const whenLabel = computed(() => {
             v-for="slot in GEAR_SLOTS"
             :key="slot.id"
             class="fit-slot"
-            :class="[`fit-slot-${slot.key}`, char.bySlot[slot.id] ? 'has-item' : 'is-empty']"
-            :title="char.bySlot[slot.id]?.name || slot.label"
-            @mouseenter="showItem($event, char.bySlot[slot.id])"
-            @mouseleave="tip = null"
-            @click="char.bySlot[slot.id]?.wiki && window.open(char.bySlot[slot.id].wiki, '_blank')"
+            :class="[
+              `fit-slot-${slot.key}`,
+              slotViews[slot.id]?.item ? 'has-item' : 'is-empty',
+              slotViews[slot.id]?.ghost ? 'is-ghost' : '',
+            ]"
+            :title="slotViews[slot.id]?.ghost
+              ? `${slotViews[slot.id]?.item?.name || ''} (2H)`
+              : (slotViews[slot.id]?.item?.name || slot.label)"
+            @mouseenter="showItem($event, slotViews[slot.id]?.item)"
+            @mouseleave="hideTipSoon"
           >
             <img
-              v-if="char.bySlot[slot.id]?.icon"
-              :src="char.bySlot[slot.id].icon"
-              :alt="char.bySlot[slot.id].name"
+              v-if="slotViews[slot.id]?.item?.icon"
+              :src="slotViews[slot.id]?.item?.icon || ''"
+              :alt="slotViews[slot.id]?.item?.name || ''"
             >
           </div>
         </div>
@@ -193,9 +254,10 @@ const whenLabel = computed(() => {
               v-for="slot in HOTBAR_SLOTS"
               :key="slot.id"
               class="fit-skill"
+              :class="`fit-skill-${slot.key}`"
               :title="char.bySkillSlot[slot.id]?.name || slot.key"
               @mouseenter="showSkill($event, char.bySkillSlot[slot.id])"
-              @mouseleave="tip = null"
+              @mouseleave="hideTipSoon"
             >
               <img
                 v-if="char.bySkillSlot[slot.id]?.icon"
@@ -245,12 +307,22 @@ const whenLabel = computed(() => {
     <div
       v-if="tip"
       class="fit-tip"
-      :style="{ left: Math.min(tip.x, 900) + 'px', top: tip.y + 'px' }"
+      :style="{ left: tip.x + 'px', top: tip.y + 'px' }"
+      @mouseenter="keepTip"
+      @mouseleave="hideTipSoon"
     >
       <h3 :class="tip.klass">{{ tip.title }}</h3>
-      <ul>
+      <ul v-if="tip.lines.length">
         <li v-for="(line, i) in tip.lines" :key="i">{{ line }}</li>
       </ul>
+      <p v-if="tip.body" class="fit-tip-body">{{ tip.body }}</p>
+      <a
+        v-if="tip.href"
+        class="fit-tip-wiki"
+        :href="tip.href"
+        target="_blank"
+        rel="noopener"
+      >Wiki page</a>
     </div>
   </div>
 </template>

@@ -168,29 +168,31 @@ html:has(.fit-app) body {
 
 .fit-sheet {
   display: grid;
-  grid-template-columns: minmax(280px, 420px) minmax(240px, 360px);
-  gap: 1.25rem;
+  grid-template-columns: 1.622fr 0.643fr;
+  gap: 1.1rem 1.15rem;
   justify-content: center;
   align-items: start;
+  width: min(1240px, calc(100vw - 2rem));
+  margin: 0 auto;
 }
 
 .fit-nameplate {
   grid-column: 1 / -1;
-  width: min(420px, 100%);
-  height: 72px;
-  margin: 0 auto 0.25rem;
+  width: 100%;
+  height: 92px;
+  margin: 0;
   background: url("/fit/ui/nameplate.png") center / 100% 100% no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0.55rem 18% 0.7rem;
+  padding: 0.45rem 10% 0.6rem;
   box-sizing: border-box;
 }
 
 .fit-nameplate strong {
-  font-size: clamp(0.82rem, 2.6vw, 1.05rem);
+  font-size: clamp(1.05rem, 2vw, 1.45rem);
   line-height: 1.15;
   max-width: 100%;
   overflow: hidden;
@@ -201,8 +203,8 @@ html:has(.fit-app) body {
 
 .fit-nameplate span {
   color: var(--fit-muted);
-  font-size: 0.72rem;
-  line-height: 1.15;
+  font-size: 0.9rem;
+  line-height: 1.2;
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -212,7 +214,7 @@ html:has(.fit-app) body {
 .fit-equip {
   position: relative;
   width: 100%;
-  aspect-ratio: 365 / 268;
+  aspect-ratio: 365 / 225;
   background: url("/fit/ui/equip.png") center / 100% 100% no-repeat;
 }
 
@@ -221,7 +223,8 @@ html:has(.fit-app) body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4%;
+  padding: 0;
+  box-sizing: border-box;
   cursor: default;
 }
 
@@ -246,35 +249,58 @@ html:has(.fit-app) body {
   outline-offset: -2px;
 }
 
-.fit-slot-weapon { left: 8%; top: 18.5%; width: 17%; height: 46%; }
-.fit-slot-shield { left: 8%; top: 71%; width: 17%; height: 23%; }
-.fit-slot-helm { left: 31.2%; top: 19.5%; width: 16%; height: 22.5%; }
-.fit-slot-amulet { left: 31.2%; top: 49.5%; width: 16%; height: 45%; }
-.fit-slot-armor { left: 53.4%; top: 19%; width: 16.5%; height: 46%; }
-.fit-slot-gloves { left: 53.4%; top: 71%; width: 16.5%; height: 23%; }
-.fit-slot-shoulders { left: 75%; top: 19%; width: 16.5%; height: 22.5%; }
-.fit-slot-ring1 { left: 75%; top: 51%; width: 8%; height: 12%; }
-.fit-slot-ring2 { left: 83.5%; top: 51%; width: 8%; height: 12%; }
-.fit-slot-boots { left: 75%; top: 70.5%; width: 16.5%; height: 24%; }
+.fit-slot-weapon { left: 7.9%; top: 3.1%; width: 17.0%; height: 55.6%; }
+.fit-slot-helm { left: 31.2%; top: 4.4%; width: 16.2%; height: 27.1%; }
+.fit-slot-shield { left: 53.4%; top: 4.0%; width: 16.4%; height: 54.7%; }
+.fit-slot-shoulders { left: 75.1%; top: 3.1%; width: 17.3%; height: 28.0%; }
+.fit-slot-armor { left: 31.0%; top: 40.0%; width: 16.4%; height: 53.8%; }
+.fit-slot-ring1 { left: 74.2%; top: 42.2%; width: 8.2%; height: 14.2%; }
+.fit-slot-ring2 { left: 83.6%; top: 42.2%; width: 8.2%; height: 14.2%; }
+.fit-slot-gloves { left: 7.7%; top: 65.3%; width: 17.3%; height: 28.0%; }
+.fit-slot-boots { left: 53.2%; top: 65.8%; width: 16.4%; height: 27.1%; }
+.fit-slot-amulet { left: 75.1%; top: 64.9%; width: 17.3%; height: 28.4%; }
+
+.fit-slot.is-ghost img {
+  opacity: 0.4;
+  filter: saturate(0.75);
+}
 
 .fit-stats {
+  position: relative;
   background: url("/fit/ui/stats.png") center / 100% 100% no-repeat;
-  min-height: 280px;
-  padding: 2.4rem 1.4rem 1.2rem;
+  width: 100%;
+  aspect-ratio: 367 / 571;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 .fit-stats h2 {
-  margin: 0 0 0.8rem;
+  position: absolute;
+  left: 12%;
+  right: 12%;
+  top: 3.8%;
+  height: 5.4%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color: var(--fit-gold);
-  font-size: 0.95rem;
+  font-size: clamp(0.72rem, 1.15vw, 0.92rem);
+  letter-spacing: 0.03em;
 }
 
 .fit-attr {
+  position: absolute;
+  left: 11%;
+  right: 11%;
+  top: 12%;
+  height: 19%;
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 0.35rem 0.75rem;
-  margin: 0 0 1rem;
+  gap: 0.35em 0.75em;
+  align-content: center;
+  margin: 0;
 }
 
 .fit-attr span:nth-child(odd) {
@@ -292,63 +318,83 @@ html:has(.fit-app) body {
   margin: 0;
 }
 
+.fit-stats .fit-note {
+  position: absolute;
+  left: 11%;
+  right: 11%;
+  top: 37%;
+  bottom: 9%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
 .fit-hotbar-wrap {
   grid-column: 1 / -1;
-  display: flex;
-  justify-content: center;
-  margin-top: 0.5rem;
+  display: block;
+  width: 100%;
+  margin: 0;
 }
 
 .fit-hotbar {
-  width: min(520px, 100%);
+  position: relative;
+  width: 100%;
   aspect-ratio: 450 / 70;
   background: url("/fit/ui/hotbar.png") center / 100% 100% no-repeat;
-  display: grid;
-  grid-template-columns: 0.92fr repeat(8, 0.72fr) 0.92fr;
-  padding: 2.8% 1.6% 4%;
-  gap: 0.4%;
 }
 
 .fit-skill {
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
   min-width: 0;
 }
 
+.fit-skill-L { left: 8.2%; top: 31.4%; width: 7.6%; height: 48.6%; }
+.fit-skill-1 { left: 18.4%; top: 41.4%; width: 8.0%; height: 51.4%; }
+.fit-skill-2 { left: 26.9%; top: 42.9%; width: 8.0%; height: 50.0%; }
+.fit-skill-3 { left: 35.3%; top: 41.4%; width: 8.0%; height: 51.4%; }
+.fit-skill-4 { left: 44.0%; top: 41.4%; width: 8.0%; height: 51.4%; }
+.fit-skill-5 { left: 52.4%; top: 41.4%; width: 7.8%; height: 51.4%; }
+.fit-skill-6 { left: 60.7%; top: 41.4%; width: 8.2%; height: 51.4%; }
+.fit-skill-7 { left: 69.3%; top: 41.4%; width: 7.8%; height: 51.4%; }
+.fit-skill-8 { left: 77.8%; top: 41.4%; width: 8.0%; height: 51.4%; }
+.fit-skill-R { left: 88.4%; top: 31.4%; width: 7.6%; height: 48.6%; }
+
 .fit-skill img {
-  width: 86%;
-  height: 86%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   image-rendering: pixelated;
 }
 
 .fit-skill .lvl {
   position: absolute;
-  right: 4%;
+  right: 2%;
   bottom: 2%;
-  font-size: 0.65rem;
+  font-size: clamp(0.62rem, 1.1vw, 0.82rem);
+  line-height: 1;
   color: #fff;
   text-shadow: 0 0 2px #000, 0 0 2px #000;
+  pointer-events: none;
 }
 
 .fit-tip {
   position: fixed;
   z-index: 40;
-  min-width: 180px;
-  max-width: 280px;
-  padding: 0.55rem 0.7rem 0.65rem;
-  background: rgba(8, 4, 2, 0.94);
+  width: min(340px, calc(100vw - 24px));
+  padding: 0.6rem 0.75rem 0.7rem;
+  background: rgba(8, 4, 2, 0.96);
   border: 1px solid var(--fit-gold-dim);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
-  pointer-events: none;
-  font-size: 0.86rem;
+  pointer-events: auto;
+  font-size: 0.88rem;
 }
 
 .fit-tip h3 {
   margin: 0 0 0.35rem;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 .fit-tip p,
@@ -360,6 +406,19 @@ html:has(.fit-app) body {
 .fit-tip ul {
   margin: 0.2rem 0 0;
   padding: 0 0 0 1rem;
+}
+
+.fit-tip-body {
+  margin: 0.45rem 0 0;
+  white-space: pre-wrap;
+  max-height: 42vh;
+  overflow: auto;
+}
+
+.fit-tip-wiki {
+  display: inline-block;
+  margin-top: 0.55rem;
+  font-weight: 600;
 }
 
 .q-normal { color: #f0f0f0; }
@@ -394,7 +453,7 @@ html:has(.fit-app) body {
   justify-content: center;
   gap: 0.75rem;
   margin: 0 auto 1.1rem;
-  max-width: 720px;
+  max-width: 1240px;
 }
 
 .fit-history .fit-btn.disabled {
@@ -422,7 +481,7 @@ html:has(.fit-app) body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
-  max-width: 920px;
+  max-width: 1240px;
   margin: 1.5rem auto 0;
 }
 
@@ -444,7 +503,7 @@ html:has(.fit-app) body {
 }
 
 .fit-sessions {
-  max-width: 920px;
+  max-width: 1240px;
   margin: 1.25rem auto 0;
 }
 
@@ -467,11 +526,15 @@ html:has(.fit-app) body {
   font-weight: 600;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .fit-sheet {
     grid-template-columns: 1fr;
+    width: min(640px, calc(100vw - 1.5rem));
   }
-  .fit-nameplate {
+  .fit-nameplate,
+  .fit-equip,
+  .fit-stats,
+  .fit-hotbar-wrap {
     width: 100%;
   }
 }

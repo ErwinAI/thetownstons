@@ -25,12 +25,17 @@ FIELD_ASSIGN = re.compile(
     r'"(?:[^"\\]|\\.)*"'
     r"|[A-Za-z0-9_.\-'][\w.\-']*)\s*;",
 )
+NUMERIC_ASSIGN = re.compile(
+    r"\b([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(-?(?:\d+\.\d+|\.\d+|\d+))\s*;",
+)
 CURVE_ENTRY = re.compile(
     r"\*\s*extends\s+CurveTableEntry\s*\{([^}]*)\}",
     re.S,
 )
 NAME_BEFORE = re.compile(r'Name\s*=\s*"((?:[^"\\]|\\.)*)"\s*;', re.S)
+BLOCK_NAME = re.compile(r'Name\s*=\s*"((?:[^"\\]|\\.)*)"\s*;')
 MOD_CHILD = re.compile(r"^Mod\d+$", re.I)
+STAR_HEADER = re.compile(r"\*\s*extends\s+([\w.]+)\s*\{")
 
 ATTR_LABEL = {
     "STRENGTH": "+ Strength",
@@ -97,6 +102,58 @@ def log(msg: str) -> None:
     print(msg, flush=True)
 
 
+def next_child(inner: str, pos: int) -> tuple[int, int, re.Match[str] | None, bool] | None:
+    hm = gc.HEADER.search(inner, pos)
+    sm = STAR_HEADER.search(inner, pos)
+    if not hm and not sm:
+        return None
+    if hm and (not sm or hm.start() <= sm.start()):
+        end = gc.matching_brace(inner, hm.end() - 1)
+        return hm.start(), end, hm, False
+    end = gc.matching_brace(inner, sm.end() - 1)
+    return sm.start(), end, sm, True
+
+
+def own_body(inner: str) -> str:
+    """Assignments that belong to this class, not nested children or * extends blocks."""
+    out: list[str] = []
+    pos = 0
+    while True:
+        nxt = next_child(inner, pos)
+        if not nxt:
+            out.append(inner[pos:])
+            break
+        start, end, _m, _star = nxt
+        out.append(inner[pos:start])
+        pos = end + 1
+    return "".join(out)
+
+
+def take_numerics(inner: str) -> dict[str, str]:
+    fields: dict[str, str] = {}
+    local = own_body(inner)
+    bn = BLOCK_NAME.search(local)
+    if bn:
+        fields["_block_name"] = bn.group(1)
+    for key, raw in NUMERIC_ASSIGN.findall(local):
+        fields.setdefault(key, raw)
+    return fields
+
+
+def take_curves(inner: str, fields: dict[str, str]) -> dict[str, dict[int, float]]:
+    curves: dict[str, dict[int, float]] = {}
+    for match in CURVE_ENTRY.finditer(inner):
+        block = match.group(1)
+        lm = re.search(r"Level\s*=\s*(\d+)\s*;", block)
+        vm = re.search(r"Value\s*=\s*(-?[\d.]+)\s*;", block)
+        if not lm or not vm:
+            continue
+        names = NAME_BEFORE.findall(inner[: match.start()])
+        attr_name = names[-1] if names else (fields.get("_block_name") or fields.get("_attr_name") or "Value")
+        curves.setdefault(attr_name, {})[int(lm.group(1))] = float(vm.group(1))
+    return curves
+
+
 def parse_classes(text: str) -> list[dict]:
     text = gc.strip_comments(text)
     classes: list[dict] = []
@@ -113,33 +170,16 @@ def parse_classes(text: str) -> list[dict]:
             pos = end + 1
             dotted = f"{prefix}.{name}" if prefix else name
             fields: dict[str, str] = {}
-            curves: dict[str, dict[int, float]] = {}
-            duration = None
             for kind, raw in FIELD_ASSIGN.findall(inner):
                 val = gc.unquote_val(raw)
                 if kind == "Name" and val:
                     fields.setdefault("_attr_name", val)
                 elif kind == "Attribute":
                     fields["attribute"] = val
-                elif kind == "Duration" and duration is None:
-                    try:
-                        duration = float(val)
-                    except ValueError:
-                        pass
-                elif kind not in {"Name", "Attribute", "Duration", "DurationInc"}:
-                    if kind not in fields or kind in {"Label", "InventoryIcon", "Icon", "ActiveIcon"}:
-                        fields[kind] = val
-            for match in CURVE_ENTRY.finditer(inner):
-                block = match.group(1)
-                lm = re.search(r"Level\s*=\s*(\d+)\s*;", block)
-                vm = re.search(r"Value\s*=\s*(-?[\d.]+)\s*;", block)
-                if not lm or not vm:
-                    continue
-                names = NAME_BEFORE.findall(inner[: match.start()])
-                attr_name = names[-1] if names else (fields.get("_attr_name") or "Value")
-                curves.setdefault(attr_name, {})[int(lm.group(1))] = float(vm.group(1))
-            if duration is not None:
-                fields["Duration"] = str(duration)
+                elif kind not in {"Name", "Attribute"}:
+                    fields.setdefault(kind, val)
+            fields.update({k: v for k, v in take_numerics(inner).items() if k not in fields or k.startswith("_")})
+            curves = take_curves(inner, fields)
             mods = []
             child_pos = 0
             while True:
@@ -159,6 +199,26 @@ def parse_classes(text: str) -> list[dict]:
                 "curves": curves,
                 "mods": mods,
             })
+            star_i = 0
+            star_pos = 0
+            while True:
+                sm = STAR_HEADER.search(inner, star_pos)
+                if not sm:
+                    break
+                send = gc.matching_brace(inner, sm.end() - 1)
+                star_inner = inner[sm.end():send]
+                star_pos = send + 1
+                star_i += 1
+                star_fields = take_numerics(star_inner)
+                classes.append({
+                    "name": f"{dotted}.*{star_i}",
+                    "short": "*",
+                    "parent": sm.group(1),
+                    "fields": star_fields,
+                    "curves": take_curves(star_inner, star_fields),
+                    "mods": [],
+                })
+                walk(star_inner, f"{dotted}.*{star_i}")
             walk(inner, dotted)
 
     walk(text, "")
@@ -296,6 +356,29 @@ def collect_attributes(by_name: dict[str, dict], cls: dict | None) -> list[str]:
     return out
 
 
+def collect_named(by_name: dict[str, dict], file_key: str) -> dict[str, dict[str, float]]:
+    named: dict[str, dict[str, float]] = {}
+    seen: set[int] = set()
+    for cls in by_name.values():
+        if id(cls) in seen:
+            continue
+        seen.add(id(cls))
+        if cls.get("file") != file_key:
+            continue
+        block = cls["fields"].get("_block_name")
+        if not block:
+            continue
+        bucket = named.setdefault(block, {})
+        for key, raw in cls["fields"].items():
+            if key.startswith("_"):
+                continue
+            num = _num(raw)
+            if num is None:
+                continue
+            bucket.setdefault(key, num)
+    return named
+
+
 def wiki_by_label() -> dict[str, str]:
     out: dict[str, str] = {}
     for path in CONTENT.rglob("*.json"):
@@ -354,8 +437,8 @@ def crop_ui() -> None:
     ui5 = open_dds("IngameUI5.dds")
     plate = open_dds("Character_Nameplate.dds")
 
-    save_png(ui2.crop((422, 29, 787, 297)), ui_dir / "equip.png")
-    save_png(ui2.crop((26, 29, 393, 621)), ui_dir / "stats.png")
+    save_png(ui2.crop((422, 72, 787, 297)), ui_dir / "equip.png")
+    save_png(ui2.crop((26, 29, 393, 600)), ui_dir / "stats.png")
     save_png(ui3.crop((2, 954, 452, 1024)), ui_dir / "hotbar.png")
     save_png(ui5.crop((24, 24, 1000, 1000)), ui_dir / "frame.png")
     save_png(plate, ui_dir / "nameplate.png")
@@ -367,7 +450,8 @@ def crop_ui() -> None:
 def main() -> None:
     PUBLIC.mkdir(parents=True, exist_ok=True)
     SERVER_DATA.mkdir(parents=True, exist_ok=True)
-    crop_ui()
+    if "--skip-ui" not in sys.argv:
+        crop_ui()
 
     by_name = index_gc()
     dds = gc.index_dds()
@@ -397,7 +481,7 @@ def main() -> None:
         stats = collect_attributes(by_name, cls)
 
         file_key = str(cls.get("file") or "")
-        is_skill = file_key.startswith("skills/") and cls.get("short") == Path(file_key).stem
+        is_skill = file_key.startswith("skills/") and cls.get("short", "").lower() == Path(file_key).stem.lower()
         is_mod = ".Mod" in name and re.search(r"\.Mod\d+$", name)
         has_item_icon = bool(field(by_name, cls, "InventoryIcon") or (label and icon and not is_skill))
 
@@ -418,6 +502,15 @@ def main() -> None:
 
         if is_skill and (label or icon):
             curves = dict(cls.get("curves") or {})
+            file_seen: set[int] = set()
+            for other in by_name.values():
+                if id(other) in file_seen:
+                    continue
+                file_seen.add(id(other))
+                if other.get("file") != file_key:
+                    continue
+                for k, v in (other.get("curves") or {}).items():
+                    curves.setdefault(k, v)
             cur = cls
             hops = 0
             seen = set()
@@ -427,25 +520,27 @@ def main() -> None:
                 for k, v in (cur.get("curves") or {}).items():
                     curves.setdefault(k, v)
                 cur = lookup(by_name, cur.get("parent"))
-            duration = field(by_name, cls, "Duration")
             values = {k: {str(lvl): val for lvl, val in table.items()} for k, table in curves.items()}
-            if duration:
-                values.setdefault("Duration", {"1": float(duration)})
+            named = collect_named(by_name, file_key)
             stem = icon_stem(field(by_name, cls, "ActiveIcon") or field(by_name, cls, "Icon") or icon)
             if stem:
                 icons_needed.add(stem)
             skill_def = f"skills.{'.'.join(Path(file_key).parts[1:])}".replace("/", ".")
+            pretty = label or Path(file_key).stem
             row = {
-                "label": label or Path(file_key).stem,
+                "label": pretty,
                 "description": desc,
                 "icon": stem,
                 "cooldown": _num(field(by_name, cls, "CoolDown")),
                 "mana": _num(field(by_name, cls, "ManaCostMod")),
                 "maxLevel": _int(field(by_name, cls, "MaxSkillLevel")),
                 "values": values,
+                "named": named,
+                "wiki": wiki.get(gc.compact(pretty)),
             }
             skills[skill_def] = row
             skills[f"skills.generic.{Path(file_key).stem}"] = row
+            skills[f"skills.generic.{cls['short']}"] = row
             continue
 
         if label and label not in {"NONE", "PREFIX", "SUFFIX"} and has_item_icon:

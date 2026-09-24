@@ -22,6 +22,8 @@ export type CatalogSkill = {
   mana: number | null
   maxLevel: number | null
   values: Record<string, Record<string, number>>
+  named?: Record<string, Record<string, number>>
+  wiki?: string | null
 }
 
 export type CatalogMod = {
@@ -46,6 +48,8 @@ const SKILL_FIXUPS: Record<string, CatalogSkill> = {
     mana: 10.25,
     maxLevel: null,
     values: {},
+    named: {},
+    wiki: '/wiki/Build_Snowman',
   },
 }
 
@@ -101,27 +105,79 @@ function iconUrl(stem: string | null | undefined): string | null {
   return `/fit/icons/${encodeURIComponent(actual)}.png`
 }
 
+function tableAtLevel(table: Record<string, number> | undefined, level: number): number | null {
+  if (!table) return null
+  if (table[String(level)] != null) return table[String(level)]
+  const keys = Object.keys(table).map(Number).filter((n) => !Number.isNaN(n)).sort((a, b) => a - b)
+  if (!keys.length) return null
+  const max = keys[keys.length - 1]
+  // Rank curves are small. Character-level knots (60/65/…/100) are not skill ranks.
+  if (max > 25) return null
+  if (keys.length === 1) return table[String(keys[0])]
+  const closest = keys.reduce((best, n) => (Math.abs(n - level) < Math.abs(best - level) ? n : best), keys[0])
+  return table[String(closest)]
+}
+
+function namedAtLevel(group: Record<string, number> | undefined, field: string, level: number): number | null {
+  if (!group || group[field] == null) return null
+  const inc = group[`${field}Inc`]
+  if (inc == null) return group[field]
+  return group[field] + (level - 1) * inc
+}
+
+function resolveSkillRef(ref: string, skill: CatalogSkill | null, level: number): number | null {
+  if (!ref) return null
+  if (/^-?(?:\d+\.\d+|\.\d+|\d+)$/.test(ref)) return Number(ref)
+  const parts = ref.split('.')
+  const field = parts.length > 1 ? parts.pop() as string : ''
+  const name = parts.join('.')
+  const tables = skill?.values || {}
+  const named = skill?.named || {}
+
+  if (name && field) {
+    const fromTable = tableAtLevel(tables[name], level)
+    if (fromTable != null) return fromTable
+    const fromNamed = namedAtLevel(named[name], field, level)
+    if (fromNamed != null) return fromNamed
+    const fieldTable = tableAtLevel(tables[field], level)
+    if (fieldTable != null) return fieldTable
+  }
+
+  if (!field) {
+    const fromNamed = namedAtLevel(named[ref], 'Value', level)
+      ?? namedAtLevel(named[ref], 'Duration', level)
+      ?? namedAtLevel(Object.values(named).find((g) => g[ref] != null), ref, level)
+    if (fromNamed != null) return fromNamed
+    return tableAtLevel(tables[ref], level)
+  }
+
+  if (field.toLowerCase() === 'duration') {
+    for (const key of [name, 'SpellModEffect', 'ModEffect', 'Duration']) {
+      const hit = namedAtLevel(named[key], 'Duration', level) ?? tableAtLevel(tables[key], level) ?? tableAtLevel(tables.Duration, level)
+      if (hit != null) return hit
+    }
+  }
+  return null
+}
+
 function fillSkillText(text: string | null, skill: CatalogSkill | null, level: number): string | null {
   if (!text) return null
-  return text.replace(/\[([A-Za-z0-9_]+)(?:\.([A-Za-z0-9_*]+))?\]/g, (all, name: string, field?: string) => {
-    const tables = skill?.values || {}
-    const kind = (field || '').toLowerCase()
-    if (kind === 'duration' || name.toLowerCase().includes('duration')) {
-      const table = tables.Duration || tables[name]
-      if (table) {
-        const exact = table[String(level)] ?? table['1']
-        if (exact != null) return formatNum(exact)
+  return text.replace(
+    /\[(-)?((?:[A-Za-z][\w]*\.)*[A-Za-z][\w]*)(?:\.([A-Za-z][\w]*))?(?:\*((?:\d+(?:\.\d+)?)|(?:(?:[A-Za-z][\w]*\.)*[A-Za-z][\w]*(?:\.[A-Za-z][\w]*)?)))?\]/g,
+    (_all, neg: string | undefined, name: string, field?: string, mul?: string) => {
+      const leftRef = field ? `${name}.${field}` : name
+      const left = resolveSkillRef(leftRef, skill, level)
+      if (left == null) return '—'
+      let value = left
+      if (mul) {
+        const right = resolveSkillRef(mul, skill, level)
+        if (right == null) return '—'
+        value *= right
       }
-    }
-    const table = tables[name] || tables.Value || tables[Object.keys(tables).find((k) => k !== 'Duration') || '']
-    if (!table) return all
-    const exact = table[String(level)]
-    if (exact != null) return formatNum(exact)
-    const keys = Object.keys(table).map(Number).filter((n) => !Number.isNaN(n)).sort((a, b) => a - b)
-    if (!keys.length) return all
-    const closest = keys.reduce((best, n) => (Math.abs(n - level) < Math.abs(best - level) ? n : best), keys[0])
-    return formatNum(table[String(closest)])
-  })
+      const shown = neg ? Math.abs(value) : value
+      return formatNum(shown)
+    },
+  )
 }
 
 function formatNum(value: number): string {
@@ -165,6 +221,7 @@ export type FitItemView = {
   icon: string | null
   wiki: string | null
   lines: string[]
+  twoHanded: boolean
 }
 
 export type FitSkillView = {
@@ -178,12 +235,19 @@ export type FitSkillView = {
   cooldown: number | null
   mana: number | null
   maxLevel: number | null
+  wiki: string | null
 }
 
 function buildItemName(base: string, resolved: { label: string | null, labelType: string | null }[]): string {
   const prefixes = resolved.filter((m) => m.labelType === 'PREFIX' && m.label).map((m) => m.label as string)
   const postfixes = resolved.filter((m) => m.labelType === 'POSTFIX' && m.label).map((m) => m.label as string)
   return [...prefixes, base, ...postfixes].join(' ').replace(/\s+/g, ' ').trim()
+}
+
+function isTwoHanded(def: string): boolean {
+  const d = String(def || '').replace(/^items\.pal\./i, '')
+  if (/(^|[._])1h/i.test(d)) return false
+  return /(^|[._])2h/i.test(d) || /polearm/i.test(d)
 }
 
 function enrichItem(catalog: FitCatalog, raw: ApiItem): FitItemView {
@@ -221,6 +285,7 @@ function enrichItem(catalog: FitCatalog, raw: ApiItem): FitItemView {
     icon: iconUrl(item?.icon),
     wiki: wikiUrl(item?.wiki),
     lines,
+    twoHanded: isTwoHanded(raw.def),
   }
 }
 
@@ -240,6 +305,7 @@ function enrichSkill(catalog: FitCatalog, raw: ApiSkill): FitSkillView {
     cooldown: skill?.cooldown ?? null,
     mana: skill?.mana ?? null,
     maxLevel: skill?.maxLevel ?? null,
+    wiki: wikiUrl(skill?.wiki),
   }
 }
 
