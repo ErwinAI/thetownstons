@@ -437,7 +437,15 @@ def crop_ui() -> None:
     ui5 = open_dds("IngameUI5.dds")
     plate = open_dds("Character_Nameplate.dds")
 
-    save_png(ui2.crop((422, 72, 787, 297)), ui_dir / "equip.png")
+    # Full frame including outer gold rails. Wipe the inner title plate so Fit can
+    # put the name above the panel instead of stretching it across the art.
+    equip = ui2.crop((422, 29, 787, 297)).convert("RGBA")
+    dark = equip.getpixel((50, 90))
+    ew, eh = equip.size
+    for y in range(10, 48):
+        for x in range(14, ew - 14):
+            equip.putpixel((x, y), dark)
+    save_png(equip, ui_dir / "equip.png")
     save_png(ui2.crop((26, 29, 393, 600)), ui_dir / "stats.png")
     save_png(ui3.crop((2, 954, 452, 1024)), ui_dir / "hotbar.png")
     save_png(ui5.crop((24, 24, 1000, 1000)), ui_dir / "frame.png")

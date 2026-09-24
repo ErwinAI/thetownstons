@@ -249,9 +249,6 @@ const slotViews = computed(() => {
             <span>Played</span>
             <span>{{ formatPlayed(char.playedSeconds) }}</span>
           </div>
-          <p class="fit-note">
-            Spent points only, before gear. Gold and play time come from the public boards when they show this name.
-          </p>
         </aside>
 
         <div class="fit-hotbar-wrap">

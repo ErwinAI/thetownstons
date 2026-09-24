@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { isFitHost } from '#shared/fit'
 
-useHead({ title: 'Character viewer' })
+useHead({ title: 'Dungeon Runners Character Fit Viewer (patent pending)' })
 
 const { data: board, error } = await useAsyncData('fit-board-level', () =>
   $fetch<{ rows?: { name: string, class: string, level: number }[] }>('/api/fit/boards', { query: { kind: 'level' } }).catch(() => null),

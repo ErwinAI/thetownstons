@@ -1,4 +1,4 @@
-import { getCharacterView } from '../../../utils/fit-store'
+import { getCharacterView, recordFitSearch } from '../../../utils/fit-store'
 import { normalizeCharName } from '#shared/fit'
 
 export default defineEventHandler(async (event) => {
@@ -8,6 +8,7 @@ export default defineEventHandler(async (event) => {
   }
   const at = String(getQuery(event).at || '').trim() || undefined
   const payload = await getCharacterView(name, at)
+  if (!at) await recordFitSearch(payload.name)
   setHeader(event, 'Cache-Control', at ? 'public, max-age=120' : 'public, max-age=30')
   return payload
 })

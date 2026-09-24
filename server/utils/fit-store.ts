@@ -26,6 +26,14 @@ export type FitCharRow = {
   idle_streak: number
   last_etag: string | null
   payload_hash: string | null
+  search_count?: number
+  last_searched_at?: string | null
+}
+
+export type FitSearchHit = {
+  name: string
+  count?: number
+  at?: string | null
 }
 
 export type FitSnapshotRow = {
@@ -704,5 +712,116 @@ export async function runFitCrawl(opts?: { batch?: number, budgetMs?: number }) 
   }
   finally {
     await releaseLock()
+  }
+}
+
+let searchTables = true
+
+export async function recordFitSearch(name: string) {
+  const pretty = normalizeCharName(name)
+  if (!pretty) return
+  const client = db()
+  if (!client) return
+  const key = nameKey(pretty)
+  if (searchTables) {
+    const { error } = await client.rpc('record_fit_search', {
+      p_name_key: key,
+      p_display_name: pretty,
+    })
+    if (!error) return
+    searchTables = false
+  }
+
+  const now = new Date().toISOString()
+  const countKey = `search:${key}`
+  const { data: row } = await client.from('fit_meta').select('value').eq('key', countKey).maybeSingle()
+  const prev = (row?.value || {}) as { count?: number }
+  const { error: countErr } = await client.from('fit_meta').upsert({
+    key: countKey,
+    value: { count: Number(prev.count || 0) + 1, display_name: pretty, last: now },
+    updated_at: now,
+  })
+  if (countErr) {
+    console.warn('[fit] search count', error.message, countErr.message)
+    return
+  }
+  const { data: logRow } = await client.from('fit_meta').select('value').eq('key', 'search_log').maybeSingle()
+  const log = Array.isArray(logRow?.value) ? logRow.value as { name_key: string, display_name: string, searched_at: string }[] : []
+  log.unshift({ name_key: key, display_name: pretty, searched_at: now })
+  const { error: logErr } = await client.from('fit_meta').upsert({
+    key: 'search_log',
+    value: log.slice(0, 40),
+    updated_at: now,
+  })
+  if (logErr) console.warn('[fit] search log', logErr.message)
+}
+
+function uniquifyRecent(rows: FitSearchHit[]): FitSearchHit[] {
+  const out: FitSearchHit[] = []
+  const seen = new Set<string>()
+  for (const row of rows) {
+    const k = row.name.toLowerCase()
+    if (seen.has(k)) continue
+    seen.add(k)
+    out.push(row)
+    if (out.length >= 10) break
+  }
+  return out
+}
+
+export async function listFitSearches(): Promise<{ top: FitSearchHit[], recent: FitSearchHit[] }> {
+  const empty = { top: [] as FitSearchHit[], recent: [] as FitSearchHit[] }
+  const client = db()
+  if (!client) return empty
+
+  if (searchTables) {
+    const { data: topRows, error: topErr } = await client
+      .from('fit_chars')
+      .select('display_name, search_count, last_searched_at')
+      .gt('search_count', 0)
+      .order('search_count', { ascending: false })
+      .limit(10)
+    if (topErr) searchTables = false
+    else {
+      const { data: logRows } = await client
+        .from('fit_search_log')
+        .select('display_name, searched_at')
+        .order('searched_at', { ascending: false })
+        .limit(40)
+      return {
+        top: (topRows || []).map((row) => ({
+          name: String(row.display_name),
+          count: Number(row.search_count || 0),
+          at: row.last_searched_at || null,
+        })),
+        recent: uniquifyRecent((logRows || []).map((row) => ({
+          name: String(row.display_name),
+          at: row.searched_at || null,
+        }))),
+      }
+    }
+  }
+
+  const { data: metas } = await client.from('fit_meta').select('key, value').like('key', 'search:%')
+  const { data: logRow } = await client.from('fit_meta').select('value').eq('key', 'search_log').maybeSingle()
+  const top = (metas || [])
+    .map((row) => {
+      const value = (row.value || {}) as { count?: number, display_name?: string, last?: string }
+      return {
+        name: String(value.display_name || String(row.key).slice('search:'.length)),
+        count: Number(value.count || 0),
+        at: value.last || null,
+      }
+    })
+    .filter((row) => row.count > 0)
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 10)
+  const log = Array.isArray(logRow?.value) ? logRow.value as { display_name?: string, searched_at?: string }[] : []
+  return {
+    top,
+    recent: uniquifyRecent(log.map((row) => ({
+      name: String(row.display_name || ''),
+      at: row.searched_at || null,
+    })).filter((row) => row.name)),
   }
 }
