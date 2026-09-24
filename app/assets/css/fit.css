@@ -198,6 +198,27 @@ html:has(.fit-app) body {
   margin: 0.18rem 0;
 }
 
+.fit-plain {
+  border: 1px solid var(--fit-gold-dim);
+  background: #0e0704;
+  padding: 0.85rem 1rem 1rem;
+}
+
+.fit-plain h2 {
+  margin: 0 0 0.55rem;
+  font-size: 0.95rem;
+  color: var(--fit-gold);
+}
+
+.fit-plain ol {
+  margin: 0;
+  padding: 0 0 0 1.2rem;
+}
+
+.fit-plain li {
+  margin: 0.18rem 0;
+}
+
 .fit-error,
 .fit-status {
   text-align: center;

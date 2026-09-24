@@ -33,11 +33,10 @@ const recent = computed(() => data.value?.recent || [])
   <div class="fit-home">
     <div class="fit-hero">
       <h1>Last searched</h1>
-      <p>Names people actually typed in, not the daily board crawl.</p>
     </div>
     <p v-if="error" class="fit-status">Could not load searches.</p>
     <div v-else class="fit-boards">
-      <section class="fit-board">
+      <section class="fit-plain">
         <h2>Most searched</h2>
         <ol v-if="top.length">
           <li v-for="row in top" :key="'top-' + row.name">
@@ -47,7 +46,7 @@ const recent = computed(() => data.value?.recent || [])
         </ol>
         <p v-else class="fit-status">Nobody has looked anyone up yet.</p>
       </section>
-      <section class="fit-board">
+      <section class="fit-plain">
         <h2>Last 10</h2>
         <ol v-if="recent.length">
           <li v-for="row in recent" :key="'recent-' + row.name + (row.at || '')">
