@@ -13,7 +13,7 @@ const FETCH_GAP_MS = 550
 const LOCK_MS = 4 * 60 * 1000
 const mem = new Map<string, { at: number, payload: FitCharPayload }>()
 const MEM_TTL_MS = 10 * 60 * 1000
-let boardCache: { at: number, stats: Map<string, BoardStat> } | null = null
+const boardScans = new Map<string, { at: number, rows: Record<string, unknown>[], done: boolean }>()
 
 export type FitCharRow = {
   name_key: string
@@ -186,15 +186,60 @@ export function mergeBoardStats(groups: Record<string, unknown>[][]): Map<string
   return stats
 }
 
-async function currentBoardStats() {
-  if (boardCache && Date.now() - boardCache.at < 60_000) return boardCache.stats
-  const groups = await Promise.all([
-    fetchBoardRows('level'),
-    fetchBoardRows('gold'),
-    fetchBoardRows('played'),
-  ])
-  boardCache = { at: Date.now(), stats: mergeBoardStats(groups) }
-  return boardCache.stats
+async function statFromBoard(kind: 'played' | 'gold', name: string): Promise<number | null> {
+  const key = nameKey(name)
+  const field = kind === 'played' ? 'played_seconds' : 'gold'
+  let cache = boardScans.get(kind)
+  if (!cache || Date.now() - cache.at > 60_000) {
+    cache = { at: Date.now(), rows: [], done: false }
+    boardScans.set(kind, cache)
+  }
+  const read = (row: Record<string, unknown>) => {
+    if (nameKey(String(row.name || '')) !== key) return null
+    const n = Number(row[field])
+    return Number.isFinite(n) ? n : null
+  }
+  for (const row of cache.rows) {
+    const n = read(row)
+    if (n != null) return n
+  }
+  if (cache.done) return null
+  for (let page = Math.floor(cache.rows.length / 100) + 1; page <= 20; page++) {
+    const url = page === 1
+      ? `${BOARD_UPSTREAM}/${kind}`
+      : `${BOARD_UPSTREAM}/${kind}?page=${page}`
+    const res = await fetchRes(url)
+    if (!res.ok) {
+      cache.done = true
+      break
+    }
+    const data = await res.json() as { rows?: Record<string, unknown>[] }
+    const chunk = Array.isArray(data.rows) ? data.rows : []
+    if (!chunk.length) {
+      cache.done = true
+      break
+    }
+    if (page > 1 && cache.rows.length && String(cache.rows[0]?.name || '') === String(chunk[0]?.name || '')) {
+      cache.done = true
+      break
+    }
+    cache.rows.push(...chunk)
+    for (const row of chunk) {
+      const n = read(row)
+      if (n != null) return n
+    }
+    if (chunk.length < 100) {
+      cache.done = true
+      break
+    }
+  }
+  return null
+}
+
+async function withBoardPlayed(payload: FitCharPayload, name: string) {
+  const played = await statFromBoard('played', name)
+  if (played == null || played === payload.playedSeconds) return payload
+  return { ...payload, playedSeconds: played }
 }
 
 async function upsertChar(row: Partial<FitCharRow> & { name_key: string, display_name: string }) {
@@ -402,15 +447,15 @@ export async function saveLiveSheet(
   return { now, snapshotId, nextFetchAt: sched.nextFetchAt.toISOString(), gold, played }
 }
 
-export async function getCharacterView(name: string, at?: string): Promise<FitCharPayload> {
+export async function getCharacterView(name: string, at?: string, live = false): Promise<FitCharPayload> {
   const pretty = normalizeCharName(name)
   if (!pretty) {
     throw createError({ statusCode: 400, statusMessage: 'Bad character name' })
   }
 
-  if (!at) {
+  if (!at && !live) {
     const hit = mem.get(nameKey(pretty))
-    if (hit && Date.now() - hit.at < MEM_TTL_MS) return hit.payload
+    if (hit && Date.now() - hit.at < MEM_TTL_MS) return withBoardPlayed(hit.payload, pretty)
   }
 
   if (at) {
@@ -434,12 +479,12 @@ export async function getCharacterView(name: string, at?: string): Promise<FitCh
 
   const row = await getCharRow(pretty)
   const latest = await loadSheetAt(pretty, undefined)
-  const fresh = latest?.body && latest.fetched_at
+  const fresh = !live && latest?.body && latest.fetched_at
     && Date.now() - new Date(latest.fetched_at).getTime() < SHEET_MAX_AGE_MS
 
   if (fresh && latest.body) {
     const neigh = await listSheetNeighbors(pretty, latest.fetched_at)
-    return remember(pretty, pack(latest.body, {
+    return remember(pretty, await withBoardPlayed(pack(latest.body, {
       gold: latest.gold ?? row?.last_gold ?? null,
       playedSeconds: latest.played_seconds ?? row?.last_played_seconds ?? null,
       fetchedAt: latest.fetched_at,
@@ -448,13 +493,13 @@ export async function getCharacterView(name: string, at?: string): Promise<FitCh
       prevAt: neigh.prevAt,
       nextAt: neigh.nextAt,
       nextFetchAt: row?.next_fetch_at || null,
-    }))
+    }), pretty))
   }
 
-  const due = !row?.next_fetch_at || new Date(row.next_fetch_at).getTime() <= Date.now()
+  const due = live || !row?.next_fetch_at || new Date(row.next_fetch_at).getTime() <= Date.now()
   if (latest?.body && !due) {
     const neigh = await listSheetNeighbors(pretty, latest.fetched_at)
-    return remember(pretty, pack(latest.body, {
+    return remember(pretty, await withBoardPlayed(pack(latest.body, {
       gold: latest.gold ?? row?.last_gold ?? null,
       playedSeconds: latest.played_seconds ?? row?.last_played_seconds ?? null,
       fetchedAt: latest.fetched_at,
@@ -463,18 +508,22 @@ export async function getCharacterView(name: string, at?: string): Promise<FitCh
       prevAt: neigh.prevAt,
       nextAt: neigh.nextAt,
       nextFetchAt: row?.next_fetch_at || null,
-    }))
+    }), pretty))
   }
 
-  const res = await fetchUpstreamSheet(pretty, row?.last_etag)
+  const res = await fetchUpstreamSheet(pretty, live ? null : row?.last_etag)
   if (res.status === 404) {
     throw createError({ statusCode: 404, statusMessage: 'No public character under that name' })
   }
   if (res.status === 304 && latest?.body) {
+    const [goldStat, playedStat] = await Promise.all([
+      statFromBoard('gold', pretty),
+      statFromBoard('played', pretty),
+    ])
     const saved = await saveLiveSheet(pretty, latest.body, {
       etag: row?.last_etag || '',
-      gold: row?.last_gold ?? null,
-      played: row?.last_played_seconds ?? null,
+      gold: goldStat ?? row?.last_gold ?? null,
+      played: playedStat ?? row?.last_played_seconds ?? null,
       charRow: row,
     })
     const neigh = await listSheetNeighbors(pretty, latest.fetched_at)
@@ -492,7 +541,7 @@ export async function getCharacterView(name: string, at?: string): Promise<FitCh
   if (!res.ok) {
     if (latest?.body) {
       const neigh = await listSheetNeighbors(pretty, latest.fetched_at)
-      return remember(pretty, pack(latest.body, {
+      return remember(pretty, await withBoardPlayed(pack(latest.body, {
         gold: latest.gold ?? row?.last_gold ?? null,
         playedSeconds: latest.played_seconds ?? row?.last_played_seconds ?? null,
         fetchedAt: latest.fetched_at,
@@ -501,18 +550,21 @@ export async function getCharacterView(name: string, at?: string): Promise<FitCh
         prevAt: neigh.prevAt,
         nextAt: neigh.nextAt,
         nextFetchAt: row?.next_fetch_at || null,
-      }))
+      }), pretty))
     }
     throw createError({ statusCode: res.status, statusMessage: `Character API HTTP ${res.status}` })
   }
 
   const body = await res.json() as Record<string, unknown>
-  const boards = await currentBoardStats()
-  const st = boards.get(nameKey(String(body.name || pretty)))
-  const saved = await saveLiveSheet(String(body.name || pretty), body, {
+  const who = String(body.name || pretty)
+  const [goldStat, playedStat] = await Promise.all([
+    statFromBoard('gold', who),
+    statFromBoard('played', who),
+  ])
+  const saved = await saveLiveSheet(who, body, {
     etag: res.headers.get('etag') || '',
-    gold: st?.gold ?? row?.last_gold ?? null,
-    played: st?.played ?? row?.last_played_seconds ?? null,
+    gold: goldStat ?? row?.last_gold ?? null,
+    played: playedStat ?? row?.last_played_seconds ?? null,
     charRow: row,
   })
   const fetchedAt = saved.now
